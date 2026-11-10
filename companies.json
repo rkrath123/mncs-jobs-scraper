@@ -1,0 +1,88 @@
+{
+  "workday": [
+    {"name": "Wells Fargo", "host": "wd1.myworkdaysite.com", "tenant": "wf", "site": "WellsFargoJobs"},
+    {"name": "LSEG", "host": "lseg.wd3.myworkdayjobs.com", "tenant": "lseg", "site": "Careers"},
+    {"name": "Northern Trust", "host": "ntrs.wd1.myworkdayjobs.com", "tenant": "ntrs", "site": "northerntrust"},
+    {"name": "Deutsche Bank", "host": "db.wd3.myworkdayjobs.com", "tenant": "db", "site": "DBWebsite"},
+    {"name": "Commonwealth Bank", "host": "cba.wd3.myworkdayjobs.com", "tenant": "cba", "site": "CommBank_Careers"},
+    {"name": "Fidelity Investments", "host": "fmr.wd1.myworkdayjobs.com", "tenant": "fmr", "site": "FidelityCareers"},
+    {"name": "Morgan Stanley", "host": "ms.wd5.myworkdayjobs.com", "tenant": "ms", "site": "External"},
+    {"name": "State Street", "host": "statestreet.wd1.myworkdayjobs.com", "tenant": "statestreet", "site": "Global"},
+    {"name": "Visa", "host": "visa.wd5.myworkdayjobs.com", "tenant": "visa", "site": "Visa"},
+    {"name": "PayPal", "host": "paypal.wd1.myworkdayjobs.com", "tenant": "paypal", "site": "jobs"},
+    {"name": "First American", "host": "firstam.wd1.myworkdayjobs.com", "tenant": "firstam", "site": "firstamericancareers"},
+    {"name": "Allstate", "host": "allstate.wd5.myworkdayjobs.com", "tenant": "allstate", "site": "allstate_careers"},
+    {"name": "Citi", "host": "citi.wd5.myworkdayjobs.com", "tenant": "citi", "site": "2"},
+    {"name": "Fiserv", "host": "fiserv.wd5.myworkdayjobs.com", "tenant": "fiserv", "site": "EXT"},
+    {"name": "TransUnion", "host": "transunion.wd5.myworkdayjobs.com", "tenant": "transunion", "site": "TransUnion"},
+    {"name": "BlackRock", "host": "blackrock.wd1.myworkdayjobs.com", "tenant": "blackrock", "site": "BlackRock_Professional"},
+    {"name": "DBS Bank", "host": "dbs.wd3.myworkdayjobs.com", "tenant": "dbs", "site": "DBS_Careers"},
+    {"name": "IG Group", "host": "ig.wd103.myworkdayjobs.com", "tenant": "ig", "site": "EXT_IG"},
+    {"name": "Fidelity International", "host": "fil.wd3.myworkdayjobs.com", "tenant": "fil", "site": "001"},
+    {"name": "Worldpay", "host": "worldpay.wd5.myworkdayjobs.com", "tenant": "worldpay", "site": "Worldpay_External_Careers_Site"},
+    {"name": "Synchrony", "host": "synchronyfinancial.wd5.myworkdayjobs.com", "tenant": "synchronyfinancial", "site": "Careers"},
+    {"name": "NAB", "host": "nab.wd3.myworkdayjobs.com", "tenant": "nab", "site": "nab_careers"},
+    {"name": "Equifax", "host": "equifax.wd5.myworkdayjobs.com", "tenant": "equifax", "site": "External"},
+    {"name": "Sun Life", "host": "sunlife.wd3.myworkdayjobs.com", "tenant": "sunlife", "site": "Experienced"},
+    {"name": "Western Union", "host": "westernunion.wd5.myworkdayjobs.com", "tenant": "westernunion", "site": "WesternUnionJobs"},
+    {"name": "TIAA", "host": "tiaa.wd1.myworkdayjobs.com", "tenant": "tiaa", "site": "Search"},
+    {"name": "CME Group", "host": "cmegroup.wd1.myworkdayjobs.com", "tenant": "cmegroup", "site": "cme_careers"},
+    {"name": "Lloyds Banking Group", "host": "lbg.wd3.myworkdayjobs.com", "tenant": "lbg", "site": "LBG_Careers", "location_hints": ["Hyderabad", "Bangalore", "Bengaluru"]},
+    {"name": "Lloyds Technology Centre", "host": "lbg.wd3.myworkdayjobs.com", "tenant": "lbg", "site": "Lloyds_Technology_Centre", "location_hints": ["Hyderabad"]},
+    {"name": "The Standard", "host": "standard.wd1.myworkdayjobs.com", "tenant": "standard", "site": "Search"},
+    {"name": "Vanguard", "host": "vanguard.wd5.myworkdayjobs.com", "tenant": "vanguard", "site": "vanguard_external"},
+    {"name": "Mr. Cooper", "host": "nationstar.wd5.myworkdayjobs.com", "tenant": "nationstar", "site": "MrCooper"},
+    {"name": "Voya", "host": "godirect.wd5.myworkdayjobs.com", "tenant": "godirect", "site": "voya_jobs"},
+    {"name": "MUFG", "host": "mufgub.wd3.myworkdayjobs.com", "tenant": "mufgub", "site": "MUFG-Careers"},
+    {"name": "NatWest", "host": "rbs.wd3.myworkdayjobs.com", "tenant": "rbs", "site": "RBS"}
+  ],
+  "oracle": [
+    {"name": "JPMorganChase", "host": "jpmc.fa.oraclecloud.com", "site": "CX_1001"},
+    {"name": "Chubb", "host": "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com", "site": "CX_2001"},
+    {"name": "BNY", "host": "eofe.fa.us2.oraclecloud.com", "site": "CX_1"},
+    {"name": "American Express", "host": "egug.fa.us2.oraclecloud.com", "site": "CX_1"}
+  ],
+  "greenhouse": [
+    {"name": "Coinbase", "board": "coinbase"},
+    {"name": "Tide", "board": "tide"}
+  ],
+  "jibe": [
+    {"name": "Aon", "host": "jobs.aon.com"},
+    {"name": "Gallagher", "host": "jobs.ajg.com", "job_path": "ajg-home/jobs"},
+    {"name": "ICE", "host": "careers.ice.com"},
+    {"name": "AXA", "host": "careers.axa.com", "job_path": "careers-home/jobs"}
+  ],
+  "sf_rss": [
+    {"name": "ANZ", "host": "careers.anz.com"},
+    {"name": "Standard Chartered", "host": "jobs.standardchartered.com"},
+    {"name": "Swiss Re", "host": "careers.swissre.com"},
+    {"name": "Worldline", "host": "jobs.worldline.com"}
+  ],
+  "eightfold": [
+    {"name": "HSBC", "host": "hsbc.eightfold.ai", "domain": "hsbc.com"}
+  ],
+  "phenom": [
+    {"name": "Allianz", "host": "careers.allianz.com", "lang": "en_global", "page_id": "page11", "region": "global/en"}
+  ],
+  "goldman": [
+    {"name": "Goldman Sachs"}
+  ],
+  "radancy": [
+    {"name": "Moody's", "host": "careers.moodys.com", "path": "en/search-jobs"},
+    {"name": "Citizens", "host": "jobs.citizensbank.com", "path": "search-jobs"}
+  ],
+  "deshaw": [
+    {"name": "D. E. Shaw"}
+  ],
+  "manual": [
+    {"name": "Societe Generale", "platform": "Taleo / Algolia (not scrapable)", "url": "https://careers.societegenerale.com/en/Technical/all-job-offers"},
+    {"name": "Revolut", "platform": "In-house (blocks bots)", "url": "https://www.revolut.com/en-IN/careers/"},
+    {"name": "BNP Paribas", "platform": "Unknown (blocks bots)", "url": "https://group.bnpparibas/en/careers/all-job-offers"}
+  ],
+  "icims": [
+    {"name": "MSCI", "hosts": ["globalcareers-msci.icims.com", "uscareers-msci.icims.com"]}
+  ],
+  "brassring": [
+    {"name": "UBS", "host": "jobs.ubs.com", "partner_id": 25008, "site_id": 5012}
+  ]
+}
