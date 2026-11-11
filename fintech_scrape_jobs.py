@@ -7,13 +7,13 @@ Companies on other platforms are listed under "manual" in companies.json and are
 printed at the end of the report as links to check by hand.
 
 Usage:
-  python3 scrape_jobs.py                      # India, last 14 days, only jobs not seen before
-  python3 scrape_jobs.py --country Singapore --country-code SG
-  python3 scrape_jobs.py --companies citi,visa --show-all
-  python3 scrape_jobs.py --title-only         # only DevOps/SRE/platform-style titles
+  python3 fintech_scrape_jobs.py                      # India, last 14 days, only jobs not seen before
+  python3 fintech_scrape_jobs.py --country Singapore --country-code SG
+  python3 fintech_scrape_jobs.py --companies citi,visa --show-all
+  python3 fintech_scrape_jobs.py --title-only         # only DevOps/SRE/platform-style titles
 
 Only the Python standard library is used. Run it daily with cron, e.g.:
-  0 9 * * * cd /path/to/mncs-jobs-scraper && /usr/bin/python3 scrape_jobs.py >> run.log 2>&1
+  0 9 * * * cd /path/to/mncs-jobs-scraper && /usr/bin/python3 fintech_scrape_jobs.py >> run.log 2>&1
 """
 import argparse
 import concurrent.futures as cf

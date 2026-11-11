@@ -1,6 +1,6 @@
 # MNC Kubernetes / DevOps / SRE job scraper
 
-**Quick start:** `python3 scrape_jobs.py --title-only --open` runs the scan and opens the browser report.
+**Quick start:** `python3 fintech_scrape_jobs.py --title-only --open` runs the scan and opens the browser report.
 The report is also saved as `output/latest.html` (open it any time by double-clicking).
 
 Searches the career sites of 94 fintech and payments companies (91 scraped, 3 manual links) for Kubernetes, DevOps, SRE and OpenShift jobs
@@ -9,13 +9,13 @@ in India, and reports the jobs that appeared since the last run. Python 3 standa
 ## Run
 
 ```bash
-python3 scrape_jobs.py                  # new jobs from the last 14 days, India
-python3 scrape_jobs.py --title-only     # only DevOps/SRE/platform-style titles (less noise)
-python3 scrape_jobs.py --show-all       # everything that matches, not only new jobs
-python3 scrape_jobs.py --companies citi,visa,lseg
-python3 scrape_jobs.py --country Singapore --country-code SG
-python3 scrape_jobs.py --keywords "kubernetes,terraform,sre" --max-age-days 7
-python3 scrape_jobs.py --skills "Terraform,Python,AWS"   # tags only these skills on found jobs
+python3 fintech_scrape_jobs.py                  # new jobs from the last 14 days, India
+python3 fintech_scrape_jobs.py --title-only     # only DevOps/SRE/platform-style titles (less noise)
+python3 fintech_scrape_jobs.py --show-all       # everything that matches, not only new jobs
+python3 fintech_scrape_jobs.py --companies citi,visa,lseg
+python3 fintech_scrape_jobs.py --country Singapore --country-code SG
+python3 fintech_scrape_jobs.py --keywords "kubernetes,terraform,sre" --max-age-days 7
+python3 fintech_scrape_jobs.py --skills "Terraform,Python,AWS"   # tags only these skills on found jobs
 ```
 
 Each run prints a table and writes `output/<date>/report.html` (also copied to `output/latest.html`),
@@ -52,7 +52,7 @@ The Match column ("title" or "description") shows whether the keyword is in the 
 crontab -e
 ```
 ```
-0 9 * * * cd /Users/rathram/Library/CloudStorage/OneDrive-IBM/Documents/mncs-jobs-scraper && /usr/bin/python3 scrape_jobs.py --title-only >> run.log 2>&1
+0 9 * * * cd /Users/rathram/Library/CloudStorage/OneDrive-IBM/Documents/mncs-jobs-scraper && /usr/bin/python3 fintech_scrape_jobs.py --title-only >> run.log 2>&1
 ```
 
 ## Coverage
