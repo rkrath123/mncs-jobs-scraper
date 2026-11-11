@@ -72,7 +72,7 @@ crontab -e
 | iCIMS portal | MSCI | server-rendered search pages |
 | BrassRing | UBS | `PowerSearchJobs` with the session token from the home page |
 | In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | Goldman, D. E. Shaw and Intuit give no posting date |
-| Not covered | Revolut, BNP Paribas (block bots), Societe Generale (search service unreachable) | listed as links under `manual` in `companies.json` and in the report |
+| Not covered | Revolut, BNP Paribas (block bots), Societe Generale (search service unreachable) | listed as links under `manual` in `fintech_companies.json` and in the report |
 
 91 of the 94 companies are scanned (92 sites). Some of them, such as D. E. Shaw, Citizens, Block and Nium, had no matching roles in India on the last run, so they show no jobs.
 
@@ -80,9 +80,9 @@ Companies added in the third batch (international, with an India office): Capita
 Ameriprise, Blackstone, Prudential, Marsh McLennan, Wolters Kluwer, Guidewire, Clearwater Analytics, Block, Nium, Wise.
 Truist, PNC, BMO, Circle and Travelers were tried and dropped because their career sites list no India jobs.
 
-Add a company by copying an entry in `companies.json`.
+Add a company by copying an entry in `fintech_companies.json`.
 
-- Other platforms take the keys used in `companies.json` (for example `host`, or `hosts` for iCIMS).
+- Other platforms take the keys used in `fintech_companies.json` (for example `host`, or `hosts` for iCIMS).
 - For Workday you need `host`, `tenant` and `site`. They appear in the career-site URL, for example
   `https://citi.wd5.myworkdayjobs.com/en-US/2/...` gives host `citi.wd5.myworkdayjobs.com`, tenant `citi`, site `2`.
 - When a Workday site has no country filter, the scraper matches the country name in the job location as a whole word

@@ -3,7 +3,7 @@
 
 Supported career-site platforms: Workday, Oracle HCM, Greenhouse, Jibe (iCIMS), SuccessFactors
 RSS, Eightfold, Phenom, Radancy/TalentBrew, iCIMS portals, BrassRing, Goldman Sachs and D. E. Shaw.
-Companies on other platforms are listed under "manual" in companies.json and are
+Companies on other platforms are listed under "manual" in fintech_companies.json and are
 printed at the end of the report as links to check by hand.
 
 Usage:
@@ -930,7 +930,7 @@ def main():
     ap.add_argument("--show-all", action="store_true",
                     help="report every match, not only jobs not seen in earlier runs")
     ap.add_argument("--companies", default="", help="comma separated company-name filter")
-    ap.add_argument("--config", default=str(BASE_DIR / "companies.json"))
+    ap.add_argument("--config", default=str(BASE_DIR / "fintech_companies.json"))
     ap.add_argument("--output-dir", default=str(BASE_DIR / "output"))
     ap.add_argument("--workers", type=int, default=32,
                     help="parallel requests (lower it if a site starts rejecting requests)")
