@@ -3,7 +3,7 @@
 **Quick start:** `python3 scrape_jobs.py --title-only --open` runs the scan and opens the browser report.
 The report is also saved as `output/latest.html` (open it any time by double-clicking).
 
-Searches the career sites of 80 fintech and payments companies (77 scraped, 3 manual links) for Kubernetes, DevOps, SRE and OpenShift jobs
+Searches the career sites of 94 fintech and payments companies (91 scraped, 3 manual links) for Kubernetes, DevOps, SRE and OpenShift jobs
 in India, and reports the jobs that appeared since the last run. Python 3 standard library only.
 
 ## Run
@@ -59,13 +59,13 @@ crontab -e
 
 | Platform | Companies | How |
 |---|---|---|
-| Workday | 48 sites (Wells Fargo, Citi, NatWest, Mastercard, Barclays, S&P Global, FIS, Nasdaq, ...) | `wday/cxs` JSON API |
+| Workday | 58 sites (Wells Fargo, Citi, NatWest, Mastercard, Barclays, Capital One, TD, Marsh McLennan, ...) | `wday/cxs` JSON API |
 | Oracle HCM | JPMorganChase, Chubb, BNY, American Express | `hcmRestApi` JSON API |
-| Greenhouse | Coinbase, Tide, Stripe, Adyen, Payoneer | `boards-api.greenhouse.io` |
+| Greenhouse | Coinbase, Tide, Stripe, Adyen, Payoneer, Clearwater Analytics, Block | `boards-api.greenhouse.io` |
 | Jibe (iCIMS) | Aon, Gallagher, ICE, AXA | `/api/jobs` JSON API |
 | SuccessFactors | ANZ, Standard Chartered, Swiss Re, Worldline | RSS search feed |
-| SmartRecruiters | Experian, Avaloq | `api.smartrecruiters.com` postings API |
-| Lever | Dun & Bradstreet | `api.lever.co` postings API |
+| SmartRecruiters | Experian, Avaloq, Wise | `api.smartrecruiters.com` postings API |
+| Lever | Dun & Bradstreet, Nium | `api.lever.co` postings API |
 | Eightfold | HSBC | `/api/apply/v2/jobs` |
 | Phenom | Allianz | `/widgets` search API |
 | Radancy (TalentBrew) | Moody's, Citizens, Intuit | search-results HTML fragment, country matched client side |
@@ -74,14 +74,19 @@ crontab -e
 | In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | Goldman, D. E. Shaw and Intuit give no posting date |
 | Not covered | Revolut, BNP Paribas (block bots), Societe Generale (search service unreachable) | listed as links under `manual` in `companies.json` and in the report |
 
-77 of the 80 companies are scanned. D. E. Shaw and Citizens currently have no roles in India, so they show no jobs.
+91 of the 94 companies are scanned (92 sites). Some of them, such as D. E. Shaw, Citizens, Block and Nium, had no matching roles in India on the last run, so they show no jobs.
+
+Companies added in the third batch (international, with an India office): Capital One, U.S. Bancorp, TD, Invesco,
+Ameriprise, Blackstone, Prudential, Marsh McLennan, Wolters Kluwer, Guidewire, Clearwater Analytics, Block, Nium, Wise.
+Truist, PNC, BMO, Circle and Travelers were tried and dropped because their career sites list no India jobs.
 
 Add a company by copying an entry in `companies.json`.
 
 - Other platforms take the keys used in `companies.json` (for example `host`, or `hosts` for iCIMS).
 - For Workday you need `host`, `tenant` and `site`. They appear in the career-site URL, for example
   `https://citi.wd5.myworkdayjobs.com/en-US/2/...` gives host `citi.wd5.myworkdayjobs.com`, tenant `citi`, site `2`.
-- When a Workday site has no country filter, the scraper matches the country name in the job location.
+- When a Workday site has no country filter, the scraper matches the country name in the job location as a whole word
+  (so "India" does not match "Indiana").
   Add `"location_hints": ["Hyderabad"]` when the site lists cities without "India".
 
 ## Limits

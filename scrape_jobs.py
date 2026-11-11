@@ -150,7 +150,8 @@ def loc_ok(text, a, extra=()):
     """True when a free-text location mentions the country, or one of its known cities."""
     t = (text or "").lower()
     hints = [a.country] + COUNTRY_HINTS.get(a.country.lower(), []) + list(extra)
-    return any(h.lower() in t for h in hints)
+    # whole-word match, so 'India' does not hit 'Indiana' or 'Indianapolis'
+    return any(re.search(r"(?<![a-z])" + re.escape(h.lower()) + r"(?![a-z])", t) for h in hints)
 
 
 CITY_ALIASES = {"bangalore": "Bengaluru", "bangaluru": "Bengaluru", "gurgaon": "Gurugram", "trivandrum": "Thiruvananthapuram"}

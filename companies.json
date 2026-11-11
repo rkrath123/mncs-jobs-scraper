@@ -47,7 +47,17 @@
     {"name": "SS&C Technologies", "host": "ssctech.wd1.myworkdayjobs.com", "tenant": "ssctech", "site": "SSCTechnologies"},
     {"name": "Temenos", "host": "temenos.wd103.myworkdayjobs.com", "tenant": "temenos", "site": "Temenoscareers"},
     {"name": "Finastra", "host": "finastra.wd3.myworkdayjobs.com", "tenant": "finastra", "site": "FINC"},
-    {"name": "Barclays", "host": "barclays.wd3.myworkdayjobs.com", "tenant": "barclays", "site": "External_Career_Site_Barclays"}
+    {"name": "Barclays", "host": "barclays.wd3.myworkdayjobs.com", "tenant": "barclays", "site": "External_Career_Site_Barclays"},
+    {"name": "Capital One", "host": "capitalone.wd12.myworkdayjobs.com", "tenant": "capitalone", "site": "Capital_One"},
+    {"name": "U.S. Bancorp", "host": "usbank.wd1.myworkdayjobs.com", "tenant": "usbank", "site": "US_Bank_Careers"},
+    {"name": "TD", "host": "td.wd3.myworkdayjobs.com", "tenant": "td", "site": "TD_Bank_Careers"},
+    {"name": "Invesco", "host": "invesco.wd1.myworkdayjobs.com", "tenant": "invesco", "site": "IVZ"},
+    {"name": "Ameriprise", "host": "ameriprise.wd5.myworkdayjobs.com", "tenant": "ameriprise", "site": "Ameriprise"},
+    {"name": "Blackstone", "host": "blackstone.wd1.myworkdayjobs.com", "tenant": "blackstone", "site": "Blackstone_Careers"},
+    {"name": "Prudential", "host": "prudential.wd3.myworkdayjobs.com", "tenant": "prudential", "site": "Prudential"},
+    {"name": "Marsh McLennan", "host": "mmc.wd1.myworkdayjobs.com", "tenant": "mmc", "site": "MMC"},
+    {"name": "Wolters Kluwer", "host": "wk.wd3.myworkdayjobs.com", "tenant": "wk", "site": "External"},
+    {"name": "Guidewire", "host": "guidewire.wd5.myworkdayjobs.com", "tenant": "guidewire", "site": "External"}
   ],
   "oracle": [
     {"name": "JPMorganChase", "host": "jpmc.fa.oraclecloud.com", "site": "CX_1001"},
@@ -60,7 +70,9 @@
     {"name": "Tide", "board": "tide"},
     {"name": "Stripe", "board": "stripe"},
     {"name": "Adyen", "board": "adyen"},
-    {"name": "Payoneer", "board": "payoneer"}
+    {"name": "Payoneer", "board": "payoneer"},
+    {"name": "Clearwater Analytics", "board": "clearwater"},
+    {"name": "Block", "board": "block"}
   ],
   "jibe": [
     {"name": "Aon", "host": "jobs.aon.com"},
@@ -104,10 +116,12 @@
   ],
   "smartrecruiters": [
     {"name": "Experian", "company_id": "Experian"},
-    {"name": "Avaloq", "company_id": "Avaloq1"}
+    {"name": "Avaloq", "company_id": "Avaloq1"},
+    {"name": "Wise", "company_id": "wise"}
   ],
   "lever": [
-    {"name": "Dun & Bradstreet", "company_id": "dnb"}
+    {"name": "Dun & Bradstreet", "company_id": "dnb"},
+    {"name": "Nium", "company_id": "nium"}
   ],
   "bofa": [
     {"name": "Bank of America"}
