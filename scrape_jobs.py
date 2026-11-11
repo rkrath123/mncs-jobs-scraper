@@ -269,7 +269,7 @@ def fetch_greenhouse(c, a):
     jobs = {}
     for j in data.get("jobs", []):
         loc = (j.get("location") or {}).get("name", "")
-        if a.country.lower() not in loc.lower():
+        if not loc_ok(loc, a):
             continue
         text = j["title"] + " " + (j.get("content") or "")
         posted = j.get("first_published") or j.get("updated_at") or ""
@@ -277,7 +277,7 @@ def fetch_greenhouse(c, a):
             if has_term(text, term):
                 merge(jobs, make_job(c["name"], "greenhouse", j["title"], loc, posted[:10],
                                      age_from_iso(posted), j["absolute_url"], j["id"], term,
-                                     text=strip_tags(j.get("content") or "")))
+                                     text=strip_tags(htmllib.unescape(j.get("content") or ""))))
     return list(jobs.values())
 
 
@@ -575,6 +575,92 @@ def fetch_brassring(c, a):
     return list(jobs.values())
 
 
+# --------------------------------------------------------------------------- SmartRecruiters
+def fetch_smartrecruiters(c, a):
+    """Experian, Avaloq: public SmartRecruiters postings API (descriptions are fetched later)."""
+    cid, jobs = c["company_id"], {}
+    for term in a.keywords:
+        offset = 0
+        while offset < a.max_per_term:
+            q = urllib.parse.urlencode({"q": term, "country": a.country_code.lower(),
+                                        "limit": 100, "offset": offset})
+            r = http_json(f"https://api.smartrecruiters.com/v1/companies/{cid}/postings?{q}")
+            rows = r.get("content", [])
+            for p in rows:
+                loc = p.get("location") or {}
+                if (loc.get("country") or "").lower() != a.country_code.lower():
+                    continue
+                posted = p.get("releasedDate") or ""
+                merge(jobs, make_job(
+                    c["name"], "smartrecruiters", p["name"], loc.get("fullLocation", ""),
+                    posted[:10], age_from_iso(posted),
+                    f"https://jobs.smartrecruiters.com/{cid}/{p['id']}",
+                    p.get("refNumber") or p["id"], term, detail=p.get("ref", "")))
+            offset += 100
+            if len(rows) < 100 or offset >= r.get("totalFound", 0):
+                break
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Lever
+def fetch_lever(c, a):
+    """Dun & Bradstreet: Lever postings API returns every posting with its description."""
+    jobs = {}
+    for p in http_json(f"https://api.lever.co/v0/postings/{c['company_id']}?mode=json"):
+        cat = p.get("categories") or {}
+        loc = "; ".join(cat.get("allLocations") or [cat.get("location") or ""])
+        if not loc_ok(loc, a):
+            continue
+        text = p.get("descriptionPlain", "") + " " + " ".join(
+            x.get("text", "") + " " + strip_tags(x.get("content", "")) for x in p.get("lists", []))
+        created = date.fromtimestamp(p["createdAt"] / 1000) if p.get("createdAt") else None
+        for term in kw_hits(p["text"] + " " + text, a):
+            merge(jobs, make_job(
+                c["name"], "lever", p["text"], loc, created.isoformat() if created else "",
+                (date.today() - created).days if created else None, p["hostedUrl"], p["id"],
+                term, text=text))
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Bank of America
+def fetch_bofa(c, a):
+    """Bank of America: careers.bankofamerica.com search servlet. It exposes only the newest 100
+    jobs of a location and no descriptions, so each recent job page is fetched and keyword-matched."""
+    host = "careers.bankofamerica.com"
+    q = urllib.parse.urlencode({"start": 0, "rows": 100, "search": "jobsByLocation",
+                                "searchstring": a.country})
+    rows = http_json(f"https://{host}/services/jobssearchservlet?{q}").get("jobsList") or []
+    recent = []
+    for r in rows:
+        try:
+            dt = datetime.strptime(r.get("postedDate") or "", "%m/%d/%Y").date()
+        except ValueError:
+            continue
+        if (r.get("country") or "").lower() == a.country.lower() \
+                and (date.today() - dt).days <= a.max_age_days:
+            recent.append((r, dt))
+
+    def one(item):
+        r, dt = item
+        try:
+            page = http_text(f"https://{host}{r['jcrURL']}", retries=2, timeout=25)
+            text = strip_tags(re.sub(r"<(script|style)\b.*?</\1>", " ", page, flags=re.S))
+        except Exception as e:
+            log.debug("BofA description fetch failed for %s: %s", r["jcrURL"], e)
+            text = ""
+        return r, dt, text[:20000]
+
+    jobs = {}
+    with cf.ThreadPoolExecutor(4) as ex:
+        for r, dt, text in ex.map(one, recent):
+            loc = ", ".join(x for x in (r.get("city"), r.get("state"), r.get("country")) if x)
+            for term in kw_hits(r["postingTitle"] + " " + text, a):
+                merge(jobs, make_job(c["name"], "bofa", r["postingTitle"], loc, dt.isoformat(),
+                                     (date.today() - dt).days, f"https://{host}{r['jcrURL']}",
+                                     r["jobRequisitionId"], term, text=text))
+    return list(jobs.values())
+
+
 # --------------------------------------------------------------------------- D. E. Shaw
 def fetch_deshaw(c, a):
     """D. E. Shaw: no search API, so the (~100) position pages are fetched and keyword-matched."""
@@ -606,7 +692,8 @@ def fetch_deshaw(c, a):
 FETCHERS = {"workday": fetch_workday, "oracle": fetch_oracle, "greenhouse": fetch_greenhouse,
             "jibe": fetch_jibe, "sf_rss": fetch_sf_rss, "eightfold": fetch_eightfold,
             "phenom": fetch_phenom, "goldman": fetch_goldman, "radancy": fetch_radancy,
-            "icims": fetch_icims, "brassring": fetch_brassring, "deshaw": fetch_deshaw}
+            "icims": fetch_icims, "brassring": fetch_brassring, "deshaw": fetch_deshaw,
+            "smartrecruiters": fetch_smartrecruiters, "lever": fetch_lever, "bofa": fetch_bofa}
 
 
 # --------------------------------------------------------------------------- state / output
@@ -644,8 +731,12 @@ def add_skills(jobs, a):
     def load(j):
         if j["detail"] and not j["text"]:
             try:
-                info = http_json(j["detail"], retries=2, timeout=20).get("jobPostingInfo", {})
-                j["text"] = strip_tags(info.get("jobDescription", ""))
+                data = http_json(j["detail"], retries=2, timeout=20)
+                if "jobPostingInfo" in data:  # Workday
+                    j["text"] = strip_tags(data["jobPostingInfo"].get("jobDescription", ""))
+                else:  # SmartRecruiters
+                    secs = (data.get("jobAd") or {}).get("sections") or {}
+                    j["text"] = strip_tags(" ".join(s.get("text", "") for s in secs.values()))
             except Exception as e:  # skills just stay unmatched for this job
                 log.debug("description fetch failed for %s: %s", j["url"], e)
     with cf.ThreadPoolExecutor(a.workers) as ex:
@@ -661,7 +752,7 @@ def add_skills(jobs, a):
 
 def split_terms(a, kind, parts=4):
     """Per-term search sites run the keyword list in parallel chunks; others run once."""
-    if kind in ("greenhouse", "deshaw", "brassring") or len(a.keywords) < 2 * parts:
+    if kind in ("greenhouse", "deshaw", "brassring", "lever", "bofa") or len(a.keywords) < 2 * parts:
         return [a]
     chunks = []
     for i in range(parts):

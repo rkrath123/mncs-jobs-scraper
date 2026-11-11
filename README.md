@@ -3,7 +3,7 @@
 **Quick start:** `python3 scrape_jobs.py --title-only --open` runs the scan and opens the browser report.
 The report is also saved as `output/latest.html` (open it any time by double-clicking).
 
-Searches the career sites of 59 fintech companies (56 scraped, 3 manual links) for Kubernetes, DevOps, SRE and OpenShift jobs
+Searches the career sites of 80 fintech and payments companies (77 scraped, 3 manual links) for Kubernetes, DevOps, SRE and OpenShift jobs
 in India, and reports the jobs that appeared since the last run. Python 3 standard library only.
 
 ## Run
@@ -59,20 +59,22 @@ crontab -e
 
 | Platform | Companies | How |
 |---|---|---|
-| Workday | 34 sites (Wells Fargo, Citi, NatWest, LSEG, State Street, ...) | `wday/cxs` JSON API |
+| Workday | 48 sites (Wells Fargo, Citi, NatWest, Mastercard, Barclays, S&P Global, FIS, Nasdaq, ...) | `wday/cxs` JSON API |
 | Oracle HCM | JPMorganChase, Chubb, BNY, American Express | `hcmRestApi` JSON API |
-| Greenhouse | Coinbase, Tide | `boards-api.greenhouse.io` |
+| Greenhouse | Coinbase, Tide, Stripe, Adyen, Payoneer | `boards-api.greenhouse.io` |
 | Jibe (iCIMS) | Aon, Gallagher, ICE, AXA | `/api/jobs` JSON API |
 | SuccessFactors | ANZ, Standard Chartered, Swiss Re, Worldline | RSS search feed |
+| SmartRecruiters | Experian, Avaloq | `api.smartrecruiters.com` postings API |
+| Lever | Dun & Bradstreet | `api.lever.co` postings API |
 | Eightfold | HSBC | `/api/apply/v2/jobs` |
 | Phenom | Allianz | `/widgets` search API |
-| Radancy (TalentBrew) | Moody's, Citizens | search-results HTML fragment, country matched client side |
+| Radancy (TalentBrew) | Moody's, Citizens, Intuit | search-results HTML fragment, country matched client side |
 | iCIMS portal | MSCI | server-rendered search pages |
 | BrassRing | UBS | `PowerSearchJobs` with the session token from the home page |
-| In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages) | Goldman and D. E. Shaw give no posting date |
+| In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | Goldman, D. E. Shaw and Intuit give no posting date |
 | Not covered | Revolut, BNP Paribas (block bots), Societe Generale (search service unreachable) | listed as links under `manual` in `companies.json` and in the report |
 
-56 of the 59 companies are scanned. D. E. Shaw and Citizens currently have no roles in India, so they show no jobs.
+77 of the 80 companies are scanned. D. E. Shaw and Citizens currently have no roles in India, so they show no jobs.
 
 Add a company by copying an entry in `companies.json`.
 
