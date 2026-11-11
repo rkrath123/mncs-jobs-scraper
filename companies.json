@@ -10,7 +10,7 @@
     {"name": "State Street", "host": "statestreet.wd1.myworkdayjobs.com", "tenant": "statestreet", "site": "Global"},
     {"name": "Visa", "host": "visa.wd5.myworkdayjobs.com", "tenant": "visa", "site": "Visa"},
     {"name": "PayPal", "host": "paypal.wd1.myworkdayjobs.com", "tenant": "paypal", "site": "jobs"},
-    {"name": "First American", "host": "firstam.wd1.myworkdayjobs.com", "tenant": "firstam", "site": "firstamericancareers"},
+    {"name": "First American", "host": "firstam.wd1.myworkdayjobs.com", "tenant": "firstam", "site": "faicareers"},
     {"name": "Allstate", "host": "allstate.wd5.myworkdayjobs.com", "tenant": "allstate", "site": "allstate_careers"},
     {"name": "Citi", "host": "citi.wd5.myworkdayjobs.com", "tenant": "citi", "site": "2"},
     {"name": "Fiserv", "host": "fiserv.wd5.myworkdayjobs.com", "tenant": "fiserv", "site": "EXT"},
