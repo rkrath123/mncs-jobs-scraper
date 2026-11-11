@@ -932,7 +932,8 @@ def main():
     ap.add_argument("--companies", default="", help="comma separated company-name filter")
     ap.add_argument("--config", default=str(BASE_DIR / "companies.json"))
     ap.add_argument("--output-dir", default=str(BASE_DIR / "output"))
-    ap.add_argument("--workers", type=int, default=12)
+    ap.add_argument("--workers", type=int, default=32,
+                    help="parallel requests (lower it if a site starts rejecting requests)")
     ap.add_argument("--max-per-term", type=int, default=200,
                     help="max results fetched per company and keyword")
     ap.add_argument("--open", action="store_true", help="open the HTML report in the browser")
