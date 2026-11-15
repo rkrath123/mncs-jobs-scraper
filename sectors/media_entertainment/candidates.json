@@ -1,0 +1,128 @@
+{
+ "sector": "media_entertainment",
+ "title": "Media, OTT, social platforms, music",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Netflix",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Paramount",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "NBCUniversal",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "BBC Studios",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Universal Music Group",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "ByteDance",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Snap",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Meta",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Electronic Arts",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Kakao",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Deezer",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Getty Images",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "Shutterstock",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "News Corp",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "The Walt Disney Company",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Warner Bros. Discovery",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Spotify",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Warner Music Group",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Fox Corporation",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Comcast",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Roku",
+   "section": 17,
+   "subgroup": "",
+   "configured_in": "media_entertainment"
+  },
+  {
+   "name": "Live Nation",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "media_entertainment"
+  }
+ ]
+}

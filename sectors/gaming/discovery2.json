@@ -1,0 +1,223 @@
+{
+ "Bandai Namco": {
+  "hosts": [
+   "www.bandainamco.com",
+   "bandainamco.com",
+   "www.bandai.com",
+   "bandai.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CD Projekt": {
+  "hosts": [
+   "www.cdprojekt.com",
+   "cdprojekt.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Capcom": {
+  "hosts": [
+   "www.capcom.com",
+   "capcom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Epic Games": {
+  "hosts": [
+   "careers.epicgames.com",
+   "www.epicgames.com",
+   "epicgames.com",
+   "www.epic-games.com",
+   "epic-games.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Konami": {
+  "hosts": [
+   "www.konami.com",
+   "konami.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Miniclip": {
+  "hosts": [
+   "careers.miniclip.com",
+   "www.miniclip.com",
+   "miniclip.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Miniclip",
+     "host": "careers.miniclip.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.miniclip.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "NetEase": {
+  "hosts": [
+   "careers.netease.com",
+   "www.netease.com",
+   "netease.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nintendo": {
+  "hosts": [
+   "careers.nintendo.com",
+   "www.nintendo.com",
+   "nintendo.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Riot Games": {
+  "hosts": [
+   "www.riotgames.com",
+   "riotgames.com",
+   "careers.riot-games.com",
+   "jobs.riot-games.com",
+   "www.riot-games.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Roblox": {
+  "hosts": [
+   "careers.roblox.com",
+   "jobs.roblox.com",
+   "www.roblox.com",
+   "roblox.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rockstar Games": {
+  "hosts": [
+   "jobs.rockstargames.com",
+   "www.rockstargames.com",
+   "rockstargames.com",
+   "www.rockstar-games.com",
+   "rockstar-games.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Scopely": {
+  "hosts": [
+   "careers.scopely.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Scopely",
+     "host": "careers.scopely.com",
+     "lang": "en_us",
+     "page_id": "page13",
+     "region": "global/en"
+    },
+    "india_jobs": 5,
+    "found_on": "careers.scopely.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Sega": {
+  "hosts": [
+   "careers.sega.com",
+   "www.sega.com",
+   "sega.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sony Interactive Entertainment": {
+  "hosts": [
+   "www.sonyinteractiveentertainment.com",
+   "sonyinteractiveentertainment.com",
+   "careers.sony.com",
+   "www.sony.com",
+   "sony.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Square Enix": {
+  "hosts": [
+   "www.squareenix.com",
+   "squareenix.com",
+   "www.square-enix.com",
+   "square-enix.com",
+   "www.square.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Supercell": {
+  "hosts": [
+   "www.supercell.com",
+   "supercell.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Take-Two Interactive": {
+  "hosts": [
+   "www.taketwointeractive.com",
+   "taketwointeractive.com",
+   "careers.take.com",
+   "jobs.take.com",
+   "www.take.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ubisoft": {
+  "hosts": [
+   "jobs.ubisoft.com",
+   "www.ubisoft.com",
+   "ubisoft.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Unity Technologies": {
+  "hosts": [
+   "careers.unity.com",
+   "www.unity.com",
+   "unity.com",
+   "www.unitytechnologies.com",
+   "unitytechnologies.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Valve": {
+  "hosts": [
+   "www.valve.com",
+   "valve.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Zynga": {
+  "hosts": [
+   "jobs.zynga.com",
+   "www.zynga.com",
+   "zynga.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

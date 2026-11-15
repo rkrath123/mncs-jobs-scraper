@@ -1,0 +1,271 @@
+{
+ "BBC Studios": [],
+ "ByteDance": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "bytedance",
+    "name": "ByteDance"
+   },
+   "india_jobs": 1,
+   "site_total": 2
+  }
+ ],
+ "Comcast": [],
+ "Deezer": [],
+ "Electronic Arts": [],
+ "Fox Corporation": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fox.wd1.myworkdayjobs.com",
+    "tenant": "fox",
+    "site": "Domestic",
+    "name": "Fox Corporation"
+   },
+   "india_jobs": 4,
+   "site_total": 320,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fox.wd1.myworkdayjobs.com",
+    "tenant": "fox",
+    "site": "FOXTVST_EAST",
+    "name": "Fox Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 26,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fox.wd1.myworkdayjobs.com",
+    "tenant": "fox",
+    "site": "FOXTVST_Central",
+    "name": "Fox Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 17,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fox.wd1.myworkdayjobs.com",
+    "tenant": "fox",
+    "site": "FOXTVST_WEST",
+    "name": "Fox Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 8,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "fox",
+    "name": "Fox Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 9
+  }
+ ],
+ "Getty Images": [
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "gettyimages",
+    "name": "Getty Images"
+   },
+   "india_jobs": 0,
+   "site_total": 6
+  }
+ ],
+ "Kakao": [],
+ "Live Nation": [],
+ "Meta": [],
+ "NBCUniversal": [],
+ "Netflix": [],
+ "News Corp": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "newscorp",
+    "name": "News Corp"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Paramount": [],
+ "Roku": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "roku",
+    "name": "Roku"
+   },
+   "india_jobs": 3,
+   "site_total": 94
+  }
+ ],
+ "Shutterstock": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "shutterstock.wd1.myworkdayjobs.com",
+    "tenant": "shutterstock",
+    "site": "ShutterstockCareers",
+    "name": "Shutterstock"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  }
+ ],
+ "Snap": [],
+ "Spotify": [
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "spotify",
+    "name": "Spotify"
+   },
+   "india_jobs": 1,
+   "site_total": 85
+  }
+ ],
+ "The Walt Disney Company": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "disney.wd5.myworkdayjobs.com",
+    "tenant": "disney",
+    "site": "disneycareer",
+    "name": "The Walt Disney Company"
+   },
+   "india_jobs": 1,
+   "site_total": 15,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "disney.wd5.myworkdayjobs.com",
+    "tenant": "disney",
+    "site": "disneycareerdc",
+    "name": "The Walt Disney Company"
+   },
+   "india_jobs": 20,
+   "site_total": 149,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "disney",
+    "name": "The Walt Disney Company"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Universal Music Group": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "umusic.wd5.myworkdayjobs.com",
+    "tenant": "umusic",
+    "site": "UMGAW",
+    "name": "Universal Music Group"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "umusic.wd5.myworkdayjobs.com",
+    "tenant": "umusic",
+    "site": "UMGAPAC",
+    "name": "Universal Music Group"
+   },
+   "india_jobs": 0,
+   "site_total": 44,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "umusic.wd5.myworkdayjobs.com",
+    "tenant": "umusic",
+    "site": "UMGFRA",
+    "name": "Universal Music Group"
+   },
+   "india_jobs": 0,
+   "site_total": 9,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "universalmusicgroup",
+    "name": "Universal Music Group"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "universal",
+    "name": "Universal Music Group"
+   },
+   "india_jobs": 0,
+   "site_total": 5
+  }
+ ],
+ "Warner Bros. Discovery": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "warnerbros.wd5.myworkdayjobs.com",
+    "tenant": "warnerbros",
+    "site": "global",
+    "name": "Warner Bros. Discovery"
+   },
+   "india_jobs": 7,
+   "site_total": 187,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "warnerbros.wd5.myworkdayjobs.com",
+    "tenant": "warnerbros",
+    "site": "francais",
+    "name": "Warner Bros. Discovery"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "warnerbros.wd5.myworkdayjobs.com",
+    "tenant": "warnerbros",
+    "site": "directshare",
+    "name": "Warner Bros. Discovery"
+   },
+   "india_jobs": 0,
+   "site_total": 17,
+   "facet": false
+  }
+ ],
+ "Warner Music Group": []
+}

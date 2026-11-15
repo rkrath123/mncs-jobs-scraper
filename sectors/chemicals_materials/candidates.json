@@ -1,0 +1,225 @@
+{
+ "sector": "chemicals_materials",
+ "title": "Chemicals, materials",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "BASF",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "SABIC",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Covestro",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Solvay",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Arkema",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Eastman Chemical",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Celanese",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Lubrizol",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "INEOS",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Wacker Chemie",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "PPG",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "AkzoNobel",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Sika",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "H.B. Fuller",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Cabot",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Nouryon",
+   "section": 23,
+   "subgroup": ""
+  },
+  {
+   "name": "Mosaic",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Ball Corporation",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Crown Holdings",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Sealed Air",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Owens Corning",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "International Paper",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Berry Global",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "AptarGroup",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Carlisle",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Dow",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "DuPont",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "LyondellBasell",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Syensqo",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Evonik",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Clariant",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Huntsman",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Air Products",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Mitsubishi Chemical Group",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Sherwin-Williams",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Ashland",
+   "section": 23,
+   "subgroup": "",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Albemarle",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "International Flavors & Fragrances",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Avery Dennison",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "chemicals_materials"
+  },
+  {
+   "name": "Chemours",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "chemicals_materials"
+  }
+ ]
+}

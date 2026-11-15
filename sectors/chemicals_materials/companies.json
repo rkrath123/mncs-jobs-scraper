@@ -1,0 +1,89 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "dow.wd1.myworkdayjobs.com",
+   "tenant": "dow",
+   "site": "ExternalCareers",
+   "name": "Dow"
+  },
+  {
+   "host": "evonik.wd3.myworkdayjobs.com",
+   "tenant": "evonik",
+   "site": "External_Careers",
+   "name": "Evonik"
+  },
+  {
+   "host": "huntsman.wd1.myworkdayjobs.com",
+   "tenant": "huntsman",
+   "site": "Huntsman",
+   "name": "Huntsman"
+  },
+  {
+   "host": "mitsubishichemicalgroup.wd3.myworkdayjobs.com",
+   "tenant": "mitsubishichemicalgroup",
+   "site": "MCCGroupCareers",
+   "name": "Mitsubishi Chemical Group"
+  },
+  {
+   "host": "ashland.wd12.myworkdayjobs.com",
+   "tenant": "ashland",
+   "site": "AshlandCareers1",
+   "name": "Ashland"
+  },
+  {
+   "host": "albemarle.wd5.myworkdayjobs.com",
+   "tenant": "albemarle",
+   "site": "External",
+   "name": "Albemarle"
+  },
+  {
+   "host": "iff.wd5.myworkdayjobs.com",
+   "tenant": "iff",
+   "site": "IFF_Careers",
+   "name": "International Flavors & Fragrances"
+  },
+  {
+   "host": "chemours.wd103.myworkdayjobs.com",
+   "tenant": "chemours",
+   "site": "Chemours",
+   "name": "Chemours"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "LyondellBasell",
+   "host": "careers.lyondellbasell.com"
+  },
+  {
+   "name": "Clariant",
+   "host": "careers.clariant.com"
+  },
+  {
+   "name": "Syensqo",
+   "host": "careers.syensqo.com"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "company_id": "averydennison",
+   "name": "Avery Dennison"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "DuPont",
+   "host": "careers.dupont.com",
+   "lang": "en_us",
+   "page_id": "page8",
+   "region": "us/en"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Sherwin-Williams",
+   "host": "ejhp.fa.us6.oraclecloud.com",
+   "site": "CX_2"
+  }
+ ]
+}

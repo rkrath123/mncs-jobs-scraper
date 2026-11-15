@@ -1,0 +1,31 @@
+{
+ "sector": "water_environment",
+ "title": "Water and environmental services",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Veolia",
+   "section": 26,
+   "subgroup": ""
+  },
+  {
+   "name": "SUEZ",
+   "section": 26,
+   "subgroup": ""
+  },
+  {
+   "name": "Kurita Water Industries",
+   "section": 26,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Pentair",
+   "section": 26,
+   "subgroup": "",
+   "configured_in": "water_environment"
+  }
+ ]
+}

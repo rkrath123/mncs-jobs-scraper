@@ -1,0 +1,52 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "wiley.wd1.myworkdayjobs.com",
+   "tenant": "wiley",
+   "site": "wiley_careers",
+   "name": "Wiley"
+  },
+  {
+   "host": "springernature.wd3.myworkdayjobs.com",
+   "tenant": "springernature",
+   "site": "SpringerNatureCareers",
+   "name": "Springer Nature"
+  },
+  {
+   "host": "cengage.wd5.myworkdayjobs.com",
+   "tenant": "cengage",
+   "site": "CengageIndiaCareers",
+   "name": "Cengage"
+  }
+ ],
+ "greenhouse": [
+  {
+   "board": "coursera",
+   "name": "Coursera"
+  },
+  {
+   "board": "duolingo",
+   "name": "Duolingo"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "McGraw Hill",
+   "host": "careers.mheducation.com"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "Informa",
+   "company_id": "InformaGroupPlc"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Pearson",
+   "host": "hccz.fa.em3.oraclecloud.com",
+   "site": "CX_2"
+  }
+ ]
+}

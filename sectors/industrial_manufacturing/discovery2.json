@@ -1,0 +1,531 @@
+{
+ "Ametek": {
+  "hosts": [
+   "careers.ametek.com",
+   "jobs.ametek.com",
+   "www.ametek.com",
+   "ametek.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Amphenol": {
+  "hosts": [
+   "www.amphenol.com",
+   "amphenol.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Atlas Copco": {
+  "hosts": [
+   "jobs.atlascopcogroup.com",
+   "www.atlascopcogroup.com",
+   "atlascopcogroup.com",
+   "www.atlascopco.com",
+   "atlascopco.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Belden": {
+  "hosts": [
+   "careers.belden.com",
+   "www.belden.com",
+   "belden.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bosch": {
+  "hosts": [
+   "careers.bosch.com",
+   "jobs.bosch.com"
+  ],
+  "results": [
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Bosch",
+     "company_id": "BoschGroup"
+    },
+    "india_jobs": 100,
+    "found_on": "jobs.bosch.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Crane": {
+  "hosts": [
+   "www.crane.com",
+   "crane.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Endress+Hauser": {
+  "hosts": [
+   "careers.endresshauser.com",
+   "jobs.endresshauser.com",
+   "www.endresshauser.com",
+   "endresshauser.com",
+   "careers.endress.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Endress+Hauser",
+     "host": "careers.endress.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.endress.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "EnerSys": {
+  "hosts": [
+   "careers.enersys.com",
+   "jobs.enersys.com",
+   "www.enersys.com",
+   "enersys.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "EnerSys",
+     "host": "jobs.enersys.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.enersys.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "FANUC": {
+  "hosts": [
+   "www.fanuc.com",
+   "fanuc.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Festo": {
+  "hosts": [
+   "jobs.festo.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Festo",
+     "host": "jobs.festo.com"
+    },
+    "india_jobs": 1,
+    "found_on": "jobs.festo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Flex": {
+  "hosts": [
+   "jobs.flex.com",
+   "www.flex.com",
+   "flex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Foxconn": {
+  "hosts": [
+   "www.foxconn.com",
+   "foxconn.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Grundfos": {
+  "hosts": [
+   "jobs.grundfos.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Grundfos",
+     "host": "jobs.grundfos.com"
+    },
+    "india_jobs": 15,
+    "found_on": "jobs.grundfos.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Hasbro": {
+  "hosts": [
+   "careers.hasbro.com",
+   "jobs.hasbro.com",
+   "www.hasbro.com",
+   "hasbro.com"
+  ],
+  "results": [
+   {
+    "platform": "greenhouse",
+    "config": {
+     "name": "Hasbro",
+     "board": "hasbro"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.hasbro.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Hexagon": {
+  "hosts": [
+   "careers.hexagon.com",
+   "www.hexagon.com",
+   "hexagon.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Hexagon",
+     "host": "careers.hexagon.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.hexagon.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Hubbell": {
+  "hosts": [
+   "careers.hubbell.com",
+   "www.hubbell.com",
+   "hubbell.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ITT Inc.": {
+  "hosts": [
+   "www.itt.com",
+   "itt.com",
+   "careers.ittinc.com",
+   "jobs.ittinc.com",
+   "www.ittinc.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Illinois Tool Works": {
+  "hosts": [
+   "careers.itw.com",
+   "jobs.itw.com",
+   "www.itw.com",
+   "itw.com",
+   "www.illinoistoolworks.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Illinois Tool Works",
+     "host": "careers.itw.com",
+     "lang": "en_us",
+     "page_id": "page19",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.itw.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Ingersoll Rand": {
+  "hosts": [
+   "careers.irco.com",
+   "www.irco.com",
+   "irco.com",
+   "careers.ingersollrand.com",
+   "www.ingersollrand.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "KUKA": {
+  "hosts": [
+   "jobs.kuka.com",
+   "www.kuka.com",
+   "kuka.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "KUKA",
+     "host": "jobs.kuka.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.kuka.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Legrand": {
+  "hosts": [
+   "careers.legrand.com",
+   "www.legrand.com",
+   "legrand.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lennox": {
+  "hosts": [
+   "www.lennox.com",
+   "lennox.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Lincoln Electric": {
+  "hosts": [
+   "jobs.lincolnelectric.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Lincoln Electric",
+     "host": "jobs.lincolnelectric.com"
+    },
+    "india_jobs": 8,
+    "found_on": "jobs.lincolnelectric.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Masco": {
+  "hosts": [
+   "jobs.masco.com",
+   "www.masco.com",
+   "masco.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Masco",
+     "host": "jobs.masco.com",
+     "lang": "en_us",
+     "page_id": "page7",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.masco.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Mattel": {
+  "hosts": [
+   "careers.mattel.com",
+   "jobs.mattel.com",
+   "www.mattel.com",
+   "mattel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Molex": {
+  "hosts": [
+   "www.molex.com",
+   "molex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Newell Brands": {
+  "hosts": [
+   "careers.newellbrands.com",
+   "jobs.newellbrands.com",
+   "www.newellbrands.com",
+   "newellbrands.com",
+   "careers.newell-brands.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nordson": {
+  "hosts": [
+   "www.nordson.com",
+   "nordson.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Oshkosh": {
+  "hosts": [
+   "www.oshkosh.com",
+   "oshkosh.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Otis": {
+  "hosts": [
+   "www.otis.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Otis",
+     "host": "otis.wd504.myworkdayjobs.com",
+     "tenant": "otis",
+     "site": "REC_Ext_Gateway"
+    },
+    "india_jobs": 42,
+    "found_on": "www.otis.com"
+   }
+  ],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Paccar": {
+  "hosts": [
+   "jobs.paccar.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Paccar",
+     "host": "jobs.paccar.com"
+    },
+    "india_jobs": 20,
+    "found_on": "jobs.paccar.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Pegatron": {
+  "hosts": [
+   "www.pegatron.com",
+   "pegatron.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Phoenix Contact": {
+  "hosts": [
+   "jobs.phoenixcontact.com",
+   "www.phoenixcontact.com",
+   "phoenixcontact.com",
+   "www.phoenix-contact.com",
+   "phoenix-contact.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SICK": {
+  "hosts": [
+   "jobs.sick.com",
+   "www.sick.com",
+   "sick.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SKF": {
+  "hosts": [
+   "www.skf.com",
+   "skf.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sanmina": {
+  "hosts": [
+   "jobs.sanmina.com",
+   "www.sanmina.com",
+   "sanmina.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "TE Connectivity": {
+  "hosts": [
+   "careers.te.com",
+   "jobs.te.com",
+   "www.te.com",
+   "te.com",
+   "www.teconnectivity.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tetra Pak": {
+  "hosts": [
+   "jobs.tetrapak.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Tetra Pak",
+     "host": "jobs.tetrapak.com"
+    },
+    "india_jobs": 4,
+    "found_on": "jobs.tetrapak.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Timken": {
+  "hosts": [
+   "careers.timken.com",
+   "www.timken.com",
+   "timken.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Whirlpool": {
+  "hosts": [
+   "jobs.whirlpool.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Whirlpool",
+     "host": "whirlpool.eightfold.ai",
+     "domain": "whirlpool.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 16,
+    "found_on": "jobs.whirlpool.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Yaskawa": {
+  "hosts": [
+   "www.yaskawa.com",
+   "yaskawa.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

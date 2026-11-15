@@ -1,0 +1,87 @@
+{
+ "Alcoa": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "alcoa.wd5.myworkdayjobs.com",
+    "tenant": "alcoa",
+    "site": "Careers",
+    "name": "Alcoa"
+   },
+   "india_jobs": 0,
+   "site_total": 116,
+   "facet": false
+  }
+ ],
+ "Anglo American": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "american.wd1.myworkdayjobs.com",
+    "tenant": "american",
+    "site": "AU",
+    "name": "Anglo American"
+   },
+   "india_jobs": 0,
+   "site_total": 92,
+   "facet": false
+  }
+ ],
+ "ArcelorMittal": [],
+ "Aurubis": [],
+ "BHP": [],
+ "Barrick Mining": [],
+ "Epiroc": [],
+ "Freeport-McMoRan": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "freeport-mcmoran",
+    "name": "Freeport-McMoRan"
+   },
+   "india_jobs": 0,
+   "site_total": 10
+  }
+ ],
+ "Glencore": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "glencore.wd3.myworkdayjobs.com",
+    "tenant": "glencore",
+    "site": "astronenergy",
+    "name": "Glencore"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "JFE Steel": [],
+ "Metso": [],
+ "Newmont": [],
+ "Nippon Steel": [],
+ "Norsk Hydro": [],
+ "Nucor": [],
+ "Outokumpu": [],
+ "POSCO": [],
+ "Rio Tinto": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "riotinto.wd3.myworkdayjobs.com",
+    "tenant": "riotinto",
+    "site": "RioTinto_Careers",
+    "name": "Rio Tinto"
+   },
+   "india_jobs": 4,
+   "site_total": 168,
+   "facet": false
+  }
+ ],
+ "SSAB": [],
+ "Umicore": [],
+ "Vale": [],
+ "thyssenkrupp": [],
+ "voestalpine": []
+}

@@ -36,16 +36,17 @@ print("\nRepository ready!")
 # 4. Check Python version
 subprocess.run(["python3", "--version"], check=True)
 
-# 5. Run scraper
+# 5. Run scraper (keywords are not built in: type them, e.g. sre,devops,kubernetes,mlops or java,testing)
+KEYWORDS = input("Job keywords, comma separated: ").strip()
 print("\nStarting job scraper...\n")
 
 subprocess.run(
-    ["python3", "fintech_scrape_jobs.py", "--show-all"],
+    ["python3", "fintech_scrape_jobs.py", "--keywords", KEYWORDS, "--show-all"],
     check=True
 )
 
 # 6. Locate today's report
-REPORT = REPO_DIR / "output" / TODAY / "report.html"
+REPORT = REPO_DIR / "output" / "fintech" / TODAY / "report.html"
 
 if not REPORT.exists():
     raise FileNotFoundError(

@@ -1,0 +1,81 @@
+{
+ "Agoda": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "agoda",
+    "name": "Agoda"
+   },
+   "india_jobs": 14,
+   "site_total": 355
+  }
+ ],
+ "Airbnb": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "airbnb",
+    "name": "Airbnb"
+   },
+   "india_jobs": 14,
+   "site_total": 214
+  }
+ ],
+ "Amadeus": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "amadeus.wd502.myworkdayjobs.com",
+    "tenant": "amadeus",
+    "site": "jobs",
+    "name": "Amadeus"
+   },
+   "india_jobs": 15,
+   "site_total": 164,
+   "facet": true
+  }
+ ],
+ "Booking Holdings": [],
+ "Expedia Group": [],
+ "SITA": [],
+ "Sabre": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sabre.wd1.myworkdayjobs.com",
+    "tenant": "sabre",
+    "site": "SabreJobs",
+    "name": "Sabre"
+   },
+   "india_jobs": 34,
+   "site_total": 94,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sabre.wd1.myworkdayjobs.com",
+    "tenant": "sabre",
+    "site": "confidential",
+    "name": "Sabre"
+   },
+   "india_jobs": 1,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "TUI Group": [],
+ "Travelport": [],
+ "Trip.com Group": [],
+ "Tripadvisor": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "tripadvisor",
+    "name": "Tripadvisor"
+   },
+   "india_jobs": 0,
+   "site_total": 14
+  }
+ ]
+}

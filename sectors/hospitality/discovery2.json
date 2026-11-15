@@ -1,0 +1,201 @@
+{
+ "Accor": {
+  "hosts": [
+   "careers.accor.com",
+   "www.accor.com",
+   "accor.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Best Western": {
+  "hosts": [
+   "jobs.bestwestern.com",
+   "www.bestwestern.com",
+   "bestwestern.com",
+   "www.best-western.com",
+   "best-western.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Choice Hotels": {
+  "hosts": [
+   "careers.choicehotels.com",
+   "jobs.choicehotels.com",
+   "www.choicehotels.com",
+   "choicehotels.com",
+   "careers.choice-hotels.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Four Seasons": {
+  "hosts": [
+   "careers.fourseasons.com",
+   "www.fourseasons.com",
+   "fourseasons.com",
+   "www.four-seasons.com",
+   "four-seasons.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Four Seasons",
+     "host": "careers.fourseasons.com",
+     "lang": "en_us",
+     "page_id": "page17",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.fourseasons.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Hilton": {
+  "hosts": [
+   "careers.hilton.com",
+   "jobs.hilton.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Hilton",
+     "host": "efet.fa.us2.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 10,
+    "found_on": "jobs.hilton.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Hyatt": {
+  "hosts": [
+   "careers.hyatt.com",
+   "jobs.hyatt.com",
+   "www.hyatt.com",
+   "hyatt.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "IHG Hotels & Resorts": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Mandarin Oriental": {
+  "hosts": [
+   "careers.mandarinoriental.com",
+   "www.mandarinoriental.com",
+   "mandarinoriental.com",
+   "mandarin-oriental.com",
+   "www.mandarin.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Marriott International": {
+  "hosts": [
+   "careers.marriott.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Marriott International",
+     "host": "ejwl.fa.us2.oraclecloud.com",
+     "site": "CX"
+    },
+    "india_jobs": 17,
+    "found_on": "careers.marriott.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Meliá Hotels International": {
+  "hosts": [
+   "www.meliahotels.com",
+   "meliahotels.com",
+   "www.melia-hotels.com",
+   "melia-hotels.com",
+   "careers.melia.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Meliá Hotels International",
+     "host": "careers.melia.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.melia.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Minor Hotels": {
+  "hosts": [
+   "careers.minorhotels.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Minor Hotels",
+     "host": "minor.wd102.myworkdayjobs.com",
+     "tenant": "minor",
+     "site": "Careers"
+    },
+    "india_jobs": 3,
+    "found_on": "careers.minorhotels.com"
+   },
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Minor Hotels",
+     "company_id": "MinorInternational"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.minorhotels.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Radisson Hotel Group": {
+  "hosts": [
+   "careers.radissonhotel.com",
+   "jobs.radissonhotel.com",
+   "www.radissonhotel.com",
+   "radissonhotel.com",
+   "careers.radisson-hotel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Shangri-La": {
+  "hosts": [
+   "careers.shangrila.com",
+   "jobs.shangrila.com",
+   "www.shangrila.com",
+   "shangrila.com",
+   "www.shangri-la.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Wyndham Hotels & Resorts": {
+  "hosts": [
+   "www.wyndhamhotelsresorts.com",
+   "wyndhamhotelsresorts.com",
+   "www.wyndham.com",
+   "wyndham.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

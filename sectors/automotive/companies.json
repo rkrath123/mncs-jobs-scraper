@@ -1,0 +1,89 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "generalmotors.wd5.myworkdayjobs.com",
+   "tenant": "generalmotors",
+   "site": "Careers_GM",
+   "name": "General Motors"
+  },
+  {
+   "host": "stellantis.wd3.myworkdayjobs.com",
+   "tenant": "stellantis",
+   "site": "External_Career_Site_ID01",
+   "name": "Stellantis"
+  },
+  {
+   "host": "valeo.wd3.myworkdayjobs.com",
+   "tenant": "valeo",
+   "site": "valeo_jobs",
+   "name": "Valeo"
+  },
+  {
+   "host": "magna.wd3.myworkdayjobs.com",
+   "tenant": "magna",
+   "site": "Magna",
+   "name": "Magna International"
+  },
+  {
+   "host": "aptiv.wd5.myworkdayjobs.com",
+   "tenant": "aptiv",
+   "site": "APTIV_CAREERS",
+   "name": "Aptiv"
+  },
+  {
+   "host": "borgwarner.wd5.myworkdayjobs.com",
+   "tenant": "borgwarner",
+   "site": "BorgWarner_Careers",
+   "name": "BorgWarner"
+  },
+  {
+   "host": "goodyear.wd1.myworkdayjobs.com",
+   "tenant": "goodyear",
+   "site": "GoodyearCareers",
+   "name": "Goodyear"
+  },
+  {
+   "host": "polaris.wd5.myworkdayjobs.com",
+   "tenant": "polaris",
+   "site": "PolarisJobs",
+   "name": "Polaris"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "company_id": "continental",
+   "name": "Continental"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Schaeffler",
+   "host": "jobs.schaeffler.com"
+  },
+  {
+   "name": "Volvo Group",
+   "host": "jobs.volvogroup.com"
+  },
+  {
+   "name": "Marelli",
+   "host": "jobs.marelli.com"
+  },
+  {
+   "name": "ZF",
+   "host": "jobs.zf.com"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Ford",
+   "host": "efds.fa.em5.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Garrett Motion",
+   "host": "ehth.fa.em2.oraclecloud.com",
+   "site": "CX_2001"
+  }
+ ]
+}

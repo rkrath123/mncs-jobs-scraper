@@ -1,0 +1,89 @@
+{
+ "workday": [
+  {
+   "name": "AT&T",
+   "host": "att.wd1.myworkdayjobs.com",
+   "tenant": "att",
+   "site": "ATTGeneral"
+  },
+  {
+   "name": "Ciena",
+   "host": "ciena.wd5.myworkdayjobs.com",
+   "tenant": "ciena",
+   "site": "Careers"
+  },
+  {
+   "name": "Cisco",
+   "host": "cisco.wd5.myworkdayjobs.com",
+   "tenant": "cisco",
+   "site": "Cisco_Careers"
+  },
+  {
+   "name": "Mavenir",
+   "host": "mavenir.wd1.myworkdayjobs.com",
+   "tenant": "mavenir",
+   "site": "Mavenir_Careers"
+  },
+  {
+   "name": "Motorola Solutions",
+   "host": "motorolasolutions.wd5.myworkdayjobs.com",
+   "tenant": "motorolasolutions",
+   "site": "Careers"
+  },
+  {
+   "name": "Telstra",
+   "host": "telstra.wd3.myworkdayjobs.com",
+   "tenant": "telstra",
+   "site": "Telstra_Careers"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "Arista Networks",
+   "company_id": "aristanetworks"
+  }
+ ],
+ "lever": [
+  {
+   "name": "Extreme Networks",
+   "company_id": "extremenetworks"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Qualcomm",
+   "host": "qualcomm.eightfold.ai",
+   "domain": "qualcomm.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Ericsson",
+   "host": "ericsson.eightfold.ai",
+   "domain": "ericsson.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Vodafone Group",
+   "host": "vodafone.eightfold.ai",
+   "domain": "vodafone.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Amdocs",
+   "host": "amdocs.eightfold.ai",
+   "domain": "amdocs.com",
+   "api": "pcsx"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "CommScope",
+   "host": "jobs.commscope.com"
+  },
+  {
+   "name": "BT Group",
+   "host": "jobs.bt.com"
+  }
+ ],
+ "manual": []
+}

@@ -1,0 +1,62 @@
+{
+ "Elsevier": {
+  "hosts": [
+   "www.relx.com",
+   "relx.com",
+   "jobs.relx.io",
+   "careers.relx.io",
+   "careers.elsevier.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "LexisNexis": {
+  "hosts": [
+   "jobs.lexisnexis.com",
+   "www.lexisnexis.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "LexisNexis",
+     "host": "relx.wd3.myworkdayjobs.com",
+     "tenant": "relx",
+     "site": "LexisNexisLegal"
+    },
+    "india_jobs": 5,
+    "found_on": "www.lexisnexis.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Relativity": {
+  "hosts": [
+   "careers.relativity.com",
+   "www.relativity.com",
+   "relativity.com",
+   "jobs.relativity.io",
+   "careers.relativity.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Verisk": {
+  "hosts": [
+   "www.verisk.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Verisk",
+     "host": "fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 15,
+    "found_on": "www.verisk.com"
+   }
+  ],
+  "unsupported": []
+ }
+}

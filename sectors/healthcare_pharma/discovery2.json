@@ -1,0 +1,542 @@
+{
+ "Align Technology": {
+  "hosts": [
+   "careers.align.com",
+   "www.align.com",
+   "align.com",
+   "www.aligntechnology.com",
+   "aligntechnology.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Astellas Pharma": {
+  "hosts": [
+   "careers.astellas.com",
+   "www.astellas.com",
+   "astellas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Avantor": {
+  "hosts": [
+   "www.avantor.com",
+   "avantor.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "B. Braun": {
+  "hosts": [
+   "jobs.bbraun.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "B. Braun",
+     "host": "jobs.bbraun.com"
+    },
+    "india_jobs": 13,
+    "found_on": "jobs.bbraun.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Bayer": {
+  "hosts": [
+   "careers.bayer.com",
+   "jobs.bayer.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Bayer",
+     "host": "jobs.bayer.com"
+    },
+    "india_jobs": 9,
+    "found_on": "jobs.bayer.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Beckman Coulter": {
+  "hosts": [
+   "www.beckman.com",
+   "beckman.com",
+   "www.beckmancoulter.com",
+   "beckmancoulter.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Becton Dickinson": {
+  "hosts": [
+   "jobs.bd.com",
+   "www.bd.com",
+   "bd.com",
+   "careers.bectondickinson.com",
+   "jobs.bectondickinson.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bio-Rad": {
+  "hosts": [
+   "careers.bio-rad.com",
+   "www.bio-rad.com",
+   "bio-rad.com",
+   "www.biorad.com",
+   "biorad.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bio-Rad Laboratories": {
+  "hosts": [
+   "careers.bioradlaboratories.com",
+   "jobs.bioradlaboratories.com",
+   "www.bioradlaboratories.com",
+   "bioradlaboratories.com",
+   "www.bio-rad-laboratories.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Boehringer Ingelheim": {
+  "hosts": [
+   "careers.boehringer-ingelheim.com",
+   "jobs.boehringer-ingelheim.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Boehringer Ingelheim",
+     "host": "jobs.boehringer-ingelheim.com"
+    },
+    "india_jobs": 1,
+    "found_on": "jobs.boehringer-ingelheim.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Bruker": {
+  "hosts": [
+   "www.bruker.com",
+   "bruker.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "CSL": {
+  "hosts": [
+   "jobs.csl.com",
+   "www.csl.com",
+   "csl.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CVS Health": {
+  "hosts": [
+   "careers.cvshealth.com",
+   "jobs.cvshealth.com",
+   "www.cvshealth.com",
+   "cvshealth.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "CVS Health",
+     "host": "jobs.cvshealth.com",
+     "lang": "en_us",
+     "page_id": "page18",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.cvshealth.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Catalent": {
+  "hosts": [
+   "careers.catalent.com",
+   "www.catalent.com",
+   "catalent.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Catalent",
+     "host": "careers.catalent.com",
+     "lang": "en_us",
+     "page_id": "page1",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.catalent.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Centene": {
+  "hosts": [
+   "jobs.centene.com",
+   "www.centene.com",
+   "centene.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Daiichi Sankyo": {
+  "hosts": [
+   "careers.daiichisankyo.com",
+   "www.daiichisankyo.com",
+   "daiichisankyo.com",
+   "www.daiichi.com",
+   "daiichi.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Daiichi Sankyo",
+     "host": "careers.daiichisankyo.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.daiichisankyo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Dentsply Sirona": {
+  "hosts": [
+   "careers.dentsplysirona.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Dentsply Sirona",
+     "host": "careers.dentsplysirona.com"
+    },
+    "india_jobs": 1,
+    "found_on": "careers.dentsplysirona.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Eisai": {
+  "hosts": [
+   "careers.eisai.com",
+   "www.eisai.com",
+   "eisai.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Eisai",
+     "host": "careers.eisai.com",
+     "lang": "en_us",
+     "page_id": "page15",
+     "region": "us/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.eisai.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Eli Lilly": {
+  "hosts": [
+   "careers.lilly.com",
+   "jobs.lilly.com",
+   "www.lilly.com",
+   "lilly.com",
+   "www.elililly.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "EssilorLuxottica": {
+  "hosts": [
+   "careers.essilorluxottica.com",
+   "jobs.essilorluxottica.com",
+   "www.essilorluxottica.com",
+   "essilorluxottica.com",
+   "careers.luxottica.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "EssilorLuxottica",
+     "host": "jobs.essilorluxottica.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.essilorluxottica.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Fujifilm": {
+  "hosts": [
+   "careers.fujifilm.com",
+   "www.fujifilm.com",
+   "fujifilm.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Henry Schein": {
+  "hosts": [
+   "www.henryschein.com",
+   "henryschein.com",
+   "www.henry-schein.com",
+   "www.henry.com",
+   "henry.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hologic": {
+  "hosts": [
+   "careers.hologic.com",
+   "jobs.hologic.com",
+   "www.hologic.com",
+   "hologic.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Humana": {
+  "hosts": [
+   "careers.humana.com",
+   "www.humana.com",
+   "humana.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Humana",
+     "host": "careers.humana.com",
+     "lang": "en_us",
+     "page_id": "page24",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.humana.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "IDEXX Laboratories": {
+  "hosts": [
+   "www.idexxlaboratories.com",
+   "idexxlaboratories.com",
+   "careers.idexx.com",
+   "jobs.idexx.com",
+   "www.idexx.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lundbeck": {
+  "hosts": [
+   "www.lundbeck.com",
+   "lundbeck.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Merck KGaA": {
+  "hosts": [
+   "careers.emdgroup.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Merck KGaA",
+     "host": "careers.emdgroup.com",
+     "lang": "en_us",
+     "page_id": "page14",
+     "region": "global/en"
+    },
+    "india_jobs": 13,
+    "found_on": "careers.emdgroup.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Moderna": {
+  "hosts": [
+   "jobs.modernatx.com",
+   "www.modernatx.com",
+   "modernatx.com",
+   "www.moderna.com",
+   "moderna.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Olympus": {
+  "hosts": [
+   "www.olympus.com",
+   "olympus.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Optum": {
+  "hosts": [
+   "careers.uhg.com",
+   "www.uhg.com",
+   "uhg.com",
+   "www.optum.com",
+   "optum.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "taleo"
+  ]
+ },
+ "Otsuka": {
+  "hosts": [
+   "www.otsuka.com",
+   "otsuka.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Siemens Healthineers": {
+  "hosts": [
+   "careers.siemens-healthineers.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Siemens Healthineers",
+     "host": "careers.siemens-healthineers.com",
+     "lang": "en_global",
+     "page_id": "page22",
+     "region": "global/en"
+    },
+    "india_jobs": 23,
+    "found_on": "careers.siemens-healthineers.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Teleflex": {
+  "hosts": [
+   "careers.teleflex.com",
+   "www.teleflex.com",
+   "teleflex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Teva": {
+  "hosts": [
+   "www.tevapharm.com",
+   "tevapharm.com",
+   "www.teva.com",
+   "teva.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "UCB": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "UnitedHealth Group": {
+  "hosts": [
+   "careers.uhg.com",
+   "www.uhg.com",
+   "uhg.com",
+   "careers.unitedhealthgroup.com",
+   "www.unitedhealthgroup.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "taleo"
+  ]
+ },
+ "Varian": {
+  "hosts": [
+   "www.varian.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Varian",
+     "host": "onehealthineers.wd3.myworkdayjobs.com",
+     "tenant": "onehealthineers",
+     "site": "SHSJB"
+    },
+    "india_jobs": 19,
+    "found_on": "www.varian.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Vertex Pharmaceuticals": {
+  "hosts": [
+   "careers.vrtx.com",
+   "jobs.vrtx.com",
+   "www.vrtx.com",
+   "vrtx.com",
+   "www.vertex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Waters Corporation": {
+  "hosts": [
+   "www.waters.com",
+   "waters.com",
+   "careers.waterscorporation.com",
+   "jobs.waterscorporation.com",
+   "www.waterscorporation.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Zimmer Biomet": {
+  "hosts": [
+   "careers.zimmerbiomet.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Zimmer Biomet",
+     "host": "careers.zimmerbiomet.com",
+     "lang": "en_us",
+     "page_id": "page19",
+     "region": "global/en"
+    },
+    "india_jobs": 21,
+    "found_on": "careers.zimmerbiomet.com"
+   }
+  ],
+  "unsupported": []
+ }
+}

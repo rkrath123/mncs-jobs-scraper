@@ -1,0 +1,378 @@
+sector,company,ATS,career_url,last_status
+aerospace_defence,Airbus,workday,https://ag.wd3.myworkdayjobs.com/Airbus,ok
+aerospace_defence,Boeing,workday,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS,FAILED
+aerospace_defence,GE Aerospace,workday,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite,FAILED
+aerospace_defence,Moog,workday,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site,FAILED
+aerospace_defence,RTX,workday,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway,FAILED
+aerospace_defence,Thales,workday,https://thales.wd3.myworkdayjobs.com/Careers,ok
+aerospace_defence,Woodward,workday,https://woodward.wd5.myworkdayjobs.com/woodward,FAILED
+agriculture,Corteva Agriscience,workday,https://corteva.wd5.myworkdayjobs.com/Corteva,FAILED
+agriculture,FMC Corporation,workday,https://fmc.wd12.myworkdayjobs.com/FMC,ok
+agriculture,Valmont Industries,workday,https://valmont.wd1.myworkdayjobs.com/ValmontCareers,FAILED
+airlines_aviation,AirAsia,workday,https://airasia.wd3.myworkdayjobs.com/Careers,ok
+automotive,Aptiv,workday,https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS,FAILED
+automotive,BorgWarner,workday,https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers,FAILED
+automotive,Continental,smartrecruiters,https://jobs.smartrecruiters.com/continental,ok
+automotive,General Motors,workday,https://generalmotors.wd5.myworkdayjobs.com/Careers_GM,FAILED
+automotive,Goodyear,workday,https://goodyear.wd1.myworkdayjobs.com/GoodyearCareers,FAILED
+automotive,Magna International,workday,https://magna.wd3.myworkdayjobs.com/Magna,ok
+automotive,Polaris,workday,https://polaris.wd5.myworkdayjobs.com/PolarisJobs,FAILED
+automotive,Schaeffler,sf_rss,https://jobs.schaeffler.com/search/,FAILED
+automotive,Stellantis,workday,https://stellantis.wd3.myworkdayjobs.com/External_Career_Site_ID01,ok
+automotive,Valeo,workday,https://valeo.wd3.myworkdayjobs.com/valeo_jobs,ok
+automotive,Volvo Group,sf_rss,https://jobs.volvogroup.com/search/,ok
+chemicals_materials,Albemarle,workday,https://albemarle.wd5.myworkdayjobs.com/External,FAILED
+chemicals_materials,Ashland,workday,https://ashland.wd12.myworkdayjobs.com/AshlandCareers1,ok
+chemicals_materials,Avery Dennison,smartrecruiters,https://jobs.smartrecruiters.com/averydennison,ok
+chemicals_materials,Chemours,workday,https://chemours.wd103.myworkdayjobs.com/Chemours,ok
+chemicals_materials,Dow,workday,https://dow.wd1.myworkdayjobs.com/ExternalCareers,FAILED
+chemicals_materials,Evonik,workday,https://evonik.wd3.myworkdayjobs.com/External_Careers,ok
+chemicals_materials,Huntsman,workday,https://huntsman.wd1.myworkdayjobs.com/Huntsman,FAILED
+chemicals_materials,International Flavors & Fragrances,workday,https://iff.wd5.myworkdayjobs.com/IFF_Careers,FAILED
+chemicals_materials,LyondellBasell,sf_rss,https://careers.lyondellbasell.com/search/,ok
+chemicals_materials,Mitsubishi Chemical Group,workday,https://mitsubishichemicalgroup.wd3.myworkdayjobs.com/MCCGroupCareers,ok
+cybersecurity,Check Point,smartrecruiters,https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2,ok
+cybersecurity,CrowdStrike,workday,https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers,FAILED
+cybersecurity,Entrust,workday,https://entrust.wd1.myworkdayjobs.com/EntrustCareers,FAILED
+cybersecurity,F5,workday,https://ffive.wd5.myworkdayjobs.com/f5jobs,FAILED
+cybersecurity,Fortinet,oracle,https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001,ok
+cybersecurity,McAfee,jibe,https://careers.mcafee.com/jobs,ok
+cybersecurity,Mimecast,workday,https://mimecast.wd5.myworkdayjobs.com/Mimecast-Careers,FAILED
+cybersecurity,Netskope,greenhouse,https://boards.greenhouse.io/netskope,ok
+cybersecurity,Okta,greenhouse,https://boards.greenhouse.io/okta,ok
+cybersecurity,Palo Alto Networks,workday,https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers,FAILED
+cybersecurity,Ping Identity,greenhouse,https://boards.greenhouse.io/pingidentity,ok
+cybersecurity,Proofpoint,workday,https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers,FAILED
+cybersecurity,Qualys,workday,https://qualys.wd5.myworkdayjobs.com/Careers,FAILED
+cybersecurity,Recorded Future,greenhouse,https://boards.greenhouse.io/recordedfuture,ok
+cybersecurity,SailPoint,workday,https://sailpoint.wd1.myworkdayjobs.com/SailPoint,FAILED
+cybersecurity,Trellix,workday,https://trellix.wd1.myworkdayjobs.com/EnterpriseCareers,FAILED
+cybersecurity,Trend Micro,workday,https://trendmicro.wd3.myworkdayjobs.com/External,ok
+cybersecurity,Zscaler,greenhouse,https://boards.greenhouse.io/zscaler,ok
+data_information,Clarivate,workday,https://clarivate.wd3.myworkdayjobs.com/Clarivate_Careers,ok
+data_information,RELX,workday,https://relx.wd3.myworkdayjobs.com/relx,ok
+data_information,Thomson Reuters,workday,https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site,FAILED
+ecommerce_retail,Advance Auto Parts,workday,https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers,FAILED
+ecommerce_retail,Coupang,greenhouse,https://boards.greenhouse.io/coupang,ok
+ecommerce_retail,eBay,workday,https://ebay.wd5.myworkdayjobs.com/apply,FAILED
+ecommerce_retail,Gap,workday,https://gapinc.wd1.myworkdayjobs.com/GAPINC,FAILED
+ecommerce_retail,LEGO,workday,https://lego.wd103.myworkdayjobs.com/LEGO_External,ok
+ecommerce_retail,Lowe’s,workday,https://lowes.wd5.myworkdayjobs.com/LWS_External_CS,FAILED
+ecommerce_retail,Nike,workday,https://nike.wd1.myworkdayjobs.com/nke,FAILED
+ecommerce_retail,Richemont,workday,https://richemont.wd3.myworkdayjobs.com/richemont,ok
+ecommerce_retail,Target,workday,https://target.wd5.myworkdayjobs.com/targetcareers,FAILED
+ecommerce_retail,TJX,workday,https://tjx.wd1.myworkdayjobs.com/TJX_EXTERNAL,FAILED
+education_publishing,Cengage,workday,https://cengage.wd5.myworkdayjobs.com/CengageIndiaCareers,FAILED
+education_publishing,Coursera,greenhouse,https://boards.greenhouse.io/coursera,ok
+education_publishing,Duolingo,greenhouse,https://boards.greenhouse.io/duolingo,ok
+education_publishing,McGraw Hill,jibe,https://careers.mheducation.com/jobs,ok
+education_publishing,Springer Nature,workday,https://springernature.wd3.myworkdayjobs.com/SpringerNatureCareers,ok
+education_publishing,Wiley,workday,https://wiley.wd1.myworkdayjobs.com/wiley_careers,FAILED
+energy,ABB,workday,https://abb.wd3.myworkdayjobs.com/External_Career_Page,ok
+energy,ABS,oracle,https://hbbq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,Air Products,workday,https://airproducts.wd5.myworkdayjobs.com/AP0001,FAILED
+energy,Alstom,sf_rss,https://jobsearch.alstom.com/search/,FAILED
+energy,AspenTech,workday,https://aspentech.wd5.myworkdayjobs.com/AspenTech,FAILED
+energy,AtkinsRéalis,In-house (no public API found),https://careers.atkinsrealis.com/en/search-jobs,ok
+energy,AVEVA,workday,https://aveva.wd3.myworkdayjobs.com/AVEVA_careers,ok
+energy,Baker Hughes,workday,https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes,FAILED
+energy,Bentley Systems,workday,https://bentleysystems.wd5.myworkdayjobs.com/bentley,FAILED
+energy,BP,workday,https://bpinternational.wd3.myworkdayjobs.com/bpCareers,ok
+energy,Brookfield,workday,https://brookfield.wd5.myworkdayjobs.com/brookfield,FAILED
+energy,Bureau Veritas,sf_rss,https://careers.bureauveritas.com/search/,FAILED
+energy,Caterpillar,workday,https://cat.wd5.myworkdayjobs.com/CaterpillarCareers,FAILED
+energy,Chevron,workday,https://chevron.wd5.myworkdayjobs.com/jobs,FAILED
+energy,Cognite,greenhouse,https://boards.greenhouse.io/cognite,ok
+energy,Cummins,oracle,https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,Danfoss,sf_rss,https://jobs.danfoss.com/search/,ok
+energy,DNV,oracle,https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,Eaton,eightfold,https://eaton.eightfold.ai/careers,ok
+energy,Emerson,oracle,https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,ExxonMobil,sf_rss,https://jobs.exxonmobil.com/search/,ok
+energy,Flowserve,workday,https://flowserve.wd1.myworkdayjobs.com/applied,FAILED
+energy,Fluence Energy,workday,https://fluenceenergy.wd12.myworkdayjobs.com/fluenceenergy-jobs,ok
+energy,Fluor,eightfold,https://fluor.eightfold.ai/careers,ok
+energy,Fugro,workday,https://fugro.wd3.myworkdayjobs.com/Careers,ok
+energy,GE Vernova,workday,https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite,FAILED
+energy,Halliburton,sf_rss,https://jobs.halliburton.com/search/,ok
+energy,Hitachi Energy,workday,https://hitachi.wd1.myworkdayjobs.com/hitachi,FAILED
+energy,Honeywell,oracle,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell,ok
+energy,Intertek,oracle,https://hcog.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001,ok
+energy,Intertek,oracle,https://hcog.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,Itron,workday,https://itron.wd5.myworkdayjobs.com/Itron,FAILED
+energy,Jacobs,Avature (not supported yet),https://careers.jacobs.com/en_US/careers/SearchJobs,ok
+energy,Johnson Controls,workday,https://jci.wd5.myworkdayjobs.com/JCI,FAILED
+energy,KBR,workday,https://kbr.wd5.myworkdayjobs.com/KBR_Careers,FAILED
+energy,KSB,workday,https://ksb.wd3.myworkdayjobs.com/KSB_ExternalCareerSite,ok
+energy,NOV,oracle,https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001,ok
+energy,Oceaneering,oracle,https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,Parsons,workday,https://parsons.wd5.myworkdayjobs.com/Search,FAILED
+energy,Prysmian,workday,https://prysmiangroup.wd3.myworkdayjobs.com/Careers,ok
+energy,PTC,workday,https://ptc.wd1.myworkdayjobs.com/PTC,FAILED
+energy,Rockwell Automation,workday,https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation,FAILED
+energy,Rolls-Royce,workday,https://rollsroyce.wd3.myworkdayjobs.com/professional,ok
+energy,Schneider Electric,jibe,https://careers.se.com/jobs,ok
+energy,SGS,smartrecruiters,https://jobs.smartrecruiters.com/sgs,ok
+energy,Shell,workday,https://shell.wd3.myworkdayjobs.com/ShellCareers,ok
+energy,Siemens,In-house (site unreachable from scraper),https://jobs.siemens.com,ok
+energy,Siemens Energy,In-house (site unreachable from scraper),https://jobs.siemens-energy.com,ok
+energy,SLB,In-house (no public API found),https://careers.slb.com/job-listing,ok
+energy,Sulzer,workday,https://sulzer.wd502.myworkdayjobs.com/SulzerJobs,ok
+energy,Technip Energies,oracle,https://hcxg.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,TechnipFMC,sf_rss,https://careers.technipfmc.com/search/,ok
+energy,TotalEnergies,Avature (not supported yet),https://totalenergies.avature.net/en_US/careers/SearchJobs,ok
+energy,TÜV SÜD,sf_rss,https://jobs.tuvsud.com/search/,ok
+energy,UL Solutions,oracle,https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers,ok
+energy,Vertiv,oracle,https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX,ok
+energy,Vestas,sf_rss,https://careers.vestas.com/search/,FAILED
+energy,Weatherford,Unknown (blocks bots),https://careers.weatherford.com,ok
+energy,WEG,workday,https://weg.wd501.myworkdayjobs.com/Careers,ok
+energy,Wood,oracle,https://ehif.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+energy,Worley,eightfold,https://jobs.worley.com/careers,ok
+energy,Wärtsilä,sf_rss,https://careers.wartsila.com/search/,FAILED
+energy,Xylem,workday,https://xylem.wd5.myworkdayjobs.com/xylem-careers,FAILED
+energy,Yokogawa,workday,https://yokogawa.wd3.myworkdayjobs.com/yokogawa-career-site,ok
+fashion_lifestyle,New Balance,workday,https://newbalance.wd1.myworkdayjobs.com/Careers,FAILED
+fashion_lifestyle,Puma,workday,https://puma.wd502.myworkdayjobs.com/Jobs_at_Puma,ok
+fashion_lifestyle,PVH Corp.,workday,https://pvh.wd1.myworkdayjobs.com/PVH_Careers,FAILED
+fashion_lifestyle,Skechers,workday,https://skechers.wd5.myworkdayjobs.com/One-career-site,FAILED
+fintech,Adyen,greenhouse,https://boards.greenhouse.io/adyen,ok
+fintech,Allianz,phenom,https://careers.allianz.com/global/en/search-results,ok
+fintech,Allstate,workday,https://allstate.wd5.myworkdayjobs.com/allstate_careers,FAILED
+fintech,American Express,oracle,https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+fintech,Ameriprise,workday,https://ameriprise.wd5.myworkdayjobs.com/Ameriprise,FAILED
+fintech,ANZ,sf_rss,https://careers.anz.com/search/,ok
+fintech,Aon,jibe,https://jobs.aon.com/jobs,ok
+fintech,Avaloq,smartrecruiters,https://jobs.smartrecruiters.com/Avaloq1,ok
+fintech,AXA,jibe,https://careers.axa.com/jobs,ok
+fintech,Bank of America,bofa,https://careers.bankofamerica.com/,ok
+fintech,Barclays,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays,ok
+fintech,BlackRock,workday,https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional,FAILED
+fintech,Blackstone,workday,https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers,FAILED
+fintech,Block,greenhouse,https://boards.greenhouse.io/block,ok
+fintech,BNP Paribas,Unknown (blocks bots),https://group.bnpparibas/en/careers/all-job-offers,ok
+fintech,BNY,oracle,https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+fintech,Broadridge,workday,https://broadridge.wd5.myworkdayjobs.com/Careers,FAILED
+fintech,Capital One,workday,https://capitalone.wd12.myworkdayjobs.com/Capital_One,ok
+fintech,Chubb,oracle,https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001,ok
+fintech,Citi,workday,https://citi.wd5.myworkdayjobs.com/2,FAILED
+fintech,Citizens,radancy,https://jobs.citizensbank.com/search-jobs,ok
+fintech,Clearwater Analytics,greenhouse,https://boards.greenhouse.io/clearwater,ok
+fintech,CME Group,workday,https://cmegroup.wd1.myworkdayjobs.com/cme_careers,FAILED
+fintech,Coinbase,greenhouse,https://boards.greenhouse.io/coinbase,ok
+fintech,Commonwealth Bank,workday,https://cba.wd3.myworkdayjobs.com/CommBank_Careers,ok
+fintech,Corpay,workday,https://corpay.wd103.myworkdayjobs.com/Ext_001,ok
+fintech,D. E. Shaw,deshaw,https://www.deshaw.com/careers,ok
+fintech,DBS Bank,workday,https://dbs.wd3.myworkdayjobs.com/DBS_Careers,ok
+fintech,Deutsche Bank,workday,https://db.wd3.myworkdayjobs.com/DBWebsite,ok
+fintech,Dun & Bradstreet,lever,https://jobs.lever.co/dnb,ok
+fintech,Equifax,workday,https://equifax.wd5.myworkdayjobs.com/External,FAILED
+fintech,Experian,smartrecruiters,https://jobs.smartrecruiters.com/Experian,ok
+fintech,FactSet,workday,https://factset.wd108.myworkdayjobs.com/FactSetCareers,ok
+fintech,FICO,workday,https://fico.wd1.myworkdayjobs.com/External,FAILED
+fintech,Fidelity International,workday,https://fil.wd3.myworkdayjobs.com/001,ok
+fintech,Fidelity Investments,workday,https://fmr.wd1.myworkdayjobs.com/FidelityCareers,FAILED
+fintech,Finastra,workday,https://finastra.wd3.myworkdayjobs.com/FINC,ok
+fintech,First American,workday,https://firstam.wd1.myworkdayjobs.com/faicareers,FAILED
+fintech,FIS,workday,https://fis.wd5.myworkdayjobs.com/SearchJobs,FAILED
+fintech,Fiserv,workday,https://fiserv.wd5.myworkdayjobs.com/EXT,FAILED
+fintech,Gallagher,jibe,https://jobs.ajg.com/jobs,ok
+fintech,Global Payments,workday,https://tsys.wd1.myworkdayjobs.com/TSYS,FAILED
+fintech,Goldman Sachs,goldman,https://www.goldmansachs.com/careers/,ok
+fintech,Guidewire,workday,https://guidewire.wd5.myworkdayjobs.com/External,FAILED
+fintech,HSBC,eightfold,https://hsbc.eightfold.ai/careers,ok
+fintech,ICE,jibe,https://careers.ice.com/jobs,ok
+fintech,IG Group,workday,https://ig.wd103.myworkdayjobs.com/EXT_IG,ok
+fintech,Intuit,radancy,https://jobs.intuit.com/search-jobs,ok
+fintech,Invesco,workday,https://invesco.wd1.myworkdayjobs.com/IVZ,FAILED
+fintech,JPMorganChase,oracle,https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001,ok
+fintech,Lloyds Banking Group,workday,https://lbg.wd3.myworkdayjobs.com/LBG_Careers,ok
+fintech,Lloyds Technology Centre,workday,https://lbg.wd3.myworkdayjobs.com/Lloyds_Technology_Centre,ok
+fintech,LSEG,workday,https://lseg.wd3.myworkdayjobs.com/Careers,ok
+fintech,Marsh McLennan,workday,https://mmc.wd1.myworkdayjobs.com/MMC,FAILED
+fintech,Mastercard,workday,https://mastercard.wd1.myworkdayjobs.com/CorporateCareers,FAILED
+fintech,Moody's,radancy,https://careers.moodys.com/en/search-jobs,ok
+fintech,Morgan Stanley,workday,https://ms.wd5.myworkdayjobs.com/External,FAILED
+fintech,Morningstar,workday,https://morningstar.wd5.myworkdayjobs.com/Morningstar,FAILED
+fintech,Mr. Cooper,workday,https://nationstar.wd5.myworkdayjobs.com/MrCooper,FAILED
+fintech,MSCI,icims,https://globalcareers-msci.icims.com/jobs ; https://uscareers-msci.icims.com/jobs,ok
+fintech,MUFG,workday,https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers,ok
+fintech,NAB,workday,https://nab.wd3.myworkdayjobs.com/nab_careers,ok
+fintech,Nasdaq,workday,https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site,FAILED
+fintech,NatWest,workday,https://rbs.wd3.myworkdayjobs.com/RBS,ok
+fintech,Nium,lever,https://jobs.lever.co/nium,ok
+fintech,Northern Trust,workday,https://ntrs.wd1.myworkdayjobs.com/northerntrust,FAILED
+fintech,Payoneer,greenhouse,https://boards.greenhouse.io/payoneer,ok
+fintech,PayPal,workday,https://paypal.wd1.myworkdayjobs.com/jobs,FAILED
+fintech,Prudential,workday,https://prudential.wd3.myworkdayjobs.com/Prudential,ok
+fintech,Revolut,In-house (blocks bots),https://www.revolut.com/en-IN/careers/,ok
+fintech,S&P Global,workday,https://spgi.wd5.myworkdayjobs.com/SPGI_Careers,FAILED
+fintech,Societe Generale,Taleo / Algolia (not scrapable),https://careers.societegenerale.com/en/Technical/all-job-offers,ok
+fintech,SS&C Technologies,workday,https://ssctech.wd1.myworkdayjobs.com/SSCTechnologies,FAILED
+fintech,Standard Chartered,sf_rss,https://jobs.standardchartered.com/search/,ok
+fintech,State Street,workday,https://statestreet.wd1.myworkdayjobs.com/Global,FAILED
+fintech,Stripe,greenhouse,https://boards.greenhouse.io/stripe,ok
+fintech,Sun Life,workday,https://sunlife.wd3.myworkdayjobs.com/Experienced,ok
+fintech,Swiss Re,sf_rss,https://careers.swissre.com/search/,FAILED
+fintech,Synchrony,workday,https://synchronyfinancial.wd5.myworkdayjobs.com/Careers,FAILED
+fintech,TD,workday,https://td.wd3.myworkdayjobs.com/TD_Bank_Careers,ok
+fintech,Temenos,workday,https://temenos.wd103.myworkdayjobs.com/Temenoscareers,ok
+fintech,The Standard,workday,https://standard.wd1.myworkdayjobs.com/Search,FAILED
+fintech,TIAA,workday,https://tiaa.wd1.myworkdayjobs.com/Search,FAILED
+fintech,Tide,greenhouse,https://boards.greenhouse.io/tide,ok
+fintech,TransUnion,workday,https://transunion.wd5.myworkdayjobs.com/TransUnion,FAILED
+fintech,U.S. Bancorp,workday,https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers,FAILED
+fintech,UBS,brassring,https://jobs.ubs.com,FAILED
+fintech,Vanguard,workday,https://vanguard.wd5.myworkdayjobs.com/vanguard_external,FAILED
+fintech,Visa,workday,https://visa.wd5.myworkdayjobs.com/Visa,FAILED
+fintech,Voya,workday,https://godirect.wd5.myworkdayjobs.com/voya_jobs,FAILED
+fintech,Wells Fargo,workday,https://wd1.myworkdaysite.com/WellsFargoJobs,ok
+fintech,Western Union,workday,https://westernunion.wd5.myworkdayjobs.com/WesternUnionJobs,FAILED
+fintech,Wise,smartrecruiters,https://jobs.smartrecruiters.com/wise,ok
+fintech,Wolters Kluwer,workday,https://wk.wd3.myworkdayjobs.com/External,ok
+fintech,Worldline,sf_rss,https://jobs.worldline.com/search/,ok
+fintech,Worldpay,workday,https://worldpay.wd5.myworkdayjobs.com/Worldpay_External_Careers_Site,FAILED
+fmcg_food,Diageo,workday,https://diageo.wd3.myworkdayjobs.com/Diageo_Careers,ok
+fmcg_food,Ingredion,workday,https://ingredion.wd1.myworkdayjobs.com/IngredionCareers,FAILED
+fmcg_food,Kenvue,workday,https://kenvue.wd5.myworkdayjobs.com/kenvue,FAILED
+fmcg_food,Kimberly-Clark,workday,https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL,FAILED
+fmcg_food,Kraft Heinz,workday,https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers,FAILED
+fmcg_food,Louis Dreyfus Company,smartrecruiters,https://jobs.smartrecruiters.com/louisdreyfuscompany,ok
+fmcg_food,Mars,workday,https://mars.wd3.myworkdayjobs.com/External,ok
+fmcg_food,PepsiCo,jibe,https://www.pepsicojobs.com/jobs,ok
+fmcg_food,Procter & Gamble,workday,https://pg.wd5.myworkdayjobs.com/1000,FAILED
+fmcg_food,Tyson Foods,workday,https://tysonfoods.wd5.myworkdayjobs.com/TSN,FAILED
+fmcg_food,Unilever,workday,https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals,ok
+healthcare_pharma,Abbott,workday,https://abbott.wd5.myworkdayjobs.com/abbottcareers,FAILED
+healthcare_pharma,AbbVie,smartrecruiters,https://jobs.smartrecruiters.com/abbvie,ok
+healthcare_pharma,Agilent Technologies,workday,https://agilent.wd5.myworkdayjobs.com/Agilent_Careers,FAILED
+healthcare_pharma,Amgen,workday,https://amgen.wd1.myworkdayjobs.com/Careers,FAILED
+healthcare_pharma,AstraZeneca,workday,https://astrazeneca.wd3.myworkdayjobs.com/broadbean_external,ok
+healthcare_pharma,Baxter,workday,https://baxter.wd1.myworkdayjobs.com/baxter,FAILED
+healthcare_pharma,Biogen,workday,https://biibhr.wd3.myworkdayjobs.com/external,ok
+healthcare_pharma,Boston Scientific,eightfold,https://bostonscientific.eightfold.ai/careers,ok
+healthcare_pharma,Bristol Myers Squibb,workday,https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS,FAILED
+healthcare_pharma,Cardinal Health,workday,https://cardinalhealth.wd1.myworkdayjobs.com/EXT,FAILED
+healthcare_pharma,Cencora,phenom,https://careers.cencora.com/global/en/search-results,ok
+healthcare_pharma,Cigna,workday,https://cigna.wd5.myworkdayjobs.com/cignacareers,FAILED
+healthcare_pharma,Danaher,workday,https://danaher.wd1.myworkdayjobs.com/DanaherJobs,FAILED
+healthcare_pharma,Edwards Lifesciences,workday,https://edwards.wd5.myworkdayjobs.com/EdwardsCareers,FAILED
+healthcare_pharma,Elanco,workday,https://elanco.wd5.myworkdayjobs.com/External_Career,FAILED
+healthcare_pharma,Elevance Health,workday,https://elevancehealth.wd1.myworkdayjobs.com/carelonglobal_in,FAILED
+healthcare_pharma,GE HealthCare,workday,https://healthcare.wd1.myworkdayjobs.com/Search,FAILED
+healthcare_pharma,Gilead Sciences,workday,https://gilead.wd1.myworkdayjobs.com/gileadcareers,FAILED
+healthcare_pharma,GSK,workday,https://gsk.wd5.myworkdayjobs.com/GSKCareers,FAILED
+healthcare_pharma,Illumina,workday,https://illumina.wd1.myworkdayjobs.com/illumina-careers,FAILED
+healthcare_pharma,Intuitive,smartrecruiters,https://jobs.smartrecruiters.com/intuitive,ok
+healthcare_pharma,IQVIA,workday,https://iqvia.wd1.myworkdayjobs.com/IQVIA,FAILED
+healthcare_pharma,Johnson & Johnson,workday,https://jj.wd5.myworkdayjobs.com/JJ,FAILED
+healthcare_pharma,Labcorp,workday,https://labcorp.wd1.myworkdayjobs.com/External,FAILED
+healthcare_pharma,Lonza,workday,https://lonza.wd3.myworkdayjobs.com/Lonza_Careers,ok
+healthcare_pharma,McKesson,workday,https://mckesson.wd3.myworkdayjobs.com/External_Careers,ok
+healthcare_pharma,Medtronic,workday,https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers,FAILED
+healthcare_pharma,Merck & Co.,workday,https://msd.wd5.myworkdayjobs.com/SearchJobs,FAILED
+healthcare_pharma,Novartis,workday,https://novartis.wd3.myworkdayjobs.com/Novartis_Careers,ok
+healthcare_pharma,Novo Nordisk,sf_rss,https://careers.novonordisk.com/search/,FAILED
+healthcare_pharma,Pfizer,workday,https://pfizer.wd1.myworkdayjobs.com/PfizerCareers,FAILED
+healthcare_pharma,Philips,workday,https://philips.wd3.myworkdayjobs.com/jobs-and-careers,ok
+healthcare_pharma,Quest Diagnostics,oracle,https://hdox.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,ok
+healthcare_pharma,Regeneron,workday,https://regeneron.wd1.myworkdayjobs.com/Careers,FAILED
+healthcare_pharma,ResMed,workday,https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers,ok
+healthcare_pharma,Revvity,workday,https://revvity.wd103.myworkdayjobs.com/External,ok
+healthcare_pharma,Roche,workday,https://roche.wd3.myworkdayjobs.com/roche-ext,ok
+healthcare_pharma,Sanofi,workday,https://sanofi.wd3.myworkdayjobs.com/SanofiCareers,ok
+healthcare_pharma,Smith+Nephew,workday,https://smithnephew.wd5.myworkdayjobs.com/External,FAILED
+healthcare_pharma,Stryker,workday,https://stryker.wd1.myworkdayjobs.com/StrykerCareers,FAILED
+healthcare_pharma,Takeda,workday,https://takeda.wd502.myworkdayjobs.com/External,ok
+healthcare_pharma,Thermo Fisher Scientific,workday,https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers,FAILED
+healthcare_pharma,Zoetis,workday,https://zoetis.wd5.myworkdayjobs.com/broadbean_external,FAILED
+industrial_manufacturing,3M,workday,https://3m.wd1.myworkdayjobs.com/Search,FAILED
+industrial_manufacturing,Alfa Laval,workday,https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs,ok
+industrial_manufacturing,Carrier Global,workday,https://carrier.wd5.myworkdayjobs.com/jobs,FAILED
+industrial_manufacturing,Celestica,sf_rss,https://careers.celestica.com/search/,FAILED
+industrial_manufacturing,Dover,workday,https://dover.wd103.myworkdayjobs.com/Dover,ok
+industrial_manufacturing,Ecolab,workday,https://ecolab.wd1.myworkdayjobs.com/Ecolab_External,FAILED
+industrial_manufacturing,Fortive,eightfold,https://fortive.eightfold.ai/careers,ok
+industrial_manufacturing,GEA Group,workday,https://gea.wd3.myworkdayjobs.com/GEACareers,ok
+industrial_manufacturing,Jabil,workday,https://jabil.wd5.myworkdayjobs.com/Jabil_Careers,FAILED
+industrial_manufacturing,KONE,workday,https://kone.wd3.myworkdayjobs.com/Careers,ok
+industrial_manufacturing,Samsara,greenhouse,https://boards.greenhouse.io/samsara,ok
+industrial_manufacturing,Sandvik,workday,https://sandvik.wd3.myworkdayjobs.com/coromant-jobs,ok
+industrial_manufacturing,Stanley Black & Decker,workday,https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site,FAILED
+industrial_manufacturing,Terex,workday,https://terex.wd1.myworkdayjobs.com/terexcareers,FAILED
+industrial_manufacturing,Trane Technologies,workday,https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers,ok
+industrial_manufacturing,Trimble,workday,https://trimble.wd1.myworkdayjobs.com/TrimbleCareers,FAILED
+logistics_transport,C.H. Robinson,workday,https://chrobinson.wd5.myworkdayjobs.com/CHRobinson,FAILED
+logistics_transport,Cubic Corporation,workday,https://cubic.wd1.myworkdayjobs.com/cubic_global_careers,FAILED
+logistics_transport,Expeditors,smartrecruiters,https://jobs.smartrecruiters.com/expeditors,ok
+logistics_transport,Flexport,greenhouse,https://boards.greenhouse.io/flexport,ok
+logistics_transport,Hellmann Worldwide Logistics,workday,https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs,ok
+logistics_transport,Maersk,workday,https://maersk.wd3.myworkdayjobs.com/Maersk_Careers,ok
+logistics_transport,Wabtec,smartrecruiters,https://jobs.smartrecruiters.com/wabtec,ok
+media_entertainment,Fox Corporation,workday,https://fox.wd1.myworkdayjobs.com/Domestic,FAILED
+media_entertainment,Roku,greenhouse,https://boards.greenhouse.io/roku,ok
+media_entertainment,Spotify,lever,https://jobs.lever.co/spotify,ok
+media_entertainment,The Walt Disney Company,workday,https://disney.wd5.myworkdayjobs.com/disneycareerdc,FAILED
+media_entertainment,Warner Bros. Discovery,workday,https://warnerbros.wd5.myworkdayjobs.com/global,FAILED
+media_entertainment,Warner Music Group,lever,https://jobs.lever.co/wmg,ok
+mining_metals,Rio Tinto,workday,https://riotinto.wd3.myworkdayjobs.com/RioTinto_Careers,ok
+semiconductors_hardware,AMD,jibe,https://careers.amd.com/jobs,ok
+semiconductors_hardware,Analog Devices,workday,https://analogdevices.wd1.myworkdayjobs.com/External,FAILED
+semiconductors_hardware,Applied Materials,eightfold,https://appliedmaterials.eightfold.ai/careers,ok
+semiconductors_hardware,Broadcom,workday,https://broadcom.wd1.myworkdayjobs.com/External_Career,FAILED
+semiconductors_hardware,Cadence,workday,https://cadence.wd1.myworkdayjobs.com/External_Careers,FAILED
+semiconductors_hardware,Infineon,eightfold,https://infineon.eightfold.ai/careers,ok
+semiconductors_hardware,Intel,workday,https://intel.wd1.myworkdayjobs.com/External,FAILED
+semiconductors_hardware,Keysight Technologies,jibe,https://careers.keysight.com/jobs,ok
+semiconductors_hardware,KLA,workday,https://kla.wd1.myworkdayjobs.com/Search,FAILED
+semiconductors_hardware,Lam Research,eightfold,https://lamresearch.eightfold.ai/careers,ok
+semiconductors_hardware,Marvell,workday,https://marvell.wd1.myworkdayjobs.com/MarvellCareers,FAILED
+semiconductors_hardware,Micron Technology,workday,https://micron.wd1.myworkdayjobs.com/External,FAILED
+semiconductors_hardware,Monolithic Power Systems,workday,https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers,ok
+semiconductors_hardware,NVIDIA,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite,FAILED
+semiconductors_hardware,Texas Instruments,oracle,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX,ok
+semiconductors_hardware,Western Digital,smartrecruiters,https://jobs.smartrecruiters.com/westerndigital,ok
+software_cloud,Adobe,workday,https://adobe.wd5.myworkdayjobs.com/external_experienced,FAILED
+software_cloud,Amazon,amazon,https://www.amazon.jobs/,ok
+software_cloud,AppsFlyer,greenhouse,https://boards.greenhouse.io/appsflyer,ok
+software_cloud,Atlassian,atlassian,https://www.atlassian.com/company/careers/all-jobs,ok
+software_cloud,Commvault,greenhouse,https://boards.greenhouse.io/commvault,ok
+software_cloud,DocuSign,jibe,https://careers.docusign.com/jobs,ok
+software_cloud,HP,workday,https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite,FAILED
+software_cloud,HPE,workday,https://hpe.wd5.myworkdayjobs.com/Jobsathpe,FAILED
+software_cloud,Microsoft,Eightfold pcsx API rate-limits (HTTP 429) a full scan,https://apply.careers.microsoft.com/careers?query=devops&location=India&sort_by=timestamp,ok
+software_cloud,NetApp,sf_rss,https://jobs.netapp.com/search/,ok
+software_cloud,Oracle,oracle,https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001,FAILED
+software_cloud,Pitney Bowes,workday,https://pitneybowes.wd1.myworkdayjobs.com/PBCareers,FAILED
+software_cloud,PubMatic,greenhouse,https://boards.greenhouse.io/pubmatic,ok
+software_cloud,Pure Storage,greenhouse,https://boards.greenhouse.io/purestorage,ok
+software_cloud,Rubrik,greenhouse,https://boards.greenhouse.io/rubrik,ok
+software_cloud,Salesforce,workday,https://salesforce.wd12.myworkdayjobs.com/External_Career_Site,ok
+software_cloud,ServiceNow,smartrecruiters,https://jobs.smartrecruiters.com/servicenow,ok
+software_cloud,Snowflake,phenom,https://careers.snowflake.com/us/en/search-results,ok
+software_cloud,SUSE,workday,https://suse.wd3.myworkdayjobs.com/Jobsatsuse,ok
+software_cloud,Uber,oracle,https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers,ok
+software_cloud,Workday,workday,https://workday.wd5.myworkdayjobs.com/Workday,FAILED
+software_cloud,Zebra Technologies,workday,https://zebra.wd501.myworkdayjobs.com/Zebra_careers,ok
+software_cloud,Zendesk,workday,https://zendesk.wd1.myworkdayjobs.com/zendesk,FAILED
+software_cloud,Zillow,workday,https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External,FAILED
+telecom_networking,Amdocs,eightfold,https://amdocs.eightfold.ai/careers,ok
+telecom_networking,Arista Networks,smartrecruiters,https://jobs.smartrecruiters.com/aristanetworks,ok
+telecom_networking,AT&T,workday,https://att.wd1.myworkdayjobs.com/ATTGeneral,FAILED
+telecom_networking,BT Group,sf_rss,https://jobs.bt.com/search/,ok
+telecom_networking,Ciena,workday,https://ciena.wd5.myworkdayjobs.com/Careers,FAILED
+telecom_networking,Cisco,workday,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers,FAILED
+telecom_networking,CommScope,sf_rss,https://jobs.commscope.com/search/,ok
+telecom_networking,Ericsson,eightfold,https://ericsson.eightfold.ai/careers,ok
+telecom_networking,Extreme Networks,lever,https://jobs.lever.co/extremenetworks,ok
+telecom_networking,Mavenir,workday,https://mavenir.wd1.myworkdayjobs.com/Mavenir_Careers,FAILED
+telecom_networking,Motorola Solutions,workday,https://motorolasolutions.wd5.myworkdayjobs.com/Careers,FAILED
+telecom_networking,Qualcomm,eightfold,https://qualcomm.eightfold.ai/careers,ok
+telecom_networking,Telstra,workday,https://telstra.wd3.myworkdayjobs.com/Telstra_Careers,ok
+telecom_networking,Vodafone Group,eightfold,https://vodafone.eightfold.ai/careers,ok
+travel_tech,Agoda,greenhouse,https://boards.greenhouse.io/agoda,ok
+travel_tech,Airbnb,greenhouse,https://boards.greenhouse.io/airbnb,ok
+travel_tech,Amadeus,workday,https://amadeus.wd502.myworkdayjobs.com/jobs,ok
+travel_tech,Expedia Group,workday,https://expedia.wd108.myworkdayjobs.com/search,ok
+travel_tech,Sabre,workday,https://sabre.wd1.myworkdayjobs.com/SabreJobs,FAILED
+water_environment,Pentair,workday,https://pentair.wd5.myworkdayjobs.com/Pentair_Careers,FAILED

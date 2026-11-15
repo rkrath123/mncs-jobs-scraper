@@ -1,0 +1,72 @@
+{
+ "manual": [],
+ "greenhouse": [
+  {
+   "board": "coupang",
+   "name": "Coupang"
+  }
+ ],
+ "workday": [
+  {
+   "host": "lego.wd103.myworkdayjobs.com",
+   "tenant": "lego",
+   "site": "LEGO_External",
+   "name": "LEGO"
+  },
+  {
+   "host": "ebay.wd5.myworkdayjobs.com",
+   "tenant": "ebay",
+   "site": "apply",
+   "name": "eBay"
+  },
+  {
+   "host": "nike.wd1.myworkdayjobs.com",
+   "tenant": "nike",
+   "site": "nke",
+   "name": "Nike"
+  },
+  {
+   "host": "lowes.wd5.myworkdayjobs.com",
+   "tenant": "lowes",
+   "site": "LWS_External_CS",
+   "name": "Lowe’s"
+  },
+  {
+   "host": "richemont.wd3.myworkdayjobs.com",
+   "tenant": "richemont",
+   "site": "richemont",
+   "name": "Richemont"
+  },
+  {
+   "host": "target.wd5.myworkdayjobs.com",
+   "tenant": "target",
+   "site": "targetcareers",
+   "name": "Target"
+  },
+  {
+   "host": "tjx.wd1.myworkdayjobs.com",
+   "tenant": "tjx",
+   "site": "TJX_EXTERNAL",
+   "name": "TJX"
+  },
+  {
+   "host": "gapinc.wd1.myworkdayjobs.com",
+   "tenant": "gapinc",
+   "site": "GAPINC",
+   "name": "Gap"
+  },
+  {
+   "host": "advanceauto.wd5.myworkdayjobs.com",
+   "tenant": "advanceauto",
+   "site": "AdvanceExternalCareers",
+   "name": "Advance Auto Parts"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Dollar General",
+   "host": "ibxwjb.fa.ocs.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ]
+}

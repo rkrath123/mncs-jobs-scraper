@@ -1,0 +1,53 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "boeing.wd1.myworkdayjobs.com",
+   "tenant": "boeing",
+   "site": "EXTERNAL_CAREERS",
+   "name": "Boeing"
+  },
+  {
+   "host": "geaerospace.wd5.myworkdayjobs.com",
+   "tenant": "geaerospace",
+   "site": "GE_ExternalSite",
+   "name": "GE Aerospace"
+  },
+  {
+   "host": "moog.wd5.myworkdayjobs.com",
+   "tenant": "moog",
+   "site": "MOOG_External_Career_Site",
+   "name": "Moog"
+  },
+  {
+   "host": "globalhr.wd5.myworkdayjobs.com",
+   "tenant": "globalhr",
+   "site": "REC_RTX_Ext_Gateway",
+   "name": "RTX"
+  },
+  {
+   "host": "thales.wd3.myworkdayjobs.com",
+   "tenant": "thales",
+   "site": "Careers",
+   "name": "Thales"
+  },
+  {
+   "name": "Airbus",
+   "host": "ag.wd3.myworkdayjobs.com",
+   "tenant": "ag",
+   "site": "Airbus"
+  },
+  {
+   "host": "woodward.wd5.myworkdayjobs.com",
+   "tenant": "woodward",
+   "site": "woodward",
+   "name": "Woodward"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "Viasat",
+   "host": "careers.viasat.com"
+  }
+ ]
+}

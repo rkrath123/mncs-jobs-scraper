@@ -1,0 +1,470 @@
+{
+ "3M": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "3m.wd1.myworkdayjobs.com",
+    "tenant": "3m",
+    "site": "Search",
+    "name": "3M"
+   },
+   "india_jobs": 96,
+   "site_total": 789,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "3m.wd1.myworkdayjobs.com",
+    "tenant": "3m",
+    "site": "private",
+    "name": "3M"
+   },
+   "india_jobs": 26,
+   "site_total": 74,
+   "facet": true
+  }
+ ],
+ "Alfa Laval": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "alfalaval.wd3.myworkdayjobs.com",
+    "tenant": "alfalaval",
+    "site": "Alfa_Laval_jobs",
+    "name": "Alfa Laval"
+   },
+   "india_jobs": 8,
+   "site_total": 405,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "alfalaval.wd3.myworkdayjobs.com",
+    "tenant": "alfalaval",
+    "site": "Framo_jobs",
+    "name": "Alfa Laval"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  }
+ ],
+ "Ametek": [],
+ "Amphenol": [],
+ "Atlas Copco": [],
+ "Belden": [],
+ "Bosch": [],
+ "Carrier Global": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "carrier.wd5.myworkdayjobs.com",
+    "tenant": "carrier",
+    "site": "jobs",
+    "name": "Carrier Global"
+   },
+   "india_jobs": 54,
+   "site_total": 974,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "carrier.wd5.myworkdayjobs.com",
+    "tenant": "carrier",
+    "site": "Union_Workers_Career_Page",
+    "name": "Carrier Global"
+   },
+   "india_jobs": 0,
+   "site_total": 11,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "carrier.wd5.myworkdayjobs.com",
+    "tenant": "carrier",
+    "site": "kgs_jobs",
+    "name": "Carrier Global"
+   },
+   "india_jobs": 0,
+   "site_total": 19,
+   "facet": false
+  }
+ ],
+ "Celestica": [],
+ "Crane": [],
+ "Dover": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dover.wd103.myworkdayjobs.com",
+    "tenant": "dover",
+    "site": "Dover",
+    "name": "Dover"
+   },
+   "india_jobs": 4,
+   "site_total": 776,
+   "facet": false
+  }
+ ],
+ "Ecolab": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ecolab.wd1.myworkdayjobs.com",
+    "tenant": "ecolab",
+    "site": "Ecolab_External",
+    "name": "Ecolab"
+   },
+   "india_jobs": 11,
+   "site_total": 1019,
+   "facet": false
+  }
+ ],
+ "Endress+Hauser": [],
+ "EnerSys": [],
+ "FANUC": [],
+ "Festo": [],
+ "Flex": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "flex",
+    "name": "Flex"
+   },
+   "india_jobs": 0,
+   "site_total": 28
+  }
+ ],
+ "Fortive": [],
+ "Foxconn": [],
+ "GEA Group": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gea.wd3.myworkdayjobs.com",
+    "tenant": "gea",
+    "site": "GEACareers",
+    "name": "GEA Group"
+   },
+   "india_jobs": 2,
+   "site_total": 396,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gea.wd3.myworkdayjobs.com",
+    "tenant": "gea",
+    "site": "equest",
+    "name": "GEA Group"
+   },
+   "india_jobs": 0,
+   "site_total": 76,
+   "facet": false
+  }
+ ],
+ "Grundfos": [],
+ "Hasbro": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "hasbro",
+    "name": "Hasbro"
+   },
+   "india_jobs": 1,
+   "site_total": 101
+  }
+ ],
+ "Hexagon": [],
+ "Hubbell": [],
+ "ITT Inc.": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "ittinc",
+    "name": "ITT Inc."
+   },
+   "india_jobs": 0,
+   "site_total": 6
+  }
+ ],
+ "Illinois Tool Works": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "itw.wd5.myworkdayjobs.com",
+    "tenant": "itw",
+    "site": "External",
+    "name": "Illinois Tool Works"
+   },
+   "india_jobs": 0,
+   "site_total": 774,
+   "facet": false
+  }
+ ],
+ "Ingersoll Rand": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "rand.wd5.myworkdayjobs.com",
+    "tenant": "rand",
+    "site": "External_Career_Site",
+    "name": "Ingersoll Rand"
+   },
+   "india_jobs": 0,
+   "site_total": 24,
+   "facet": false
+  }
+ ],
+ "Jabil": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "jabil.wd5.myworkdayjobs.com",
+    "tenant": "jabil",
+    "site": "Jabil_Careers",
+    "name": "Jabil"
+   },
+   "india_jobs": 95,
+   "site_total": 2000,
+   "facet": true
+  }
+ ],
+ "KONE": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kone.wd3.myworkdayjobs.com",
+    "tenant": "kone",
+    "site": "Careers",
+    "name": "KONE"
+   },
+   "india_jobs": 53,
+   "site_total": 941,
+   "facet": true
+  }
+ ],
+ "KUKA": [],
+ "Legrand": [],
+ "Lennox": [],
+ "Lincoln Electric": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "lincoln",
+    "name": "Lincoln Electric"
+   },
+   "india_jobs": 0,
+   "site_total": 14
+  }
+ ],
+ "Masco": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "masco.wd1.myworkdayjobs.com",
+    "tenant": "masco",
+    "site": "Behr",
+    "name": "Masco"
+   },
+   "india_jobs": 0,
+   "site_total": 34,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "masco.wd1.myworkdayjobs.com",
+    "tenant": "masco",
+    "site": "Brasscraft",
+    "name": "Masco"
+   },
+   "india_jobs": 0,
+   "site_total": 6,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "masco.wd1.myworkdayjobs.com",
+    "tenant": "masco",
+    "site": "Brasstech",
+    "name": "Masco"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  }
+ ],
+ "Mattel": [],
+ "Molex": [],
+ "Newell Brands": [],
+ "Nordson": [],
+ "Oshkosh": [],
+ "Otis": [],
+ "Paccar": [],
+ "Pegatron": [],
+ "Phoenix Contact": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "phoenixcontact",
+    "name": "Phoenix Contact"
+   },
+   "india_jobs": 0,
+   "site_total": 50
+  }
+ ],
+ "SICK": [],
+ "SKF": [],
+ "Samsara": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "samsara",
+    "name": "Samsara"
+   },
+   "india_jobs": 4,
+   "site_total": 313
+  }
+ ],
+ "Sandvik": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sandvik.wd3.myworkdayjobs.com",
+    "tenant": "sandvik",
+    "site": "dormerpramet-jobs",
+    "name": "Sandvik"
+   },
+   "india_jobs": 0,
+   "site_total": 6,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sandvik.wd3.myworkdayjobs.com",
+    "tenant": "sandvik",
+    "site": "seco-jobs",
+    "name": "Sandvik"
+   },
+   "india_jobs": 1,
+   "site_total": 28,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sandvik.wd3.myworkdayjobs.com",
+    "tenant": "sandvik",
+    "site": "walter-jobs",
+    "name": "Sandvik"
+   },
+   "india_jobs": 0,
+   "site_total": 26,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sandvik.wd3.myworkdayjobs.com",
+    "tenant": "sandvik",
+    "site": "coromant-jobs",
+    "name": "Sandvik"
+   },
+   "india_jobs": 3,
+   "site_total": 56,
+   "facet": true
+  }
+ ],
+ "Sanmina": [],
+ "Schaeffler": [],
+ "Stanley Black & Decker": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sbdinc.wd1.myworkdayjobs.com",
+    "tenant": "sbdinc",
+    "site": "Stanley_Black_Decker_Career_Site",
+    "name": "Stanley Black & Decker"
+   },
+   "india_jobs": 3,
+   "site_total": 589,
+   "facet": true
+  }
+ ],
+ "TE Connectivity": [],
+ "Terex": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "terex.wd1.myworkdayjobs.com",
+    "tenant": "terex",
+    "site": "terexcareers",
+    "name": "Terex"
+   },
+   "india_jobs": 2,
+   "site_total": 462,
+   "facet": false
+  }
+ ],
+ "Tetra Pak": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "tetra",
+    "name": "Tetra Pak"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Timken": [],
+ "Trane Technologies": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tranetechnologies.wd12.myworkdayjobs.com",
+    "tenant": "tranetechnologies",
+    "site": "Limited_Access_Career_Site",
+    "name": "Trane Technologies"
+   },
+   "india_jobs": 2,
+   "site_total": 64,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tranetechnologies.wd12.myworkdayjobs.com",
+    "tenant": "tranetechnologies",
+    "site": "Trane_Technologies_Careers",
+    "name": "Trane Technologies"
+   },
+   "india_jobs": 111,
+   "site_total": 1624,
+   "facet": true
+  }
+ ],
+ "Trimble": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "trimble.wd1.myworkdayjobs.com",
+    "tenant": "trimble",
+    "site": "TrimbleCareers",
+    "name": "Trimble"
+   },
+   "india_jobs": 14,
+   "site_total": 197,
+   "facet": true
+  }
+ ],
+ "Whirlpool": [],
+ "Yaskawa": []
+}

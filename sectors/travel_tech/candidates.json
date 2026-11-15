@@ -1,0 +1,71 @@
+{
+ "sector": "travel_tech",
+ "title": "Online travel and travel technology",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Travelport",
+   "section": 13,
+   "subgroup": "Airline IT, aviation systems and airport technology"
+  },
+  {
+   "name": "SITA",
+   "section": 13,
+   "subgroup": "Airline IT, aviation systems and airport technology"
+  },
+  {
+   "name": "Trip.com Group",
+   "section": 16,
+   "subgroup": "Online travel and travel technology"
+  },
+  {
+   "name": "Tripadvisor",
+   "section": 16,
+   "subgroup": "Online travel and travel technology"
+  },
+  {
+   "name": "TUI Group",
+   "section": 16,
+   "subgroup": "Online travel and travel technology"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Amadeus",
+   "section": 13,
+   "subgroup": "Airline IT, aviation systems and airport technology",
+   "configured_in": "travel_tech"
+  },
+  {
+   "name": "Sabre",
+   "section": 13,
+   "subgroup": "Airline IT, aviation systems and airport technology",
+   "configured_in": "travel_tech"
+  },
+  {
+   "name": "Booking Holdings",
+   "section": 16,
+   "subgroup": "Online travel and travel technology",
+   "configured_in": "travel_tech"
+  },
+  {
+   "name": "Expedia Group",
+   "section": 16,
+   "subgroup": "Online travel and travel technology",
+   "configured_in": "travel_tech"
+  },
+  {
+   "name": "Airbnb",
+   "section": 16,
+   "subgroup": "Online travel and travel technology",
+   "configured_in": "travel_tech"
+  },
+  {
+   "name": "Agoda",
+   "section": 16,
+   "subgroup": "Online travel and travel technology",
+   "configured_in": "travel_tech"
+  }
+ ]
+}

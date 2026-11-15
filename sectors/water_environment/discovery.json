@@ -1,0 +1,28 @@
+{
+ "Kurita Water Industries": [],
+ "Pentair": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pentair.wd5.myworkdayjobs.com",
+    "tenant": "pentair",
+    "site": "Pentair_Careers",
+    "name": "Pentair"
+   },
+   "india_jobs": 13,
+   "site_total": 133,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "pentair",
+    "name": "Pentair"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "SUEZ": [],
+ "Veolia": []
+}

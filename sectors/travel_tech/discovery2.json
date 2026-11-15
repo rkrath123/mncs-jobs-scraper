@@ -1,0 +1,101 @@
+{
+ "Booking Holdings": {
+  "hosts": [
+   "careers.booking.com",
+   "jobs.booking.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Booking Holdings",
+     "host": "jobs.booking.com"
+    },
+    "india_jobs": 5,
+    "found_on": "jobs.booking.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "SITA": {
+  "hosts": [
+   "www.sita.com",
+   "sita.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "TUI Group": {
+  "hosts": [
+   "careers.tuigroup.com",
+   "jobs.tuigroup.com",
+   "www.tuigroup.com",
+   "tuigroup.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "TUI Group",
+     "host": "jobs.tuigroup.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.tuigroup.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Travelport": {
+  "hosts": [
+   "www.travelport.com",
+   "travelport.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Travelport",
+     "host": "ejzg.fa.us6.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 0,
+    "found_on": "www.travelport.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Trip.com Group": {
+  "hosts": [
+   "careers.trip.com",
+   "www.trip.com",
+   "trip.com",
+   "careers.tripcom.com",
+   "jobs.tripcom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tripadvisor": {
+  "hosts": [
+   "careers.tripadvisor.com",
+   "www.tripadvisor.com",
+   "tripadvisor.com"
+  ],
+  "results": [
+   {
+    "platform": "greenhouse",
+    "config": {
+     "name": "Tripadvisor",
+     "board": "tripadvisor"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.tripadvisor.com"
+   }
+  ],
+  "unsupported": []
+ }
+}

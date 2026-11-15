@@ -1,0 +1,745 @@
+{
+ "Akamai": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "akamai",
+    "name": "Akamai"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "BeyondTrust": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "beyondtrust",
+    "name": "BeyondTrust"
+   },
+   "india_jobs": 0,
+   "site_total": 37
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "beyondtrust",
+    "name": "BeyondTrust"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Check Point": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "checkpoint",
+    "name": "Check Point"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "check",
+    "name": "Check Point"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "cp",
+    "name": "Check Point"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "check-point",
+    "name": "Check Point"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Cloudflare": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "cloudflare",
+    "name": "Cloudflare"
+   },
+   "india_jobs": 0,
+   "site_total": 480
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "cloudflare",
+    "name": "Cloudflare"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "CrowdStrike": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "crowdstrike.wd5.myworkdayjobs.com",
+    "tenant": "crowdstrike",
+    "site": "crowdstrikecareers",
+    "name": "CrowdStrike"
+   },
+   "india_jobs": 30,
+   "site_total": 384,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "crowdstrike",
+    "name": "CrowdStrike"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "CyberArk": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "cyberark",
+    "name": "CyberArk"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Darktrace": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "darktrace",
+    "name": "Darktrace"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Entrust": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "entrust.wd1.myworkdayjobs.com",
+    "tenant": "entrust",
+    "site": "EntrustCareers",
+    "name": "Entrust"
+   },
+   "india_jobs": 2,
+   "site_total": 84,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "entrust",
+    "name": "Entrust"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "F5": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "f5",
+    "name": "F5"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Fortinet": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "fortinet",
+    "name": "Fortinet"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Gen Digital": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "gendigital",
+    "name": "Gen Digital"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gen.wd1.myworkdayjobs.com",
+    "tenant": "gen",
+    "site": "careers",
+    "name": "Gen Digital"
+   },
+   "india_jobs": 0,
+   "site_total": 0,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gen.wd1.myworkdayjobs.com",
+    "tenant": "gen",
+    "site": "university",
+    "name": "Gen Digital"
+   },
+   "india_jobs": 0,
+   "site_total": 0,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "gen",
+    "name": "Gen Digital"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "gd",
+    "name": "Gen Digital"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "gen-digital",
+    "name": "Gen Digital"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Imperva": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "imperva",
+    "name": "Imperva"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "McAfee": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mcafee.wd1.myworkdayjobs.com",
+    "tenant": "mcafee",
+    "site": "External",
+    "name": "McAfee"
+   },
+   "india_jobs": 0,
+   "site_total": 0,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "mcafee",
+    "name": "McAfee"
+   },
+   "india_jobs": 0,
+   "site_total": 4
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "mcafee",
+    "name": "McAfee"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Mimecast": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mimecast.wd5.myworkdayjobs.com",
+    "tenant": "mimecast",
+    "site": "Mimecast-Careers",
+    "name": "Mimecast"
+   },
+   "india_jobs": 4,
+   "site_total": 60,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "mimecast",
+    "name": "Mimecast"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Netskope": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "netskope",
+    "name": "Netskope"
+   },
+   "india_jobs": 19,
+   "site_total": 122
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "netskope",
+    "name": "Netskope"
+   },
+   "india_jobs": 2,
+   "site_total": 8
+  }
+ ],
+ "Okta": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "okta",
+    "name": "Okta"
+   },
+   "india_jobs": 101,
+   "site_total": 365
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "okta",
+    "name": "Okta"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "One Identity": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "oneidentity",
+    "name": "One Identity"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "one",
+    "name": "One Identity"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "oi",
+    "name": "One Identity"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "one-identity",
+    "name": "One Identity"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Palo Alto Networks": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "paloalto",
+    "name": "Palo Alto Networks"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "paloaltonetworks",
+    "name": "Palo Alto Networks"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "palo",
+    "name": "Palo Alto Networks"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "pan",
+    "name": "Palo Alto Networks"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "palo-alto",
+    "name": "Palo Alto Networks"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Ping Identity": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "pingidentity",
+    "name": "Ping Identity"
+   },
+   "india_jobs": 2,
+   "site_total": 75
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "pingidentity",
+    "name": "Ping Identity"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Proofpoint": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "proofpoint.wd5.myworkdayjobs.com",
+    "tenant": "proofpoint",
+    "site": "ProofpointCareers",
+    "name": "Proofpoint"
+   },
+   "india_jobs": 20,
+   "site_total": 136,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "proofpoint",
+    "name": "Proofpoint"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Qualys": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "qualys.wd5.myworkdayjobs.com",
+    "tenant": "qualys",
+    "site": "Careers",
+    "name": "Qualys"
+   },
+   "india_jobs": 1,
+   "site_total": 189,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "qualys",
+    "name": "Qualys"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "RSA Security": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "rsasecurity",
+    "name": "RSA Security"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "rsa",
+    "name": "RSA Security"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "rs",
+    "name": "RSA Security"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "rsa-security",
+    "name": "RSA Security"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Rapid7": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "rapid7",
+    "name": "Rapid7"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Recorded Future": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "recordedfuture",
+    "name": "Recorded Future"
+   },
+   "india_jobs": 3,
+   "site_total": 49
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "recordedfuture",
+    "name": "Recorded Future"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "SailPoint": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sailpoint.wd1.myworkdayjobs.com",
+    "tenant": "sailpoint",
+    "site": "SailPoint",
+    "name": "SailPoint"
+   },
+   "india_jobs": 12,
+   "site_total": 94,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "sailpoint",
+    "name": "SailPoint"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "SentinelOne": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "sentinelone",
+    "name": "SentinelOne"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Snyk": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "snyk",
+    "name": "Snyk"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Sophos": [
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "sophos",
+    "name": "Sophos"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "sophos",
+    "name": "Sophos"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Tenable": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "tenable",
+    "name": "Tenable"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Trellix": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "trellix.wd1.myworkdayjobs.com",
+    "tenant": "trellix",
+    "site": "EnterpriseCareers",
+    "name": "Trellix"
+   },
+   "india_jobs": 11,
+   "site_total": 64,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "trellix",
+    "name": "Trellix"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Trend Micro": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "trendmicro.wd3.myworkdayjobs.com",
+    "tenant": "trendmicro",
+    "site": "External",
+    "name": "Trend Micro"
+   },
+   "india_jobs": 3,
+   "site_total": 175,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "trendmicro.wd3.myworkdayjobs.com",
+    "tenant": "trendmicro",
+    "site": "External_TrendLife",
+    "name": "Trend Micro"
+   },
+   "india_jobs": 0,
+   "site_total": 19,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "trendmicro",
+    "name": "Trend Micro"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Varonis": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "varonis",
+    "name": "Varonis"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Wiz": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "wiz",
+    "name": "Wiz"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ],
+ "Zscaler": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "zscaler",
+    "name": "Zscaler"
+   },
+   "india_jobs": 82,
+   "site_total": 378
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "zscaler",
+    "name": "Zscaler"
+   },
+   "india_jobs": 0,
+   "site_total": 0
+  }
+ ]
+}

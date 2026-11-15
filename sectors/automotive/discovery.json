@@ -1,0 +1,338 @@
+{
+ "Aisin": [],
+ "Allison Transmission": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "allisontransmission.wd1.myworkdayjobs.com",
+    "tenant": "allisontransmission",
+    "site": "ATI-External",
+    "name": "Allison Transmission"
+   },
+   "india_jobs": 0,
+   "site_total": 95,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "allisontransmission.wd1.myworkdayjobs.com",
+    "tenant": "allisontransmission",
+    "site": "WDC-External",
+    "name": "Allison Transmission"
+   },
+   "india_jobs": 0,
+   "site_total": 5,
+   "facet": false
+  }
+ ],
+ "Aptiv": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "aptiv.wd5.myworkdayjobs.com",
+    "tenant": "aptiv",
+    "site": "APTIV_CAREERS",
+    "name": "Aptiv"
+   },
+   "india_jobs": 145,
+   "site_total": 758,
+   "facet": true
+  }
+ ],
+ "Aston Martin": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "martin.wd1.myworkdayjobs.com",
+    "tenant": "martin",
+    "site": "MPHC",
+    "name": "Aston Martin"
+   },
+   "india_jobs": 0,
+   "site_total": 26,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "martin.wd1.myworkdayjobs.com",
+    "tenant": "martin",
+    "site": "ProviderStudents",
+    "name": "Aston Martin"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Audi": [],
+ "Autoliv": [],
+ "BMW": [],
+ "BYD": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "byd",
+    "name": "BYD"
+   },
+   "india_jobs": 0,
+   "site_total": 21
+  }
+ ],
+ "BorgWarner": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "borgwarner.wd5.myworkdayjobs.com",
+    "tenant": "borgwarner",
+    "site": "BorgWarner_Careers",
+    "name": "BorgWarner"
+   },
+   "india_jobs": 12,
+   "site_total": 400,
+   "facet": true
+  }
+ ],
+ "Bridgestone": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bridgestone.wd5.myworkdayjobs.com",
+    "tenant": "bridgestone",
+    "site": "External",
+    "name": "Bridgestone"
+   },
+   "india_jobs": 0,
+   "site_total": 2000,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bridgestone.wd5.myworkdayjobs.com",
+    "tenant": "bridgestone",
+    "site": "WF_External_Careers",
+    "name": "Bridgestone"
+   },
+   "india_jobs": 0,
+   "site_total": 19,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bridgestone.wd5.myworkdayjobs.com",
+    "tenant": "bridgestone",
+    "site": "LATAMExternalCareers",
+    "name": "Bridgestone"
+   },
+   "india_jobs": 0,
+   "site_total": 46,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bridgestone.wd5.myworkdayjobs.com",
+    "tenant": "bridgestone",
+    "site": "CanadaExternalCareers",
+    "name": "Bridgestone"
+   },
+   "india_jobs": 0,
+   "site_total": 14,
+   "facet": false
+  }
+ ],
+ "Continental": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "continental",
+    "name": "Continental"
+   },
+   "india_jobs": 12,
+   "site_total": 573
+  }
+ ],
+ "Daimler Truck": [],
+ "Dana": [],
+ "Denso": [],
+ "Ferrari": [],
+ "Ford": [],
+ "Forvia": [],
+ "Garrett Motion": [],
+ "General Motors": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "generalmotors.wd5.myworkdayjobs.com",
+    "tenant": "generalmotors",
+    "site": "Careers_GM",
+    "name": "General Motors"
+   },
+   "india_jobs": 1,
+   "site_total": 668,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "generalmotors.wd5.myworkdayjobs.com",
+    "tenant": "generalmotors",
+    "site": "Careers_TEI",
+    "name": "General Motors"
+   },
+   "india_jobs": 0,
+   "site_total": 6,
+   "facet": false
+  }
+ ],
+ "Goodyear": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "goodyear.wd1.myworkdayjobs.com",
+    "tenant": "goodyear",
+    "site": "GoodyearCareers",
+    "name": "Goodyear"
+   },
+   "india_jobs": 12,
+   "site_total": 104,
+   "facet": true
+  }
+ ],
+ "Harley-Davidson": [],
+ "Harman": [],
+ "Honda": [],
+ "Hyundai": [],
+ "Isuzu": [],
+ "Jaguar Land Rover": [
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "rover",
+    "name": "Jaguar Land Rover"
+   },
+   "india_jobs": 0,
+   "site_total": 26
+  }
+ ],
+ "Kia": [],
+ "Lamborghini": [],
+ "Lear Corporation": [],
+ "MAN Truck & Bus": [],
+ "Magna International": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "magna.wd3.myworkdayjobs.com",
+    "tenant": "magna",
+    "site": "Magna",
+    "name": "Magna International"
+   },
+   "india_jobs": 119,
+   "site_total": 1423,
+   "facet": true
+  }
+ ],
+ "Marelli": [],
+ "Mazda": [],
+ "Mercedes-Benz": [],
+ "Michelin": [],
+ "Mitsubishi Motors": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "mitsubishimotors",
+    "name": "Mitsubishi Motors"
+   },
+   "india_jobs": 0,
+   "site_total": 7
+  }
+ ],
+ "Modine": [],
+ "Nissan": [],
+ "Panasonic Automotive": [],
+ "Polaris": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "polaris.wd5.myworkdayjobs.com",
+    "tenant": "polaris",
+    "site": "PolarisJobs",
+    "name": "Polaris"
+   },
+   "india_jobs": 3,
+   "site_total": 135,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "polaris.wd5.myworkdayjobs.com",
+    "tenant": "polaris",
+    "site": "TetonJobs",
+    "name": "Polaris"
+   },
+   "india_jobs": 0,
+   "site_total": 7,
+   "facet": false
+  }
+ ],
+ "Porsche": [],
+ "Renault": [],
+ "Scania": [],
+ "Stellantis": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "stellantis.wd3.myworkdayjobs.com",
+    "tenant": "stellantis",
+    "site": "External_Career_Site_ID01",
+    "name": "Stellantis"
+   },
+   "india_jobs": 11,
+   "site_total": 34,
+   "facet": false
+  }
+ ],
+ "Subaru": [],
+ "Suzuki": [],
+ "Tenneco": [],
+ "Tesla": [],
+ "Toyota": [],
+ "Valeo": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "valeo.wd3.myworkdayjobs.com",
+    "tenant": "valeo",
+    "site": "valeo_jobs",
+    "name": "Valeo"
+   },
+   "india_jobs": 182,
+   "site_total": 1000,
+   "facet": true
+  }
+ ],
+ "Visteon": [],
+ "Volkswagen Group": [],
+ "Volvo Cars": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cars.wd12.myworkdayjobs.com",
+    "tenant": "cars",
+    "site": "cars",
+    "name": "Volvo Cars"
+   },
+   "india_jobs": 0,
+   "site_total": 28,
+   "facet": false
+  }
+ ],
+ "Volvo Group": [],
+ "ZF": [],
+ "Škoda": []
+}

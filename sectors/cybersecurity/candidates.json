@@ -1,0 +1,198 @@
+{
+ "sector": "cybersecurity",
+ "title": "Cybersecurity, identity, risk technology",
+ "tier": 1,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Akamai",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Cloudflare",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "SentinelOne",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Sophos",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Gen Digital",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Rapid7",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Tenable",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "CyberArk",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "One Identity",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Darktrace",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Wiz",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Snyk",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "RSA Security",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "BeyondTrust",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Varonis",
+   "section": 12,
+   "subgroup": ""
+  },
+  {
+   "name": "Imperva",
+   "section": 12,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "F5",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Palo Alto Networks",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "CrowdStrike",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Fortinet",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Check Point",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Zscaler",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Trend Micro",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Trellix",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "McAfee",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Qualys",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Okta",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Ping Identity",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "SailPoint",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Proofpoint",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Mimecast",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Netskope",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Recorded Future",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  },
+  {
+   "name": "Entrust",
+   "section": 12,
+   "subgroup": "",
+   "configured_in": "cybersecurity"
+  }
+ ]
+}

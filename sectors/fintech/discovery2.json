@@ -1,0 +1,580 @@
+{
+ "AIG": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Amundi": {
+  "hosts": [
+   "jobs.amundi.com",
+   "www.amundi.com",
+   "amundi.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Berkshire Hathaway": {
+  "hosts": [
+   "careers.berkshirehathaway.com",
+   "jobs.berkshirehathaway.com",
+   "www.berkshirehathaway.com",
+   "berkshirehathaway.com",
+   "www.berkshire-hathaway.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bloomberg": {
+  "hosts": [
+   "careers.bloomberg.com",
+   "jobs.bloomberg.com",
+   "www.bloomberg.com",
+   "bloomberg.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Bread Financial": {
+  "hosts": [
+   "careers.breadfinancial.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Bread Financial",
+     "host": "careers.breadfinancial.com",
+     "lang": "en_in",
+     "page_id": "page76",
+     "region": "global/en"
+    },
+    "india_jobs": 6,
+    "found_on": "careers.breadfinancial.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Broadridge Financial Solutions": {
+  "hosts": [
+   "www.broadridgefinancialsolutions.com",
+   "www.broadridge.com",
+   "broadridge.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Checkout.com": {
+  "hosts": [
+   "www.checkout.com",
+   "checkout.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "ashby"
+  ]
+ },
+ "Clearstream": {
+  "hosts": [
+   "www.clearstream.com",
+   "clearstream.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Crédit Agricole": {
+  "hosts": [
+   "www.creditagricole.com",
+   "creditagricole.com",
+   "www.credit-agricole.com",
+   "credit-agricole.com",
+   "careers.credit.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Deutsche Börse": {
+  "hosts": [
+   "www.deutscheborse.com",
+   "deutscheborse.com",
+   "www.deutsche-borse.com",
+   "deutsche-borse.com",
+   "www.deutsche.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Diebold Nixdorf": {
+  "hosts": [
+   "www.dieboldnixdorf.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Diebold Nixdorf",
+     "host": "eeug.fa.us6.oraclecloud.com",
+     "site": "CX"
+    },
+    "india_jobs": 2,
+    "found_on": "www.dieboldnixdorf.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Discover": {
+  "hosts": [
+   "jobs.discover.com",
+   "www.discover.com",
+   "discover.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Envestnet": {
+  "hosts": [
+   "careers.envestnet.com",
+   "www.envestnet.com",
+   "envestnet.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Euroclear": {
+  "hosts": [
+   "careers.euroclear.com",
+   "jobs.euroclear.com",
+   "www.euroclear.com",
+   "euroclear.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Euronet": {
+  "hosts": [
+   "www.euronet.com",
+   "euronet.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Everest Group": {
+  "hosts": [
+   "www.everest.com",
+   "everest.com",
+   "www.everestgroup.com",
+   "everestgroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Featurespace": {
+  "hosts": [
+   "www.featurespace.com",
+   "featurespace.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Feedzai": {
+  "hosts": [
+   "careers.feedzai.com",
+   "www.feedzai.com",
+   "feedzai.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Fenergo": {
+  "hosts": [
+   "www.fenergo.com",
+   "fenergo.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "workable"
+  ]
+ },
+ "Franklin Templeton": {
+  "hosts": [
+   "careers.franklintempleton.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Franklin Templeton",
+     "host": "careers.franklintempleton.com",
+     "lang": "en_us",
+     "page_id": "page18",
+     "region": "global/en"
+    },
+    "india_jobs": 44,
+    "found_on": "careers.franklintempleton.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Generali": {
+  "hosts": [
+   "www.generali.com",
+   "generali.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hannover Re": {
+  "hosts": [
+   "www.hannoverre.com",
+   "jobs.hannover-re.com",
+   "www.hannover-re.com",
+   "hannover-re.com",
+   "careers.hannover.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Hannover Re",
+     "host": "jobs.hannover-re.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.hannover-re.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "ING": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "ION Group": {
+  "hosts": [
+   "www.iongroup.com",
+   "iongroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Liberty Mutual": {
+  "hosts": [
+   "www.libertymutual.com",
+   "libertymutual.com",
+   "www.liberty-mutual.com",
+   "liberty-mutual.com",
+   "www.liberty.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mapfre": {
+  "hosts": [
+   "jobs.mapfre.com",
+   "www.mapfre.com",
+   "mapfre.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Mapfre",
+     "host": "jobs.mapfre.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.mapfre.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Marqeta": {
+  "hosts": [
+   "www.marqeta.com",
+   "marqeta.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "MetLife": {
+  "hosts": [
+   "jobs.metlife.com",
+   "www.metlife.com",
+   "metlife.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Mizuho": {
+  "hosts": [
+   "www.mizuho.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Munich Re": {
+  "hosts": [
+   "careers.munichre.com",
+   "jobs.munichre.com",
+   "www.munichre.com",
+   "munichre.com",
+   "careers.munich.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Murex": {
+  "hosts": [
+   "careers.murex.com",
+   "www.murex.com",
+   "murex.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Murex",
+     "host": "murex.wd3.myworkdayjobs.com",
+     "tenant": "murex",
+     "site": "MurexCareerPage1"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.murex.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "NICE": {
+  "hosts": [
+   "www.nice.com",
+   "nice.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "NatWest Group": {
+  "hosts": [
+   "jobs.natwest.com",
+   "www.natwest.com",
+   "natwest.com",
+   "jobs.natwestgroup.com",
+   "www.natwestgroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Network International": {
+  "hosts": [
+   "www.network.com",
+   "network.com",
+   "networkinternational.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nomura": {
+  "hosts": [
+   "careers.nomura.com",
+   "www.nomura.com",
+   "nomura.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nuvei": {
+  "hosts": [
+   "www.nuvei.com",
+   "nuvei.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "OCBC": {
+  "hosts": [
+   "www.ocbc.com",
+   "ocbc.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "taleo"
+  ]
+ },
+ "PayU": {
+  "hosts": [
+   "www.payu.com",
+   "payu.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Paychex": {
+  "hosts": [
+   "careers.paychex.com",
+   "www.paychex.com",
+   "paychex.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Paychex",
+     "host": "careers.paychex.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.paychex.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Prudential Financial": {
+  "hosts": [
+   "www.prudentialfinancial.com",
+   "careers.prudential.com",
+   "jobs.prudential.com",
+   "www.prudential.com",
+   "prudential.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Prudential plc": {
+  "hosts": [
+   "careers.prudential.com",
+   "jobs.prudential.com",
+   "www.prudential.com",
+   "prudential.com",
+   "www.prudentialplc.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Prudential plc",
+     "host": "prudential.wd3.myworkdayjobs.com",
+     "tenant": "prudential",
+     "site": "prudential"
+    },
+    "india_jobs": 20,
+    "found_on": "www.prudentialplc.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "RBC": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Rabobank": {
+  "hosts": [
+   "careers.rabobank.com",
+   "www.rabobank.com",
+   "rabobank.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rapyd": {
+  "hosts": [
+   "www.rapyd.com",
+   "rapyd.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SIX Group": {
+  "hosts": [
+   "www.sixgroup.com",
+   "sixgroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SMBC": {
+  "hosts": [
+   "www.smbc.com",
+   "smbc.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Schroders": {
+  "hosts": [
+   "www.schroders.com",
+   "schroders.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Schroders",
+     "host": "ekbq.fa.em2.oraclecloud.com",
+     "site": "CX_2"
+    },
+    "india_jobs": 0,
+    "found_on": "www.schroders.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Scotiabank": {
+  "hosts": [
+   "jobs.scotiabank.com",
+   "www.scotiabank.com",
+   "scotiabank.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sompo": {
+  "hosts": [
+   "www.sompo.com",
+   "sompo.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Sompo",
+     "host": "endurance.wd103.myworkdayjobs.com",
+     "tenant": "endurance",
+     "site": "SompoInternational"
+    },
+    "india_jobs": 0,
+    "found_on": "www.sompo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Tokio Marine": {
+  "hosts": [
+   "careers.tokiomarine.com",
+   "jobs.tokiomarine.com",
+   "www.tokiomarine.com",
+   "tokiomarine.com",
+   "careers.tokio.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "UOB": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Zurich Insurance Group": {
+  "hosts": [
+   "www.zurichinsurance.com",
+   "zurichinsurance.com",
+   "www.zurich-insurance.com",
+   "careers.zurich.com",
+   "www.zurich.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

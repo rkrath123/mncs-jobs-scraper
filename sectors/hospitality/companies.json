@@ -1,0 +1,29 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "fourseasons.wd3.myworkdayjobs.com",
+   "tenant": "fourseasons",
+   "site": "search",
+   "name": "Four Seasons"
+  },
+  {
+   "host": "minor.wd102.myworkdayjobs.com",
+   "tenant": "minor",
+   "site": "Careers",
+   "name": "Minor Hotels"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Hilton",
+   "host": "efet.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Marriott International",
+   "host": "ejwl.fa.us2.oraclecloud.com",
+   "site": "CX"
+  }
+ ]
+}

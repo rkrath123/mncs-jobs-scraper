@@ -1,0 +1,567 @@
+{
+ "sector": "energy",
+ "title": "energy",
+ "tier": null,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Eni",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Equinor",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Repsol",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "ConocoPhillips",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Occidental Petroleum",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Woodside Energy",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Santos",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Petronas",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "QatarEnergy",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Saudi Aramco",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "ADNOC",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Petrobras",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Gazprom",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Sinopec",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "China National Petroleum Corporation",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "China National Offshore Oil Corporation",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Harbour Energy",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Tullow Oil",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Niko Resources",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors"
+  },
+  {
+   "name": "Oceaneering International",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology"
+  },
+  {
+   "name": "Expro",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology"
+  },
+  {
+   "name": "ChampionX",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology"
+  },
+  {
+   "name": "TGS",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology"
+  },
+  {
+   "name": "Tenaris",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology"
+  },
+  {
+   "name": "Vallourec",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology"
+  },
+  {
+   "name": "Linde",
+   "section": 1,
+   "subgroup": "Oil, gas, LNG, chemicals and energy engineering / EPC"
+  },
+  {
+   "name": "Air Liquide",
+   "section": 1,
+   "subgroup": "Oil, gas, LNG, chemicals and energy engineering / EPC"
+  },
+  {
+   "name": "Mitsubishi Electric",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid"
+  },
+  {
+   "name": "Mitsubishi Heavy Industries",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid"
+  },
+  {
+   "name": "Toshiba",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid"
+  },
+  {
+   "name": "MAN Energy Solutions",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid"
+  },
+  {
+   "name": "Doosan Enerbility",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid"
+  },
+  {
+   "name": "Parker Hannifin",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid"
+  },
+  {
+   "name": "Siemens Gamesa",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Fluence",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Enphase Energy",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Canadian Solar",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "JinkoSolar",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "LONGi",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Trina Solar",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "JA Solar",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Sungrow",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "SMA Solar Technology",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "SolarEdge",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Nordex",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Goldwind",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "RWE",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "EDP Renewables",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "EDF Renewables",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Ørsted",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "ACWA Power",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Masdar",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Lightsource bp",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Statkraft",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "BayWa r.e.",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Bloom Energy",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Plug Power",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Nel",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Huawei",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen"
+  },
+  {
+   "name": "Kongsberg Digital",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology"
+  },
+  {
+   "name": "IFS",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology"
+  },
+  {
+   "name": "C3 AI",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology"
+  },
+  {
+   "name": "EDF",
+   "section": 30,
+   "subgroup": ""
+  },
+  {
+   "name": "E.ON",
+   "section": 30,
+   "subgroup": ""
+  },
+  {
+   "name": "Enel",
+   "section": 30,
+   "subgroup": ""
+  },
+  {
+   "name": "Iberdrola",
+   "section": 30,
+   "subgroup": ""
+  },
+  {
+   "name": "National Grid",
+   "section": 30,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Shell",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors",
+   "configured_in": "energy"
+  },
+  {
+   "name": "BP",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors",
+   "configured_in": "energy"
+  },
+  {
+   "name": "ExxonMobil",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Chevron",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors",
+   "configured_in": "energy"
+  },
+  {
+   "name": "TotalEnergies",
+   "section": 1,
+   "subgroup": "Integrated oil & gas, exploration, production and energy majors",
+   "configured_in": "energy"
+  },
+  {
+   "name": "SLB",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Baker Hughes",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Halliburton",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Weatherford",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "NOV",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "TechnipFMC",
+   "section": 1,
+   "subgroup": "Oilfield services, drilling, subsea and reservoir technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Siemens Energy",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "GE Vernova",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "ABB",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Hitachi Energy",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Schneider Electric",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Eaton",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Honeywell",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Emerson",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Rockwell Automation",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Wärtsilä",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Rolls-Royce",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Caterpillar",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Cummins",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "WEG",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Alstom",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Danfoss",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Flowserve",
+   "section": 1,
+   "subgroup": "Energy equipment, turbines, power generation and grid",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Vestas",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen",
+   "configured_in": "energy"
+  },
+  {
+   "name": "First Solar",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen",
+   "configured_in": "energy"
+  },
+  {
+   "name": "ENGIE",
+   "section": 1,
+   "subgroup": "Renewable energy, solar, wind, storage and hydrogen",
+   "configured_in": "energy"
+  },
+  {
+   "name": "AVEVA",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Yokogawa",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "AspenTech",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Siemens",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Bentley Systems",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Cognite",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  }
+ ]
+}

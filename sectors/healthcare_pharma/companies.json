@@ -1,0 +1,304 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "pfizer.wd1.myworkdayjobs.com",
+   "tenant": "pfizer",
+   "site": "PfizerCareers",
+   "name": "Pfizer"
+  },
+  {
+   "host": "roche.wd3.myworkdayjobs.com",
+   "tenant": "roche",
+   "site": "roche-ext",
+   "name": "Roche"
+  },
+  {
+   "host": "novartis.wd3.myworkdayjobs.com",
+   "tenant": "novartis",
+   "site": "Novartis_Careers",
+   "name": "Novartis"
+  },
+  {
+   "host": "sanofi.wd3.myworkdayjobs.com",
+   "tenant": "sanofi",
+   "site": "SanofiCareers",
+   "name": "Sanofi"
+  },
+  {
+   "host": "astrazeneca.wd3.myworkdayjobs.com",
+   "tenant": "astrazeneca",
+   "site": "broadbean_external",
+   "name": "AstraZeneca"
+  },
+  {
+   "host": "gsk.wd5.myworkdayjobs.com",
+   "tenant": "gsk",
+   "site": "GSKCareers",
+   "name": "GSK"
+  },
+  {
+   "host": "jj.wd5.myworkdayjobs.com",
+   "tenant": "jj",
+   "site": "JJ",
+   "name": "Johnson & Johnson"
+  },
+  {
+   "host": "bristolmyerssquibb.wd5.myworkdayjobs.com",
+   "tenant": "bristolmyerssquibb",
+   "site": "BMS",
+   "name": "Bristol Myers Squibb"
+  },
+  {
+   "host": "takeda.wd502.myworkdayjobs.com",
+   "tenant": "takeda",
+   "site": "External",
+   "name": "Takeda"
+  },
+  {
+   "host": "amgen.wd1.myworkdayjobs.com",
+   "tenant": "amgen",
+   "site": "Careers",
+   "name": "Amgen"
+  },
+  {
+   "host": "gilead.wd1.myworkdayjobs.com",
+   "tenant": "gilead",
+   "site": "gileadcareers",
+   "name": "Gilead Sciences"
+  },
+  {
+   "host": "regeneron.wd1.myworkdayjobs.com",
+   "tenant": "regeneron",
+   "site": "Careers",
+   "name": "Regeneron"
+  },
+  {
+   "host": "abbott.wd5.myworkdayjobs.com",
+   "tenant": "abbott",
+   "site": "abbottcareers",
+   "name": "Abbott"
+  },
+  {
+   "host": "medtronic.wd1.myworkdayjobs.com",
+   "tenant": "medtronic",
+   "site": "MedtronicCareers",
+   "name": "Medtronic"
+  },
+  {
+   "host": "philips.wd3.myworkdayjobs.com",
+   "tenant": "philips",
+   "site": "jobs-and-careers",
+   "name": "Philips"
+  },
+  {
+   "host": "stryker.wd1.myworkdayjobs.com",
+   "tenant": "stryker",
+   "site": "StrykerCareers",
+   "name": "Stryker"
+  },
+  {
+   "host": "baxter.wd1.myworkdayjobs.com",
+   "tenant": "baxter",
+   "site": "baxter",
+   "name": "Baxter"
+  },
+  {
+   "host": "smithnephew.wd5.myworkdayjobs.com",
+   "tenant": "smithnephew",
+   "site": "External",
+   "name": "Smith+Nephew"
+  },
+  {
+   "host": "edwards.wd5.myworkdayjobs.com",
+   "tenant": "edwards",
+   "site": "EdwardsCareers",
+   "name": "Edwards Lifesciences"
+  },
+  {
+   "host": "danaher.wd1.myworkdayjobs.com",
+   "tenant": "danaher",
+   "site": "DanaherJobs",
+   "name": "Danaher"
+  },
+  {
+   "host": "illumina.wd1.myworkdayjobs.com",
+   "tenant": "illumina",
+   "site": "illumina-careers",
+   "name": "Illumina"
+  },
+  {
+   "host": "agilent.wd5.myworkdayjobs.com",
+   "tenant": "agilent",
+   "site": "Agilent_Careers",
+   "name": "Agilent Technologies"
+  },
+  {
+   "host": "resmed.wd3.myworkdayjobs.com",
+   "tenant": "resmed",
+   "site": "ResMed_External_Careers",
+   "name": "ResMed"
+  },
+  {
+   "host": "iqvia.wd1.myworkdayjobs.com",
+   "tenant": "iqvia",
+   "site": "IQVIA",
+   "name": "IQVIA"
+  },
+  {
+   "host": "cigna.wd5.myworkdayjobs.com",
+   "tenant": "cigna",
+   "site": "cignacareers",
+   "name": "Cigna"
+  },
+  {
+   "host": "msd.wd5.myworkdayjobs.com",
+   "tenant": "msd",
+   "site": "SearchJobs",
+   "name": "Merck & Co."
+  },
+  {
+   "host": "biibhr.wd3.myworkdayjobs.com",
+   "tenant": "biibhr",
+   "site": "external",
+   "name": "Biogen"
+  },
+  {
+   "host": "healthcare.wd1.myworkdayjobs.com",
+   "tenant": "healthcare",
+   "site": "Search",
+   "name": "GE HealthCare"
+  },
+  {
+   "host": "thermofisher.wd5.myworkdayjobs.com",
+   "tenant": "thermofisher",
+   "site": "ThermoFisherCareers",
+   "name": "Thermo Fisher Scientific"
+  },
+  {
+   "host": "mckesson.wd3.myworkdayjobs.com",
+   "tenant": "mckesson",
+   "site": "External_Careers",
+   "name": "McKesson"
+  },
+  {
+   "host": "cardinalhealth.wd1.myworkdayjobs.com",
+   "tenant": "cardinalhealth",
+   "site": "EXT",
+   "name": "Cardinal Health"
+  },
+  {
+   "host": "lonza.wd3.myworkdayjobs.com",
+   "tenant": "lonza",
+   "site": "Lonza_Careers",
+   "name": "Lonza"
+  },
+  {
+   "host": "elevancehealth.wd1.myworkdayjobs.com",
+   "tenant": "elevancehealth",
+   "site": "carelonglobal_in",
+   "name": "Elevance Health"
+  },
+  {
+   "host": "labcorp.wd1.myworkdayjobs.com",
+   "tenant": "labcorp",
+   "site": "External",
+   "name": "Labcorp"
+  },
+  {
+   "host": "zoetis.wd5.myworkdayjobs.com",
+   "tenant": "zoetis",
+   "site": "broadbean_external",
+   "name": "Zoetis"
+  },
+  {
+   "host": "elanco.wd5.myworkdayjobs.com",
+   "tenant": "elanco",
+   "site": "External_Career",
+   "name": "Elanco"
+  },
+  {
+   "host": "revvity.wd103.myworkdayjobs.com",
+   "tenant": "revvity",
+   "site": "External",
+   "name": "Revvity"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "company_id": "abbvie",
+   "name": "AbbVie"
+  },
+  {
+   "company_id": "intuitive",
+   "name": "Intuitive"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Boston Scientific",
+   "host": "bostonscientific.eightfold.ai",
+   "domain": "bostonscientific.com",
+   "api": "pcsx"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Novo Nordisk",
+   "host": "careers.novonordisk.com"
+  },
+  {
+   "name": "B. Braun",
+   "host": "jobs.bbraun.com"
+  },
+  {
+   "name": "Bayer",
+   "host": "jobs.bayer.com"
+  },
+  {
+   "name": "Boehringer Ingelheim",
+   "host": "jobs.boehringer-ingelheim.com"
+  },
+  {
+   "name": "Dentsply Sirona",
+   "host": "careers.dentsplysirona.com"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "Cencora",
+   "host": "careers.cencora.com",
+   "lang": "en_us",
+   "page_id": "page14",
+   "region": "global/en"
+  },
+  {
+   "name": "Merck KGaA",
+   "host": "careers.emdgroup.com",
+   "lang": "en_us",
+   "page_id": "page14",
+   "region": "global/en"
+  },
+  {
+   "name": "Siemens Healthineers",
+   "host": "careers.siemens-healthineers.com",
+   "lang": "en_global",
+   "page_id": "page22",
+   "region": "global/en"
+  },
+  {
+   "name": "Zimmer Biomet",
+   "host": "careers.zimmerbiomet.com",
+   "lang": "en_us",
+   "page_id": "page19",
+   "region": "global/en"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Quest Diagnostics",
+   "host": "hdox.fa.us6.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ]
+}

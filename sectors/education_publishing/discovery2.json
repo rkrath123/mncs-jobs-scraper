@@ -1,0 +1,101 @@
+{
+ "Cambridge University Press": {
+  "hosts": [
+   "www.cambridgeuniversitypress.com",
+   "www.cambridge.com",
+   "cambridge.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Chegg": {
+  "hosts": [
+   "careers.chegg.com",
+   "jobs.chegg.com",
+   "www.chegg.com",
+   "chegg.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ETS": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Informa": {
+  "hosts": [
+   "careers.informa.com"
+  ],
+  "results": [
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Informa",
+     "company_id": "InformaGroupPlc"
+    },
+    "india_jobs": 14,
+    "found_on": "careers.informa.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Kaplan": {
+  "hosts": [
+   "jobs.kaplan.com",
+   "www.kaplan.com",
+   "kaplan.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nature Portfolio": {
+  "hosts": [
+   "www.natureportfolio.com",
+   "natureportfolio.com",
+   "www.nature-portfolio.com",
+   "nature-portfolio.com",
+   "www.nature.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Oxford University Press": {
+  "hosts": [
+   "www.oxforduniversitypress.com",
+   "oxforduniversitypress.com",
+   "www.oxford.com",
+   "oxford.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Pearson": {
+  "hosts": [
+   "jobs.pearson.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Pearson",
+     "host": "hccz.fa.em3.oraclecloud.com",
+     "site": "CX_2"
+    },
+    "india_jobs": 35,
+    "found_on": "jobs.pearson.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Udemy": {
+  "hosts": [
+   "careers.udemy.com",
+   "jobs.udemy.com",
+   "www.udemy.com",
+   "udemy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

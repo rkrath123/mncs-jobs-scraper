@@ -1,0 +1,230 @@
+{
+ "ASICS": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "asics",
+    "name": "ASICS"
+   },
+   "india_jobs": 0,
+   "site_total": 7
+  }
+ ],
+ "Burberry": [],
+ "Cartier": [],
+ "Chanel": [],
+ "Columbia Sportswear": [],
+ "Deckers": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "deckers.wd5.myworkdayjobs.com",
+    "tenant": "deckers",
+    "site": "Deckers",
+    "name": "Deckers"
+   },
+   "india_jobs": 0,
+   "site_total": 353,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "deckers.wd5.myworkdayjobs.com",
+    "tenant": "deckers",
+    "site": "Deckers-Brands",
+    "name": "Deckers"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "Fossil Group": [],
+ "Gucci": [],
+ "Hanesbrands": [],
+ "Levi Strauss & Co.": [],
+ "New Balance": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "newbalance.wd1.myworkdayjobs.com",
+    "tenant": "newbalance",
+    "site": "Careers",
+    "name": "New Balance"
+   },
+   "india_jobs": 6,
+   "site_total": 221,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "newbalance.wd1.myworkdayjobs.com",
+    "tenant": "newbalance",
+    "site": "Careers-UK",
+    "name": "New Balance"
+   },
+   "india_jobs": 1,
+   "site_total": 89,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "newbalance.wd1.myworkdayjobs.com",
+    "tenant": "newbalance",
+    "site": "Warrior_Careers",
+    "name": "New Balance"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "newbalance.wd1.myworkdayjobs.com",
+    "tenant": "newbalance",
+    "site": "APAC",
+    "name": "New Balance"
+   },
+   "india_jobs": 0,
+   "site_total": 11,
+   "facet": false
+  }
+ ],
+ "PVH Corp.": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pvh.wd1.myworkdayjobs.com",
+    "tenant": "pvh",
+    "site": "PVH_Careers",
+    "name": "PVH Corp."
+   },
+   "india_jobs": 18,
+   "site_total": 1470,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pvh.wd1.myworkdayjobs.com",
+    "tenant": "pvh",
+    "site": "broadbean_external",
+    "name": "PVH Corp."
+   },
+   "india_jobs": 0,
+   "site_total": 171,
+   "facet": false
+  }
+ ],
+ "Prada": [],
+ "Puma": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "puma.wd502.myworkdayjobs.com",
+    "tenant": "puma",
+    "site": "Jobs_at_Puma",
+    "name": "Puma"
+   },
+   "india_jobs": 97,
+   "site_total": 701,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "puma.wd502.myworkdayjobs.com",
+    "tenant": "puma",
+    "site": "broadbean_external",
+    "name": "Puma"
+   },
+   "india_jobs": 0,
+   "site_total": 30,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "puma.wd502.myworkdayjobs.com",
+    "tenant": "puma",
+    "site": "Work_at_stichd",
+    "name": "Puma"
+   },
+   "india_jobs": 0,
+   "site_total": 27,
+   "facet": false
+  }
+ ],
+ "Ralph Lauren": [],
+ "Rolex": [],
+ "Skechers": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "skechers.wd5.myworkdayjobs.com",
+    "tenant": "skechers",
+    "site": "One-career-site",
+    "name": "Skechers"
+   },
+   "india_jobs": 15,
+   "site_total": 1752,
+   "facet": true
+  }
+ ],
+ "Tapestry": [],
+ "Under Armour": [],
+ "VF Corporation": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vfc.wd5.myworkdayjobs.com",
+    "tenant": "vfc",
+    "site": "vfc_careers",
+    "name": "VF Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 1315,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vfc.wd5.myworkdayjobs.com",
+    "tenant": "vfc",
+    "site": "northface_careers",
+    "name": "VF Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 342,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vfc.wd5.myworkdayjobs.com",
+    "tenant": "vfc",
+    "site": "timberland_careers",
+    "name": "VF Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 142,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vfc.wd5.myworkdayjobs.com",
+    "tenant": "vfc",
+    "site": "vans_careers",
+    "name": "VF Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 573,
+   "facet": false
+  }
+ ]
+}

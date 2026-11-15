@@ -1,0 +1,182 @@
+{
+ "sector": "airlines_aviation",
+ "title": "Airlines and airport / aviation operators",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Emirates",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Qatar Airways",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Etihad Airways",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Singapore Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Lufthansa",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Air France",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "KLM",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "British Airways",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Cathay Pacific",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "American Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Delta Air Lines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Turkish Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Japan Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "All Nippon Airways",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Qantas",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Swiss International Air Lines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Air Canada",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Malaysia Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Thai Airways",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Air Arabia",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "flydubai",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Oman Air",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Gulf Air",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Saudia",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Ethiopian Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Korean Air",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Asiana Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Vietnam Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Finnair",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Air Mauritius",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint."
+  },
+  {
+   "name": "Southwest Airlines",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Alaska Air",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "United Airlines",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint.",
+   "configured_in": "airlines_aviation"
+  },
+  {
+   "name": "AirAsia",
+   "section": 13,
+   "subgroup": "airline-sector prospects and verify the local employment footprint.",
+   "configured_in": "airlines_aviation"
+  }
+ ]
+}

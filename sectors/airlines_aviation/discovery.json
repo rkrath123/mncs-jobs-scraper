@@ -1,0 +1,199 @@
+{
+ "Air Arabia": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Air Arabia"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Air Canada": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Air Canada"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Air France": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Air France"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Air Mauritius": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Air Mauritius"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "AirAsia": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "airasia.wd3.myworkdayjobs.com",
+    "tenant": "airasia",
+    "site": "Careers",
+    "name": "AirAsia"
+   },
+   "india_jobs": 3,
+   "site_total": 105,
+   "facet": true
+  }
+ ],
+ "Alaska Air": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Alaska Air"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "All Nippon Airways": [],
+ "American Airlines": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "aa.wd105.myworkdayjobs.com",
+    "tenant": "aa",
+    "site": "AA",
+    "name": "American Airlines"
+   },
+   "india_jobs": 0,
+   "site_total": 9,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "american.wd1.myworkdayjobs.com",
+    "tenant": "american",
+    "site": "AU",
+    "name": "American Airlines"
+   },
+   "india_jobs": 0,
+   "site_total": 92,
+   "facet": false
+  }
+ ],
+ "Asiana Airlines": [],
+ "British Airways": [],
+ "Cathay Pacific": [],
+ "Delta Air Lines": [],
+ "Emirates": [],
+ "Ethiopian Airlines": [],
+ "Etihad Airways": [],
+ "Finnair": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "finnair.wd103.myworkdayjobs.com",
+    "tenant": "finnair",
+    "site": "finnair",
+    "name": "Finnair"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "finnair.wd103.myworkdayjobs.com",
+    "tenant": "finnair",
+    "site": "finnair2",
+    "name": "Finnair"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "Gulf Air": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Gulf Air"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Japan Airlines": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "japan",
+    "name": "Japan Airlines"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "KLM": [],
+ "Korean Air": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Korean Air"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Lufthansa": [],
+ "Malaysia Airlines": [],
+ "Oman Air": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Oman Air"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Qantas": [],
+ "Qatar Airways": [],
+ "Saudia": [],
+ "Singapore Airlines": [],
+ "Southwest Airlines": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "southwest",
+    "name": "Southwest Airlines"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Swiss International Air Lines": [],
+ "Thai Airways": [],
+ "Turkish Airlines": [],
+ "United Airlines": [],
+ "Vietnam Airlines": [],
+ "flydubai": []
+}

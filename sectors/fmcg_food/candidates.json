@@ -1,0 +1,369 @@
+{
+ "sector": "fmcg_food",
+ "title": "FMCG, food, beverage (operators/restaurants included)",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Nestlé",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Coca-Cola",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Mondelez International",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Colgate-Palmolive",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "L’Oréal",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Beiersdorf",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Henkel",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "SC Johnson",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Church & Dwight",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Clorox",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Edgewell Personal Care",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Estée Lauder",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Coty",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "Shiseido",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care"
+  },
+  {
+   "name": "ADM",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Bunge",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Olam Group",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Kerry Group",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Tate & Lyle",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Barry Callebaut",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "McCormick",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "General Mills",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Kellogg / Kellanova",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Conagra Brands",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Danone",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Lactalis",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Arla Foods",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "FrieslandCampina",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "Fonterra",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients"
+  },
+  {
+   "name": "McDonald’s",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Starbucks",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Yum! Brands",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Domino’s Pizza",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Restaurant Brands International",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Subway",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Dunkin’",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Costa Coffee",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Krispy Kreme",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Wendy’s",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Shake Shack",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Papa Johns",
+   "section": 19,
+   "subgroup": "Restaurant and food-service chains"
+  },
+  {
+   "name": "Anheuser-Busch InBev",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "British American Tobacco",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Philip Morris International",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Keurig Dr Pepper",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Hershey",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Campbell",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Hormel",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Constellation Brands",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Altria",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Monster Beverage",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Brown-Forman",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Molson Coors",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "J.M. Smucker",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Lamb Weston",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Unilever",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Procter & Gamble",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "PepsiCo",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Reckitt",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Kimberly-Clark",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Mars",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Ferrero",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Kraft Heinz",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Kenvue",
+   "section": 19,
+   "subgroup": "Consumer goods and personal care",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Cargill",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Louis Dreyfus Company",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Ingredion",
+   "section": 19,
+   "subgroup": "Food, agriculture commodities and ingredients",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Diageo",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "fmcg_food"
+  },
+  {
+   "name": "Tyson Foods",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "fmcg_food"
+  }
+ ]
+}

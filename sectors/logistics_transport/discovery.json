@@ -1,0 +1,404 @@
+{
+ "A.P. Moller": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ap.wd12.myworkdayjobs.com",
+    "tenant": "ap",
+    "site": "AP_Careers",
+    "name": "A.P. Moller"
+   },
+   "india_jobs": 0,
+   "site_total": 103,
+   "facet": false
+  }
+ ],
+ "Agility Logistics": [],
+ "Aramex": [],
+ "Avis Budget": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "avisbudget.wd1.myworkdayjobs.com",
+    "tenant": "avisbudget",
+    "site": "ABG_Careers",
+    "name": "Avis Budget"
+   },
+   "india_jobs": 1,
+   "site_total": 414,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "avisbudget.wd1.myworkdayjobs.com",
+    "tenant": "avisbudget",
+    "site": "Zipcar_Careers",
+    "name": "Avis Budget"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  }
+ ],
+ "C.H. Robinson": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "chrobinson.wd5.myworkdayjobs.com",
+    "tenant": "chrobinson",
+    "site": "CHRobinson",
+    "name": "C.H. Robinson"
+   },
+   "india_jobs": 1,
+   "site_total": 154,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "chrobinson.wd5.myworkdayjobs.com",
+    "tenant": "chrobinson",
+    "site": "ContractorConversionSite",
+    "name": "C.H. Robinson"
+   },
+   "india_jobs": 0,
+   "site_total": 24,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "chrobinson.wd5.myworkdayjobs.com",
+    "tenant": "chrobinson",
+    "site": "InternConversionSite",
+    "name": "C.H. Robinson"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "CAF": [],
+ "CEVA Logistics": [],
+ "CMA CGM": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cgm.wd3.myworkdayjobs.com",
+    "tenant": "cgm",
+    "site": "cgm",
+    "name": "CMA CGM"
+   },
+   "india_jobs": 10,
+   "site_total": 243,
+   "facet": true
+  }
+ ],
+ "COSCO Shipping": [],
+ "CSX": [],
+ "Cubic Corporation": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cubic.wd1.myworkdayjobs.com",
+    "tenant": "cubic",
+    "site": "cubic_USA_careers",
+    "name": "Cubic Corporation"
+   },
+   "india_jobs": 0,
+   "site_total": 49,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cubic.wd1.myworkdayjobs.com",
+    "tenant": "cubic",
+    "site": "cubic_global_careers",
+    "name": "Cubic Corporation"
+   },
+   "india_jobs": 40,
+   "site_total": 78,
+   "facet": true
+  }
+ ],
+ "DB Schenker": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "db.wd3.myworkdayjobs.com",
+    "tenant": "db",
+    "site": "DBWebsite",
+    "name": "DB Schenker"
+   },
+   "india_jobs": 319,
+   "site_total": 1189,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "db.wd3.myworkdayjobs.com",
+    "tenant": "db",
+    "site": "PBWebsite",
+    "name": "DB Schenker"
+   },
+   "india_jobs": 0,
+   "site_total": 132,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "db.wd3.myworkdayjobs.com",
+    "tenant": "db",
+    "site": "DWSWebsite",
+    "name": "DB Schenker"
+   },
+   "india_jobs": 29,
+   "site_total": 85,
+   "facet": true
+  }
+ ],
+ "DHL": [],
+ "DP World": [],
+ "DSV": [],
+ "Deutsche Bahn": [],
+ "Evergreen Marine": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "evergreen.wd501.myworkdayjobs.com",
+    "tenant": "evergreen",
+    "site": "Evergreen_Careers",
+    "name": "Evergreen Marine"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Expeditors": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "expeditors",
+    "name": "Expeditors"
+   },
+   "india_jobs": 5,
+   "site_total": 549
+  }
+ ],
+ "FedEx": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fedex.wd1.myworkdayjobs.com",
+    "tenant": "fedex",
+    "site": "FXE-Canada_External_Career_Site",
+    "name": "FedEx"
+   },
+   "india_jobs": 0,
+   "site_total": 37,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fedex.wd1.myworkdayjobs.com",
+    "tenant": "fedex",
+    "site": "FXE-LAC_External_Career_Site",
+    "name": "FedEx"
+   },
+   "india_jobs": 0,
+   "site_total": 165,
+   "facet": false
+  }
+ ],
+ "Flexport": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "flexport",
+    "name": "Flexport"
+   },
+   "india_jobs": 4,
+   "site_total": 201
+  }
+ ],
+ "GEODIS": [],
+ "GXO Logistics": [],
+ "Hapag-Lloyd": [],
+ "Hellmann Worldwide Logistics": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hellmann.wd103.myworkdayjobs.com",
+    "tenant": "hellmann",
+    "site": "hellmannexternaljobs",
+    "name": "Hellmann Worldwide Logistics"
+   },
+   "india_jobs": 3,
+   "site_total": 347,
+   "facet": true
+  }
+ ],
+ "Hertz": [],
+ "Hitachi Rail": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hitachi.wd1.myworkdayjobs.com",
+    "tenant": "hitachi",
+    "site": "hitachi",
+    "name": "Hitachi Rail"
+   },
+   "india_jobs": 787,
+   "site_total": 2000,
+   "facet": true
+  }
+ ],
+ "J.B. Hunt": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "jbhunt.wd501.myworkdayjobs.com",
+    "tenant": "jbhunt",
+    "site": "Careers",
+    "name": "J.B. Hunt"
+   },
+   "india_jobs": 0,
+   "site_total": 438,
+   "facet": false
+  }
+ ],
+ "Japan Post": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "japan",
+    "name": "Japan Post"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Kapsch": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kapsch.wd3.myworkdayjobs.com",
+    "tenant": "kapsch",
+    "site": "onestepahead_Austria",
+    "name": "Kapsch"
+   },
+   "india_jobs": 0,
+   "site_total": 6,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kapsch.wd3.myworkdayjobs.com",
+    "tenant": "kapsch",
+    "site": "onestepahead_Poland",
+    "name": "Kapsch"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Kintetsu World Express": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "kintetsuworldexpress",
+    "name": "Kintetsu World Express"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Knorr-Bremse": [],
+ "Kuehne+Nagel": [],
+ "La Poste": [],
+ "Landstar": [],
+ "Lineage": [],
+ "MSC": [],
+ "Maersk": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "maersk.wd3.myworkdayjobs.com",
+    "tenant": "maersk",
+    "site": "APMT_Careers",
+    "name": "Maersk"
+   },
+   "india_jobs": 6,
+   "site_total": 140,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "maersk.wd3.myworkdayjobs.com",
+    "tenant": "maersk",
+    "site": "Maersk_Careers",
+    "name": "Maersk"
+   },
+   "india_jobs": 20,
+   "site_total": 1212,
+   "facet": false
+  }
+ ],
+ "Nippon Express": [],
+ "Norfolk Southern": [],
+ "Ocean Network Express": [],
+ "Poste Italiane": [],
+ "Rhenus Logistics": [],
+ "Royal Mail": [],
+ "Ryder System": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ryder.wd5.myworkdayjobs.com",
+    "tenant": "ryder",
+    "site": "RyderCareers",
+    "name": "Ryder System"
+   },
+   "india_jobs": 0,
+   "site_total": 416,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "system",
+    "name": "Ryder System"
+   },
+   "india_jobs": 0,
+   "site_total": 5
+  }
+ ],
+ "SNCF": [],
+ "Stadler Rail": [],
+ "UPS": [],
+ "Union Pacific": [],
+ "Wabtec": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "wabtec",
+    "name": "Wabtec"
+   },
+   "india_jobs": 86,
+   "site_total": 724
+  }
+ ],
+ "XPO": [],
+ "Yang Ming": [],
+ "Yusen Logistics": [],
+ "ZIM": []
+}

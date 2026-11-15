@@ -1,0 +1,109 @@
+{
+ "AGCO": {
+  "hosts": [
+   "www.agco.com",
+   "agco.com",
+   "careers.agco.net",
+   "jobs.agco.io",
+   "careers.agco.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CLAAS": {
+  "hosts": [
+   "jobs.claas.com",
+   "www.claas.com",
+   "claas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CNH Industrial": {
+  "hosts": [
+   "careers.cnh.com",
+   "www.cnh.com",
+   "cnh.com",
+   "cnhcareers.com",
+   "jobs.cnh.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "DeLaval": {
+  "hosts": [
+   "www.delaval.com",
+   "delaval.com",
+   "careers.delaval.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "John Deere": {
+  "hosts": [
+   "www.johndeere.com",
+   "johndeere.com",
+   "johndeerecareers.com",
+   "careers.deere.com",
+   "jobs.deere.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kubota": {
+  "hosts": [
+   "www.kubota.com",
+   "kubota.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nutrien": {
+  "hosts": [
+   "jobs.nutrien.com",
+   "www.nutrien.com",
+   "nutrien.com",
+   "careers.nutrien.net"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Nutrien",
+     "host": "jobs.nutrien.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.nutrien.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Syngenta": {
+  "hosts": [
+   "careers.syngenta.com",
+   "jobs.syngenta.com",
+   "www.syngenta.com",
+   "syngenta.com",
+   "careers.syngenta.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Yara International": {
+  "hosts": [
+   "jobs.yara.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Yara International",
+     "host": "jobs.yara.com"
+    },
+    "india_jobs": 3,
+    "found_on": "jobs.yara.com"
+   }
+  ],
+  "unsupported": []
+ }
+}

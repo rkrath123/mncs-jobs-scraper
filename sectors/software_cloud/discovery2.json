@@ -1,0 +1,425 @@
+{
+ "Adjust": {
+  "hosts": [
+   "careers.adjust.com",
+   "jobs.adjust.com",
+   "www.adjust.com",
+   "adjust.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Alibaba": {
+  "hosts": [
+   "careers.alibaba.com",
+   "jobs.alibaba.com",
+   "www.alibaba.com",
+   "alibaba.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Alphabet": {
+  "hosts": [
+   "careers.google.com",
+   "jobs.google.com",
+   "www.google.com",
+   "google.com",
+   "www.alphabet.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Altair": {
+  "hosts": [
+   "www.altair.com",
+   "altair.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Apple": {
+  "hosts": [
+   "careers.apple.com",
+   "jobs.apple.com",
+   "www.apple.com",
+   "apple.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Autodesk": {
+  "hosts": [
+   "careers.autodesk.com",
+   "jobs.autodesk.com",
+   "www.autodesk.com",
+   "autodesk.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Automatic Data Processing": {
+  "hosts": [
+   "careers.adp.com",
+   "jobs.adp.com",
+   "www.adp.com",
+   "adp.com",
+   "www.automaticdataprocessing.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Avaya": {
+  "hosts": [
+   "careers.avaya.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Avaya",
+     "host": "careers.avaya.com"
+    },
+    "india_jobs": 3,
+    "found_on": "careers.avaya.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Box": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Canonical": {
+  "hosts": [
+   "careers.canonical.com",
+   "www.canonical.com",
+   "canonical.com"
+  ],
+  "results": [
+   {
+    "platform": "greenhouse",
+    "config": {
+     "name": "Canonical",
+     "board": "canonical"
+    },
+    "india_jobs": 0,
+    "found_on": "www.canonical.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Canva": {
+  "hosts": [
+   "www.canva.com",
+   "canva.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cohesity": {
+  "hosts": [
+   "careers.cohesity.com",
+   "www.cohesity.com",
+   "cohesity.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Criteo": {
+  "hosts": [
+   "careers.criteo.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Criteo",
+     "host": "criteo.wd3.myworkdayjobs.com",
+     "tenant": "criteo",
+     "site": "Criteo_Career_Site"
+    },
+    "india_jobs": 4,
+    "found_on": "careers.criteo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Dassault Systèmes": {
+  "hosts": [
+   "www.dassaultsystemes.com",
+   "dassaultsystemes.com",
+   "www.dassault-systemes.com",
+   "dassault-systemes.com",
+   "www.dassault.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Dell Technologies": {
+  "hosts": [
+   "jobs.dell.com",
+   "www.dell.com",
+   "dell.com",
+   "jobs.delltechnologies.com",
+   "www.delltechnologies.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Digital Realty": {
+  "hosts": [
+   "careers.digitalrealty.com",
+   "www.digitalrealty.com",
+   "digitalrealty.com",
+   "www.digital-realty.com",
+   "digital-realty.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Dropbox": {
+  "hosts": [
+   "careers.dropbox.com",
+   "jobs.dropbox.com",
+   "www.dropbox.com",
+   "dropbox.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Equinix": {
+  "hosts": [
+   "careers.equinix.com",
+   "www.equinix.com",
+   "equinix.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "GoDaddy": {
+  "hosts": [
+   "careers.godaddy.com",
+   "jobs.godaddy.com",
+   "www.godaddy.com",
+   "godaddy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Google": {
+  "hosts": [
+   "careers.google.com",
+   "jobs.google.com",
+   "www.google.com",
+   "google.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hewlett Packard Enterprise": {
+  "hosts": [
+   "www.hewlettpackardenterprise.com",
+   "hewlettpackardenterprise.com",
+   "www.hewlett-packard-enterprise.com",
+   "hewlett-packard-enterprise.com",
+   "www.hewlett.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "HubSpot": {
+  "hosts": [
+   "jobs.hubspot.com",
+   "www.hubspot.com",
+   "hubspot.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "IBM": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Infor": {
+  "hosts": [
+   "careers.infor.com",
+   "www.infor.com",
+   "infor.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lyft": {
+  "hosts": [
+   "www.lyft.com",
+   "lyft.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Magnite": {
+  "hosts": [
+   "careers.magnite.com",
+   "www.magnite.com",
+   "magnite.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "MathWorks": {
+  "hosts": [
+   "www.mathworks.com",
+   "mathworks.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "NCR": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Nutanix": {
+  "hosts": [
+   "careers.nutanix.com",
+   "jobs.nutanix.com",
+   "www.nutanix.com",
+   "nutanix.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "OpenText": {
+  "hosts": [
+   "careers.opentext.com",
+   "www.opentext.com",
+   "opentext.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "OpenText",
+     "host": "careers.opentext.com",
+     "lang": "en_us",
+     "page_id": "page18",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.opentext.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Pegasystems": {
+  "hosts": [
+   "www.pegasystems.com",
+   "pegasystems.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Roper Technologies": {
+  "hosts": [
+   "www.roper.com",
+   "careers.ropertechnologies.com",
+   "jobs.ropertechnologies.com",
+   "www.ropertechnologies.com",
+   "ropertechnologies.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SAP": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Sage": {
+  "hosts": [
+   "www.sage.com",
+   "sage.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tencent": {
+  "hosts": [
+   "careers.tencent.com",
+   "jobs.tencent.com",
+   "www.tencent.com",
+   "tencent.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "The Trade Desk": {
+  "hosts": [
+   "careers.tradedesk.com",
+   "jobs.tradedesk.com",
+   "www.tradedesk.com",
+   "tradedesk.com",
+   "careers.trade-desk.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Veeam": {
+  "hosts": [
+   "careers.veeam.com",
+   "www.veeam.com",
+   "veeam.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Veritas": {
+  "hosts": [
+   "www.veritas.com",
+   "veritas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Workiva": {
+  "hosts": [
+   "www.workiva.com",
+   "workiva.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Workiva",
+     "host": "workiva.wd503.myworkdayjobs.com",
+     "tenant": "workiva",
+     "site": "careers"
+    },
+    "india_jobs": 0,
+    "found_on": "www.workiva.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Xerox": {
+  "hosts": [
+   "www.xerox.com",
+   "xerox.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Zoom": {
+  "hosts": [
+   "www.zoom.com",
+   "zoom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

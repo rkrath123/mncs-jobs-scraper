@@ -1,0 +1,486 @@
+{
+ "ATR": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Astroscale": {
+  "hosts": [
+   "www.astroscale.com",
+   "astroscale.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "BAE Systems": {
+  "hosts": [
+   "careers.baesystems.com",
+   "jobs.baesystems.com",
+   "www.baesystems.com",
+   "baesystems.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Blue Origin": {
+  "hosts": [
+   "www.blueorigin.com",
+   "blueorigin.com",
+   "www.blue-origin.com",
+   "blue-origin.com",
+   "careers.blue.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bombardier": {
+  "hosts": [
+   "careers.bombardier.com",
+   "jobs.bombardier.com",
+   "www.bombardier.com",
+   "bombardier.com",
+   "jobs.bombardier.io"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Bombardier",
+     "host": "careers.bombardier.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.bombardier.com"
+   },
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Bombardier",
+     "host": "jobs.bombardier.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.bombardier.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Dassault Aviation": {
+  "hosts": [
+   "www.dassaultaviation.com",
+   "dassaultaviation.com",
+   "www.dassault-aviation.com",
+   "dassault-aviation.com",
+   "www.dassault.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Elbit Systems": {
+  "hosts": [
+   "www.elbit.com",
+   "elbit.com",
+   "careers.elbit.net",
+   "www.elbitsystems.com",
+   "elbitsystems.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Embraer": {
+  "hosts": [
+   "www.embraer.com",
+   "embraer.com",
+   "jobs.embraer.io",
+   "careers.embraer.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Eutelsat": {
+  "hosts": [
+   "careers.eutelsat.com",
+   "www.eutelsat.com",
+   "eutelsat.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Eutelsat",
+     "host": "careers.eutelsat.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.eutelsat.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "General Atomics": {
+  "hosts": [
+   "www.generalatomics.com",
+   "generalatomics.com",
+   "careers.general-atomics.com",
+   "jobs.general-atomics.com",
+   "www.general-atomics.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "brassring"
+  ]
+ },
+ "General Dynamics": {
+  "hosts": [
+   "www.gd.com",
+   "gd.com",
+   "gdcareers.com",
+   "jobs.gd.io",
+   "careers.gd.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Gulfstream": {
+  "hosts": [
+   "careers.gulfstream.com",
+   "jobs.gulfstream.com",
+   "www.gulfstream.com",
+   "gulfstream.com",
+   "careers.gulfstream.net"
+  ],
+  "results": [],
+  "unsupported": [
+   "successfactors-page"
+  ]
+ },
+ "HEICO": {
+  "hosts": [
+   "careers.heico.com",
+   "jobs.heico.com",
+   "www.heico.com",
+   "heico.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Howmet Aerospace": {
+  "hosts": [
+   "www.howmetaerospace.com",
+   "howmetaerospace.com",
+   "www.howmet.com",
+   "howmet.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Howmet Aerospace",
+     "host": "fa-exty-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 0,
+    "found_on": "www.howmetaerospace.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Huntington Ingalls Industries": {
+  "hosts": [
+   "www.hii.com",
+   "hii.com",
+   "careers.hii.net",
+   "hiicareers.com",
+   "jobs.hii.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ICEYE": {
+  "hosts": [
+   "www.iceye.com",
+   "iceye.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Intelsat": {
+  "hosts": [
+   "careers.intelsat.com",
+   "www.intelsat.com",
+   "intelsat.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kongsberg Gruppen": {
+  "hosts": [
+   "www.kongsberggruppen.com",
+   "kongsberggruppen.com",
+   "www.kongsberg-gruppen.com",
+   "kongsberg-gruppen.com",
+   "www.kongsberg.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "L3Harris": {
+  "hosts": [
+   "careers.l3harris.com",
+   "jobs.l3harris.com",
+   "www.l3harris.com",
+   "l3harris.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Leonardo": {
+  "hosts": [
+   "www.leonardo.com",
+   "leonardo.com",
+   "jobs.leonardo.io",
+   "careers.leonardo.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lockheed Martin": {
+  "hosts": [
+   "www.lockheedmartin.com",
+   "lockheedmartin.com",
+   "lockheedmartincareers.com",
+   "www.lockheed-martin.com",
+   "lockheed-martin.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Lockheed Martin",
+     "host": "lockheedmartin.eightfold.ai",
+     "domain": "lockheedmartin.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 0,
+    "found_on": "www.lockheedmartin.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "MBDA": {
+  "hosts": [
+   "www.mbda.com",
+   "mbda.com",
+   "mbdacareers.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "MBDA",
+     "host": "mbda.wd3.myworkdayjobs.com",
+     "tenant": "mbda",
+     "site": "MBDA-Italy"
+    },
+    "india_jobs": 0,
+    "found_on": "mbda.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "MDA Space": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Maxar": {
+  "hosts": [
+   "www.maxar.com",
+   "maxar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Northrop Grumman": {
+  "hosts": [
+   "jobs.ngc.com",
+   "www.ngc.com",
+   "ngc.com",
+   "jobs.northropgrumman.com",
+   "www.northropgrumman.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Northrop Grumman",
+     "host": "ngc.eightfold.ai",
+     "domain": "ngc.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 0,
+    "found_on": "www.ngc.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Planet Labs": {
+  "hosts": [
+   "www.planetlabs.com",
+   "planetlabs.com",
+   "www.planet.com",
+   "planet.com",
+   "planetcareers.com"
+  ],
+  "results": [
+   {
+    "platform": "greenhouse",
+    "config": {
+     "name": "Planet Labs",
+     "board": "planetlabs"
+    },
+    "india_jobs": 0,
+    "found_on": "www.planet.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Rheinmetall": {
+  "hosts": [
+   "www.rheinmetall.com",
+   "rheinmetall.com",
+   "careers.rheinmetall.net",
+   "rheinmetallcareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SES": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Saab": {
+  "hosts": [
+   "www.saab.com",
+   "saab.com",
+   "careers.saab.net",
+   "jobs.saab.io",
+   "careers.saab.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Safran": {
+  "hosts": [
+   "careers.safran-group.com",
+   "www.safran-group.com",
+   "safran-group.com",
+   "www.safran.com",
+   "safran.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SpaceX": {
+  "hosts": [
+   "www.spacex.com",
+   "spacex.com",
+   "spacexcareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Spire Global": {
+  "hosts": [
+   "www.spireglobal.com",
+   "spireglobal.com",
+   "www.spire-global.com",
+   "spire-global.com",
+   "www.spire.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Spirit AeroSystems": {
+  "hosts": [
+   "www.spiritaerosystems.com",
+   "careers.spirit.com",
+   "jobs.spirit.io",
+   "careers.spirit.io"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Spirit AeroSystems",
+     "host": "careers.spirit.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.spirit.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Teledyne Technologies": {
+  "hosts": [
+   "www.teledyne.com",
+   "teledyne.com",
+   "teledynecareers.com",
+   "www.teledynetechnologies.com",
+   "teledynetechnologies.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Textron": {
+  "hosts": [
+   "careers.textron.com",
+   "jobs.textron.com",
+   "www.textron.com",
+   "textron.com",
+   "careers.textron.net"
+  ],
+  "results": [],
+  "unsupported": [
+   "taleo"
+  ]
+ },
+ "Thales Alenia Space": {
+  "hosts": [
+   "www.thalesaleniaspace.com",
+   "thalesaleniaspace.com",
+   "www.thales-alenia-space.com",
+   "www.thales.com",
+   "thales.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "TransDigm": {
+  "hosts": [
+   "www.transdigm.com",
+   "transdigm.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Viasat": {
+  "hosts": [
+   "careers.viasat.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Viasat",
+     "host": "careers.viasat.com"
+    },
+    "india_jobs": 11,
+    "found_on": "careers.viasat.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ }
+}

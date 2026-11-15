@@ -1,0 +1,711 @@
+{
+ "ADM": [],
+ "Altria": [],
+ "Anheuser-Busch InBev": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "abinbev.wd1.myworkdayjobs.com",
+    "tenant": "abinbev",
+    "site": "JPN",
+    "name": "Anheuser-Busch InBev"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "abinbev.wd1.myworkdayjobs.com",
+    "tenant": "abinbev",
+    "site": "KOR",
+    "name": "Anheuser-Busch InBev"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "abinbev",
+    "name": "Anheuser-Busch InBev"
+   },
+   "india_jobs": 0,
+   "site_total": 58
+  }
+ ],
+ "Arla Foods": [],
+ "Barry Callebaut": [],
+ "Beiersdorf": [],
+ "British American Tobacco": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "american.wd1.myworkdayjobs.com",
+    "tenant": "american",
+    "site": "AU",
+    "name": "British American Tobacco"
+   },
+   "india_jobs": 0,
+   "site_total": 91,
+   "facet": false
+  }
+ ],
+ "Brown-Forman": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "brown.wd5.myworkdayjobs.com",
+    "tenant": "brown",
+    "site": "staff-careers-brown",
+    "name": "Brown-Forman"
+   },
+   "india_jobs": 0,
+   "site_total": 108,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "brown.wd5.myworkdayjobs.com",
+    "tenant": "brown",
+    "site": "brown-staff-waiver",
+    "name": "Brown-Forman"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "Bunge": [],
+ "Campbell": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "campbellsoup.wd5.myworkdayjobs.com",
+    "tenant": "campbellsoup",
+    "site": "ExternalCareers_GlobalSite",
+    "name": "Campbell"
+   },
+   "india_jobs": 0,
+   "site_total": 319,
+   "facet": false
+  }
+ ],
+ "Cargill": [],
+ "Church & Dwight": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "churchdwight.wd1.myworkdayjobs.com",
+    "tenant": "churchdwight",
+    "site": "animalnutritioncareers",
+    "name": "Church & Dwight"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "churchdwight.wd1.myworkdayjobs.com",
+    "tenant": "churchdwight",
+    "site": "chdcareers",
+    "name": "Church & Dwight"
+   },
+   "india_jobs": 0,
+   "site_total": 92,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "churchdwight.wd1.myworkdayjobs.com",
+    "tenant": "churchdwight",
+    "site": "waterpikcareers",
+    "name": "Church & Dwight"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "churchdwight.wd1.myworkdayjobs.com",
+    "tenant": "churchdwight",
+    "site": "chdcanadacareers",
+    "name": "Church & Dwight"
+   },
+   "india_jobs": 0,
+   "site_total": 14,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "dwight",
+    "name": "Church & Dwight"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Clorox": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "clorox.wd1.myworkdayjobs.com",
+    "tenant": "clorox",
+    "site": "Clorox",
+    "name": "Clorox"
+   },
+   "india_jobs": 0,
+   "site_total": 197,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "clorox.wd1.myworkdayjobs.com",
+    "tenant": "clorox",
+    "site": "InviteClorox",
+    "name": "Clorox"
+   },
+   "india_jobs": 0,
+   "site_total": 5,
+   "facet": false
+  }
+ ],
+ "Coca-Cola": [],
+ "Colgate-Palmolive": [],
+ "Conagra Brands": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "conagrabrands.wd1.myworkdayjobs.com",
+    "tenant": "conagrabrands",
+    "site": "Careers_US",
+    "name": "Conagra Brands"
+   },
+   "india_jobs": 0,
+   "site_total": 218,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "conagrabrands.wd1.myworkdayjobs.com",
+    "tenant": "conagrabrands",
+    "site": "Careers_CAN",
+    "name": "Conagra Brands"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "conagrabrands.wd1.myworkdayjobs.com",
+    "tenant": "conagrabrands",
+    "site": "Careers_MEX",
+    "name": "Conagra Brands"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "Constellation Brands": [],
+ "Costa Coffee": [],
+ "Coty": [],
+ "Danone": [],
+ "Diageo": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "diageo.wd3.myworkdayjobs.com",
+    "tenant": "diageo",
+    "site": "Diageo_Careers",
+    "name": "Diageo"
+   },
+   "india_jobs": 52,
+   "site_total": 256,
+   "facet": true
+  }
+ ],
+ "Domino’s Pizza": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "dominos",
+    "name": "Domino’s Pizza"
+   },
+   "india_jobs": 0,
+   "site_total": 25003
+  }
+ ],
+ "Dunkin’": [],
+ "Edgewell Personal Care": [],
+ "Estée Lauder": [],
+ "Ferrero": [],
+ "Fonterra": [],
+ "FrieslandCampina": [],
+ "General Mills": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "general",
+    "name": "General Mills"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Henkel": [],
+ "Hershey": [],
+ "Hormel": [],
+ "Ingredion": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ingredion.wd1.myworkdayjobs.com",
+    "tenant": "ingredion",
+    "site": "IngredionCareers",
+    "name": "Ingredion"
+   },
+   "india_jobs": 7,
+   "site_total": 233,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ingredion.wd1.myworkdayjobs.com",
+    "tenant": "ingredion",
+    "site": "RafhanMaizeCareers",
+    "name": "Ingredion"
+   },
+   "india_jobs": 0,
+   "site_total": 11,
+   "facet": false
+  }
+ ],
+ "J.M. Smucker": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "smucker.wd5.myworkdayjobs.com",
+    "tenant": "smucker",
+    "site": "US_External_Careers",
+    "name": "J.M. Smucker"
+   },
+   "india_jobs": 0,
+   "site_total": 114,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "smucker.wd5.myworkdayjobs.com",
+    "tenant": "smucker",
+    "site": "Canada_External_Careers",
+    "name": "J.M. Smucker"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "jm.wd103.myworkdayjobs.com",
+    "tenant": "jm",
+    "site": "External",
+    "name": "J.M. Smucker"
+   },
+   "india_jobs": 0,
+   "site_total": 122,
+   "facet": false
+  }
+ ],
+ "Kellogg / Kellanova": [],
+ "Kenvue": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kenvue.wd5.myworkdayjobs.com",
+    "tenant": "kenvue",
+    "site": "kenvue",
+    "name": "Kenvue"
+   },
+   "india_jobs": 13,
+   "site_total": 160,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "kenvue",
+    "name": "Kenvue"
+   },
+   "india_jobs": 0,
+   "site_total": 7
+  }
+ ],
+ "Kerry Group": [],
+ "Keurig Dr Pepper": [],
+ "Kimberly-Clark": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kimberlyclark.wd1.myworkdayjobs.com",
+    "tenant": "kimberlyclark",
+    "site": "GLOBAL",
+    "name": "Kimberly-Clark"
+   },
+   "india_jobs": 12,
+   "site_total": 135,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "kimberlyclark",
+    "name": "Kimberly-Clark"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Kraft Heinz": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "heinz.wd1.myworkdayjobs.com",
+    "tenant": "heinz",
+    "site": "KraftHeinz_Careers_France",
+    "name": "Kraft Heinz"
+   },
+   "india_jobs": 0,
+   "site_total": 8,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "heinz.wd1.myworkdayjobs.com",
+    "tenant": "heinz",
+    "site": "KraftHeinz_Careers",
+    "name": "Kraft Heinz"
+   },
+   "india_jobs": 84,
+   "site_total": 930,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "heinz.wd1.myworkdayjobs.com",
+    "tenant": "heinz",
+    "site": "KraftHeinz_Careers_UR",
+    "name": "Kraft Heinz"
+   },
+   "india_jobs": 0,
+   "site_total": 64,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "heinz.wd1.myworkdayjobs.com",
+    "tenant": "heinz",
+    "site": "KraftHeinz_Careers_BC",
+    "name": "Kraft Heinz"
+   },
+   "india_jobs": 0,
+   "site_total": 271,
+   "facet": false
+  }
+ ],
+ "Krispy Kreme": [],
+ "Lactalis": [],
+ "Lamb Weston": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lambweston.wd1.myworkdayjobs.com",
+    "tenant": "lambweston",
+    "site": "Lamb_External",
+    "name": "Lamb Weston"
+   },
+   "india_jobs": 0,
+   "site_total": 107,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lambweston.wd1.myworkdayjobs.com",
+    "tenant": "lambweston",
+    "site": "University",
+    "name": "Lamb Weston"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lambweston.wd1.myworkdayjobs.com",
+    "tenant": "lambweston",
+    "site": "CTE",
+    "name": "Lamb Weston"
+   },
+   "india_jobs": 0,
+   "site_total": 33,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lambweston.wd1.myworkdayjobs.com",
+    "tenant": "lambweston",
+    "site": "External_Vacancies",
+    "name": "Lamb Weston"
+   },
+   "india_jobs": 0,
+   "site_total": 45,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "lambweston",
+    "name": "Lamb Weston"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Louis Dreyfus Company": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "louisdreyfuscompany",
+    "name": "Louis Dreyfus Company"
+   },
+   "india_jobs": 20,
+   "site_total": 360
+  }
+ ],
+ "L’Oréal": [],
+ "Mars": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mars.wd3.myworkdayjobs.com",
+    "tenant": "mars",
+    "site": "External",
+    "name": "Mars"
+   },
+   "india_jobs": 12,
+   "site_total": 972,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mars.wd3.myworkdayjobs.com",
+    "tenant": "mars",
+    "site": "MexHV",
+    "name": "Mars"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mars.wd3.myworkdayjobs.com",
+    "tenant": "mars",
+    "site": "ChampionPetfoods",
+    "name": "Mars"
+   },
+   "india_jobs": 0,
+   "site_total": 23,
+   "facet": false
+  }
+ ],
+ "McCormick": [],
+ "McDonald’s": [],
+ "Molson Coors": [],
+ "Mondelez International": [],
+ "Monster Beverage": [],
+ "Nestlé": [],
+ "Olam Group": [],
+ "Papa Johns": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "papajohns.wd1.myworkdayjobs.com",
+    "tenant": "papajohns",
+    "site": "PapaJohnsCareers",
+    "name": "Papa Johns"
+   },
+   "india_jobs": 0,
+   "site_total": 1633,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "papa",
+    "name": "Papa Johns"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "PepsiCo": [],
+ "Philip Morris International": [],
+ "Procter & Gamble": [],
+ "Reckitt": [],
+ "Restaurant Brands International": [],
+ "SC Johnson": [],
+ "Shake Shack": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "shakeshack.wd5.myworkdayjobs.com",
+    "tenant": "shakeshack",
+    "site": "External",
+    "name": "Shake Shack"
+   },
+   "india_jobs": 0,
+   "site_total": 649,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "shakeshack",
+    "name": "Shake Shack"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Shiseido": [],
+ "Starbucks": [],
+ "Subway": [],
+ "Tate & Lyle": [],
+ "Tyson Foods": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tysonfoods.wd5.myworkdayjobs.com",
+    "tenant": "tysonfoods",
+    "site": "TSN",
+    "name": "Tyson Foods"
+   },
+   "india_jobs": 8,
+   "site_total": 705,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tysonfoods.wd5.myworkdayjobs.com",
+    "tenant": "tysonfoods",
+    "site": "TSN1",
+    "name": "Tyson Foods"
+   },
+   "india_jobs": 0,
+   "site_total": 12,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tysonfoods.wd5.myworkdayjobs.com",
+    "tenant": "tysonfoods",
+    "site": "CVT",
+    "name": "Tyson Foods"
+   },
+   "india_jobs": 0,
+   "site_total": 67,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tysonfoods.wd5.myworkdayjobs.com",
+    "tenant": "tysonfoods",
+    "site": "TEPI",
+    "name": "Tyson Foods"
+   },
+   "india_jobs": 0,
+   "site_total": 20,
+   "facet": false
+  }
+ ],
+ "Unilever": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "unilever.wd3.myworkdayjobs.com",
+    "tenant": "unilever",
+    "site": "UK_TemporaryWorkersite",
+    "name": "Unilever"
+   },
+   "india_jobs": 0,
+   "site_total": 14,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "unilever.wd3.myworkdayjobs.com",
+    "tenant": "unilever",
+    "site": "Unilever_Early_Careers",
+    "name": "Unilever"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "unilever.wd3.myworkdayjobs.com",
+    "tenant": "unilever",
+    "site": "Unilever_Experienced_Professionals",
+    "name": "Unilever"
+   },
+   "india_jobs": 15,
+   "site_total": 246,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "unilever.wd3.myworkdayjobs.com",
+    "tenant": "unilever",
+    "site": "Unilever_UFLP_ULIP_Fast_Track_Career_Site",
+    "name": "Unilever"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Wendy’s": [],
+ "Yum! Brands": []
+}

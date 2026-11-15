@@ -1,0 +1,599 @@
+{
+ "Aisin": {
+  "hosts": [
+   "www.aisin.com",
+   "aisin.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Allison Transmission": {
+  "hosts": [
+   "www.allisontransmission.com",
+   "allisontransmission.com",
+   "allisontransmissioncareers.com",
+   "allison-transmission.com",
+   "www.allison.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Aston Martin": {
+  "hosts": [
+   "careers.astonmartin.com",
+   "www.astonmartin.com",
+   "astonmartin.com",
+   "astonmartincareers.com",
+   "jobs.astonmartin.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Audi": {
+  "hosts": [
+   "careers.audi.com",
+   "www.audi.com",
+   "audi.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Autoliv": {
+  "hosts": [
+   "www.autoliv.com",
+   "autoliv.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "BMW": {
+  "hosts": [
+   "jobs.bmwgroup.com",
+   "www.bmwgroup.com",
+   "bmwgroup.com",
+   "www.bmw.com",
+   "bmw.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "BMW",
+     "host": "jobs.bmwgroup.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.bmwgroup.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "BYD": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Bridgestone": {
+  "hosts": [
+   "www.bridgestone.com",
+   "bridgestone.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Daimler Truck": {
+  "hosts": [
+   "jobs.daimlertruck.com",
+   "www.daimlertruck.com",
+   "daimlertruck.com",
+   "www.daimler-truck.com",
+   "daimler-truck.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Dana": {
+  "hosts": [
+   "jobs.dana.com",
+   "www.dana.com",
+   "dana.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Denso": {
+  "hosts": [
+   "careers.denso.com",
+   "www.denso.com",
+   "densocareers.com",
+   "jobs.denso.io",
+   "careers.denso.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ferrari": {
+  "hosts": [
+   "jobs.ferrari.com",
+   "www.ferrari.com",
+   "ferrari.com",
+   "ferraricareers.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Ferrari",
+     "host": "jobs.ferrari.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.ferrari.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Ford": {
+  "hosts": [
+   "careers.ford.com",
+   "jobs.ford.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Ford",
+     "host": "efds.fa.em5.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 6,
+    "found_on": "jobs.ford.com"
+   },
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Ford",
+     "host": "ford.eightfold.ai",
+     "domain": "ford.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.ford.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Forvia": {
+  "hosts": [
+   "www.forvia.com",
+   "forvia.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Garrett Motion": {
+  "hosts": [
+   "jobs.garrettmotion.com",
+   "www.garrettmotion.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Garrett Motion",
+     "host": "ehth.fa.em2.oraclecloud.com",
+     "site": "CX_2001"
+    },
+    "india_jobs": 9,
+    "found_on": "www.garrettmotion.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Harley-Davidson": {
+  "hosts": [
+   "jobs.harley-davidson.com",
+   "www.harley-davidson.com",
+   "harley-davidson.com",
+   "www.harleydavidson.com",
+   "harleydavidson.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Harman": {
+  "hosts": [
+   "jobs.harman.com",
+   "www.harman.com",
+   "harman.com",
+   "careers.harman.net",
+   "jobs.harman.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Honda": {
+  "hosts": [
+   "careers.honda.com",
+   "jobs.honda.com",
+   "www.honda.com",
+   "honda.com",
+   "jobs.honda.io"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Honda",
+     "host": "careers.honda.com",
+     "lang": "en_us",
+     "page_id": "page13",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.honda.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Hyundai": {
+  "hosts": [
+   "www.hyundai.com",
+   "hyundai.com",
+   "hyundaicareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Isuzu": {
+  "hosts": [
+   "www.isuzu.com",
+   "isuzu.com",
+   "careers.isuzu.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Jaguar Land Rover": {
+  "hosts": [
+   "careers.jlr.com",
+   "www.jlr.com",
+   "jlr.com",
+   "careers.jlr.net",
+   "jlrcareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kia": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Lamborghini": {
+  "hosts": [
+   "www.lamborghini.com",
+   "lamborghini.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lear Corporation": {
+  "hosts": [
+   "jobs.lear.com",
+   "www.lear.com",
+   "lear.com",
+   "careers.lear.net",
+   "jobs.lear.io"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Lear Corporation",
+     "host": "jobs.lear.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.lear.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "MAN Truck & Bus": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Marelli": {
+  "hosts": [
+   "jobs.marelli.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Marelli",
+     "host": "jobs.marelli.com"
+    },
+    "india_jobs": 6,
+    "found_on": "jobs.marelli.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Mazda": {
+  "hosts": [
+   "www.mazda.com",
+   "mazda.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mercedes-Benz": {
+  "hosts": [
+   "careers.mercedes-benz.com",
+   "jobs.mercedes-benz.com",
+   "www.mercedes-benz.com",
+   "mercedes-benz.com",
+   "mercedes-benzcareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Michelin": {
+  "hosts": [
+   "www.michelin.com",
+   "michelin.com",
+   "michelincareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mitsubishi Motors": {
+  "hosts": [
+   "www.mitsubishimotors.com",
+   "mitsubishimotors.com",
+   "www.mitsubishi-motors.com",
+   "mitsubishi-motors.com",
+   "www.mitsubishi.com"
+  ],
+  "results": [
+   {
+    "platform": "greenhouse",
+    "config": {
+     "name": "Mitsubishi Motors",
+     "board": "mitsubishimotorsna"
+    },
+    "india_jobs": 0,
+    "found_on": "www.mitsubishimotors.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Modine": {
+  "hosts": [
+   "careers.modine.com",
+   "www.modine.com",
+   "modine.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nissan": {
+  "hosts": [
+   "www.nissan.com",
+   "nissan.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Panasonic Automotive": {
+  "hosts": [
+   "careers.panasonicautomotive.com",
+   "www.panasonicautomotive.com",
+   "panasonicautomotive.com",
+   "careers.panasonic-automotive.com",
+   "panasonic-automotive.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Panasonic Automotive",
+     "host": "careers.panasonicautomotive.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.panasonicautomotive.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Porsche": {
+  "hosts": [
+   "jobs.porsche.com",
+   "www.porsche.com",
+   "porsche.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Renault": {
+  "hosts": [
+   "www.renault.com",
+   "renault.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Scania": {
+  "hosts": [
+   "jobs.scania.com",
+   "www.scania.com",
+   "scania.com",
+   "careers.scania.net"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Scania",
+     "host": "jobs.scania.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.scania.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Subaru": {
+  "hosts": [
+   "careers.subaru.com",
+   "www.subaru.com",
+   "subaru.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Subaru",
+     "host": "hcal.fa.us2.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 0,
+    "found_on": "www.subaru.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Suzuki": {
+  "hosts": [
+   "www.suzuki.com",
+   "suzuki.com",
+   "careers.suzuki.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tenneco": {
+  "hosts": [
+   "jobs.tenneco.com",
+   "www.tenneco.com",
+   "tenneco.com",
+   "careers.tenneco.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tesla": {
+  "hosts": [
+   "www.tesla.com",
+   "tesla.com",
+   "teslacareers.com",
+   "jobs.tesla.io",
+   "careers.tesla.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Toyota": {
+  "hosts": [
+   "careers.toyota.com",
+   "jobs.toyota.com",
+   "www.toyota.com",
+   "toyota.com",
+   "careers.toyota.net"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Toyota",
+     "host": "toyota.wd503.myworkdayjobs.com",
+     "tenant": "toyota",
+     "site": "TMNA"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.toyota.com"
+   },
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Toyota",
+     "host": "careers.toyota.com",
+     "lang": "en_us",
+     "page_id": "page24",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.toyota.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Visteon": {
+  "hosts": [
+   "www.visteon.com",
+   "visteon.com",
+   "visteoncareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Volkswagen Group": {
+  "hosts": [
+   "www.volkswagen.com",
+   "volkswagen.com",
+   "www.vwgroup.com",
+   "vwgroup.com",
+   "vwgroupcareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Volvo Cars": {
+  "hosts": [
+   "jobs.volvocars.com",
+   "www.volvocars.com",
+   "volvocars.com",
+   "www.volvo-cars.com",
+   "volvo-cars.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Volvo Cars",
+     "host": "jobs.volvocars.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.volvocars.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "ZF": {
+  "hosts": [
+   "jobs.zf.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "ZF",
+     "host": "jobs.zf.com"
+    },
+    "india_jobs": 19,
+    "found_on": "jobs.zf.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Škoda": {
+  "hosts": [
+   "www.skoda.com",
+   "skoda.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

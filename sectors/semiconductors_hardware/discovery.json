@@ -1,0 +1,406 @@
+{
+ "AMD": [],
+ "ASM International": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "asm",
+    "name": "ASM International"
+   },
+   "india_jobs": 0,
+   "site_total": 525
+  }
+ ],
+ "ASML": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "asml.wd3.myworkdayjobs.com",
+    "tenant": "asml",
+    "site": "ASMLBERLIN",
+    "name": "ASML"
+   },
+   "india_jobs": 0,
+   "site_total": 25,
+   "facet": false
+  }
+ ],
+ "Advantest": [],
+ "Amkor Technology": [],
+ "Analog Devices": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "analogdevices.wd1.myworkdayjobs.com",
+    "tenant": "analogdevices",
+    "site": "External",
+    "name": "Analog Devices"
+   },
+   "india_jobs": 82,
+   "site_total": 771,
+   "facet": true
+  }
+ ],
+ "Ansys": [],
+ "Applied Materials": [],
+ "Arm": [],
+ "Broadcom": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "broadcom.wd1.myworkdayjobs.com",
+    "tenant": "broadcom",
+    "site": "External_Career",
+    "name": "Broadcom"
+   },
+   "india_jobs": 3,
+   "site_total": 406,
+   "facet": false
+  }
+ ],
+ "Cadence Design Systems": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cadence.wd1.myworkdayjobs.com",
+    "tenant": "cadence",
+    "site": "External_Careers",
+    "name": "Cadence Design Systems"
+   },
+   "india_jobs": 200,
+   "site_total": 687,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cadence.wd1.myworkdayjobs.com",
+    "tenant": "cadence",
+    "site": "Univ_Careers",
+    "name": "Cadence Design Systems"
+   },
+   "india_jobs": 0,
+   "site_total": 21,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cadence.wd1.myworkdayjobs.com",
+    "tenant": "cadence",
+    "site": "women-in-tech-scholarship",
+    "name": "Cadence Design Systems"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cadence.wd1.myworkdayjobs.com",
+    "tenant": "cadence",
+    "site": "OpenEye_Careers",
+    "name": "Cadence Design Systems"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "Cerebras Systems": [],
+ "Coherent": [],
+ "Corning": [],
+ "Entegris": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "entegris.wd1.myworkdayjobs.com",
+    "tenant": "entegris",
+    "site": "EntegrisCareers",
+    "name": "Entegris"
+   },
+   "india_jobs": 0,
+   "site_total": 609,
+   "facet": false
+  }
+ ],
+ "Garmin": [],
+ "Infineon": [],
+ "Intel": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "intel.wd1.myworkdayjobs.com",
+    "tenant": "intel",
+    "site": "External",
+    "name": "Intel"
+   },
+   "india_jobs": 20,
+   "site_total": 881,
+   "facet": false
+  }
+ ],
+ "KLA": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kla.wd1.myworkdayjobs.com",
+    "tenant": "kla",
+    "site": "Search",
+    "name": "KLA"
+   },
+   "india_jobs": 41,
+   "site_total": 1153,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kla.wd1.myworkdayjobs.com",
+    "tenant": "kla",
+    "site": "AnnArbor",
+    "name": "KLA"
+   },
+   "india_jobs": 0,
+   "site_total": 47,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kla.wd1.myworkdayjobs.com",
+    "tenant": "kla",
+    "site": "Israel",
+    "name": "KLA"
+   },
+   "india_jobs": 0,
+   "site_total": 82,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "kla.wd1.myworkdayjobs.com",
+    "tenant": "kla",
+    "site": "Taiwan",
+    "name": "KLA"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  }
+ ],
+ "Keysight Technologies": [],
+ "Kulicke & Soffa": [],
+ "Lam Research": [],
+ "Lenovo": [],
+ "Lumentum": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lumentum.wd5.myworkdayjobs.com",
+    "tenant": "lumentum",
+    "site": "LITE",
+    "name": "Lumentum"
+   },
+   "india_jobs": 0,
+   "site_total": 280,
+   "facet": false
+  }
+ ],
+ "Marvell": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "marvell.wd1.myworkdayjobs.com",
+    "tenant": "marvell",
+    "site": "MarvellCareers",
+    "name": "Marvell"
+   },
+   "india_jobs": 41,
+   "site_total": 342,
+   "facet": true
+  }
+ ],
+ "MediaTek": [],
+ "Mettler-Toledo": [],
+ "Microchip Technology": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "microchip",
+    "name": "Microchip Technology"
+   },
+   "india_jobs": 0,
+   "site_total": 10
+  }
+ ],
+ "Micron Technology": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "micron.wd1.myworkdayjobs.com",
+    "tenant": "micron",
+    "site": "External",
+    "name": "Micron Technology"
+   },
+   "india_jobs": 18,
+   "site_total": 2896,
+   "facet": false
+  }
+ ],
+ "Monolithic Power Systems": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "monolithicpower.wd12.myworkdayjobs.com",
+    "tenant": "monolithicpower",
+    "site": "MPS_Careers",
+    "name": "Monolithic Power Systems"
+   },
+   "india_jobs": 4,
+   "site_total": 239,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "monolithicpower.wd12.myworkdayjobs.com",
+    "tenant": "monolithicpower",
+    "site": "Campus_Recruiting",
+    "name": "Monolithic Power Systems"
+   },
+   "india_jobs": 0,
+   "site_total": 7,
+   "facet": false
+  }
+ ],
+ "NVIDIA": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "site": "NVIDIAExternalCareerSite",
+    "name": "NVIDIA"
+   },
+   "india_jobs": 243,
+   "site_total": 2000,
+   "facet": true
+  }
+ ],
+ "NXP Semiconductors": [],
+ "ON Semiconductor": [],
+ "Onto Innovation": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "onto.wd1.myworkdayjobs.com",
+    "tenant": "onto",
+    "site": "ONTO_Careers",
+    "name": "Onto Innovation"
+   },
+   "india_jobs": 0,
+   "site_total": 227,
+   "facet": false
+  }
+ ],
+ "Qorvo": [],
+ "Rambus": [],
+ "Realtek": [],
+ "Renesas": [],
+ "SCREEN Semiconductor Solutions": [],
+ "STMicroelectronics": [],
+ "Samsung": [],
+ "SanDisk": [],
+ "Seagate": [],
+ "Skyworks Solutions": [],
+ "Sony": [],
+ "Super Micro Computer": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "super.wd103.myworkdayjobs.com",
+    "tenant": "super",
+    "site": "EXT",
+    "name": "Super Micro Computer"
+   },
+   "india_jobs": 1,
+   "site_total": 79,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "super.wd103.myworkdayjobs.com",
+    "tenant": "super",
+    "site": "search",
+    "name": "Super Micro Computer"
+   },
+   "india_jobs": 0,
+   "site_total": 56,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "super.wd103.myworkdayjobs.com",
+    "tenant": "super",
+    "site": "EXTDisForm",
+    "name": "Super Micro Computer"
+   },
+   "india_jobs": 0,
+   "site_total": 5,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "super.wd103.myworkdayjobs.com",
+    "tenant": "super",
+    "site": "GMS",
+    "name": "Super Micro Computer"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "super",
+    "name": "Super Micro Computer"
+   },
+   "india_jobs": 0,
+   "site_total": 15
+  },
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "super",
+    "name": "Super Micro Computer"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Supermicro": [],
+ "Synopsys": [],
+ "Teradyne": [],
+ "Texas Instruments": [],
+ "Tokyo Electron": [],
+ "Veeco": [],
+ "Western Digital": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "westerndigital",
+    "name": "Western Digital"
+   },
+   "india_jobs": 2,
+   "site_total": 327
+  }
+ ],
+ "onsemi": []
+}

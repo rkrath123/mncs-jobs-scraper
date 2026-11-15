@@ -1,0 +1,1804 @@
+International MNC Job-Search Directory in India
+
+Cross-industry company database for IT, infrastructure, cloud, DevOps, SRE, HPC and engineering roles
+
+Prepared: 11 November 2026
+Geographic focus: India
+Purpose: Build a broad target-employer list across industries, not just
+IT services.
+
+------------------------------------------------------------------------
+
+Important scope and verification note
+
+There is no practical, authoritative list of every multinational company
+in every sector. The directory below is a broad working database of
+major international groups that have had a meaningful Indian business,
+office, subsidiary, engineering/R&D centre, GCC, manufacturing
+footprint, or recurring hiring presence.
+
+A company appearing here is not automatically confirmed to have a
+current physical office or open vacancy in India. Some global groups
+operate in India through subsidiaries, factories, project sites,
+distributors, franchisees, airline routes, or partners. These are
+different from an India office or technology centre.
+
+Before applying, verify: 1. The company’s official India website and
+current locations page. 2. Whether the relevant Indian legal entity /
+office is active. 3. Whether the role is employed in India or is an
+overseas role. 4. Whether the team is a GCC, engineering centre,
+shared-services centre, plant IT team, field operation, or sales office.
+5. The exact work location and hiring entity on the job posting.
+
+Legend - Office/GCC/R&D target: Strong candidate to investigate for an
+India office, technology centre, engineering centre or GCC. - India
+operating footprint: May have manufacturing, project, commercial,
+field-service, subsidiary or partner operations; check for a direct
+office and IT hiring. - Global target / verify: International company
+worth knowing, but current India office or direct hiring should not be
+assumed.
+
+This is a company directory, not an endorsement or ranking. Corporate
+structures, brands and ownership change; subsidiaries and brands may be
+grouped under their parent.
+
+------------------------------------------------------------------------
+
+1. Energy, Oil, Gas, LNG and Petroleum
+
+Integrated oil & gas, exploration, production and energy majors
+
+-   Shell
+-   BP
+-   ExxonMobil
+-   Chevron
+-   TotalEnergies
+-   Eni
+-   Equinor
+-   Repsol
+-   ConocoPhillips
+-   Occidental Petroleum
+-   Woodside Energy
+-   Santos
+-   Petronas
+-   QatarEnergy
+-   Saudi Aramco
+-   ADNOC
+-   Petrobras
+-   Gazprom
+-   Sinopec
+-   China National Petroleum Corporation (CNPC)
+-   China National Offshore Oil Corporation (CNOOC)
+-   Harbour Energy
+-   Tullow Oil
+-   Niko Resources
+
+Oilfield services, drilling, subsea and reservoir technology
+
+-   SLB (Schlumberger)
+-   Baker Hughes
+-   Halliburton
+-   Weatherford
+-   NOV (NOV Inc., formerly National Oilwell Varco)
+-   TechnipFMC
+-   Aker Solutions
+-   Saipem
+-   Subsea7
+-   Oceaneering International
+-   Expro
+-   ChampionX
+-   Valaris
+-   Transocean
+-   Helix Energy Solutions
+-   TGS
+-   Fugro
+-   Tenaris
+-   Vallourec
+-   EnerMech
+-   M-I SWACO (SLB business)
+
+Oil, gas, LNG, chemicals and energy engineering / EPC
+
+-   Technip Energies
+-   Worley
+-   Wood
+-   Fluor
+-   KBR
+-   Petrofac
+-   McDermott
+-   Bechtel
+-   Jacobs
+-   AtkinsRéalis
+-   JGC Corporation
+-   Chiyoda Corporation
+-   Samsung E&A
+-   Hyundai Engineering
+-   Linde Engineering
+-   Air Liquide Engineering & Construction
+-   Black & Veatch
+-   Mott MacDonald
+-   Bilfinger
+-   AECOM
+-   Arcadis
+-   Saipem
+
+Energy equipment, turbines, power generation and grid
+
+-   Siemens Energy
+-   GE Vernova
+-   ABB
+-   Hitachi Energy
+-   Schneider Electric
+-   Eaton
+-   Mitsubishi Electric
+-   Mitsubishi Heavy Industries
+-   Toshiba
+-   Honeywell
+-   Emerson
+-   Rockwell Automation
+-   Wärtsilä
+-   MAN Energy Solutions
+-   Rolls-Royce Power Systems
+-   Caterpillar
+-   Cummins
+-   Doosan Enerbility
+-   WEG
+-   Alstom
+-   Danfoss
+-   Parker Hannifin
+-   Flowserve
+-   Baker Hughes
+
+Renewable energy, solar, wind, storage and hydrogen
+
+-   Vestas
+-   Siemens Gamesa
+-   First Solar
+-   Fluence
+-   Enphase Energy
+-   Canadian Solar
+-   JinkoSolar
+-   LONGi
+-   Trina Solar
+-   JA Solar
+-   Sungrow
+-   SMA Solar Technology
+-   SolarEdge
+-   Nordex
+-   Goldwind
+-   RWE
+-   EDP Renewables
+-   ENGIE
+-   EDF Renewables
+-   Ørsted
+-   ACWA Power
+-   Masdar
+-   Lightsource bp
+-   Statkraft
+-   BayWa r.e.
+-   Bloom Energy
+-   Plug Power
+-   Nel
+-   GE Vernova
+-   Huawei Digital Power
+
+Energy software, industrial automation and operational technology
+
+-   AVEVA
+-   Yokogawa
+-   AspenTech
+-   Honeywell Process Solutions
+-   Emerson
+-   Siemens
+-   ABB
+-   Schneider Electric
+-   Rockwell Automation
+-   Hexagon
+-   Bentley Systems
+-   Dassault Systèmes
+-   Ansys
+-   PTC
+-   Kongsberg Digital
+-   Cognite
+-   IFS
+-   C3 AI
+
+------------------------------------------------------------------------
+
+2. Banking, Capital Markets and Financial Services (BFSI)
+
+Global banks and investment banks
+
+-   JPMorgan Chase
+-   Goldman Sachs
+-   Morgan Stanley
+-   Bank of America
+-   Wells Fargo
+-   Citigroup
+-   HSBC
+-   Barclays
+-   Deutsche Bank
+-   Standard Chartered
+-   BNP Paribas
+-   UBS
+-   Société Générale
+-   Crédit Agricole
+-   NatWest Group
+-   Royal Bank of Canada (RBC)
+-   Toronto-Dominion Bank (TD)
+-   Scotiabank
+-   ANZ
+-   Commonwealth Bank of Australia
+-   Mizuho
+-   Mitsubishi UFJ Financial Group (MUFG)
+-   Sumitomo Mitsui Financial Group (SMBC)
+-   Nomura
+-   DBS
+-   OCBC
+-   UOB
+-   ING
+-   Rabobank
+-   Northern Trust
+-   State Street
+-   BNY
+-   Bank of New York Mellon
+-   Crédit Suisse (integrated into UBS)
+
+Asset management, custody, exchanges and market infrastructure
+
+-   BlackRock
+-   Fidelity Investments
+-   Franklin Templeton
+-   Vanguard
+-   Amundi
+-   Invesco
+-   Schroders
+-   Allianz Global Investors
+-   J.P. Morgan Asset Management
+-   Morgan Stanley Investment Management
+-   S&P Global
+-   Moody’s
+-   MSCI
+-   Nasdaq
+-   London Stock Exchange Group (LSEG)
+-   Deutsche Börse
+-   CME Group
+-   Intercontinental Exchange (ICE)
+-   SIX Group
+-   Euroclear
+-   Clearstream
+-   Broadridge Financial Solutions
+
+------------------------------------------------------------------------
+
+3. FinTech, Payments and Financial Technology
+
+Card networks, payments and payment processors
+
+-   Visa
+-   Mastercard
+-   American Express
+-   Discover
+-   PayPal
+-   Stripe
+-   Fiserv
+-   FIS
+-   Global Payments
+-   Worldline
+-   Adyen
+-   Checkout.com
+-   Wise
+-   PayU
+-   Rapyd
+-   Nuvei
+-   Block
+-   Marqeta
+-   Network International
+-   Razorpay (India-origin; included as a relevant ecosystem employer,
+    not a foreign MNC)
+
+Banking software, trading, financial data and fintech platforms
+
+-   Bloomberg
+-   FactSet
+-   Refinitiv (part of LSEG)
+-   Temenos
+-   Finastra
+-   SS&C Technologies
+-   Broadridge
+-   Experian
+-   Equifax
+-   TransUnion
+-   Dun & Bradstreet
+-   Diebold Nixdorf
+-   NICE
+-   Avaloq
+-   Murex
+-   Fenergo
+-   ION Group
+-   Envestnet
+-   Intellect Design Arena (India-origin; not a foreign MNC)
+
+------------------------------------------------------------------------
+
+4. Insurance and Reinsurance
+
+-   Allianz
+-   AXA
+-   Swiss Re
+-   Munich Re
+-   Zurich Insurance Group
+-   AIG
+-   MetLife
+-   Prudential Financial
+-   Prudential plc
+-   Generali
+-   Chubb
+-   Liberty Mutual
+-   Tokio Marine
+-   Hannover Re
+-   Sompo
+-   Everest Group
+-   Mapfre
+-   Aon
+-   Marsh McLennan
+-   Gallagher
+-   Willis Towers Watson (WTW)
+-   Howden
+-   Berkshire Hathaway (insurance businesses)
+
+------------------------------------------------------------------------
+
+5. Telecom, Networking and Communications
+
+Telecom operators and network groups
+
+-   Vodafone Group
+-   Deutsche Telekom
+-   Orange
+-   Telefónica
+-   BT Group
+-   AT&T
+-   Verizon
+-   T-Mobile
+-   Singtel
+-   Telstra
+-   NTT
+-   KDDI
+-   SoftBank
+-   Swisscom
+-   América Móvil
+-   Etisalat by e&
+-   stc Group
+-   Ooredoo
+
+Telecom equipment, networking and telecom software
+
+-   Ericsson
+-   Nokia
+-   Cisco
+-   Qualcomm
+-   Juniper Networks
+-   Ciena
+-   Huawei
+-   ZTE
+-   Samsung Networks
+-   NEC
+-   Fujitsu
+-   Mavenir
+-   Amdocs
+-   Netcracker
+-   CommScope
+-   Motorola Solutions
+-   Keysight Technologies
+-   Ribbon Communications
+-   Spirent Communications
+-   F5
+-   Arista Networks
+-   Extreme Networks
+-   Palo Alto Networks
+-   HCLTech (India-origin; not a foreign MNC)
+
+------------------------------------------------------------------------
+
+6. Aerospace, Aviation Manufacturing, Defence and Space
+
+Aircraft, engines, aerospace and defence
+
+-   Boeing
+-   Airbus
+-   Lockheed Martin
+-   Northrop Grumman
+-   RTX
+-   Collins Aerospace
+-   Raytheon
+-   GE Aerospace
+-   Rolls-Royce
+-   Safran
+-   Thales
+-   BAE Systems
+-   Leonardo
+-   Honeywell Aerospace
+-   Bombardier
+-   Spirit AeroSystems
+-   L3Harris
+-   General Atomics
+-   Dassault Aviation
+-   MBDA
+-   Moog
+-   Pratt & Whitney
+-   Embraer
+-   ATR
+-   Gulfstream
+-   Textron
+-   Bell Textron
+-   Rheinmetall
+-   Saab
+-   Elbit Systems
+-   Kongsberg Gruppen
+
+Space, satellite and geospatial
+
+-   Airbus Defence and Space
+-   Thales Alenia Space
+-   SES
+-   Eutelsat
+-   Viasat
+-   Intelsat
+-   Maxar
+-   Planet Labs
+-   Spire Global
+-   MDA Space
+-   ICEYE
+-   Astroscale
+-   SpaceX (India office / hiring must be independently verified)
+-   Blue Origin (India office / hiring must be independently verified)
+-   Garmin
+-   Trimble
+-   Hexagon
+
+------------------------------------------------------------------------
+
+7. Semiconductor, Electronics, AI Hardware and EDA
+
+Chip design, processors, memory and semiconductor companies
+
+-   NVIDIA
+-   Intel
+-   AMD
+-   Qualcomm
+-   Texas Instruments
+-   Micron Technology
+-   Samsung Semiconductor
+-   Broadcom
+-   Marvell
+-   Analog Devices
+-   Infineon
+-   NXP Semiconductors
+-   Renesas
+-   STMicroelectronics
+-   MediaTek
+-   Arm
+-   Microchip Technology
+-   onsemi
+-   Western Digital
+-   Seagate
+-   Sony Semiconductor Solutions
+-   Realtek
+-   Rambus
+-   Monolithic Power Systems
+
+Semiconductor manufacturing equipment and materials
+
+-   ASML
+-   Applied Materials
+-   Lam Research
+-   KLA
+-   Tokyo Electron
+-   ASM International
+-   SCREEN Semiconductor Solutions
+-   Entegris
+-   Teradyne
+-   Advantest
+-   Onto Innovation
+-   Veeco
+-   Kulicke & Soffa
+
+Electronic design automation, IP and engineering tools
+
+-   Synopsys
+-   Cadence Design Systems
+-   Siemens EDA
+-   Keysight Technologies
+-   Ansys
+-   Siemens Digital Industries Software
+-   Dassault Systèmes
+-   Altair
+-   MathWorks
+
+AI, GPU systems and data-centre hardware
+
+-   NVIDIA
+-   AMD
+-   Supermicro
+-   Dell Technologies
+-   Hewlett Packard Enterprise (HPE)
+-   Lenovo
+-   Cisco
+-   Vertiv
+-   Schneider Electric
+-   Eaton
+-   Pure Storage
+-   NetApp
+-   Nutanix
+-   Arista Networks
+-   Equinix
+-   Digital Realty
+
+------------------------------------------------------------------------
+
+8. Healthcare, Pharmaceuticals, Biotechnology and Medical Devices
+
+Pharmaceutical and life-sciences groups
+
+-   Pfizer
+-   Roche
+-   Novartis
+-   Sanofi
+-   AstraZeneca
+-   GSK
+-   Johnson & Johnson
+-   Eli Lilly
+-   Merck KGaA
+-   Merck & Co. (MSD)
+-   Bristol Myers Squibb
+-   Bayer
+-   Novo Nordisk
+-   Boehringer Ingelheim
+-   Takeda
+-   Amgen
+-   Gilead Sciences
+-   AbbVie
+-   Biogen
+-   Teva
+-   Astellas Pharma
+-   Daiichi Sankyo
+-   Eisai
+-   Otsuka
+-   Lundbeck
+-   UCB
+-   CSL
+-   Vertex Pharmaceuticals
+-   Regeneron
+-   Moderna
+-   Sanofi Pasteur
+
+Medical devices, diagnostics and healthcare equipment
+
+-   Abbott
+-   Medtronic
+-   Siemens Healthineers
+-   GE HealthCare
+-   Philips
+-   Stryker
+-   Boston Scientific
+-   Becton Dickinson (BD)
+-   Baxter
+-   B. Braun
+-   Zimmer Biomet
+-   Smith+Nephew
+-   Edwards Lifesciences
+-   Thermo Fisher Scientific
+-   Danaher
+-   Beckman Coulter
+-   Bio-Rad
+-   Illumina
+-   Agilent Technologies
+-   Hologic
+-   ResMed
+-   Olympus
+-   Fujifilm Healthcare
+-   Varian
+-   Waters Corporation
+
+Clinical research, CRO, laboratory and healthcare data
+
+-   IQVIA
+-   ICON
+-   Parexel
+-   Syneos Health
+-   Labcorp
+-   Charles River Laboratories
+-   Eurofins
+-   SGS
+-   Thermo Fisher Scientific
+-   Elsevier
+-   Wolters Kluwer
+-   Optum
+-   Cigna
+-   UnitedHealth Group
+
+------------------------------------------------------------------------
+
+9. Manufacturing, Industrial Automation, Robotics and Engineering
+
+-   Siemens
+-   ABB
+-   Schneider Electric
+-   Honeywell
+-   Emerson
+-   Rockwell Automation
+-   Bosch
+-   Eaton
+-   Mitsubishi Electric
+-   Mitsubishi Heavy Industries
+-   Toshiba
+-   Johnson Controls
+-   Danfoss
+-   Parker Hannifin
+-   Caterpillar
+-   Cummins
+-   Atlas Copco
+-   SKF
+-   Sandvik
+-   3M
+-   Flowserve
+-   KONE
+-   Otis
+-   KUKA
+-   FANUC
+-   Yaskawa
+-   Schaeffler
+-   Grundfos
+-   WEG
+-   SICK
+-   Festo
+-   Endress+Hauser
+-   Phoenix Contact
+-   Legrand
+-   Trane Technologies
+-   Carrier Global
+-   Ingersoll Rand
+-   Xylem
+-   Ecolab
+-   ITT Inc.
+-   Alfa Laval
+-   GEA Group
+-   Tetra Pak
+-   Jabil
+-   Flex
+-   Sanmina
+-   Celestica
+-   Foxconn
+-   Pegatron
+-   TE Connectivity
+-   Molex
+-   Amphenol
+
+------------------------------------------------------------------------
+
+10. Automotive, Electric Vehicles and Mobility
+
+Global automobile manufacturers
+
+-   Mercedes-Benz
+-   BMW
+-   Volkswagen Group
+-   Audi
+-   Porsche
+-   Toyota
+-   Honda
+-   Nissan
+-   Renault
+-   Hyundai
+-   Kia
+-   Volvo Cars
+-   Volvo Group
+-   Ford
+-   General Motors
+-   Stellantis
+-   Tesla
+-   BYD
+-   Suzuki
+-   Mazda
+-   Subaru
+-   Isuzu
+-   Mitsubishi Motors
+-   Jaguar Land Rover
+-   Ferrari
+-   Lamborghini
+-   Aston Martin
+-   Škoda
+-   MAN Truck & Bus
+-   Scania
+-   Daimler Truck
+
+Automotive suppliers, electronics and engineering
+
+-   Bosch
+-   Continental
+-   ZF
+-   Valeo
+-   Denso
+-   Magna International
+-   Aptiv
+-   BorgWarner
+-   Michelin
+-   Bridgestone
+-   Schaeffler
+-   Garrett Motion
+-   Aisin
+-   Forvia
+-   Lear Corporation
+-   Autoliv
+-   Marelli
+-   Visteon
+-   Harman
+-   Panasonic Automotive
+-   AVL
+-   FEV
+-   Bertrandt
+-   EDAG
+-   Tata Elxsi (India-origin; not a foreign MNC)
+
+------------------------------------------------------------------------
+
+11. Cloud Computing, Enterprise Software and IT Platforms
+
+Hyperscalers and cloud platforms
+
+-   Amazon Web Services (AWS)
+-   Microsoft Azure
+-   Google Cloud
+-   Oracle Cloud
+-   IBM Cloud
+-   Alibaba Cloud
+-   Tencent Cloud
+-   Huawei Cloud
+-   SAP
+-   Salesforce
+
+Enterprise software, SaaS and business applications
+
+-   Adobe
+-   ServiceNow
+-   Workday
+-   Salesforce
+-   SAP
+-   Oracle
+-   Atlassian
+-   Intuit
+-   Autodesk
+-   Dassault Systèmes
+-   PTC
+-   Infor
+-   Sage
+-   Workiva
+-   DocuSign
+-   Box
+-   Dropbox
+-   Zoom
+-   Slack (Salesforce)
+-   HubSpot
+-   Zendesk
+-   Freshworks (India-origin; not a foreign MNC)
+-   Guidewire
+-   Pegasystems
+-   OpenText
+-   Thomson Reuters
+-   Wolters Kluwer
+-   RELX
+
+Infrastructure, servers, storage and data centres
+
+-   Dell Technologies
+-   HPE
+-   Lenovo
+-   Cisco
+-   NetApp
+-   Pure Storage
+-   Nutanix
+-   VMware (Broadcom)
+-   Red Hat (IBM)
+-   SUSE
+-   Canonical
+-   Veeam
+-   Commvault
+-   Rubrik
+-   Cohesity
+-   Veritas
+-   F5
+-   Broadcom
+-   Equinix
+-   Digital Realty
+-   NTT Data
+-   Kyndryl
+
+------------------------------------------------------------------------
+
+12. Cybersecurity, Identity and Risk Technology
+
+-   Palo Alto Networks
+-   CrowdStrike
+-   Fortinet
+-   Check Point
+-   Zscaler
+-   Akamai
+-   Cloudflare
+-   SentinelOne
+-   Sophos
+-   Trend Micro
+-   Trellix
+-   McAfee
+-   Gen Digital
+-   Rapid7
+-   Tenable
+-   Qualys
+-   CyberArk
+-   Okta
+-   Ping Identity
+-   SailPoint
+-   One Identity
+-   Proofpoint
+-   Mimecast
+-   Netskope
+-   Darktrace
+-   Wiz
+-   Snyk
+-   Recorded Future
+-   Mandiant (Google Cloud)
+-   RSA Security
+-   Thales
+-   Entrust
+-   BeyondTrust
+-   Varonis
+-   Imperva
+-   F5
+
+------------------------------------------------------------------------
+
+13. Airlines and Aviation Operators
+
+Important: An airline flying to India does not necessarily have an
+Indian corporate office, GCC or IT hiring centre. Treat the following as
+airline-sector prospects and verify the local employment footprint.
+
+-   Emirates
+-   Qatar Airways
+-   Etihad Airways
+-   Singapore Airlines
+-   Lufthansa
+-   Air France
+-   KLM
+-   British Airways
+-   Cathay Pacific
+-   United Airlines
+-   American Airlines
+-   Delta Air Lines
+-   Turkish Airlines
+-   Japan Airlines
+-   All Nippon Airways (ANA)
+-   Qantas
+-   Swiss International Air Lines
+-   Air Canada
+-   Malaysia Airlines
+-   Thai Airways
+-   Air Arabia
+-   flydubai
+-   Oman Air
+-   Gulf Air
+-   Saudia
+-   Ethiopian Airlines
+-   Korean Air
+-   Asiana Airlines
+-   Vietnam Airlines
+-   Finnair
+-   Air Mauritius
+-   AirAsia
+-   IndiGo (Indian company; not an international MNC)
+
+Airline IT, aviation systems and airport technology
+
+-   Amadeus IT Group
+-   Sabre
+-   Travelport
+-   SITA
+-   Collins Aerospace
+-   Thales
+-   Honeywell Aerospace
+-   Lufthansa Systems
+-   IBS Software (India-origin; not a foreign MNC)
+-   Navitaire (Amadeus)
+
+------------------------------------------------------------------------
+
+14. Online Retail, E-commerce and Consumer Platforms
+
+-   Amazon
+-   Walmart
+-   eBay
+-   IKEA
+-   Alibaba
+-   AliExpress
+-   JD.com
+-   Rakuten
+-   Coupang
+-   Zalando
+-   SHEIN
+-   Temu
+-   Decathlon
+-   Carrefour
+-   Tesco
+-   Metro AG
+-   Costco
+-   Nike
+-   Adidas
+-   H&M
+-   Inditex (Zara)
+-   Marks & Spencer
+-   Uniqlo (Fast Retailing)
+-   Lululemon
+-   Apple Retail
+-   Samsung
+-   LEGO
+-   Home Depot
+-   Lowe’s
+-   Best Buy
+-   Etsy
+-   Wayfair
+-   Otto Group
+-   Kingfisher
+-   Currys
+-   ASOS
+-   Next plc
+-   Pandora
+-   Sephora (LVMH)
+-   LVMH
+-   Kering
+-   Richemont
+
+------------------------------------------------------------------------
+
+15. Logistics, Freight, Courier and Supply Chain
+
+-   DHL
+-   FedEx
+-   UPS
+-   Maersk
+-   MSC
+-   CMA CGM
+-   Hapag-Lloyd
+-   COSCO Shipping
+-   Ocean Network Express (ONE)
+-   Evergreen Marine
+-   Yang Ming
+-   ZIM
+-   Kuehne+Nagel
+-   DSV
+-   DB Schenker
+-   CEVA Logistics
+-   GXO Logistics
+-   Expeditors
+-   Nippon Express
+-   Agility Logistics
+-   DP World
+-   A.P. Moller
+-   Hellmann Worldwide Logistics
+-   GEODIS
+-   Rhenus Logistics
+-   Lineage
+-   Aramex
+-   XPO
+-   J.B. Hunt
+-   C.H. Robinson
+-   Ryder System
+-   Flexport
+-   Kintetsu World Express
+-   Yusen Logistics
+-   Bolloré Logistics (integrated into CEVA in relevant operations)
+
+------------------------------------------------------------------------
+
+16. Travel, Tourism, Hospitality and Hotels
+
+Online travel and travel technology
+
+-   Booking Holdings
+-   Booking.com
+-   Expedia Group
+-   Airbnb
+-   Trip.com Group
+-   Agoda
+-   Tripadvisor
+-   Amadeus
+-   Sabre
+-   Travelport
+-   TUI Group
+-   MakeMyTrip (India-origin; not a foreign MNC)
+
+Hotels and hospitality
+
+-   Marriott International
+-   Hilton
+-   Hyatt
+-   Accor
+-   IHG Hotels & Resorts
+-   Radisson Hotel Group
+-   Wyndham Hotels & Resorts
+-   Four Seasons
+-   Shangri-La
+-   Mandarin Oriental
+-   Minor Hotels
+-   Meliá Hotels International
+-   Choice Hotels
+-   Best Western
+-   OYO (India-origin; not a foreign MNC)
+
+------------------------------------------------------------------------
+
+17. Media, Entertainment, OTT and Broadcasting
+
+-   Netflix
+-   The Walt Disney Company
+-   Warner Bros. Discovery
+-   Sony Pictures Entertainment
+-   Paramount
+-   NBCUniversal
+-   Amazon Prime Video
+-   Apple TV+
+-   BBC Studios
+-   Spotify
+-   Universal Music Group
+-   Warner Music Group
+-   Sony Music Entertainment
+-   Bloomberg
+-   Fox Corporation
+-   Comcast
+-   Roku
+-   ByteDance (TikTok)
+-   Snap
+-   Meta
+-   YouTube (Google)
+-   Twitch (Amazon)
+-   Electronic Arts
+-   Tencent
+-   Kakao
+-   Spotify
+-   Deezer
+-   Canva
+-   Getty Images
+-   Shutterstock
+
+------------------------------------------------------------------------
+
+18. Gaming and Interactive Entertainment
+
+-   Electronic Arts
+-   Ubisoft
+-   Activision Blizzard (Microsoft)
+-   Take-Two Interactive
+-   Rockstar Games
+-   Epic Games
+-   Riot Games
+-   Nintendo
+-   Sony Interactive Entertainment
+-   Microsoft Xbox
+-   Sega
+-   Zynga
+-   Unity Technologies
+-   Roblox
+-   Scopely
+-   Supercell
+-   Keywords Studios
+-   PlayStation Studios
+-   Tencent Games
+-   NetEase Games
+-   Bandai Namco
+-   Capcom
+-   Square Enix
+-   Konami
+-   Valve
+-   CD Projekt
+-   Miniclip
+
+------------------------------------------------------------------------
+
+19. FMCG, Food, Beverage and Consumer Goods
+
+Consumer goods and personal care
+
+-   Unilever
+-   Procter & Gamble (P&G)
+-   Nestlé
+-   Coca-Cola
+-   PepsiCo
+-   Mondelez International
+-   Colgate-Palmolive
+-   Reckitt
+-   Kimberly-Clark
+-   L’Oréal
+-   Beiersdorf
+-   Henkel
+-   SC Johnson
+-   Mars
+-   Ferrero
+-   Kraft Heinz
+-   Kenvue
+-   Church & Dwight
+-   Clorox
+-   Edgewell Personal Care
+-   Estée Lauder
+-   Coty
+-   Shiseido
+
+Food, agriculture commodities and ingredients
+
+-   Cargill
+-   ADM
+-   Bunge
+-   Louis Dreyfus Company
+-   Olam Group
+-   Ingredion
+-   Kerry Group
+-   Tate & Lyle
+-   Barry Callebaut
+-   McCormick
+-   General Mills
+-   Kellogg / Kellanova
+-   Conagra Brands
+-   Danone
+-   Lactalis
+-   Arla Foods
+-   FrieslandCampina
+-   Fonterra
+
+Restaurant and food-service chains
+
+-   McDonald’s
+-   Starbucks
+-   Yum! Brands (KFC, Pizza Hut, Taco Bell)
+-   Domino’s Pizza
+-   Burger King
+-   Subway
+-   Restaurant Brands International
+-   Tim Hortons
+-   Dunkin’
+-   Costa Coffee
+-   Krispy Kreme
+-   Popeyes
+-   Wendy’s
+-   Shake Shack
+-   Papa Johns
+
+------------------------------------------------------------------------
+
+20. Education, Research, Publishing and EdTech
+
+-   Pearson
+-   McGraw Hill
+-   Wiley
+-   Elsevier
+-   Springer Nature
+-   Coursera
+-   Udemy
+-   Duolingo
+-   Chegg
+-   ETS
+-   Kaplan
+-   Wolters Kluwer
+-   Cengage
+-   Informa
+-   RELX
+-   Oxford University Press
+-   Cambridge University Press & Assessment
+-   Pearson VUE
+-   Educational Testing Service
+-   Nature Portfolio
+
+------------------------------------------------------------------------
+
+21. Consulting, IT Services and Professional Services
+
+Global consulting and audit firms
+
+-   Deloitte
+-   PwC
+-   EY
+-   KPMG
+-   Accenture
+-   McKinsey & Company
+-   Boston Consulting Group (BCG)
+-   Bain & Company
+-   Oliver Wyman
+-   Roland Berger
+-   Kearney
+-   Arthur D. Little
+-   Alvarez & Marsal
+-   Mercer
+-   Korn Ferry
+-   Aon
+-   WTW
+-   Marsh McLennan
+
+International IT services and engineering services
+
+-   Capgemini
+-   CGI
+-   EPAM Systems
+-   DXC Technology
+-   NTT DATA
+-   Kyndryl
+-   Atos / Eviden
+-   Orange Business
+-   Fujitsu
+-   NEC
+-   T-Systems
+-   Sopra Steria
+-   Alten
+-   Akkodis
+-   Expleo
+-   Luxoft
+-   Globant
+-   Endava
+-   LTIMindtree (India-origin; not a foreign MNC)
+-   HCLTech (India-origin; not a foreign MNC)
+-   Wipro (India-origin; not a foreign MNC)
+-   Infosys (India-origin; not a foreign MNC)
+-   TCS (India-origin; not a foreign MNC)
+-   Tech Mahindra (India-origin; not a foreign MNC)
+
+------------------------------------------------------------------------
+
+22. Real Estate, Facilities and Property Services
+
+-   CBRE
+-   JLL
+-   Cushman & Wakefield
+-   Colliers
+-   Savills
+-   Knight Frank
+-   AECOM
+-   Arcadis
+-   Turner & Townsend
+-   Mace
+-   Jacobs
+-   AtkinsRéalis
+-   WSP
+-   ISS
+-   Sodexo
+-   Compass Group
+-   JLL Technologies
+-   Siemens Smart Infrastructure
+-   Johnson Controls
+
+------------------------------------------------------------------------
+
+23. Chemicals, Petrochemicals, Materials and Specialty Chemicals
+
+-   BASF
+-   Dow
+-   DuPont
+-   SABIC
+-   LyondellBasell
+-   Covestro
+-   Solvay
+-   Syensqo
+-   Arkema
+-   Evonik
+-   Clariant
+-   Eastman Chemical
+-   Huntsman
+-   Celanese
+-   Lubrizol
+-   INEOS
+-   Air Products
+-   Linde
+-   Wacker Chemie
+-   Mitsubishi Chemical Group
+-   3M
+-   PPG
+-   AkzoNobel
+-   Sherwin-Williams
+-   Henkel
+-   Sika
+-   H.B. Fuller
+-   Ashland
+-   Cabot
+-   Nouryon
+
+------------------------------------------------------------------------
+
+24. Mining, Metals, Steel and Advanced Materials
+
+-   Rio Tinto
+-   BHP
+-   Anglo American
+-   Glencore
+-   Vale
+-   Freeport-McMoRan
+-   Newmont
+-   Barrick Mining
+-   ArcelorMittal
+-   Nippon Steel
+-   POSCO
+-   thyssenkrupp
+-   SSAB
+-   Nucor
+-   Alcoa
+-   Norsk Hydro
+-   Umicore
+-   Sandvik
+-   Metso
+-   Epiroc
+-   Outokumpu
+-   JFE Steel
+-   Tata Steel (India-origin; not a foreign MNC)
+-   voestalpine
+-   Aurubis
+
+------------------------------------------------------------------------
+
+25. Agriculture, AgriTech and Farm Equipment
+
+-   John Deere
+-   CNH Industrial
+-   AGCO
+-   Kubota
+-   Yara International
+-   Bayer Crop Science
+-   Syngenta
+-   Corteva Agriscience
+-   BASF Agricultural Solutions
+-   FMC Corporation
+-   Nutrien
+-   Cargill
+-   ADM
+-   Bunge
+-   Louis Dreyfus Company
+-   DeLaval
+-   Valmont Industries
+-   Trimble
+-   AGCO Precision Agriculture
+-   CLAAS
+-   Mahindra (India-origin; not a foreign MNC)
+
+------------------------------------------------------------------------
+
+26. Water, Environmental Services and Sustainability
+
+-   Veolia
+-   SUEZ
+-   Xylem
+-   Ecolab
+-   Grundfos
+-   Pentair
+-   Kurita Water Industries
+-   DuPont Water Solutions
+-   AECOM
+-   Jacobs
+-   Arcadis
+-   Ramboll
+-   ERM
+-   DNV
+-   Bureau Veritas
+-   SGS
+-   Intertek
+-   Tetra Tech
+-   Stantec
+-   WSP
+
+------------------------------------------------------------------------
+
+27. Fashion, Luxury, Sports and Lifestyle
+
+-   Nike
+-   Adidas
+-   Puma
+-   Under Armour
+-   ASICS
+-   New Balance
+-   Decathlon
+-   H&M
+-   Inditex (Zara)
+-   Uniqlo
+-   Lululemon
+-   Levi Strauss & Co.
+-   VF Corporation
+-   PVH Corp.
+-   LVMH
+-   Kering
+-   Richemont
+-   Chanel
+-   Prada
+-   Burberry
+-   Gucci
+-   Cartier
+-   Rolex
+-   Pandora
+-   Garmin
+-   Fossil Group
+
+------------------------------------------------------------------------
+
+28. Postal, Parcel and Public Transport Technology
+
+-   DHL
+-   FedEx
+-   UPS
+-   La Poste
+-   Poste Italiane
+-   Japan Post
+-   Royal Mail
+-   Aramex
+-   Deutsche Bahn
+-   SNCF
+-   Alstom
+-   Siemens Mobility
+-   Hitachi Rail
+-   Stadler Rail
+-   CAF
+-   Knorr-Bremse
+-   Wabtec
+-   Thales
+-   Kapsch
+-   Cubic Corporation
+
+------------------------------------------------------------------------
+
+29. Security, Identity, Access and Physical Security
+
+-   G4S (Allied Universal)
+-   Securitas
+-   Allied Universal
+-   Brink’s
+-   Prosegur
+-   dormakaba
+-   ASSA ABLOY
+-   HID Global
+-   Genetec
+-   Motorola Solutions
+-   Axis Communications
+-   Bosch Security Systems
+-   Honeywell Building Technologies
+-   Johnson Controls
+-   Thales
+-   IDEMIA
+-   Verisure
+
+------------------------------------------------------------------------
+
+30. Utilities, Water, Power Distribution and District Energy
+
+-   ENGIE
+-   EDF
+-   E.ON
+-   Enel
+-   Iberdrola
+-   National Grid
+-   Ørsted
+-   RWE
+-   Veolia
+-   SUEZ
+-   Schneider Electric
+-   Siemens Energy
+-   GE Vernova
+-   Hitachi Energy
+-   ABB
+-   Eaton
+-   Danfoss
+-   Wärtsilä
+-   Xylem
+-   Grundfos
+
+------------------------------------------------------------------------
+
+31. Business Process Services, Customer Experience and Shared Services
+
+-   Concentrix
+-   Foundever
+-   Teleperformance
+-   Genpact
+-   EXL
+-   Sutherland
+-   Alorica
+-   TaskUs
+-   TTEC
+-   Firstsource
+-   WNS (Capgemini)
+-   TELUS Digital
+-   Accenture Operations
+-   IBM Consulting
+-   Cognizant (US-headquartered)
+-   Conduent
+-   Transcom
+-   HGS (India-origin)
+
+------------------------------------------------------------------------
+
+32. Data, Analytics, Market Intelligence and Information Services
+
+-   Nielsen
+-   Kantar
+-   Gartner
+-   Forrester
+-   IDC
+-   Dun & Bradstreet
+-   S&P Global
+-   Moody’s
+-   MSCI
+-   LSEG
+-   Bloomberg
+-   FactSet
+-   Verisk
+-   Clarivate
+-   IQVIA
+-   Experian
+-   Equifax
+-   TransUnion
+-   LexisNexis
+-   Thomson Reuters
+
+------------------------------------------------------------------------
+
+33. Cyber-physical, IoT, Smart Buildings and Industrial Software
+
+-   Siemens
+-   ABB
+-   Schneider Electric
+-   Honeywell
+-   Johnson Controls
+-   Bosch
+-   Emerson
+-   Rockwell Automation
+-   PTC
+-   AVEVA
+-   AspenTech
+-   Hexagon
+-   Bentley Systems
+-   Dassault Systèmes
+-   Ansys
+-   Kongsberg Digital
+-   Cognite
+-   Samsara
+-   PTC ThingWorx
+-   Cisco IoT
+-   AWS IoT
+-   Microsoft Azure IoT
+
+------------------------------------------------------------------------
+
+34. Other technology-heavy sectors to monitor
+
+Legal technology and compliance
+
+-   Thomson Reuters
+-   LexisNexis
+-   Wolters Kluwer
+-   Relativity
+-   Epiq
+-   CSC
+
+Digital advertising and marketing technology
+
+-   Google
+-   Meta
+-   Amazon Ads
+-   Adobe
+-   Salesforce
+-   Criteo
+-   The Trade Desk
+-   PubMatic
+-   Magnite
+-   AppsFlyer
+-   Adjust
+
+Payments, identity and fraud prevention
+
+-   Visa
+-   Mastercard
+-   PayPal
+-   Fiserv
+-   FIS
+-   NICE Actimize
+-   Feedzai
+-   Featurespace
+-   LexisNexis Risk Solutions
+-   Experian
+
+------------------------------------------------------------------------
+
+35. India-origin global employers: useful additions, but not foreign MNCs
+
+These companies are headquartered in India or are Indian-origin global
+groups. They are not foreign-headquartered MNCs, but they may be
+valuable employers for an India-based job search.
+
+-   Tata Consultancy Services (TCS)
+-   Infosys
+-   Wipro
+-   HCLTech
+-   Tech Mahindra
+-   LTIMindtree
+-   Mphasis
+-   Persistent Systems
+-   Coforge
+-   L&T Technology Services
+-   Tata Elxsi
+-   KPIT Technologies
+-   Zensar Technologies
+-   Cyient
+-   Birlasoft
+-   Mastek
+-   Sonata Software
+-   Zoho
+-   Freshworks
+-   Razorpay
+-   PhonePe
+-   Paytm
+-   Flipkart
+-   MakeMyTrip
+-   Swiggy
+-   Zomato
+-   Ola Electric
+-   Reliance Industries
+-   Tata Motors
+-   Mahindra & Mahindra
+-   Adani Group
+
+------------------------------------------------------------------------
+
+36. How to use this directory for your job search
+
+Best-fit job families
+
+Given your interest in Linux, Kubernetes, DevOps, SRE, HPC,
+infrastructure and production engineering, search for these job titles:
+
+DevOps and platform engineering
+
+-   DevOps Engineer
+-   Senior DevOps Engineer
+-   Platform Engineer
+-   Kubernetes Engineer
+-   Cloud Platform Engineer
+-   Infrastructure Automation Engineer
+-   Site Reliability Engineer (SRE)
+-   Production Engineer
+-   Release Engineer
+-   CI/CD Engineer
+
+Linux, HPC and infrastructure
+
+-   Linux Systems Engineer
+-   Linux Administrator
+-   Infrastructure Engineer
+-   HPC Systems Engineer
+-   HPC Cluster Engineer
+-   Slurm Administrator
+-   GPU Infrastructure Engineer
+-   Storage Engineer
+-   Lustre Administrator
+-   InfiniBand / RDMA Engineer
+-   Data Centre Engineer
+-   Systems Performance Engineer
+
+Cloud and reliability
+
+-   Cloud Engineer
+-   Cloud Infrastructure Engineer
+-   AWS / Azure / GCP Engineer
+-   Cloud Operations Engineer
+-   Reliability Engineer
+-   Observability Engineer
+-   Monitoring Engineer
+-   OpenTelemetry Engineer
+-   Incident Management Engineer
+-   Capacity Planning Engineer
+
+Security and operations
+
+-   Cloud Security Engineer
+-   Infrastructure Security Engineer
+-   IAM Engineer
+-   DevSecOps Engineer
+-   SOC Engineer
+-   Vulnerability Management Engineer
+-   IT Operations Engineer
+-   Production Support Engineer
+-   Application Support Engineer
+
+Search by industry plus job title
+
+Use combinations such as: - Shell SRE India -
+ExxonMobil Linux Engineer Bengaluru - JPMorgan Kubernetes India -
+Goldman Sachs Site Reliability Engineer Bengaluru -
+NVIDIA HPC Engineer India - Airbus DevOps Engineer India -
+Ericsson Cloud Engineer India - Walmart Platform Engineer Bengaluru -
+DHL Infrastructure Engineer India - Pfizer Cloud Engineer India -
+Siemens Energy Linux Engineer India - Vestas DevOps Engineer India
+
+Where to search
+
+-   Company official careers pages
+-   LinkedIn Jobs
+-   Naukri
+-   Indeed India
+-   Wellfound (particularly for technology companies and startups)
+-   iimjobs (for relevant senior and specialist roles)
+-   GCC and industry hiring announcements
+
+------------------------------------------------------------------------
+
+37. Final verification checklist before applying
+
+For every company, capture:
+
+  Field                What to record
+  -------------------- ----------------------------------------------
+  Company              Official global company name
+  Sector               Industry vertical
+  India presence       Office, GCC, R&D, plant, project or sales
+  India cities         Actual hiring locations
+  Official website     Corporate website
+  Careers page         Official job portal
+  Target role          DevOps, SRE, Linux, HPC, Cloud, etc.
+  Job link             Specific vacancy URL
+  Employment entity    Indian subsidiary or employer
+  Verification date    Date you checked the information
+  Application status   Not applied / Applied / Interview / Rejected
+
+Final note
+
+This is a broad, multi-sector international employer directory designed
+to reduce the chance of overlooking relevant industries. It is not
+possible to guarantee that it contains every MNC worldwide, and
+inclusion does not establish a current Indian office or vacancy. Treat
+it as a discovery database and verify each employer’s India presence and
+hiring entity before applying.
+
+For your job search, prioritize companies with India-based technology
+centres, GCCs, engineering centres, data centres, R&D teams and large
+production infrastructure teams. These are generally more relevant than
+a company that only sells products or operates a sales office in India.
+
+------------------------------------------------------------------------
+
+38. India presence research references
+
+Use these sources to validate India GCC / office presence and discover
+additional employers. Third-party directories are discovery aids;
+confirm details on the employer’s official website before applying.
+
+1.  India GCC Index – sector and city view: https://gccindex.in/sectors
+2.  GCC Village – India GCC sector directory:
+    https://www.gccvillage.in/gcc-data
+3.  Astravise – India GCC Index 2026 overview and sector examples:
+    https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/
+4.  GCCPROs – India GCC Atlas: https://www.gccpros.com/gcc-india-atlas
+5.  Government of India, Economic Survey 2024–25, Global Capability
+    Centres chapter:
+    https://www.indiabudget.gov.in/budget2025-26/economicsurvey/doc/eschapter/echap08.pdf
+6.  KPMG – GCCs in India: Building resilience for sustainable growth:
+    https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2024/05/gccs-in-india-building-resilience-for-sustainable-growth.pdf
+7.  Press Information Bureau – GIFT City business and GCC examples:
+    https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195725&lang=1&reg=3
+
+Illustrative India GCC examples from published sector research
+
+The 2026 India GCC overview cited above identifies examples such as: -
+Financial services: JPMorgan Chase, Goldman Sachs, HSBC, Standard
+Chartered, Deutsche Bank, BNY, Barclays, BlackRock, Morgan Stanley,
+Wells Fargo, American Express, Fidelity Investments, Franklin Templeton,
+Swiss Re and MUFG. - Automotive and industrial: Mercedes-Benz, BMW
+Group, General Motors, Renault-Nissan-Mitsubishi, Hyundai, Honda, Bosch,
+Siemens, Schneider Electric, Cummins, John Deere, Caterpillar,
+Schaeffler and ABB. - Aerospace and energy: Airbus, Safran, Spirit
+AeroSystems, Bombardier, Shell, ExxonMobil, TotalEnergies, SLB, Vestas
+and Siemens Gamesa. - Other India GCC sectors covered in industry
+research include healthcare and life sciences, retail and consumer,
+telecom and media, logistics, consulting, semiconductors, manufacturing,
+energy and utilities, aerospace and defence.
+
+These examples demonstrate the breadth of India’s GCC market, but they
+do not establish that every company in this directory has a current
+office in every city or an open vacancy.

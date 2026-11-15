@@ -1,0 +1,800 @@
+{
+ "Eli Lilly": [
+  "lilly"
+ ],
+ "Merck & Co.": [
+  "msd",
+  "merck"
+ ],
+ "Merck KGaA": [
+  "emdgroup",
+  "merckgroup"
+ ],
+ "Bayer": [
+  "bayer"
+ ],
+ "Novo Nordisk": [
+  "novonordisk"
+ ],
+ "Boehringer Ingelheim": [
+  "boehringer-ingelheim",
+  "boehringeringelheim"
+ ],
+ "Boston Scientific": [
+  "bostonscientific"
+ ],
+ "Becton Dickinson": [
+  "bd"
+ ],
+ "Thermo Fisher Scientific": [
+  "thermofisher"
+ ],
+ "Zimmer Biomet": [
+  "zimmerbiomet"
+ ],
+ "Teva": [
+  "tevapharm",
+  "teva"
+ ],
+ "Vertex Pharmaceuticals": [
+  "vrtx",
+  "vertex"
+ ],
+ "Optum": [
+  "uhg"
+ ],
+ "UnitedHealth Group": [
+  "uhg"
+ ],
+ "Siemens Healthineers": [
+  "siemens-healthineers"
+ ],
+ "Waters Corporation": [
+  "waters"
+ ],
+ "Bio-Rad": [
+  "bio-rad",
+  "biorad"
+ ],
+ "Hologic": [
+  "hologic"
+ ],
+ "Biogen": [
+  "biibhr",
+  "biogen"
+ ],
+ "Moderna": [
+  "modernatx",
+  "moderna"
+ ],
+ "CSL": [
+  "csl"
+ ],
+ "Astellas Pharma": [
+  "astellas"
+ ],
+ "Daiichi Sankyo": [
+  "daiichisankyo"
+ ],
+ "Beckman Coulter": [
+  "beckman",
+  "beckmancoulter"
+ ],
+ "Mercedes-Benz": [
+  "mercedes-benz",
+  "mercedesbenz"
+ ],
+ "BMW": [
+  "bmwgroup",
+  "bmw"
+ ],
+ "Volkswagen Group": [
+  "volkswagen",
+  "vwgroup"
+ ],
+ "Ford": [
+  "ford"
+ ],
+ "Toyota": [
+  "toyota"
+ ],
+ "Honda": [
+  "honda"
+ ],
+ "Hyundai": [
+  "hyundai"
+ ],
+ "Jaguar Land Rover": [
+  "jlr"
+ ],
+ "Volvo Group": [
+  "volvogroup"
+ ],
+ "Volvo Cars": [
+  "volvocars"
+ ],
+ "Daimler Truck": [
+  "daimlertruck"
+ ],
+ "ZF": [
+  "zf"
+ ],
+ "Denso": [
+  "denso"
+ ],
+ "Michelin": [
+  "michelin"
+ ],
+ "Lear Corporation": [
+  "lear"
+ ],
+ "Autoliv": [
+  "autoliv"
+ ],
+ "Visteon": [
+  "visteon"
+ ],
+ "Harman": [
+  "harman"
+ ],
+ "Garrett Motion": [
+  "garrettmotion"
+ ],
+ "Forvia": [
+  "forvia"
+ ],
+ "Marelli": [
+  "marelli"
+ ],
+ "Tesla": [
+  "tesla"
+ ],
+ "Scania": [
+  "scania"
+ ],
+ "Renault": [
+  "renault"
+ ],
+ "Nissan": [
+  "nissan"
+ ],
+ "Bosch": [
+  "bosch"
+ ],
+ "Hexagon": [
+  "hexagon"
+ ],
+ "Atlas Copco": [
+  "atlascopcogroup",
+  "atlascopco"
+ ],
+ "SKF": [
+  "skf"
+ ],
+ "Otis": [
+  "otis"
+ ],
+ "Trane Technologies": [
+  "tranetechnologies",
+  "trane"
+ ],
+ "Ingersoll Rand": [
+  "irco",
+  "ingersollrand"
+ ],
+ "Ecolab": [
+  "ecolab"
+ ],
+ "TE Connectivity": [
+  "te",
+  "teconnectivity"
+ ],
+ "Flex": [
+  "flex"
+ ],
+ "Amphenol": [
+  "amphenol"
+ ],
+ "Celestica": [
+  "celestica"
+ ],
+ "Sanmina": [
+  "sanmina"
+ ],
+ "Molex": [
+  "molex"
+ ],
+ "Legrand": [
+  "legrand"
+ ],
+ "ITT Inc.": [
+  "itt"
+ ],
+ "Schaeffler": [
+  "schaeffler"
+ ],
+ "Grundfos": [
+  "grundfos"
+ ],
+ "Lockheed Martin": [
+  "lockheedmartin"
+ ],
+ "Northrop Grumman": [
+  "ngc",
+  "northropgrumman"
+ ],
+ "RTX": [
+  "globalhr",
+  "rtx"
+ ],
+ "L3Harris": [
+  "l3harris"
+ ],
+ "BAE Systems": [
+  "baesystems"
+ ],
+ "Airbus": [
+  "airbus"
+ ],
+ "Safran": [
+  "safran-group",
+  "safran"
+ ],
+ "Textron": [
+  "textron"
+ ],
+ "Rheinmetall": [
+  "rheinmetall"
+ ],
+ "Viasat": [
+  "viasat"
+ ],
+ "Bombardier": [
+  "bombardier"
+ ],
+ "Walmart": [
+  "walmart"
+ ],
+ "eBay": [
+  "ebay"
+ ],
+ "Etsy": [
+  "etsy"
+ ],
+ "Wayfair": [
+  "wayfair"
+ ],
+ "Nike": [
+  "nike"
+ ],
+ "Adidas": [
+  "adidas"
+ ],
+ "H&M": [
+  "hm"
+ ],
+ "IKEA": [
+  "ikea"
+ ],
+ "Costco": [
+  "costco"
+ ],
+ "Home Depot": [
+  "homedepot"
+ ],
+ "Lowe’s": [
+  "lowes"
+ ],
+ "Tesco": [
+  "tesco"
+ ],
+ "Carrefour": [
+  "carrefour"
+ ],
+ "Netflix": [
+  "netflix"
+ ],
+ "The Walt Disney Company": [
+  "disney"
+ ],
+ "Paramount": [
+  "paramount"
+ ],
+ "NBCUniversal": [
+  "nbcuniversal",
+  "comcast"
+ ],
+ "Comcast": [
+  "comcast"
+ ],
+ "Snap": [
+  "snap"
+ ],
+ "Electronic Arts": [
+  "ea"
+ ],
+ "Getty Images": [
+  "gettyimages"
+ ],
+ "Shutterstock": [
+  "shutterstock"
+ ],
+ "Universal Music Group": [
+  "umusic",
+  "universalmusic"
+ ],
+ "Nestlé": [
+  "nestle"
+ ],
+ "PepsiCo": [
+  "pepsico"
+ ],
+ "Mondelez International": [
+  "mondelez"
+ ],
+ "Colgate-Palmolive": [
+  "colgate"
+ ],
+ "Reckitt": [
+  "reckitt"
+ ],
+ "L’Oréal": [
+  "loreal"
+ ],
+ "Henkel": [
+  "henkel"
+ ],
+ "Mars": [
+  "mars"
+ ],
+ "Kraft Heinz": [
+  "kraftheinz"
+ ],
+ "Kenvue": [
+  "kenvue"
+ ],
+ "Estée Lauder": [
+  "elcompanies",
+  "esteelauder"
+ ],
+ "Starbucks": [
+  "starbucks"
+ ],
+ "Yum! Brands": [
+  "yum"
+ ],
+ "General Mills": [
+  "generalmills"
+ ],
+ "Cargill": [
+  "cargill"
+ ],
+ "ADM": [
+  "adm"
+ ],
+ "Bunge": [
+  "bunge"
+ ],
+ "Danone": [
+  "danone"
+ ],
+ "Clorox": [
+  "clorox"
+ ],
+ "DHL": [
+  "dpdhl",
+  "dhl"
+ ],
+ "FedEx": [
+  "fedex"
+ ],
+ "UPS": [
+  "ups"
+ ],
+ "Kuehne+Nagel": [
+  "kuehne-nagel",
+  "kuehnenagel"
+ ],
+ "DSV": [
+  "dsv"
+ ],
+ "CEVA Logistics": [
+  "cevalogistics"
+ ],
+ "DP World": [
+  "dpworld"
+ ],
+ "GXO Logistics": [
+  "gxo"
+ ],
+ "Ryder System": [
+  "ryder"
+ ],
+ "J.B. Hunt": [
+  "jbhunt"
+ ],
+ "Emirates": [
+  "emirates"
+ ],
+ "Lufthansa": [
+  "lufthansa"
+ ],
+ "Qantas": [
+  "qantas"
+ ],
+ "Delta Air Lines": [
+  "delta"
+ ],
+ "United Airlines": [
+  "united"
+ ],
+ "American Airlines": [
+  "aa"
+ ],
+ "BASF": [
+  "basf"
+ ],
+ "DuPont": [
+  "dupont"
+ ],
+ "LyondellBasell": [
+  "lyondellbasell"
+ ],
+ "Covestro": [
+  "covestro"
+ ],
+ "Arkema": [
+  "arkema"
+ ],
+ "Eastman Chemical": [
+  "eastman"
+ ],
+ "Celanese": [
+  "celanese"
+ ],
+ "PPG": [
+  "ppg"
+ ],
+ "AkzoNobel": [
+  "akzonobel"
+ ],
+ "Sherwin-Williams": [
+  "sherwin"
+ ],
+ "Sika": [
+  "sika"
+ ],
+ "Clariant": [
+  "clariant"
+ ],
+ "John Deere": [
+  "johndeere",
+  "deere"
+ ],
+ "CNH Industrial": [
+  "cnh"
+ ],
+ "AGCO": [
+  "agco"
+ ],
+ "Corteva Agriscience": [
+  "corteva"
+ ],
+ "Syngenta": [
+  "syngenta"
+ ],
+ "Nutrien": [
+  "nutrien"
+ ],
+ "Kubota": [
+  "kubota"
+ ],
+ "Rio Tinto": [
+  "riotinto"
+ ],
+ "BHP": [
+  "bhp"
+ ],
+ "Anglo American": [
+  "angloamerican"
+ ],
+ "Vale": [
+  "vale"
+ ],
+ "ArcelorMittal": [
+  "arcelormittal"
+ ],
+ "Nucor": [
+  "nucor"
+ ],
+ "Alcoa": [
+  "alcoa"
+ ],
+ "Freeport-McMoRan": [
+  "fcx"
+ ],
+ "Newmont": [
+  "newmont"
+ ],
+ "Pearson": [
+  "pearson"
+ ],
+ "McGraw Hill": [
+  "mheducation",
+  "mcgrawhill"
+ ],
+ "Chegg": [
+  "chegg"
+ ],
+ "Udemy": [
+  "udemy"
+ ],
+ "Kaplan": [
+  "kaplan"
+ ],
+ "Informa": [
+  "informa"
+ ],
+ "Verisk": [
+  "verisk"
+ ],
+ "LexisNexis": [
+  "lexisnexis"
+ ],
+ "Elsevier": [
+  "relx"
+ ],
+ "Booking Holdings": [
+  "booking"
+ ],
+ "Expedia Group": [
+  "expedia"
+ ],
+ "Tripadvisor": [
+  "tripadvisor"
+ ],
+ "Trip.com Group": [
+  "trip"
+ ],
+ "Veolia": [
+  "veolia"
+ ],
+ "Under Armour": [
+  "underarmour"
+ ],
+ "Levi Strauss & Co.": [
+  "levistrauss",
+  "levi"
+ ],
+ "VF Corporation": [
+  "vfc"
+ ],
+ "Fossil Group": [
+  "fossil"
+ ],
+ "Burberry": [
+  "burberry"
+ ],
+ "ASICS": [
+  "asics"
+ ],
+ "HID Global": [
+  "hidglobal"
+ ],
+ "ASSA ABLOY": [
+  "assaabloy"
+ ],
+ "Genetec": [
+  "genetec"
+ ],
+ "IDEMIA": [
+  "idemia"
+ ],
+ "dormakaba": [
+  "dormakaba"
+ ],
+ "Target": [
+  "target"
+ ],
+ "TJX": [
+  "tjx"
+ ],
+ "Anheuser-Busch InBev": [
+  "abinbev",
+  "ab-inbev"
+ ],
+ "British American Tobacco": [
+  "bat"
+ ],
+ "Philip Morris International": [
+  "pmi"
+ ],
+ "General Dynamics": [
+  "gd",
+  "generaldynamics"
+ ],
+ "Illinois Tool Works": [
+  "itw"
+ ],
+ "Automatic Data Processing": [
+  "adp"
+ ],
+ "Snowflake": [
+  "snowflake"
+ ],
+ "Uber": [
+  "uber"
+ ],
+ "SanDisk": [
+  "sandisk"
+ ],
+ "Lumentum": [
+  "lumentum"
+ ],
+ "Coherent": [
+  "coherent"
+ ],
+ "Corning": [
+  "corning"
+ ],
+ "Cerebras Systems": [
+  "cerebras"
+ ],
+ "CVS Health": [
+  "cvshealth"
+ ],
+ "EssilorLuxottica": [
+  "essilorluxottica",
+  "luxottica"
+ ],
+ "Diageo": [
+  "diageo"
+ ],
+ "Stanley Black & Decker": [
+  "sbdinc"
+ ],
+ "Elevance Health": [
+  "elevancehealth",
+  "elevance"
+ ],
+ "HP": [
+  "hp"
+ ],
+ "Gen Digital": [
+  "gen"
+ ],
+ "Warner Bros. Discovery": [
+  "warnerbros",
+  "wbd"
+ ],
+ "Macy's": [
+  "macys"
+ ],
+ "Gap": [
+  "gap",
+  "gapinc"
+ ],
+ "Dollar General": [
+  "dollargeneral"
+ ],
+ "Labcorp": [
+  "labcorp"
+ ],
+ "Charter Communications": [
+  "spectrum",
+  "charter"
+ ],
+ "Lumen Technologies": [
+  "lumen"
+ ],
+ "Mettler-Toledo": [
+  "mt",
+  "mettlertoledo"
+ ],
+ "International Paper": [
+  "ipaper",
+  "internationalpaper"
+ ],
+ "International Flavors & Fragrances": [
+  "iff"
+ ],
+ "Air Products": [
+  "airproducts"
+ ],
+ "Alaska Air": [
+  "alaskaair"
+ ],
+ "Avis Budget": [
+  "avisbudget"
+ ],
+ "Corpay": [
+  "corpay",
+  "fleetcor"
+ ],
+ "Bread Financial": [
+  "breadfinancial"
+ ],
+ "Hershey": [
+  "thehersheycompany",
+  "hershey"
+ ],
+ "Campbell": [
+  "campbells",
+  "campbellsoup"
+ ],
+ "Keurig Dr Pepper": [
+  "kdp"
+ ],
+ "Tyson Foods": [
+  "tysonfoods",
+  "tyson"
+ ],
+ "Ball Corporation": [
+  "ball"
+ ],
+ "Crown Holdings": [
+  "crowncork",
+  "crown"
+ ],
+ "Meta": [
+  "meta"
+ ],
+ "Alphabet": [
+  "google"
+ ],
+ "Teledyne Technologies": [
+  "teledyne"
+ ],
+ "Huntington Ingalls Industries": [
+  "hii"
+ ],
+ "Allison Transmission": [
+  "allisontransmission"
+ ],
+ "Harley-Davidson": [
+  "harley-davidson",
+  "harleydavidson"
+ ],
+ "Revvity": [
+  "revvity"
+ ],
+ "Quest Diagnostics": [
+  "questdiagnostics",
+  "quest"
+ ],
+ "Dentsply Sirona": [
+  "dentsplysirona"
+ ],
+ "Union Pacific": [
+  "up",
+  "unionpacific"
+ ],
+ "CSX": [
+  "csx"
+ ],
+ "Norfolk Southern": [
+  "norfolksouthern",
+  "nscorp"
+ ],
+ "C.H. Robinson": [
+  "chrobinson",
+  "chr"
+ ],
+ "Southwest Airlines": [
+  "southwest",
+  "southwestair"
+ ],
+ "Ralph Lauren": [
+  "ralphlauren"
+ ],
+ "News Corp": [
+  "newscorp"
+ ],
+ "Live Nation": [
+  "livenation"
+ ],
+ "Brown-Forman": [
+  "brown-forman",
+  "brownforman"
+ ]
+}

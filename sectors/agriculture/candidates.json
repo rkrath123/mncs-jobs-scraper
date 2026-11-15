@@ -1,0 +1,74 @@
+{
+ "sector": "agriculture",
+ "title": "Agriculture, agritech, farm equipment",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "John Deere",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "CNH Industrial",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "AGCO",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "Kubota",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "Syngenta",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "Nutrien",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "DeLaval",
+   "section": 25,
+   "subgroup": ""
+  },
+  {
+   "name": "CLAAS",
+   "section": 25,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Yara International",
+   "section": 25,
+   "subgroup": "",
+   "configured_in": "agriculture"
+  },
+  {
+   "name": "Corteva Agriscience",
+   "section": 25,
+   "subgroup": "",
+   "configured_in": "agriculture"
+  },
+  {
+   "name": "FMC Corporation",
+   "section": 25,
+   "subgroup": "",
+   "configured_in": "agriculture"
+  },
+  {
+   "name": "Valmont Industries",
+   "section": 25,
+   "subgroup": "",
+   "configured_in": "agriculture"
+  }
+ ]
+}

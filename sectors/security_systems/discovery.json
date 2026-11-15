@@ -1,0 +1,31 @@
+{
+ "ASSA ABLOY": [],
+ "Axis Communications": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "axis.wd3.myworkdayjobs.com",
+    "tenant": "axis",
+    "site": "External_Career_Site",
+    "name": "Axis Communications"
+   },
+   "india_jobs": 1,
+   "site_total": 138,
+   "facet": true
+  }
+ ],
+ "Genetec": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "genetec",
+    "name": "Genetec"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "HID Global": [],
+ "IDEMIA": [],
+ "dormakaba": []
+}

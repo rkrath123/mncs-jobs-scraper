@@ -1,0 +1,192 @@
+{
+ "Cambridge University Press": [],
+ "Cengage": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cengage.wd5.myworkdayjobs.com",
+    "tenant": "cengage",
+    "site": "CengageEMEACareers",
+    "name": "Cengage"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cengage.wd5.myworkdayjobs.com",
+    "tenant": "cengage",
+    "site": "CengageNorthAmericaCareers",
+    "name": "Cengage"
+   },
+   "india_jobs": 0,
+   "site_total": 66,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cengage.wd5.myworkdayjobs.com",
+    "tenant": "cengage",
+    "site": "CengageIndiaCareers",
+    "name": "Cengage"
+   },
+   "india_jobs": 5,
+   "site_total": 5,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cengage.wd5.myworkdayjobs.com",
+    "tenant": "cengage",
+    "site": "CengageLATAMCareersSPN",
+    "name": "Cengage"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Chegg": [],
+ "Coursera": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "coursera",
+    "name": "Coursera"
+   },
+   "india_jobs": 6,
+   "site_total": 40
+  }
+ ],
+ "Duolingo": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "duolingo",
+    "name": "Duolingo"
+   },
+   "india_jobs": 1,
+   "site_total": 60
+  }
+ ],
+ "ETS": [],
+ "Informa": [],
+ "Kaplan": [],
+ "McGraw Hill": [],
+ "Nature Portfolio": [],
+ "Oxford University Press": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "oxford.wd5.myworkdayjobs.com",
+    "tenant": "oxford",
+    "site": "LillyPulitzer",
+    "name": "Oxford University Press"
+   },
+   "india_jobs": 0,
+   "site_total": 175,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "oxford.wd5.myworkdayjobs.com",
+    "tenant": "oxford",
+    "site": "Oxford",
+    "name": "Oxford University Press"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "oxford.wd5.myworkdayjobs.com",
+    "tenant": "oxford",
+    "site": "TommyBahamaCanada",
+    "name": "Oxford University Press"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "oxford.wd5.myworkdayjobs.com",
+    "tenant": "oxford",
+    "site": "TommyBahamaUS",
+    "name": "Oxford University Press"
+   },
+   "india_jobs": 0,
+   "site_total": 361,
+   "facet": false
+  }
+ ],
+ "Pearson": [],
+ "Springer Nature": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "springernature.wd3.myworkdayjobs.com",
+    "tenant": "springernature",
+    "site": "SpringerNatureCareers",
+    "name": "Springer Nature"
+   },
+   "india_jobs": 8,
+   "site_total": 73,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "springernature",
+    "name": "Springer Nature"
+   },
+   "india_jobs": 6,
+   "site_total": 6
+  }
+ ],
+ "Udemy": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "udemy",
+    "name": "Udemy"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Wiley": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "wiley.wd1.myworkdayjobs.com",
+    "tenant": "wiley",
+    "site": "wiley_careers",
+    "name": "Wiley"
+   },
+   "india_jobs": 4,
+   "site_total": 70,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "wiley.wd1.myworkdayjobs.com",
+    "tenant": "wiley",
+    "site": "leadership",
+    "name": "Wiley"
+   },
+   "india_jobs": 1,
+   "site_total": 1,
+   "facet": false
+  }
+ ]
+}

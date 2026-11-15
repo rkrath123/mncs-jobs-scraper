@@ -1,0 +1,537 @@
+{
+ "ASOS": {
+  "hosts": [
+   "careers.asos.com",
+   "www.asos.com",
+   "asos.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Adidas": {
+  "hosts": [
+   "www.adidas.com",
+   "adidas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "AutoZone": {
+  "hosts": [
+   "careers.autozone.com",
+   "jobs.autozone.com",
+   "www.autozone.com",
+   "autozone.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Best Buy": {
+  "hosts": [
+   "careers.bestbuy.com",
+   "jobs.bestbuy.com",
+   "www.bestbuy.com",
+   "bestbuy.com",
+   "careers.best-buy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Carrefour": {
+  "hosts": [
+   "jobs.carrefour.com",
+   "www.carrefour.com",
+   "carrefour.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Carvana": {
+  "hosts": [
+   "www.carvana.com",
+   "carvana.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Chewy": {
+  "hosts": [
+   "careers.chewy.com",
+   "www.chewy.com",
+   "chewy.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Chewy",
+     "host": "careers.chewy.com",
+     "lang": "en_us",
+     "page_id": "page9",
+     "region": "us/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.chewy.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Costco": {
+  "hosts": [
+   "careers.costco.com",
+   "www.costco.com",
+   "costco.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Costco",
+     "host": "careers.costco.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.costco.com"
+   }
+  ],
+  "unsupported": [
+   "icims",
+   "taleo"
+  ]
+ },
+ "Currys": {
+  "hosts": [
+   "careers.currys.com",
+   "jobs.currys.com",
+   "www.currys.com",
+   "currys.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Decathlon": {
+  "hosts": [
+   "www.decathlon.com",
+   "decathlon.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Dick's Sporting Goods": {
+  "hosts": [
+   "www.dickssportinggoods.com",
+   "dickssportinggoods.com",
+   "careers.dick.com",
+   "jobs.dick.com",
+   "www.dick.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Dollar General": {
+  "hosts": [
+   "careers.dollargeneral.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Dollar General",
+     "host": "ibxwjb.fa.ocs.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 1,
+    "found_on": "careers.dollargeneral.com"
+   },
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Dollar General",
+     "host": "ibxwjb.fa.ocs.oraclecloud.com",
+     "site": "CX_1001"
+    },
+    "india_jobs": 1,
+    "found_on": "careers.dollargeneral.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Etsy": {
+  "hosts": [
+   "careers.etsy.com",
+   "jobs.etsy.com",
+   "www.etsy.com",
+   "etsy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Fast Retailing": {
+  "hosts": [
+   "www.fastretailing.com",
+   "www.fast.com",
+   "fast.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "H&M": {
+  "hosts": [
+   "www.hm.com",
+   "hm.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Home Depot": {
+  "hosts": [
+   "careers.homedepot.com",
+   "jobs.homedepot.com",
+   "www.homedepot.com",
+   "homedepot.com",
+   "www.home.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "IKEA": {
+  "hosts": [
+   "jobs.ikea.com",
+   "www.ikea.com",
+   "ikea.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Inditex": {
+  "hosts": [
+   "www.inditex.com",
+   "inditex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "JD.com": {
+  "hosts": [
+   "careers.jdcom.com",
+   "jobs.jdcom.com",
+   "www.jdcom.com",
+   "jdcom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kering": {
+  "hosts": [
+   "careers.kering.com",
+   "www.kering.com",
+   "kering.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kingfisher": {
+  "hosts": [
+   "careers.kingfisher.com",
+   "www.kingfisher.com",
+   "kingfisher.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kohl's": {
+  "hosts": [
+   "careers.kohls.com",
+   "www.kohls.com",
+   "kohls.com",
+   "careers.kohl-s.com",
+   "jobs.kohl-s.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Kohl's",
+     "host": "kohls.wd504.myworkdayjobs.com",
+     "tenant": "kohls",
+     "site": "kohlscareers"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.kohls.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "LVMH": {
+  "hosts": [
+   "www.lvmh.com",
+   "lvmh.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lululemon": {
+  "hosts": [
+   "careers.lululemon.com",
+   "www.lululemon.com",
+   "lululemon.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Macy's": {
+  "hosts": [
+   "www.macys.com",
+   "macys.com",
+   "careers.macy-s.com",
+   "jobs.macy-s.com",
+   "www.macy-s.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Marks & Spencer": {
+  "hosts": [
+   "careers.marksspencer.com",
+   "jobs.marksspencer.com",
+   "www.marksspencer.com",
+   "marksspencer.com",
+   "www.marks-spencer.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Metro AG": {
+  "hosts": [
+   "www.metro.com",
+   "metro.com",
+   "www.metroag.com",
+   "metroag.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Next plc": {
+  "hosts": [
+   "www.next.com",
+   "next.com",
+   "jobs.nextplc.com",
+   "www.nextplc.com",
+   "nextplc.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nordstrom": {
+  "hosts": [
+   "careers.nordstrom.com",
+   "www.nordstrom.com",
+   "nordstrom.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Nordstrom",
+     "host": "nordstrom.wd501.myworkdayjobs.com",
+     "tenant": "nordstrom",
+     "site": "nordstrom_careers"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.nordstrom.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Otto Group": {
+  "hosts": [
+   "www.otto.com",
+   "otto.com",
+   "www.ottogroup.com",
+   "ottogroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Pandora": {
+  "hosts": [
+   "www.pandora.com",
+   "pandora.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rakuten": {
+  "hosts": [
+   "www.rakuten.com",
+   "rakuten.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ross Stores": {
+  "hosts": [
+   "careers.rossstores.com",
+   "jobs.rossstores.com",
+   "www.rossstores.com",
+   "rossstores.com",
+   "www.ross.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "SHEIN": {
+  "hosts": [
+   "careers.shein.com",
+   "www.shein.com",
+   "shein.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Temu": {
+  "hosts": [
+   "careers.temu.com",
+   "jobs.temu.com",
+   "www.temu.com",
+   "temu.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tesco": {
+  "hosts": [
+   "careers.tesco.com",
+   "www.tesco.com",
+   "tesco.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ulta Beauty": {
+  "hosts": [
+   "careers.ultabeauty.com",
+   "jobs.ultabeauty.com",
+   "www.ultabeauty.com",
+   "ultabeauty.com",
+   "careers.ulta.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Ulta Beauty",
+     "host": "careers.ulta.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.ulta.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Uniqlo": {
+  "hosts": [
+   "www.uniqlo.com",
+   "uniqlo.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Uniqlo",
+     "host": "fastretailing.wd3.myworkdayjobs.com",
+     "tenant": "fastretailing",
+     "site": "graduates_eu_Uniqlo"
+    },
+    "india_jobs": 0,
+    "found_on": "www.uniqlo.com"
+   },
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Uniqlo",
+     "host": "fastretailing.wd3.myworkdayjobs.com",
+     "tenant": "fastretailing",
+     "site": "graduates_hk_Theory"
+    },
+    "india_jobs": 0,
+    "found_on": "www.uniqlo.com"
+   },
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Uniqlo",
+     "host": "fastretailing.wd3.myworkdayjobs.com",
+     "tenant": "fastretailing",
+     "site": "graduates_au_Uniqlo"
+    },
+    "india_jobs": 0,
+    "found_on": "www.uniqlo.com"
+   },
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Uniqlo",
+     "host": "fastretailing.wd3.myworkdayjobs.com",
+     "tenant": "fastretailing",
+     "site": "headquarters_us_FastRetailing"
+    },
+    "india_jobs": 0,
+    "found_on": "www.uniqlo.com"
+   },
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Uniqlo",
+     "host": "fastretailing.wd3.myworkdayjobs.com",
+     "tenant": "fastretailing",
+     "site": "headquarters_us_GU"
+    },
+    "india_jobs": 0,
+    "found_on": "www.uniqlo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Walmart": {
+  "hosts": [
+   "careers.walmart.com",
+   "www.walmart.com",
+   "walmart.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Wayfair": {
+  "hosts": [
+   "www.wayfair.com",
+   "wayfair.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Williams-Sonoma": {
+  "hosts": [
+   "williamssonoma.com",
+   "www.williams-sonoma.com",
+   "williams-sonoma.com",
+   "www.williams.com",
+   "williams.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Zalando": {
+  "hosts": [
+   "careers.zalando.com",
+   "jobs.zalando.com",
+   "www.zalando.com",
+   "zalando.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

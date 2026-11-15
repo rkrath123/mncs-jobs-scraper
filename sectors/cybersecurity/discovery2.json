@@ -1,0 +1,169 @@
+{
+ "Akamai": {
+  "hosts": [
+   "jobs.akamai.com",
+   "www.akamai.com",
+   "akamai.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "BeyondTrust": {
+  "hosts": [
+   "www.beyondtrust.com",
+   "beyondtrust.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cloudflare": {
+  "hosts": [
+   "www.cloudflare.com",
+   "cloudflare.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CyberArk": {
+  "hosts": [
+   "careers.cyberark.com",
+   "www.cyberark.com",
+   "cyberark.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Darktrace": {
+  "hosts": [
+   "careers.darktrace.com",
+   "www.darktrace.com",
+   "darktrace.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Darktrace",
+     "host": "darktrace.wd3.myworkdayjobs.com",
+     "tenant": "darktrace",
+     "site": "DarktaceExternal"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.darktrace.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Gen Digital": {
+  "hosts": [
+   "careers.gen.net",
+   "www.gendigital.com",
+   "gendigital.com",
+   "careers.gendigital.net",
+   "careers.gen-digital.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "ashby"
+  ]
+ },
+ "Imperva": {
+  "hosts": [
+   "careers.imperva.com",
+   "jobs.imperva.com",
+   "www.imperva.com",
+   "imperva.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "One Identity": {
+  "hosts": [
+   "www.oneidentity.com",
+   "oneidentity.com",
+   "careers.one-identity.com",
+   "jobs.one-identity.com",
+   "www.one-identity.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "RSA Security": {
+  "hosts": [
+   "www.rsa-security.com",
+   "rsa-security.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rapid7": {
+  "hosts": [
+   "careers.rapid7.com",
+   "www.rapid7.com",
+   "rapid7.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SentinelOne": {
+  "hosts": [
+   "www.sentinelone.com",
+   "sentinelone.com",
+   "careers.sentinelone.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Snyk": {
+  "hosts": [
+   "www.snyk.com",
+   "snyk.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sophos": {
+  "hosts": [
+   "careers.sophos.com",
+   "jobs.sophos.com",
+   "www.sophos.com",
+   "sophos.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tenable": {
+  "hosts": [
+   "careers.tenable.com",
+   "jobs.tenable.com",
+   "www.tenable.com",
+   "tenable.com"
+  ],
+  "results": [
+   {
+    "platform": "greenhouse",
+    "config": {
+     "name": "Tenable",
+     "board": "tenableinc"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.tenable.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Varonis": {
+  "hosts": [
+   "careers.varonis.com",
+   "www.varonis.com",
+   "varonis.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Wiz": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ }
+}

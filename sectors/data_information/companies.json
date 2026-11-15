@@ -1,0 +1,30 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "thomsonreuters.wd5.myworkdayjobs.com",
+   "tenant": "thomsonreuters",
+   "site": "External_Career_Site",
+   "name": "Thomson Reuters"
+  },
+  {
+   "host": "relx.wd3.myworkdayjobs.com",
+   "tenant": "relx",
+   "site": "relx",
+   "name": "RELX"
+  },
+  {
+   "host": "clarivate.wd3.myworkdayjobs.com",
+   "tenant": "clarivate",
+   "site": "Clarivate_Careers",
+   "name": "Clarivate"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Verisk",
+   "host": "fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ]
+}

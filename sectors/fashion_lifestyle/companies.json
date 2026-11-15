@@ -1,0 +1,29 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "puma.wd502.myworkdayjobs.com",
+   "tenant": "puma",
+   "site": "Jobs_at_Puma",
+   "name": "Puma"
+  },
+  {
+   "host": "newbalance.wd1.myworkdayjobs.com",
+   "tenant": "newbalance",
+   "site": "Careers",
+   "name": "New Balance"
+  },
+  {
+   "host": "pvh.wd1.myworkdayjobs.com",
+   "tenant": "pvh",
+   "site": "PVH_Careers",
+   "name": "PVH Corp."
+  },
+  {
+   "host": "skechers.wd5.myworkdayjobs.com",
+   "tenant": "skechers",
+   "site": "One-career-site",
+   "name": "Skechers"
+  }
+ ]
+}

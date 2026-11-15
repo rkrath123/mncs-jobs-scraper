@@ -1,0 +1,85 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "unilever.wd3.myworkdayjobs.com",
+   "tenant": "unilever",
+   "site": "Unilever_Experienced_Professionals",
+   "name": "Unilever"
+  },
+  {
+   "host": "pg.wd5.myworkdayjobs.com",
+   "tenant": "pg",
+   "site": "1000",
+   "name": "Procter & Gamble"
+  },
+  {
+   "host": "kimberlyclark.wd1.myworkdayjobs.com",
+   "tenant": "kimberlyclark",
+   "site": "GLOBAL",
+   "name": "Kimberly-Clark"
+  },
+  {
+   "host": "ingredion.wd1.myworkdayjobs.com",
+   "tenant": "ingredion",
+   "site": "IngredionCareers",
+   "name": "Ingredion"
+  },
+  {
+   "host": "mars.wd3.myworkdayjobs.com",
+   "tenant": "mars",
+   "site": "External",
+   "name": "Mars"
+  },
+  {
+   "host": "heinz.wd1.myworkdayjobs.com",
+   "tenant": "heinz",
+   "site": "KraftHeinz_Careers",
+   "name": "Kraft Heinz"
+  },
+  {
+   "host": "kenvue.wd5.myworkdayjobs.com",
+   "tenant": "kenvue",
+   "site": "kenvue",
+   "name": "Kenvue"
+  },
+  {
+   "host": "diageo.wd3.myworkdayjobs.com",
+   "tenant": "diageo",
+   "site": "Diageo_Careers",
+   "name": "Diageo"
+  },
+  {
+   "host": "tysonfoods.wd5.myworkdayjobs.com",
+   "tenant": "tysonfoods",
+   "site": "TSN",
+   "name": "Tyson Foods"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "company_id": "louisdreyfuscompany",
+   "name": "Louis Dreyfus Company"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "PepsiCo",
+   "host": "www.pepsicojobs.com"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Cargill",
+   "host": "jobs.cargill.com"
+  },
+  {
+   "name": "Ferrero",
+   "host": "jobs.ferrero.com"
+  },
+  {
+   "name": "Reckitt",
+   "host": "careers.reckitt.com"
+  }
+ ]
+}

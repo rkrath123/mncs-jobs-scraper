@@ -1,0 +1,202 @@
+{
+ "BBC Studios": {
+  "hosts": [
+   "careers.bbcstudios.com",
+   "www.bbcstudios.com",
+   "bbcstudios.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ByteDance": {
+  "hosts": [
+   "careers.bytedance.com",
+   "jobs.bytedance.com",
+   "www.bytedance.com",
+   "bytedance.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Comcast": {
+  "hosts": [
+   "careers.comcast.com",
+   "jobs.comcast.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Comcast",
+     "host": "comcast.wd115.myworkdayjobs.com",
+     "tenant": "comcast",
+     "site": "Comcast_Careers"
+    },
+    "india_jobs": 30,
+    "found_on": "jobs.comcast.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Deezer": {
+  "hosts": [
+   "jobs.deezer.com",
+   "www.deezer.com",
+   "deezer.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Electronic Arts": {
+  "hosts": [
+   "careers.ea.com",
+   "jobs.ea.com",
+   "www.ea.com",
+   "ea.com",
+   "www.electronicarts.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Getty Images": {
+  "hosts": [
+   "careers.gettyimages.com",
+   "www.gettyimages.com",
+   "gettyimages.com",
+   "www.getty-images.com",
+   "getty-images.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kakao": {
+  "hosts": [
+   "careers.kakao.com",
+   "www.kakao.com",
+   "kakao.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Live Nation": {
+  "hosts": [
+   "www.livenation.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Live Nation",
+     "host": "livenation.wd503.myworkdayjobs.com",
+     "tenant": "livenation",
+     "site": "LNExternalSite"
+    },
+    "india_jobs": 2,
+    "found_on": "www.livenation.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Meta": {
+  "hosts": [
+   "www.meta.com",
+   "meta.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "NBCUniversal": {
+  "hosts": [
+   "www.nbcuniversal.com",
+   "nbcuniversal.com",
+   "careers.comcast.com",
+   "jobs.comcast.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "NBCUniversal",
+     "host": "comcast.wd115.myworkdayjobs.com",
+     "tenant": "comcast",
+     "site": "Comcast_Careers"
+    },
+    "india_jobs": 30,
+    "found_on": "jobs.comcast.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Netflix": {
+  "hosts": [
+   "jobs.netflix.com",
+   "www.netflix.com",
+   "netflix.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "News Corp": {
+  "hosts": [
+   "careers.newscorp.com",
+   "www.newscorp.com",
+   "newscorp.com",
+   "www.news.com",
+   "news.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Paramount": {
+  "hosts": [
+   "careers.paramount.com",
+   "www.paramount.com",
+   "paramount.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Shutterstock": {
+  "hosts": [
+   "careers.shutterstock.com",
+   "jobs.shutterstock.com",
+   "www.shutterstock.com",
+   "shutterstock.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Shutterstock",
+     "host": "careers.shutterstock.com",
+     "lang": "en_us",
+     "page_id": "page21",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.shutterstock.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Snap": {
+  "hosts": [
+   "careers.snap.com",
+   "www.snap.com",
+   "snap.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Universal Music Group": {
+  "hosts": [
+   "www.umusic.com",
+   "umusic.com",
+   "www.universalmusic.com",
+   "universalmusic.com",
+   "www.universal-music.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

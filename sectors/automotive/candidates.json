@@ -1,0 +1,304 @@
+{
+ "sector": "automotive",
+ "title": "Automotive OEMs, suppliers, EV",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Mercedes-Benz",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "BMW",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Volkswagen Group",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Audi",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Porsche",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Toyota",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Honda",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Nissan",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Renault",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Hyundai",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Kia",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Volvo Cars",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Tesla",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "BYD",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Suzuki",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Mazda",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Subaru",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Isuzu",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Mitsubishi Motors",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Jaguar Land Rover",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Ferrari",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Lamborghini",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Aston Martin",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Škoda",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "MAN Truck & Bus",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Scania",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Daimler Truck",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers"
+  },
+  {
+   "name": "Denso",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Michelin",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Bridgestone",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Aisin",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Forvia",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Lear Corporation",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Autoliv",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Visteon",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Harman",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Panasonic Automotive",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering"
+  },
+  {
+   "name": "Tenneco",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Dana",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Allison Transmission",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Harley-Davidson",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Modine",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Volvo Group",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Ford",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "General Motors",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Stellantis",
+   "section": 10,
+   "subgroup": "Global automobile manufacturers",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Continental",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "ZF",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Valeo",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Magna International",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Aptiv",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "BorgWarner",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Garrett Motion",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Marelli",
+   "section": 10,
+   "subgroup": "Automotive suppliers, electronics and engineering",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Goodyear",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Polaris",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "automotive"
+  }
+ ]
+}
