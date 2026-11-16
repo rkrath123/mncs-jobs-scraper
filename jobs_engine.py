@@ -92,8 +92,9 @@ def http_get(url, body=None, headers=None, retries=3, timeout=30):
             if e.code in (400, 401, 403, 404, 422):  # retrying will not help
                 raise
             err = e
-            if e.code == 429:  # rate limited: wait longer than the normal backoff
-                time.sleep(5 * (attempt + 1))
+            if e.code == 429:  # rate limited: wait longer than the normal backoff (or as told)
+                ra = e.headers.get("Retry-After", "") if e.headers else ""
+                time.sleep(min(int(ra), 60) if ra.isdigit() else 10 * (attempt + 1))
         except Exception as e:  # network hiccup, timeout
             err = e
         time.sleep(2 ** attempt)
@@ -192,9 +193,16 @@ def kw_hits(text, a):
 # Work mode. Title / location are trusted ("Remote - India"); descriptions only count for explicit
 # phrases, because "remote servers" or "remote teams" would otherwise flag ordinary on-site jobs.
 REMOTE_HEAD_RE = re.compile(r"\bremote(ly)?\b|work(ing)? from home|\bwfh\b|home[- ]?based|telecommut", re.I)
-REMOTE_TEXT_RE = re.compile(r"work(ing)? from home|\bwfh\b|\bfully remote\b|\bremote[- ](first|role|position|job|opportunity|work)\b|"
+# Strong phrases make a job remote; a bare "work from home" only does when nothing in the text points to
+# a hybrid / partly-in-office arrangement ("flexibility to work from home 1 day a week" is hybrid).
+REMOTE_TEXT_RE = re.compile(r"\bfully remote\b|\bremote[- ](first|role|position|job|opportunity|work)\b|"
                             r"\b(this|is a|position is|role is) remote\b|\bremote within\b|telecommut", re.I)
+REMOTE_WEAK_RE = re.compile(r"work(ing)? from home|\bwfh\b", re.I)
 HYBRID_RE = re.compile(r"\bhybrid\b", re.I)
+PARTIAL_OFFICE_RE = re.compile(
+    r"\b(?:in|at) the office\b.{0,40}\bdays?\b|\bdays?\b.{0,40}\b(?:in|at) the office\b|"
+    r"\bdays? (?:a|per|each) week\b.{0,40}\b(?:home|office|on-?site)\b|"
+    r"\b(?:home|office|on-?site)\b.{0,40}\bdays? (?:a|per|each) week\b", re.I)
 
 
 def work_mode(job):
@@ -203,9 +211,10 @@ def work_mode(job):
     text = job.get("text", "")
     if REMOTE_HEAD_RE.search(head) or REMOTE_TEXT_RE.search(text):
         return "remote"
-    if HYBRID_RE.search(head) or HYBRID_RE.search(text):
-        return "hybrid"
-    return ""
+    hybrid = HYBRID_RE.search(head) or HYBRID_RE.search(text) or PARTIAL_OFFICE_RE.search(text)
+    if REMOTE_WEAK_RE.search(text) and not hybrid:
+        return "remote"
+    return "hybrid" if hybrid else ""
 
 
 def strip_tags(s):
@@ -827,6 +836,12 @@ def write_outputs(out_dir, jobs, manual, sector="", label="jobs"):
 def add_skills(jobs, a):
     """Tag each job with the skill terms found in its title/description; a skill in the title
     makes it a 'title' match. Workday descriptions are fetched here, one request per job."""
+    todo = [j for j in jobs if j["detail"] and not j["text"]]
+    if todo:
+        print(f"Fetching descriptions for {len(todo)} job(s) (one request each; this can take a few minutes)...",
+              file=sys.stderr, flush=True)
+    done = [0]
+
     def load(j):
         if j["detail"] and not j["text"]:
             try:
@@ -838,6 +853,9 @@ def add_skills(jobs, a):
                     j["text"] = strip_tags(" ".join(s.get("text", "") for s in secs.values()))
             except Exception as e:  # skills just stay unmatched for this job
                 log.debug("description fetch failed for %s: %s", j["url"], e)
+            done[0] += 1
+            if done[0] % 200 == 0:
+                print(f"  descriptions: {done[0]}/{len(todo)}", file=sys.stderr, flush=True)
     with cf.ThreadPoolExecutor(a.workers) as ex:
         list(ex.map(load, jobs))
     for j in jobs:

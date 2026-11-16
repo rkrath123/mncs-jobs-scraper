@@ -121,7 +121,11 @@ class WorkMode(unittest.TestCase):
 
     def test_remote_from_explicit_description_phrases_only(self):
         self.assertEqual(self.mode(text="This is a fully remote position."), "remote")
-        self.assertEqual(self.mode(text="You can work from home two days"), "remote")
+        self.assertEqual(self.mode(text="You can work from home"), "remote")
+        # partial work from home is hybrid, not remote (BlackRock boilerplate)
+        self.assertEqual(self.mode(text="at least 4 days in the office per week, with the flexibility to "
+                                        "work from home 1 day a week"), "hybrid")
+        self.assertEqual(self.mode(text="You can work from home two days a week"), "hybrid")
         # ordinary use of the word must not flag an on-site job
         self.assertEqual(self.mode(text="Manage remote servers and work with remote teams"), "")
 

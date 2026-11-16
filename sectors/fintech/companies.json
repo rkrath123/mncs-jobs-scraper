@@ -361,6 +361,42 @@
    "tenant": "corpay",
    "site": "Ext_001",
    "name": "Corpay"
+  },
+  {
+   "name": "Arch Capital Group",
+   "host": "archgroup.wd1.myworkdayjobs.com",
+   "tenant": "archgroup",
+   "site": "Careers"
+  },
+  {
+   "name": "Nationwide",
+   "host": "nationwide.wd1.myworkdayjobs.com",
+   "tenant": "nationwide",
+   "site": "Nationwide_Career_India"
+  },
+  {
+   "name": "Cboe Global Markets",
+   "host": "cboe.wd1.myworkdayjobs.com",
+   "tenant": "cboe",
+   "site": "External_Career_CBOE"
+  },
+  {
+   "name": "Wellington Management",
+   "host": "wellington.wd5.myworkdayjobs.com",
+   "tenant": "wellington",
+   "site": "External"
+  },
+  {
+   "name": "T. Rowe Price",
+   "host": "troweprice.wd5.myworkdayjobs.com",
+   "tenant": "troweprice",
+   "site": "TRowePrice"
+  },
+  {
+   "name": "Mizuho",
+   "host": "mizuhogroup.wd102.myworkdayjobs.com",
+   "tenant": "mizuhogroup",
+   "site": "External"
   }
  ],
  "oracle": [
@@ -388,6 +424,16 @@
    "name": "Diebold Nixdorf",
    "host": "eeug.fa.us6.oraclecloud.com",
    "site": "CX"
+  },
+  {
+   "name": "DTCC",
+   "host": "ebxr.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Jefferies",
+   "host": "hdid.fa.us2.oraclecloud.com",
+   "site": "CX_1"
   }
  ],
  "greenhouse": [
@@ -418,6 +464,38 @@
   {
    "name": "Block",
    "board": "block"
+  },
+  {
+   "name": "Point72",
+   "board": "point72"
+  },
+  {
+   "name": "Optiver",
+   "board": "optiverprivate"
+  },
+  {
+   "name": "Qube Research & Technologies",
+   "board": "quberesearchandtechnologies"
+  },
+  {
+   "name": "WorldQuant",
+   "board": "worldquant"
+  },
+  {
+   "name": "IMC Trading",
+   "board": "imc"
+  },
+  {
+   "name": "Jane Street",
+   "board": "janestreet"
+  },
+  {
+   "name": "DRW",
+   "board": "drweng"
+  },
+  {
+   "name": "Da Vinci Derivatives",
+   "board": "davinciderivatives"
   }
  ],
  "jibe": [
@@ -530,6 +608,61 @@
    "name": "BNP Paribas",
    "platform": "Unknown (blocks bots)",
    "url": "https://group.bnpparibas/en/careers/all-job-offers"
+  },
+  {
+   "name": "MetLife",
+   "platform": "Avature",
+   "url": "https://www.metlifecareers.com/en_US/ml/in"
+  },
+  {
+   "name": "Nomura",
+   "platform": "SAP SuccessFactors",
+   "url": "https://careers.nomura.com/"
+  },
+  {
+   "name": "RBC",
+   "platform": "Custom / Workday",
+   "url": "https://jobs.rbc.com/"
+  },
+  {
+   "name": "Scotiabank",
+   "platform": "SAP SuccessFactors / Custom",
+   "url": "https://jobs.scotiabank.com/"
+  },
+  {
+   "name": "Macquarie Group",
+   "platform": "PageUp / Custom",
+   "url": "https://recruitment.macquarie.com/"
+  },
+  {
+   "name": "Millennium Management",
+   "platform": "In-house / Custom",
+   "url": "https://www.mlp.com/careers/"
+  },
+  {
+   "name": "Balyasny Asset Management",
+   "platform": "In-house / Custom",
+   "url": "https://www.bamfunds.com/careers/"
+  },
+  {
+   "name": "Citadel Securities",
+   "platform": "In-house / Custom",
+   "url": "https://www.citadelsecurities.com/careers/"
+  },
+  {
+   "name": "Tower Research Capital",
+   "platform": "Greenhouse (embedded)",
+   "url": "https://tower-research.com/open-positions/"
+  },
+  {
+   "name": "Hudson River Trading",
+   "platform": "Greenhouse (embedded)",
+   "url": "https://www.hudsonrivertrading.com/careers/"
+  },
+  {
+   "name": "Jump Trading",
+   "platform": "Greenhouse (embedded)",
+   "url": "https://www.jumptrading.com/careers/"
   }
  ],
  "icims": [
