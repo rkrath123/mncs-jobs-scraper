@@ -1067,7 +1067,7 @@ def main(sector, config, output_dir):
                                  formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--country", default="India", help="location country name (default India)")
     ap.add_argument("--country-code", default="IN", help="ISO code used by Oracle HCM (default IN)")
-    ap.add_argument("--keywords", default="",
+    ap.add_argument("-k", "--keywords", default="",
                     help="comma separated search terms sent to each career site, e.g. "
                          "\"sre,devops,kubernetes,mlops\" or \"java,testing\". Nothing is built in: "
                          "when omitted in a terminal you are asked for them")

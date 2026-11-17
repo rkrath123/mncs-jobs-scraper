@@ -18,7 +18,7 @@ python3 workday_india_jobs.py                       # default keywords, last 14 
 ```
 
 A full run takes about 20 minutes. Progress is printed every 100 sites. When it finishes, open the
-`.html` file it prints (in `output/`).
+`.html` file it prints (in `output/<date>/`).
 
 ## Search with your own keywords
 
@@ -44,10 +44,15 @@ Default keywords: `sre|site reliability,devops|dev ops|devsecops,kubernetes|k8s`
 | `-o, --out` | `output` | output folder |
 | `--company` | all | only sites whose name/tenant contains one of these words (comma separated), good for a quick test |
 | `--max-sites N` | all | only the first N sites (testing) |
-| `--csv` | GitHub raw URL | sites list: a URL or local CSV with `name,url` columns |
+| `--csv` | `workday.csv` | sites list: a URL or local CSV with `name,url` columns. Default is the local `workday.csv` next to the script, downloaded on first use |
+| `--refresh-csv` | off | download `workday.csv` again from GitHub before running |
 | `--no-details` | off | skip the per-job detail request (faster; location may stay "2 Locations", no description) |
 | `--workers`, `--concurrency` | 25, 25 | parallel sites / in-flight requests (lower them if you see many HTTP 429) |
+| `--rate` | 20 | max requests started per second across all sites (`0` = unlimited). Workday is behind Cloudflare, which rate-limits **per IP for all tenants**: too fast and most sites answer HTTP 429. `--rate` is the ceiling: on HTTP 429 the script pauses every request (10s, doubling up to 120s) **and halves its speed**, then speeds up again after clean requests, so it settles at what Workday currently tolerates (about 10 requests/s in practice) |
+| `--no-cache`, `--cache-days` | off, 14 | posting details (description, location, date) are cached in `~/.cache/mncs-jobs-scraper/workday-details.sqlite`; a repeat run only fetches postings it has not seen. `--cache-days` is how old a cached entry may be |
+| `--retry-passes`, `--retry-wait` | 2, 60 | sites that failed with a temporary error (429, 5xx, timeout, or only some of their requests) are retried this many times, after this many seconds |
 | `--timeout` | 30 | HTTP timeout in seconds |
+| `--open` | off | open the HTML page in the browser when the run finishes |
 | `--from-json FILE` | | rebuild the HTML from an earlier `.json` without scraping (can apply `-d`) |
 
 Examples:
@@ -55,12 +60,35 @@ Examples:
 ```bash
 python3 workday_india_jobs.py -k "terraform,ansible" -m title -d 30      # titles only, last 30 days
 python3 workday_india_jobs.py -k "golang" --company cisco,adobe          # quick test on a few companies
-python3 workday_india_jobs.py --from-json output/workday_india_jobs_<stamp>.json -d 7   # last 7 days, no rescrape
+python3 workday_india_jobs.py --from-json output/<date>/workday_india_jobs_<stamp>.json -d 7   # last 7 days, no rescrape
 ```
 
-## Output (`output/`)
+## Run faster
 
-Each run writes files stamped with the run time, so earlier results are kept.
+The run is limited by Workday's per-IP rate limit, not by CPU or workers: in a measured run, 2,776 requests took 296s
+(about 9 requests/s, which is where Workday starts to answer HTTP 429), and 68% of the requests were per-job detail
+fetches (needed to check keywords in descriptions; Accenture alone has ~800 matching postings). Spreading requests
+over several hosts does not help (tested: the limit is shared by all Workday hosts), so more `--workers` do not either.
+What does help is making fewer requests:
+
+- **Repeat runs are much faster**: posting details are cached (`~/.cache/mncs-jobs-scraper/workday-details.sqlite`, 14 days), so only new postings
+  are fetched. The final log line shows `N more from cache`. Use `--no-cache` to turn it off.
+- `-m title` skips the per-job description request (title matches only), and `--no-details` skips the detail request for matches.
+- Fewer keywords and a shorter `-d` window mean fewer requests.
+
+```bash
+python3 workday_india_jobs.py -k "devops,sre,mlops,kubernetes,AI engineer" --open      # first run: slow, fills the cache
+python3 workday_india_jobs.py -k "devops,sre,mlops,kubernetes,AI engineer" --open      # next runs: only new postings are fetched
+python3 workday_india_jobs.py -k "devops,sre" --rate 5                                  # gentler
+python3 workday_india_jobs.py -k "devops,sre" -m title --no-details                      # fastest: title match, no detail requests
+```
+
+- A high `--rate` makes HTTP 429 more likely. Sites that still fail after the retry passes are listed in
+  `workday_failed_sites_<stamp>.csv`; re-run them later with `--csv output/<date>/workday_failed_sites_<stamp>.csv`.
+
+## Output (`output/<date>/`)
+
+Each run writes into a folder for the day (for example `output/2026-11-16/`), with files stamped with the run time, so earlier results are kept.
 
 | File | Content |
 |---|---|
@@ -104,11 +132,10 @@ A Workday tenant publishes its live sites in `https://{tenant}.{wdN}.myworkdayjo
 
 ```bash
 # 1. moved / mis-spelled sites: use the failed-sites file of a run
-python3 discover_sites.py output/workday_failed_sites_<stamp>.csv -o output/discovered_sites.csv
+python3 discover_sites.py output/<date>/workday_failed_sites_<stamp>.csv -o output/discovered_sites.csv
 python3 workday_india_jobs.py -k "<same keywords>" --csv output/discovered_sites.csv
 
 # 2. extra sites of every tenant in the CSV (about 10 minutes)
-curl -sL https://raw.githubusercontent.com/kalil0321/ats-scrapers/main/ats-companies/workday.csv -o workday.csv
 python3 discover_sites.py workday.csv --new-only -o output/extra_sites.csv
 python3 workday_india_jobs.py -k "<same keywords>" --csv output/extra_sites.csv
 ```
@@ -116,11 +143,30 @@ python3 workday_india_jobs.py -k "<same keywords>" --csv output/extra_sites.csv
 Each of those runs writes its own result files. Discovery results (`discovered_sites.csv`,
 `extra_sites.csv`) do not depend on the keywords, so they can be reused for any later search.
 
+## Unit tests
+
+Offline (HTTP is faked, no Workday requests), 44 tests:
+
+```bash
+cd ATS/workday-india-jobs && python3 -m unittest discover -s tests -v
+```
+
+They cover keyword / date / India-facet parsing, the sites CSV (load, dedupe, local download), request retries, the
+HTTP 429 pause and rate adaptation, description vs title matching, the posting-detail cache, partial failures, retry
+passes, the date-folder output and `--open`.
+
 ## Known limits
 
+- **HTTP 429 on thousands of sites.** An earlier version got HTTP 429 on 3,878 of 5,317 sites, so those sites (for
+  example Barclays) were never searched. A/B tests showed it was not only speed: with httpx's default headers (or with
+  only one of `Content-Type` / `Accept-Encoding` set) about half of the requests got a 429 even at 3 requests/s, while
+  the same requests with an explicit `Content-Type: application/json` and `Accept-Encoding: identity` (what Python's
+  `urllib` sends) were not limited. The script now sends those headers, paces requests (`--rate`), pauses everything on a
+  429 and slows down, and retries failed sites at the end. If every request still answers 429 with an HTML page, wait
+  a while and keep `--rate` low.
 - **Unreachable sites** (about 90 of 5,300): retired or blocked sites answer HTTP 400/401/403/404/410/422
   and cannot be read. A site that redirects to Workday's maintenance page (HTTP 303) is worth retrying
-  later: `python3 workday_india_jobs.py --csv output/workday_failed_sites_<stamp>.csv`.
+  later: `python3 workday_india_jobs.py --csv output/<date>/workday_failed_sites_<stamp>.csv`.
 - Only companies on Workday's public job interface are covered; companies that left Workday or use a
   private domain (for example Dell) cannot be found.
 - Workday reports at most 2,000 hits per query; with an India filter plus a keyword this limit is not reached in practice.

@@ -28,8 +28,11 @@ import html
 import io
 import json
 import re
+import sqlite3
 import sys
 import time
+import webbrowser
+import zlib
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -38,12 +41,17 @@ from urllib.parse import urlsplit
 import httpx
 
 CSV_URL = "https://raw.githubusercontent.com/kalil0321/ats-scrapers/main/ats-companies/workday.csv"
+CSV_PATH = Path(__file__).resolve().parent / "workday.csv"  # local copy of CSV_URL, downloaded once
+# posting details of earlier runs. Outside the project on purpose: SQLite fails ("disk I/O error") on cloud-synced folders
+CACHE_PATH = Path.home() / ".cache" / "mncs-jobs-scraper" / "workday-details.sqlite"
 # comma separates keywords, "|" separates alternative spellings of one keyword (the first one is its label)
 DEFAULT_KEYWORDS = "sre|site reliability,devops|dev ops|devsecops,kubernetes|k8s"
 PAGE_LIMIT = 20  # Workday rejects larger values with HTTP 400.
 RESULT_CAP = 2000  # Workday reports at most 2000 hits per query.
 RETRY_STATUSES = {403, 429, 502, 503, 504}
 MAX_RETRIES = 3
+PARTIAL = "partial: "  # prefix of a failure reason when only some requests of a site failed
+MAX_429_WAITS = 12  # a rate-limited request waits and retries this many times before it gives up
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
 URL_RE = re.compile(r"^https://(?P<tenant>[^.]+)\.(?P<instance>wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?(?P<site>[^/?#]+)")
@@ -109,6 +117,14 @@ class Job:
 # --------------------------------------------------------------------------- helpers
 def log(msg: str) -> None:
     print(msg, file=sys.stderr, flush=True)
+
+
+def ensure_local_csv(refresh: bool = False) -> Path:
+    """The default sites list is the local workday.csv next to this script; download it when missing."""
+    if refresh or not CSV_PATH.exists():
+        log(f"downloading {CSV_URL} -> {CSV_PATH}")
+        CSV_PATH.write_bytes(httpx.get(CSV_URL, follow_redirects=True, timeout=60).raise_for_status().content)
+    return CSV_PATH
 
 
 def load_sites(source: str) -> list[Site]:
@@ -213,10 +229,48 @@ def india_filter(facets: list[dict]) -> tuple[dict[str, list[str]], int]:
     return (applied, total) if total > 0 else ({}, 0)
 
 
+# --------------------------------------------------------------------------- detail cache
+class DetailCache:
+    """On-disk cache of fetched posting details (location, date, req id, description), keyed by posting URL.
+    Most requests of a run are these per-job fetches and postings stay online for weeks, so a repeat run only
+    fetches postings it has not seen before. Entries older than `ttl_days` are ignored."""
+
+    def __init__(self, path: Path | str, ttl_days: int = 14):
+        self.ttl = ttl_days * 86400
+        if str(path) != ":memory:":
+            Path(path).parent.mkdir(parents=True, exist_ok=True)
+        self.db = sqlite3.connect(str(path))
+        self._pending = 0
+        self.db.execute("CREATE TABLE IF NOT EXISTS detail (url TEXT PRIMARY KEY, fetched REAL, data BLOB)")
+
+    def get(self, url: str) -> dict | None:
+        row = self.db.execute("SELECT fetched, data FROM detail WHERE url=?", (url,)).fetchone()
+        if not row or time.time() - row[0] > self.ttl:
+            return None
+        try:
+            return json.loads(zlib.decompress(row[1]))
+        except (zlib.error, ValueError):
+            return None
+
+    def put(self, url: str, data: dict) -> None:
+        self.db.execute("INSERT OR REPLACE INTO detail VALUES (?, ?, ?)",
+                        (url, time.time(), zlib.compress(json.dumps(data).encode("utf-8"))))
+        self._pending += 1
+        if self._pending >= 200:  # save regularly: an interrupted run keeps what it fetched
+            self.db.commit()
+            self._pending = 0
+
+    def close(self) -> None:
+        self.db.execute("DELETE FROM detail WHERE fetched < ?", (time.time() - self.ttl,))
+        self.db.commit()
+        self.db.close()
+
+
 # --------------------------------------------------------------------------- scraper
 class Scraper:
     def __init__(self, keywords: list[str], match: str, concurrency: int, timeout: float, details: bool,
-                 max_days: int = 0):
+                 max_days: int = 0, rate: float = 0, cache: DetailCache | None = None):
+        self.cache = cache
         self.keywords = keywords
         self.max_days = max_days
         groups = [[a.strip() for a in k.split("|") if a.strip()] for k in keywords]
@@ -229,19 +283,56 @@ class Scraper:
         self.client = httpx.AsyncClient(
             timeout=timeout,
             follow_redirects=False,  # dead tenants redirect to a maintenance page
-            headers={"User-Agent": UA, "Accept": "application/json"},
+            # Header set matters: in A/B tests against Workday, requests with httpx's default headers (or with only one of
+            # Content-Type / Accept-Encoding set) got HTTP 429 on ~50% of requests even at 3 requests/s, while this exact
+            # set (the same one urllib sends: explicit Content-Type, no compression) was never limited.
+            headers={"User-Agent": UA, "Accept": "application/json", "Content-Type": "application/json",
+                     "Accept-Encoding": "identity"},
             limits=httpx.Limits(max_connections=concurrency * 2, max_keepalive_connections=concurrency),
         )
+        # Workday (behind Cloudflare) rate-limits per IP across ALL tenants, so pacing is shared by every request:
+        # `rate` = max requests started per second (0 = unlimited); a 429 pauses everybody (_backoff).
+        self.base_interval = self.interval = 1.0 / rate if rate > 0 else 0.0  # `rate` is the ceiling, see _backoff
+        self._ok = 0
+        self._next_slot = 0.0
+        self._gate_until = 0.0
+        self._penalty = 0.0
         self.failed: list[tuple[Site, str]] = []
-        self.stats = {"sites": 0, "dead": 0, "no_india": 0, "with_india": 0, "errors": 0, "jobs": 0}
+        self.stats = {"sites": 0, "dead": 0, "no_india": 0, "with_india": 0, "errors": 0, "jobs": 0,
+                      "req_probe": 0, "req_search": 0, "req_detail": 0, "cache_hits": 0, "http_429": 0}
 
     async def close(self) -> None:
         await self.client.aclose()
 
+    async def _pace(self) -> None:
+        """Wait for our slot: spreads requests over time and holds them back while a rate-limit pause is active."""
+        loop = asyncio.get_running_loop()
+        now = loop.time()
+        slot = max(self._next_slot, now, self._gate_until)
+        self._next_slot = slot + self.interval
+        if slot > now:
+            await asyncio.sleep(slot - now)
+
+    def _backoff(self, retry_after: str) -> None:
+        """A 429 arrived: pause every request. The pause doubles (10s .. 120s) while 429s keep coming."""
+        now = asyncio.get_running_loop().time()
+        if now >= self._gate_until:  # a 429 from a request sent after the last pause ended: escalate
+            self._penalty = min(max(self._penalty * 2, 10.0), 120.0)
+            # slow down too (halve the rate, down to one request per 3s); speeds back up in _request()
+            self.interval = min(max(self.interval * 2, 0.1), 3.0)
+            self._ok = 0
+        wait = max(float(retry_after) if retry_after.isdigit() else 0.0, self._penalty)
+        if now + wait > self._gate_until + 1:  # one message per pause, not one per in-flight request
+            log(f"  rate limited (HTTP 429): pausing all requests for {wait:.0f}s, "
+                f"then at most {1 / self.interval:.1f} requests/s")
+        self._gate_until = max(self._gate_until, now + wait)
+
     async def _request(self, method: str, url: str, **kw) -> tuple[httpx.Response | None, str]:
         """HTTP with retries. Returns (response, "") or (None, reason) when the site is unusable."""
         reason = "no response"
-        for attempt in range(MAX_RETRIES):
+        attempt = waits_429 = 0
+        while attempt < MAX_RETRIES:
+            await self._pace()
             async with self.sem:
                 try:
                     resp = await self.client.request(method, url, **kw)
@@ -250,20 +341,34 @@ class Scraper:
                     reason = type(exc).__name__
             if resp is not None:
                 if resp.status_code == 200:
+                    self._penalty = self._penalty * 0.9 if self._penalty > 1 else 0.0  # recover slowly
+                    self._ok += 1
+                    if self._ok >= 30 and self.interval > self.base_interval:  # 30 clean requests: speed up 25%
+                        self._ok = 0
+                        self.interval = max(self.interval * 0.75, self.base_interval)
                     return resp, ""
                 reason = f"HTTP {resp.status_code}"
                 if resp.status_code in (301, 302, 303, 307, 308):
                     reason += " -> " + resp.headers.get("location", "")
+                if resp.status_code == 429:
+                    self.stats["http_429"] += 1
+                    self._backoff(resp.headers.get("Retry-After", ""))
+                    waits_429 += 1
+                    if waits_429 >= MAX_429_WAITS:
+                        return None, reason
+                    continue  # the pause happens in _pace(); a 429 does not use up a normal retry
                 if resp.status_code not in RETRY_STATUSES:
                     return None, reason
                 retry_after = resp.headers.get("Retry-After", "")
                 await asyncio.sleep(min(30.0, float(retry_after) if retry_after.isdigit() else 2.0**attempt))
             else:
                 await asyncio.sleep(2.0**attempt)
+            attempt += 1
         return None, reason
 
     async def _search(self, site: Site, applied: dict, text: str, offset: int, limit: int) -> tuple[dict | None, str]:
         body = {"appliedFacets": applied, "limit": limit, "offset": offset, "searchText": text}
+        self.stats["req_probe" if text == "" and limit == 1 else "req_search"] += 1
         resp, reason = await self._request("POST", f"{site.api}/jobs", json=body)
         if resp is None:
             return None, reason
@@ -273,29 +378,42 @@ class Scraper:
             return None, "invalid JSON"
         return (data, "") if isinstance(data, dict) else (None, "unexpected JSON")
 
-    async def _search_all(self, site: Site, applied: dict, text: str) -> list[dict] | None:
-        first, _ = await self._search(site, applied, text, 0, PAGE_LIMIT)
+    async def _search_all(self, site: Site, applied: dict, text: str) -> tuple[list[dict] | None, str]:
+        """All postings of one query, or (None, reason); a failed later page is reported as a reason too."""
+        first, reason = await self._search(site, applied, text, 0, PAGE_LIMIT)
         if first is None:
-            return None
+            return None, reason
         postings = list(first.get("jobPostings") or [])
         total = min(int(first.get("total") or 0), RESULT_CAP)
         offsets = range(PAGE_LIMIT, total, PAGE_LIMIT)
         pages = await asyncio.gather(*(self._search(site, applied, text, o, PAGE_LIMIT) for o in offsets))
-        for page, _ in pages:
+        for page, why in pages:
+            if page is None:
+                reason = reason or why
             postings.extend((page or {}).get("jobPostings") or [])
-        return postings
+        return postings, reason
 
     def _title_hits(self, title: str) -> set[str]:
         return {k for k, p in self.patterns.items() if p.search(title)}
 
-    async def _enrich(self, site: Site, job: Job) -> None:
-        resp, _ = await self._request("GET", f"{site.api}{job.external_path}")
+    async def _enrich(self, site: Site, job: Job) -> str:
+        """Fetch the posting detail into `job`. Returns "" on success, else the failure reason."""
+        cached = self.cache.get(job.url) if self.cache else None
+        if cached is not None:
+            self.stats["cache_hits"] += 1
+            job.location = cached["location"] or job.location
+            job.posted = cached["posted"] or job.posted
+            job.req_id = cached["req_id"] or job.req_id
+            job.description = cached["description"]
+            return ""
+        self.stats["req_detail"] += 1
+        resp, reason = await self._request("GET", f"{site.api}{job.external_path}")
         if resp is None:
-            return
+            return reason
         try:
             info = (resp.json() or {}).get("jobPostingInfo") or {}
         except ValueError:
-            return
+            return "invalid JSON"
         locs = [v.strip() for v in [info.get("location"), *(info.get("additionalLocations") or [])]
                 if isinstance(v, str) and v.strip()]
         if locs:
@@ -306,6 +424,10 @@ class Scraper:
             job.req_id = str(info["jobReqId"])
         if info.get("jobDescription"):
             job.description = html_to_text(info["jobDescription"])
+        if self.cache and info:
+            self.cache.put(job.url, {"location": " | ".join(dict.fromkeys(locs)), "posted": str(info.get("startDate") or ""),
+                                     "req_id": str(info.get("jobReqId") or ""), "description": job.description})
+        return ""
 
     async def scrape_site(self, site: Site) -> list[Job]:
         self.stats["sites"] += 1
@@ -321,8 +443,10 @@ class Scraper:
         self.stats["with_india"] += 1
 
         found: dict[str, Job] = {}
+        partial = ""  # first failure that may have hidden jobs of this site; the site is then retried
         for label, kw in self.queries:
-            postings = await self._search_all(site, applied, kw)
+            postings, why = await self._search_all(site, applied, kw)
+            partial = partial or why
             if postings is None:
                 self.stats["errors"] += 1
                 continue
@@ -367,7 +491,8 @@ class Scraper:
                 elif self.match == "description":
                     need_description.append(job)
             if need_description:
-                await asyncio.gather(*(self._enrich(site, j) for j in need_description))
+                whys = await asyncio.gather(*(self._enrich(site, j) for j in need_description))
+                partial = partial or next((w for w in whys if w), "")
                 for job in need_description:
                     hits = {k for k, p in self.patterns.items() if p.search(job.description)}
                     if hits:
@@ -377,8 +502,16 @@ class Scraper:
         if self.details and kept:
             await asyncio.gather(*(self._enrich(site, j) for j in kept if not j.description))
         kept = [j for j in kept if not too_old(j.posted, self.max_days)]  # exact date from the detail
+        if partial:  # keep what was found, but list the site as failed so it is retried / reported
+            self.failed.append((site, f"{PARTIAL}{partial}"))
         self.stats["jobs"] += len(kept)
         return kept
+
+
+def retryable(reason: str) -> bool:
+    """True for failures worth another attempt: rate limit, server errors, timeouts / connection errors."""
+    r = reason.removeprefix(PARTIAL)
+    return r.startswith(("HTTP 429", "HTTP 5")) or r.endswith(("Timeout", "Error")) and not r.startswith("HTTP")
 
 
 async def run(args: argparse.Namespace) -> tuple[list[Job], list[tuple[Site, str]]]:
@@ -386,7 +519,7 @@ async def run(args: argparse.Namespace) -> tuple[list[Job], list[tuple[Site, str
     if not keywords:
         sys.exit("no keywords given")
 
-    sites = load_sites(args.csv)
+    sites = load_sites(args.csv or str(ensure_local_csv(args.refresh_csv)))
     if args.company:
         needles = [c.strip().lower() for c in args.company.split(",") if c.strip()]
         sites = [s for s in sites if any(n in s.name.lower() or n in s.tenant.lower() for n in needles)]
@@ -394,40 +527,63 @@ async def run(args: argparse.Namespace) -> tuple[list[Job], list[tuple[Site, str
         sites = sites[: args.max_sites]
     log(f"{len(sites)} Workday sites | keywords={keywords} | match={args.match} | last {args.days or 'all'} days")
 
-    scraper = Scraper(keywords, args.match, args.concurrency, args.timeout, not args.no_details, args.days)
+    cache = None if args.no_cache else DetailCache(CACHE_PATH, ttl_days=args.cache_days)
+    scraper = Scraper(keywords, args.match, args.concurrency, args.timeout, not args.no_details, args.days,
+                      rate=args.rate, cache=cache)
     results: list[Job] = []
-    done = 0
     started = time.monotonic()
-    queue: asyncio.Queue[Site] = asyncio.Queue()
-    for s in sites:
-        queue.put_nowait(s)
 
-    async def worker() -> None:
-        nonlocal done
-        while True:
-            try:
-                site = queue.get_nowait()
-            except asyncio.QueueEmpty:
-                return
-            try:
-                jobs = await scraper.scrape_site(site)
-            except Exception as exc:  # one broken tenant must not stop the run
-                scraper.stats["errors"] += 1
-                log(f"  ! {site.url}: {exc!r}")
-                jobs = []
-            for j in jobs:
-                results.append(j)
-                log(f"  + {j.company} | {j.title} | {j.location}")
-            done += 1
-            if done % 100 == 0 or done == len(sites):
-                st = scraper.stats
-                log(f"[{done}/{len(sites)}] {time.monotonic() - started:.0f}s  india_sites={st['with_india']} "
-                    f"dead={st['dead']} matches={st['jobs']}")
+    async def process(batch: list[Site], label: str = "") -> None:
+        """Scrape `batch` with args.workers parallel workers, collecting jobs into `results`."""
+        done = 0
+        queue: asyncio.Queue[Site] = asyncio.Queue()
+        for s in batch:
+            queue.put_nowait(s)
+
+        async def worker() -> None:
+            nonlocal done
+            while True:
+                try:
+                    site = queue.get_nowait()
+                except asyncio.QueueEmpty:
+                    return
+                try:
+                    jobs = await scraper.scrape_site(site)
+                except Exception as exc:  # one broken tenant must not stop the run
+                    scraper.stats["errors"] += 1
+                    log(f"  ! {site.url}: {exc!r}")
+                    jobs = []
+                for j in jobs:
+                    results.append(j)
+                    log(f"  + {j.company} | {j.title} | {j.location}")
+                done += 1
+                if done % 100 == 0 or done == len(batch):
+                    st = scraper.stats
+                    log(f"{label}[{done}/{len(batch)}] {time.monotonic() - started:.0f}s  "
+                        f"india_sites={st['with_india']} failed={len(scraper.failed)} matches={st['jobs']}")
+
+        await asyncio.gather(*(worker() for _ in range(args.workers)))
 
     try:
-        await asyncio.gather(*(worker() for _ in range(args.workers)))
+        await process(sites)
+        for n in range(1, args.retry_passes + 1):
+            retry = [(s, r) for s, r in scraper.failed if retryable(r)]
+            if not retry:
+                break
+            log(f"retry pass {n}/{args.retry_passes}: {len(retry)} site(s) failed with a temporary error "
+                f"(rate limit / timeout); trying them again in {args.retry_wait}s")
+            await asyncio.sleep(args.retry_wait)
+            scraper.failed = [(s, r) for s, r in scraper.failed if not retryable(r)]
+            scraper.stats["sites"] -= len(retry)
+            scraper.stats["dead"] -= sum(not r.startswith(PARTIAL) for _, r in retry)
+            await process([s for s, _ in retry], f"retry {n} ")
     finally:
         await scraper.close()
+        if cache:
+            cache.close()
+    st = scraper.stats
+    log(f"requests: {st['req_probe']} probes, {st['req_search']} searches, {st['req_detail']} job details "
+        f"({st['cache_hits']} more from cache), {st['http_429']} HTTP 429 | {time.monotonic() - started:.0f}s")
 
     # the same posting is often listed on several sites of one tenant: keep one copy
     unique: dict[tuple[str, str], Job] = {}
@@ -554,9 +710,10 @@ def render_html(jobs: list[dict], keywords: list[str]) -> str:
             .replace("__KEYWORDS__", html.escape(", ".join(keywords))))
 
 
-def write_outputs(jobs: list[Job], failed: list[tuple[Site, str]], out: str, keywords: list[str]) -> None:
-    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    base = Path(out).expanduser()
+def write_outputs(jobs: list[Job], failed: list[tuple[Site, str]], out: str, keywords: list[str]) -> Path:
+    now = datetime.now()
+    stamp = now.strftime("%Y%m%d_%H%M%S")
+    base = Path(out).expanduser() / now.strftime("%Y-%m-%d")  # one folder per day: output/2026-11-16/
     base.mkdir(parents=True, exist_ok=True)
     csv_path = base / f"workday_india_jobs_{stamp}.csv"
     json_path = base / f"workday_india_jobs_{stamp}.json"
@@ -581,6 +738,7 @@ def write_outputs(jobs: list[Job], failed: list[tuple[Site, str]], out: str, key
         w.writerows((s.name, s.url, r) for s, r in failed)
     log(f"\n{len(jobs)} jobs for keywords {keywords}\n  {html_path}\n  {csv_path}\n  {json_path}"
         f"\n  {failed_path} ({len(failed)} sites unreachable: retired site or Workday maintenance - rerun later)")
+    return html_path
 
 
 def main() -> None:
@@ -591,17 +749,31 @@ def main() -> None:
                     help="title: keyword must be a whole word in the job title; "
                          "description: title OR job description (default; extra request per non-title hit); "
                          "any: keep everything Workday's own search returns (noisy)")
-    ap.add_argument("--csv", default=CSV_URL, help="Workday sites CSV: URL or local path (default: GitHub raw)")
+    ap.add_argument("--csv", help="Workday sites CSV: URL or local path (default: workday.csv next to this "
+                                  "script, downloaded on first use)")
+    ap.add_argument("--refresh-csv", action="store_true", help="download workday.csv again before running")
     ap.add_argument("-o", "--out", default="output", help="output directory (default: ./output)")
     ap.add_argument("--company", help="only sites whose name/tenant contains one of these (comma separated)")
     ap.add_argument("--max-sites", type=int, help="only process the first N sites (for testing)")
     ap.add_argument("--workers", type=int, default=25, help="sites processed in parallel (default 25)")
     ap.add_argument("--concurrency", type=int, default=25, help="max in-flight HTTP requests (default 25)")
     ap.add_argument("--timeout", type=float, default=30.0, help="HTTP timeout seconds (default 30)")
+    ap.add_argument("--rate", type=float, default=20.0,
+                    help="max requests started per second across all sites (default 20, 0 = unlimited). "
+                         "Workday rate-limits per IP: too fast and most sites answer HTTP 429; the script "
+                         "slows itself down on a 429, so this is a ceiling")
+    ap.add_argument("--no-cache", action="store_true",
+                    help="do not read or write the posting-detail cache (~/.cache/mncs-jobs-scraper/workday-details.sqlite)")
+    ap.add_argument("--cache-days", type=int, default=14,
+                    help="reuse cached posting details up to N days old (default 14)")
+    ap.add_argument("--retry-passes", type=int, default=2,
+                    help="how many times to retry sites that failed with a temporary error (default 2, 0 = off)")
+    ap.add_argument("--retry-wait", type=int, default=60, help="seconds to wait before a retry pass (default 60)")
     ap.add_argument("--no-details", action="store_true",
                     help="skip the per-job detail request (location may stay as '2 Locations', no description)")
     ap.add_argument("-d", "--days", type=int, default=14,
                     help="only jobs posted in the last N days (default 14, 0 = no limit)")
+    ap.add_argument("--open", action="store_true", help="open the HTML page in the browser when done")
     ap.add_argument("--from-json", metavar="FILE",
                     help="skip scraping: rebuild the HTML page from an earlier workday_india_jobs_*.json")
     args = ap.parse_args()
@@ -613,12 +785,16 @@ def main() -> None:
         out = Path(args.from_json).expanduser().with_suffix(".html")
         out.write_text(render_html(rows, kws), encoding="utf-8")
         log(f"{len(rows)} jobs -> {out}")
+        if args.open:
+            webbrowser.open(out.resolve().as_uri())
         return
 
     jobs, failed = asyncio.run(run(args))
-    write_outputs(jobs, failed, args.out, [k.strip() for k in args.keywords.split(",") if k.strip()])
+    html_path = write_outputs(jobs, failed, args.out, [k.strip() for k in args.keywords.split(",") if k.strip()])
     for j in jobs:
         print(f"{j.company} | {j.title} | {j.location} | {j.url}")
+    if args.open:
+        webbrowser.open(html_path.resolve().as_uri())
 
 
 if __name__ == "__main__":

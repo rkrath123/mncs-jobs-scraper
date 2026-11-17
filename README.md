@@ -121,12 +121,30 @@ the work mode at all, so a job shown as on-site may still allow remote work.
 The Match column ("title" or "description") shows whether the keyword is in the job title.
 `relevance=description` means it only appears in the job description, which is often noise.
 
+## Run faster (more workers)
+
+`--workers N` is the number of career sites fetched in parallel (default 32). Raise it to finish sooner, lower it
+if sites start answering HTTP 429 / timeouts. The same option works for `scrape_all.py`, `scrape_sector.py` and the
+sector scripts; `-k` is short for `--keywords`.
+
+```bash
+python3 scrape_all.py -k "devops,sre,mlops,kubernetes,AI engineer" --show-all --workers 64 --open   # faster
+python3 scrape_all.py -k "devops,sre" --workers 16                                                # gentler, fewer 429s
+python3 scrape_all.py -k "devops,sre" --sectors fintech,software_cloud,cybersecurity --workers 64   # fewer sectors = fastest
+python3 scrape_all.py -k "devops,sre" --retry-failed 2 --retry-wait 30                            # retry rate-limited sites
+```
+
+- The slowest stage is the description fetch (one request per Workday / SmartRecruiters job); `--workers` speeds it up too.
+- Fewer keywords run faster: each keyword is one search per company.
+- Very high worker counts make Workday, Eightfold and Oracle more likely to answer HTTP 429 (not measured here: try 64, then adjust). Failed sites
+  are retried after `--retry-wait` seconds and listed at the end of the run.
+
 ## Keywords and skills
 
 Nothing is hardcoded. Without `--keywords`, a terminal run asks for them; a non-interactive run (cron, Colab
 subprocess) stops with an error.
 
-- **Keywords** (`--keywords "a,b,c"`, comma separated; a slash is part of a term, so `CI/CD` and `AI/ML` work) are
+- **Keywords** (`-k "a,b,c"` or `--keywords "a,b,c"`, comma separated; a slash is part of a term, so `CI/CD` and `AI/ML` work) are
   searched on every career site. A job is only found if one of them matches. Each keyword is one search per company,
   so fewer, specific keywords run faster.
 - **Title match:** a job is a "title" match when a keyword appears in its title. `--title-words "qa,test*,sdet"`
