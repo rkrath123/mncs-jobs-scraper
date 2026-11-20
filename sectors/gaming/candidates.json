@@ -1,0 +1,119 @@
+{
+ "sector": "gaming",
+ "title": "Gaming and interactive entertainment",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Ubisoft",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Epic Games",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Riot Games",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Nintendo",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Sega",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Zynga",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Unity Technologies",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Supercell",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Sony Interactive Entertainment",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "NetEase",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Bandai Namco",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Capcom",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Square Enix",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Konami",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Valve",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "CD Projekt",
+   "section": 18,
+   "subgroup": ""
+  },
+  {
+   "name": "Miniclip",
+   "section": 18,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Take-Two Interactive",
+   "section": 18,
+   "subgroup": "",
+   "configured_in": "gaming"
+  },
+  {
+   "name": "Rockstar Games",
+   "section": 18,
+   "subgroup": "",
+   "configured_in": "gaming"
+  },
+  {
+   "name": "Roblox",
+   "section": 18,
+   "subgroup": "",
+   "configured_in": "gaming"
+  },
+  {
+   "name": "Scopely",
+   "section": 18,
+   "subgroup": "",
+   "configured_in": "gaming"
+  }
+ ]
+}

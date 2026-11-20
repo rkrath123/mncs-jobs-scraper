@@ -1,0 +1,20 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "airasia.wd3.myworkdayjobs.com",
+   "tenant": "airasia",
+   "site": "Careers",
+   "name": "AirAsia"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "United Airlines",
+   "host": "careers.united.com",
+   "lang": "en_us",
+   "page_id": "page13",
+   "region": "global/en"
+  }
+ ]
+}

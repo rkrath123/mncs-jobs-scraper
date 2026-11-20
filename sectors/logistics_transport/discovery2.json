@@ -1,0 +1,515 @@
+{
+ "A.P. Moller": {
+  "hosts": [
+   "www.apmoller.com",
+   "apmoller.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Agility Logistics": {
+  "hosts": [
+   "www.agilitylogistics.com",
+   "agilitylogistics.com",
+   "www.agility-logistics.com",
+   "agility-logistics.com",
+   "www.agility.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Aramex": {
+  "hosts": [
+   "careers.aramex.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Aramex",
+     "host": "careers.aramex.com"
+    },
+    "india_jobs": 5,
+    "found_on": "careers.aramex.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Avis Budget": {
+  "hosts": [
+   "www.avisbudget.com",
+   "avisbudget.com",
+   "careers.avis-budget.com",
+   "jobs.avis-budget.com",
+   "www.avis-budget.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CAF": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "CEVA Logistics": {
+  "hosts": [
+   "careers.cevalogistics.com",
+   "www.cevalogistics.com",
+   "cevalogistics.com",
+   "www.ceva-logistics.com",
+   "jobs.ceva.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CMA CGM": {
+  "hosts": [
+   "www.cmacgm.com",
+   "cmacgm.com",
+   "jobs.cma-cgm.com",
+   "www.cma-cgm.com",
+   "cma-cgm.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "COSCO Shipping": {
+  "hosts": [
+   "www.coscoshipping.com",
+   "coscoshipping.com",
+   "www.cosco-shipping.com",
+   "cosco-shipping.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "CSX": {
+  "hosts": [
+   "careers.csx.com",
+   "www.csx.com",
+   "csx.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "DB Schenker": {
+  "hosts": [
+   "jobs.dbschenker.com",
+   "www.dbschenker.com",
+   "dbschenker.com",
+   "www.db-schenker.com",
+   "db-schenker.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "DHL": {
+  "hosts": [
+   "www.dpdhl.com",
+   "dpdhl.com",
+   "careers.dhl.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "DHL",
+     "host": "careers.dhl.com",
+     "lang": "en_global",
+     "page_id": "page12",
+     "region": "global/en"
+    },
+    "india_jobs": 33,
+    "found_on": "careers.dhl.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "DP World": {
+  "hosts": [
+   "www.dpworld.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "DP World",
+     "host": "ehpv.fa.em2.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 36,
+    "found_on": "www.dpworld.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "DSV": {
+  "hosts": [
+   "jobs.dsv.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "DSV",
+     "host": "jobs.dsv.com"
+    },
+    "india_jobs": 3,
+    "found_on": "jobs.dsv.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Deutsche Bahn": {
+  "hosts": [
+   "jobs.deutschebahn.com",
+   "www.deutschebahn.com",
+   "deutschebahn.com",
+   "www.deutsche-bahn.com",
+   "deutsche-bahn.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Deutsche Post": {
+  "hosts": [
+   "www.deutschepost.com",
+   "deutschepost.com",
+   "www.deutsche-post.com",
+   "deutsche-post.com",
+   "www.deutsche.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Evergreen Marine": {
+  "hosts": [
+   "careers.evergreenmarine.com",
+   "jobs.evergreenmarine.com",
+   "www.evergreenmarine.com",
+   "evergreenmarine.com",
+   "www.evergreen-marine.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "FedEx": {
+  "hosts": [
+   "careers.fedex.com",
+   "www.fedex.com",
+   "fedex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "GEODIS": {
+  "hosts": [
+   "www.geodis.com",
+   "geodis.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "GXO Logistics": {
+  "hosts": [
+   "jobs.gxo.com",
+   "www.gxo.com",
+   "gxo.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hapag-Lloyd": {
+  "hosts": [
+   "careers.hapaglloyd.com",
+   "jobs.hapaglloyd.com",
+   "www.hapaglloyd.com",
+   "hapaglloyd.com",
+   "www.hapag-lloyd.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hertz": {
+  "hosts": [
+   "www.hertz.com",
+   "hertz.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hitachi Rail": {
+  "hosts": [
+   "www.hitachirail.com",
+   "hitachirail.com",
+   "www.hitachi-rail.com",
+   "careers.hitachi.com",
+   "www.hitachi.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "J.B. Hunt": {
+  "hosts": [
+   "careers.jbhunt.com",
+   "jobs.jbhunt.com",
+   "www.jbhunt.com",
+   "jbhunt.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "J.B. Hunt",
+     "host": "jbhunt.wd501.myworkdayjobs.com",
+     "tenant": "jbhunt",
+     "site": "Careers"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.jbhunt.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Japan Post": {
+  "hosts": [
+   "www.japanpost.com",
+   "japanpost.com",
+   "www.japan-post.com",
+   "japan-post.com",
+   "www.japan.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kapsch": {
+  "hosts": [
+   "www.kapsch.com",
+   "kapsch.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kintetsu World Express": {
+  "hosts": [
+   "www.kintetsu.com",
+   "kintetsu.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Knorr-Bremse": {
+  "hosts": [
+   "www.knorrbremse.com",
+   "knorrbremse.com",
+   "careers.knorr-bremse.com",
+   "jobs.knorr-bremse.com",
+   "www.knorr-bremse.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kuehne+Nagel": {
+  "hosts": [
+   "careers.kuehne-nagel.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Kuehne+Nagel",
+     "host": "careers.kuehne-nagel.com"
+    },
+    "india_jobs": 12,
+    "found_on": "careers.kuehne-nagel.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "La Poste": {
+  "hosts": [
+   "www.laposte.com",
+   "laposte.com",
+   "www.la-poste.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Landstar": {
+  "hosts": [
+   "www.landstar.com",
+   "landstar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lineage": {
+  "hosts": [
+   "www.lineage.com",
+   "lineage.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "MSC": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Nippon Express": {
+  "hosts": [
+   "www.nipponexpress.com",
+   "www.nippon.com",
+   "nippon.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Norfolk Southern": {
+  "hosts": [
+   "www.norfolksouthern.com",
+   "norfolksouthern.com",
+   "jobs.nscorp.com",
+   "www.nscorp.com",
+   "nscorp.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ocean Network Express": {
+  "hosts": [
+   "www.oceannetworkexpress.com",
+   "oceannetworkexpress.com",
+   "careers.ocean-network-express.com",
+   "jobs.ocean-network-express.com",
+   "www.ocean-network-express.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Poste Italiane": {
+  "hosts": [
+   "www.posteitaliane.com",
+   "posteitaliane.com",
+   "careers.poste-italiane.com",
+   "jobs.poste-italiane.com",
+   "www.poste-italiane.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rhenus Logistics": {
+  "hosts": [
+   "www.rhenuslogistics.com",
+   "rhenuslogistics.com",
+   "careers.rhenus.com",
+   "jobs.rhenus.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Rhenus Logistics",
+     "host": "rhe.wd3.myworkdayjobs.com",
+     "tenant": "rhe",
+     "site": "R1111"
+    },
+    "india_jobs": 5,
+    "found_on": "jobs.rhenus.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Royal Mail": {
+  "hosts": [
+   "jobs.royalmail.com",
+   "www.royalmail.com",
+   "royalmail.com",
+   "www.royal-mail.com",
+   "royal-mail.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ryder System": {
+  "hosts": [
+   "careers.ryder.com",
+   "jobs.ryder.com",
+   "www.ryder.com",
+   "ryder.com",
+   "www.rydersystem.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "SNCF": {
+  "hosts": [
+   "www.sncf.com",
+   "sncf.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Stadler Rail": {
+  "hosts": [
+   "careers.stadlerrail.com",
+   "www.stadlerrail.com",
+   "stadlerrail.com",
+   "careers.stadler.com",
+   "jobs.stadler.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "UPS": {
+  "hosts": [
+   "www.ups.com",
+   "ups.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Union Pacific": {
+  "hosts": [
+   "www.up.com",
+   "up.com",
+   "www.unionpacific.com",
+   "unionpacific.com",
+   "www.union-pacific.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "XPO": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Yang Ming": {
+  "hosts": [
+   "www.yangming.com",
+   "www.yang-ming.com",
+   "yang-ming.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Yusen Logistics": {
+  "hosts": [
+   "www.yusen-logistics.com",
+   "careers.yusen.com",
+   "jobs.yusen.com",
+   "www.yusen.com",
+   "yusen.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ZIM": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ }
+}

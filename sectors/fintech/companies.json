@@ -1,0 +1,714 @@
+{
+ "workday": [
+  {
+   "name": "Wells Fargo",
+   "host": "wd1.myworkdaysite.com",
+   "tenant": "wf",
+   "site": "WellsFargoJobs"
+  },
+  {
+   "name": "LSEG",
+   "host": "lseg.wd3.myworkdayjobs.com",
+   "tenant": "lseg",
+   "site": "Careers"
+  },
+  {
+   "name": "Northern Trust",
+   "host": "ntrs.wd1.myworkdayjobs.com",
+   "tenant": "ntrs",
+   "site": "northerntrust"
+  },
+  {
+   "name": "Deutsche Bank",
+   "host": "db.wd3.myworkdayjobs.com",
+   "tenant": "db",
+   "site": "DBWebsite"
+  },
+  {
+   "name": "Commonwealth Bank",
+   "host": "cba.wd3.myworkdayjobs.com",
+   "tenant": "cba",
+   "site": "CommBank_Careers"
+  },
+  {
+   "name": "Fidelity Investments",
+   "host": "fmr.wd1.myworkdayjobs.com",
+   "tenant": "fmr",
+   "site": "FidelityCareers"
+  },
+  {
+   "name": "Morgan Stanley",
+   "host": "ms.wd5.myworkdayjobs.com",
+   "tenant": "ms",
+   "site": "External"
+  },
+  {
+   "name": "State Street",
+   "host": "statestreet.wd1.myworkdayjobs.com",
+   "tenant": "statestreet",
+   "site": "Global"
+  },
+  {
+   "name": "Visa",
+   "host": "visa.wd5.myworkdayjobs.com",
+   "tenant": "visa",
+   "site": "Visa"
+  },
+  {
+   "name": "PayPal",
+   "host": "paypal.wd1.myworkdayjobs.com",
+   "tenant": "paypal",
+   "site": "jobs"
+  },
+  {
+   "name": "First American",
+   "host": "firstam.wd1.myworkdayjobs.com",
+   "tenant": "firstam",
+   "site": "faicareers"
+  },
+  {
+   "name": "Allstate",
+   "host": "allstate.wd5.myworkdayjobs.com",
+   "tenant": "allstate",
+   "site": "allstate_careers"
+  },
+  {
+   "name": "Citi",
+   "host": "citi.wd5.myworkdayjobs.com",
+   "tenant": "citi",
+   "site": "2"
+  },
+  {
+   "name": "Fiserv",
+   "host": "fiserv.wd5.myworkdayjobs.com",
+   "tenant": "fiserv",
+   "site": "EXT"
+  },
+  {
+   "name": "TransUnion",
+   "host": "transunion.wd5.myworkdayjobs.com",
+   "tenant": "transunion",
+   "site": "TransUnion"
+  },
+  {
+   "name": "BlackRock",
+   "host": "blackrock.wd1.myworkdayjobs.com",
+   "tenant": "blackrock",
+   "site": "BlackRock_Professional"
+  },
+  {
+   "name": "DBS Bank",
+   "host": "dbs.wd3.myworkdayjobs.com",
+   "tenant": "dbs",
+   "site": "DBS_Careers"
+  },
+  {
+   "name": "IG Group",
+   "host": "ig.wd103.myworkdayjobs.com",
+   "tenant": "ig",
+   "site": "EXT_IG"
+  },
+  {
+   "name": "Fidelity International",
+   "host": "fil.wd3.myworkdayjobs.com",
+   "tenant": "fil",
+   "site": "001"
+  },
+  {
+   "name": "Worldpay",
+   "host": "worldpay.wd5.myworkdayjobs.com",
+   "tenant": "worldpay",
+   "site": "Worldpay_External_Careers_Site"
+  },
+  {
+   "name": "Synchrony",
+   "host": "synchronyfinancial.wd5.myworkdayjobs.com",
+   "tenant": "synchronyfinancial",
+   "site": "Careers"
+  },
+  {
+   "name": "NAB",
+   "host": "nab.wd3.myworkdayjobs.com",
+   "tenant": "nab",
+   "site": "nab_careers"
+  },
+  {
+   "name": "Equifax",
+   "host": "equifax.wd5.myworkdayjobs.com",
+   "tenant": "equifax",
+   "site": "External"
+  },
+  {
+   "name": "Sun Life",
+   "host": "sunlife.wd3.myworkdayjobs.com",
+   "tenant": "sunlife",
+   "site": "Experienced"
+  },
+  {
+   "name": "Western Union",
+   "host": "westernunion.wd5.myworkdayjobs.com",
+   "tenant": "westernunion",
+   "site": "WesternUnionJobs"
+  },
+  {
+   "name": "TIAA",
+   "host": "tiaa.wd1.myworkdayjobs.com",
+   "tenant": "tiaa",
+   "site": "Search"
+  },
+  {
+   "name": "CME Group",
+   "host": "cmegroup.wd1.myworkdayjobs.com",
+   "tenant": "cmegroup",
+   "site": "cme_careers"
+  },
+  {
+   "name": "Lloyds Banking Group",
+   "host": "lbg.wd3.myworkdayjobs.com",
+   "tenant": "lbg",
+   "site": "LBG_Careers",
+   "location_hints": [
+    "Hyderabad",
+    "Bangalore",
+    "Bengaluru"
+   ]
+  },
+  {
+   "name": "Lloyds Technology Centre",
+   "host": "lbg.wd3.myworkdayjobs.com",
+   "tenant": "lbg",
+   "site": "Lloyds_Technology_Centre",
+   "location_hints": [
+    "Hyderabad"
+   ]
+  },
+  {
+   "name": "The Standard",
+   "host": "standard.wd1.myworkdayjobs.com",
+   "tenant": "standard",
+   "site": "Search"
+  },
+  {
+   "name": "Vanguard",
+   "host": "vanguard.wd5.myworkdayjobs.com",
+   "tenant": "vanguard",
+   "site": "vanguard_external"
+  },
+  {
+   "name": "Mr. Cooper",
+   "host": "nationstar.wd5.myworkdayjobs.com",
+   "tenant": "nationstar",
+   "site": "MrCooper"
+  },
+  {
+   "name": "Voya",
+   "host": "godirect.wd5.myworkdayjobs.com",
+   "tenant": "godirect",
+   "site": "voya_jobs"
+  },
+  {
+   "name": "MUFG",
+   "host": "mufgub.wd3.myworkdayjobs.com",
+   "tenant": "mufgub",
+   "site": "MUFG-Careers"
+  },
+  {
+   "name": "NatWest",
+   "host": "rbs.wd3.myworkdayjobs.com",
+   "tenant": "rbs",
+   "site": "RBS"
+  },
+  {
+   "name": "Mastercard",
+   "host": "mastercard.wd1.myworkdayjobs.com",
+   "tenant": "mastercard",
+   "site": "CorporateCareers"
+  },
+  {
+   "name": "FIS",
+   "host": "fis.wd5.myworkdayjobs.com",
+   "tenant": "fis",
+   "site": "SearchJobs"
+  },
+  {
+   "name": "Global Payments",
+   "host": "tsys.wd1.myworkdayjobs.com",
+   "tenant": "tsys",
+   "site": "TSYS"
+  },
+  {
+   "name": "Broadridge",
+   "host": "broadridge.wd5.myworkdayjobs.com",
+   "tenant": "broadridge",
+   "site": "Careers"
+  },
+  {
+   "name": "Nasdaq",
+   "host": "nasdaq.wd1.myworkdayjobs.com",
+   "tenant": "nasdaq",
+   "site": "Global_External_Site"
+  },
+  {
+   "name": "S&P Global",
+   "host": "spgi.wd5.myworkdayjobs.com",
+   "tenant": "spgi",
+   "site": "SPGI_Careers"
+  },
+  {
+   "name": "FICO",
+   "host": "fico.wd1.myworkdayjobs.com",
+   "tenant": "fico",
+   "site": "External"
+  },
+  {
+   "name": "Morningstar",
+   "host": "morningstar.wd5.myworkdayjobs.com",
+   "tenant": "morningstar",
+   "site": "Morningstar"
+  },
+  {
+   "name": "FactSet",
+   "host": "factset.wd108.myworkdayjobs.com",
+   "tenant": "factset",
+   "site": "FactSetCareers"
+  },
+  {
+   "name": "SS&C Technologies",
+   "host": "ssctech.wd1.myworkdayjobs.com",
+   "tenant": "ssctech",
+   "site": "SSCTechnologies"
+  },
+  {
+   "name": "Temenos",
+   "host": "temenos.wd103.myworkdayjobs.com",
+   "tenant": "temenos",
+   "site": "Temenoscareers"
+  },
+  {
+   "name": "Finastra",
+   "host": "finastra.wd3.myworkdayjobs.com",
+   "tenant": "finastra",
+   "site": "FINC"
+  },
+  {
+   "name": "Barclays",
+   "host": "barclays.wd3.myworkdayjobs.com",
+   "tenant": "barclays",
+   "site": "External_Career_Site_Barclays"
+  },
+  {
+   "name": "Capital One",
+   "host": "capitalone.wd12.myworkdayjobs.com",
+   "tenant": "capitalone",
+   "site": "Capital_One"
+  },
+  {
+   "name": "U.S. Bancorp",
+   "host": "usbank.wd1.myworkdayjobs.com",
+   "tenant": "usbank",
+   "site": "US_Bank_Careers"
+  },
+  {
+   "name": "TD",
+   "host": "td.wd3.myworkdayjobs.com",
+   "tenant": "td",
+   "site": "TD_Bank_Careers"
+  },
+  {
+   "name": "Invesco",
+   "host": "invesco.wd1.myworkdayjobs.com",
+   "tenant": "invesco",
+   "site": "IVZ"
+  },
+  {
+   "name": "Ameriprise",
+   "host": "ameriprise.wd5.myworkdayjobs.com",
+   "tenant": "ameriprise",
+   "site": "Ameriprise"
+  },
+  {
+   "name": "Blackstone",
+   "host": "blackstone.wd1.myworkdayjobs.com",
+   "tenant": "blackstone",
+   "site": "Blackstone_Careers"
+  },
+  {
+   "name": "Prudential",
+   "host": "prudential.wd3.myworkdayjobs.com",
+   "tenant": "prudential",
+   "site": "Prudential"
+  },
+  {
+   "name": "Marsh McLennan",
+   "host": "mmc.wd1.myworkdayjobs.com",
+   "tenant": "mmc",
+   "site": "MMC"
+  },
+  {
+   "name": "Wolters Kluwer",
+   "host": "wk.wd3.myworkdayjobs.com",
+   "tenant": "wk",
+   "site": "External"
+  },
+  {
+   "name": "Guidewire",
+   "host": "guidewire.wd5.myworkdayjobs.com",
+   "tenant": "guidewire",
+   "site": "External"
+  },
+  {
+   "host": "corpay.wd103.myworkdayjobs.com",
+   "tenant": "corpay",
+   "site": "Ext_001",
+   "name": "Corpay"
+  },
+  {
+   "name": "Arch Capital Group",
+   "host": "archgroup.wd1.myworkdayjobs.com",
+   "tenant": "archgroup",
+   "site": "Careers"
+  },
+  {
+   "name": "Nationwide",
+   "host": "nationwide.wd1.myworkdayjobs.com",
+   "tenant": "nationwide",
+   "site": "Nationwide_Career_India"
+  },
+  {
+   "name": "Cboe Global Markets",
+   "host": "cboe.wd1.myworkdayjobs.com",
+   "tenant": "cboe",
+   "site": "External_Career_CBOE"
+  },
+  {
+   "name": "Wellington Management",
+   "host": "wellington.wd5.myworkdayjobs.com",
+   "tenant": "wellington",
+   "site": "External"
+  },
+  {
+   "name": "T. Rowe Price",
+   "host": "troweprice.wd5.myworkdayjobs.com",
+   "tenant": "troweprice",
+   "site": "TRowePrice"
+  },
+  {
+   "name": "Mizuho",
+   "host": "mizuhogroup.wd102.myworkdayjobs.com",
+   "tenant": "mizuhogroup",
+   "site": "External"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "JPMorganChase",
+   "host": "jpmc.fa.oraclecloud.com",
+   "site": "CX_1001"
+  },
+  {
+   "name": "Chubb",
+   "host": "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com",
+   "site": "CX_2001"
+  },
+  {
+   "name": "BNY",
+   "host": "eofe.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "American Express",
+   "host": "egug.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Diebold Nixdorf",
+   "host": "eeug.fa.us6.oraclecloud.com",
+   "site": "CX"
+  },
+  {
+   "name": "DTCC",
+   "host": "ebxr.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Jefferies",
+   "host": "hdid.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ],
+ "greenhouse": [
+  {
+   "name": "Coinbase",
+   "board": "coinbase"
+  },
+  {
+   "name": "Tide",
+   "board": "tide"
+  },
+  {
+   "name": "Stripe",
+   "board": "stripe"
+  },
+  {
+   "name": "Adyen",
+   "board": "adyen"
+  },
+  {
+   "name": "Payoneer",
+   "board": "payoneer"
+  },
+  {
+   "name": "Clearwater Analytics",
+   "board": "clearwater"
+  },
+  {
+   "name": "Block",
+   "board": "block"
+  },
+  {
+   "name": "Point72",
+   "board": "point72"
+  },
+  {
+   "name": "Optiver",
+   "board": "optiverprivate"
+  },
+  {
+   "name": "Qube Research & Technologies",
+   "board": "quberesearchandtechnologies"
+  },
+  {
+   "name": "WorldQuant",
+   "board": "worldquant"
+  },
+  {
+   "name": "IMC Trading",
+   "board": "imc"
+  },
+  {
+   "name": "Jane Street",
+   "board": "janestreet"
+  },
+  {
+   "name": "DRW",
+   "board": "drweng"
+  },
+  {
+   "name": "Da Vinci Derivatives",
+   "board": "davinciderivatives"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "Aon",
+   "host": "jobs.aon.com"
+  },
+  {
+   "name": "Gallagher",
+   "host": "jobs.ajg.com",
+   "job_path": "ajg-home/jobs"
+  },
+  {
+   "name": "ICE",
+   "host": "careers.ice.com"
+  },
+  {
+   "name": "AXA",
+   "host": "careers.axa.com",
+   "job_path": "careers-home/jobs"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "ANZ",
+   "host": "careers.anz.com"
+  },
+  {
+   "name": "Standard Chartered",
+   "host": "jobs.standardchartered.com"
+  },
+  {
+   "name": "Swiss Re",
+   "host": "careers.swissre.com"
+  },
+  {
+   "name": "Worldline",
+   "host": "jobs.worldline.com"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "HSBC",
+   "host": "hsbc.eightfold.ai",
+   "domain": "hsbc.com"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "Allianz",
+   "host": "careers.allianz.com",
+   "lang": "en_global",
+   "page_id": "page11",
+   "region": "global/en"
+  },
+  {
+   "name": "Bread Financial",
+   "host": "careers.breadfinancial.com",
+   "lang": "en_in",
+   "page_id": "page76",
+   "region": "global/en"
+  },
+  {
+   "name": "Franklin Templeton",
+   "host": "careers.franklintempleton.com",
+   "lang": "en_us",
+   "page_id": "page18",
+   "region": "global/en"
+  }
+ ],
+ "goldman": [
+  {
+   "name": "Goldman Sachs"
+  }
+ ],
+ "radancy": [
+  {
+   "name": "Moody's",
+   "host": "careers.moodys.com",
+   "path": "en/search-jobs"
+  },
+  {
+   "name": "Citizens",
+   "host": "jobs.citizensbank.com",
+   "path": "search-jobs"
+  },
+  {
+   "name": "Intuit",
+   "host": "jobs.intuit.com",
+   "path": "search-jobs"
+  }
+ ],
+ "deshaw": [
+  {
+   "name": "D. E. Shaw"
+  }
+ ],
+ "manual": [
+  {
+   "name": "Societe Generale",
+   "platform": "Taleo / Algolia (not scrapable)",
+   "url": "https://careers.societegenerale.com/en/Technical/all-job-offers"
+  },
+  {
+   "name": "Revolut",
+   "platform": "In-house (blocks bots)",
+   "url": "https://www.revolut.com/en-IN/careers/"
+  },
+  {
+   "name": "BNP Paribas",
+   "platform": "Unknown (blocks bots)",
+   "url": "https://group.bnpparibas/en/careers/all-job-offers"
+  },
+  {
+   "name": "MetLife",
+   "platform": "Avature",
+   "url": "https://www.metlifecareers.com/en_US/ml/in"
+  },
+  {
+   "name": "Nomura",
+   "platform": "SAP SuccessFactors",
+   "url": "https://careers.nomura.com/"
+  },
+  {
+   "name": "RBC",
+   "platform": "Custom / Workday",
+   "url": "https://jobs.rbc.com/"
+  },
+  {
+   "name": "Scotiabank",
+   "platform": "SAP SuccessFactors / Custom",
+   "url": "https://jobs.scotiabank.com/"
+  },
+  {
+   "name": "Macquarie Group",
+   "platform": "PageUp / Custom",
+   "url": "https://recruitment.macquarie.com/"
+  },
+  {
+   "name": "Millennium Management",
+   "platform": "In-house / Custom",
+   "url": "https://www.mlp.com/careers/"
+  },
+  {
+   "name": "Balyasny Asset Management",
+   "platform": "In-house / Custom",
+   "url": "https://www.bamfunds.com/careers/"
+  },
+  {
+   "name": "Citadel Securities",
+   "platform": "In-house / Custom",
+   "url": "https://www.citadelsecurities.com/careers/"
+  },
+  {
+   "name": "Tower Research Capital",
+   "platform": "Greenhouse (embedded)",
+   "url": "https://tower-research.com/open-positions/"
+  },
+  {
+   "name": "Hudson River Trading",
+   "platform": "Greenhouse (embedded)",
+   "url": "https://www.hudsonrivertrading.com/careers/"
+  },
+  {
+   "name": "Jump Trading",
+   "platform": "Greenhouse (embedded)",
+   "url": "https://www.jumptrading.com/careers/"
+  }
+ ],
+ "icims": [
+  {
+   "name": "MSCI",
+   "hosts": [
+    "globalcareers-msci.icims.com",
+    "uscareers-msci.icims.com"
+   ]
+  }
+ ],
+ "brassring": [
+  {
+   "name": "UBS",
+   "host": "jobs.ubs.com",
+   "partner_id": 25008,
+   "site_id": 5012
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "Experian",
+   "company_id": "Experian"
+  },
+  {
+   "name": "Avaloq",
+   "company_id": "Avaloq1"
+  },
+  {
+   "name": "Wise",
+   "company_id": "wise"
+  }
+ ],
+ "lever": [
+  {
+   "name": "Dun & Bradstreet",
+   "company_id": "dnb"
+  },
+  {
+   "name": "Nium",
+   "company_id": "nium"
+  }
+ ],
+ "bofa": [
+  {
+   "name": "Bank of America"
+  }
+ ]
+}

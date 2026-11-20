@@ -1,0 +1,343 @@
+{
+ "sector": "industrial_manufacturing",
+ "title": "Industrial automation, machinery, electronics manufacturing, IoT software",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Hexagon",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology"
+  },
+  {
+   "name": "Atlas Copco",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "SKF",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "KUKA",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "FANUC",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Yaskawa",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "SICK",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Endress+Hauser",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Phoenix Contact",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Legrand",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Ingersoll Rand",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "ITT Inc.",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Flex",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Sanmina",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Foxconn",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Pegatron",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "TE Connectivity",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Molex",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Amphenol",
+   "section": 9,
+   "subgroup": ""
+  },
+  {
+   "name": "Ametek",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Illinois Tool Works",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Hubbell",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Lennox",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Timken",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Nordson",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Belden",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Oshkosh",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Newell Brands",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Masco",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Mattel",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Hasbro",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "EnerSys",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Crane",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Trimble",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Vertiv",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Bosch",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Johnson Controls",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Sandvik",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "3M",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "KONE",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Otis",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Schaeffler",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "automotive"
+  },
+  {
+   "name": "Grundfos",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Festo",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Trane Technologies",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Carrier Global",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Xylem",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Ecolab",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Alfa Laval",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "GEA Group",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Tetra Pak",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Jabil",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Celestica",
+   "section": 9,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Samsara",
+   "section": 33,
+   "subgroup": "",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Paccar",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Whirlpool",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Fortive",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Dover",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Lincoln Electric",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Terex",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "industrial_manufacturing"
+  },
+  {
+   "name": "Stanley Black & Decker",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "industrial_manufacturing"
+  }
+ ]
+}

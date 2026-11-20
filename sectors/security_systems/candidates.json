@@ -1,0 +1,41 @@
+{
+ "sector": "security_systems",
+ "title": "Physical security and access systems",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "dormakaba",
+   "section": 29,
+   "subgroup": ""
+  },
+  {
+   "name": "ASSA ABLOY",
+   "section": 29,
+   "subgroup": ""
+  },
+  {
+   "name": "HID Global",
+   "section": 29,
+   "subgroup": ""
+  },
+  {
+   "name": "Genetec",
+   "section": 29,
+   "subgroup": ""
+  },
+  {
+   "name": "Axis Communications",
+   "section": 29,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "IDEMIA",
+   "section": 29,
+   "subgroup": "",
+   "configured_in": "security_systems"
+  }
+ ]
+}

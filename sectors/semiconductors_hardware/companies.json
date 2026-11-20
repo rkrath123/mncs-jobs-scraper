@@ -1,0 +1,122 @@
+{
+ "workday": [
+  {
+   "name": "Analog Devices",
+   "host": "analogdevices.wd1.myworkdayjobs.com",
+   "tenant": "analogdevices",
+   "site": "External"
+  },
+  {
+   "name": "Broadcom",
+   "host": "broadcom.wd1.myworkdayjobs.com",
+   "tenant": "broadcom",
+   "site": "External_Career"
+  },
+  {
+   "name": "Cadence",
+   "host": "cadence.wd1.myworkdayjobs.com",
+   "tenant": "cadence",
+   "site": "External_Careers"
+  },
+  {
+   "name": "Intel",
+   "host": "intel.wd1.myworkdayjobs.com",
+   "tenant": "intel",
+   "site": "External"
+  },
+  {
+   "name": "KLA",
+   "host": "kla.wd1.myworkdayjobs.com",
+   "tenant": "kla",
+   "site": "Search"
+  },
+  {
+   "name": "Marvell",
+   "host": "marvell.wd1.myworkdayjobs.com",
+   "tenant": "marvell",
+   "site": "MarvellCareers"
+  },
+  {
+   "name": "Micron Technology",
+   "host": "micron.wd1.myworkdayjobs.com",
+   "tenant": "micron",
+   "site": "External"
+  },
+  {
+   "name": "Monolithic Power Systems",
+   "host": "monolithicpower.wd12.myworkdayjobs.com",
+   "tenant": "monolithicpower",
+   "site": "MPS_Careers"
+  },
+  {
+   "name": "NVIDIA",
+   "host": "nvidia.wd5.myworkdayjobs.com",
+   "tenant": "nvidia",
+   "site": "NVIDIAExternalCareerSite"
+  },
+  {
+   "name": "Samsung",
+   "host": "sec.wd3.myworkdayjobs.com",
+   "tenant": "sec",
+   "site": "Samsung_Careers"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "Western Digital",
+   "company_id": "westerndigital"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Texas Instruments",
+   "host": "edbz.fa.us2.oraclecloud.com",
+   "site": "CX"
+  },
+  {
+   "name": "ON Semiconductor",
+   "host": "hctz.fa.us2.oraclecloud.com",
+   "site": "CX_1001"
+  }
+ ],
+ "manual": [],
+ "jibe": [
+  {
+   "name": "AMD",
+   "host": "careers.amd.com"
+  },
+  {
+   "name": "Keysight Technologies",
+   "host": "careers.keysight.com"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Applied Materials",
+   "host": "appliedmaterials.eightfold.ai",
+   "domain": "appliedmaterials.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Lam Research",
+   "host": "lamresearch.eightfold.ai",
+   "domain": "lamresearch.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Infineon",
+   "host": "infineon.eightfold.ai",
+   "domain": "infineon.com",
+   "api": "pcsx"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "Corning",
+   "host": "careers.corning.com",
+   "lang": "en_us",
+   "page_id": "page15",
+   "region": "global/en"
+  }
+ ]
+}

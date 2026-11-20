@@ -1,0 +1,155 @@
+{
+ "Clarivate": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "clarivate.wd3.myworkdayjobs.com",
+    "tenant": "clarivate",
+    "site": "Clarivate_Careers",
+    "name": "Clarivate"
+   },
+   "india_jobs": 17,
+   "site_total": 132,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "clarivate.wd3.myworkdayjobs.com",
+    "tenant": "clarivate",
+    "site": "jobs",
+    "name": "Clarivate"
+   },
+   "india_jobs": 14,
+   "site_total": 105,
+   "facet": false
+  }
+ ],
+ "Elsevier": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "relx",
+    "name": "Elsevier"
+   },
+   "india_jobs": 67,
+   "site_total": 788,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "ReedExhibitions",
+    "name": "Elsevier"
+   },
+   "india_jobs": 4,
+   "site_total": 64,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "RiskSolutions",
+    "name": "Elsevier"
+   },
+   "india_jobs": 18,
+   "site_total": 205,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "ciriumcareers",
+    "name": "Elsevier"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  }
+ ],
+ "LexisNexis": [],
+ "RELX": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "relx",
+    "name": "RELX"
+   },
+   "india_jobs": 67,
+   "site_total": 788,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "ReedExhibitions",
+    "name": "RELX"
+   },
+   "india_jobs": 4,
+   "site_total": 64,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "RiskSolutions",
+    "name": "RELX"
+   },
+   "india_jobs": 18,
+   "site_total": 205,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "relx.wd3.myworkdayjobs.com",
+    "tenant": "relx",
+    "site": "ciriumcareers",
+    "name": "RELX"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  }
+ ],
+ "Relativity": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "relativity",
+    "name": "Relativity"
+   },
+   "india_jobs": 0,
+   "site_total": 403
+  }
+ ],
+ "Thomson Reuters": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thomsonreuters.wd5.myworkdayjobs.com",
+    "tenant": "thomsonreuters",
+    "site": "External_Career_Site",
+    "name": "Thomson Reuters"
+   },
+   "india_jobs": 48,
+   "site_total": 541,
+   "facet": true
+  }
+ ],
+ "Verisk": []
+}

@@ -1,0 +1,152 @@
+{
+ "workday": [
+  {
+   "name": "Adobe",
+   "host": "adobe.wd5.myworkdayjobs.com",
+   "tenant": "adobe",
+   "site": "external_experienced"
+  },
+  {
+   "name": "Salesforce",
+   "host": "salesforce.wd12.myworkdayjobs.com",
+   "tenant": "salesforce",
+   "site": "External_Career_Site"
+  },
+  {
+   "name": "Workday",
+   "host": "workday.wd5.myworkdayjobs.com",
+   "tenant": "workday",
+   "site": "Workday"
+  },
+  {
+   "name": "Zendesk",
+   "host": "zendesk.wd1.myworkdayjobs.com",
+   "tenant": "zendesk",
+   "site": "zendesk"
+  },
+  {
+   "name": "HPE",
+   "host": "hpe.wd5.myworkdayjobs.com",
+   "tenant": "hpe",
+   "site": "Jobsathpe"
+  },
+  {
+   "name": "SUSE",
+   "host": "suse.wd3.myworkdayjobs.com",
+   "tenant": "suse",
+   "site": "Jobsatsuse"
+  },
+  {
+   "host": "hp.wd5.myworkdayjobs.com",
+   "tenant": "hp",
+   "site": "EXTEU-AC-CareerSite",
+   "name": "HP"
+  },
+  {
+   "host": "zillow.wd5.myworkdayjobs.com",
+   "tenant": "zillow",
+   "site": "Zillow_Group_External",
+   "name": "Zillow"
+  },
+  {
+   "host": "pitneybowes.wd1.myworkdayjobs.com",
+   "tenant": "pitneybowes",
+   "site": "PBCareers",
+   "name": "Pitney Bowes"
+  },
+  {
+   "host": "zebra.wd501.myworkdayjobs.com",
+   "tenant": "zebra",
+   "site": "Zebra_careers",
+   "name": "Zebra Technologies"
+  },
+  {
+   "name": "Criteo",
+   "host": "criteo.wd3.myworkdayjobs.com",
+   "tenant": "criteo",
+   "site": "Criteo_Career_Site"
+  }
+ ],
+ "greenhouse": [
+  {
+   "name": "AppsFlyer",
+   "board": "appsflyer"
+  },
+  {
+   "name": "Commvault",
+   "board": "commvault"
+  },
+  {
+   "name": "PubMatic",
+   "board": "pubmatic"
+  },
+  {
+   "name": "Pure Storage",
+   "board": "purestorage"
+  },
+  {
+   "name": "Rubrik",
+   "board": "rubrik"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "ServiceNow",
+   "company_id": "servicenow"
+  }
+ ],
+ "amazon": [
+  {
+   "name": "Amazon"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Oracle",
+   "host": "eeho.fa.us2.oraclecloud.com",
+   "site": "CX_45001"
+  },
+  {
+   "name": "Uber",
+   "host": "iaziqy.fa.ocs.oraclecloud.com",
+   "site": "UberCareers"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "NetApp",
+   "host": "jobs.netapp.com"
+  },
+  {
+   "name": "Avaya",
+   "host": "careers.avaya.com"
+  }
+ ],
+ "manual": [
+  {
+   "name": "Microsoft",
+   "platform": "Eightfold pcsx API rate-limits (HTTP 429) a full scan",
+   "url": "https://apply.careers.microsoft.com/careers?query=devops&location=India&sort_by=timestamp"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "DocuSign",
+   "host": "careers.docusign.com"
+  }
+ ],
+ "atlassian": [
+  {
+   "name": "Atlassian"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "Snowflake",
+   "host": "careers.snowflake.com",
+   "lang": "en_us",
+   "page_id": "page8",
+   "region": "us/en"
+  }
+ ]
+}

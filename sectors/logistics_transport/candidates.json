@@ -1,0 +1,293 @@
+{
+ "sector": "logistics_transport",
+ "title": "Logistics, freight, postal, rail (operators)",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "FedEx",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "UPS",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "MSC",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "CMA CGM",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Hapag-Lloyd",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "COSCO Shipping",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Ocean Network Express",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Evergreen Marine",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Yang Ming",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "ZIM",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "DB Schenker",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "CEVA Logistics",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "GXO Logistics",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Nippon Express",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Agility Logistics",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "A.P. Moller",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "GEODIS",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Lineage",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "XPO",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "J.B. Hunt",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Ryder System",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Kintetsu World Express",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "Yusen Logistics",
+   "section": 15,
+   "subgroup": ""
+  },
+  {
+   "name": "La Poste",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Poste Italiane",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Japan Post",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Royal Mail",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Deutsche Bahn",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "SNCF",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Hitachi Rail",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Stadler Rail",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "CAF",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Knorr-Bremse",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Kapsch",
+   "section": 28,
+   "subgroup": ""
+  },
+  {
+   "name": "Deutsche Post",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Union Pacific",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "CSX",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Norfolk Southern",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Landstar",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Hertz",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Avis Budget",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "DHL",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Maersk",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Kuehne+Nagel",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "DSV",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Expeditors",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "DP World",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Hellmann Worldwide Logistics",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Rhenus Logistics",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Aramex",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "C.H. Robinson",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Flexport",
+   "section": 15,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Wabtec",
+   "section": 28,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  },
+  {
+   "name": "Cubic Corporation",
+   "section": 28,
+   "subgroup": "",
+   "configured_in": "logistics_transport"
+  }
+ ]
+}

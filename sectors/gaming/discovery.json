@@ -1,0 +1,116 @@
+{
+ "Bandai Namco": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "bandainamco",
+    "name": "Bandai Namco"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "CD Projekt": [],
+ "Capcom": [],
+ "Epic Games": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "epicgames",
+    "name": "Epic Games"
+   },
+   "india_jobs": 0,
+   "site_total": 142
+  }
+ ],
+ "Konami": [],
+ "Miniclip": [],
+ "NetEase": [],
+ "Nintendo": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "nintendo",
+    "name": "Nintendo"
+   },
+   "india_jobs": 0,
+   "site_total": 74
+  }
+ ],
+ "Riot Games": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "riotgames",
+    "name": "Riot Games"
+   },
+   "india_jobs": 0,
+   "site_total": 195
+  }
+ ],
+ "Roblox": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "roblox",
+    "name": "Roblox"
+   },
+   "india_jobs": 11,
+   "site_total": 271
+  }
+ ],
+ "Rockstar Games": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "rockstargames",
+    "name": "Rockstar Games"
+   },
+   "india_jobs": 1,
+   "site_total": 15
+  }
+ ],
+ "Scopely": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "scopely",
+    "name": "Scopely"
+   },
+   "india_jobs": 10,
+   "site_total": 179
+  }
+ ],
+ "Sega": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sega.wd3.myworkdayjobs.com",
+    "tenant": "sega",
+    "site": "SEGA_Careers",
+    "name": "Sega"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  }
+ ],
+ "Sony Interactive Entertainment": [],
+ "Square Enix": [],
+ "Supercell": [],
+ "Take-Two Interactive": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "taketwo",
+    "name": "Take-Two Interactive"
+   },
+   "india_jobs": 4,
+   "site_total": 35
+  }
+ ],
+ "Ubisoft": [],
+ "Unity Technologies": [],
+ "Valve": [],
+ "Zynga": []
+}

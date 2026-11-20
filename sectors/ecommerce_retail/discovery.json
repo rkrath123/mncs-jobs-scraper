@@ -1,0 +1,625 @@
+{
+ "ASOS": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "asos",
+    "name": "ASOS"
+   },
+   "india_jobs": 0,
+   "site_total": 67
+  }
+ ],
+ "Adidas": [],
+ "Advance Auto Parts": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "advanceauto.wd5.myworkdayjobs.com",
+    "tenant": "advanceauto",
+    "site": "AdvanceExternalCareers",
+    "name": "Advance Auto Parts"
+   },
+   "india_jobs": 15,
+   "site_total": 2000,
+   "facet": true
+  }
+ ],
+ "AutoZone": [],
+ "Best Buy": [],
+ "Carrefour": [],
+ "Carvana": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "carvana",
+    "name": "Carvana"
+   },
+   "india_jobs": 0,
+   "site_total": 1638
+  }
+ ],
+ "Chewy": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "chewy.wd5.myworkdayjobs.com",
+    "tenant": "chewy",
+    "site": "Relief-Veterinarian-Contractors",
+    "name": "Chewy"
+   },
+   "india_jobs": 0,
+   "site_total": 9,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "chewy.wd5.myworkdayjobs.com",
+    "tenant": "chewy",
+    "site": "External",
+    "name": "Chewy"
+   },
+   "india_jobs": 0,
+   "site_total": 238,
+   "facet": false
+  }
+ ],
+ "Costco": [],
+ "Coupang": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "coupang",
+    "name": "Coupang"
+   },
+   "india_jobs": 39,
+   "site_total": 688
+  }
+ ],
+ "Currys": [],
+ "Decathlon": [],
+ "Dick's Sporting Goods": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dickssportinggoods.wd1.myworkdayjobs.com",
+    "tenant": "dickssportinggoods",
+    "site": "DSG",
+    "name": "Dick's Sporting Goods"
+   },
+   "india_jobs": 0,
+   "site_total": 2000,
+   "facet": false
+  }
+ ],
+ "Dollar General": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "general",
+    "name": "Dollar General"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Etsy": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "etsy.wd5.myworkdayjobs.com",
+    "tenant": "etsy",
+    "site": "Depop_Careers",
+    "name": "Etsy"
+   },
+   "india_jobs": 0,
+   "site_total": 21,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "etsy.wd5.myworkdayjobs.com",
+    "tenant": "etsy",
+    "site": "Etsy_Careers",
+    "name": "Etsy"
+   },
+   "india_jobs": 0,
+   "site_total": 68,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "etsy.wd5.myworkdayjobs.com",
+    "tenant": "etsy",
+    "site": "Private_Etsy_Careers",
+    "name": "Etsy"
+   },
+   "india_jobs": 0,
+   "site_total": 74,
+   "facet": false
+  }
+ ],
+ "Fast Retailing": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fastretailing.wd3.myworkdayjobs.com",
+    "tenant": "fastretailing",
+    "site": "graduates_au_Uniqlo",
+    "name": "Fast Retailing"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fastretailing.wd3.myworkdayjobs.com",
+    "tenant": "fastretailing",
+    "site": "store_staff_au_Uniqlo",
+    "name": "Fast Retailing"
+   },
+   "india_jobs": 0,
+   "site_total": 26,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fastretailing.wd3.myworkdayjobs.com",
+    "tenant": "fastretailing",
+    "site": "careers_cd_Uniqlo",
+    "name": "Fast Retailing"
+   },
+   "india_jobs": 0,
+   "site_total": 96,
+   "facet": false
+  }
+ ],
+ "Gap": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gapinc.wd1.myworkdayjobs.com",
+    "tenant": "gapinc",
+    "site": "gapprivate",
+    "name": "Gap"
+   },
+   "india_jobs": 0,
+   "site_total": 21,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gapinc.wd1.myworkdayjobs.com",
+    "tenant": "gapinc",
+    "site": "GAPINC",
+    "name": "Gap"
+   },
+   "india_jobs": 6,
+   "site_total": 229,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "gapinc",
+    "name": "Gap"
+   },
+   "india_jobs": 0,
+   "site_total": 11
+  }
+ ],
+ "H&M": [],
+ "Home Depot": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "homedepot.wd5.myworkdayjobs.com",
+    "tenant": "homedepot",
+    "site": "CareerDepot",
+    "name": "Home Depot"
+   },
+   "india_jobs": 0,
+   "site_total": 939,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "homedepot.wd5.myworkdayjobs.com",
+    "tenant": "homedepot",
+    "site": "CareerDepotCanada",
+    "name": "Home Depot"
+   },
+   "india_jobs": 0,
+   "site_total": 461,
+   "facet": false
+  }
+ ],
+ "IKEA": [],
+ "Inditex": [],
+ "JD.com": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "jd.wd103.myworkdayjobs.com",
+    "tenant": "jd",
+    "site": "Careers_at_JD",
+    "name": "JD.com"
+   },
+   "india_jobs": 0,
+   "site_total": 704,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "jd.wd103.myworkdayjobs.com",
+    "tenant": "jd",
+    "site": "Campus_Career_Site",
+    "name": "JD.com"
+   },
+   "india_jobs": 0,
+   "site_total": 83,
+   "facet": false
+  }
+ ],
+ "Kering": [],
+ "Kingfisher": [],
+ "Kohl's": [],
+ "LEGO": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lego.wd103.myworkdayjobs.com",
+    "tenant": "lego",
+    "site": "LEGO_External",
+    "name": "LEGO"
+   },
+   "india_jobs": 3,
+   "site_total": 411,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lego.wd103.myworkdayjobs.com",
+    "tenant": "lego",
+    "site": "LEGO_Executive",
+    "name": "LEGO"
+   },
+   "india_jobs": 3,
+   "site_total": 11,
+   "facet": true
+  }
+ ],
+ "LVMH": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "lvmh",
+    "name": "LVMH"
+   },
+   "india_jobs": 0,
+   "site_total": 4
+  }
+ ],
+ "Lowe’s": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lowes.wd5.myworkdayjobs.com",
+    "tenant": "lowes",
+    "site": "LWS_External_CS",
+    "name": "Lowe’s"
+   },
+   "india_jobs": 13,
+   "site_total": 12989,
+   "facet": false
+  }
+ ],
+ "Lululemon": [],
+ "Macy's": [],
+ "Marks & Spencer": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "spencer",
+    "name": "Marks & Spencer"
+   },
+   "india_jobs": 0,
+   "site_total": 3
+  }
+ ],
+ "Metro AG": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "metro",
+    "name": "Metro AG"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ag.wd3.myworkdayjobs.com",
+    "tenant": "ag",
+    "site": "Airbus",
+    "name": "Metro AG"
+   },
+   "india_jobs": 214,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "ag",
+    "name": "Metro AG"
+   },
+   "india_jobs": 0,
+   "site_total": 4
+  }
+ ],
+ "Next plc": [],
+ "Nike": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "nike.wd1.myworkdayjobs.com",
+    "tenant": "nike",
+    "site": "nke",
+    "name": "Nike"
+   },
+   "india_jobs": 19,
+   "site_total": 688,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "nike.wd1.myworkdayjobs.com",
+    "tenant": "nike",
+    "site": "nke2",
+    "name": "Nike"
+   },
+   "india_jobs": 0,
+   "site_total": 476,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "nike.wd1.myworkdayjobs.com",
+    "tenant": "nike",
+    "site": "nke4",
+    "name": "Nike"
+   },
+   "india_jobs": 0,
+   "site_total": 16,
+   "facet": false
+  }
+ ],
+ "Nordstrom": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "nordstrom.wd501.myworkdayjobs.com",
+    "tenant": "nordstrom",
+    "site": "nordstrom_careers",
+    "name": "Nordstrom"
+   },
+   "india_jobs": 0,
+   "site_total": 1247,
+   "facet": false
+  }
+ ],
+ "Otto Group": [],
+ "Pandora": [],
+ "Rakuten": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "rakuten.wd1.myworkdayjobs.com",
+    "tenant": "rakuten",
+    "site": "RakutenAsia",
+    "name": "Rakuten"
+   },
+   "india_jobs": 0,
+   "site_total": 20,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "rakuten.wd1.myworkdayjobs.com",
+    "tenant": "rakuten",
+    "site": "Kobo",
+    "name": "Rakuten"
+   },
+   "india_jobs": 0,
+   "site_total": 9,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "rakuten.wd1.myworkdayjobs.com",
+    "tenant": "rakuten",
+    "site": "RakutenMobile",
+    "name": "Rakuten"
+   },
+   "india_jobs": 0,
+   "site_total": 50,
+   "facet": false
+  }
+ ],
+ "Richemont": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "richemont.wd3.myworkdayjobs.com",
+    "tenant": "richemont",
+    "site": "broadbean_external",
+    "name": "Richemont"
+   },
+   "india_jobs": 0,
+   "site_total": 507,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "richemont.wd3.myworkdayjobs.com",
+    "tenant": "richemont",
+    "site": "richemont",
+    "name": "Richemont"
+   },
+   "india_jobs": 3,
+   "site_total": 1358,
+   "facet": true
+  }
+ ],
+ "Ross Stores": [],
+ "SHEIN": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "shein",
+    "name": "SHEIN"
+   },
+   "india_jobs": 0,
+   "site_total": 17
+  }
+ ],
+ "TJX": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tjx.wd1.myworkdayjobs.com",
+    "tenant": "tjx",
+    "site": "TJX_EXTERNAL",
+    "name": "TJX"
+   },
+   "india_jobs": 10,
+   "site_total": 10727,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tjx.wd1.myworkdayjobs.com",
+    "tenant": "tjx",
+    "site": "TJX_PRIVATE_POSTINGS",
+    "name": "TJX"
+   },
+   "india_jobs": 0,
+   "site_total": 1850,
+   "facet": false
+  }
+ ],
+ "Target": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "target.wd5.myworkdayjobs.com",
+    "tenant": "target",
+    "site": "targetcareers",
+    "name": "Target"
+   },
+   "india_jobs": 63,
+   "site_total": 2000,
+   "facet": true
+  }
+ ],
+ "Temu": [],
+ "Tesco": [],
+ "Ulta Beauty": [],
+ "Uniqlo": [],
+ "Walmart": [],
+ "Wayfair": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "wayfair",
+    "name": "Wayfair"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Williams-Sonoma": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "williams.wd5.myworkdayjobs.com",
+    "tenant": "williams",
+    "site": "External",
+    "name": "Williams-Sonoma"
+   },
+   "india_jobs": 0,
+   "site_total": 131,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "williams.wd5.myworkdayjobs.com",
+    "tenant": "williams",
+    "site": "PowerExternal",
+    "name": "Williams-Sonoma"
+   },
+   "india_jobs": 0,
+   "site_total": 28,
+   "facet": false
+  }
+ ],
+ "Zalando": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zalando.wd3.myworkdayjobs.com",
+    "tenant": "zalando",
+    "site": "ZalandoSiteWD",
+    "name": "Zalando"
+   },
+   "india_jobs": 0,
+   "site_total": 166,
+   "facet": false
+  }
+ ],
+ "eBay": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ebay.wd5.myworkdayjobs.com",
+    "tenant": "ebay",
+    "site": "TCGPlayer_External_Career",
+    "name": "eBay"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ebay.wd5.myworkdayjobs.com",
+    "tenant": "ebay",
+    "site": "apply",
+    "name": "eBay"
+   },
+   "india_jobs": 102,
+   "site_total": 292,
+   "facet": true
+  }
+ ]
+}

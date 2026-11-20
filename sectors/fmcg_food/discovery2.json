@@ -1,0 +1,735 @@
+{
+ "ADM": {
+  "hosts": [
+   "careers.adm.com",
+   "www.adm.com",
+   "adm.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "brassring"
+  ]
+ },
+ "Altria": {
+  "hosts": [
+   "careers.altria.com",
+   "jobs.altria.com",
+   "www.altria.com",
+   "altria.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Anheuser-Busch InBev": {
+  "hosts": [
+   "www.abinbev.com",
+   "abinbev.com",
+   "www.ab-inbev.com",
+   "ab-inbev.com",
+   "www.anheuserbuschinbev.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Arla Foods": {
+  "hosts": [
+   "careers.arlafoods.com",
+   "jobs.arlafoods.com",
+   "www.arlafoods.com",
+   "arlafoods.com",
+   "careers.arla-foods.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Barry Callebaut": {
+  "hosts": [
+   "www.barrycallebaut.com",
+   "barrycallebaut.com",
+   "careers.barry-callebaut.com",
+   "jobs.barry-callebaut.com",
+   "www.barry-callebaut.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Beiersdorf": {
+  "hosts": [
+   "careers.beiersdorf.com",
+   "www.beiersdorf.com",
+   "beiersdorf.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "British American Tobacco": {
+  "hosts": [
+   "careers.bat.com",
+   "www.bat.com",
+   "bat.com",
+   "www.britishamericantobacco.com",
+   "britishamericantobacco.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "successfactors-page"
+  ]
+ },
+ "Brown-Forman": {
+  "hosts": [
+   "careers.brown-forman.com",
+   "jobs.brown-forman.com",
+   "www.brown-forman.com",
+   "brown-forman.com",
+   "www.brownforman.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bunge": {
+  "hosts": [
+   "jobs.bunge.com",
+   "www.bunge.com",
+   "bunge.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Campbell": {
+  "hosts": [
+   "www.campbells.com",
+   "campbells.com",
+   "www.campbellsoup.com",
+   "campbellsoup.com",
+   "www.campbell.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cargill": {
+  "hosts": [
+   "careers.cargill.com",
+   "jobs.cargill.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Cargill",
+     "host": "jobs.cargill.com"
+    },
+    "india_jobs": 20,
+    "found_on": "jobs.cargill.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Church & Dwight": {
+  "hosts": [
+   "careers.churchdwight.com",
+   "jobs.churchdwight.com",
+   "www.churchdwight.com",
+   "churchdwight.com",
+   "careers.church-dwight.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Clorox": {
+  "hosts": [
+   "www.clorox.com",
+   "clorox.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Coca-Cola": {
+  "hosts": [
+   "www.cocacola.com",
+   "cocacola.com",
+   "www.coca-cola.com",
+   "coca-cola.com",
+   "www.coca.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Colgate-Palmolive": {
+  "hosts": [
+   "jobs.colgate.com",
+   "www.colgate.com",
+   "colgate.com",
+   "www.colgatepalmolive.com",
+   "colgatepalmolive.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Conagra Brands": {
+  "hosts": [
+   "careers.conagrabrands.com",
+   "www.conagrabrands.com",
+   "conagrabrands.com",
+   "jobs.conagra.com",
+   "www.conagra.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Conagra Brands",
+     "host": "careers.conagrabrands.com",
+     "lang": "en_us",
+     "page_id": "page8",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.conagrabrands.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Constellation Brands": {
+  "hosts": [
+   "www.constellationbrands.com",
+   "constellationbrands.com",
+   "www.constellation-brands.com",
+   "constellation-brands.com",
+   "careers.constellation.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Costa Coffee": {
+  "hosts": [
+   "www.costacoffee.com",
+   "costacoffee.com",
+   "costa-coffee.com",
+   "careers.costa.com",
+   "jobs.costa.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Coty": {
+  "hosts": [
+   "careers.coty.com",
+   "www.coty.com",
+   "coty.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Coty",
+     "host": "careers.coty.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.coty.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Danone": {
+  "hosts": [
+   "careers.danone.com",
+   "jobs.danone.com",
+   "www.danone.com",
+   "danone.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Domino’s Pizza": {
+  "hosts": [
+   "www.dominospizza.com",
+   "dominospizza.com",
+   "www.domino.com",
+   "domino.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Dunkin’": {
+  "hosts": [
+   "www.dunkin.com",
+   "dunkin.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Edgewell Personal Care": {
+  "hosts": [
+   "careers.edgewell.com",
+   "www.edgewell.com",
+   "edgewell.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Estée Lauder": {
+  "hosts": [
+   "careers.elcompanies.com",
+   "www.elcompanies.com",
+   "elcompanies.com",
+   "www.esteelauder.com",
+   "esteelauder.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Estée Lauder",
+     "host": "elcompanies.eightfold.ai",
+     "domain": "elcompanies.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.elcompanies.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Ferrero": {
+  "hosts": [
+   "jobs.ferrero.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Ferrero",
+     "host": "jobs.ferrero.com"
+    },
+    "india_jobs": 2,
+    "found_on": "jobs.ferrero.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Fonterra": {
+  "hosts": [
+   "careers.fonterra.com",
+   "www.fonterra.com",
+   "fonterra.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "FrieslandCampina": {
+  "hosts": [
+   "careers.frieslandcampina.com",
+   "www.frieslandcampina.com",
+   "frieslandcampina.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "General Mills": {
+  "hosts": [
+   "careers.generalmills.com",
+   "www.generalmills.com",
+   "generalmills.com",
+   "www.general-mills.com",
+   "general-mills.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Henkel": {
+  "hosts": [
+   "careers.henkel.com",
+   "jobs.henkel.com",
+   "www.henkel.com",
+   "henkel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hershey": {
+  "hosts": [
+   "careers.thehersheycompany.com",
+   "www.thehersheycompany.com",
+   "thehersheycompany.com",
+   "www.hershey.com",
+   "hershey.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hormel": {
+  "hosts": [
+   "www.hormel.com",
+   "hormel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "J.M. Smucker": {
+  "hosts": [
+   "jobs.jmsmucker.com",
+   "www.jmsmucker.com",
+   "jmsmucker.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kellogg / Kellanova": {
+  "hosts": [
+   "jobs.kellogg.com",
+   "www.kellogg.com",
+   "kellogg.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kerry Group": {
+  "hosts": [
+   "jobs.kerry.com",
+   "www.kerry.com",
+   "kerry.com",
+   "www.kerrygroup.com",
+   "kerrygroup.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Kerry Group",
+     "host": "jobs.kerry.com",
+     "lang": "en_gb",
+     "page_id": "page1",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.kerry.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Keurig Dr Pepper": {
+  "hosts": [
+   "www.kdp.com",
+   "kdp.com",
+   "careers.keurigdrpepper.com",
+   "www.keurigdrpepper.com",
+   "keurigdrpepper.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Keurig Dr Pepper",
+     "host": "kdrp.eightfold.ai",
+     "domain": "kdrp.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.keurigdrpepper.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Krispy Kreme": {
+  "hosts": [
+   "www.krispykreme.com",
+   "krispykreme.com",
+   "www.krispy-kreme.com",
+   "krispy-kreme.com",
+   "www.krispy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lactalis": {
+  "hosts": [
+   "www.lactalis.com",
+   "lactalis.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lamb Weston": {
+  "hosts": [
+   "careers.lambweston.com",
+   "www.lambweston.com",
+   "lambweston.com",
+   "careers.lamb-weston.com",
+   "jobs.lamb-weston.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "L’Oréal": {
+  "hosts": [
+   "careers.loreal.com",
+   "www.loreal.com",
+   "loreal.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "McCormick": {
+  "hosts": [
+   "careers.mccormick.com",
+   "www.mccormick.com",
+   "mccormick.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "McDonald’s": {
+  "hosts": [
+   "careers.mcdonalds.com",
+   "jobs.mcdonalds.com",
+   "www.mcdonalds.com",
+   "mcdonalds.com",
+   "www.mcdonald-s.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Molson Coors": {
+  "hosts": [
+   "careers.molsoncoors.com",
+   "jobs.molsoncoors.com",
+   "www.molsoncoors.com",
+   "molsoncoors.com",
+   "www.molson.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Molson Coors",
+     "host": "careers.molsoncoors.com",
+     "lang": "en_us",
+     "page_id": "page19",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.molsoncoors.com"
+   },
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Molson Coors",
+     "host": "jobs.molsoncoors.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.molsoncoors.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Mondelez International": {
+  "hosts": [
+   "www.mondelez.com",
+   "mondelez.com",
+   "careers.mondelezinternational.com",
+   "jobs.mondelezinternational.com",
+   "www.mondelezinternational.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Monster Beverage": {
+  "hosts": [
+   "careers.monsterbeverage.com",
+   "jobs.monsterbeverage.com",
+   "www.monsterbeverage.com",
+   "monsterbeverage.com",
+   "careers.monster.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nestlé": {
+  "hosts": [
+   "jobs.nestle.com",
+   "www.nestle.com",
+   "nestle.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Olam Group": {
+  "hosts": [
+   "www.olam.com",
+   "olam.com",
+   "careers.olamgroup.com",
+   "www.olamgroup.com",
+   "olamgroup.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Olam Group",
+     "host": "careers.olamgroup.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.olamgroup.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Papa Johns": {
+  "hosts": [
+   "jobs.papajohns.com",
+   "www.papajohns.com",
+   "papajohns.com",
+   "www.papa-johns.com",
+   "papa-johns.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Philip Morris International": {
+  "hosts": [
+   "www.pmi.com",
+   "pmi.com",
+   "www.philipmorris.com",
+   "philipmorris.com",
+   "www.philip-morris.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Reckitt": {
+  "hosts": [
+   "careers.reckitt.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Reckitt",
+     "host": "careers.reckitt.com"
+    },
+    "india_jobs": 20,
+    "found_on": "careers.reckitt.com"
+   }
+  ],
+  "unsupported": [
+   "successfactors-page"
+  ]
+ },
+ "Restaurant Brands International": {
+  "hosts": [
+   "www.restaurantbrands.com",
+   "restaurantbrands.com",
+   "careers.restaurant.com",
+   "jobs.restaurant.com",
+   "www.restaurant.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SC Johnson": {
+  "hosts": [
+   "jobs.scjohnson.com",
+   "www.scjohnson.com",
+   "scjohnson.com",
+   "careers.sc-johnson.com",
+   "jobs.sc-johnson.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Shake Shack": {
+  "hosts": [
+   "careers.shakeshack.com",
+   "jobs.shakeshack.com",
+   "www.shakeshack.com",
+   "shakeshack.com",
+   "careers.shake-shack.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Shiseido": {
+  "hosts": [
+   "careers.shiseido.com",
+   "www.shiseido.com",
+   "shiseido.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Shiseido",
+     "host": "careers.shiseido.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.shiseido.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Starbucks": {
+  "hosts": [
+   "careers.starbucks.com",
+   "jobs.starbucks.com",
+   "www.starbucks.com",
+   "starbucks.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Starbucks",
+     "host": "starbucks.eightfold.ai",
+     "domain": "starbucks.com",
+     "api": "pcsx"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.starbucks.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Subway": {
+  "hosts": [
+   "careers.subway.com",
+   "www.subway.com",
+   "subway.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tate & Lyle": {
+  "hosts": [
+   "www.tatelyle.com",
+   "tatelyle.com",
+   "www.tate.com",
+   "tate.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Wendy’s": {
+  "hosts": [
+   "careers.wendys.com",
+   "jobs.wendys.com",
+   "www.wendys.com",
+   "wendys.com",
+   "www.wendy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Yum! Brands": {
+  "hosts": [
+   "jobs.yum.com",
+   "www.yum.com",
+   "yum.com",
+   "careers.yumbrands.com",
+   "jobs.yumbrands.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

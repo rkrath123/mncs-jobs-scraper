@@ -1,0 +1,612 @@
+{
+ "_note": "Product-based companies only. No consultancies / IT-services / BPO / EPC / inspection / CRO / staffing. Edit this file and re-run `python3 tools/build_candidates.py` to change what is a candidate.",
+ "rule": "product_based_only",
+ "sectors": {
+  "software_cloud": {
+   "tier": 1,
+   "title": "Cloud, enterprise software, SaaS, infrastructure vendors"
+  },
+  "cybersecurity": {
+   "tier": 1,
+   "title": "Cybersecurity, identity, risk technology"
+  },
+  "semiconductors_hardware": {
+   "tier": 1,
+   "title": "Semiconductors, electronics, EDA, devices"
+  },
+  "telecom_networking": {
+   "tier": 1,
+   "title": "Telecom operators, network equipment, telecom software"
+  },
+  "healthcare_pharma": {
+   "tier": 2,
+   "title": "Pharma, biotech, medical devices, health data"
+  },
+  "automotive": {
+   "tier": 2,
+   "title": "Automotive OEMs, suppliers, EV"
+  },
+  "industrial_manufacturing": {
+   "tier": 2,
+   "title": "Industrial automation, machinery, electronics manufacturing, IoT software"
+  },
+  "aerospace_defence": {
+   "tier": 2,
+   "title": "Aerospace, defence, space"
+  },
+  "ecommerce_retail": {
+   "tier": 2,
+   "title": "E-commerce, retail technology, consumer platforms"
+  },
+  "media_entertainment": {
+   "tier": 2,
+   "title": "Media, OTT, social platforms, music"
+  },
+  "gaming": {
+   "tier": 2,
+   "title": "Gaming and interactive entertainment"
+  },
+  "data_information": {
+   "tier": 2,
+   "title": "Data, analytics, information services, legal tech"
+  },
+  "travel_tech": {
+   "tier": 2,
+   "title": "Online travel and travel technology"
+  },
+  "education_publishing": {
+   "tier": 3,
+   "title": "Education, publishing, edtech"
+  },
+  "chemicals_materials": {
+   "tier": 3,
+   "title": "Chemicals, materials"
+  },
+  "mining_metals": {
+   "tier": 3,
+   "title": "Mining, metals"
+  },
+  "agriculture": {
+   "tier": 3,
+   "title": "Agriculture, agritech, farm equipment"
+  },
+  "fmcg_food": {
+   "tier": 3,
+   "title": "FMCG, food, beverage (operators/restaurants included)"
+  },
+  "fashion_lifestyle": {
+   "tier": 3,
+   "title": "Fashion, luxury, sports"
+  },
+  "logistics_transport": {
+   "tier": 3,
+   "title": "Logistics, freight, postal, rail (operators)"
+  },
+  "airlines_aviation": {
+   "tier": 3,
+   "title": "Airlines and airport / aviation operators"
+  },
+  "hospitality": {
+   "tier": 3,
+   "title": "Hotels and hospitality (operators)"
+  },
+  "security_systems": {
+   "tier": 3,
+   "title": "Physical security and access systems"
+  },
+  "water_environment": {
+   "tier": 3,
+   "title": "Water and environmental services"
+  }
+ },
+ "_already_done": [
+  "energy",
+  "fintech"
+ ],
+ "section_to_sector": {
+  "1": "energy",
+  "30": "energy",
+  "2": "fintech",
+  "3": "fintech",
+  "4": "fintech",
+  "5": "telecom_networking",
+  "6": "aerospace_defence",
+  "7": "semiconductors_hardware",
+  "8": "healthcare_pharma",
+  "9": "industrial_manufacturing",
+  "33": "industrial_manufacturing",
+  "10": "automotive",
+  "11": "software_cloud",
+  "12": "cybersecurity",
+  "13": "airlines_aviation",
+  "14": "ecommerce_retail",
+  "15": "logistics_transport",
+  "28": "logistics_transport",
+  "16": "travel_tech",
+  "17": "media_entertainment",
+  "18": "gaming",
+  "19": "fmcg_food",
+  "20": "education_publishing",
+  "23": "chemicals_materials",
+  "24": "mining_metals",
+  "25": "agriculture",
+  "26": "water_environment",
+  "27": "fashion_lifestyle",
+  "29": "security_systems",
+  "32": "data_information"
+ },
+ "excluded_sections": {
+  "21": "consulting_it_services",
+  "22": "real_estate_facility_services",
+  "31": "bpo_cx_services",
+  "35": "india_origin"
+ },
+ "subheading_to_sector": {
+  "Legal technology and compliance": "data_information",
+  "Digital advertising and marketing technology": "software_cloud",
+  "Payments, identity and fraud prevention": "fintech",
+  "Hotels and hospitality": "hospitality",
+  "Online travel and travel technology": "travel_tech",
+  "Restaurant and food-service chains": "fmcg_food",
+  "Airline IT, aviation systems and airport technology": "software_cloud",
+  "Space, satellite and geospatial": "aerospace_defence"
+ },
+ "name_to_sector": {
+  "dell technologies": "software_cloud",
+  "hewlett packard enterprise": "software_cloud",
+  "hpe": "software_cloud",
+  "lenovo": "semiconductors_hardware",
+  "netapp": "software_cloud",
+  "pure storage": "software_cloud",
+  "nutanix": "software_cloud",
+  "equinix": "software_cloud",
+  "digital realty": "software_cloud",
+  "vertiv": "industrial_manufacturing",
+  "supermicro": "semiconductors_hardware",
+  "apple": "software_cloud",
+  "samsung": "semiconductors_hardware",
+  "microsoft": "software_cloud",
+  "bloomberg": "fintech",
+  "thomson reuters": "data_information",
+  "relx": "data_information",
+  "wolters kluwer": "data_information",
+  "elsevier": "data_information",
+  "iqvia": "healthcare_pharma",
+  "optum": "healthcare_pharma",
+  "unitedhealth group": "healthcare_pharma",
+  "cigna": "healthcare_pharma",
+  "sabre": "travel_tech",
+  "amadeus": "travel_tech",
+  "travelport": "travel_tech",
+  "sita": "travel_tech",
+  "keysight technologies": "semiconductors_hardware",
+  "motorola solutions": "telecom_networking",
+  "palo alto networks": "cybersecurity",
+  "f5": "cybersecurity",
+  "thales": "aerospace_defence",
+  "garmin": "semiconductors_hardware",
+  "trimble": "industrial_manufacturing",
+  "hexagon": "industrial_manufacturing",
+  "ansys": "semiconductors_hardware",
+  "dassault systemes": "software_cloud",
+  "ptc": "software_cloud",
+  "mathworks": "software_cloud",
+  "altair": "software_cloud",
+  "meta": "media_entertainment",
+  "canva": "software_cloud",
+  "unity technologies": "gaming",
+  "pearson vue": "education_publishing"
+ },
+ "renames": {
+  "jpmorgan chase": "JPMorganChase",
+  "citigroup": "Citi",
+  "royal bank of canada": "RBC",
+  "toronto-dominion bank": "TD",
+  "commonwealth bank of australia": "Commonwealth Bank",
+  "mitsubishi ufj financial group": "MUFG",
+  "sumitomo mitsui financial group": "SMBC",
+  "dbs": "DBS Bank",
+  "london stock exchange group": "LSEG",
+  "refinitiv": "LSEG",
+  "intercontinental exchange": "ICE",
+  "societe generale": "Societe Generale",
+  "bank of new york mellon": "BNY",
+  "credit suisse": "UBS",
+  "j.p. morgan asset management": "JPMorganChase",
+  "morgan stanley investment management": "Morgan Stanley",
+  "allianz global investors": "Allianz",
+  "amazon web services": "Amazon",
+  "amazon ads": "Amazon",
+  "amazon prime video": "Amazon",
+  "twitch": "Amazon",
+  "aws iot": "Amazon",
+  "microsoft azure": "Microsoft",
+  "microsoft xbox": "Microsoft",
+  "activision blizzard": "Microsoft",
+  "microsoft azure iot": "Microsoft",
+  "azure iot": "Microsoft",
+  "google cloud": "Google",
+  "youtube": "Google",
+  "mandiant": "Google",
+  "oracle cloud": "Oracle",
+  "ibm cloud": "IBM",
+  "red hat": "IBM",
+  "vmware": "Broadcom",
+  "slack": "Salesforce",
+  "honeywell process solutions": "Honeywell",
+  "honeywell aerospace": "Honeywell",
+  "honeywell building technologies": "Honeywell",
+  "rolls-royce power systems": "Rolls-Royce",
+  "siemens eda": "Siemens",
+  "siemens digital industries software": "Siemens",
+  "siemens smart infrastructure": "Siemens",
+  "siemens mobility": "Siemens",
+  "collins aerospace": "RTX",
+  "raytheon": "RTX",
+  "pratt & whitney": "RTX",
+  "linde engineering": "Linde",
+  "air liquide engineering & construction": "Air Liquide",
+  "m-i swaco": "SLB",
+  "slb": "SLB",
+  "bollore logistics": "CEVA Logistics",
+  "cisco iot": "Cisco",
+  "ptc thingworx": "PTC",
+  "apple tv+": "Apple",
+  "apple retail": "Apple",
+  "sephora": "LVMH",
+  "booking.com": "Booking Holdings",
+  "amadeus it group": "Amadeus",
+  "navitaire": "Amadeus",
+  "sanofi pasteur": "Sanofi",
+  "playstation studios": "Sony Interactive Entertainment",
+  "tencent games": "Tencent",
+  "netease games": "NetEase",
+  "g4s": "Allied Universal",
+  "bosch security systems": "Bosch",
+  "pearson vue": "Pearson",
+  "educational testing service": "ETS",
+  "lexisnexis risk solutions": "LexisNexis",
+  "jll technologies": "JLL",
+  "bayer crop science": "Bayer",
+  "basf agricultural solutions": "BASF",
+  "agco precision agriculture": "AGCO",
+  "dupont water solutions": "DuPont",
+  "nice actimize": "NICE",
+  "samsung networks": "Samsung",
+  "samsung semiconductor": "Samsung",
+  "sony semiconductor solutions": "Sony",
+  "sony pictures entertainment": "Sony",
+  "sony music entertainment": "Sony",
+  "sony interactive entertainment": "Sony",
+  "fujifilm healthcare": "Fujifilm",
+  "hitachi energy": "Hitachi Energy",
+  "ge aerospace": "GE Aerospace",
+  "ge healthcare": "GE HealthCare",
+  "tiktok": "ByteDance",
+  "bytedance": "ByteDance",
+  "huawei cloud": "Huawei",
+  "huawei digital power": "Huawei",
+  "alibaba cloud": "Alibaba",
+  "aliexpress": "Alibaba",
+  "tencent cloud": "Tencent",
+  "tim hortons": "Restaurant Brands International",
+  "burger king": "Restaurant Brands International",
+  "popeyes": "Restaurant Brands International",
+  "dunkin": "Dunkin'",
+  "bell textron": "Textron",
+  "airbus defence and space": "Airbus",
+  "cambridge university press & assessment": "Cambridge University Press"
+ },
+ "exclude_names": {
+  "epc_engineering_services": [
+   "technip energies",
+   "worley",
+   "wood",
+   "fluor",
+   "kbr",
+   "petrofac",
+   "mcdermott",
+   "bechtel",
+   "jacobs",
+   "atkinsrealis",
+   "jgc corporation",
+   "chiyoda corporation",
+   "samsung e&a",
+   "hyundai engineering",
+   "black & veatch",
+   "mott macdonald",
+   "bilfinger",
+   "aecom",
+   "arcadis",
+   "saipem",
+   "enermech",
+   "subsea7",
+   "fugro",
+   "parsons",
+   "stantec",
+   "wsp",
+   "ramboll",
+   "erm",
+   "tetra tech",
+   "turner & townsend",
+   "mace",
+   "avl",
+   "fev",
+   "bertrandt",
+   "edag",
+   "aker solutions"
+  ],
+  "drilling_contractors": [
+   "transocean",
+   "valaris",
+   "helix energy solutions"
+  ],
+  "inspection_certification": [
+   "dnv",
+   "bureau veritas",
+   "sgs",
+   "intertek",
+   "tuv sud",
+   "tuv"
+  ],
+  "cro_outsourcing": [
+   "icon",
+   "parexel",
+   "syneos health",
+   "charles river laboratories",
+   "labcorp",
+   "eurofins"
+  ],
+  "consulting_advisory": [
+   "aon",
+   "marsh mclennan",
+   "gallagher",
+   "willis towers watson",
+   "howden",
+   "gartner",
+   "forrester",
+   "idc",
+   "kantar",
+   "epiq",
+   "csc",
+   "nielsen"
+  ],
+  "it_services": [
+   "ntt data",
+   "kyndryl",
+   "fujitsu",
+   "lufthansa systems",
+   "keywords studios",
+   "orange business",
+   "t-systems"
+  ],
+  "staffing_security_services": [
+   "securitas",
+   "allied universal",
+   "brink's",
+   "prosegur",
+   "verisure",
+   "iss",
+   "sodexo",
+   "compass group"
+  ]
+ },
+ "india_origin_markers": [
+  "india-origin",
+  "indian company",
+  "indian-origin"
+ ],
+ "additions_forbes2000_2026": {
+  "_note": "Product companies from data/forbes_2000_2026.csv that the directory lacks and that have an India presence (GCC / engineering centre).",
+  "software_cloud": [
+   "Snowflake",
+   "Uber",
+   "Automatic Data Processing"
+  ],
+  "semiconductors_hardware": [
+   "SanDisk",
+   "Lumentum",
+   "Coherent",
+   "Corning",
+   "Cerebras Systems"
+  ],
+  "healthcare_pharma": [
+   "McKesson",
+   "Cardinal Health",
+   "Cencora",
+   "Intuitive",
+   "IDEXX Laboratories",
+   "Lonza",
+   "CVS Health",
+   "EssilorLuxottica"
+  ],
+  "fmcg_food": [
+   "Diageo",
+   "Anheuser-Busch InBev",
+   "British American Tobacco",
+   "Philip Morris International"
+  ],
+  "ecommerce_retail": [
+   "Target",
+   "TJX",
+   "Fast Retailing"
+  ],
+  "industrial_manufacturing": [
+   "Ametek",
+   "Illinois Tool Works",
+   "Paccar"
+  ],
+  "aerospace_defence": [
+   "TransDigm",
+   "General Dynamics",
+   "Howmet Aerospace"
+  ],
+  "logistics_transport": [
+   "Deutsche Post"
+  ]
+ },
+ "additions_fortune1000": {
+  "_note": "Product companies from data/fortune_1000.csv (older US list) missing from the directory, with plausible India engineering/GCC presence.",
+  "software_cloud": [
+   "Alphabet",
+   "Meta",
+   "HP",
+   "Xerox",
+   "NCR",
+   "Roper Technologies",
+   "GoDaddy",
+   "Zillow",
+   "Lyft",
+   "Pitney Bowes",
+   "Gen Digital",
+   "Avaya",
+   "Zebra Technologies"
+  ],
+  "semiconductors_hardware": [
+   "ON Semiconductor",
+   "Skyworks Solutions",
+   "Qorvo",
+   "Super Micro Computer",
+   "Amkor Technology",
+   "Mettler-Toledo"
+  ],
+  "healthcare_pharma": [
+   "Elevance Health",
+   "Humana",
+   "Centene",
+   "Labcorp",
+   "Quest Diagnostics",
+   "Zoetis",
+   "Elanco",
+   "Align Technology",
+   "Teleflex",
+   "Catalent",
+   "Dentsply Sirona",
+   "Henry Schein",
+   "Bruker",
+   "Revvity",
+   "Avantor",
+   "Bio-Rad Laboratories"
+  ],
+  "aerospace_defence": [
+   "RTX",
+   "Huntington Ingalls Industries",
+   "Teledyne Technologies",
+   "Woodward",
+   "HEICO"
+  ],
+  "automotive": [
+   "Goodyear",
+   "Tenneco",
+   "Dana",
+   "Allison Transmission",
+   "Harley-Davidson",
+   "Polaris",
+   "Modine"
+  ],
+  "telecom_networking": [
+   "Charter Communications",
+   "Lumen Technologies",
+   "Zayo"
+  ],
+  "industrial_manufacturing": [
+   "Whirlpool",
+   "Fortive",
+   "Dover",
+   "Hubbell",
+   "Lennox",
+   "Timken",
+   "Lincoln Electric",
+   "Nordson",
+   "Belden",
+   "Terex",
+   "Oshkosh",
+   "Stanley Black & Decker",
+   "Newell Brands",
+   "Masco",
+   "Mattel",
+   "Hasbro",
+   "EnerSys",
+   "Crane"
+  ],
+  "chemicals_materials": [
+   "Air Products",
+   "Albemarle",
+   "International Flavors & Fragrances",
+   "Mosaic",
+   "Avery Dennison",
+   "Ball Corporation",
+   "Crown Holdings",
+   "Sealed Air",
+   "Owens Corning",
+   "International Paper",
+   "Berry Global",
+   "AptarGroup",
+   "Carlisle",
+   "Chemours"
+  ],
+  "fmcg_food": [
+   "Tyson Foods",
+   "Keurig Dr Pepper",
+   "Hershey",
+   "Campbell",
+   "Hormel",
+   "Constellation Brands",
+   "Altria",
+   "Monster Beverage",
+   "Brown-Forman",
+   "Molson Coors",
+   "J.M. Smucker",
+   "Lamb Weston"
+  ],
+  "ecommerce_retail": [
+   "Dollar General",
+   "Macy's",
+   "Gap",
+   "Ross Stores",
+   "Nordstrom",
+   "Kohl's",
+   "Ulta Beauty",
+   "AutoZone",
+   "Williams-Sonoma",
+   "Chewy",
+   "Carvana",
+   "Dick's Sporting Goods",
+   "Advance Auto Parts"
+  ],
+  "fashion_lifestyle": [
+   "Ralph Lauren",
+   "Tapestry",
+   "Hanesbrands",
+   "Skechers",
+   "Columbia Sportswear",
+   "Deckers"
+  ],
+  "logistics_transport": [
+   "Union Pacific",
+   "CSX",
+   "Norfolk Southern",
+   "J.B. Hunt",
+   "C.H. Robinson",
+   "Landstar",
+   "Hertz",
+   "Avis Budget"
+  ],
+  "airlines_aviation": [
+   "Southwest Airlines",
+   "Alaska Air"
+  ],
+  "media_entertainment": [
+   "Warner Bros. Discovery",
+   "Paramount",
+   "News Corp",
+   "Live Nation"
+  ],
+  "fintech": [
+   "Paychex",
+   "Corpay",
+   "Euronet",
+   "Bread Financial"
+  ]
+ }
+}

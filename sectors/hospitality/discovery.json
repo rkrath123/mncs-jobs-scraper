@@ -1,0 +1,110 @@
+{
+ "Accor": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "accor",
+    "name": "Accor"
+   },
+   "india_jobs": 0,
+   "site_total": 530
+  }
+ ],
+ "Best Western": [],
+ "Choice Hotels": [],
+ "Four Seasons": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fourseasons.wd3.myworkdayjobs.com",
+    "tenant": "fourseasons",
+    "site": "search",
+    "name": "Four Seasons"
+   },
+   "india_jobs": 7,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fourseasons.wd3.myworkdayjobs.com",
+    "tenant": "fourseasons",
+    "site": "MIT",
+    "name": "Four Seasons"
+   },
+   "india_jobs": 0,
+   "site_total": 29,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "fourseasons",
+    "name": "Four Seasons"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Hilton": [],
+ "Hyatt": [],
+ "IHG Hotels & Resorts": [],
+ "Mandarin Oriental": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mandarinoriental.wd3.myworkdayjobs.com",
+    "tenant": "mandarinoriental",
+    "site": "MO",
+    "name": "Mandarin Oriental"
+   },
+   "india_jobs": 0,
+   "site_total": 590,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mandarinoriental.wd3.myworkdayjobs.com",
+    "tenant": "mandarinoriental",
+    "site": "Internal",
+    "name": "Mandarin Oriental"
+   },
+   "india_jobs": 0,
+   "site_total": 520,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mandarinoriental.wd3.myworkdayjobs.com",
+    "tenant": "mandarinoriental",
+    "site": "MOHotelSchoolcareersite",
+    "name": "Mandarin Oriental"
+   },
+   "india_jobs": 0,
+   "site_total": 81,
+   "facet": false
+  }
+ ],
+ "Marriott International": [],
+ "Meliá Hotels International": [],
+ "Minor Hotels": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "minor.wd102.myworkdayjobs.com",
+    "tenant": "minor",
+    "site": "Careers",
+    "name": "Minor Hotels"
+   },
+   "india_jobs": 15,
+   "site_total": 2000,
+   "facet": true
+  }
+ ],
+ "Radisson Hotel Group": [],
+ "Shangri-La": [],
+ "Wyndham Hotels & Resorts": []
+}

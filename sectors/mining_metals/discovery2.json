@@ -1,0 +1,256 @@
+{
+ "Alcoa": {
+  "hosts": [
+   "jobs.alcoa.com",
+   "www.alcoa.com",
+   "alcoa.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Anglo American": {
+  "hosts": [
+   "jobs.angloamerican.com",
+   "www.angloamerican.com",
+   "angloamerican.com",
+   "www.anglo-american.com",
+   "anglo-american.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ArcelorMittal": {
+  "hosts": [
+   "www.arcelormittal.com",
+   "arcelormittal.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Aurubis": {
+  "hosts": [
+   "careers.aurubis.com",
+   "jobs.aurubis.com",
+   "www.aurubis.com",
+   "aurubis.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "BHP": {
+  "hosts": [
+   "careers.bhp.com",
+   "www.bhp.com",
+   "bhp.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Barrick Mining": {
+  "hosts": [
+   "careers.barrick.com",
+   "jobs.barrick.com",
+   "www.barrick.com",
+   "barrick.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Epiroc": {
+  "hosts": [
+   "www.epiroc.com",
+   "epiroc.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Freeport-McMoRan": {
+  "hosts": [
+   "jobs.fcx.com",
+   "www.fcx.com",
+   "fcx.com",
+   "www.freeportmcmoran.com",
+   "freeportmcmoran.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Glencore": {
+  "hosts": [
+   "www.glencore.com",
+   "glencore.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "JFE Steel": {
+  "hosts": [
+   "careers.jfesteel.com",
+   "jobs.jfesteel.com",
+   "www.jfesteel.com",
+   "jfesteel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Metso": {
+  "hosts": [
+   "careers.metso.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Metso",
+     "host": "careers.metso.com"
+    },
+    "india_jobs": 14,
+    "found_on": "careers.metso.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Newmont": {
+  "hosts": [
+   "jobs.newmont.com",
+   "www.newmont.com",
+   "newmont.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Newmont",
+     "host": "jobs.newmont.com",
+     "lang": "en_us",
+     "page_id": "page15",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.newmont.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Nippon Steel": {
+  "hosts": [
+   "www.nipponsteel.com",
+   "www.nippon.com",
+   "nippon.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Norsk Hydro": {
+  "hosts": [
+   "www.norskhydro.com",
+   "norskhydro.com",
+   "www.norsk-hydro.com",
+   "norsk-hydro.com",
+   "www.norsk.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nucor": {
+  "hosts": [
+   "careers.nucor.com",
+   "jobs.nucor.com",
+   "www.nucor.com",
+   "nucor.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Outokumpu": {
+  "hosts": [
+   "careers.outokumpu.com",
+   "www.outokumpu.com",
+   "outokumpu.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "POSCO": {
+  "hosts": [
+   "www.posco.com",
+   "posco.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SSAB": {
+  "hosts": [
+   "www.ssab.com",
+   "ssab.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Umicore": {
+  "hosts": [
+   "careers.umicore.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Umicore",
+     "host": "careers.umicore.com"
+    },
+    "india_jobs": 2,
+    "found_on": "careers.umicore.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Vale": {
+  "hosts": [
+   "www.vale.com",
+   "vale.com"
+  ],
+  "results": [
+   {
+    "platform": "eightfold",
+    "config": {
+     "name": "Vale",
+     "host": "vale.eightfold.ai",
+     "domain": "vale.com"
+    },
+    "india_jobs": 0,
+    "found_on": "www.vale.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "thyssenkrupp": {
+  "hosts": [
+   "jobs.thyssenkrupp.com",
+   "www.thyssenkrupp.com",
+   "thyssenkrupp.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "thyssenkrupp",
+     "host": "steeleurope.wd3.myworkdayjobs.com",
+     "tenant": "steeleurope",
+     "site": "Job_Board"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.thyssenkrupp.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "voestalpine": {
+  "hosts": [
+   "jobs.voestalpine.com",
+   "www.voestalpine.com",
+   "voestalpine.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

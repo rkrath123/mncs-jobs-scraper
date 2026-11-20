@@ -1,0 +1,236 @@
+{
+ "América Móvil": {
+  "hosts": [
+   "www.americamovil.com",
+   "americamovil.com",
+   "www.america.com",
+   "america.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Charter Communications": {
+  "hosts": [
+   "careers.spectrum.com",
+   "jobs.spectrum.com",
+   "www.spectrum.com",
+   "spectrum.com",
+   "jobs.charter.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Deutsche Telekom": {
+  "hosts": [
+   "www.deutschetelekom.com",
+   "deutschetelekom.com",
+   "www.deutsche-telekom.com",
+   "deutsche-telekom.com",
+   "www.deutsche.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Etisalat by e&": {
+  "hosts": [
+   "jobs.etisalat.com",
+   "www.etisalat.com",
+   "etisalat.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Juniper Networks": {
+  "hosts": [
+   "www.junipernetworks.com",
+   "junipernetworks.com",
+   "www.juniper-networks.com",
+   "juniper-networks.com",
+   "jobs.juniper.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "KDDI": {
+  "hosts": [
+   "www.kddi.com",
+   "kddi.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lumen Technologies": {
+  "hosts": [
+   "careers.lumen.com",
+   "jobs.lumen.com",
+   "www.lumen.com",
+   "lumen.com",
+   "www.lumentechnologies.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "NEC": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "NTT": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Netcracker": {
+  "hosts": [
+   "www.netcracker.com",
+   "netcracker.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nokia": {
+  "hosts": [
+   "careers.nokia.com",
+   "jobs.nokia.com",
+   "www.nokia.com",
+   "nokia.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ooredoo": {
+  "hosts": [
+   "careers.ooredoo.com",
+   "www.ooredoo.com",
+   "ooredoo.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Ooredoo",
+     "host": "careers.ooredoo.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.ooredoo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Orange": {
+  "hosts": [
+   "jobs.orange.com",
+   "www.orange.com",
+   "orange.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ribbon Communications": {
+  "hosts": [
+   "www.ribboncommunications.com",
+   "ribboncommunications.com",
+   "www.ribbon-communications.com",
+   "ribbon-communications.com",
+   "careers.ribbon.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Singtel": {
+  "hosts": [
+   "www.singtel.com",
+   "singtel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SoftBank": {
+  "hosts": [
+   "careers.softbank.com",
+   "jobs.softbank.com",
+   "www.softbank.com",
+   "softbank.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Spirent Communications": {
+  "hosts": [
+   "www.spirentcommunications.com",
+   "www.spirent.com",
+   "spirent.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Swisscom": {
+  "hosts": [
+   "www.swisscom.com",
+   "swisscom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "T-Mobile": {
+  "hosts": [
+   "careers.tmobile.com",
+   "www.tmobile.com",
+   "tmobile.com",
+   "careers.t-mobile.com",
+   "jobs.t-mobile.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Telefónica": {
+  "hosts": [
+   "jobs.telefonica.com",
+   "www.telefonica.com",
+   "telefonica.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Telefónica",
+     "host": "jobs.telefonica.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.telefonica.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Verizon": {
+  "hosts": [
+   "careers.verizon.com",
+   "jobs.verizon.com",
+   "www.verizon.com",
+   "verizon.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ZTE": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Zayo": {
+  "hosts": [
+   "www.zayo.com",
+   "zayo.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "stc Group": {
+  "hosts": [
+   "www.stcgroup.com",
+   "stcgroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

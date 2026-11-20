@@ -1,0 +1,51 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "warnerbros.wd5.myworkdayjobs.com",
+   "tenant": "warnerbros",
+   "site": "global",
+   "name": "Warner Bros. Discovery"
+  },
+  {
+   "host": "fox.wd1.myworkdayjobs.com",
+   "tenant": "fox",
+   "site": "Domestic",
+   "name": "Fox Corporation"
+  },
+  {
+   "host": "disney.wd5.myworkdayjobs.com",
+   "tenant": "disney",
+   "site": "disneycareerdc",
+   "name": "The Walt Disney Company"
+  },
+  {
+   "name": "Comcast",
+   "host": "comcast.wd115.myworkdayjobs.com",
+   "tenant": "comcast",
+   "site": "Comcast_Careers"
+  },
+  {
+   "name": "Live Nation",
+   "host": "livenation.wd503.myworkdayjobs.com",
+   "tenant": "livenation",
+   "site": "LNExternalSite"
+  }
+ ],
+ "lever": [
+  {
+   "company_id": "spotify",
+   "name": "Spotify"
+  },
+  {
+   "company_id": "wmg",
+   "name": "Warner Music Group"
+  }
+ ],
+ "greenhouse": [
+  {
+   "board": "roku",
+   "name": "Roku"
+  }
+ ]
+}

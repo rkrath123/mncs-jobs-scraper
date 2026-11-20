@@ -1,0 +1,139 @@
+  [aerospace_defence] ATR: hosts=0 best=0
+  [aerospace_defence] Bombardier: hosts=0 best=0
+  [aerospace_defence] BAE Systems: hosts=0 best=0
+  [aerospace_defence] Gulfstream: hosts=0 best=0
+  [aerospace_defence] Textron: hosts=0 best=0
+  [aerospace_defence] SES: hosts=0 best=0
+  [aerospace_defence] Rheinmetall: hosts=0 best=0
+  [aerospace_defence] Leonardo: hosts=0 best=0
+  [aerospace_defence] Embraer: hosts=0 best=0
+  [aerospace_defence] MBDA: hosts=0 best=0
+  [aerospace_defence] L3Harris: hosts=0 best=0
+  [aerospace_defence] Dassault Aviation: hosts=0 best=0
+  [aerospace_defence] Lockheed Martin: hosts=0 best=0
+  [aerospace_defence] Safran: hosts=0 best=0
+  [aerospace_defence] General Atomics: hosts=0 best=0
+  [aerospace_defence] Eutelsat: hosts=0 best=0
+  [aerospace_defence] Viasat: hosts=0 best=0
+  [aerospace_defence] Intelsat: hosts=0 best=0
+  [aerospace_defence] Maxar: hosts=0 best=0
+  [aerospace_defence] Spirit AeroSystems: hosts=0 best=0
+  [aerospace_defence] Saab: hosts=5 best=0
+  [aerospace_defence] Elbit Systems: hosts=0 best=0
+  [aerospace_defence] Northrop Grumman: hosts=0 best=0
+  [aerospace_defence] Kongsberg Gruppen: hosts=0 best=0
+  [aerospace_defence] Thales Alenia Space: hosts=0 best=0
+  [aerospace_defence] ICEYE: hosts=0 best=0
+  [aerospace_defence] Astroscale: hosts=0 best=0
+  [aerospace_defence] SpaceX: hosts=0 best=0
+  [aerospace_defence] TransDigm: hosts=0 best=0
+  [aerospace_defence] Spire Global: hosts=0 best=0
+  [aerospace_defence] Planet Labs: hosts=0 best=0
+  [aerospace_defence] HEICO: hosts=0 best=0
+  [aerospace_defence] MDA Space: hosts=0 best=0
+  [aerospace_defence] Blue Origin: hosts=0 best=0
+  [aerospace_defence] Howmet Aerospace: hosts=0 best=0
+  [aerospace_defence] Teledyne Technologies: hosts=0 best=0
+  [aerospace_defence] General Dynamics: hosts=0 best=0
+  [aerospace_defence] Huntington Ingalls Industries: hosts=0 best=0
+  [agriculture] DeLaval: hosts=0 best=0
+  [agriculture] Kubota: hosts=0 best=0
+  [agriculture] Syngenta: hosts=0 best=0
+  [agriculture] AGCO: hosts=0 best=0
+  [agriculture] CLAAS: hosts=0 best=0
+  [agriculture] Nutrien: hosts=0 best=0
+  [agriculture] Yara International: hosts=0 best=0
+  [agriculture] CNH Industrial: hosts=0 best=0
+  [agriculture] John Deere: hosts=0 best=0
+  [airlines_aviation] KLM: hosts=0 best=0
+  [airlines_aviation] Emirates: hosts=0 best=0
+  [airlines_aviation] Qantas: hosts=0 best=0
+  [airlines_aviation] Lufthansa: hosts=0 best=0
+  [airlines_aviation] All Nippon Airways: hosts=0 best=0
+  [airlines_aviation] Air France: hosts=0 best=0
+  [airlines_aviation] Cathay Pacific: hosts=0 best=0
+  [airlines_aviation] Turkish Airlines: hosts=0 best=0
+  [airlines_aviation] Japan Airlines: hosts=0 best=0
+  [airlines_aviation] United Airlines: hosts=0 best=0
+  [airlines_aviation] Singapore Airlines: hosts=0 best=0
+  [airlines_aviation] British Airways: hosts=0 best=0
+  [airlines_aviation] Qatar Airways: hosts=0 best=0
+  [airlines_aviation] Etihad Airways: hosts=0 best=0
+  [airlines_aviation] Delta Air Lines: hosts=0 best=0
+  [airlines_aviation] American Airlines: hosts=0 best=0
+  [airlines_aviation] Swiss International Air Lines: hosts=0 best=0
+  [airlines_aviation] flydubai: hosts=0 best=0
+  [airlines_aviation] Air Canada: hosts=0 best=0
+  [airlines_aviation] Malaysia Airlines: hosts=0 best=0
+  [airlines_aviation] Thai Airways: hosts=0 best=0
+  [airlines_aviation] Saudia: hosts=0 best=0
+  [airlines_aviation] Finnair: hosts=0 best=0
+  [airlines_aviation] Air Arabia: hosts=0 best=0
+  [airlines_aviation] Oman Air: hosts=0 best=0
+  [airlines_aviation] Gulf Air: hosts=0 best=0
+  [airlines_aviation] Ethiopian Airlines: hosts=0 best=0
+  [airlines_aviation] Air Mauritius: hosts=0 best=0
+  [airlines_aviation] Asiana Airlines: hosts=0 best=0
+  [airlines_aviation] Korean Air: hosts=0 best=0
+  [airlines_aviation] Vietnam Airlines: hosts=0 best=0
+  [airlines_aviation] Alaska Air: hosts=0 best=0
+  [airlines_aviation] Southwest Airlines: hosts=0 best=0
+  [automotive] Kia: hosts=0 best=0
+  [automotive] BYD: hosts=0 best=0
+  [automotive] Audi: hosts=0 best=0
+  [automotive] Hyundai: hosts=0 best=0
+  [automotive] Toyota: hosts=0 best=0
+  [automotive] Nissan: hosts=0 best=0
+  [automotive] Honda: hosts=0 best=0
+  [automotive] Mazda: hosts=0 best=0
+  [automotive] Tesla: hosts=0 best=0
+  [automotive] Subaru: hosts=0 best=0
+  [automotive] Renault: hosts=0 best=0
+  [automotive] Suzuki: hosts=0 best=0
+  [automotive] Ford: hosts=0 best=0
+  [automotive] Porsche: hosts=0 best=0
+  [automotive] Mercedes-Benz: hosts=0 best=0
+  [automotive] Isuzu: hosts=0 best=0
+  [automotive] BMW: hosts=0 best=0
+  [automotive] Volvo Cars: hosts=0 best=0
+  [automotive] Ferrari: hosts=0 best=0
+  [automotive] Volkswagen Group: hosts=0 best=0
+  [automotive] Lamborghini: hosts=0 best=0
+  [automotive] Denso: hosts=0 best=0
+  [automotive] Škoda: hosts=0 best=0
+  [automotive] ZF: hosts=0 best=0
+  [automotive] Scania: hosts=0 best=0
+  [automotive] Michelin: hosts=0 best=0
+  [automotive] Bridgestone: hosts=0 best=0
+  [automotive] Mitsubishi Motors: hosts=0 best=0
+  [automotive] MAN Truck & Bus: hosts=0 best=0
+  [automotive] Forvia: hosts=0 best=0
+  [automotive] Aisin: hosts=0 best=0
+  [automotive] Aston Martin: hosts=0 best=0
+  [automotive] Autoliv: hosts=0 best=0
+  [automotive] Daimler Truck: hosts=0 best=0
+  [automotive] Marelli: hosts=0 best=0
+  [automotive] Harman: hosts=0 best=0
+  [automotive] Visteon: hosts=0 best=0
+  [automotive] Tenneco: hosts=0 best=0
+  [automotive] Dana: hosts=0 best=0
+  [automotive] Jaguar Land Rover: hosts=0 best=0
+  [automotive] Garrett Motion: hosts=0 best=0
+  [automotive] Modine: hosts=0 best=0
+  [automotive] Lear Corporation: hosts=0 best=0
+  [automotive] Panasonic Automotive: hosts=0 best=0
+  [automotive] Allison Transmission: hosts=0 best=0
+  [automotive] Harley-Davidson: hosts=0 best=0
+  [chemicals_materials] AkzoNobel: hosts=0 best=0
+  [chemicals_materials] Syensqo: hosts=0 best=0
+  [chemicals_materials] Covestro: hosts=0 best=0
+  [chemicals_materials] Solvay: hosts=0 best=0
+  [chemicals_materials] Celanese: hosts=0 best=0
+  [chemicals_materials] Arkema: hosts=0 best=0
+  [chemicals_materials] INEOS: hosts=0 best=0
+  [chemicals_materials] Clariant: hosts=0 best=0
+  [chemicals_materials] PPG: hosts=0 best=0
+  [chemicals_materials] SABIC: hosts=0 best=0
+  [chemicals_materials] BASF: hosts=0 best=0
+  [chemicals_materials] DuPont: hosts=0 best=0
+  [chemicals_materials] Lubrizol: hosts=0 best=0

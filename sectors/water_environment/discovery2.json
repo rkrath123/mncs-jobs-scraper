@@ -1,0 +1,30 @@
+{
+ "Kurita Water Industries": {
+  "hosts": [
+   "www.kuritawaterindustries.com",
+   "kuritawaterindustries.com",
+   "www.kurita.com",
+   "kurita.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SUEZ": {
+  "hosts": [
+   "www.suez.com",
+   "suez.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Veolia": {
+  "hosts": [
+   "careers.veolia.com",
+   "jobs.veolia.com",
+   "www.veolia.com",
+   "veolia.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

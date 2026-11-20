@@ -1,0 +1,269 @@
+{
+ "AT&T": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "att.wd1.myworkdayjobs.com",
+    "tenant": "att",
+    "site": "ATTCollege",
+    "name": "AT&T"
+   },
+   "india_jobs": 0,
+   "site_total": 8,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "att.wd1.myworkdayjobs.com",
+    "tenant": "att",
+    "site": "ATTGeneral",
+    "name": "AT&T"
+   },
+   "india_jobs": 20,
+   "site_total": 1138,
+   "facet": true
+  }
+ ],
+ "Amdocs": [],
+ "América Móvil": [],
+ "Arista Networks": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "aristanetworks",
+    "name": "Arista Networks"
+   },
+   "india_jobs": 25,
+   "site_total": 222
+  }
+ ],
+ "BT Group": [],
+ "Charter Communications": [],
+ "Ciena": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ciena.wd5.myworkdayjobs.com",
+    "tenant": "ciena",
+    "site": "Careers",
+    "name": "Ciena"
+   },
+   "india_jobs": 16,
+   "site_total": 176,
+   "facet": true
+  }
+ ],
+ "Cisco": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cisco.wd5.myworkdayjobs.com",
+    "tenant": "cisco",
+    "site": "Cisco_Careers",
+    "name": "Cisco"
+   },
+   "india_jobs": 18,
+   "site_total": 1422,
+   "facet": false
+  }
+ ],
+ "CommScope": [],
+ "Deutsche Telekom": [],
+ "Ericsson": [],
+ "Etisalat by e&": [],
+ "Extreme Networks": [
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "extremenetworks",
+    "name": "Extreme Networks"
+   },
+   "india_jobs": 38,
+   "site_total": 76
+  }
+ ],
+ "Juniper Networks": [],
+ "KDDI": [],
+ "Lumen Technologies": [],
+ "Mavenir": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mavenir.wd1.myworkdayjobs.com",
+    "tenant": "mavenir",
+    "site": "Mavenir_Careers",
+    "name": "Mavenir"
+   },
+   "india_jobs": 11,
+   "site_total": 19,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mavenir.wd1.myworkdayjobs.com",
+    "tenant": "mavenir",
+    "site": "Mavenir_Careers_1",
+    "name": "Mavenir"
+   },
+   "india_jobs": 6,
+   "site_total": 6,
+   "facet": true
+  }
+ ],
+ "Motorola Solutions": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "motorolasolutions.wd5.myworkdayjobs.com",
+    "tenant": "motorolasolutions",
+    "site": "Careers",
+    "name": "Motorola Solutions"
+   },
+   "india_jobs": 40,
+   "site_total": 854,
+   "facet": true
+  }
+ ],
+ "NEC": [],
+ "NTT": [],
+ "Netcracker": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "netcracker",
+    "name": "Netcracker"
+   },
+   "india_jobs": 0,
+   "site_total": 14
+  }
+ ],
+ "Nokia": [],
+ "Ooredoo": [],
+ "Orange": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "orange.wd3.myworkdayjobs.com",
+    "tenant": "orange",
+    "site": "Orange_Career",
+    "name": "Orange"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "Qualcomm": [],
+ "Ribbon Communications": [
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "ribbon",
+    "name": "Ribbon Communications"
+   },
+   "india_jobs": 0,
+   "site_total": 3
+  }
+ ],
+ "Singtel": [],
+ "SoftBank": [],
+ "Spirent Communications": [],
+ "Swisscom": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "swisscom.wd103.myworkdayjobs.com",
+    "tenant": "swisscom",
+    "site": "SwisscomExternalCareers",
+    "name": "Swisscom"
+   },
+   "india_jobs": 0,
+   "site_total": 52,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "swisscom.wd103.myworkdayjobs.com",
+    "tenant": "swisscom",
+    "site": "cablexExternalCareers",
+    "name": "Swisscom"
+   },
+   "india_jobs": 0,
+   "site_total": 19,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "swisscom.wd103.myworkdayjobs.com",
+    "tenant": "swisscom",
+    "site": "FWVFJOBExternal",
+    "name": "Swisscom"
+   },
+   "india_jobs": 0,
+   "site_total": 15,
+   "facet": false
+  }
+ ],
+ "T-Mobile": [],
+ "Telefónica": [],
+ "Telstra": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "telstra.wd3.myworkdayjobs.com",
+    "tenant": "telstra",
+    "site": "Telstra_Careers",
+    "name": "Telstra"
+   },
+   "india_jobs": 5,
+   "site_total": 172,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "telstra.wd3.myworkdayjobs.com",
+    "tenant": "telstra",
+    "site": "tls-careers",
+    "name": "Telstra"
+   },
+   "india_jobs": 4,
+   "site_total": 29,
+   "facet": true
+  }
+ ],
+ "Verizon": [],
+ "Vodafone Group": [],
+ "ZTE": [],
+ "Zayo": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zayo.wd1.myworkdayjobs.com",
+    "tenant": "zayo",
+    "site": "Zayo_Careers",
+    "name": "Zayo"
+   },
+   "india_jobs": 0,
+   "site_total": 241,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zayo.wd1.myworkdayjobs.com",
+    "tenant": "zayo",
+    "site": "ZayoEurope_Careers",
+    "name": "Zayo"
+   },
+   "india_jobs": 0,
+   "site_total": 12,
+   "facet": false
+  }
+ ],
+ "stc Group": []
+}

@@ -1,0 +1,627 @@
+{
+ "sector": "fintech",
+ "title": "fintech",
+ "tier": null,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Crédit Agricole",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "NatWest Group",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "RBC",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "Scotiabank",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "Mizuho",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "SMBC",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "Nomura",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "OCBC",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "UOB",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "ING",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "Rabobank",
+   "section": 2,
+   "subgroup": "Global banks and investment banks"
+  },
+  {
+   "name": "Amundi",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "Schroders",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "Deutsche Börse",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "SIX Group",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "Euroclear",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "Clearstream",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "Broadridge Financial Solutions",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure"
+  },
+  {
+   "name": "Discover",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "Checkout.com",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "PayU",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "Rapyd",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "Nuvei",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "Marqeta",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "Network International",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors"
+  },
+  {
+   "name": "Bloomberg",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms"
+  },
+  {
+   "name": "NICE",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms"
+  },
+  {
+   "name": "Murex",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms"
+  },
+  {
+   "name": "Fenergo",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms"
+  },
+  {
+   "name": "ION Group",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms"
+  },
+  {
+   "name": "Envestnet",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms"
+  },
+  {
+   "name": "Munich Re",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Zurich Insurance Group",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "AIG",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "MetLife",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Prudential Financial",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Prudential plc",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Generali",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Liberty Mutual",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Tokio Marine",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Hannover Re",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Sompo",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Everest Group",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Mapfre",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "section": 4,
+   "subgroup": ""
+  },
+  {
+   "name": "Feedzai",
+   "section": 34,
+   "subgroup": "Payments, identity and fraud prevention"
+  },
+  {
+   "name": "Featurespace",
+   "section": 34,
+   "subgroup": "Payments, identity and fraud prevention"
+  },
+  {
+   "name": "Paychex",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Euronet",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "JPMorganChase",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Goldman Sachs",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Morgan Stanley",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Bank of America",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Wells Fargo",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Citi",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "HSBC",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Barclays",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Deutsche Bank",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Standard Chartered",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "BNP Paribas",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "UBS",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Societe Generale",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "TD",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "ANZ",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Commonwealth Bank",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "MUFG",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "DBS Bank",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Northern Trust",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "State Street",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "BNY",
+   "section": 2,
+   "subgroup": "Global banks and investment banks",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "BlackRock",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Fidelity Investments",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Franklin Templeton",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Vanguard",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Invesco",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Allianz",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "S&P Global",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Moody’s",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "MSCI",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Nasdaq",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "LSEG",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "CME Group",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "ICE",
+   "section": 2,
+   "subgroup": "Asset management, custody, exchanges and market infrastructure",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Visa",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Mastercard",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "American Express",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "PayPal",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Stripe",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Fiserv",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "FIS",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Global Payments",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Worldline",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Adyen",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Wise",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Block",
+   "section": 3,
+   "subgroup": "Card networks, payments and payment processors",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "FactSet",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Temenos",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Finastra",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "SS&C Technologies",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Broadridge",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Experian",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Equifax",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "TransUnion",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Dun & Bradstreet",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Diebold Nixdorf",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Avaloq",
+   "section": 3,
+   "subgroup": "Banking software, trading, financial data and fintech platforms",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "AXA",
+   "section": 4,
+   "subgroup": "",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Swiss Re",
+   "section": 4,
+   "subgroup": "",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Chubb",
+   "section": 4,
+   "subgroup": "",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Corpay",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Bread Financial",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "fintech"
+  }
+ ]
+}

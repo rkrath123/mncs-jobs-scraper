@@ -1,0 +1,81 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "maersk.wd3.myworkdayjobs.com",
+   "tenant": "maersk",
+   "site": "Maersk_Careers",
+   "name": "Maersk"
+  },
+  {
+   "host": "hellmann.wd103.myworkdayjobs.com",
+   "tenant": "hellmann",
+   "site": "hellmannexternaljobs",
+   "name": "Hellmann Worldwide Logistics"
+  },
+  {
+   "host": "chrobinson.wd5.myworkdayjobs.com",
+   "tenant": "chrobinson",
+   "site": "CHRobinson",
+   "name": "C.H. Robinson"
+  },
+  {
+   "host": "cubic.wd1.myworkdayjobs.com",
+   "tenant": "cubic",
+   "site": "cubic_global_careers",
+   "name": "Cubic Corporation"
+  },
+  {
+   "name": "Rhenus Logistics",
+   "host": "rhe.wd3.myworkdayjobs.com",
+   "tenant": "rhe",
+   "site": "R1111"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "company_id": "expeditors",
+   "name": "Expeditors"
+  },
+  {
+   "company_id": "wabtec",
+   "name": "Wabtec"
+  }
+ ],
+ "greenhouse": [
+  {
+   "board": "flexport",
+   "name": "Flexport"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Aramex",
+   "host": "careers.aramex.com"
+  },
+  {
+   "name": "DSV",
+   "host": "jobs.dsv.com"
+  },
+  {
+   "name": "Kuehne+Nagel",
+   "host": "careers.kuehne-nagel.com"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "DHL",
+   "host": "careers.dhl.com",
+   "lang": "en_global",
+   "page_id": "page12",
+   "region": "global/en"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "DP World",
+   "host": "ehpv.fa.em2.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ]
+}

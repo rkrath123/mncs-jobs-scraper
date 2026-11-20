@@ -1,0 +1,2001 @@
+﻿Rank,Company,Headquarters,Industry,Sales ($B),Profit ($B),Assets ($B),Market Value ($B)
+1,JPMorganChase,"New York, United States",Banking,284.79,58.63,4900.0,797.99
+2,Amazon,"Seattle, United States",Retailing,742.78,90.8,916.63,2840.0
+3,Berkshire Hathaway,"Omaha, United States",Insurance,375.39,72.47,1250.0,1040.0
+4,Alphabet,"Mountain View, United States",IT Software & Services,423.17,160.21,703.92,4810.0
+5,Saudi Arabian Oil Company (Saudi Aramco),"Dhahran, Saudi Arabia",Oil & Gas Operations,455.53,99.3,709.36,1790.0
+6,ICBC,"Beijing, China",Banking,210.26,51.27,8070.0,313.62
+7,Bank of America,"Charlotte, United States",Banking,195.0,31.82,3500.0,353.2
+7,Microsoft,"Redmond, United States",IT Software & Services,318.27,125.22,694.23,3130.0
+9,China Construction Bank,"Beijing, China",Banking,192.27,48.16,6820.0,293.34
+10,Agricultural Bank of China,"Beijing, China",Banking,196.08,39.2,7390.0,272.65
+11,Apple,"Cupertino, United States",Technology Hardware & Equipment,451.44,122.58,371.08,4410.0
+12,Bank of China,"Beijing, China",Banking,173.78,34.53,5730.0,196.26
+13,HSBC Holdings,"London, United Kingdom",Banking,133.58,21.09,3310.0,303.63
+14,ExxonMobil,"Spring, United States",Oil & Gas Operations,329.32,25.31,464.41,654.57
+15,Samsung Electronics,"Suwon-si, South Korea",Technology Hardware & Equipment,272.56,58.49,413.5,1170.0
+16,Meta Platforms,"Menlo Park, United States",IT Software & Services,214.96,70.59,395.25,1560.0
+17,Toyota Motor,"Toyota, Japan",Consumer Durables,336.35,25.54,663.29,253.53
+18,Citigroup,"New York, United States",Banking,173.86,15.84,2780.0,211.65
+19,Goldman Sachs Group,"New York, United States",Diversified Financials,129.01,18.07,2060.0,279.81
+20,Wells Fargo,"San Francisco, United States",Banking,125.95,21.7,2210.0,224.68
+21,Morgan Stanley,"New York, United States",Diversified Financials,123.7,18.11,1580.0,303.64
+22,PetroChina,"Beijing, China",Oil & Gas Operations,392.55,22.41,439.81,254.54
+23,Walmart,"Bentonville, United States",Retailing,713.16,21.89,284.67,1050.0
+24,Royal Bank of Canada,"Toronto, Canada",Banking,97.82,15.09,1730.0,256.27
+25,Santander,"Madrid, Spain",Banking,122.02,18.72,2140.0,173.81
+26,Ping An Insurance Group,"Shenzhen, China",Insurance,158.13,18.74,1990.0,144.42
+27,NVIDIA,"Santa Clara, United States",Semiconductors,215.94,120.07,206.8,5480.0
+28,Shell Plc,"London, United Kingdom",Oil & Gas Operations,267.25,18.73,380.6,237.82
+29,UnitedHealth Group,"Eden Prairie, United States",Drugs & Biotechnology,449.71,12.04,312.64,357.67
+30,Mitsubishi UFJ Financial,"Tokyo, Japan",Banking,84.34,16.11,2710.0,208.46
+31,Taiwan Semiconductor,"Hsinchu, Taiwan",Semiconductors,132.97,62.49,270.91,1860.0
+32,Allianz,"Munich, Germany",Insurance,158.71,11.97,1200.0,165.61
+33,Tencent Holdings,"Shenzhen, China",IT Software & Services,108.24,33.12,296.95,526.75
+34,TD Bank Group,"Toronto, Canada",Banking,87.98,15.65,1550.0,182.08
+35,Chevron,"Houston, United States",Oil & Gas Operations,188.81,11.01,329.55,380.6
+36,China Mobile,"Hong Kong, Hong Kong",Telecommunications Services,148.29,19.07,316.85,236.97
+37,BNP Paribas,"Paris, France",Banking,165.26,13.0,3280.0,114.19
+38,Verizon Communications,"New York, United States",Telecommunications Services,139.15,17.34,417.88,193.62
+39,AT&T,"Dallas, United States",Telecommunications Services,126.53,21.43,421.19,166.97
+40,TotalEnergies,"Courbevoie, France",Oil & Gas Operations,183.91,15.05,314.56,203.25
+41,Alibaba Group,"Hangzhou, China",Retailing,144.16,14.88,276.42,324.28
+42,China Merchants Bank,"Shenzhen, China",Banking,69.5,19.98,1950.0,151.19
+43,Johnson & Johnson,"New Brunswick, United States",Drugs & Biotechnology,96.36,21.04,200.89,545.74
+44,BBVA-Banco Bilbao Vizcaya Argentaria,"Madrid, Spain",Banking,80.81,12.5,1030.0,122.31
+45,Deutsche Telekom,"Bonn, Germany",Telecommunications Services,138.12,10.2,338.17,153.96
+46,UBS,"Zurich, Switzerland",Diversified Financials,79.64,9.1,1690.0,139.04
+47,China Life Insurance,"Beijing, China",Insurance,75.57,21.53,1090.0,107.86
+48,SK Hynix,"Icheon, South Korea",Semiconductors,92.7,52.74,145.48,858.04
+49,Sumitomo Mitsui Financial,"Tokyo, Japan",Banking,65.58,10.5,2060.0,137.23
+50,American Express,"New York, United States",Business Services & Supplies,82.42,11.14,308.89,213.9
+51,AXA Group,"Paris, France",Insurance,123.27,10.86,746.41,93.66
+52,Oracle,"Austin, United States",IT Software & Services,64.08,16.21,245.24,554.93
+53,Broadcom,"Palo Alto, United States",Semiconductors,68.28,24.97,169.9,2010
+54,Softbank,"Tokyo, Japan",Telecommunications Services,51.75,33.07,381.86,206.44
+55,Reliance Industries,"Mumbai, India",Oil & Gas Operations,119.65,9.14,229.64,188.45
+56,Walt Disney,"Burbank, United States",Media,97.37,11.22,205.22,178.37
+57,LVMH Louis Vuitton Moet Hennessy,"Paris, France",Household & Personal Products,91.2,12.28,166.81,262.02
+58,Bank of Communications,"Shanghai, China",Banking,72.02,13.6,2360.0,86.51
+59,Nestlé,"Vevey, Switzerland","Food, Drink & Tobacco",107.76,10.88,160.49,251.11
+60,Postal Savings Bank Of China (PSBC),"Beijing, China",Banking,79.59,12.39,2820.0,78.07
+61,Siemens,"Munich, Germany",Capital Goods,92.35,8.95,193.54,230.14
+62,State Bank of India,"Mumbai, India",Banking,80.31,9.43,877.35,92.63
+63,Petrobras,"Rio de Janeiro, Brazil",Oil & Gas Operations,91.5,19.76,238.62,115.64
+64,Comcast,"Philadelphia, United States",Media,125.28,18.8,260.0,88.45
+64,Intesa Sanpaolo,"Turin, Italy",Insurance,52.8,10.97,1120.0,115.97
+66,Procter & Gamble,"Cincinnati, United States",Household & Personal Products,86.72,16.62,128.38,329.66
+67,Mizuho Financial,"Tokyo, Japan",Banking,56.78,8.29,1900.0,104.23
+68,RTX,"Arlington, United States",Aerospace & Defense,90.37,7.26,170.43,230.53
+69,Home Depot,"Atlanta, United States",Retailing,164.68,14.16,105.09,296.33
+70,HDFC Bank,"Mumbai, India",Banking,56.08,8.6,517.46,123.18
+71,Contemporary Amperex Technology,"Ningde, China",Capital Goods,66.05,11.14,151.46,399.01
+71,Eli Lilly,"Indianapolis, United States",Drugs & Biotechnology,72.25,25.27,116.58,946.37
+73,Zurich Insurance Group,"Zurich, Switzerland",Insurance,87.26,6.78,455.12,107.44
+74,Commonwealth Bank,"Sydney, Australia",Banking,44.93,6.67,939.41,190.69
+75,Hyundai Motor,"Seoul, South Korea",Consumer Durables,131.8,6.05,250.6,122.44
+75,Itaú Unibanco Holding,"São Paulo, Brazil",Banking,77.72,8.45,609.48,86.34
+75,Roche Holding,"Basel, Switzerland",Drugs & Biotechnology,74.07,15.51,127.11,326.6
+78,IBM,"Armonk, United States",IT Software & Services,68.91,10.75,156.23,206.12
+79,Chubb,"Zurich, Switzerland",Insurance,61.1,11.3,250.9,125.72
+80,BMO,"Montréal, Canada",Banking,55.16,6.51,1080.0,107.74
+81,Credit Agricole,"Montrouge, France",Banking,105.74,7.45,2790.0,55.57
+82,Hon Hai Precision,"New Taipei, Taiwan",Technology Hardware & Equipment,277.94,6.39,163.61,110.34
+83,Cisco Systems,"San Jose, United States",Technology Hardware & Equipment,60.75,12.23,125.55,466.92
+84,Sinopec,"Beijing, China",Oil & Gas Operations,354.4,4.42,317.48,91.16
+85,CNOOC,"Hong Kong, Hong Kong",Oil & Gas Operations,55.09,16.96,157.2,160.38
+86,Volkswagen Group,"Wolfsburg, Germany",Consumer Durables,370.81,7.11,767.46,51.27
+87,Costco Wholesale,"Issaquah, United States",Retailing,286.26,8.55,83.64,465.37
+88,Merck & Co.,"Rahway, United States",Drugs & Biotechnology,65.51,8.94,128.69,275.09
+88,Micron Technology,"Boise, United States",Semiconductors,58.12,24.11,101.51,817.22
+90,PepsiCo,"Purchase, United States","Food, Drink & Tobacco",95.45,8.73,110.65,203.81
+91,Pfizer,"New York, United States",Drugs & Biotechnology,63.31,7.46,207.62,144.37
+92,Bank of Nova Scotia,"Toronto, Canada",Banking,50.87,6.4,1090.0,95.09
+93,Anheuser-Busch InBev,"Leuven, Belgium","Food, Drink & Tobacco",59.28,6.87,220.93,157.72
+94,CITIC,"Beijing, China",Business Services & Supplies,107.05,8.16,1860.0,49.0
+95,NTT,"Tokyo, Japan",Telecommunications Services,95.62,6.88,293.68,77.94
+96,Tesla,"Austin, United States",Consumer Durables,97.88,3.86,143.72,1590.0
+97,AIRBUS,"Leiden, Netherlands",Aerospace & Defense,84.04,5.81,159.81,153.52
+97,UniCredit,"Milan, Italy",Banking,29.59,13.34,1040.0,121.25
+99,Canadian Imperial Bank,"Toronto, Canada",Banking,44.0,6.72,836.38,103.26
+100,Mitsubishi Corporation,"Tokyo, Japan",Trading Companies,125.53,5.31,151.81,123.29
+101,Novartis,"Basel, Switzerland",Drugs & Biotechnology,54.43,13.56,118.53,271.62
+102,AstraZeneca,"Cambridge, United Kingdom",Drugs & Biotechnology,60.43,10.38,114.02,282.14
+103,Progressive,"Mayfield Village, United States",Insurance,89.42,11.56,118.01,116.71
+104,Enel,"Rome, Italy",Utilities,91.69,4.73,219.5,109.49
+105,Caterpillar,"Irving, United States",Capital Goods,70.75,9.43,95.55,409.19
+106,Munich Re,"Munich, Germany",Insurance,80.73,7.8,324.84,67.95
+107,BP,"London, United Kingdom",Oil & Gas Operations,194.63,3.16,301.74,113.86
+108,Barclays,"London, United Kingdom",Diversified Financials,39.66,8.37,2230.0,76.78
+109,Deutsche Bank,"Frankfurt, Germany",Diversified Financials,68.62,6.78,1720.0,58.42
+109,Société Générale,"Paris, France",Banking,85.11,5.96,1820.0,54.41
+111,Rio Tinto,"London, United Kingdom",Materials,57.59,9.95,128.1,168.55
+112,CVS Health,"Woonsocket, United States",Retailing,407.94,2.93,252.97,122.35
+113,BMW Group,"Munich, Germany",Consumer Durables,151.45,7.9,311.81,52.25
+113,US Bancorp,"Minneapolis, United States",Banking,43.41,7.76,701.0,82.46
+115,GE Aerospace,"Evendale, United States",Aerospace & Defense,48.31,8.62,128.87,293.73
+116,Life Insurance Corp. of India,"Mumbai, India",Insurance,108.01,6.08,665.77,52.66
+117,Iberdrola,"Bilbao, Spain",Utilities,51.8,6.94,190.14,146.82
+118,BHP Group,"Melbourne, Australia",Materials,53.97,10.23,116.01,219.77
+118,Industrial Bank,"Fuzhou, China",Banking,51.41,10.91,1630.0,54.95
+120,Charles Schwab,"Westlake, United States",Diversified Financials,28.32,9.42,493.32,158.05
+120,China Citic Bank,"Chaoyang, China",Banking,49.9,9.5,1480.0,58.34
+122,Coca-Cola,"Atlanta, United States","Food, Drink & Tobacco",49.81,13.7,104.22,347.73
+123,Capital One Financial,"McLean, United States",Banking,74.99,3.15,682.9,116.47
+123,Cigna,"Bloomfield, United States",Drugs & Biotechnology,278.13,6.29,149.19,75.46
+125,DBS,"Singapore, Singapore",Banking,28.8,8.37,697.99,133.68
+126,Generali Group,"Trieste, Italy",Insurance,80.0,4.71,655.96,66.86
+127,Visa,"San Francisco, United States",Business Services & Supplies,43.03,22.04,95.05,613.75
+128,Mercedes-Benz Group,"Stuttgart, Germany",Consumer Durables,151.32,5.66,297.98,56.06
+129,Dell Technologies,"Round Rock, United States",Technology Hardware & Equipment,113.72,5.94,101.29,157.88
+130,Equinor,"Stavanger, Norway",Oil & Gas Operations,104.15,5.45,141.15,98.33
+131,Bank of New York Mellon,"New York, United States",Diversified Financials,40.69,5.96,561.52,92.67
+132,Mitsui & Co.,"Tokyo, Japan",Chemicals,92.87,5.53,130.88,109.12
+133,ConocoPhillips,"Houston, United States",Oil & Gas Operations,57.86,7.3,122.72,149.13
+134,Tokio Marine Holdings,"Tokyo, Japan",Insurance,53.08,7.08,203.22,90.82
+135,Elevance Health,"Indianapolis, United States",Drugs & Biotechnology,200.41,5.24,125.83,85.28
+136,PNC Financial Services,"Pittsburgh, United States",Banking,34.59,7.17,603.03,85.47
+137,Novo Nordisk,"Bagsværd, Denmark",Drugs & Biotechnology,50.88,18.93,86.23,206.91
+138,VINCI,"Nanterre Cedex, France",Construction,85.06,5.53,156.28,80.66
+139,NatWest Group,"Edinburgh, United Kingdom",Banking,40.71,7.58,988.55,59.59
+140,AbbVie,"North Chicago, United States",Drugs & Biotechnology,62.82,3.6,136.46,371.71
+141,PDD Holdings,"Dublin, Ireland",Retailing,60.13,13.84,90.16,136.4
+142,AIA Group,"Hong Kong, Hong Kong",Insurance,32.53,6.23,345.42,116.48
+143,NextEra Energy,"Juno Beach, United States",Utilities,27.56,8.18,221.42,194.69
+144,Westpac Banking Group,"Sydney, Australia",Banking,37.5,4.63,803.1,87.56
+145,Enbridge,"Calgary, Canada",Oil & Gas Operations,50.23,5.0,163.52,120.81
+146,BYD,"Shenzhen, China",Capital Goods,110.21,3.84,130.58,112.18
+147,British American Tobacco,"London, United Kingdom","Food, Drink & Tobacco",33.75,10.12,147.0,140.81
+148,ENGIE,"Paris, France",Utilities,81.19,4.32,198.77,78.55
+149,ING Group,"Amsterdam, Netherlands",Banking,26.91,7.45,1310.0,84.86
+149,Itochu,"Tokyo, Japan",Food Markets,98.37,5.97,105.18,90.75
+151,ICICI Bank,"Mumbai, India",Banking,35.32,6.13,307.28,92.99
+152,ANZ Group Holdings,"Docklands, Australia",Banking,43.25,3.9,899.83,75.85
+153,Sanofi,"Paris, France",Drugs & Biotechnology,49.23,5.87,148.93,103.24
+154,CaixaBank,"Valencia, Spain",Banking,26.98,6.94,771.94,88.88
+154,Thermo Fisher Scientific,"Waltham, United States",Health Care Equipment & Services,45.2,6.85,113.28,162.9
+156,NAB - National Australia Bank,"Melbourne, Australia",Banking,38.23,4.03,782.6,79.99
+157,Manulife,"Toronto, Canada",Insurance,44.32,4.51,735.56,63.02
+158,Salesforce,"San Francisco, United States",IT Software & Services,41.52,7.46,115.45,141.94
+159,Hitachi,"Tokyo, Japan",Capital Goods,70.25,5.32,94.55,136.53
+160,Boeing,"Arlington, United States",Aerospace & Defense,92.18,2.27,164.79,173.81
+161,MetLife,"New York, United States",Insurance,77.59,3.62,743.21,51.33
+162,McKesson,"Irving, United States",Health Care Equipment & Services,403.43,4.76,82.32,91.42
+162,Shanghai Pudong Development,"Shanghai, China",Banking,43.82,7.08,1490.0,44.39
+164,International Holding Company,"Abu Dhabi, United Arab Emirates",Health Care Equipment & Services,31.48,6.89,121.23,231.61
+164,SAP,"Walldorf, Germany",IT Software & Services,43.27,8.67,84.64,195.61
+166,Abbott Laboratories,"Abbott Park, United States",Health Care Equipment & Services,45.13,6.28,110.43,147.13
+167,China Pacific Insurance,"Shanghai, China",Insurance,57.91,7.57,467.14,40.79
+168,Standard Chartered,"London, United Kingdom",Banking,37.86,5.39,972.91,55.3
+169,Lloyds Banking Group,"London, United Kingdom",Banking,26.68,6.17,1280.0,73.06
+170,China Shenhua Energy,"Beijing, China",Materials,41.65,7.42,113.95,112.82
+171,General Motors,"Detroit, United States",Consumer Durables,184.62,2.54,280.97,67.5
+172,BlackRock,"New York, United States",Diversified Financials,26.28,6.25,170.24,176.18
+173,Netflix,"Los Gatos, United States",IT Software & Services,47.28,13.37,61.02,366.42
+174,Amgen,"Thousand Oaks, United States",Drugs & Biotechnology,37.3,7.8,92.5,176.11
+175,Allstate,"Northbrook, United States",Insurance,68.17,12.14,115.55,55.96
+175,GE Vernova,"Cambridge, United States",Capital Goods,39.35,9.38,75.61,281.95
+177,Unilever,"London, United Kingdom",Household & Personal Products,56.83,6.86,82.77,122.38
+178,Philip Morris International,"Stamford, United States","Food, Drink & Tobacco",41.41,11.06,68.91,295.52
+179,John Deere,"Moline, United States",Capital Goods,46.77,4.81,103.44,151.75
+180,FedEx,"Memphis, United States",Transportation,91.93,4.48,94.73,89.66
+181,Nordea Bank,"Helsinki, Finland",Banking,30.18,5.45,782.35,60.75
+181,Zijin Mining Group,"Longyan, China",Materials,51.96,8.71,79.6,119.11
+183,Eni,"Rome, Italy",Oil & Gas Operations,91.92,2.9,170.19,77.65
+184,China State Construction Engineering,"Beijing, China",Construction,287.01,5.34,523.1,29.94
+185,Duke Energy,"Charlotte, United States",Utilities,33.17,5.14,198.05,94.29
+186,L'Oréal,"Clichy, France",Household & Personal Products,49.72,6.92,72.61,221.12
+187,Linde,"Woking, United Kingdom",Chemicals,34.66,7.08,86.31,234.13
+188,Bristol Myers Squibb,"Princeton, United States",Drugs & Biotechnology,48.48,7.28,86.48,116.4
+189,Travelers,"New York, United States",Insurance,48.94,7.6,132.44,63.74
+190,Marathon Petroleum,"Findlay, United States",Oil & Gas Operations,135.39,4.63,88.19,74.45
+190,Midea Group,"Foshan, China",Consumer Durables,65.07,6.23,88.86,89.0
+192,Truist,"Charlotte, United States",Banking,30.56,5.53,548.98,58.51
+193,Accenture,"Dublin, Ireland",IT Software & Services,72.11,7.65,67.06,103.64
+194,Advanced Micro Devices (AMD),"Santa Clara, United States",Semiconductors,37.45,5.01,79.64,691.54
+195,China Telecom,"Beijing, China",Telecommunications Services,73.36,4.44,127.25,62.17
+196,GSK,"London, United Kingdom",Drugs & Biotechnology,43.93,7.81,82.91,99.23
+197,Uber,"San Francisco, United States",Transportation,53.69,8.54,59.88,152.85
+198,ASML Holding,"Veldhoven, Netherlands",Semiconductors,39.04,11.6,55.38,585.67
+199,E.ON,"Essen, Germany",Utilities,87.27,3.98,135.06,54.32
+200,Banco Bradesco,"Osasco, Brazil",Banking,70.33,4.27,466.33,36.9
+201,Lowe's,"Mooresville, United States",Retailing,86.29,6.64,56.16,122.33
+202,Qualcomm,"San Diego, United States",Semiconductors,44.49,9.92,57.14,212.37
+203,Phillips 66,"Houston, United States",Oil & Gas Operations,135.77,4.11,84.08,70.64
+204,Southern Company,"Atlanta, United States",Utilities,30.17,4.36,157.03,104.33
+205,Xiaomi,"Beijing, China",Technology Hardware & Equipment,63.62,5.79,72.71,100.76
+206,United Parcel Service (UPS),"Atlanta, United States",Transportation,88.37,5.25,71.81,84.09
+207,América Móvil,"Mexico City, Mexico",Telecommunications Services,51.23,4.73,102.23,81.64
+208,PICC,"Beijing, China",Insurance,88.91,6.42,290.15,30.5
+209,Schneider Electric,"Rueil-Malmaison, France",Capital Goods,45.31,4.7,73.41,172.46
+210,HCA Healthcare,"Nashville, United States",Health Care Equipment & Services,76.39,6.79,61.45,93.84
+211,Safran,"Paris, France",Aerospace & Defense,35.2,8.1,72.6,131.59
+212,Mastercard,"Purchase, United States",Business Services & Supplies,34.01,15.57,52.45,436.67
+213,Investor AB,"Stockholm, Sweden",Diversified Financials,20.97,20.2,119.69,118.44
+214,Deutsche Post,"Bonn, Germany",Transportation,95.56,4.09,85.74,60.92
+215,Oversea-Chinese Banking,"Singapore, Singapore",Banking,19.89,5.68,525.42,80.7
+216,Lockheed Martin,"Bethesda, United States",Aerospace & Defense,75.11,4.79,59.24,118.97
+217,Al Rajhi Bank,"Riyadh, Saudi Arabia",Banking,19.54,6.43,280.14,106.01
+218,Emirates NBD,"Dubai, United Arab Emirates",Banking,28.93,6.44,331.24,47.64
+219,Prudential Financial,"Newark, United States",Insurance,62.83,3.47,765.4,35.37
+220,Qatar National Bank,"Doha, Qatar",Banking,37.99,4.37,387.17,43.4
+221,KDDI,"Tokyo, Japan",Telecommunications Services,40.29,4.69,119.83,65.39
+222,MS&AD Insurance,"Tokyo, Japan",Insurance,50.07,4.83,178.52,40.89
+223,KBC Group,"Brussels, Belgium",Banking,29.04,4.0,457.22,51.46
+224,Brookfield Corporation,"Toronto, Canada",Diversified Financials,77.61,1.34,519.61,101.91
+225,Honeywell International,"Charlotte, United States",Aerospace & Defense,39.66,4.51,73.99,135.12
+225,Medtronic,"Galway, Ireland",Health Care Equipment & Services,35.48,4.62,91.48,97.77
+227,Valero Energy,"San Antonio, United States",Oil & Gas Operations,125.06,4.19,62.14,74.45
+228,Daiichi Life Group.,"Tokyo, Japan",Insurance,64.42,2.9,466.15,37.46
+229,Swiss Re,"Zurich, Switzerland",Insurance,47.63,4.64,136.15,45.55
+230,KB Financial Group,"Seoul, South Korea",Banking,36.12,4.09,541.73,36.83
+231,Saudi National Bank,"Riyadh, Saudi Arabia",Banking,20.16,6.77,327.37,61.05
+232,McDonald's,"Chicago, United States","Hotels, Restaurants & Leisure",27.45,8.68,60.04,196.38
+233,Gilead Sciences,"Foster City, United States",Drugs & Biotechnology,29.79,9.22,56.28,160.88
+234,Japan Post Holdings,"Tokyo, Japan",Insurance,74.5,2.49,1820.0,32.6
+235,Fubon Financial,"Taipei, Taiwan",Insurance,30.77,3.88,408.77,42.69
+236,KKR,"New York, United States",Diversified Financials,22.38,2.96,412.08,87.07
+237,First Abu Dhabi Bank,"Abu Dhabi, United Arab Emirates",Banking,21.67,5.54,405.78,51.5
+238,Union Pacific,"Omaha, United States",Transportation,24.7,7.21,69.64,160.63
+239,Commerzbank,"Frankfurt, Germany",Banking,28.41,3.07,695.12,47.84
+240,Erste Group Bank,"Vienna, Austria",Banking,25.64,4.06,518.52,43.82
+241,National Grid,"London, United Kingdom",Utilities,23.7,4.34,142.79,78.89
+242,General Dynamics,"Reston, United States",Aerospace & Defense,53.81,4.34,59.03,90.46
+243,Inditex,"A Coruña, Spain",Retailing,45.45,7.09,42.4,179.33
+244,Constellation Energy,"Baltimore, United States",Utilities,28.5,3.79,96.91,96.51
+245,Delta Air Lines,"Atlanta, United States",Transportation,65.18,4.48,84.43,46.14
+246,Siemens Energy,"Munich, Germany",Capital Goods,46.51,2.58,71.28,168.65
+247,Canadian Natural Resources,"Calgary, Canada",Oil & Gas Operations,27.95,7.03,67.39,100.17
+248,Sumitomo,"Tokyo, Japan",Trading Companies,48.69,3.98,85.73,55.7
+249,Cathay Financial,"Taipei, Taiwan",Insurance,33.63,3.44,455.68,36.24
+250,Cencora,"Conshohocken, United States",Health Care Equipment & Services,328.68,2.55,81.65,50.14
+251,Citic Securities,"Beijing, China",Diversified Financials,23.73,4.04,297.92,50.16
+252,Oil & Natural Gas,"New Delhi, India",Oil & Gas Operations,75.63,4.35,88.01,39.26
+253,Macquarie Group Limited,"Sydney, Australia",Banking,22.16,3.1,370.71,63.67
+254,KIA,"Seoul, South Korea",Consumer Durables,81.15,4.91,68.79,43.48
+255,Target,"Minneapolis, United States",Retailing,104.78,3.71,59.49,55.04
+256,ArcelorMittal,"Luxembourg, Luxembourg",Materials,61.39,3.22,97.7,46.24
+257,Suncor Energy,"Calgary, Canada",Oil & Gas Operations,36.95,4.58,66.52,81.07
+258,National Bank of Canada,"Montréal, Canada",Banking,22.31,3.07,447.42,57.59
+259,Banco Btg Pactual,"Rio de Janeiro, Brazil",Diversified Financials,20.85,2.85,161.93,124.62
+259,Talanx,"Hannover, Germany",Insurance,64.05,3.07,211.66,31.68
+261,Kweichow Moutai,"Renhuai, China","Food, Drink & Tobacco",24.68,11.65,46.31,245.11
+262,Volvo Group,"Gothenburg, Sweden",Capital Goods,49.62,3.48,71.64,68.41
+263,Rolls-Royce Holdings,"London, United Kingdom",Aerospace & Defense,27.95,7.7,51.27,127.42
+264,Marubeni,"Tokyo, Japan","Food, Drink & Tobacco",54.85,3.61,66.2,61.07
+264,Newmont,"Denver, United States",Materials,24.41,8.46,57.67,116.43
+266,TJX Cos,"Framingham, United States",Retailing,60.37,5.49,35.77,163.18
+267,Danaher,"Washington, United States",Health Care Equipment & Services,24.78,3.69,83.54,114.59
+268,Vale,"Rio de Janeiro, Brazil",Materials,39.47,2.87,87.55,70.27
+269,China Everbright Bank,"Beijing, China",Banking,34.57,5.15,1040.0,23.84
+270,ABB,"Zurich, Switzerland",Capital Goods,35.66,4.98,44.88,187.5
+271,Air Liquide,"Paris, France",Chemicals,30.4,3.97,60.97,118.3
+272,Applied Materials,"Santa Clara, United States",Capital Goods,29.02,8.51,40.29,346.51
+273,JD.com,"Beijing, China",Retailing,186.35,1.95,99.26,44.79
+274,Fairfax Financial,"Toronto, Canada",Insurance,44.45,4.53,107.39,36.37
+275,Danske Bank,"Copenhagen, Denmark",Banking,22.72,3.56,584.76,39.86
+276,Prudential,"Hong Kong, Hong Kong",Insurance,27.72,3.96,212.19,37.99
+277,Eaton,"Dublin, Ireland",Capital Goods,28.52,3.99,55.09,155.1
+278,United Overseas Bank,"Singapore, Singapore",Banking,19.92,3.58,444.84,48.09
+279,China Resources Land,"Hong Kong, Hong Kong",Construction,39.33,3.54,154.36,34.32
+280,Bank Of Jiangsu,"Nanjing, China",Banking,23.07,4.97,807.94,30.15
+281,DNB Bank,"Oslo, Norway",Banking,19.84,4.07,393.92,43.8
+282,Power Corp of Canada,"Montréal, Canada",Insurance,39.83,1.88,675.35,36.7
+283,BASF,"Ludwigshafen am Rhein, Germany",Chemicals,69.7,2.01,94.21,54.21
+284,Northrop Grumman,"Falls Church, United States",Aerospace & Defense,42.37,4.58,50.01,76.8
+285,American Electric,"Columbus, United States",Utilities,22.38,3.65,117.78,68.09
+286,Shinhan Financial Group,"Seoul, South Korea",Banking,28.14,3.44,533.23,29.93
+287,ORLEN Spolka Akcyjna,"Plock, Poland",Oil & Gas Operations,71.18,2.96,73.72,44.57
+288,EssilorLuxottica,"Charenton-le-Pont, France",Health Care Equipment & Services,32.15,2.61,75.04,93.33
+289,PTT,"Bangkok, Thailand",Oil & Gas Operations,82.96,2.85,108.65,31.44
+290,Mondelez International,"Chicago, United States","Food, Drink & Tobacco",39.3,2.61,71.12,77.58
+291,State Street,"Boston, United States",Diversified Financials,21.62,3.06,392.17,42.3
+292,CRH,"New York, United States",Construction,38.06,3.65,58.17,68.97
+293,ONEOK,"Tulsa, United States",Oil & Gas Operations,35.2,3.53,68.2,58.16
+294,SLB,"Houston, United States",Oil & Gas Operations,35.91,3.33,54.53,82.8
+295,PayPal,"San Jose, United States",Business Services & Supplies,34.02,5.06,80.55,39.17
+296,Banco do Brasil,"Brasilia, Brazil",Banking,68.57,2.33,499.85,23.32
+297,Saint-Gobain,"Courbevoie, France",Construction,52.46,3.25,71.45,42.64
+298,Sun Life Financial,"Toronto, Canada",Insurance,28.51,2.23,285.42,39.86
+299,Poste Italiane,"Rome, Italy",Transportation,24.39,2.82,331.69,36.47
+300,Aflac,"Columbus, United States",Insurance,18.11,4.64,115.81,59.45
+301,Marsh,"New York, United States",Insurance,27.55,3.92,58.55,77.59
+302,Ameriprise Financial,"Minneapolis, United States",Diversified Financials,19.3,3.9,184.45,42.29
+303,Automatic Data Processing,"Roseland, United States",IT Software & Services,21.6,4.35,64.48,85.73
+304,United Airlines Holdings,"Chicago, United States",Transportation,60.47,3.67,80.94,30.14
+305,China Minsheng Bank,"Beijing, China",Banking,37.23,3.8,1120.0,19.74
+306,American International Group,"New York, United States",Insurance,26.64,3.16,122.64,40.35
+307,Richemont,"Bellevue, Switzerland",Consumer Durables,24.23,4.53,48.7,116.11
+308,Amphenol,"Wallingford, United States",Technology Hardware & Equipment,25.9,4.47,42.13,153.78
+309,Bharti Airtel,"New Delhi, India",Telecommunications Services,23.88,3.02,58.21,120.88
+310,EOG Resources,"Houston, United States",Oil & Gas Operations,23.55,5.5,53.38,74.71
+311,Bank of Ningbo,"Ningbo, China",Banking,17.93,4.24,558.64,30.9
+312,China Unicom,"Hong Kong, Hong Kong",Telecommunications Services,54.55,2.88,95.82,29.89
+313,Apollo Global Management,"New York, United States",Diversified Financials,31.69,1.04,467.53,78.05
+314,Royal Ahold Delhaize N.V.,"Zaandam, Netherlands",Food Markets,105.85,2.62,57.47,37.58
+315,IntercontinentalExchange,"Atlanta, United States",Diversified Financials,12.93,3.93,179.18,87.29
+316,Toyota Tsusho,"Nagoya, Japan",Trading Companies,76.73,2.46,53.58,49.18
+317,Exelon,"Chicago, United States",Utilities,24.79,2.78,117.55,44.39
+318,PG&E,"Oakland, United States",Utilities,25.83,2.95,141.95,35.52
+319,Korea Electric Power,"Naju-si, South Korea",Utilities,68.5,6.11,168.31,16.57
+320,Luxshare Precision Industry,"Dongguan, China",Technology Hardware & Equipment,49.84,2.42,47.13,79.12
+321,Freeport-McMoRan,"Phoenix, United States",Materials,25.79,2.71,58.84,90.58
+322,BAE Systems,"London, United Kingdom",Aerospace & Defense,37.34,2.72,50.68,72.5
+323,Stryker,"Portage, United States",Health Care Equipment & Services,25.27,3.34,46.29,117.6
+324,Hartford Financial Services,"Hartford, United States",Insurance,28.78,4.06,79.25,36.71
+325,Mitsubishi Electric,"Tokyo, Japan",Capital Goods,39.12,2.71,46.25,82.79
+326,Axis Bank,"Mumbai, India",Banking,18.36,2.99,205.17,40.33
+327,Banorte,"San Pedro Garza García, Mexico",Banking,26.35,3.18,146.1,29.87
+328,SEB AB,"Stockholm, Sweden",Banking,16.36,3.26,432.81,36.07
+329,Tesco,"Welwyn Garden City, United Kingdom",Food Markets,98.49,2.39,53.07,37.99
+330,S&P Global,"New York, United States",Business Services & Supplies,15.73,4.78,60.79,119.33
+331,Repsol,"Madrid, Spain",Oil & Gas Operations,64.97,2.85,74.95,29.01
+332,Mitsubishi Heavy Industries,"Tokyo, Japan",Capital Goods,33.01,2.2,51.98,86.44
+333,Cenovus Energy,"Calgary, Canada",Oil & Gas Operations,35.27,3.36,46.47,58.05
+334,Charter Communications,"Stamford, United States",Media,54.64,4.93,154.64,17.26
+335,Dominion Energy,"Richmond, United States",Utilities,17.76,2.95,118.58,54.29
+336,Cardinal Health,"Dublin, United States",Health Care Equipment & Services,250.74,1.55,56.69,45.72
+337,Quanta Computer,"Taoyuan, Taiwan",Technology Hardware & Equipment,79.29,2.48,54.69,37.4
+338,Nomura,"Tokyo, Japan",Diversified Financials,31.58,2.4,393.78,23.29
+339,Japan Tobacco,"Tokyo, Japan","Food, Drink & Tobacco",23.66,3.65,52.49,70.53
+340,Orix,"Tokyo, Japan",Business Services & Supplies,22.08,2.97,113.16,40.09
+341,Couche Tard,"Laval, Canada",Retailing,73.26,2.71,40.89,52.36
+342,Aviva,"London, United Kingdom",Insurance,77.11,1.29,531.7,24.85
+343,Baker Hughes Company,"Houston, United States",Oil & Gas Operations,27.89,3.12,50.9,63.61
+344,Barrick Mining,"Toronto, Canada",Materials,19.02,6.13,52.58,67.96
+345,"Merck KGaA, Darmstadt, Germany and its affiliates","Darmstadt, Germany",Drugs & Biotechnology,24.28,2.94,61.15,59.34
+346,RWE Group,"Essen, Germany",Utilities,18.0,2.73,134.54,47.75
+347,Altria Group,"Richmond, United States","Food, Drink & Tobacco",20.4,8.03,34.58,122.05
+348,Kinder Morgan,"Houston, United States",Oil & Gas Operations,17.41,3.3,73.07,74.82
+349,Grupo Mexico,"Mexico City, Mexico",Materials,19.46,5.64,42.62,90.69
+350,CK Hutchison,"Hong Kong, Hong Kong",Retailing,35.92,1.52,148.48,35.73
+351,Fannie Mae,"Washington, United States",Business Services & Supplies,160.5,14.42,4310.0,9.04
+351,Texas Instruments,"Dallas, United States",Semiconductors,18.44,5.34,34.39,275.51
+353,CTBC Financial Holding,"Taipei, Taiwan",Banking,17.8,2.59,296.97,34.2
+354,Waste Management,"Houston, United States",Business Services & Supplies,25.41,2.79,45.7,88.27
+355,Denso,"Kariya, Japan",Consumer Durables,50.04,2.94,54.88,33.0
+356,Booking Holdings,"Norwalk, United States",Business Services & Supplies,27.69,6.15,27.72,119.43
+357,Cosco Shipping,"Shanghai, China",Transportation,30.54,4.29,69.22,28.99
+358,China Yangtze Power,"Beijing, China",Utilities,12.19,5.08,81.35,97.19
+359,Adobe,"San Jose, United States",IT Software & Services,24.45,7.21,29.7,100.08
+360,Freddie Mac,"McLean, United States",Business Services & Supplies,133.63,11.49,3510.0,4.48
+361,Daimler Truck Holding,"Leinfelden-Echterdingen, Germany",Consumer Durables,50.99,1.59,86.01,35.37
+362,A.P. Moller-Maersk,"Copenhagen, Denmark",Transportation,53.63,1.62,86.61,33.29
+363,SK,"Seoul, South Korea",Diversified Financials,90.0,2.18,149.36,18.45
+364,Johnson Controls International,"Cork, Ireland",Capital Goods,24.43,3.53,38.35,87.3
+364,Swedbank,"Sundbyberg, Sweden",Banking,13.22,3.38,334.62,38.51
+366,Cummins,"Columbus, United States",Consumer Durables,33.89,2.67,34.45,96.11
+367,MercadoLibre,"Montevideo, Uruguay",Retailing,31.8,1.92,46.93,78.42
+368,Sompo,"Tokyo, Japan",Insurance,35.31,1.59,106.84,34.72
+369,Boston Scientific,"Marlborough, United States",Health Care Equipment & Services,20.61,3.56,44.35,78.3
+369,Nu Holdings,"São Paulo, Brazil",Banking,16.09,3.18,77.46,59.25
+371,Nike,"Beaverton, United States",Household & Personal Products,46.55,2.25,37.06,62.02
+372,Samsung Life Insurance,"Seoul, South Korea",Insurance,17.67,2.02,242.5,37.07
+373,Indian Oil,"New Delhi, India",Oil & Gas Operations,88.5,4.1,58.17,19.8
+374,Bank Leumi,"Tel Aviv, Israel",Banking,14.38,2.98,273.91,35.76
+375,Bank Rakyat Indonesia (BRI),"Jakarta, Indonesia",Banking,20.17,3.53,132.39,26.9
+377,Aon,"Dublin, Ireland",Insurance,17.57,3.94,51.43,67.75
+378,New China Life Insurance,"Beijing, China",Insurance,18.68,5.06,271.81,19.92
+379,Intuit,"Mountain View, United States",IT Software & Services,20.12,4.34,34.28,108.68
+380,Hana Financial Group,"Seoul, South Korea",Banking,21.58,2.75,447.47,21.13
+381,Fifth Third Bank,"Cincinnati, United States",Banking,14.09,2.17,297.04,42.91
+382,Hyundai Mobis,"Seoul, South Korea",Consumer Durables,43.46,2.46,48.26,37.36
+382,Occidental Petroleum,"Houston, United States",Oil & Gas Operations,23.58,1.56,80.46,59.3
+384,Larsen & Toubro,"Mumbai, India",Construction,32.35,1.97,47.71,56.02
+384,London Stock Exchange,"London, United Kingdom",Business Services & Supplies,12.31,1.65,1070.0,59.78
+386,SAIC Motor,"Shanghai, China",Consumer Durables,92.33,1.42,135.77,21.73
+387,Saudi Telecom,"Riyadh, Saudi Arabia",Telecommunications Services,20.94,3.98,44.28,57.42
+388,Arch Capital Group,"Pembroke, Bermuda",Insurance,19.17,4.87,68.53,32.84
+389,Bank Hapoalim,"Tel Aviv, Israel",Banking,14.62,2.85,252.49,33.52
+390,Gree Electric Appliances,"Zhuhai, China",Capital Goods,24.29,4.11,55.24,32.96
+391,Royal Caribbean Group,"Miami, United States","Hotels, Restaurants & Leisure",18.39,4.48,41.99,69.81
+392,Panasonic,"Osaka, Japan",Consumer Durables,53.41,1.26,63.94,48.48
+393,Danone,"Paris, France","Food, Drink & Tobacco",30.79,2.05,52.93,45.59
+394,Etisalat,"Abu Dhabi, United Arab Emirates",Telecommunications Services,20.53,3.24,56.54,44.52
+395,Samsung C&T,"Seoul, South Korea",Construction,29.11,1.79,68.61,41.15
+396,Paccar,"Bellevue, United States",Capital Goods,27.77,2.48,43.55,58.06
+397,Huaxia Bank,"Beijing, China",Banking,24.36,3.82,706.19,15.44
+398,OTP Bank,"Budapest, Hungary",Banking,14.33,3.33,142.8,35.66
+399,Blackstone,"New York, United States",Diversified Financials,14.88,3.05,48.33,144.0
+400,Seven & I Holdings,"Tokyo, Japan",Food Markets,69.59,1.95,58.56,27.15
+401,Hermès International,"Paris, France",Household & Personal Products,18.06,5.11,28.57,192.09
+401,Sumitomo Mitsui Trust,"Tokyo, Japan",Banking,18.35,2.11,516.53,24.71
+403,3M,"St. Paul, United States",Conglomerates,25.02,2.79,35.44,76.26
+404,Guotai Junan Securities,"Shanghai, China",Diversified Financials,13.04,3.81,302.56,28.9
+405,Fast Retailing,"Yamaguchi, Japan",Retailing,24.46,3.19,27.54,138.59
+406,Fiserv,"Milwaukee, United States",Business Services & Supplies,21.09,3.2,80.55,29.5
+407,China Railway Group,"Beijing, China",Construction,152.2,2.91,353.52,11.75
+408,Edison International,"Rosemead, United States",Utilities,19.61,3.7,94.47,26.61
+409,Synchrony Financial,"Stamford, United States",Business Services & Supplies,18.98,3.6,121.5,24.05
+410,CMOC Group,"Luoyang, China",Trading Companies,32.05,3.41,32.38,50.79
+411,NTPC,"New Delhi, India",Utilities,21.51,2.77,60.67,39.91
+412,Ecopetrol,"Bogota, Colombia",Oil & Gas Operations,29.89,2.23,78.61,26.96
+413,Parker-Hannifin,"Cleveland, United States",Capital Goods,20.99,3.48,30.68,108.78
+414,Prologis,"San Francisco, United States",Diversified Financials,8.95,3.72,98.13,131.02
+414,Weichai Power,"Weifang, China",Consumer Durables,33.39,1.59,53.96,45.91
+416,Nucor,"Charlotte, United States",Materials,34.16,2.32,35.63,51.7
+417,Svenska Handelsbanken,"Stockholm, Sweden",Banking,14.67,2.52,391.06,27.34
+418,Nutrien,"Saskatoon, Canada",Chemicals,27.83,2.39,53.92,34.42
+419,Humana,"Louisville, United States",Drugs & Biotechnology,137.2,1.13,55.28,36.63
+420,Carnival Corporation,"Miami, United States","Hotels, Restaurants & Leisure",26.98,3.1,51.57,30.53
+421,Sempra,"San Diego, United States",Oil & Gas Operations,13.49,1.96,113.52,59.11
+422,Veolia Environnement,"Aubervilliers, France",Utilities,50.1,1.37,83.0,28.62
+423,D.R. Horton,"Arlington, United States",Construction,33.35,3.17,35.57,38.39
+424,Lam Research,"Fremont, United States",Capital Goods,21.68,6.71,20.79,356.06
+425,M&T Bank,"Buffalo, United States",Banking,13.21,2.92,214.74,30.01
+426,Standard Bank Group,"Johannesburg, South Africa",Banking,13.65,2.75,218.52,29.78
+427,Toyota Industries,"Kariya, Japan",Capital Goods,29.0,1.49,70.32,38.7
+428,Bank of Nanjing,"Nanjing, China",Banking,15.71,3.14,464.21,20.39
+429,International Airlines,"London, United Kingdom",Transportation,37.52,3.79,50.32,22.31
+429,Swiss Life Holding,"Zurich, Switzerland",Insurance,18.32,1.49,285.35,30.14
+431,Intel,"Santa Clara, United States",Semiconductors,53.76,3.174,205.33,546.68
+431,Kuwait Finance House,"Kuwait City, Kuwait",Banking,13.1,2.03,140.68,46.75
+433,Thales,"Paris, France",Aerospace & Defense,24.98,1.89,45.99,52.44
+434,Starbucks,"Seattle, United States","Hotels, Restaurants & Leisure",38.45,1.5,30.56,121.74
+435,Abu Dhabi Commercial Bank,"Abu Dhabi, United Arab Emirates",Banking,12.31,3.2,220.2,29.67
+436,Regeneron Pharmaceuticals,"Tarrytown, United States",Drugs & Biotechnology,14.92,4.42,40.87,73.2
+437,Marriott International,"Bethesda, United States","Hotels, Restaurants & Leisure",26.58,2.58,27.86,93.13
+437,Sun Hung Kai Properties,"Hong Kong, Hong Kong",Construction,11.7,2.82,103.96,52.77
+439,Wanhua Chemical Group,"Yantai, China",Chemicals,30.16,1.85,50.33,37.63
+440,Compass Group,"Chertsey, United Kingdom","Hotels, Restaurants & Leisure",48.48,2.02,29.77,54.34
+441,Femsa,"Monterrey, Mexico","Food, Drink & Tobacco",46.13,1.54,44.42,41.62
+441,FirstRand,"Johannesburg, South Africa",Banking,14.56,2.55,161.84,29.3
+443,Archer Daniels Midland,"Chicago, United States","Food, Drink & Tobacco",80.65,1.08,55.6,38.75
+444,Huntington Bank,"Columbus, United States",Banking,13.13,2.21,285.37,31.24
+445,Emerson Electric,"St. Louis, United States",Technology Hardware & Equipment,18.31,2.45,42.09,74.52
+446,Bank of Beijing,"Beijing, China",Banking,19.43,2.89,716.12,16.25
+447,Williams,"Tulsa, United States",Oil & Gas Operations,12.13,2.79,59.57,95.05
+448,ENEOS Holdings,"Tokyo, Japan",Oil & Gas Operations,78.08,1.72,57.16,23.51
+449,Sumitomo Electric,"Osaka, Japan",Consumer Durables,33.91,2.45,30.33,54.0
+449,Xcel Energy,"Minneapolis, United States",Utilities,14.77,2.09,84.83,48.64
+451,Shin-Etsu Chemical,"Tokyo, Japan",Chemicals,17.08,3.15,35.59,83.18
+452,TC Energy,"Calgary, Canada",Oil & Gas Operations,11.36,2.49,86.58,71.13
+453,Diageo,"London, United Kingdom","Food, Drink & Tobacco",19.79,2.39,50.27,45.39
+454,Bank Of Shanghai,"Shanghai, China",Banking,14.43,3.41,489.07,19.82
+455,Maybank,"Kuala Lumpur, Malaysia",Banking,11.88,2.46,259.63,33.98
+456,Agnico Eagle Mines,"Toronto, Canada",Materials,13.53,5.34,35.16,90.23
+457,Kroger,"Cincinnati, United States",Food Markets,147.64,1.0,49.95,40.44
+458,TAQA,"Abu Dhabi, United Arab Emirates",Utilities,14.97,2.03,59.88,70.41
+459,Consolidated Edison,"New York, United States",Utilities,17.21,2.15,74.74,38.83
+460,Geely Automobile Holdings,"Hong Kong, Hong Kong",Consumer Durables,50.22,2.16,40.07,29.95
+461,CME Group,"Chicago, United States",Diversified Financials,6.76,4.26,201.99,108.3
+462,CSX,"Jacksonville, United States",Transportation,14.15,3.05,44.23,84.84
+463,Analog Devices,"Wilmington, United States",Semiconductors,11.76,2.71,47.99,203.82
+464,Glencore International,"Baar, Switzerland",Trading Companies,247.22,0.3362,142.2,89.65
+465,Tata Consultancy Services,"Mumbai, India",IT Software & Services,30.22,5.57,19.23,85.35
+466,Daikin Industries,"Osaka, Japan",Capital Goods,33.28,1.83,36.52,46.84
+467,Komatsu,"Tokyo, Japan",Capital Goods,27.43,2.5,40.38,36.84
+468,Bouygues,"Paris, France",Construction,65.44,1.39,73.85,22.64
+469,ACS Actividades de Construccion y Servicios,"Madrid, Spain",Construction,56.26,1.07,53.94,40.24
+470,PKO Bank Polski,"Warsaw, Poland",Banking,11.36,2.93,159.29,33.4
+471,Northern Trust,"Chicago, United States",Diversified Financials,14.59,1.85,174.57,30.32
+472,NetEase,"Hangzhou, China",IT Software & Services,15.66,4.69,31.68,72.97
+473,Haier Smart Home,"Qingdao, China",Consumer Durables,41.81,2.63,43.51,24.81
+474,DSV,"Hedehusene, Denmark",Transportation,42.85,1.07,45.48,59.08
+475,CRRC,"Beijing, China",Capital Goods,39.12,1.9,80.1,19.5
+476,American Tower,"Boston, United States",Diversified Financials,10.82,2.9,63.23,79.5
+477,Ford Motor,"Dearborn, United States",Consumer Durables,189.86,6.105,282.43,53.4
+478,Power Construction Corporation of China,"Beijing, China",Construction,91.33,1.31,203.24,14.58
+479,Raymond James Financial,"St. Petersburg, United States",Diversified Financials,16.51,2.15,91.94,30.03
+480,Canadian Pacific Kansas City,"Calgary, Canada",Transportation,10.84,2.95,62.83,75.48
+481,China Hongqiao Group,"Zouping, China",Materials,22.58,3.15,35.11,39.82
+482,MediaTek,"Hsinchu, Taiwan",Semiconductors,19.18,3.24,23.11,165.0
+483,Deutsche Boerse,"Frankfurt, Germany",Diversified Financials,8.37,2.25,419.55,51.19
+484,Keurig Dr Pepper,"Frisco, United States","Food, Drink & Tobacco",16.94,1.83,73.14,39.36
+485,China CSSC Holdings,"Shanghai, China",Capital Goods,20.71,1.51,60.57,44.84
+486,China Railway Construction,"Beijing, China",Construction,141.47,2.64,310.13,8.86
+487,Orange,"Paris, France",Telecommunications Services,45.59,0.6072,130.13,56.34
+488,L3Harris Technologies,"Melbourne, United States",Aerospace & Defense,22.48,1.73,41.38,56.52
+488,Sherwin-Williams,"Cleveland, United States",Chemicals,23.94,2.6,26.38,74.02
+490,Gallagher,"Rolling Meadows, United States",Insurance,14.97,1.61,78.3,51.37
+490,Suzuki Motor,"Hamamatsu, Japan",Consumer Durables,41.76,2.92,41.72,22.43
+492,OMV Group,"Vienna, Austria",Oil & Gas Operations,27.75,2.74,49.59,23.87
+493,First Citizens Bank (NC),"Raleigh, United States",Banking,14.41,2.26,235.96,22.82
+494,HeidelbergCement,"Heidelberg, Germany",Construction,24.22,2.19,43.67,34.29
+495,Kotak Mahindra Bank,"Mumbai, India",Banking,12.17,2.18,105.78,40.14
+496,Intact Financial,"Toronto, Canada",Insurance,21.76,2.49,45.05,33.94
+497,Sony Group,"Tokyo, Japan",Technology Hardware & Equipment,82.81,2.1691,98.58,133.21
+498,Reckitt Benckiser Group,"Slough, United Kingdom",Household & Personal Products,18.72,4.19,33.72,39.19
+499,Woodside Energy Group,"Perth, Australia",Oil & Gas Operations,12.96,2.72,66.5,42.39
+500,BCE,"Verdun, Canada",Telecommunications Services,17.88,4.66,58.31,22.17
+500,Venture Global,"Arlington, United States",Oil & Gas Operations,15.47,2.79,56.3,35.36
+502,Canadian National Railway,"Montréal, Canada",Transportation,12.5,3.4,42.61,68.39
+503,NN Group,"The Hague, Netherlands",Insurance,21.14,1.25,240.66,23.09
+504,Trane Technologies,"Swords, Ireland",Capital Goods,21.6,2.9,22.75,103.14
+505,Sysco,"Houston, United States",Food Markets,83.57,1.74,27.98,34.7
+506,Entergy,"New Orleans, United States",Utilities,13.29,1.8,75.8,49.92
+507,Ericsson,"Kista, Sweden",Technology Hardware & Equipment,24.48,2.67,30.48,41.73
+507,Woori Financial Group,"Seoul, South Korea",Banking,20.41,2.08,399.95,15.21
+509,Welltower,"Toledo, United States",Diversified Financials,11.76,1.41,67.22,150.88
+510,Emaar Properties,"Dubai, United Arab Emirates",Construction,14.46,5.14,53.17,28.06
+511,Coca-Cola Europacific Partners,"Uxbridge, United Kingdom","Food, Drink & Tobacco",23.61,2.2,35.08,40.04
+512,Saudi Electricity,"Riyadh, Saudi Arabia",Utilities,27.74,1.28,173.18,18.99
+513,Corning,"Corning, United States",Technology Hardware & Equipment,16.32,1.81,31.25,165.08
+514,Cheniere Energy,"Houston, United States",Oil & Gas Operations,20.95,1.46,46.84,50.68
+514,Chery Automobile,"Wuhu, China",Consumer Durables,41.93,2.61,40.39,21.44
+516,Bank Mandiri,"Jakarta, Indonesia",Banking,12.13,3.53,143.17,22.42
+517,Banca MPS,"Siena, Italy",Banking,8.39,3.06,284.09,33.11
+518,Kioxia Holdings,"Tokyo, Japan",Technology Hardware & Equipment,15.51,3.68,23.2,153.05
+519,Naturgy Energy Group,"Madrid, Spain",Oil & Gas Operations,21.96,2.28,45.92,29.54
+520,Fortescue Metals Group,"East Perth, Australia",Materials,16.34,3.73,31.35,49.78
+521,Wilmar International,"Singapore, Singapore","Food, Drink & Tobacco",70.37,1.41,65.64,18.54
+522,HP,"Palo Alto, United States",IT Software & Services,56.33,2.51,41.53,19.03
+523,Norfolk Southern,"Atlanta, United States",Transportation,12.19,2.67,45.11,70.96
+524,Lenovo Group,"Hong Kong, Hong Kong",Technology Hardware & Equipment,78.47,1.48,52.63,19.68
+524,Republic Services,"Phoenix, United States",Business Services & Supplies,16.7,2.17,34.6,64.09
+526,Principal Financial Group,"Des Moines, United States",Diversified Financials,15.46,1.56,313.8,21.72
+527,Citizens Financial Group,"Providence, United States",Banking,12.14,1.98,227.92,25.74
+527,Vistra Energy,"Irving, United States",Utilities,16.45,2.24,41.31,47.1
+529,Imperial Brands,"Bristol, United Kingdom","Food, Drink & Tobacco",26.01,2.33,37.23,29.06
+530,BT Group,"London, United Kingdom",Telecommunications Services,26.16,1.24,67.75,29.44
+531,China Communications Construction,"Beijing, China",Construction,101.15,1.94,290.06,9.42
+532,Henkel,"Dusseldorf, Germany",Chemicals,23.13,2.3,39.16,30.41
+533,TE Connectivity,"Galway, Ireland",Semiconductors,18.7,2.91,25.68,59.87
+534,QBE Insurance Group,"Sydney, Australia",Insurance,24.1,2.16,49.16,24.63
+535,East Japan Railway,"Tokyo, Japan",Transportation,20.47,1.64,68.02,26.81
+536,Bridgestone,"Tokyo, Japan",Consumer Durables,29.76,2.28,35.49,26.95
+536,Daiwa House Industry,"Osaka, Japan",Construction,37.01,2.33,52.88,17.72
+538,BPER Banca,"Modena, Italy",Banking,9.8,2.19,238.37,29.59
+539,Shaanxi Coal Industry,"Xi'an, China",Materials,22.1,2.28,35.24,33.99
+540,Vertex Pharmaceuticals,"Boston, United States",Drugs & Biotechnology,12.34,4.34,26.48,110.9
+541,Devon Energy,"Oklahoma City, United States",Oil & Gas Operations,16.86,2.27,32.54,57.06
+542,Delta Electronics,"Taoyuan, Taiwan",Technology Hardware & Equipment,19.29,2.28,21.4,170.92
+542,Rogers Communications,"Toronto, Canada",Telecommunications Services,16.08,5.1,64.46,19.07
+544,Mahindra & Mahindra,"Mumbai, India",Consumer Durables,22.41,1.94,33.49,40.46
+545,ASE Technology Holding,"Kaohsiung City, Taiwan",Semiconductors,21.74,1.53,29.95,76.11
+546,SingTel,"Singapore, Singapore",Telecommunications Services,10.69,4.7,37.06,62.02
+547,Jardine Matheson,"Hamilton, Bermuda",Conglomerates,34.22,1.11,86.14,21.59
+548,Swisscom,"Worblaufen, Switzerland",Telecommunications Services,18.56,1.54,44.77,44.53
+549,Fresenius,"Bad Homburg, Germany",Health Care Equipment & Services,26.7,1.7,48.82,25.42
+550,Honda Motor,"Tokyo, Japan",Consumer Durables,144.64,2.8133,210.63,35.1
+550,United Rentals,"Stamford, United States",Business Services & Supplies,16.36,2.51,29.89,60.21
+552,Public Service Enterprise Group,"Newark, United States",Utilities,13.01,2.26,57.95,38.09
+553,Mitsui Fudosan,"Tokyo, Japan",Construction,17.98,1.85,63.51,26.38
+554,Legal & General Group,"London, United Kingdom",Insurance,71.88,0.6286,783.18,19.54
+555,Michelin Group,"Clermont-Ferrand, France",Consumer Durables,29.33,1.88,41.13,25.05
+556,Infineon Technologies,"Munich, Germany",Semiconductors,17.52,1.27,36.54,98.72
+556,Naspers,"Cape Town, South Africa",IT Software & Services,7.86,5.72,80.21,39.75
+558,Kansai Electric Power,"Osaka, Japan",Utilities,26.92,2.52,61.94,16.39
+559,Carrier Global,"Palm Beach Gardens, United States",Capital Goods,21.87,1.31,37.19,53.71
+560,Atlas Copco,"Stockholm, Sweden",Capital Goods,17.61,2.76,22.64,89.44
+561,Canon,"Tokyo, Japan",Technology Hardware & Equipment,30.92,2.04,39.21,23.17
+562,Quanta Services,"Houston, United States",Construction,30.12,1.1,25.75,115.55
+563,Banco BPM,"Verona, Italy",Banking,10.54,2.35,241.81,22.9
+564,Air Products & Chemicals,"Allentown, United States",Chemicals,12.46,2.11,41.65,65.78
+564,Loews,"New York, United States",Insurance,18.52,1.63,85.65,21.77
+566,CBRE Group,"Dallas, United States",Construction,42.17,1.31,30.17,38.05
+567,Bank Central Asia,"Jakarta, Indonesia",Banking,7.71,3.5,96.55,42.92
+568,Central Japan Railway,"Nagoya, Japan",Transportation,13.31,3.67,68.36,21.89
+569,Bank of Baroda,"Vadodara, India",Banking,17.75,2.25,221.56,14.09
+570,Nokia,"Espoo, Finland",Technology Hardware & Equipment,23.18,0.8957,42.96,77.43
+571,Baoshan Iron & Steel,"Shanghai, China",Materials,45.29,1.43,53.0,19.27
+572,Haleon,"Weybridge, United Kingdom",Drugs & Biotechnology,14.54,2.2,43.89,39.39
+573,Becton Dickinson,"Franklin Lakes, United States",Health Care Equipment & Services,21.36,1.14,50.83,39.53
+574,Recruit Holdings,"Tokyo, Japan",IT Software & Services,24.54,3.3,17.53,68.89
+575,KeyCorp,"Cleveland, United States",Banking,11.14,1.95,188.66,22.81
+576,S.F. Holding,"Shenzhen, China",Transportation,44.0,1.61,30.95,26.21
+577,China Coal Energy,"Beijing, China",Materials,20.59,2.02,53.02,21.34
+577,Targa Resources,"Houston, United States",Oil & Gas Operations,16.67,2.12,27.11,58.38
+579,Tokyo Electron,"Tokyo, Japan",Capital Goods,16.21,3.81,17.98,143.09
+580,Corteva,"Indianapolis, United States","Food, Drink & Tobacco",17.89,1.16,42.72,54.98
+581,Hindalco Industries,"Mumbai, India",Materials,30.02,1.84,33.41,24.99
+582,JSW Steel,"Mumbai, India",Materials,20.99,2.53,28.43,32.58
+583,Teva Pharmaceutical,"Tel Aviv, Israel",Drugs & Biotechnology,17.39,1.55,40.04,40.26
+584,Ecolab,"St. Paul, United States",Chemicals,16.45,2.11,25.04,69.69
+585,Wesfarmers,"Perth, Australia",Retailing,29.85,1.97,19.24,58.21
+586,GE HealthCare Technologies,"Chicago, United States",Health Care Equipment & Services,20.98,1.91,37.13,27.64
+587,Bank Of Hangzhou,"Hangzhou, China",Banking,10.52,2.7,352.58,17.59
+588,China Taiping Insurance,"Hong Kong, Hong Kong",Insurance,22.92,3.34,255.23,9.99
+589,Bayer,"Leverkusen, Germany",Drugs & Biotechnology,52.42,2.4982,124.37,43.09
+590,Leonardo,"Rome, Italy",Aerospace & Defense,22.01,1.38,40.53,32.87
+591,JBS,"Amstelveen, Netherlands","Food, Drink & Tobacco",88.25,1.74,45.16,14.4
+591,Warner Bros. Discovery,"New York, United States",Media,37.25,1.736,97.84,67.64
+593,Coal India,"Kolkata, India",Materials,16.69,3.52,30.12,29.68
+594,Bajaj Finserv,"Pune, India",Insurance,17.3,1.11,79.97,28.8
+595,AirBnB,"San Francisco, United States","Hotels, Restaurants & Leisure",12.71,2.52,26.83,78.85
+596,Inpex,"Tokyo, Japan",Oil & Gas Operations,13.12,2.5,50.41,28.73
+597,NXP Semiconductors,"Eindhoven, Netherlands",Semiconductors,12.62,2.65,27.11,73.59
+598,Grupa PZU,"Warsaw, Poland",Insurance,18.28,1.72,145.77,14.77
+599,Aluminum Corp of China,"Beijing, China",Trading Companies,33.55,1.76,32.49,23.05
+599,Interactive Brokers Group,"Greenwich, United States",Diversified Financials,10.76,1.04,218.75,38.77
+601,Prysmian,"Milan, Italy",Capital Goods,23.29,1.58,24.47,51.09
+602,Resona Holdings,"Tokyo, Japan",Banking,8.08,1.72,479.59,29.01
+603,Unipol Gruppo,"Bologna, Italy",Insurance,16.39,1.67,106.19,18.42
+604,Aegon,"The Hague, Netherlands",Insurance,32.28,1.1,372.57,12.77
+604,Regions Financial,"Birmingham, United States",Banking,9.57,2.23,160.74,22.75
+606,Huaneng Power International,"Beijing, China",Utilities,31.52,1.63,89.03,13.17
+606,NEC,"Tokyo, Japan",IT Software & Services,23.77,1.79,28.08,33.49
+608,Publicis Groupe,"Paris, France",Media,19.64,1.87,46.99,22.5
+609,Fujitsu,"Kawasaki, Japan",IT Software & Services,23.25,2.98,21.37,35.19
+610,Nintendo,"Kyoto, Japan",Consumer Durables,15.35,2.81,23.92,51.98
+611,Holcim,"Zug, Switzerland",Construction,18.93,1.01,42.42,50.93
+612,Power Finance,"New Delhi, India",Business Services & Supplies,12.75,2.93,131.22,15.33
+613,Eversource Energy,"Springfield, United States",Utilities,13.93,1.75,64.71,25.26
+614,Fujifilm Holdings,"Tokyo, Japan",Health Care Equipment & Services,22.28,1.84,38.05,23.64
+614,SanDisk,"Milpitas, United States",Technology Hardware & Equipment,13.18,4.51,17.07,208.45
+616,KLA,"Milpitas, United States",Semiconductors,13.09,4.67,16.87,235.69
+617,Vodafone,"Newbury, United Kingdom",Telecommunications Services,46.9,0.4794,149.69,34.05
+618,Dollar General,"Goodlettsville, United States",Retailing,42.72,1.51,30.96,22.55
+619,Riyad Bank,"Riyadh, Saudi Arabia",Banking,9.17,2.65,143.12,21.68
+620,Reinsurance Group of America,"Chesterfield, United States",Insurance,24.94,1.23,157.32,13.77
+621,AutoZone,"Memphis, United States",Retailing,19.61,2.45,20.44,54.72
+622,Stellantis,"Hoofddorp, Netherlands",Consumer Durables,173.25,25.244,238.99,21.75
+623,Raiffeisen Bank International,"Vienna, Austria",Banking,16.14,1.18,251.59,17.62
+624,Otsuka Holding,"Tokyo, Japan",Drugs & Biotechnology,16.7,2.5,26.46,37.35
+625,Ageas,"Brussels, Belgium",Insurance,14.07,1.93,125.75,16.34
+625,Lennar,"Miami, United States",Construction,33.12,1.77,33.21,20.27
+627,Canara Bank,"Bangalore, India",Banking,17.32,2.23,203.2,12.1
+628,ServiceNow,"Santa Clara, United States",IT Software & Services,13.96,1.76,24.38,98.05
+629,DTE Energy,"Detroit, United States",Utilities,16.29,1.26,55.11,29.08
+630,Spotify Technology,"Stockholm, Sweden",IT Software & Services,20.32,3.16,15.13,89.94
+631,Punjab National Bank,"New Delhi, India",Banking,16.92,2.08,214.38,12.22
+632,Mapfre,"Majadahonda, Spain",Insurance,33.16,1.28,68.72,14.97
+633,Arista Networks,"Santa Clara, United States",Technology Hardware & Equipment,9.71,3.72,21.66,178.77
+634,Heineken,"Amsterdam, Netherlands","Food, Drink & Tobacco",32.45,1.07,64.22,18.05
+635,Hanwha Aerospace,"Changwon, South Korea",Aerospace & Defense,18.93,1.11,36.99,41.66
+636,Medline,"Northfield, United States",,29.14,0.966,39.01,30.6
+637,Markel,"Glen Allen, United States",Insurance,16.01,1.77,50.13,23.07
+638,LG Electronics,"Seoul, South Korea",Consumer Durables,63.3,0.6859,46.51,28.79
+639,Centene,"St. Louis, United States",Drugs & Biotechnology,198.1,6.444,81.17,28.77
+640,Adidas,"Herzogenaurach, Germany",Household & Personal Products,29.26,1.62,23.57,30.27
+641,EDP,"Lisbon, Portugal",Utilities,18.42,1.27,64.11,20.55
+642,EQT,"Pittsburgh, United States",Oil & Gas Operations,9.55,3.28,41.69,35.16
+643,National Bank of Kuwait,"Kuwait City, Kuwait",Banking,8.71,1.8,148.91,24.98
+644,Saudi Arabian Mining,"Riyadh, Saudi Arabia",Materials,10.36,1.98,32.98,66.36
+645,SBI Holdings,"Tokyo, Japan",Diversified Financials,12.59,2.84,240.69,12.63
+646,Cincinnati Financial,"Fairfield, United States",Insurance,12.93,2.76,40.49,25.74
+647,Ross Stores,"Dublin, United States",Retailing,22.75,2.15,16.67,68.54
+648,Union Bank of India,"Mumbai, India",Banking,14.63,2.2,167.37,12.88
+649,BOE Technology Group,"Beijing, China",Technology Hardware & Equipment,28.86,0.8377,63.36,22.54
+650,O'Reilly Automotive,"Springfield, United States",Retailing,18.21,2.6,16.94,73.33
+651,Capgemini,"Paris, France",IT Software & Services,25.35,1.81,34.13,19.74
+651,Equinix,"Redwood City, United States",Diversified Financials,9.44,1.42,40.9,104.49
+653,CIMB Group Holdings,"Kuala Lumpur, Malaysia",Banking,8.93,1.84,191.9,21.55
+654,Block,"Oakland, United States",Business Services & Supplies,24.48,0.8071,39.99,41.91
+655,Hengli Petrochemical,"Dalian, China",Chemicals,26.88,1.26,40.03,21.82
+656,Halliburton,"Houston, United States",Oil & Gas Operations,22.17,1.54,25.14,34.89
+657,Tata Steel,"Mumbai, India",Materials,26.27,1.22,31.76,28.2
+658,Meituan,"Beijing, China",IT Software & Services,50.77,3.3126,49.9,65.19
+659,China National Nuclear Power,"Beijing, China",Utilities,11.37,1.16,112.47,27.55
+660,Bunge Global,"Chesterfield, United States","Food, Drink & Tobacco",80.54,0.686,47.58,23.76
+661,Isbank,"Istanbul, Turkey",Banking,29.52,1.84,130.01,7.61
+662,Infosys,"Bangalore, India",IT Software & Services,20.22,3.33,16.44,47.27
+663,George Weston,"Toronto, Canada",Food Markets,46.93,0.8429,37.33,26.1
+664,Aeon,"Chiba, Japan",Food Markets,71.49,0.4849,98.44,26.12
+664,Kuaishou Technology,"Beijing, China",Media,19.87,2.59,23.54,27.5
+666,CSL,"Melbourne, Australia",Drugs & Biotechnology,15.27,1.41,37.9,33.56
+667,Hong Kong Exchanges,"Hong Kong, Hong Kong",Diversified Financials,3.91,2.42,72.05,67.22
+668,Western Digital,"San Jose, United States",Technology Hardware & Equipment,11.78,6.41,15.04,166.14
+669,Colgate-Palmolive,"New York, United States",Household & Personal Products,20.8,2.09,16.61,70.52
+670,Hewlett Packard Enterprise,"Spring, United States",Technology Hardware & Equipment,35.83,0.118,75.77,43.92
+671,CEZ Group,"Prague, Czech Republic",Utilities,14.35,1.37,43.65,32.34
+672,Intuitive,"Sunnyvale, United States",Health Care Equipment & Services,10.58,2.98,20.11,149.15
+672,Simon Property Group,"Indianapolis, United States",Diversified Financials,6.65,4.73,39.64,64.98
+674,TS Financial Holding,"Taipei, Taiwan",Diversified Financials,12.0,1.2,279.29,18.77
+675,Mitsubishi Estate,"Tokyo, Japan",Construction,11.59,1.48,53.84,31.47
+676,W. R. Berkley,"Greenwich, United States",Insurance,14.85,1.88,39.89,24.74
+677,VakifBank,"Istanbul, Turkey",Banking,29.23,1.75,127.07,6.71
+678,Illinois Tool Works,"Glenview, United States",Consumer Durables,16.22,3.13,16.26,71.26
+679,Trip.com Group,"Singapore, Singapore",Business Services & Supplies,8.69,4.65,38.26,31.97
+680,China Tower Corp.,"Beijing, China",Telecommunications Services,13.97,1.62,48.16,24.45
+681,Vonovia,"Bochum, Germany",Construction,7.32,3.99,106.0,21.35
+682,WEC Energy Group,"Milwaukee, United States",Utilities,10.09,1.64,51.73,35.56
+683,Telstra,"Melbourne, Australia",Telecommunications Services,14.94,1.46,29.77,43.03
+684,Credicorp,"Lima, Peru",Banking,8.91,2.07,79.79,25.16
+685,Lincoln National,"Radnor, United States",Insurance,19.7,1.73,378.47,6.57
+686,Yankuang Energy Group,"Zoucheng, China",Materials,18.58,1.18,64.68,18.48
+687,Baidu,"Beijing, China",IT Software & Services,17.95,0.6179,64.27,47.69
+687,Kubota,"Osaka, Japan",Capital Goods,20.68,1.45,39.38,21.0
+689,Deutsche Lufthansa,"Cologne, Germany",Transportation,46.6,1.81,58.41,10.73
+690,Posco,"Pohang-si, South Korea",Materials,48.8,0.5773,70.74,23.54
+691,SSE,"Perth, United Kingdom",Utilities,13.46,1.25,41.53,36.53
+692,China Zheshang Bank,"Hangzhou, China",Banking,17.02,1.84,537.38,8.63
+693,Mizrahi Tefahot Bank,"Ramat Gan, Israel",Banking,9.16,1.63,172.94,19.48
+694,Ferguson Enterprises,"Newport News, United States",Trading Companies,29.46,1.49,17.79,43.41
+695,TD SYNNEX,"Fremont, United States",Trading Companies,65.14,0.9782,35.08,18.51
+696,AerCap Holdings,"Dublin, Ireland",Business Services & Supplies,7.46,3.93,71.42,23.32
+697,FirstEnergy,"Akron, United States",Utilities,15.53,1.06,56.92,25.35
+698,Ally Financial,"Detroit, United States",Business Services & Supplies,15.62,1.4,197.27,12.87
+699,Wistron,"Hsinchu, Taiwan",Technology Hardware & Equipment,87.04,1.03,45.95,13.67
+700,RELX,"London, United Kingdom",Business Services & Supplies,12.64,2.72,19.85,57.27
+701,Telefónica,"Madrid, Spain",Telecommunications Services,40.79,4.8732,108.07,25.83
+702,Everest Re Group,"Hamilton, Bermuda",Insurance,17.3,2.03,56.71,13.92
+703,Fidelity National Information (FIS),"Jacksonville, United States",IT Software & Services,11.44,2.67,43.48,21.61
+704,Helvetia Baloise Holding,"Basel, Switzerland",Insurance,13.74,0.665,188.8,27.06
+705,Bharat Petroleum,"Mumbai, India",Oil & Gas Operations,51.37,2.82,25.68,12.86
+706,TDK,"Tokyo, Japan",Technology Hardware & Equipment,16.62,1.3,27.75,35.82
+707,Sampo,"Helsinki, Finland",Insurance,13.62,1.93,30.68,27.66
+708,Kenvue,"Summit, United States",Household & Personal Products,15.29,1.62,26.85,32.85
+709,SK Square,"Seoul, South Korea",Diversified Financials,0.919,10.94,25.45,96.2
+710,Assa Abloy,"Stockholm, Sweden",Consumer Durables,15.92,1.67,22.94,39.64
+711,Expand Energy,"Spring, United States",Oil & Gas Operations,12.89,3.23,29.52,23.13
+712,AIB Group,"Dublin, Ireland",Banking,6.47,2.32,174.0,23.68
+713,HD KOREA SHIPBUILDING & OFFSHORE ENGINEERING CO. LTD.,"Seongnam-si, South Korea",Capital Goods,23.74,1.77,27.55,19.59
+714,Marvell Technology,"Wilmington, United States",Semiconductors,8.2,2.67,22.29,154.88
+715,HD HYUNDAI,"Seongnam-si, South Korea",Capital Goods,52.72,1.07,55.6,12.68
+716,General Mills,"Minneapolis, United States","Food, Drink & Tobacco",18.37,2.2,32.4,17.61
+717,Keyence,"Osaka, Japan",Technology Hardware & Equipment,7.76,2.95,23.07,118.03
+718,Palo Alto Networks,"Santa Clara, United States",IT Software & Services,9.89,1.28,24.98,198.15
+719,Flex,"Austin, United States",Technology Hardware & Equipment,27.91,0.88,22.06,50.69
+720,Synopsys,"Sunnyvale, United States",IT Software & Services,8.0,1.11,47.24,96.25
+721,Industrial Bank of Korea,"Seoul, South Korea",Business Services & Supplies,13.67,1.73,333.79,11.1
+722,Vestas Wind Systems,"Aarhus, Denmark",Capital Goods,22.39,0.9908,30.77,29.0
+723,IQVIA,"Durham, United States",Drugs & Biotechnology,16.63,1.39,29.68,28.23
+724,EnBW Energie Baden-Wurttemberg,"Karlsruhe, Germany",Utilities,39.61,0.7709,83.17,26.41
+725,Samsung Fire & Marine,"Seoul, South Korea",Insurance,16.21,1.44,65.84,15.15
+726,Jiangxi Copper,"Nanchang, China",Materials,75.53,1.02,31.45,16.26
+727,Tenaga Nasional,"Kuala Lumpur, Malaysia",Utilities,15.81,1.11,52.47,21.45
+728,Muyuan Foods,"Nanyang, China","Food, Drink & Tobacco",19.4,1.35,25.65,28.39
+729,Axia Energia,"Rio de Janeiro, Brazil",Utilities,8.01,1.75,53.6,33.72
+730,TransDigm Group,"Cleveland, United States",Aerospace & Defense,9.5,1.86,25.44,64.27
+731,Eiffage,"Vélizy-Villacoublay, France",Construction,29.48,1.15,48.08,14.14
+731,Turkish Airlines,"Istanbul, Turkey",Transportation,25.06,3.14,48.52,9.04
+733,Philips,"Amsterdam, Netherlands",Health Care Equipment & Services,20.44,1.12,31.42,24.18
+734,Huatai Securities,"Nanjing, China",Diversified Financials,7.26,2.17,154.17,18.59
+735,CGN Power,"Shenzhen, China",Utilities,10.13,1.34,76.76,21.86
+736,Banco de Sabadell,"Alicante, Spain",Banking,9.29,1.1,286.77,18.98
+737,WW Grainger,"Lake Forest, United States",Trading Companies,18.38,1.78,9.47,60.08
+738,Saudi British Bank,"Riyadh, Saudi Arabia",Banking,7.68,2.07,122.51,18.63
+739,Tenet Healthcare,"Dallas, United States",Health Care Equipment & Services,21.45,1.7,31.2,16.94
+740,Universal Music Group,"Hilversum, Netherlands",Business Services & Supplies,14.12,1.73,21.16,43.89
+741,East Money Information,"Shanghai, China",IT Software & Services,2.83,1.85,63.68,45.93
+742,Hikvision,"Hangzhou, China",Technology Hardware & Equipment,13.33,2.1,19.59,45.18
+743,Motorola Solutions,"Chicago, United States",Technology Hardware & Equipment,11.87,2.09,19.08,65.28
+744,Chubu Electric Power,"Nagoya, Japan",Utilities,23.53,1.51,48.1,12.93
+745,Cognizant,"Teaneck, United States",IT Software & Services,21.41,2.23,20.5,22.33
+746,3i Group,"London, United Kingdom",Diversified Financials,1.69,7.09,42.64,30.22
+747,Air France-KLM,"Paris, France",Transportation,38.61,1.78,49.42,3.05
+748,Daiichi Sankyo,"Tokyo, Japan",Drugs & Biotechnology,14.09,1.72,25.18,29.53
+749,Robinhood Markets,"Menlo Park, United States",Diversified Financials,4.65,1.89,45.47,69.53
+750,China Energy Engineering,"Beijing, China",Construction,63.87,0.8017,138.4,7.03
+751,Dow,"Midland, United States",Chemicals,39.33,2.859,59.78,27.93
+752,Nippon Steel,"Tokyo, Japan",Materials,66.78,0.1139,92.15,18.45
+753,Seagate Technology,"Fremont, United States",Technology Hardware & Equipment,11.01,2.38,8.89,178.37
+754,Ameren,"St. Louis, United States",Utilities,8.88,1.52,49.85,29.43
+755,Murata Manufacturing,"Nagaokakyo, Japan",Technology Hardware & Equipment,12.15,1.55,20.11,70.6
+756,Ryanair Holdings,"Swords, Ireland",Transportation,17.3,2.53,18.84,26.67
+757,Anglo American,"London, United Kingdom",Materials,18.53,4.1406,55.99,55.2
+758,Semiconductor Manufacturing International,"Shanghai, China",Semiconductors,9.67,0.7117,55.09,72.81
+759,Groupo Cibest,"Medellin, Colombia",Banking,10.62,0.9003,106.37,23.16
+760,Sekisui House,"Osaka, Japan",Construction,28.05,1.55,32.46,13.63
+761,Expedia Group,"Seattle, United States",Business Services & Supplies,15.17,1.49,26.46,26.68
+762,Bank of Ireland,"Dublin, Ireland",Banking,8.35,1.26,193.55,18.28
+763,Carvana,"Tempe, United States",Retailing,22.52,1.44,13.77,48.11
+764,Kraft Heinz Company,"Pittsburgh, United States","Food, Drink & Tobacco",24.99,5.76,82.05,27.18
+765,Inner Mongolia Yili,"Hohhot, China","Food, Drink & Tobacco",16.58,1.7,22.69,25.79
+766,GD Power Development,"Beijing, China",Utilities,23.88,0.9501,75.61,12.89
+766,Las Vegas Sands,"Las Vegas, United States","Hotels, Restaurants & Leisure",13.74,1.84,21.18,33.9
+768,NASDAQ,"New York, United States",Diversified Financials,8.27,1.91,27.3,51.5
+769,Super Micro Computer,"San Jose, United States",Technology Hardware & Equipment,33.7,1.25,23.45,18.67
+770,Fox,"New York, United States",Media,16.2,1.71,21.78,27.59
+771,Fortis (Canada),"St. John's, Canada",Utilities,8.84,1.3,54.97,27.75
+772,Public Bank,"Kuala Lumpur, Malaysia",Banking,6.08,1.74,140.85,23.85
+773,Diamondback Energy,"Midland, United States",Oil & Gas Operations,15.22,0.279,70.08,57.26
+774,St. James's Place,"Cirencester, United Kingdom",Insurance,39.8,0.6999,302.47,7.84
+775,Astellas Pharma,"Tokyo, Japan",Drugs & Biotechnology,14.2,1.93,22.42,26.26
+776,Kimberly-Clark,"Dallas, United States",Household & Personal Products,16.56,2.12,17.18,31.84
+777,Digital Realty Trust,"Dallas, United States",Diversified Financials,6.42,1.38,48.86,66.24
+778,Asr Nederland,"Utrecht, Netherlands",Insurance,24.01,0.5361,166.95,16.05
+778,Jabil Circuit,"St. Petersburg, United States",Capital Goods,32.67,0.809,20.63,35.85
+780,Realty Income,"San Diego, United States",Diversified Financials,6.02,1.12,74.56,56.99
+781,Sinopharm Group,"Shanghai, China",Health Care Equipment & Services,80.01,0.9956,55.86,7.13
+782,Mirae Asset Financial Group,"Seoul, South Korea",Diversified Financials,5.75,1.62,110.91,26.61
+783,Annaly Capital Management,"New York, United States",Diversified Financials,7.11,2.19,138.54,15.89
+784,Akbank,"Istanbul, Turkey",Banking,20.01,1.51,81.92,8.02
+785,Huishang Bank,"Hefei, China",Banking,10.23,2.21,332.96,9.15
+786,Ferrovial,"Amsterdam, Netherlands",Construction,10.87,1.0,32.2,48.66
+787,eBay,"San Jose, United States",Retailing,11.71,2.04,17.89,51.56
+788,Associated British Foods,"London, United Kingdom","Food, Drink & Tobacco",25.95,1.27,26.39,16.76
+789,VICI Properties,"New York, United States",Diversified Financials,4.04,3.1,47.09,29.83
+790,Sandvik,"Stockholm, Sweden",Capital Goods,12.94,1.57,19.13,47.06
+791,HAL Trust,"Rotterdam, Netherlands",Diversified Financials,14.11,1.8,33.05,17.43
+792,AngloGold Ashanti,"Greenwood Village, United States",Materials,11.17,3.47,15.71,46.58
+793,China Resources Power,"Hong Kong, Hong Kong",Utilities,13.09,1.86,52.59,13.29
+794,Schweizerische Nationalbank,"Zurich, Switzerland",Banking,13.332,23.63,1110.0,0.449
+795,MTR,"Hong Kong, Hong Kong",Transportation,7.12,1.88,51.25,26.92
+796,H&M - Hennes & Mauritz,"Stockholm, Sweden",Retailing,23.4,1.29,18.19,27.21
+797,T&D Holdings,"Tokyo, Japan",Insurance,18.42,0.9222,108.86,11.95
+798,Acciona,"Madrid, Spain",Construction,22.84,0.9062,42.1,16.01
+799,Pernod Ricard,"Paris, France","Food, Drink & Tobacco",11.33,1.59,44.25,18.08
+800,Roper Technologies,"Sarasota, United States",IT Software & Services,8.12,1.71,34.55,32.38
+801,Tenaris,"Luxembourg, Luxembourg",Materials,12.16,1.97,20.52,31.3
+802,Vingroup,"Ha Noi, Vietnam",Construction,13.48,0.5385,44.74,64.87
+803,PPL,"Allentown, United States",Utilities,9.31,1.22,46.3,26.24
+804,Legrand,"Limoges, France",Technology Hardware & Equipment,11.29,1.49,20.96,46.23
+805,Koç Holding,"Istanbul, Turkey",Oil & Gas Operations,68.55,0.5693,129.23,11.08
+805,Westinghouse Air Brake Technologies,"Pittsburgh, United States",Capital Goods,11.51,1.21,23.2,44.78
+807,PPG,"Pittsburgh, United States",Chemicals,16.12,1.58,22.15,22.88
+808,Hilton Worldwide Holdings,"McLean, United States","Hotels, Restaurants & Leisure",12.28,1.54,16.39,71.97
+809,Great Wall Motor,"Baoding, China",Consumer Durables,32.06,1.27,31.92,12.56
+810,WH Group,"Hong Kong, Hong Kong","Food, Drink & Tobacco",28.03,1.57,21.91,15.42
+811,CK Asset Holdings,"Hong Kong, Hong Kong",Construction,7.68,1.39,65.46,22.91
+812,KASIKORNBANK,"Bangkok, Thailand",Banking,8.22,1.56,137.66,14.15
+813,Daiwa Securities,"Tokyo, Japan",Diversified Financials,9.76,1.16,239.35,12.95
+813,Shopify,"Ottawa, Canada",Business Services & Supplies,12.37,1.34,14.12,130.08
+815,DoorDash,"San Francisco, United States",Transportation,14.72,0.926,19.71,69.37
+816,Steel Dynamics,"Fort Wayne, United States",Materials,19.01,1.37,16.72,33.07
+817,RenaissanceRe Holdings,"Pembroke, Bermuda",Insurance,11.5,2.76,48.63,12.54
+818,Mitsubishi UFJ Lease,"Tokyo, Japan",Business Services & Supplies,14.7,1.08,82.28,12.91
+819,Yuanta Financial Holding,"Taipei, Taiwan",Diversified Financials,6.62,1.17,136.6,23.17
+820,LG Chem,"Seoul, South Korea",Chemicals,32.33,1.4459,68.99,19.5
+821,Vertiv Holdings,"Westerville, United States",Technology Hardware & Equipment,10.84,1.56,13.4,142.48
+822,CenterPoint Energy,"Houston, United States",Utilities,9.41,1.07,47.84,27.17
+823,Southwest Airlines,"Dallas, United States",Transportation,28.88,0.818,29.36,18.82
+824,Antofagasta,"London, United Kingdom",Materials,8.61,1.32,26.42,50.13
+825,CLP Holdings,"Hong Kong, Hong Kong",Utilities,11.29,1.34,30.66,24.73
+826,Sungrow Power Supply,"Hefei, China",Capital Goods,12.07,1.68,17.64,46.14
+827,Absa Group,"Johannesburg, South Africa",Banking,12.26,1.24,135.15,11.44
+828,UCB,"Brussels, Belgium",Drugs & Biotechnology,8.74,1.76,21.33,52.47
+829,Adani Enterprises,"Ahmedabad, India",Trading Companies,11.37,1.06,27.58,36.56
+830,Meritz Financial Group,"Seoul, South Korea",Diversified Financials,11.38,1.62,94.28,11.49
+831,Cintas,"Cincinnati, United States",Business Services & Supplies,11.03,1.93,10.23,67.34
+832,Teck Resources,"Vancouver, Canada",Materials,8.98,1.34,33.42,29.98
+833,Carrefour,"Massy, France",Retailing,94.83,0.36,67.36,14.03
+834,EMCOR Group,"Norwalk, United States",Construction,17.75,1.34,9.51,40.58
+835,Beijing-Shanghai High-Speed Railway,"Beijing, China",Transportation,6.1,1.88,42.1,35.66
+836,Rongsheng Petrochemical,"Hangzhou, China",Trading Companies,41.43,0.4329,58.91,18.38
+837,NRG Energy,"Houston, United States",Utilities,32.37,0.239,40.05,26.97
+838,PulteGroup,"Atlanta, United States",Construction,16.83,2.04,18.2,20.97
+839,Sany Heavy Industry,"Beijing, China",Capital Goods,13.06,1.19,25.25,26.68
+840,China Reinsurance Group,"Beijing, China",Insurance,17.16,1.36,75.52,7.0
+841,Asahi Group Holdings,"Tokyo, Japan","Food, Drink & Tobacco",19.62,1.04,37.77,14.56
+842,WTW,"London, United Kingdom",Insurance,9.9,1.67,29.64,23.46
+843,Magna International,"Aurora, Canada",Consumer Durables,42.32,0.6707,31.66,16.83
+844,Sunbelt Rentals,"Fort Mill, United States",Business Services & Supplies,10.79,1.55,22.31,31.52
+845,Biogen,"Cambridge, United States",Drugs & Biotechnology,9.6,1.37,29.48,28.49
+845,GF Securities,"Guangzhou, China",Diversified Financials,5.29,1.77,139.59,16.66
+847,Tyson Foods,"Springdale, United States","Food, Drink & Tobacco",55.71,0.453,35.16,22.71
+848,Idemitsu Kosan,"Tokyo, Japan",Oil & Gas Operations,53.79,1.14,33.49,10.38
+849,MTN Group,"Fairland, South Africa",Telecommunications Services,12.68,1.13,30.1,22.88
+850,HCLTech,"Noida, India",IT Software & Services,14.73,1.88,12.26,32.03
+851,Aena,"Madrid, Spain",Transportation,7.46,2.51,22.12,39.98
+852,ITC,"Kolkata, India","Food, Drink & Tobacco",9.16,4.02,10.23,40.41
+853,Israel Discount Bank,"Tel Aviv, Israel",Banking,9.23,1.2,150.03,12.66
+854,SK Innovation,"Seoul, South Korea",Oil & Gas Operations,58.51,1.5122,71.9,13.8
+855,Standard Life,"London, United Kingdom",Insurance,49.09,0.622,446.88,10.34
+856,Huadian New Energy Group Corporation,"Beijing, China",Utilities,5.4,0.9397,77.41,38.37
+856,Nippon Yusen,"Tokyo, Japan",Transportation,16.08,1.41,32.7,14.06
+858,Restaurant Brands International,"Toronto, Canada","Hotels, Restaurants & Leisure",9.59,1.25,24.88,34.81
+859,Alinma Bank,"Riyadh, Saudi Arabia",Banking,5.76,1.75,86.42,18.84
+860,Grasim Industries,"Mumbai, India",Construction,19.34,0.5168,59.7,20.79
+861,Monster Beverage,"Corona, United States","Food, Drink & Tobacco",8.79,2.03,10.84,85.17
+862,Eurobank,"Athens, Greece",Banking,6.59,1.58,124.45,15.57
+863,Bank Pekao,"Warsaw, Poland",Banking,6.41,1.79,95.58,16.67
+864,Kyocera,"Kyoto, Japan",Trading Companies,13.74,0.9355,29.21,23.96
+865,Kering,"Paris, France",Household & Personal Products,16.56,0.0813,48.37,33.78
+866,Advantest,"Tokyo, Japan",Technology Hardware & Equipment,7.49,2.49,7.37,120.59
+867,Asustek Computer,"Taipei, Taiwan",Technology Hardware & Equipment,25.91,1.35,21.0,15.1
+867,Dubai Islamic Bank,"Dubai, United Arab Emirates",Banking,6.58,1.94,114.32,14.27
+869,Abu Dhabi Islamic Bank,"Abu Dhabi, United Arab Emirates",Banking,5.45,1.75,78.15,19.38
+870,TCL,"Huizhou, China",Technology Hardware & Equipment,26.41,0.7125,53.04,12.78
+871,Halkbank,"Istanbul, Turkey",Banking,25.99,0.7307,104.71,6.37
+871,Kajima,"Tokyo, Japan",Construction,20.36,1.18,22.78,17.17
+873,Rheinmetall,"Dusseldorf, Germany",Aerospace & Defense,11.09,0.8378,22.59,60.62
+874,Falabella,"Santiago, Chile",Retailing,14.55,1.49,29.32,15.25
+875,Kuehne & Nagel International,"Schindellegi, Switzerland",Transportation,29.59,1.04,14.76,26.44
+876,Aldar Properties,"Abu Dhabi, United Arab Emirates",Construction,9.49,2.15,32.58,16.55
+877,Tokyo Gas,"Tokyo, Japan",Oil & Gas Operations,18.81,1.51,24.47,14.13
+878,Mediobanca,"Milan, Italy",Banking,4.76,1.28,124.5,19.2
+879,Amrize,"Chicago, United States",Construction,11.91,1.16,24.27,27.09
+880,AppLovin,"Palo Alto, United States",IT Software & Services,6.16,3.86,7.71,168.31
+880,Fidelity National Financial,"Jacksonville, United States",Insurance,14.98,0.762,91.52,12.9
+882,Neste,"Espoo, Finland",Oil & Gas Operations,22.2,0.8308,20.82,25.52
+883,Howmet Aerospace,"Pittsburgh, United States",Aerospace & Defense,8.62,1.74,13.07,104.17
+884,Moody's,"New York, United States",Business Services & Supplies,7.87,2.5,14.73,74.93
+885,Amcor,"Zurich, Switzerland",Materials,22.19,0.678,37.58,16.96
+886,Zhongji Innolight,"Longkou, China",Semiconductors,7.19,2.1,8.19,171.81
+887,Smurfit Westrock,"Dublin, Ireland",Materials,31.23,0.38,45.17,19.66
+888,TBEA,"Changji, China",Capital Goods,13.92,0.8685,34.94,19.86
+889,Sumitomo Realty,"Tokyo, Japan",Construction,7.02,1.41,45.17,24.65
+890,Joint Stock Commercial Bank for Foreign Trade of Vietnam,"Ha Noi, Vietnam",Banking,5.21,1.37,96.84,19.25
+891,Aisin Seiki,"Kariya, Japan",Consumer Durables,33.96,1.14,28.36,11.33
+892,Live Nation Entertainment,"Beverly Hills, United States",Media,25.61,0.4103,26.07,39.3
+892,Poly Developments & Holdings Group,"Guangzhou, China",Construction,42.18,0.0001,170.24,10.83
+892,Sika,"Baar, Switzerland",Chemicals,13.49,1.26,19.39,28.26
+895,Mega Financial Holding,"Taipei, Taiwan",Banking,5.59,1.12,162.67,18.53
+896,Hanwha,"Seoul, South Korea",Chemicals,55.86,0.3029,192.5,6.11
+897,Xiamen C&D,"Xiamen, China",Transportation,93.91,1.5061,119.08,4.32
+898,LyondellBasell Industries,"London, United Kingdom",Chemicals,29.68,0.795,33.96,24.23
+899,Shanghai Rural Commercial Bank,"Shanghai, China",Banking,6.53,1.74,235.57,12.49
+900,Julius Baer Group,"Zurich, Switzerland",Diversified Financials,7.31,0.9196,135.68,17.67
+901,Gold Fields,"Johannesburg, South Africa",Materials,8.7,3.53,15.22,36.41
+902,Alcon,"Geneva, Switzerland",Health Care Equipment & Services,10.63,0.8182,31.62,31.25
+903,Dassault Aviation,"Paris, France",Aerospace & Defense,8.38,1.1,38.63,24.61
+903,Nissan Motor,"Yokohama, Japan",Consumer Durables,79.69,3.5376,124.54,8.27
+905,CMS Energy,"Jackson, United States",Utilities,8.82,1.11,40.28,22.13
+906,Renault,"Boulogne-Billancourt, France",Consumer Durables,65.37,12.3365,142.12,9.57
+907,Asahi Kasei,"Tokyo, Japan",Chemicals,20.4,1.05,26.01,14.78
+908,CP All,"Bangkok, Thailand",Food Markets,31.08,0.9061,29.45,12.62
+909,Echostar,"Englewood, United States",Telecommunications Services,14.8,14.4414,41.38,39.77
+910,Anta Sports Products,"Quanzhou, China",Household & Personal Products,11.16,1.89,17.79,26.98
+911,Banca Mediolanum,"Basiglio, Italy",Banking,3.27,1.47,108.63,16.44
+912,Bank Of Chengdu,"Chengdu, China",Banking,6.63,1.85,213.54,11.68
+913,Chipotle Mexican Grill,"Newport Beach, United States","Hotels, Restaurants & Leisure",12.14,1.45,8.8,41.88
+914,Vedanta Limited,"Mumbai, India",Materials,14.22,1.97,24.59,13.47
+915,KGI Financial Holding,"Taipei, Taiwan",Insurance,10.66,0.9646,131.13,11.76
+916,China Merchants Securities,"Shenzhen, China",Diversified Financials,5.82,1.64,114.12,14.87
+916,Legend Holding,"Beijing, China",Diversified Financials,84.35,0.1471,110.83,2.98
+916,Singapore Airlines,"Singapore, Singapore",Transportation,15.92,0.9184,34.13,15.81
+919,Woolworths,"Sydney, Australia",Food Markets,45.32,0.3856,22.93,28.82
+920,Corebridge Financial,"Houston, United States",Insurance,18.16,0.245,381.4,12.59
+921,Sanlam,"Bellville, South Africa",Insurance,16.15,0.8918,78.15,10.72
+922,Palantir Technologies,"Aventura, United States",IT Software & Services,5.22,2.28,10.2,321.22
+923,Mashreq Bank,"Dubai, United Arab Emirates",Banking,6.69,1.84,93.73,13.22
+924,Krung Thai Bank,"Bangkok, Thailand",Banking,6.32,1.51,118.83,14.66
+925,Global Payments,"Atlanta, United States",Business Services & Supplies,8.83,0.8807,64.25,18.49
+926,E.Sun Financial,"Taipei, Taiwan",Banking,5.03,1.15,146.37,16.39
+927,Metallurgical Corp of China,"Beijing, China",Construction,59.84,0.1921,119.49,4.07
+927,TELUS,"Vancouver, Canada",Telecommunications Services,14.7,0.6714,42.17,19.05
+929,Phoenix Holdings,"Rishon Le-Zion, Israel",Insurance,9.39,0.9343,62.11,16.2
+930,Indian Bank,"Chennai, India",Banking,8.87,1.32,104.54,11.52
+931,Comfort Systems USA,"Houston, United States",Construction,10.14,1.22,6.94,70.15
+932,Banco Comercial Portugues,"Porto, Portugal",Banking,6.21,1.24,127.97,16.05
+933,Ferrari,"Maranello, Italy",Consumer Durables,8.35,1.85,11.8,57.36
+934,Power Grid of India,"Gurgaon, India",Utilities,5.29,1.8,31.07,29.64
+935,Otis Worldwide,"Farmington, United States",Construction,14.65,1.48,10.54,27.25
+936,Zoetis,"Parsippany, United States",Drugs & Biotechnology,9.51,2.64,15.15,31.11
+937,Constellation Brands,"Rochester, United States","Food, Drink & Tobacco",9.14,1.69,21.9,24.51
+938,Omnicom,"New York, United States",Media,19.82,0.063,49.97,20.19
+939,Sandoz Group,"Rotkreuz, Switzerland",Drugs & Biotechnology,11.07,0.9085,22.03,36.03
+940,Waste Connections,"Woodbridge, Canada",Business Services & Supplies,9.61,1.05,21.19,39.77
+941,Chongqing Rural Bank,"Chongqing, China",Banking,7.27,1.74,255.69,9.85
+942,Grupo Inbursa,"Mexico City, Mexico",Banking,7.91,1.64,47.68,14.71
+943,United Microelectronics,"Hsinchu, Taiwan",Semiconductors,7.8,1.62,18.77,43.87
+944,LPL Financial Holdings,"San Diego, United States",Diversified Financials,18.26,0.9009,18.84,23.97
+945,Bankinter,"Madrid, Spain",Banking,5.71,1.29,157.48,14.31
+946,SCB X Public Company,"Bangkok, Thailand",Banking,6.68,1.4,113.91,13.71
+947,Fortinet,"Sunnyvale, United States",IT Software & Services,7.11,1.95,9.88,89.95
+947,Guosen Securities,"Shenzhen, China",Diversified Financials,3.99,1.53,85.91,15.58
+949,Nongfu Spring,"Hangzhou, China","Food, Drink & Tobacco",7.31,2.21,9.33,62.66
+950,Mitsui OSK Lines,"Tokyo, Japan",Transportation,12.11,1.42,37.48,12.7
+951,M&G,"London, United Kingdom",Diversified Financials,28.68,0.398,256.37,9.75
+952,Schindler Holding,"Ebikon, Switzerland",Capital Goods,13.18,1.22,14.8,35.32
+953,Gulf Development,"Bangkok, Thailand",Construction,4.22,2.76,24.88,27.34
+954,Snam,"San Donato Milanese, Italy",Oil & Gas Operations,4.35,1.43,43.57,24.18
+955,Vienna Insurance Group,"Vienna, Austria",Insurance,16.86,0.9336,63.79,9.97
+956,East West Bancorp,"Pasadena, United States",Banking,4.63,1.39,82.89,16.36
+957,Evergreen Marine Corp. (Taiwan),"Taipei, Taiwan",Transportation,11.52,1.6,29.25,13.77
+958,XCMG Construction Machinery,"Xuzhou, China",Capital Goods,14.61,0.9301,26.57,17.57
+959,Orsted,"Fredericia, Denmark",Utilities,10.84,0.0838,55.56,33.42
+960,Martin Marietta Materials,"Raleigh, United States",Construction,6.55,2.53,20.5,33.55
+961,Bank of India,"Mumbai, India",Banking,9.69,1.17,124.36,6.75
+961,China Merchants Shekou Industrial Zone Holdings,"Shenzhen, China",Construction,22.24,0.0869,120.65,12.08
+963,Verbund,"Vienna, Austria",Utilities,8.87,1.58,21.45,24.91
+964,AES,"Arlington, United States",Utilities,12.45,1.38,52.82,10.32
+965,Techtronic Industries,"Hong Kong, Hong Kong",Consumer Durables,15.26,1.2,13.43,27.51
+966,Itaúsa,"São Paulo, Brazil",Diversified Financials,1.54,3.12,21.93,28.67
+967,Commercial Bank For Investment & Development Of Vietnam,"Ha Noi, Vietnam",Banking,7.64,1.18,128.62,11.86
+968,Kinross Gold,"Toronto, Canada",Materials,7.96,2.87,12.88,33.97
+969,Public Storage,"Frisco, United States",Diversified Financials,4.86,1.9,19.85,51.34
+970,China Vanke,"Shenzhen, China",Construction,31.48,12.4081,144.38,4.69
+971,Celestica,"Toronto, Canada",Technology Hardware & Equipment,13.79,0.9588,8.26,41.34
+972,China National Chemical,"Beijing, China",Construction,26.97,0.9233,36.29,7.22
+972,Naver,"Seongnam-si, South Korea",IT Software & Services,8.77,1.27,29.32,20.29
+974,Nidec,"Kyoto, Japan",Capital Goods,17.54,0.8045,23.63,18.6
+975,China International Capital,"Beijing, China",Diversified Financials,5.29,1.6,125.9,12.59
+976,Shanghai Pharmaceuticals,"Shanghai, China",Drugs & Biotechnology,40.59,0.8147,34.07,5.64
+977,Tokyo Electric Power,"Tokyo, Japan",Utilities,42.0,3.0145,97.9,5.99
+978,Anhui Conch Cement,"Wuhu City, China",Construction,11.48,1.18,36.63,13.41
+979,Scor,"Paris, France",Insurance,18.54,1.01,42.4,6.63
+980,Nippon Paint,"Osaka, Japan",Chemicals,12.34,1.29,26.03,14.61
+980,Telenor,"Fornebu, Norway",Telecommunications Services,7.82,1.68,22.75,23.51
+982,Essity,"Stockholm, Sweden",Household & Personal Products,14.49,1.32,18.98,17.95
+983,National Bank of Greece,"Athens, Greece",Banking,3.84,1.31,95.29,14.43
+984,Yum! Brands,"Louisville, United States","Hotels, Restaurants & Leisure",8.48,1.74,8.21,41.34
+985,Wuxi Apptec,"Shanghai, China",Drugs & Biotechnology,6.57,2.86,15.55,47.68
+986,Bangkok Bank,"Bangkok, Thailand",Banking,7.84,1.37,142.78,9.64
+987,Arrow Electronics,"Centennial, United States",Trading Companies,33.51,0.7267,35.95,10.65
+988,Unum Group,"Chattanooga, United States",Insurance,13.32,0.7814,51.4,13.04
+989,Industrivarden,"Stockholm, Sweden",Diversified Financials,1.1,4.25,22.19,22.08
+989,Sunshine Insurance Group,"Shenzhen, China",Insurance,12.61,0.8767,96.35,5.26
+991,StoneX Group,"New York, United States",Diversified Financials,152.36,0.4469,53.63,8.73
+992,Kone,"Espoo, Finland",Construction,13.07,1.13,10.17,30.74
+993,Ametek,"Berwyn, United States",Capital Goods,7.6,1.53,16.31,52.23
+994,The Hershey Company,"Hershey, United States","Food, Drink & Tobacco",11.99,1.09,13.84,37.93
+995,Obayashi,"Tokyo, Japan",Construction,17.16,1.15,19.76,15.42
+996,ZTE,"Shenzhen, China",Technology Hardware & Equipment,19.14,0.6282,32.67,15.41
+997,HF Sinclair,"Dallas, United States",Oil & Gas Operations,27.62,1.22,18.17,12.62
+998,Atmos Energy,"Dallas, United States",Oil & Gas Operations,4.88,1.35,30.38,29.46
+999,Crown Castle International,"Houston, United States",Diversified Financials,4.21,1.06,31.39,37.82
+1000,Greenland Holdings Group,"Shanghai, China",Construction,24.3,3.6269,152.03,3.1
+1001,Dollar Tree,"Chesapeake, United States",Retailing,19.41,1.28,13.47,17.44
+1002,Thomson Reuters,"Toronto, Canada",IT Software & Services,7.66,1.53,17.94,36.72
+1003,Unibail-Rodamco-Westfield,"Paris, France",Diversified Financials,3.45,1.43,58.35,15.95
+1004,Euronext,"Amsterdam, Netherlands",Diversified Financials,2.05,0.7255,384.79,16.39
+1005,Zhejiang Huayou Cobalt,"Jiaxing, China",Materials,12.53,1.04,25.28,16.35
+1006,Rocket Companies,"Detroit, United States",Business Services & Supplies,8.33,0.2394,59.44,37.65
+1007,American Airlines Group,"Fort Worth, United States",Transportation,55.99,0.202,63.74,8.14
+1008,Attijariwafa Bank,"Casablanca, Morocco",Banking,5.1,1.14,87.22,14.97
+1009,Carlsberg,"Copenhagen, Denmark","Food, Drink & Tobacco",13.47,0.9309,24.21,17.08
+1010,Fastenal,"Winona, United States",Trading Companies,8.44,1.3,5.21,49.66
+1011,Kaspi.kz JSC,"Almaty, Kazakhstan",Business Services & Supplies,8.31,2.07,23.26,16.34
+1011,Latam Airlines,"Las Condes, Chile",Transportation,14.97,1.67,18.71,13.67
+1011,Sumitomo Metal Mining,"Tokyo, Japan",Materials,11.56,1.17,22.37,17.53
+1014,Jeronimo Martins,"Lisbon, Portugal",Food Markets,42.31,0.7404,20.03,13.47
+1015,AGNC Investment,"Bethesda, United States",Diversified Financials,3.82,1.47,118.9,11.87
+1016,STMicroelectronics,"Plan-Les-Ouates, Switzerland",Semiconductors,12.37,0.1426,25.13,54.63
+1017,International Paper,"Memphis, United States",Materials,24.97,3.335,36.43,16.02
+1018,Norsk Hydro,"Oslo, Norway",Materials,19.76,0.6085,21.24,22.33
+1019,Coinbase,"New York, United States",Diversified Financials,6.62,0.8006,28.85,51.61
+1020,Sabanci Holding,"Istanbul, Turkey",Banking,28.8,0.1772,95.2,4.27
+1021,Country Garden Holdings,"Foshan, China",Construction,21.56,0.5084,116.21,1.58
+1022,Garmin,"Schaffhausen, Switzerland",Technology Hardware & Equipment,7.46,1.74,10.95,43.54
+1023,Banque Saudi Fransi,"Riyadh, Saudi Arabia",Banking,5.42,1.44,86.56,12.8
+1024,Subaru Corporation,"Tokyo, Japan",Consumer Durables,31.75,0.6028,34.52,11.58
+1025,Yara International,"Oslo, Norway",Chemicals,16.21,1.4,17.81,14.6
+1026,Labcorp Holdings,"Burlington, United States",Health Care Equipment & Services,14.14,0.9415,19.09,20.53
+1027,Db Insurance,"Seoul, South Korea",Insurance,12.6,1.1,48.72,6.64
+1027,KGHM Polska Miedz,"Lubin, Poland",Materials,10.83,1.88,17.02,18.42
+1029,SM Investments,"Pasay, Philippines",Retailing,10.98,1.59,30.07,11.83
+1030,Vietin Bank,"Ha Noi, Vietnam",Banking,6.92,1.45,111.01,10.55
+1031,China Galaxy Securities,"Beijing, China",Diversified Financials,5.3,1.57,122.46,11.16
+1032,Hexagon,"Stockholm, Sweden",Technology Hardware & Equipment,5.88,2.32,20.73,27.26
+1033,BCI-Banco Credito,"Santiago, Chile",Banking,5.71,1.08,91.73,14.3
+1034,Leidos,"Reston, United States",IT Software & Services,17.33,1.41,15.39,15.56
+1035,Rakuten,"Tokyo, Japan",Retailing,17.1,0.8167,184.26,10.67
+1036,Porsche Automobil Holding,"Stuttgart, Germany",Consumer Durables,3.37,2.99,53.04,11.38
+1037,Datang International Power,"Beijing, China",Utilities,16.64,0.8305,47.74,7.11
+1037,Shanghai International Port,"Shanghai, China",Transportation,5.68,1.92,33.08,17.42
+1039,Constellation Software,"Toronto, Canada",IT Software & Services,12.15,0.7406,16.97,40.23
+1040,Coupang,"Seattle, United States",Retailing,35.13,0.165,17.4,28.94
+1041,KT,"Seongnam-si, South Korea",Telecommunications Services,19.78,1.08,28.41,9.43
+1042,Industrias Peñoles,"Mexico City, Mexico",Materials,10.17,1.83,14.45,21.8
+1043,Fosun International,"Shanghai, China",Insurance,24.12,3.2871,102.49,4.23
+1044,Rockwell Automation,"Milwaukee, United States",Capital Goods,8.8,1.09,11.26,49.93
+1045,American Water Works,"Camden, United States",Utilities,5.21,1.1,35.26,24.27
+1046,Sichuan Road & Bridge,"Chengdu, China",Construction,16.07,0.988,37.84,10.06
+1047,Terna,"Rome, Italy",Utilities,4.55,1.25,32.99,22.55
+1048,Adani Ports & Special Economic Zone,"Ahmedabad, India",Transportation,4.38,1.45,19.54,43.11
+1049,Eoptolink Technology,"Chengdu, China",Capital Goods,4.1,1.51,4.3,89.11
+1050,NiSource,"Merrillville, United States",Oil & Gas Operations,6.82,0.9589,36.6,22.2
+1051,Galp Energia,"Lisbon, Portugal",Oil & Gas Operations,22.87,0.7497,18.16,16.9
+1052,Qatar Islamic Bank,"Doha, Qatar",Banking,3.03,1.27,61.52,14.28
+1052,SDIC Power Holdings,"Beijing, China",Utilities,7.34,1.05,45.82,15.71
+1054,Arca Continental,"Monterrey, Mexico","Food, Drink & Tobacco",13.52,1.04,16.75,21.18
+1054,DICK'S Sporting Goods,"Coraopolis, United States",Retailing,17.21,0.8492,17.41,19.36
+1054,Seres Group,"Chongqing, China",Consumer Durables,24.11,0.8349,17.91,15.04
+1057,Wheaton Precious Metals,"Vancouver, Canada",Materials,2.75,1.8,9.85,59.2
+1058,Sabesp,"São Paulo, Brazil",Utilities,7.28,1.6,22.81,20.09
+1059,Equitable Holdings,"New York, United States",Insurance,12.08,0.822,304.44,11.99
+1060,Hua Nan Financial,"Taipei, Taiwan",Banking,4.88,0.848,137.62,14.3
+1061,Telecom Italia,"Rome, Italy",Telecommunications Services,15.97,0.1495,43.17,17.55
+1061,US Foods,"Rosemont, United States",Food Markets,39.68,0.677,14.16,18.14
+1063,Kyushu Electric Power,"Fukuoka, Japan",Utilities,14.91,1.02,37.61,5.32
+1064,Jones Lang LaSalle,"Chicago, United States",Construction,26.76,0.8958,17.89,13.37
+1065,China Resources Pharmaceutical Group,"Hong Kong, Hong Kong",Drugs & Biotechnology,37.51,0.5626,40.9,3.96
+1066,Assurant,"Atlanta, United States",Insurance,13.16,1.0,29.23,12.62
+1066,Pembina Pipeline,"Calgary, Canada",Oil & Gas Operations,5.42,1.22,25.92,28.45
+1068,Givaudan,"Vernier, Switzerland",Household & Personal Products,9.0,1.29,14.97,31.69
+1069,Chunghwa Telecom,"Taipei, Taiwan",Telecommunications Services,7.79,1.26,17.14,33.95
+1070,Shriram Finance,"Mumbai, India",Business Services & Supplies,5.45,1.13,33.88,22.99
+1071,Grupo Bimbo,"Mexico City, Mexico","Food, Drink & Tobacco",22.9,0.6324,23.22,14.7
+1072,First Financial Holding,"Taipei, Taiwan",Banking,5.8,0.8643,160.46,13.36
+1073,Fujikura,"Tokyo, Japan",Capital Goods,7.85,1.04,6.09,60.75
+1073,Harel Insurance Investments & Financial Services,"Ramat Gan, Israel",Insurance,8.89,0.8669,51.34,13.41
+1075,Hoya,"Tokyo, Japan",Health Care Equipment & Services,6.29,1.68,8.18,58.61
+1076,Best Buy,"Richfield, United States",Retailing,41.69,1.07,15.59,11.77
+1077,Huadian Power International,"Beijing, China",Utilities,17.43,0.8421,37.81,6.69
+1078,Piraeus Bank,"Athens, Greece",Banking,4.35,1.24,103.72,11.87
+1079,Kirin Holdings,"Tokyo, Japan","Food, Drink & Tobacco",16.33,0.9973,21.42,13.4
+1080,China Bohai Bank,"Tianjin, China",Banking,8.45,0.762,277.21,2.04
+1081,International Flavors & Fragrances,"New York, United States","Food, Drink & Tobacco",10.79,0.839,25.14,18.66
+1082,BDO Unibank,"Makati City, Philippines",Banking,6.73,1.52,94.07,10.16
+1083,Darden Restaurants,"Orlando, United States","Hotels, Restaurants & Leisure",12.76,1.11,12.89,22.44
+1084,Wuchan Zhongda Group,"Hangzhou, China",Trading Companies,84.12,0.5083,34.57,3.8
+1085,Uni-President,"Tainan, Taiwan",Food Markets,21.99,0.6809,23.43,13.64
+1086,China Huarong Asset Management,"Beijing, China",Diversified Financials,3.19,1.42,151.26,7.38
+1087,Strategy,"Tyson's Corner, United States",IT Software & Services,0.49,12.1735,54.27,62.18
+1088,Daqin Railway,"Datong, China",Transportation,11.04,0.8044,30.6,15.92
+1089,NARI Technology Development,"Nanjing, China",Capital Goods,9.42,1.17,13.88,31.16
+1090,Henderson Land,"Hong Kong, Hong Kong",Construction,3.3,0.7251,69.3,20.95
+1091,Casey's General Stores,"Ankeny, United States",Retailing,16.98,0.6501,8.59,31.52
+1092,Coles Group,"Melbourne, Australia",Food Markets,29.07,0.6538,13.6,20.0
+1093,CoreWeave,"Livingston, United States",IT Software & Services,6.23,1.5926,55.57,58.54
+1094,Dassault Systemes,"Vélizy-Villacoublay, France",IT Software & Services,7.15,1.42,17.82,30.6
+1095,Ulta Beauty,"Bolingbrook, United States",Retailing,12.39,1.15,7.68,21.62
+1096,Korea Investment Holdings,"Seoul, South Korea",Diversified Financials,5.93,1.74,96.63,10.03
+1097,CDW,"Vernon Hills, United States",IT Software & Services,22.91,1.08,16.45,13.04
+1098,CNPC Capital,"Beijing, China",Banking,4.92,0.6482,162.12,16.39
+1098,SinoPac Financial,"Taipei, Taiwan",Banking,4.57,0.8526,117.57,13.88
+1100,Lithia Motors,"Medford, United States",Retailing,37.73,0.7104,25.75,5.97
+1101,STRABAG,"Vienna, Austria",Construction,21.12,1.03,19.09,12.14
+1102,Hydro One,"Toronto, Canada",Utilities,6.71,0.9927,28.46,25.11
+1103,Accton Technology,"Hsinchu, Taiwan",Technology Hardware & Equipment,8.93,0.9576,5.14,44.4
+1104,China National Building,"Beijing, China",Construction,24.75,0.5295,70.05,5.15
+1105,Vulcan Materials,"Birmingham, United States",Construction,8.06,1.11,16.67,34.75
+1106,Viatris,"Canonsburg, United States",Drugs & Biotechnology,14.57,0.2965,36.84,19.19
+1107,Wipro,"Bengaluru, India",IT Software & Services,10.48,1.49,14.96,20.75
+1108,WESCO International,"Pittsburgh, United States",Trading Companies,24.25,0.681,16.96,17.47
+1109,Suzano,"Salvador, Brazil",Materials,9.1,2.09,31.75,10.17
+1110,Goodman Group,"Sydney, Australia",Diversified Financials,1.43,1.09,20.22,45.91
+1111,Zijin Gold International,"Kowloon, Hong Kong",Materials,5.38,1.6,12.57,52.3
+1112,YPF,"Buenos Aires, Argentina",Oil & Gas Operations,18.49,0.8734,29.42,18.33
+1113,Bank of Changsha,"Changsha, China",Banking,6.38,1.16,190.37,5.58
+1113,TechnipFMC,"Houston, United States",Oil & Gas Operations,10.17,1.08,10.09,28.42
+1115,Sinotruk Hong Kong,"Jinan, China",Capital Goods,15.25,0.9766,21.91,13.02
+1116,Cadence Design,"San Jose, United States",IT Software & Services,5.53,1.17,12.1,95.77
+1117,Extra Space Storage,"Salt Lake City, United States",Diversified Financials,3.41,0.9424,29.1,28.92
+1118,Nebius Group,"Amsterdam, Netherlands",IT Software & Services,0.878,0.8364,22.3,55.35
+1119,Ningxia Baofeng Energy Group,"Yinchuan, China",Chemicals,7.11,1.77,13.68,30.36
+1120,Experian,"Dublin, Ireland",Business Services & Supplies,7.96,1.36,13.58,31.03
+1121,All Nippon Airways,"Tokyo, Japan",Transportation,16.85,1.12,24.86,7.85
+1122,Iveco Group,"Turin, Italy",Consumer Durables,15.9,1.64,20.8,4.32
+1123,Paychex,"Rochester, United States",Business Services & Supplies,6.33,1.64,17.51,32.8
+1124,Paramount,"New York, United States",Media,29.05,0.605,44.49,11.07
+1125,Autodesk,"San Francisco, United States",IT Software & Services,7.2,1.12,12.47,49.96
+1126,Ajinomoto,"Tokyo, Japan","Food, Drink & Tobacco",10.51,0.8937,11.39,31.84
+1127,Advanced Info Service,"Bangkok, Thailand",Telecommunications Services,7.06,1.57,13.98,33.24
+1128,Coca-Cola HBC,"Steinhausen, Switzerland","Food, Drink & Tobacco",13.11,1.06,13.75,20.01
+1129,Textron,"Providence, United States",Aerospace & Defense,15.19,0.934,18.14,15.44
+1130,Csc Financial,"Beijing, China",Diversified Financials,6.04,1.17,96.85,11.26
+1131,Bawag Group,"Vienna, Austria",Banking,4.58,0.9705,84.91,12.98
+1131,Shenwan Hongyuan Group,"Urumqi, China",Diversified Financials,4.15,1.39,110.64,8.95
+1133,Osaka Gas,"Osaka, Japan",Oil & Gas Operations,13.47,1.01,20.88,13.87
+1134,iA Financial Corporation,"Québec, Canada",Diversified Financials,8.58,0.7575,90.18,11.12
+1135,Cathay Pacific Airways,"Hong Kong, Hong Kong",Transportation,14.98,1.39,22.75,9.44
+1135,Taisei,"Tokyo, Japan",Construction,13.86,1.13,17.06,15.1
+1137,Brookfield Wealth Solutions,"Pembroke, Bermuda",Insurance,10.68,0.4695,144.12,12.41
+1138,Arab National Bank,"Riyadh, Saudi Arabia",Banking,5.02,1.33,75.92,11.2
+1138,Isuzu Motors,"Yokohama, Japan",Consumer Durables,23.09,0.895,23.03,9.96
+1140,Quest Diagnostics,"Secaucus, United States",Health Care Equipment & Services,11.28,1.02,16.67,20.66
+1141,Shanghai Construction,"Shanghai, China",Construction,30.24,0.1996,48.0,3.46
+1141,Tractor Supply,"Brentwood, United States",Retailing,15.65,1.08,11.66,16.03
+1143,Cemex,"San Pedro Garza García, Mexico",Construction,16.57,0.4653,28.1,19.01
+1144,Ball,"Westminster, United States",Materials,13.72,0.938,19.77,14.7
+1145,Swire Pacific,"Hong Kong, Hong Kong","Food, Drink & Tobacco",11.6,0.3769,61.21,14.99
+1146,Greentown China Holdings,"Hangzhou, China",Construction,21.68,0.0094,64.38,3.39
+1147,OM,"Cape Town, South Africa",Insurance,18.07,0.4704,82.55,3.1
+1148,Renesas Electronics,"Tokyo, Japan",Semiconductors,9.24,0.0638,26.57,41.72
+1149,Kawasaki Heavy Industries,"Kobe, Japan",Consumer Durables,15.34,0.7177,20.9,16.06
+1150,Corpay,"Atlanta, United States",Business Services & Supplies,4.78,1.17,26.66,21.45
+1151,Penske Automotive,"Bloomfield Hills, United States",Retailing,30.99,0.8836,18.32,10.66
+1152,Formosa Petrochemical,"Taipei, Taiwan",Oil & Gas Operations,19.92,0.8618,14.51,15.5
+1153,Performance Food Group,"Richmond, United States",Transportation,66.75,0.3285,18.65,15.08
+1154,T Rowe Price,"Baltimore, United States",Diversified Financials,7.41,2.04,14.39,21.86
+1155,Hyundai Glovis,"Seoul, South Korea",Transportation,21.16,1.18,12.98,12.09
+1156,CNH Industrial,"Basildon, United Kingdom",Capital Goods,18.09,0.386,42.04,12.93
+1157,Brown & Brown,"Daytona Beach, United States",Insurance,6.4,1.14,29.7,19.08
+1158,Adani Power Limited,"Ahmedabad, India",Utilities,6.09,1.45,15.0,44.46
+1159,Xylem,"Washington, United States",Capital Goods,9.08,0.981,16.95,25.7
+1160,Alcoa,"Pittsburgh, United States",Materials,12.98,1.05,16.64,16.5
+1161,Sun Pharma Industries,"Mumbai, India",Drugs & Biotechnology,6.52,1.25,11.68,47.0
+1162,Quinenco,"Las Condes, Chile",Banking,10.4,0.7155,75.1,7.39
+1163,Workday,"Pleasanton, United States",IT Software & Services,9.53,0.693,18.43,32.13
+1164,China Southern Airlines,"Guangzhou, China",Transportation,25.36,0.1241,50.09,9.1
+1165,Samsung SDI,"Yongin-si, South Korea",Capital Goods,9.59,0.3208,29.06,32.18
+1165,Voya Financial,"New York, United States",Insurance,8.25,0.68,162.78,7.38
+1167,Amadeus IT Group,"Madrid, Spain",IT Software & Services,7.61,1.55,13.17,25.07
+1168,Volvo Car,"Gothenburg, Sweden",Consumer Durables,36.77,0.0615,39.81,7.06
+1169,WEG,"Jaraguá do Sul, Brazil",Capital Goods,7.38,1.16,8.31,35.71
+1170,Top Frontier Investment Holdings,"Makati, Philippines",Oil & Gas Operations,25.89,0.3416,48.87,0.316
+1171,Albertsons,"Boise, United States",Food Markets,83.17,0.2174,29.49,8.11
+1172,Circle,"New York, United States",IT Software & Services,2.86,0.079,80.54,28.34
+1173,GS Holdings,"Seoul, South Korea",Food Markets,18.11,0.9245,24.03,4.87
+1174,DiDi Global,"Beijing, China",IT Software & Services,31.54,0.1381,22.64,14.37
+1175,arGEN-X,"Amsterdam, Netherlands",Drugs & Biotechnology,4.13,1.28,8.68,49.89
+1176,Electronic Arts,"Redwood City, United States",IT Software & Services,7.57,0.887,13.13,50.31
+1176,Vodafone Idea,"Mumbai, India",Telecommunications Services,5.08,3.91,20.2,14.63
+1178,Franklin Resources,"San Mateo, United States",Diversified Financials,8.97,0.6775,34.11,16.54
+1179,Shimao Property Holdings,"Hong Kong, Hong Kong",Construction,3.98,2.06,51.12,0.193
+1180,Franco-Nevada,"Toronto, Canada",Materials,2.1,1.37,8.8,43.44
+1180,Jefferies Financial,"New York, United States",Diversified Financials,9.93,0.6586,74.38,10.68
+1182,TUI,"Hannover, Germany",Business Services & Supplies,28.0,0.8133,20.9,3.8
+1183,Jiangsu Hengrui Pharmaceuticals,"Lianyungang, China",Drugs & Biotechnology,4.59,1.14,10.32,55.41
+1184,Zoom Video Communications,"San Jose, United States",IT Software & Services,4.87,1.9,11.96,29.52
+1185,Pinnacle Financial Partners,"Atlanta, United States",Banking,4.2,0.6515,122.77,14.21
+1186,AvalonBay Communities,"Arlington, United States",Diversified Financials,3.06,1.14,22.13,25.16
+1187,Agilent Technologies,"Santa Clara, United States",Health Care Equipment & Services,7.07,1.29,12.81,31.57
+1187,Webster Financial,"Stamford, United States",Banking,4.44,1.01,85.58,11.53
+1189,AntarChile,"Las Condes, Chile",Diversified Financials,29.47,0.5198,34.26,3.83
+1189,Dover,"Downers Grove, United States",Capital Goods,8.28,1.1,13.51,28.38
+1191,The Estée Lauder Companies,"New York, United States",Household & Personal Products,14.85,0.248,19.66,29.05
+1191,Flutter Entertainment,"New York, United States","Hotels, Restaurants & Leisure",17.02,0.375,28.47,16.07
+1193,Jiangsu Hengrui Medicine,"Lianyungang, China",Drugs & Biotechnology,4.58,1.14,10.32,52.78
+1194,Halyk Bank,"Almaty, Kazakhstan",Banking,6.69,2.03,41.21,8.8
+1195,MSCI,"New York, United States",Business Services & Supplies,3.24,1.32,5.54,40.89
+1196,A2A,"Milan, Italy",Utilities,16.61,0.8215,26.94,8.28
+1196,Bank Negara Indonesia,"Jakarta, Indonesia",Banking,5.59,1.23,83.95,8.27
+1198,First Horizon,"Memphis, United States",Banking,4.99,1.03,84.13,11.19
+1199,Chandra Asri Petrochemical,"Jakarta, Indonesia",Chemicals,8.82,1.27,12.51,21.3
+1200,WSP,"Montréal, Canada",Construction,13.35,0.6977,18.25,18.97
+1201,Hanwha Ocean,"Geoje-si, South Korea",Capital Goods,9.12,1.06,13.58,24.1
+1201,Kaisa Group Holdings,"Shenzhen, China",Construction,1.32,7.41,26.35,0.102
+1203,ASM International,"Almere, Netherlands",Capital Goods,3.7,1.15,6.72,49.08
+1204,Viking Holdings,"Pembroke, Bermuda","Hotels, Restaurants & Leisure",6.66,1.2,13.2,37.31
+1205,JFE Holdings,"Tokyo, Japan",Materials,30.12,0.4656,37.06,6.73
+1206,Bajaj Auto,"Pune, India",Consumer Durables,7.12,1.22,8.14,30.23
+1207,Reliance Steel,"Phoenix, United States",Materials,14.84,0.8046,10.81,18.47
+1208,ThyssenKrupp Group,"Essen, Germany",Materials,37.07,0.0104,32.79,7.7
+1209,WT Microelectronics,"New Taipei, Taiwan",Trading Companies,46.16,0.5695,21.09,10.83
+1210,Copart,"Dallas, United States",Retailing,4.61,1.56,10.6,31.11
+1211,Chongqing Changan Auto,"Chongqing, China",Consumer Durables,22.88,0.4326,27.61,12.92
+1212,Universal Health Services,"King of Prussia, United States",Health Care Equipment & Services,17.76,1.52,15.68,10.21
+1213,Fanuc,"Minamitsuru-gun, Japan",Capital Goods,5.69,1.11,13.14,48.41
+1214,Lululemon Athletica,"Vancouver, Canada",Household & Personal Products,11.1,1.58,8.46,13.71
+1215,Evergy,"Kansas City, United States",Utilities,5.97,0.8821,34.48,18.56
+1216,TMX Group,"Toronto, Canada",Diversified Financials,2.13,1.85,40.15,10.77
+1217,J Sainsbury,"London, United Kingdom",Food Markets,44.95,0.5131,25.47,9.01
+1218,Keysight Technologies,"Santa Rosa, United States",Technology Hardware & Equipment,5.68,0.958,11.48,59.86
+1219,Edwards Lifesciences,"Irvine, United States",Health Care Equipment & Services,6.3,1.08,13.32,46.86
+1220,Daou Technology,"Seongnam-si, South Korea",Diversified Financials,16.3,0.4307,62.58,1.21
+1221,Beiersdorf,"Hamburg, Germany",Household & Personal Products,11.12,1.06,15.09,17.68
+1222,CBOE Global Markets,"Chicago, United States",Diversified Financials,4.79,1.23,11.07,37.99
+1223,Li Auto,"Beijing, China",Consumer Durables,15.63,0.1537,22.08,19.8
+1224,CF Industries Holdings,"Northbrook, United States",Chemicals,7.41,1.76,14.61,19.24
+1225,IHI,"Tokyo, Japan",Capital Goods,10.91,1.07,15.27,17.95
+1225,Longfor Group Holdings,"Beijing, China",Construction,13.53,0.135,85.27,8.18
+1227,Pop Mart International Group,"Beijing, China",Media,5.18,1.78,4.7,25.89
+1228,Rede D'Oro Luiz,"São Paulo, Brazil",Health Care Equipment & Services,10.49,0.8479,21.02,15.12
+1229,ResMed,"San Diego, United States",Health Care Equipment & Services,5.54,1.52,8.78,29.28
+1230,Taiwan Cooperative Financial,"Taipei, Taiwan",Banking,5.1,0.6834,171.25,11.36
+1231,Next,"Leicester, United Kingdom",Household & Personal Products,9.16,1.18,6.75,19.07
+1232,Quilter,"London, United Kingdom",Diversified Financials,12.34,0.1581,102.95,3.21
+1233,CJ Corporation,"Seoul, South Korea","Food, Drink & Tobacco",32.19,0.106,31.59,4.84
+1233,Partners Group Holding,"Baar, Switzerland",Diversified Financials,3.38,1.52,8.06,29.04
+1235,Zhejiang Zheneng Electric Power,"Hangzhou, China",Utilities,10.93,1.04,22.31,11.96
+1236,MTU Aero Engines AG,"Munich, Germany",Aerospace & Defense,9.89,1.15,15.53,17.11
+1237,APA,"Houston, United States",Oil & Gas Operations,8.61,1.53,18.08,13.78
+1237,SoFi,"San Francisco, United States",Business Services & Supplies,5.14,0.5769,53.7,20.02
+1239,Mitsubishi Chemical,"Tokyo, Japan",Chemicals,24.58,0.0785,36.94,8.71
+1239,MOL Hungarian Oil,"Budapest, Hungary",Oil & Gas Operations,25.2,0.5445,27.17,10.31
+1241,Bank of Chongqing,"Chongqing, China",Banking,4.92,0.8212,160.41,3.88
+1242,IDEXX Laboratories,"Westbrook, United States",Health Care Equipment & Services,4.45,1.1,3.39,41.71
+1242,Yokohama Financial Group,"Tokyo, Japan",Banking,3.18,0.7069,161.36,11.17
+1244,Boliden,"Stockholm, Sweden",Materials,10.62,1.17,15.6,15.52
+1245,Western Alliance Bancorp.,"Phoenix, United States",Banking,5.58,0.952,98.85,8.13
+1246,Aurubis,"Hamburg, Germany",Materials,23.53,1.07,12.25,10.42
+1247,Alstom,"Saint-Ouen, France",Capital Goods,22.21,0.3244,40.33,9.16
+1248,Alpha Bank,"Athens, Greece",Banking,5.29,0.9852,90.97,9.5
+1249,China Eastern Airlines,"Shanghai, China",Transportation,19.48,0.3238,42.07,10.44
+1250,Expeditors International,"Bellevue, United States",Transportation,11.19,0.8361,4.78,20.33
+1251,dsm-firmenich,"Kaiseraugst, Switzerland",Household & Personal Products,10.2,1.22,34.83,18.38
+1252,First Solar,"Phoenix, United States",Semiconductors,5.42,1.67,13.35,25.08
+1253,Continental,"Hannover, Germany",Consumer Durables,22.21,0.0382,20.14,15.79
+1253,Doosan,"Seoul, South Korea",Capital Goods,14.42,0.0641,22.7,19.23
+1255,Ovintiv,"Denver, United States",Oil & Gas Operations,8.95,0.771,22.29,16.86
+1256,Jiangsu Eastern Shenghong,"Suzhou, China",Utilities,17.92,0.1725,30.45,12.65
+1257,Shanghai Electric Group,"Shanghai, China",Capital Goods,18.11,0.1821,47.44,8.73
+1257,"Zhongjin Gold Corp., Ltd.","Beijing, China",Materials,12.22,0.8835,10.1,17.35
+1259,Indian Railway Finance,"New Delhi, India",Business Services & Supplies,3.09,0.7933,54.47,13.48
+1259,MasTec,"Coral Gables, United States",Construction,15.28,0.45,10.44,32.78
+1261,Korea Gas,"Daegu, South Korea",Oil & Gas Operations,24.41,0.2172,35.02,2.2
+1262,Dongfang Electric,"Chengdu, China",Capital Goods,11.19,0.6033,23.61,16.25
+1263,Ares Management,"Los Angeles, United States",Diversified Financials,6.82,0.5778,28.39,27.83
+1264,Xiamen International Trade Group,"Xiamen, China",Transportation,49.77,0.0135,24.94,1.93
+1265,Telkom Indonesia,"Jakarta, Indonesia",Telecommunications Services,8.91,1.08,17.26,16.79
+1266,Shaanxi Construction Engineering Group,"Xi'an, China",Construction,17.65,0.0019,48.03,1.83
+1267,Pan Pacific International Holdings,"Tokyo, Japan",Retailing,15.83,0.7207,9.8,16.42
+1268,Zions Bancorp,"Salt Lake City, United States",Banking,4.93,0.95,87.96,8.77
+1269,Huaqin,"Shanghai, China",Technology Hardware & Equipment,24.93,0.6018,15.0,14.54
+1270,Adyen,"Amsterdam, Netherlands",Business Services & Supplies,3.02,1.2,14.39,32.68
+1271,Globalfoundries,"Malta, United States",Semiconductors,6.84,0.778,16.9,39.52
+1272,Qilu Bank,"Jinan, China",Banking,3.52,0.8314,121.67,5.68
+1273,Lonza Group,"Basel, Switzerland",Drugs & Biotechnology,7.86,0.3311,22.8,41.69
+1273,Old Dominion Freight Line,"Thomasville, United States",Transportation,5.46,1.01,5.66,42.24
+1275,Mazda Motor,"Aki, Japan",Consumer Durables,32.64,0.2328,28.16,4.34
+1276,Santos,"Adelaide, Australia",Oil & Gas Operations,5.04,0.8192,32.03,18.27
+1277,Rexel,"Paris, France",Trading Companies,21.91,0.6647,16.87,12.72
+1277,Yum China Holdings,"Shanghai, China","Hotels, Restaurants & Leisure",12.09,0.946,10.84,15.89
+1279,CGI,"Montréal, Canada",IT Software & Services,11.82,1.21,13.83,13.45
+1279,Qinghai Salt Lake Industry,"Golmud, China",Chemicals,2.65,1.46,8.45,26.35
+1281,Nanya Technology,"Taoyuan, Taiwan",Semiconductors,3.52,1.12,7.54,34.08
+1282,Titan (India),"Bangalore, India",Consumer Durables,9.91,0.5743,6.38,38.56
+1283,Bombardier,"Dorval, Canada",Aerospace & Defense,9.64,0.9895,13.74,18.83
+1284,J.B. Hunt Transport Services,"Lowell, United States",Transportation,12.13,0.6221,7.93,24.73
+1285,C.H. Robinson,"Eden Prairie, United States",Transportation,16.2,0.599,5.24,19.28
+1286,Migdal Insurance,"Petach Tikva, Israel",Insurance,10.59,0.5311,77.28,7.25
+1287,Tokyo Century,"Tokyo, Japan",Business Services & Supplies,9.67,0.7386,45.35,7.07
+1288,Sigma Healthcare,"Clayton, Australia",Drugs & Biotechnology,9.33,0.8237,5.83,23.54
+1288,Teradyne,"North Reading, United States",Technology Hardware & Equipment,3.79,0.8541,4.43,52.89
+1290,Tohoku Electric Power,"Sendai, Japan",Utilities,15.74,0.5639,36.03,3.32
+1291,Charoen Pokphand Group,"Bangkok, Thailand","Food, Drink & Tobacco",17.44,0.6327,26.8,4.44
+1292,Equity Residential,"Chicago, United States",Diversified Financials,3.13,0.9536,20.52,23.93
+1293,Korea Zinc,"Seoul, South Korea",Materials,13.21,0.6788,14.03,19.37
+1294,NVR,"Reston, United States",Construction,9.61,1.24,5.59,15.02
+1295,Grupo Aval,"Bogota, Colombia",Banking,11.15,0.425,92.37,4.9
+1295,Sojitz,"Tokyo, Japan",Materials,18.3,0.6876,22.93,7.76
+1297,NAURA Technology Group,"Beijing, China",Capital Goods,5.84,0.785,13.18,63.11
+1298,Shanxi Xinghuacun Fen Wine Factory,"Luliang, China","Food, Drink & Tobacco",5.23,1.55,9.32,23.56
+1299,Bank of Suzhou,"Suzhou, China",Banking,3.5,0.771,124.42,5.53
+1300,Zimmer Biomet,"Warsaw, United States",Health Care Equipment & Services,8.41,0.7612,22.72,16.19
+1301,Wuliangye Yibin,"Yibin, China","Food, Drink & Tobacco",5.61,0.3036,28.75,49.55
+1302,CIFI Holdings Group,"Shanghai, China",Construction,3.54,2.5,29.09,0.159
+1303,DISCO Corp.,"Tokyo, Japan",Capital Goods,2.9,0.8993,4.67,44.38
+1304,FinecoBank,"Reggio Emilia, Italy",Banking,2.21,0.7302,43.81,15.18
+1305,Lundin Mining,"Vancouver, Canada",Materials,4.02,1.45,10.98,24.0
+1305,Military Commercial Joint Stock Bank,"Ha Noi, Vietnam",Banking,4.71,1.06,61.16,7.84
+1307,Samsung Electro-Mechanics,"Suwon-si, South Korea",Semiconductors,8.27,0.5766,10.22,50.82
+1308,MBRF Global Foods Company,"São Paulo, Brazil","Food, Drink & Tobacco",30.1,0.0701,26.5,4.72
+1309,Forvia,"Nanterre, France",Consumer Durables,24.09,2.36,30.93,2.4
+1310,MGM Resorts,"Las Vegas, United States","Hotels, Restaurants & Leisure",17.71,0.1877,41.4,9.46
+1311,Japan Exchange Group,"Tokyo, Japan",Diversified Financials,1.32,0.5252,450.06,11.46
+1312,Eve Energy,"Huizhou, China",Capital Goods,9.76,0.6307,19.22,20.05
+1313,Jyske Bank,"Silkeborg, Denmark",Banking,4.2,0.7672,116.36,8.0
+1313,Kao,"Tokyo, Japan",Household & Personal Products,11.36,0.8509,11.51,16.78
+1315,NetApp,"San Jose, United States",Technology Hardware & Equipment,6.71,1.21,9.97,23.67
+1316,Genuine Parts,"Atlanta, United States",Trading Companies,24.7,0.0601,20.98,12.78
+1316,Lundbergs,"Stockholm, Sweden",Diversified Financials,2.95,1.23,26.2,13.61
+1318,Popular,"San Juan, United States",Banking,4.5,0.9013,76.13,9.3
+1318,West Japan Railway,"Osaka, Japan",Transportation,12.25,0.8461,25.06,7.84
+1318,XP,"Vila Olímpia, Brazil",Diversified Financials,3.33,0.9263,72.36,9.06
+1321,Ubiquiti,"New York, United States",Technology Hardware & Equipment,3.1,0.9421,1.72,37.72
+1322,CarMax,"Richmond, United States",Retailing,27.75,0.2473,26.7,5.24
+1322,Williams-Sonoma,"San Francisco, United States",Retailing,7.81,1.09,5.41,19.86
+1324,SouthState Bank,"Winter Haven, United States",Banking,3.78,0.9354,67.98,9.01
+1325,Olam Group,"Singapore, Singapore","Food, Drink & Tobacco",22.65,0.3397,30.63,3.56
+1325,Storebrand,"Lysaker, Norway",Banking,9.86,0.4599,99.18,8.07
+1327,Toll Brothers,"Fort Washington, United States",Construction,11.25,1.38,14.43,11.95
+1328,CAPITEC,"Stellenbosch, South Africa",Insurance,4.36,0.9626,16.54,29.78
+1329,Emera,"Halifax, Canada",Utilities,6.21,0.7742,34.44,15.68
+1330,Monolithic Power Systems,"West Palm Beach, United States",Semiconductors,2.96,0.6754,4.45,76.15
+1331,Bank Of Guiyang,"Guiyang, China",Banking,3.81,0.7438,111.05,3.2
+1331,Schaeffler,"Herzogenaurach, Germany",Consumer Durables,27.04,0.5179,24.61,10.54
+1333,Beijing Enterprises,"Hong Kong, Hong Kong",Oil & Gas Operations,12.13,0.701,30.75,5.09
+1334,Daou Data,"Seoul, South Korea",Trading Companies,12.7,0.154,58.06,0.559
+1335,UMB Financial,"Kansas City, United States",Banking,4.29,0.8825,72.67,9.47
+1335,Unicaja Banco,"Malaga, Spain",Banking,3.41,0.7368,114.17,8.14
+1335,United Therapeutics,"Silver Spring, United States",Drugs & Biotechnology,3.17,1.29,6.71,24.13
+1338,Epiroc,"Nacka, Sweden",Capital Goods,6.45,0.9015,8.77,34.84
+1339,Ventas,"Chicago, United States",Diversified Financials,6.13,0.2604,27.69,42.52
+1340,GAIL India,"New Delhi, India",Oil & Gas Operations,16.34,0.9854,15.37,11.13
+1341,Ingram Micro Holding,"Irvine, United States",IT Software & Services,54.24,0.3576,20.95,5.85
+1342,Shenzhen Mindray Bio-Medical Electronics,"Shenzhen, China",Health Care Equipment & Services,4.66,1.1,8.63,28.56
+1343,Investec,"London, United Kingdom",Diversified Financials,6.22,0.8274,81.11,6.75
+1343,S-Oil,"Seoul, South Korea",Oil & Gas Operations,24.0,0.6615,18.84,8.69
+1345,Aptiv,"Schaffhausen, Switzerland",Capital Goods,20.66,0.365,25.2,11.5
+1345,Kiwoom Securities,"Seoul, South Korea",Diversified Financials,2.08,0.9508,61.4,6.92
+1347,RHB Bank,"Kuala Lumpur, Malaysia",Banking,3.44,0.7854,88.25,9.13
+1347,Saab Group,"Stockholm, Sweden",Aerospace & Defense,8.74,0.6871,13.06,27.62
+1349,Metro,"Montréal, Canada",Food Markets,16.19,0.7314,10.42,13.58
+1350,Lindt & Sprungli,"Kilchberg, Switzerland","Food, Drink & Tobacco",7.12,0.8756,11.72,27.76
+1351,NH Investment & Securities,"Seoul, South Korea",Diversified Financials,2.83,0.9118,64.69,8.12
+1352,Globe Life,"McKinney, United States",Insurance,6.07,1.18,30.97,12.04
+1352,Yunnan Aluminium,"Kunming, China",Materials,8.73,1.22,6.96,15.16
+1354,Hong Leong Financial,"Kuala Lumpur, Malaysia",Banking,2.91,0.7725,88.27,5.41
+1355,Wintrust Financial,"Rosemont, United States",Banking,4.3,0.8622,72.16,9.75
+1356,DaVita,"Denver, United States",Health Care Equipment & Services,13.84,0.7564,17.5,12.82
+1356,Hyundai Marine & Fire,"Seoul, South Korea",Insurance,10.7,0.7386,32.32,1.65
+1356,Pan American Silver,"Vancouver, Canada",Materials,4.0,1.27,10.13,23.79
+1359,HBIS,"Shijiazhuang, China",Materials,16.46,0.1538,39.24,3.42
+1360,Cellnex Telecom,"Barcelona, Spain",Construction,5.38,0.4042,49.38,21.78
+1360,Dollarama,"Montréal, Canada",Retailing,5.21,0.9404,5.58,33.7
+1362,SMC,"Tokyo, Japan",Capital Goods,5.59,1.11,14.53,27.02
+1363,UPM-Kymmene,"Helsinki, Finland",Materials,11.03,0.6222,20.52,15.36
+1364,Bank of Qingdao,"Qingdao, China",Banking,3.77,0.6892,120.75,3.53
+1365,Raizen,"Rio de Janeiro, Brazil",Retailing,41.57,3.9839,21.66,0.918
+1366,Korean Air,"Seoul, South Korea",Transportation,17.82,0.436,34.81,6.41
+1367,HMM,"Busan, South Korea",Transportation,7.55,1.05,23.56,12.49
+1368,Nan Ya Plastics,"Kaohsiung City, Taiwan",Chemicals,8.52,0.5936,20.26,21.45
+1369,Stifel Financial,"St. Louis, United States",Diversified Financials,6.54,0.8822,42.89,11.4
+1370,Japan Airlines,"Tokyo, Japan",Transportation,13.36,0.9132,20.11,6.91
+1371,Xiamen Xiangyu,"Xiamen, China",Transportation,58.04,0.1838,19.57,2.68
+1372,Alliant Energy,"Madison, United States",Utilities,4.42,0.8210,24.81,18.31
+1373,Vietnam Prosperity Joint-sock Commercial Bank,"Ha Noi, Vietnam",Banking,4.96,1.0,52.08,8.29
+1374,Banca Transilvania,"Cluj Napoca, Romania",Banking,3.98,1.0,51.76,9.35
+1375,IDBI Bank,"Mumbai, India",Banking,4.03,1.04,49.28,7.89
+1375,International Container Terminal Services,"Manila, Philippines",Transportation,3.63,1.09,9.62,26.34
+1377,Aselsan Elektronik Sanayi ve Ticaret,"Ankara, Turkey",Aerospace & Defense,4.51,0.7879,10.9,41.55
+1378,WPP,"London, United Kingdom",Media,17.86,0.2833,32.72,3.77
+1379,Nedbank,"Sandton, South Africa",Banking,9.2,0.4443,94.06,7.01
+1380,Elia System Operator,"Brussels, Belgium",Utilities,5.01,0.6282,37.94,16.39
+1380,Royalty Pharma,"New York, United States",Drugs & Biotechnology,2.44,0.8271,19.82,23.43
+1380,Shimizu,"Tokyo, Japan",Construction,13.66,0.8402,16.68,11.91
+1383,Metropolitan Bank & Trust,"Makati, Philippines",Banking,3.81,0.867,61.97,4.79
+1384,Siam Cement,"Bangkok, Thailand",Construction,15.35,0.5941,25.91,8.27
+1385,EQT AB,"Stockholm, Sweden",Diversified Financials,2.72,0.8214,13.35,37.97
+1386,SGS,"Baar, Switzerland",Business Services & Supplies,8.36,0.8043,9.95,21.56
+1387,Ingersoll Rand,"Davidson, United States",Capital Goods,7.78,0.587,18.22,27.53
+1388,Alfa Laval,"Lund, Sweden",Capital Goods,7.33,0.8669,10.73,23.57
+1389,Scentre Group,"Sydney, Australia",Diversified Financials,1.73,1.15,23.6,13.71
+1390,Chiba Bank,"Chiba, Japan",Banking,2.53,0.6242,133.33,10.03
+1390,Iron Mountain,"Portsmouth, United States",Diversified Financials,7.25,0.2723,21.49,37.21
+1390,Yuexiu Property,"Hong Kong, Hong Kong",Construction,12.01,0.0041,53.12,2.39
+1393,Qantas Airways,"Mascot, Australia",Transportation,15.59,1.04,15.93,9.13
+1394,Centrica,"Windsor, United Kingdom",Oil & Gas Operations,25.69,0.09490,20.73,11.44
+1394,Ralph Lauren,"New York, United States",Household & Personal Products,7.83,0.9185,7.81,19.79
+1396,AVIC Chengdu Aircraft,"Xi'an, China",Technology Hardware & Equipment,10.98,0.4883,16.84,26.78
+1397,Klepierre,France,Construction,1.87,1.47,26.15,11.3
+1398,Insurance Australia Group,"Sydney, Australia",Insurance,11.95,0.7003,18.44,13.44
+1398,Samsung Securities,"Seoul, South Korea",Diversified Financials,2.41,0.849,60.79,7.33
+1398,Wolters Kluwer,"Alphen aan den Rijn, Netherlands",IT Software & Services,6.91,1.48,11.45,16.08
+1401,Fortum,"Espoo, Finland",Utilities,6.19,0.9513,18.43,21.08
+1401,Luzhou Lao Jiao,"Luzhou, China","Food, Drink & Tobacco",3.28,1.4,9.58,19.66
+1403,Teledyne Technologies,"Thousand Oaks, United States",Aerospace & Defense,6.22,0.933,15.49,28.57
+1404,Wärtsilä,"Helsinki, Finland",Capital Goods,8.01,0.7532,9.51,23.55
+1405,ZTO Express (Cayman),"Shanghai, China",Transportation,6.84,1.26,13.03,18.02
+1406,Fukuoka Financial Group,"Fukuoka, Japan",Banking,3.58,0.5669,210.95,7.96
+1407,Fuyao Glass Industry Group,"Fuqing, China",Consumer Durables,6.37,1.29,10.12,19.75
+1408,Old National Bank,"Evansville, United States",Banking,4.01,0.7583,73.0,9.0
+1409,Incyte,"Wilmington, United States",Drugs & Biotechnology,5.36,1.43,7.34,19.04
+1410,China Three Gorges Renewables (Group),"Beijing, China",Utilities,3.89,0.3248,56.9,17.27
+1411,Air Canada,"Saint-Laurent, Canada",Transportation,16.61,0.5745,23.71,3.91
+1412,AutoNation,"Fort Lauderdale, United States",Retailing,27.49,0.679,14.62,6.16
+1412,Orient Securities,"Shanghai, China",Diversified Financials,3.61,0.7572,69.67,6.52
+1414,Solventum,"Maplewood, United States",Health Care Equipment & Services,8.28,1.43,14.1,12.86
+1415,Valeo,"Paris, France",Consumer Durables,23.59,0.2257,23.81,3.56
+1416,Smithfield Foods,"Smithfield, United States","Food, Drink & Tobacco",15.61,1.01,12.0,9.83
+1416,Vietnam Technological & Commercial Joint Stock Bank,"Hanoi, Vietnam",Banking,3.5,0.9932,45.19,9.15
+1418,Shenzhen Longsys Electronics,"Shenzhen, China",Semiconductors,4.0,0.7655,5.2,36.37
+1419,Foshan Haitian Flavouring and Food,"Foshan, China","Food, Drink & Tobacco",4.18,1.03,7.0,24.18
+1420,Momentum Metropolitan Holdings,"Centurion, South Africa",Insurance,11.03,0.3376,53.27,2.8
+1421,American Financial Group,"Cincinnati, United States",Insurance,8.09,0.879,25.84,11.16
+1422,Macy's,"New York, United States",Retailing,22.62,0.643,17.29,4.86
+1423,Bullish,"George Town, Cayman Islands",IT Software & Services,216.39,1.0024,3.32,5.36
+1424,DuPont De Nemours,"Wilmington, United States",Chemicals,9.7,0.029,21.45,20.21
+1425,Novonesis A/S,"Lyngby, Denmark",Chemicals,4.87,0.6915,19.04,27.44
+1426,BAIC Motor,"Beijing, China",Consumer Durables,22.82,0.01630,23.83,1.3
+1426,Modon Holding PSC,"Abu Dhabi, United Arab Emirates",Diversified Financials,3.77,1.09,23.7,13.22
+1428,Coherent,"Saxonburg, United States",Semiconductors,6.6,0.4689,17.29,74.82
+1428,ENN Natural Gas,"Langfang, China",Oil & Gas Operations,18.15,0.6138,20.14,9.46
+1428,KE Holdings,"Beijing, China",Construction,13.15,0.4148,16.7,20.4
+1431,Heico,"Hollywood, United States",Aerospace & Defense,4.63,0.7126,9.04,40.3
+1432,Broadridge Financial,"Lake Success, United States",IT Software & Services,7.32,1.1,8.78,16.84
+1432,Burlington Stores,"Burlington, United States",Retailing,11.57,0.6102,9.92,18.45
+1434,Packaging Corp of America,"Lake Forest, United States",Materials,9.22,0.7362,10.78,18.9
+1435,Zhongyuan Bank,"Zhengzhou, China",Banking,7.0,0.4074,202.38,1.49
+1436,Galaxy Entertainment,"Hong Kong, Hong Kong","Hotels, Restaurants & Leisure",3.8,1.37,12.83,18.5
+1436,Yageo Corporation,"New Taipei, Taiwan",Technology Hardware & Equipment,4.54,0.8458,12.56,29.68
+1438,IEIT Systems,"Jinan, China",Technology Hardware & Equipment,21.6,0.3597,12.23,15.15
+1439,Chang Hwa Bank,"Taichung, Taiwan",Banking,3.26,0.6111,108.9,7.55
+1439,Tapestry,"New York, United States",Retailing,7.85,0.6628,6.47,26.13
+1441,Hankook Tire,"Seongnam-si, South Korea",Consumer Durables,15.13,0.7832,18.26,5.05
+1442,China International Marine,"Shenzhen, China",Materials,21.56,0.0222,24.43,6.57
+1443,BJ's Wholesale Club,"Marlborough, United States",Retailing,21.46,0.5784,7.51,12.3
+1444,First Pacific,"Hong Kong, Hong Kong","Food, Drink & Tobacco",10.23,0.6609,30.65,3.04
+1445,Millicom International,"Luxembourg, Luxembourg",Telecommunications Services,6.43,1.23,20.75,13.28
+1446,Pegatron,"Taipei, Taiwan",Technology Hardware & Equipment,35.28,0.3778,19.5,6.51
+1447,Old Republic International,"Chicago, United States",Insurance,9.42,1.02,21.65,9.55
+1448,Axis Capital Holdings,"Pembroke, Bermuda",Insurance,6.65,1.07,33.17,7.3
+1449,Muthoot Finance,"Kochi, India",Business Services & Supplies,3.55,1.2,20.64,13.86
+1450,Shionogi,"Osaka, Japan",Drugs & Biotechnology,3.32,1.36,16.2,16.53
+1450,Vipshop Holdings,"Guangzhou, China",Retailing,14.74,1.01,11.28,5.6
+1452,Suncorp Group,"Brisbane, Australia",Insurance,10.76,0.6358,19.69,13.55
+1453,Bandai Namco Holdings,"Tokyo, Japan",Consumer Durables,8.95,0.9334,7.48,14.88
+1453,Brambles,"Sydney, Australia",Transportation,6.83,0.9277,9.1,21.29
+1455,Banque Cantonale Vaudoise,"Lausanne, Switzerland",Banking,1.77,0.5175,77.78,12.63
+1456,Ford Otosan,"Istanbul, Turkey",Consumer Durables,19.95,0.7646,10.31,7.05
+1457,China Merchants Energy Shipping,"Shanghai, China",Transportation,4.38,1.11,12.34,20.69
+1457,Shandong Gold Mining,"Jinan, China",Materials,11.46,0.3465,22.06,15.97
+1459,Kingspan Group PLC,"Kingscourt, Ireland",Construction,10.38,0.7575,11.53,15.36
+1459,Towngas,"Hong Kong, Hong Kong",Oil & Gas Operations,6.97,0.7296,21.01,17.61
+1461,Veeva Systems,"Pleasanton, United States",IT Software & Services,3.19,0.9089,8.98,25.95
+1462,McCormick,"Baltimore, United States","Food, Drink & Tobacco",7.11,1.64,16.35,12.46
+1463,Industries Qatar,"Doha, Qatar",Materials,4.45,1.11,11.17,20.49
+1464,Celltrion,"Inchon, South Korea",Drugs & Biotechnology,3.13,0.8893,15.12,26.35
+1465,SiriusXM Holdings,"New York, United States",Media,8.58,0.846,27.15,8.7
+1465,Victory Giant Technology,"Huizhou, China",Technology Hardware & Equipment,2.89,0.6596,5.63,42.66
+1467,Chow Tai Fook Jewellery,"Hong Kong, Hong Kong",Consumer Durables,11.45,0.7593,11.2,13.97
+1468,PGE Polska Grupa Energetyczna,"Lublin, Poland",Utilities,16.36,0.9311,29.31,6.17
+1468,Shizuoka Financial Group,"Shizuoka, Japan",Banking,2.46,0.6004,100.67,9.75
+1470,Elbit Systems,"Haifa, Israel",Aerospace & Defense,7.93,0.5312,12.66,35.72
+1470,Hubbell,"Shelton, United States",Capital Goods,6.0,0.9043,8.42,25.36
+1470,Mebuki Financial Group,"Tokyo, Japan",Banking,2.47,0.5585,133.09,8.15
+1473,Waters,"Milford, United States",Health Care Equipment & Services,3.77,0.4492,24.53,32.33
+1474,BNK Financial Group,"Busan, South Korea",Banking,5.81,0.5875,106.49,3.58
+1475,BBMG,"Beijing, China",Construction,12.57,0.2104,39.4,1.01
+1476,Asia Vital Components Company,"Kaohsiung City, Taiwan",Technology Hardware & Equipment,5.36,0.774,5.5,30.53
+1477,Commercial Bank Dubai,"Dubai, United Arab Emirates",Banking,2.72,0.9175,42.99,7.37
+1478,China Nuclear Engineering Corporation,"Shanghai, China",Construction,13.43,0.1648,35.12,5.75
+1479,Commercial International Bank,"Giza, Egypt",Banking,4.76,1.33,28.73,8.59
+1480,Rajesh Exports,"Bangalore, India",Consumer Durables,85.01,0.0193,4.21,0.338
+1480,Toray Industries,"Tokyo, Japan",Household & Personal Products,17.16,0.5277,21.86,10.56
+1480,VeriSign,"Reston, United States",IT Software & Services,1.68,0.8409,1.3,27.08
+1480,Wuestenrot & Wuerttembergische,"Kornwestheim, Germany",Insurance,7.86,0.1366,87.25,1.55
+1484,Dexcom,"San Diego, United States",Health Care Equipment & Services,4.82,0.9304,6.63,23.78
+1485,CrowdStrike,"Austin, United States",IT Software & Services,4.81,0.1832,11.09,151.22
+1486,KPN,"Rotterdam, Netherlands",Telecommunications Services,6.54,0.9661,15.35,20.43
+1487,Terumo,"Tokyo, Japan",Health Care Equipment & Services,7.51,0.9019,14.53,17.88
+1488,Bank of Tianjin,"Tianjin, China",Banking,4.96,0.5376,140.58,1.76
+1488,China Cinda Asset Management,"Beijing, China",Diversified Financials,5.75,0.4942,246.31,5.51
+1490,Aristocrat Leisure,"Sydney, Australia","Hotels, Restaurants & Leisure",4.16,0.9735,6.61,22.23
+1491,Skanska,"Stockholm, Sweden",Construction,18.26,0.609,17.21,10.68
+1492,Vibra Energia,"Rio de Janeiro, Brazil",Retailing,35.35,0.5522,12.3,7.79
+1493,Jackson Financial,"Lansing, United States",Insurance,5.83,0.373,320.61,7.66
+1494,China Development Bank Financial Leasing,"Shenzhen, China",Business Services & Supplies,3.79,0.7000,62.03,2.57
+1495,Grupo Bolivar,"Bogota, Colombia",Banking,8.18,0.17200,76.61,1.58
+1495,SBA Communications,"Boca Raton, United States",Diversified Financials,2.85,1.02,11.72,21.17
+1497,Bank Albilad,"Riyadh, Saudi Arabia",Banking,3.02,0.8223,47.96,9.78
+1498,Kyoto Financial Group,"Kyoto, Japan",Banking,1.25,0.6419,74.33,7.9
+1499,E-mart,"Seoul, South Korea",Retailing,20.27,0.0879,22.77,1.83
+1499,Transurban Group,"Docklands, Australia",Transportation,2.58,0.3082,23.13,32.59
+1501,Tongling Nonferrous Metals,"Tongling, China",Materials,28.48,0.3695,15.05,12.26
+1502,Longi Green Energy Technology,"Xi'an, China",Semiconductors,9.56,0.9719,22.17,17.33
+1503,Telia,"Solna, Sweden",Telecommunications Services,8.58,0.4927,20.37,20.59
+1504,Northern Star Resources,"Subiaco, Australia",Materials,4.49,0.998,13.8,20.96
+1505,Zhuhai Huafa Properties,"Zhuhai, China",Construction,9.65,1.4969,51.04,1.31
+1506,Atkinsrealis Group,"Montréal, Canada",Construction,8.26,1.92,9.01,10.13
+1506,Sodexo,"Issy-les-Moulineaux, France","Hotels, Restaurants & Leisure",27.2,0.5171,17.47,8.01
+1508,Credito Emiliano,"Reggio Emilia, Italy",Banking,3.45,0.6161,77.27,6.15
+1509,Hyundai Engineering,"Seoul, South Korea",Construction,20.98,0.2991,18.55,11.6
+1510,El Puerto de Liverpool,"Mexico City, Mexico",Retailing,12.37,0.9049,16.9,8.07
+1511,Cambricon Technologies,"Beijing, China",Semiconductors,1.16,0.3825,2.23,111.62
+1512,Molina Healthcare,"Long Beach, United States",Drugs & Biotechnology,45.08,0.188,16.39,9.64
+1512,Tradeweb Markets,"New York, United States",Diversified Financials,2.16,0.8691,8.3,23.63
+1514,Columbia Banking System,"Tacoma, United States",Banking,3.4,0.6544,66.03,8.33
+1515,LEG Immobilien AG,"Dusseldorf, Germany",Construction,1.59,1.5,23.98,4.93
+1516,Knorr-Bremse,"Munich, Germany",Consumer Durables,9.03,0.6396,10.86,19.14
+1517,Veralto,"Waltham, United States",Capital Goods,5.59,0.969,7.65,20.83
+1518,CVC Capital Partners,"St. Helier, United Kingdom",Diversified Financials,2.09,1.34,6.12,15.98
+1519,Brighthouse Financial,"Charlotte, United States",Insurance,5.9,0.065,235.95,3.59
+1519,Hansoh Pharmaceutical Group,"Shanghai, China",Drugs & Biotechnology,2.09,0.7718,5.71,27.23
+1519,Valley National Bancorp,"New York, United States",Banking,3.52,0.6558,64.47,7.17
+1522,Shenzhen Inovance Technology,"Shenzhen, China",Capital Goods,6.5,0.6674,10.15,30.59
+1523,Hygon Information Technology,"Beijing, China",IT Software & Services,2.25,0.3838,5.09,103.29
+1523,Public Power,"Athens, Greece",Utilities,11.1,0.5308,32.7,8.01
+1525,Bharat Electronics,"Bangalore, India",Aerospace & Defense,3.04,0.6842,4.83,32.27
+1525,Rithm Capital,"New York, United States",Diversified Financials,5.52,0.7209,53.38,5.1
+1527,Galaxy Digital,"New York, United States",Diversified Financials,58.54,0.0646,9.99,5.65
+1528,ENN Energy Holdings,"Langfang, China",Oil & Gas Operations,15.57,0.8227,15.17,8.53
+1528,PTC,"Boston, United States",IT Software & Services,3.0,1.25,6.54,16.39
+1530,Aramark,"Philadelphia, United States","Hotels, Restaurants & Leisure",19.41,0.357,13.84,13.96
+1530,Reddit,"San Francisco, United States",IT Software & Services,2.47,0.7075,3.48,30.45
+1532,Ayala Corp,"Makati City, Philippines",Construction,5.84,1.05,31.94,4.48
+1533,Dongguan Rural Commercial Bank,"Dongguan, China",Banking,3.21,0.5342,113.93,3.17
+1534,Borouge,"Abu Dhabi, United Arab Emirates",Chemicals,5.6,0.9651,8.6,20.44
+1535,Guangzhou Automobile Group,"Guangzhou, China",Consumer Durables,13.44,1.2267,30.77,3.48
+1536,China Jinmao,"Hong Kong, Hong Kong",Construction,8.3,0.0811,63.21,3.21
+1537,Inner Mongolia Baotou Steel,"Baotou, China",Materials,9.0,0.0189,21.95,17.61
+1538,Guangzhou Rural Commercial Bank,"Guangzhou, China",Banking,5.18,0.2943,197.51,1.88
+1539,Bank of Maharashtra,"Pune, India",Banking,3.71,0.7941,45.07,6.25
+1540,"Gap, Inc.","San Francisco, United States",Retailing,15.37,0.8160,12.63,7.69
+1541,Clal Insurance Enterprises,"Tel Aviv, Israel",Insurance,4.42,0.6604,59.1,7.69
+1542,Verisk Analytics,"Jersey City, United States",Business Services & Supplies,3.1,0.9102,4.6,21.3
+1543,Hengtong Optic-Electric,"Suzhou, China",Capital Goods,10.05,0.4546,10.74,25.07
+1544,Stanley Black & Decker,"New Britain, United States",Consumer Durables,15.23,0.3711,21.6,11.68
+1545,ON Semiconductor,"Scottsdale, United States",Semiconductors,6.06,0.5737,12.01,44.33
+1546,Sun Communities,"Southfield, United States",Diversified Financials,2.36,1.4,12.36,14.84
+1547,Thai Oil,"Bangkok, Thailand",Oil & Gas Operations,12.73,0.9458,14.26,3.15
+1548,Kongsberg Gruppen,"Kongsberg, Norway",Capital Goods,4.53,0.732,8.67,27.62
+1549,Carlyle Group,"Washington, United States",Diversified Financials,4.19,0.5465,29.84,17.29
+1550,Kobe Steel,"Kobe, Japan",Materials,16.17,0.6219,18.01,4.89
+1551,Elite Material,"Taoyuan, Taiwan",Capital Goods,3.42,0.5352,4.1,52.44
+1552,Jinke Property Group,"Chongqing, China",Construction,0.897,4.35,2.09,2.18
+1552,Qnity Electronics,"Wilmington, United States",Technology Hardware & Equipment,4.95,0.65,14.06,32.91
+1554,China Communications Services,"Beijing, China",Construction,20.87,0.5013,19.56,3.83
+1555,FICO,"Bozeman, United States",Business Services & Supplies,2.26,0.7596,2.05,25.48
+1555,SS&C Technologies,"Windsor, United States",IT Software & Services,6.41,0.81,20.33,15.55
+1557,Snap-on,"Kenosha, United States",Consumer Durables,5.22,1.02,8.52,18.63
+1558,Arab Bank,"Amman, Jordan",Banking,3.01,0.7802,43.5,6.09
+1559,BAC Holding International,"Bogota, Colombia",Business Services & Supplies,5.67,0.7334,47.73,4.66
+1560,Stora Enso,"Helsinki, Finland",Materials,10.8,0.7115,21.67,8.7
+1561,Bloom Energy,"San Jose, United States",Technology Hardware & Equipment,2.45,0.006,4.67,78.49
+1562,Ciena,"Hanover, United States",Technology Hardware & Equipment,5.12,0.229,5.89,78.4
+1562,Ultrapar Participacoes,"São Paulo, Brazil",Retailing,26.78,0.5505,9.78,6.14
+1564,Illumina,"San Diego, United States",Health Care Equipment & Services,4.39,0.853,6.56,21.57
+1565,Schroders,"London, United Kingdom",Diversified Financials,4.43,0.7114,33.1,12.03
+1566,Liberty Media Corporation Series A Liberty Formula One,"Englewood, United States",Media,4.75,0.785,15.89,22.43
+1567,Lumentum Holdings,"San Jose, United States",Capital Goods,2.49,0.4399,7.03,75.52
+1568,Harbin Bank,"Harbin, China",Banking,4.66,0.1584,145.93,0.506
+1569,Mettler-Toledo International,"Columbus, United States",Health Care Equipment & Services,4.09,0.8751,3.67,20.85
+1569,NIO,"Shanghai, China",Consumer Durables,12.21,2.1525,17.82,15.57
+1571,Bank of Guizhou,"Guiyang, China",Banking,3.28,0.5365,87.35,2.1
+1572,Anhui Construction Engineering Group,"Hefei, China",Construction,11.92,0.2179,32.76,1.32
+1573,Lumen Technologies,"Monroe, United States",Telecommunications Services,12.12,1.738,30.62,10.36
+1573,Tianshan Material,"Urumqi, China",Construction,10.12,1.0266,40.84,4.69
+1575,Sunac China Holdings,"Beijing, China",Construction,6.54,1.6974,115.11,2.21
+1576,Datadog,"New York, United States",IT Software & Services,3.67,0.1357,6.95,73.57
+1577,ST Engineering,"Singapore, Singapore",Aerospace & Defense,9.45,0.3542,12.47,25.25
+1578,Secom,"Tokyo, Japan",Business Services & Supplies,8.34,0.7476,14.02,15.72
+1579,Zhejiang Expressway,"Hangzhou, China",Transportation,2.92,0.7265,46.04,5.19
+1580,Cullen/Frost Bankers,"San Antonio, United States",Banking,2.92,0.6616,52.73,8.46
+1581,Hunan Valin Steel,"Changsha, China",Materials,17.02,0.3162,22.39,4.35
+1581,SK Telecom,"Seoul, South Korea",Telecommunications Services,11.96,0.2432,19.6,14.25
+1583,Rocket Lab,"Long Beach, United States",Aerospace & Defense,0.68,0.1826,2.82,72.21
+1584,Jiangsu Changshu Rural Commercial Bank,"Changshu, China",Banking,2.58,0.611,60.72,3.49
+1585,Aumovio,"Frankfurt, Germany",Consumer Durables,20.93,0.7392,19.89,4.04
+1586,Alnylam Pharmaceuticals,"Cambridge, United States",Drugs & Biotechnology,4.29,0.5772,5.13,38.32
+1587,Oriental Land,"Urayasu, Japan",Media,4.67,0.8088,10.24,22.34
+1588,Origin Energy,"Sydney, Australia",Oil & Gas Operations,10.53,0.6584,13.4,14.15
+1589,ACWA Power,"Riyadh, Saudi Arabia",Utilities,2.09,0.4718,19.2,36.14
+1590,Alamos Gold,"Toronto, Canada",Materials,2.07,1.06,6.54,16.88
+1591,Cloudflare,"San Francisco, United States",IT Software & Services,2.33,0.0867,6.16,69.48
+1591,Sumitomo Forestry,"Tokyo, Japan",Construction,15.18,0.6851,16.42,5.01
+1593,Montage Technology,"Shanghai, China",Semiconductors,0.802,0.3612,3.14,69.31
+1594,Guangdong Haid Group,"Guangzhou, China","Food, Drink & Tobacco",18.56,0.547,7.61,11.43
+1595,LS Corp,"Seoul, South Korea",Capital Goods,24.19,0.2384,18.03,8.73
+1596,CTP,"Amsterdam, Netherlands",Construction,1.18,1.27,23.36,8.94
+1596,Yuzhou Group Holdings,"Pudong New District, China",Construction,0.9470,3.5,9.63,0.03
+1598,AviChina Industry & Technology,"Beijing, China",Aerospace & Defense,12.46,0.2451,29.57,3.41
+1598,Metro Group,"Dusseldorf, Germany",Food Markets,38.12,0.3557,13.72,2.79
+1600,Hyundai Steel,"Inchon, South Korea",Materials,16.08,0.0051,22.87,4.04
+1600,Ternium,"Luxembourg, Luxembourg",Materials,15.39,0.4169,23.62,8.4
+1602,Caesars Entertainment,"Reno, United States","Hotels, Restaurants & Leisure",11.56,0.485,31.66,5.66
+1602,Lyft,"San Francisco, United States",Transportation,6.52,2.86,8.89,4.92
+1604,CJ Cheiljedang,"Seoul, South Korea",Transportation,19.12,0.3533,20.26,2.44
+1604,World Kinect,"Miami, United States",Trading Companies,37.11,0.5671,6.8,1.46
+1606,Huntington Ingalls Industries,"Newport News, United States",Aerospace & Defense,12.85,0.605,12.53,12.85
+1607,Covestro,"Leverkusen, Germany",Chemicals,14.61,0.7268,16.0,14.44
+1608,Goertek,"Weifang, China",Technology Hardware & Equipment,13.92,0.5595,13.41,13.04
+1609,Cleveland-Cliffs,"Cleveland, United States",Materials,18.91,1.214,20.11,5.88
+1609,Fibra Uno,"Mexico City, Mexico",Diversified Financials,1.67,1.31,22.33,6.56
+1611,Cerebras Systems,"Sunnyvale, United States",IT Software & Services,0.51,0.2378,2.33,60.17
+1611,SpareBank 1 SR-Bank,"Stavanger, Norway",Banking,3.03,0.6202,53.33,7.51
+1613,WPG Holdings,"Taipei, Taiwan",Trading Companies,34.56,0.4457,15.0,5.86
+1614,Avis Budget Group,"Parsippany, United States",Business Services & Supplies,11.75,0.667,30.6,5.3
+1614,Bank of East Asia,"Hong Kong, Hong Kong",Banking,5.07,0.4114,118.33,4.74
+1616,TMBThanachart Bank,"Bangkok, Thailand",Banking,2.77,0.641,51.02,6.65
+1617,Admiral Group,"Cardiff, United Kingdom",Insurance,7.34,1.01,12.14,13.43
+1618,Aroundtown,"Luxembourg, Luxembourg",Diversified Financials,1.74,0.7505,39.57,3.04
+1619,Zheshang Development Group,"Hangzhou, China",Trading Companies,33.9,0.03060,8.6,0.6910
+1620,Knowledge Atlas Technology Joint Stock,"Beijing, China",IT Software & Services,0.101,0.6535,0.6950,59.22
+1621,Range Intelligent Computing Technology Group,"Langfang, China",Business Services & Supplies,0.889,0.7324,6.82,23.45
+1622,BOK Financial,"Tulsa, United States",Banking,3.4,0.6102,53.76,7.68
+1623,Capital A Berhad,"Kuala Lumpur, Malaysia",Transportation,0.48,3.05,1.86,0.4750
+1623,Wen's Foodstuff Group,"Yunfu, China","Food, Drink & Tobacco",14.65,0.309,13.34,14.72
+1625,InterContinental Hotels,"Windsor, United Kingdom","Hotels, Restaurants & Leisure",5.19,0.758,5.34,22.11
+1626,Bank of Zhengzhou,"Zhengzhou, China",Banking,3.65,0.2766,113.42,1.15
+1627,Jointown Pharmaceutical Group,"Wuhan, China",Health Care Equipment & Services,23.11,0.2841,17.62,3.67
+1628,Lear,"Southfield, United States",Consumer Durables,23.52,0.5284,15.45,6.65
+1629,United Utilities,"Warrington, United Kingdom",Utilities,3.51,0.7864,23.9,12.69
+1630,Suzhou Dongshan Precision Manufacturing,"Suzhou, China",Technology Hardware & Equipment,6.29,0.2872,9.13,54.47
+1630,United Natural Foods,"Providence, United States",Food Markets,31.54,0.078,7.25,3.07
+1632,BG Financial Group,"Panama City, Panama",Banking,1.95,0.8446,21.1,13.34
+1633,Hokuhoku Financial Group,"Toyama, Japan",Banking,1.65,0.3909,106.63,4.86
+1634,Steris,"Dublin, Ireland",Health Care Equipment & Services,5.94,0.7825,10.74,20.8
+1635,Bank OZK,"Little Rock, United States",Banking,2.8,0.7069,41.66,5.3
+1636,Take-Two Interactive Software,"New York, United States",IT Software & Services,6.56,3.9649,10.01,44.89
+1637,Avenue Supermarts,"Thane, India",Retailing,7.79,0.3362,3.11,29.62
+1637,Snowflake,"Menlo Park, United States",IT Software & Services,4.68,1.3316,9.13,54.44
+1639,"Furukawa Electric Co.,","Tokyo, Japan",Capital Goods,8.68,0.4812,6.7,24.17
+1640,First Quantum Minerals,"Toronto, Canada",Materials,5.45,0.1991,25.01,20.97
+1641,Murphy USA,"El Dorado, United States",Retailing,19.68,0.5537,4.87,10.38
+1641,"WUS PRINTED CIRCUIT (KUNSHAN) CO., LTD.","Kunshan, China",Technology Hardware & Equipment,2.97,0.6057,4.74,29.13
+1643,Church & Dwight,"Ewing, United States",Household & Personal Products,6.21,0.733,9.01,22.29
+1643,Genworth Financial,"Glen Allen, United States",Insurance,6.94,0.216,69.4,3.47
+1645,PBF Energy,"Parsippany, United States",Oil & Gas Operations,30.17,0.4415,14.72,5.0
+1646,Crown Holdings,"Tampa, United States",Materials,12.76,0.72,14.3,10.74
+1647,Akzo Nobel,"Amsterdam, Netherlands",Chemicals,11.51,0.7196,17.84,9.75
+1648,Japan Securities Finance,"Tokyo, Japan",Diversified Financials,0.733,0.0704,97.55,1.18
+1649,Avolta,"Basel, Switzerland",Retailing,16.84,0.2396,20.57,7.72
+1649,First National Of Nebraska,"Omaha, United States",Banking,3.4,0.7629,35.08,5.78
+1649,Tongwei,"Chengdu, China","Food, Drink & Tobacco",11.31,1.3241,27.07,10.51
+1652,Bayan Resources,"Jakarta, Indonesia",Materials,3.36,0.7417,3.51,21.38
+1653,General Insurance Corporation Of India,"Mumbai, India",Insurance,6.02,1.1,23.43,7.07
+1654,Evonik Industries,"Essen, Germany",Chemicals,15.9,0.1819,21.27,9.65
+1654,Microchip Technology,"Chandler, United States",Semiconductors,4.71,0.23,14.37,50.79
+1656,SJ Semiconductor,"Wuxi, China",Semiconductors,0.907,0.128,3.23,50.33
+1657,Evolution Mining,"Sydney, Australia",Materials,3.3,0.8561,6.68,18.16
+1658,Pinnacle West,"Phoenix, United States",Utilities,5.46,0.6541,30.69,11.93
+1659,Sumitomo Chemical,"Tokyo, Japan",Chemicals,15.45,0.4044,21.4,6.49
+1660,AGC,"Tokyo, Japan",Consumer Durables,13.92,0.5665,18.83,8.03
+1661,Samvardhana Motherson International,"Mumbai, India",Consumer Durables,13.89,0.3915,11.36,14.29
+1662,Evolution Gaming Group AB,"Stockhold, Sweden",IT Software & Services,2.38,1.23,6.74,13.38
+1662,Shanghai Commercial & Savings Bank,"Taipei, Taiwan",Banking,2.46,0.4991,77.85,6.17
+1664,Yamaha Motor,"Iwata, Japan",Consumer Durables,17.51,0.1772,19.4,8.11
+1665,B3,"São Paulo, Brazil",Diversified Financials,1.94,0.9106,9.49,16.51
+1666,Asics,"Kobe, Japan",Household & Personal Products,5.79,0.7541,4.02,20.14
+1667,FIBI Holdings,"Tel Aviv, Israel",Banking,4.38,0.3157,87.18,3.67
+1667,F.N.B.,"Pittsburgh, United States",Banking,2.7,0.5857,50.63,6.08
+1669,Cameco,"Saskatoon, Canada",Materials,2.56,0.4707,7.24,46.83
+1669,Flagstar Bank,"Hicksville, United States",Banking,4.6,0.056,87.13,5.51
+1671,Nishi-nippon Financial Holdings,"Fukuoka City, Japan",Banking,1.43,0.2662,87.07,3.56
+1672,Shengyi Technology,"Dongguan, China",Capital Goods,4.36,0.5531,5.24,31.65
+1672,Tata Capital,"Mumbai, India",Business Services & Supplies,3.57,0.5485,30.63,13.63
+1674,Ooredoo Q.P.S.C,"Doha, Qatar",Telecommunications Services,6.85,1.07,17.05,11.7
+1674,Yunnan Copper,"Kunming, China",Materials,27.42,0.1995,10.01,6.58
+1676,Ceconomy,"Dusseldorf, Germany",Retailing,27.03,0.06490,11.97,2.38
+1676,Covivio,"Paris, France",Diversified Financials,1.66,0.8337,29.76,6.84
+1678,Giga Device Semiconductor,"Beijing, China",Semiconductors,1.62,0.4089,4.02,46.36
+1678,XPO,"Greenwich, United States",Transportation,8.3,0.3480,8.18,23.98
+1680,Uniqa,"Vienna, Austria",Insurance,9.19,0.4795,34.85,6.08
+1681,Booz Allen Hamilton Holding,"McLean, United States",Business Services & Supplies,11.41,0.8328,7.05,8.76
+1682,AECOM,"Dallas, United States",Construction,15.99,0.6197,12.01,9.16
+1683,CapitaLand Integrated Commercial Trust,"Singapore, Singapore",Diversified Financials,1.25,0.7174,21.33,14.1
+1683,Geberit,"Rapperswil-Jona, Switzerland",Construction,3.81,0.7198,4.87,21.07
+1685,Adecco Group,"Zurich, Switzerland",Business Services & Supplies,26.84,0.3511,13.85,3.29
+1686,Moore Threads Technology,"Beijing, China",Semiconductors,0.209,0.1392,2.24,45.89
+1687,Hachijuni Bank,"Nagano, Japan",Banking,1.75,0.4285,85.2,6.84
+1687,Suzhou TFC Optical Communication,"Suzhou, China",Semiconductors,0.781,0.3058,1.01,45.8
+1689,Kyushu Financial Group,"Kumamoto, Japan",Banking,1.63,0.25,85.02,3.79
+1690,Mosaic,"Tampa, United States",Chemicals,12.43,0.045,24.57,6.92
+1691,Norwegian Cruise Line Holdings,"Miami, United States","Hotels, Restaurants & Leisure",10.03,0.5682,23.8,7.13
+1692,Randstad N.V.,"Diemen, Netherlands",Business Services & Supplies,26.57,0.3291,12.32,4.93
+1693,Motor Oil,"Marousi, Greece",Oil & Gas Operations,12.96,0.7308,9.44,4.48
+1694,Jiangxi Bank,"Nanchang, China",Banking,2.64,0.08320,84.34,0.515
+1695,Cholamandalam Investment and Finance,"Chennai, India",Business Services & Supplies,3.57,0.5922,25.88,13.74
+1696,Goodyear,"Akron, United States",Consumer Durables,17.91,2.085,18.47,1.62
+1696,Segro,"London, United Kingdom",Diversified Financials,0.9570,0.7262,24.45,12.31
+1698,Banco BBVA Peru,"Lima, Peru",Banking,3.16,0.7386,34.1,5.05
+1698,Unisplendour,"Beijing, China",Technology Hardware & Equipment,14.63,0.2992,14.93,13.41
+1700,North Pacific Bank,"Sapporo, Japan",Banking,1.19,0.1699,83.42,2.35
+1701,Fastighets Balder,"Gothenburg, Sweden",Construction,1.46,0.8179,29.93,6.52
+1701,Zhejiang Chint Electrics,"Yueqing, China",Capital Goods,9.28,0.6483,22.1,10.06
+1703,Yamaguchi Financial,"Shimonoseki, Japan",Banking,1.49,0.219,82.85,3.65
+1704,Manila Electric,"Pasig, Philippines",Utilities,8.72,0.8917999999999999,13.66,11.51
+1704,Masco,"Livonia, United States",Construction,7.68,0.837,5.23,13.14
+1706,BIM Birlesik Magazalar,"Istanbul, Turkey",Food Markets,18.23,0.5271,8.96,10.55
+1707,DapuStor,"Shenzhen, China",Semiconductors,0.465,0.001800,0.538,43.59
+1707,Medipal Holdings,"Tokyo, Japan",Health Care Equipment & Services,25.33,0.2823,12.08,3.63
+1709,Grupo Carso,"Mexico City, Mexico",Retailing,10.31,0.4278,14.02,18.08
+1710,Host Hotels & Resorts,"Bethesda, United States",Diversified Financials,6.17,1.01,13.15,14.64
+1711,Azrieli Group,"Tel Aviv, Israel",Construction,1.15,0.5477,19.95,19.98
+1711,JD Sports Fashion,"Bury, United Kingdom",Retailing,16.81,0.5789,13.44,4.64
+1713,Avnet,"Phoenix, United States",Trading Companies,24.95,0.2139,13.49,6.89
+1713,Coeur Mining,"Chicago, United States",Materials,2.56,0.7993,15.26,18.22
+1715,Taiwan Business Bank,"Taipei, Taiwan",Banking,2.37,0.4126,79.93,4.9
+1716,Hangzhou Binjiang Real Estate Group,"Hangzhou, China",Construction,10.26,0.2747,29.52,4.8
+1717,F5,"Seattle, United States",IT Software & Services,3.23,0.7082,6.5,20.46
+1717,Grupo Galicia,"Buenos Aires, Argentina",Banking,9.46,0.06620,32.66,6.98
+1719,Luzerner Kantonalbank,"Lucerne, Switzerland",Banking,1.25,0.3725,79.45,6.36
+1720,Compal Electronics,"Taipei, Taiwan",Technology Hardware & Equipment,24.61,0.1881,14.15,3.96
+1721,Bank of Xi'an,"Xi'an, China",Banking,2.86,0.3793,79.18,2.31
+1722,MetaX Integrated Circuits (Shanghai),"Shanghai, China",Semiconductors,0.265,0.0923,1.96,42.06
+1723,Bank of Lanzhou,"Lanzhou, China",Banking,2.46,0.2588,78.19,1.81
+1723,Bunzl,"London, United Kingdom",Trading Companies,15.61,0.6052,11.78,10.03
+1725,CPFL Energia,"Campinas, Brazil",Utilities,8.28,1.06,16.08,10.12
+1726,Asbury Automotive Group,"Atlanta, United States",Retailing,17.96,0.5477,11.3,3.34
+1727,WHSP-WH Soul Pattinson & Co,"Sydney, Australia",Diversified Financials,0.599,1.52,10.6,11.56
+1728,Founder Securities,"Changsha, China",Diversified Financials,1.64,0.5999,44.29,8.48
+1728,Hirogin Holdings,"Hiroshima, Japan",Banking,1.53,0.2902,76.75,3.87
+1730,UniMicron Technology Corp.,"Taoyuan, Taiwan",Technology Hardware & Equipment,4.49,0.3500,8.35,40.99
+1731,Power Assets Holdings,"Hong Kong, Hong Kong",Utilities,0.099,0.7999,12.63,17.66
+1731,Zhejiang Century Huatong Group,"Shanghai, China",IT Software & Services,5.74,0.8845,6.61,15.9
+1733,BeOne Medicines,"Basel, Switzerland",Drugs & Biotechnology,5.74,0.5133,8.55,33.09
+1733,Far East Horizon,"Hong Kong, Hong Kong",Business Services & Supplies,5.06,0.5403,53.08,4.55
+1735,Gen Digital,"Tempe, United States",IT Software & Services,5.0,0.973,15.59,14.2
+1736,Saipem,"Milan, Italy",Construction,17.49,0.3499,17.16,10.5
+1737,Bank of Jiujiang,"Hong Kong, Hong Kong",Banking,2.67,0.0689,74.9,0.855
+1738,Inventec,"Taipei, Taiwan",Technology Hardware & Equipment,23.8,0.3052,11.96,5.94
+1739,Lundin Gold,"Vancouver, Canada",Materials,1.99,0.9116,1.83,15.24
+1739,National Bank of Ras Al-Khaimah (P.S.C.),"Ras Al-Khaimah, United Arab Emirates",Banking,2.26,0.7902,29.22,4.46
+1739,Permian Resources,"Midland, United States",Oil & Gas Operations,5.08,0.6508,17.99,17.55
+1739,Tryg,"Ballerup, Denmark",Insurance,6.8,0.8115,15.96,14.23
+1743,Zhejiang NHU,"Xinchang, China",Drugs & Biotechnology,3.25,0.9449,6.87,14.77
+1744,Astera Labs,"San Jose, United States",Semiconductors,1.0,0.2676,1.66,39.88
+1744,LG Display,"Seoul, South Korea",Technology Hardware & Equipment,17.74,0.0573,17.82,4.7
+1744,Qingdao Rural Commercial Bank,"Qingdao, China",Banking,2.51,0.4293,73.67,2.4
+1747,Advanced Micro-Fabrication Equipment Inc. China,"Shanghai, China",Capital Goods,1.85,0.3842,4.53,39.83
+1748,Webuild,"Milan, Italy",Construction,14.26,0.2707,20.95,2.99
+1749,BorgWarner,"Auburn Hills, United States",Capital Goods,14.33,0.362,13.65,12.96
+1750,Tele2,"Kista, Sweden",Telecommunications Services,3.18,1.07,7.34,13.53
+1751,Harbour Energy,"London, United Kingdom",Oil & Gas Operations,10.0,0.1847,29.09,7.18
+1752,Central Bank of India,"Mumbai, India",Banking,4.82,0.512,58.1,3.22
+1753,Basler Kantonalbank,"Basel, Switzerland",Banking,1.78,0.2442,72.41,0.593
+1754,Saudi Investment Bank,"Riyadh, Saudi Arabia",Banking,3.02,0.5627,48.04,4.37
+1754,Weihai City Commercial Bank,"Weihai, China",Banking,2.72,0.3133,72.2,2.08
+1756,Cencosud,"Santiago, Chile",Retailing,18.34,0.3029,17.09,6.44
+1757,Gold.com,"El Segundo, United States",Diversified Financials,23.02,0.0805,4.17,1.1
+1758,Chugin Financial Group,"Okayama, Japan",Banking,1.5,0.2635,71.47,3.4
+1759,Lennox International,"Richardson, United States",Capital Goods,5.26,0.7831,4.29,17.4
+1759,Zhongsheng Group Holdings,"Dalian, China",Retailing,22.88,0.2376,14.84,2.03
+1761,BayWa,"Munich, Germany",Trading Companies,22.88,1.2495,11.65,0.612
+1762,Bank Muscat,"Seeb, Oman",Banking,2.37,0.6153,39.96,8.07
+1762,Shennan Circuit,"Shenzhen, China",Technology Hardware & Equipment,3.58,0.5117,4.97,31.67
+1764,KION Group,"Frankfurt, Germany",Capital Goods,13.07,0.4262,21.89,6.79
+1764,Securitas,"Stockholm, Sweden",Business Services & Supplies,16.08,0.5733,11.84,9.31
+1766,Asia Commercial Bank,"Ho Chi Minh City, Vietnam",Banking,2.79,0.6211,39.13,4.54
+1766,Empire,"Stellarton, Canada",Food Markets,22.82,0.114,12.61,7.68
+1768,Bank of Queensland,"Newstead, Australia",Banking,3.26,0.06420,70.06,2.91
+1768,OneMain Holdings,"Evansville, United States",Business Services & Supplies,6.33,0.796,27.02,6.18
+1768,SQM,"Santiago, Chile",Chemicals,4.57,0.5879,14.51,24.18
+1771,EasyJet,"Luton, United Kingdom",Transportation,13.2,0.645,15.49,3.45
+1772,Alaska Air Group,"Seattle, United States",Transportation,14.4,0.073,20.3,4.12
+1772,Voestalpine,"Linz, Austria",Materials,17.09,0.2544,17.88,8.93
+1774,Daito Trust Construction,"Tokyo, Japan",Construction,13.17,0.6572,8.6,7.1
+1775,Menora Mivtachim Holdings,"Ramat Gan, Israel",Insurance,5.51,0.6816,25.57,11.66
+1776,Group 1 Automotive,"Houston, United States",Retailing,22.47,0.3223,10.06,3.73
+1776,PTT Global Chemical,"Bangkok, Thailand",Oil & Gas Operations,14.83,0.495,19.71,5.25
+1776,Thai Beverage,"Bangkok, Thailand","Food, Drink & Tobacco",10.19,0.7717,16.17,8.44
+1779,iM Financial Group,"Daegu, South Korea",Banking,3.09,0.2862,68.89,1.93
+1780,Hera,"Bologna, Italy",Utilities,13.91,0.539,17.67,6.53
+1780,Resonac Holdings,"Tokyo, Japan",Chemicals,8.85,0.2360,13.26,19.63
+1782,China Power International Development,"Hong Kong, Hong Kong",Utilities,6.82,0.4018,52.6,5.59
+1782,Gunma Bank,"Maebashi, Japan",Banking,1.6,0.3906,68.24,5.33
+1782,Mobile Telecommunications KSC,"Kuwait City, Kuwait",Telecommunications Services,7.55,0.8802,19.11,8.17
+1785,InterGlobe Aviation,"Gurgaon, India",Transportation,9.71,0.3685,14.44,17.38
+1786,Daishi Hokuetsu Financial Group,"Niigata, Japan",Banking,1.44,0.2794,68.14,3.36
+1786,Sasol,"Sandton, South Africa",Chemicals,13.95,0.1347,20.5,8.63
+1788,Orkla,"Oslo, Norway","Food, Drink & Tobacco",6.89,1.08,8.79,11.81
+1789,Phison Electronics,"Hsinchu, Taiwan",Technology Hardware & Equipment,3.22,0.7378,4.41,18.3
+1790,Xiamen Bank,"Xiamen, China",Banking,1.92,0.3777,67.87,2.84
+1791,SLM,"Newark, United States",Business Services & Supplies,3.1,0.7483,29.41,3.99
+1792,Bendigo & Adelaide Bank,"Bendigo, Australia",Banking,3.24,0.05370,67.55,4.32
+1793,Iyogin Holdings,"Matsuyama, Japan",Banking,1.54,0.4928,59.97,5.75
+1794,Yangzijiang Shipbuilding (Holdings),"Jingjiang, China",Capital Goods,3.96,1.2,8.35,12.21
+1795,Umicore,"Brussels, Belgium",Materials,21.86,0.434,11.35,6.74
+1796,Kerry Group,"Tralee, Ireland","Food, Drink & Tobacco",7.63,0.7432,12.53,13.41
+1797,Chugoku Electric Power,"Hiroshima, Japan",Utilities,9.57,0.4548,29.04,2.06
+1798,Brookfield Renewable Holdings,"New York, United States",Utilities,5.12,6.2564,65.58,6.55
+1799,77 Bank,"Sendai, Japan",Banking,1.17,0.3584,65.58,4.42
+1799,Equifax,"Atlanta, United States",Business Services & Supplies,6.28,0.6988,11.94,18.86
+1801,Boyd Gaming,"Las Vegas, United States","Hotels, Restaurants & Leisure",4.1,1.84,6.61,5.88
+1802,Ho Chi Minh City Development Joint Stock Commercial Bank,"Ho Chi Minh City, Vietnam",Banking,2.99,0.6345,35.4,5.23
+1803,Grupo Nutresa,"Medellin, Colombia","Food, Drink & Tobacco",5.08,0.305,7.26,35.83
+1804,Fuji Electric,"Tokyo, Japan",Capital Goods,8.15,0.6505,8.84,14.07
+1805,Deckers Outdoor,"Goleta, United States",Household & Personal Products,5.37,1.04,4.1,13.28
+1806,Keppel Ltd,"Singapore, Singapore",Utilities,4.88,0.6035,21.06,14.92
+1807,Zall Smart Commerce Group,"Wuhan, China",Transportation,21.53,0.0204,8.83,0.131
+1808,Digital China Group,"Beijing, China",Technology Hardware & Equipment,21.47,0.0763,8.12,4.28
+1809,Genmab,"Copenhagen, Denmark",Drugs & Biotechnology,3.9,0.8242,12.38,15.59
+1810,Jacobs Solutions,"Dallas, United States",Business Services & Supplies,13.16,0.3901,11.94,13.05
+1811,China Longyuan Power,"Beijing, China",Utilities,4.2,0.5998,38.6,7.21
+1811,Oi,"Rio de Janeiro, Brazil",Telecommunications Services,0.59,1.78,3.43,0.073
+1813,Ackermans & van Haaren,"Antwerp, Belgium",Construction,6.73,0.6687,25.01,10.7
+1813,DCC,"Dublin, Ireland",Oil & Gas Operations,20.98,0.09570,11.07,6.71
+1815,Banco Davivienda,"Bogota, Colombia",Banking,6.04,0.3872,62.45,2.64
+1816,Bank Of Gansu,"Lanzhou, China",Banking,1.79,0.0815,62.38,0.712
+1816,Kimco Realty,"Jericho, United States",Diversified Financials,2.17,0.6143,19.59,15.51
+1818,Mueller Industries,"Collierville, United States",Materials,4.37,0.8468,3.94,15.09
+1819,Banque Centrale Populaire,"Casablanca, Morocco",Banking,3.54,0.4752,60.9,5.27
+1820,Starwood Property Trust,"Miami Beach, United States",Diversified Financials,1.99,0.3417,62.09,6.32
+1821,Lotte Chemical,"Seoul, South Korea",Chemicals,13.11,1.2611,20.82,2.43
+1822,Hengyi Petrochemical,"Hangzhou, China",Household & Personal Products,16.35,0.31,17.53,7.51
+1823,Check Point Software,"Tel Aviv, Israel",IT Software & Services,2.76,1.06,7.61,12.93
+1824,Tauron Group,"Katowice, Poland",Utilities,9.34,0.8626,13.55,4.38
+1825,AGCO,"Duluth, United States",Capital Goods,10.37,0.771,12.04,8.2
+1825,Alfresa Holdings,"Tokyo, Japan",Health Care Equipment & Services,20.6,0.277,9.47,2.73
+1827,Dr. Sulaiman Al-Habib Medical Services Group,"Riyadh, Saudi Arabia",Health Care Equipment & Services,3.73,0.6259,6.33,20.52
+1828,LIC Housing Finance,"Mumbai, India",Business Services & Supplies,3.27,0.6342,34.29,3.13
+1829,St. Galler Kantonalbank,"St. Gallen, Switzerland",Banking,1.04,0.2733,60.76,4.59
+1830,Avery Dennison,"Mentor, United States",Materials,9.01,0.6898,8.98,11.95
+1831,Ag Anadolu Grubu Holding Anonim Sirketi,"Ümraniye, Turkey","Food, Drink & Tobacco",17.55,0.0884,16.59,1.91
+1831,Bausch Health Companies,"Laval, Canada",Drugs & Biotechnology,10.53,1.1987,24.5,2.03
+1831,SITC International Holdings,"Hong Kong, Hong Kong",Transportation,3.41,1.22,3.48,11.75
+1834,"LG Innotek Co.,","Seoul, South Korea",Technology Hardware & Equipment,15.76,0.3403,7.72,11.54
+1834,Zangge Mining,"Golmud, China",Capital Goods,0.527,0.6587,2.74,19.29
+1836,Ampol,"Alexandria, Australia",Oil & Gas Operations,19.99,0.0531,8.47,5.98
+1836,Endeavour Mining,"London, United Kingdom",Materials,4.54,0.8579,6.26,14.6
+1838,Marks & Spencer,"London, United Kingdom",Retailing,19.95,0.0259,13.55,8.66
+1839,CP Axtra,"Bangkok, Thailand",Food Markets,16.21,0.2942,17.33,4.73
+1839,Sparebanken Vest,"Bergen, Norway",Banking,3.32,0.2756,59.28,3.51
+1839,XPeng,"Guangzhou, China",Consumer Durables,10.69,0.1567,14.76,14.96
+1842,ARC Resources,"Calgary, Canada",Oil & Gas Operations,4.63,1.05,11.34,12.79
+1843,Tokyu Fudosan,"Tokyo, Japan",Construction,8.27,0.6417,21.49,5.91
+1844,Lasertec,"Yokohama, Japan",Technology Hardware & Equipment,1.67,0.5892,1.95,21.71
+1845,Jiangsu Zhongtian Technology,"Nantong, China",Capital Goods,7.87,0.4496,9.18,20.45
+1846,Invitation Homes,"Dallas, United States",Diversified Financials,2.81,0.5812,18.7,16.59
+1847,IndusInd Bank,"Pune, India",Banking,6.05,0.10070,57.29,7.2
+1848,MiniMax Group,"Shanghai, China",IT Software & Services,0.079,1.8716,1.09,31.8
+1849,Credo Technology Group Holding,"George Town, Cayman Islands",IT Software & Services,1.07,0.3398,2.04,31.76
+1850,Gjensidige Forsikring,"Oslo, Norway",Insurance,4.89,0.6905,20.05,13.06
+1850,Samsung Heavy Industries,"Seongnam-si, South Korea",Capital Goods,9.24,0.3896,10.82,16.67
+1850,SDIC Capital,"Beijing, China",Diversified Financials,2.5,0.4738,56.08,6.11
+1853,Autoliv,"Stockholm, Sweden",Consumer Durables,10.99,0.709,8.47,8.6
+1853,Rollins,"Atlanta, United States",Business Services & Supplies,3.85,0.5293,3.16,25.72
+1855,Mitsubishi Motors,"Tokyo, Japan",Consumer Durables,19.22,0.0665,15.2,2.93
+1855,San-In Godo Bank,"Matsue, Japan",Banking,1.04,0.1506,56.83,1.87
+1855,Satellite Chemical,"Jiaxing, China",Chemicals,6.54,0.8249,10.8,13.86
+1858,Axon Enterprise,"Scottsdale, United States",Aerospace & Defense,2.98,0.2060,7.07,31.59
+1859,Nitto Denko,"Osaka, Japan",Technology Hardware & Equipment,6.82,0.8859,9.06,12.57
+1859,Seazen Group,"Shanghai, China",Construction,7.41,0.0534,38.56,1.99
+1861,Eicher Motors,"Gurugram, India",Consumer Durables,2.59,0.6146,3.26,20.07
+1861,WuXi Biologics,"Wuxi, China",Drugs & Biotechnology,3.03,0.6831,9.12,17.81
+1863,Molson Coors Brewing,"Golden, United States","Food, Drink & Tobacco",11.19,2.1093,22.37,7.66
+1863,Nextpower,"Fremont, United States",Technology Hardware & Equipment,3.56,0.5859,4.07,21.42
+1865,Jinshang Bank,"Taiyuan, China",Banking,1.73,0.2311,56.27,0.932
+1865,Lotte Shopping,"Seoul, South Korea",Retailing,9.73,0.1148,25.16,3.2
+1865,Royal Gold,"Denver, United States",Materials,1.31,0.6339,9.49,19.38
+1868,Airports of Thailand,"Bangkok, Thailand",Transportation,2.06,0.5601,6.12,23.19
+1868,Ningbo Jintian Copper (Group),"Ningbo, China",Materials,18.9,0.1087,4.87,3.3
+1870,Cosmo Energy Holdings,"Tokyo, Japan",Oil & Gas Operations,17.77,0.4912,13.81,3.84
+1871,FTAI Aviation,"New York, United States",Aerospace & Defense,2.84,0.5366,4.53,24.41
+1871,Mobily,"Riyadh, Saudi Arabia",Telecommunications Services,5.31,0.9542,11.25,13.09
+1871,Shandong Hi-Speed Road & Bridge Group,"Jinan, China",Construction,9.53,0.3021,25.82,1.21
+1874,Revolution Medicines,"Redwood City, United States",Drugs & Biotechnology,1.3717,2.25,30.97,
+1875,Sino-Ocean Group Holding,"Beijing, China",Construction,2.15,0.9124,21.6,0.111
+1876,Nova Ljubljanska Banka,"Ljubljana, Slovenia",Banking,2.07,0.5753,37.18,5.28
+1876,Roblox,"San Mateo, United States",IT Software & Services,5.3,1.096,9.83,30.68
+1878,Tower Semiconductor,"Migdal Haemek, Israel",Semiconductors,1.62,0.2454,3.7,30.62
+1878,Westlake Corporation,"Houston, United States",Chemicals,10.98,1.629,19.71,11.35
+1880,Lens Technology,"Changsha, China",Consumer Durables,10.04,0.4803,11.98,14.74
+1881,Commercial Bank of Qatar,"Doha, Qatar",Diversified Financials,3.29,0.4861,52.35,4.71
+1882,Viva Energy Group,"Docklands, Australia",Oil & Gas Operations,18.4,0.2715,8.94,2.67
+1883,BEKB-BCBE,"Bern, Switzerland",Banking,0.8270,0.2111,54.25,4.36
+1884,Aozora Bank,"Tokyo, Japan",Diversified Financials,1.55,0.1706,54.07,2.37
+1884,Prosperity Bancshares,"Houston, United States",Banking,1.79,0.5289,43.62,6.71
+1884,Ricoh,"Tokyo, Japan",Technology Hardware & Equipment,17.31,0.3694,15.97,5.1
+1887,Manpower,"Milwaukee, United States",Business Services & Supplies,18.38,0.0164,8.39,1.21
+1888,APi Group,"New Brighton, United States",Construction,8.17,0.324,8.97,18.91
+1888,Goldwind Science & Technology,"Urumqi, China",Capital Goods,10.14,0.3703,23.82,7.94
+1890,Barry Callebaut,"Zurich, Switzerland","Food, Drink & Tobacco",17.58,0.2999,15.61,8.27
+1890,Link REIT,"Hong Kong, Hong Kong",Diversified Financials,1.82,0.8714,29.05,13.83
+1892,New World Development,"Hong Kong, Hong Kong",Construction,1.28,1.7186,53.71,2.89
+1892,YTO Express Group,"Shanghai, China",Transportation,10.84,0.6818,7.89,10.2
+1894,Wise,"St. Helier, United Kingdom",Business Services & Supplies,2.45,0.5045,29.77,12.76
+1895,Curtiss Wright Corporation,"Davidson, United States",Aerospace & Defense,3.61,0.5111,5.27,26.33
+1895,Twilio,"San Francisco, United States",IT Software & Services,5.3,0.10400,9.58,30.09
+1897,China Merchants Port Holdings,"Hong Kong, Hong Kong",Transportation,1.71,0.8282,22.81,8.61
+1897,Chroma Ate,"Taoyuan, Taiwan",Technology Hardware & Equipment,1.08,0.4353,1.71,30.01
+1899,Beijing Shougang,"Beijing, China",Materials,14.29,0.11850,18.05,4.62
+1900,Bajaj Holdings & Investment,"Pune, India",Diversified Financials,0.127,1.09,8.98,11.94
+1901,Sydbank,"Aabenraa, Denmark",Banking,1.66,0.305,53.18,7.02
+1902,Chailease Holding,"Taipei, Taiwan",Business Services & Supplies,3.11,0.644,30.53,5.75
+1903,Kingfisher,"London, United Kingdom",Retailing,17.19,0.3253,15.64,6.12
+1904,AmBank Group,"Kuala Lumpur, Malaysia",Banking,2.02,0.4891,49.83,5.36
+1905,China Industrial Securities,"Fuzhou, China",Diversified Financials,2.08,0.442,52.91,7.47
+1906,China Merchants Port Group,"Shenzhen, China",Transportation,2.46,0.654,29.69,8.12
+1907,Lion Finance Group,"London, United Kingdom",Banking,2.75,0.8245,22.67,6.25
+1908,China Northern Rare Earth High-Tech,"Baotou, China",Chemicals,6.35,0.3855,7.31,28.57
+1908,Commerce Bancshares,"Kansas City, United States",Banking,2.17,0.5708,35.72,7.43
+1908,SharkNinja,"Needham, United States",Consumer Durables,6.59,0.705,5.02,14.95
+1911,New Hope Liuhe,"Chengdu, China","Food, Drink & Tobacco",15.45,0.4402,16.85,5.44
+1912,Shandong Humon Smelting,"Yantai, China",Materials,17.78,0.09340,5.65,3.2
+1913,United Bank (Pakistan),"Karachi, Pakistan",Banking,4.76,0.506,45.62,3.41
+1914,Brenntag,"Essen, Germany",Trading Companies,17.11,0.2644,12.91,10.31
+1915,Sinotrans Ltd.,"Beijing, China",Transportation,13.31,0.5698,11.58,4.7
+1916,Hanwa,"Tokyo, Japan",Trading Companies,17.67,0.2539,7.62,2.15
+1917,China Petroleum Engineering,"Beijing, China",Chemicals,13.99,0.0525,17.83,3.14
+1918,Bureau Veritas,"Neuilly-sur-Seine, France",Business Services & Supplies,7.3,0.6636,8.3,13.66
+1919,Gaming And Leisure Properties,"Wyomissing, United States",Diversified Financials,1.62,0.891,13.77,13.14
+1919,nVent Electric,"London, United Kingdom",Technology Hardware & Equipment,4.33,0.4871,6.96,27.33
+1921,Minebea,"Kitasaku, Japan",Semiconductors,11.04,0.6572,11.41,9.99
+1922,KakaoBank,"Seongnam-si, South Korea",Banking,2.12,0.3721,50.71,7.13
+1923,JB Financial Group,"Jeonju-si, South Korea",Banking,2.88,0.4821,48.3,3.08
+1924,MACOM Technology Solutions Holdings,"Lowell, United States",Semiconductors,1.07,0.1768,2.02,28.66
+1925,Mercuries & Associates,"Taipei, Taiwan",Insurance,4.77,0.0214,50.59,0.436
+1926,Mowi ASA,"Bergen, Norway","Food, Drink & Tobacco",6.84,0.984,11.95,11.19
+1926,Saputo,"Montréal, Canada","Food, Drink & Tobacco",13.59,0.4609,9.72,11.61
+1928,Sumec Corporation,"Nanjing, China",Capital Goods,17.36,0.1934,9.31,2.28
+1929,Konami,"Tokyo, Japan",IT Software & Services,3.28,0.6637,4.71,16.8
+1930,AltaGas,"Calgary, Canada",Oil & Gas Operations,9.37,0.377,19.61,12.03
+1930,Optimum,"Long Island City, United States",Telecommunications Services,8.5,4.6774,27.87,0.378
+1932,China Tourism Group Duty Free,"Beijing, China",Retailing,7.61,0.5695,12.39,15.15
+1933,Emirates Integrated Telecom,"Dubai, United Arab Emirates",Telecommunications Services,4.4,0.8213,5.5,13.82
+1934,EFG International,"Zurich, Switzerland",Diversified Financials,3.13,0.3916,49.73,6.55
+1935,Biwin Storage Technology,"Shenzhen, China",Technology Hardware & Equipment,2.33,0.556,3.54,21.19
+1935,Bolsa de Valores de Colombia,"Bogota, Colombia",Diversified Financials,0.09,0.0259,49.72,0.242
+1937,Moncler SpA,"Milan, Italy",Household & Personal Products,3.54,0.7072,7.0,15.7
+1937,Nippon Express Holdings,"Tokyo, Japan",Transportation,17.13,0.0399,14.66,7.2
+1939,Yes Bank,"Mumbai, India",Banking,4.22,0.3974,49.57,7.22
+1940,DCI Indonesia,"Jakarta, Indonesia",Business Services & Supplies,0.158,0.0579,0.427,27.71
+1940,Hanwha Chemical,"Seoul, South Korea",Semiconductors,9.91,0.4596,22.81,4.72
+1942,Aeroports de Paris,"Tremblay-en-France, France",Transportation,7.57,0.4311,23.8,12.03
+1942,Dai Nippon Printing,"Tokyo, Japan",Business Services & Supplies,10.04,0.6899,12.79,7.92
+1942,Ibiden,"Ogaki, Japan",Technology Hardware & Equipment,2.76,0.4228,6.04,27.57
+1945,Guangdong Songfa Ceramics,"Chaozhou, China",Consumer Durables,4.29,0.5306,8.25,22.37
+1945,PT Barito Pacific,"Jakarta, Indonesia",Materials,9.43,0.5615,17.62,11.16
+1947,Enka,"Istanbul, Turkey",Construction,3.93,0.8637,11.4,13.09
+1948,Companhia Energetica de Minas Gerais,"Belo Horizonte, Brazil",Utilities,7.97,0.8887,13.05,6.36
+1949,E-L Financial,"Toronto, Canada",Insurance,2.17,0.8538,21.12,4.28
+1949,Tongkun Group,"Tongxiang, China",Household & Personal Products,13.77,0.4673,17.5,7.07
+1951,Shiga Bank,"Otsu, Japan",Banking,0.964,0.1413,48.21,2.98
+1952,Associated Banc-Corp,"Green Bay, United States",Banking,2.48,0.4905,45.59,4.52
+1953,AlRayan Bank,"Lusail, Qatar",Diversified Financials,2.56,0.3522,48.05,5.49
+1953,West Pharmaceutical Services,"Exton, United States",Health Care Equipment & Services,3.22,0.5427,4.11,21.4
+1955,Delivery Hero,"Berlin, Germany",Transportation,15.87,0.8836,12.38,10.42
+1956,Navient,"Herndon, United States",Business Services & Supplies,3.09,0.06,48.0,0.765
+1957,Sime Darby,"Petaling Jaya, Malaysia",Trading Companies,16.6,0.4068,11.41,3.76
+1958,Bank of Africa,"Casablanca, Morocco",Banking,3.05,0.4080,47.99,4.78
+1958,Guangzhou Friendship Group,"Guangzhou, China",Diversified Financials,1.3,0.5856,31.46,6.14
+1960,Hyakugo Bank,"Tsu, Japan",Banking,0.927,0.1781,47.96,2.99
+1961,Prada,"Milan, Italy",Household & Personal Products,6.46,0.965,12.93,11.67
+1962,Dangote Cement,"Lagos, Nigeria",Construction,3.03,0.7517,4.36,14.42
+1963,Everpure,"Santa Clara, United States",Technology Hardware & Equipment,3.66,0.1882,4.67,26.96
+1964,Suzuken,"Nagoya, Japan",Health Care Equipment & Services,16.5,0.2531,7.26,2.27
+1965,China Aviation Oil,"Singapore, Singapore",Trading Companies,16.45,0.11040,2.27,1.38
+1965,Tingyi Holding,"Shanghai, China","Food, Drink & Tobacco",11.0,0.626,7.86,8.95
+1965,Valiant Holding,"Lucerne, Switzerland",Banking,0.882,0.1934,47.51,3.29
+1968,Hikari Tsushin,"Tokyo, Japan",Utilities,4.88,1.0,17.94,10.32
+1968,Mitsubishi Materials,"Tokyo, Japan",Materials,12.24,0.2693,18.86,4.47
+1970,Juroku Financial Group,"Gifu, Japan",Banking,0.904,0.1817,47.31,2.28
+1970,Natera,"Austin, United States",Drugs & Biotechnology,2.5,0.2263,2.61,26.69
+1970,Tata Motors,"Mumbai, India",Consumer Durables,9.49,0.3427,5.51,14.51
+1973,Arab Banking,"Manama, Bahrain",Banking,3.63,0.233,47.16,0.972
+1974,Whirlpool,"Benton Harbor, United States",Consumer Durables,15.17,0.164,16.18,2.59
+1974,Zhejiang Sanhua Intelligent Controls,"Shaoxing, China",Capital Goods,4.38,0.5748,7.15,19.29
+1976,BrightSpring Health Services,"Louisville, United States",Health Care Equipment & Services,13.65,0.2356,6.21,11.23
+1977,RTL Group,"Luxembourg, Luxembourg",Media,6.79,1.1,12.32,5.37
+1978,LKQ,"Antioch, United States",Consumer Durables,13.92,0.52,15.14,6.27
+1979,Deutsche Pfandbriefbank,"Garching, Germany",Banking,2.55,0.3487,46.84,0.547
+1980,Neurocrine Biosciences,"San Diego, United States",Drugs & Biotechnology,3.1,0.6686,4.91,15.93
+1981,Alior Bank,"Warsaw, Poland",Banking,2.24,0.6258,28.09,4.33
+1981,Hainan Airlines Holding,"Haikou, China",Transportation,9.76,0.4833,21.74,9.59
+1983,Hulic,"Tokyo, Japan",Construction,5.29,0.7651,22.33,8.43
+1983,Open House,"Tokyo, Japan",Construction,9.17,0.7372,9.49,6.29
+1985,Bank Aljazira,"Jeddah, Saudi Arabia",Banking,2.83,0.3273,46.13,3.85
+1985,Invesco,"Atlanta, United States",Diversified Financials,6.78,0.2434,26.84,12.02
+1987,Antero Resources,"Denver, United States",Oil & Gas Operations,5.76,0.9617,15.35,11.85
+1987,Avanza Bank Holding,"Stockholm, Sweden",Diversified Financials,0.625,0.2804,46.02,5.42
+1989,Logitech International,"Lausanne, Switzerland",Technology Hardware & Equipment,4.84,0.7106,3.85,14.88
+1989,Sanmina-SCI,"San Jose, United States",Technology Hardware & Equipment,11.34,0.2596,9.67,12.61
+1989,Tokyo Kiraboshi Financial Group,"Tokyo, Japan",Banking,0.989,0.2811,45.99,2.02
+1992,Baxter International,"Deerfield, United States",Health Care Equipment & Services,11.32,1.004,19.85,8.94
+1992,BitGo Holdings,"Sioux Falls, United States",Business Services & Supplies,16.15,0.0148,5.89,1.03
+1992,Sterling Construction,"The Woodlands, United States",Construction,2.88,0.3466,2.78,26.05
+1995,Asian Paints,"Mumbai, India",Chemicals,3.98,0.4411,3.53,26.04
+1995,Kuwait Projects,"Kuwait City, Kuwait",Banking,5.02,0.0214,45.98,1.22
+1997,Zscaler,"San Jose, United States",IT Software & Services,3.0,0.0676,6.75,25.89
+1998,Federal Bank,"Aluva, India",Banking,3.88,0.4918,42.39,7.22
+1998,Graubunder Ktbk,"Chur, Switzerland",Banking,0.795,0.2605,45.83,1.98
+2000,Fabrinet,"George Town, Cayman Islands",Semiconductors,4.24,0.421,3.51,25.87
+2000,Suntory Beverage & Food,"Tokyo, Japan","Food, Drink & Tobacco",11.66,0.5855,13.71,8.18

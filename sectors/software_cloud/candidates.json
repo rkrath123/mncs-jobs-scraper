@@ -1,0 +1,379 @@
+{
+ "sector": "software_cloud",
+ "title": "Cloud, enterprise software, SaaS, infrastructure vendors",
+ "tier": 1,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Dassault Systèmes",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology"
+  },
+  {
+   "name": "Altair",
+   "section": 7,
+   "subgroup": "Electronic design automation, IP and engineering tools"
+  },
+  {
+   "name": "MathWorks",
+   "section": 7,
+   "subgroup": "Electronic design automation, IP and engineering tools"
+  },
+  {
+   "name": "Dell Technologies",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "Hewlett Packard Enterprise",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "Nutanix",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "Equinix",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "Digital Realty",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "Google",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms"
+  },
+  {
+   "name": "IBM",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms"
+  },
+  {
+   "name": "Alibaba",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms"
+  },
+  {
+   "name": "Tencent",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms"
+  },
+  {
+   "name": "SAP",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms"
+  },
+  {
+   "name": "Autodesk",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Infor",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Sage",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Workiva",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Box",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Dropbox",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Zoom",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "HubSpot",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Pegasystems",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "OpenText",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications"
+  },
+  {
+   "name": "Canonical",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres"
+  },
+  {
+   "name": "Veeam",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres"
+  },
+  {
+   "name": "Cohesity",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres"
+  },
+  {
+   "name": "Veritas",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres"
+  },
+  {
+   "name": "Apple",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Canva",
+   "section": 17,
+   "subgroup": ""
+  },
+  {
+   "name": "The Trade Desk",
+   "section": 34,
+   "subgroup": "Digital advertising and marketing technology"
+  },
+  {
+   "name": "Magnite",
+   "section": 34,
+   "subgroup": "Digital advertising and marketing technology"
+  },
+  {
+   "name": "Adjust",
+   "section": 34,
+   "subgroup": "Digital advertising and marketing technology"
+  },
+  {
+   "name": "Automatic Data Processing",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Alphabet",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Xerox",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "NCR",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Roper Technologies",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "GoDaddy",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Lyft",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "PTC",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology",
+   "configured_in": "energy"
+  },
+  {
+   "name": "Pure Storage",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "NetApp",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Amazon",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Microsoft",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Oracle",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Salesforce",
+   "section": 11,
+   "subgroup": "Hyperscalers and cloud platforms",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Adobe",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "ServiceNow",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Workday",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Atlassian",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Intuit",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "DocuSign",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Zendesk",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Guidewire",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "HPE",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "SUSE",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Commvault",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Rubrik",
+   "section": 11,
+   "subgroup": "Infrastructure, servers, storage and data centres",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Criteo",
+   "section": 34,
+   "subgroup": "Digital advertising and marketing technology",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "PubMatic",
+   "section": 34,
+   "subgroup": "Digital advertising and marketing technology",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "AppsFlyer",
+   "section": 34,
+   "subgroup": "Digital advertising and marketing technology",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Snowflake",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Uber",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "HP",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Zillow",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Pitney Bowes",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Avaya",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "software_cloud"
+  },
+  {
+   "name": "Zebra Technologies",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "software_cloud"
+  }
+ ]
+}

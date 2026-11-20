@@ -1,0 +1,444 @@
+{
+ "ATR": [],
+ "Airbus": [],
+ "Astroscale": [],
+ "BAE Systems": [],
+ "Blue Origin": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "blueorigin.wd5.myworkdayjobs.com",
+    "tenant": "blueorigin",
+    "site": "BlueOrigin",
+    "name": "Blue Origin"
+   },
+   "india_jobs": 0,
+   "site_total": 1885,
+   "facet": false
+  },
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "blue",
+    "name": "Blue Origin"
+   },
+   "india_jobs": 0,
+   "site_total": 12
+  }
+ ],
+ "Boeing": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "boeing.wd1.myworkdayjobs.com",
+    "tenant": "boeing",
+    "site": "EXTERNAL_CAREERS",
+    "name": "Boeing"
+   },
+   "india_jobs": 9,
+   "site_total": 789,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "boeing.wd1.myworkdayjobs.com",
+    "tenant": "boeing",
+    "site": "AISES",
+    "name": "Boeing"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Bombardier": [],
+ "Dassault Aviation": [],
+ "Elbit Systems": [],
+ "Embraer": [],
+ "Eutelsat": [],
+ "GE Aerospace": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "geaerospace.wd5.myworkdayjobs.com",
+    "tenant": "geaerospace",
+    "site": "Only_Confidential_Executive_Recruiting",
+    "name": "GE Aerospace"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "geaerospace.wd5.myworkdayjobs.com",
+    "tenant": "geaerospace",
+    "site": "GE_ExternalSite",
+    "name": "GE Aerospace"
+   },
+   "india_jobs": 2,
+   "site_total": 588,
+   "facet": false
+  }
+ ],
+ "General Atomics": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "general",
+    "name": "General Atomics"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Gulfstream": [],
+ "HEICO": [],
+ "Huntington Ingalls Industries": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "huntington.wd12.myworkdayjobs.com",
+    "tenant": "huntington",
+    "site": "HNBcareers",
+    "name": "Huntington Ingalls Industries"
+   },
+   "india_jobs": 0,
+   "site_total": 707,
+   "facet": false
+  }
+ ],
+ "ICEYE": [],
+ "Intelsat": [],
+ "Kongsberg Gruppen": [],
+ "L3Harris": [],
+ "Leonardo": [],
+ "Lockheed Martin": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "martin.wd1.myworkdayjobs.com",
+    "tenant": "martin",
+    "site": "MPHC",
+    "name": "Lockheed Martin"
+   },
+   "india_jobs": 0,
+   "site_total": 26,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "martin.wd1.myworkdayjobs.com",
+    "tenant": "martin",
+    "site": "ProviderStudents",
+    "name": "Lockheed Martin"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "MBDA": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mbda.wd3.myworkdayjobs.com",
+    "tenant": "mbda",
+    "site": "MBDA-UK",
+    "name": "MBDA"
+   },
+   "india_jobs": 0,
+   "site_total": 227,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mbda.wd3.myworkdayjobs.com",
+    "tenant": "mbda",
+    "site": "MBDA-DE",
+    "name": "MBDA"
+   },
+   "india_jobs": 0,
+   "site_total": 154,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mbda.wd3.myworkdayjobs.com",
+    "tenant": "mbda",
+    "site": "MBDA-Italy",
+    "name": "MBDA"
+   },
+   "india_jobs": 0,
+   "site_total": 322,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mbda.wd3.myworkdayjobs.com",
+    "tenant": "mbda",
+    "site": "Virtual-Posting",
+    "name": "MBDA"
+   },
+   "india_jobs": 0,
+   "site_total": 149,
+   "facet": false
+  }
+ ],
+ "MDA Space": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "space",
+    "name": "MDA Space"
+   },
+   "india_jobs": 0,
+   "site_total": 13
+  }
+ ],
+ "Maxar": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "maxar.wd1.myworkdayjobs.com",
+    "tenant": "maxar",
+    "site": "SpaceWrx",
+    "name": "Maxar"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "maxar.wd1.myworkdayjobs.com",
+    "tenant": "maxar",
+    "site": "Cleared_Opportunities",
+    "name": "Maxar"
+   },
+   "india_jobs": 0,
+   "site_total": 43,
+   "facet": false
+  }
+ ],
+ "Moog": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "moog.wd5.myworkdayjobs.com",
+    "tenant": "moog",
+    "site": "MOOG_External_Career_Site",
+    "name": "Moog"
+   },
+   "india_jobs": 6,
+   "site_total": 477,
+   "facet": false
+  }
+ ],
+ "Northrop Grumman": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ngc.wd1.myworkdayjobs.com",
+    "tenant": "ngc",
+    "site": "Northrop_Grumman_External_Site",
+    "name": "Northrop Grumman"
+   },
+   "india_jobs": 0,
+   "site_total": 3679,
+   "facet": false
+  }
+ ],
+ "Planet Labs": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "planetlabs",
+    "name": "Planet Labs"
+   },
+   "india_jobs": 0,
+   "site_total": 115
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "planet.wd3.myworkdayjobs.com",
+    "tenant": "planet",
+    "site": "Planet",
+    "name": "Planet Labs"
+   },
+   "india_jobs": 0,
+   "site_total": 68,
+   "facet": false
+  }
+ ],
+ "RTX": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "globalhr.wd5.myworkdayjobs.com",
+    "tenant": "globalhr",
+    "site": "REC_RTX_Ext_Gateway",
+    "name": "RTX"
+   },
+   "india_jobs": 20,
+   "site_total": 4600,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "globalhr.wd5.myworkdayjobs.com",
+    "tenant": "globalhr",
+    "site": "Private_Posting_No_TMP",
+    "name": "RTX"
+   },
+   "india_jobs": 1,
+   "site_total": 179,
+   "facet": false
+  }
+ ],
+ "Rheinmetall": [],
+ "SES": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "ses",
+    "name": "SES"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Saab": [],
+ "Safran": [],
+ "SpaceX": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "spacex",
+    "name": "SpaceX"
+   },
+   "india_jobs": 0,
+   "site_total": 2852
+  }
+ ],
+ "Spire Global": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "spire",
+    "name": "Spire Global"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "global.wd1.myworkdayjobs.com",
+    "tenant": "global",
+    "site": "globalpartnerscareers",
+    "name": "Spire Global"
+   },
+   "india_jobs": 0,
+   "site_total": 1831,
+   "facet": false
+  }
+ ],
+ "Spirit AeroSystems": [],
+ "Teledyne Technologies": [],
+ "Textron": [],
+ "Thales": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thales.wd3.myworkdayjobs.com",
+    "tenant": "thales",
+    "site": "Careers",
+    "name": "Thales"
+   },
+   "india_jobs": 93,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thales.wd3.myworkdayjobs.com",
+    "tenant": "thales",
+    "site": "equest",
+    "name": "Thales"
+   },
+   "india_jobs": 67,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "thales",
+    "name": "Thales"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Thales Alenia Space": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thales.wd3.myworkdayjobs.com",
+    "tenant": "thales",
+    "site": "Careers",
+    "name": "Thales Alenia Space"
+   },
+   "india_jobs": 93,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thales.wd3.myworkdayjobs.com",
+    "tenant": "thales",
+    "site": "equest",
+    "name": "Thales Alenia Space"
+   },
+   "india_jobs": 67,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "thales",
+    "name": "Thales Alenia Space"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Viasat": [],
+ "Woodward": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "woodward.wd5.myworkdayjobs.com",
+    "tenant": "woodward",
+    "site": "woodward",
+    "name": "Woodward"
+   },
+   "india_jobs": 3,
+   "site_total": 164,
+   "facet": true
+  }
+ ]
+}

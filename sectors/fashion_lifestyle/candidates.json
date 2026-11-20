@@ -1,0 +1,114 @@
+{
+ "sector": "fashion_lifestyle",
+ "title": "Fashion, luxury, sports",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Under Armour",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "ASICS",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Levi Strauss & Co.",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "VF Corporation",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Chanel",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Prada",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Burberry",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Gucci",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Cartier",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Rolex",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Fossil Group",
+   "section": 27,
+   "subgroup": ""
+  },
+  {
+   "name": "Ralph Lauren",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Tapestry",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Hanesbrands",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Columbia Sportswear",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Deckers",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Puma",
+   "section": 27,
+   "subgroup": "",
+   "configured_in": "fashion_lifestyle"
+  },
+  {
+   "name": "New Balance",
+   "section": 27,
+   "subgroup": "",
+   "configured_in": "fashion_lifestyle"
+  },
+  {
+   "name": "PVH Corp.",
+   "section": 27,
+   "subgroup": "",
+   "configured_in": "fashion_lifestyle"
+  },
+  {
+   "name": "Skechers",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "fashion_lifestyle"
+  }
+ ]
+}

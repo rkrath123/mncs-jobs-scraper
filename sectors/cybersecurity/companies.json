@@ -1,0 +1,106 @@
+{
+ "workday": [
+  {
+   "name": "CrowdStrike",
+   "host": "crowdstrike.wd5.myworkdayjobs.com",
+   "tenant": "crowdstrike",
+   "site": "crowdstrikecareers"
+  },
+  {
+   "name": "Palo Alto Networks",
+   "host": "paloaltonetworks.wd5.myworkdayjobs.com",
+   "tenant": "paloaltonetworks",
+   "site": "panwexternalcareers"
+  },
+  {
+   "name": "F5",
+   "host": "ffive.wd5.myworkdayjobs.com",
+   "tenant": "ffive",
+   "site": "f5jobs"
+  },
+  {
+   "name": "Entrust",
+   "host": "entrust.wd1.myworkdayjobs.com",
+   "tenant": "entrust",
+   "site": "EntrustCareers"
+  },
+  {
+   "name": "Mimecast",
+   "host": "mimecast.wd5.myworkdayjobs.com",
+   "tenant": "mimecast",
+   "site": "Mimecast-Careers"
+  },
+  {
+   "name": "Proofpoint",
+   "host": "proofpoint.wd5.myworkdayjobs.com",
+   "tenant": "proofpoint",
+   "site": "ProofpointCareers"
+  },
+  {
+   "name": "Qualys",
+   "host": "qualys.wd5.myworkdayjobs.com",
+   "tenant": "qualys",
+   "site": "Careers"
+  },
+  {
+   "name": "SailPoint",
+   "host": "sailpoint.wd1.myworkdayjobs.com",
+   "tenant": "sailpoint",
+   "site": "SailPoint"
+  },
+  {
+   "name": "Trellix",
+   "host": "trellix.wd1.myworkdayjobs.com",
+   "tenant": "trellix",
+   "site": "EnterpriseCareers"
+  },
+  {
+   "name": "Trend Micro",
+   "host": "trendmicro.wd3.myworkdayjobs.com",
+   "tenant": "trendmicro",
+   "site": "External"
+  }
+ ],
+ "greenhouse": [
+  {
+   "name": "Okta",
+   "board": "okta"
+  },
+  {
+   "name": "Zscaler",
+   "board": "zscaler"
+  },
+  {
+   "name": "Netskope",
+   "board": "netskope"
+  },
+  {
+   "name": "Ping Identity",
+   "board": "pingidentity"
+  },
+  {
+   "name": "Recorded Future",
+   "board": "recordedfuture"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Fortinet",
+   "host": "edel.fa.us2.oraclecloud.com",
+   "site": "CX_2001"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "Check Point",
+   "company_id": "CheckPointSoftwareTechnologies2"
+  }
+ ],
+ "manual": [],
+ "jibe": [
+  {
+   "name": "McAfee",
+   "host": "careers.mcafee.com"
+  }
+ ]
+}

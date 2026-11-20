@@ -1,0 +1,416 @@
+{
+ "AkzoNobel": {
+  "hosts": [
+   "careers.akzonobel.com",
+   "www.akzonobel.com",
+   "akzonobel.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "AkzoNobel",
+     "host": "careers.akzonobel.com",
+     "lang": "en_gb",
+     "page_id": "page19",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.akzonobel.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "AptarGroup": {
+  "hosts": [
+   "aptargroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Arkema": {
+  "hosts": [
+   "careers.arkema.com",
+   "jobs.arkema.com",
+   "www.arkema.com",
+   "arkema.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Arkema",
+     "host": "jobs.arkema.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.arkema.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "BASF": {
+  "hosts": [
+   "careers.basf.com",
+   "jobs.basf.com",
+   "www.basf.com",
+   "basf.com",
+   "jobs.basf.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ball Corporation": {
+  "hosts": [
+   "careers.ball.com",
+   "jobs.ball.com",
+   "www.ball.com",
+   "ball.com",
+   "careers.ball.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Berry Global": {
+  "hosts": [
+   "www.berryglobal.com",
+   "berryglobal.com",
+   "careers.berryglobal.net",
+   "www.berry.com",
+   "berry.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cabot": {
+  "hosts": [
+   "www.cabot.com",
+   "cabot.com",
+   "cabotcareers.com",
+   "jobs.cabot.io",
+   "careers.cabot.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Carlisle": {
+  "hosts": [
+   "www.carlisle.com",
+   "carlisle.com",
+   "careers.carlisle.net",
+   "carlislecareers.com"
+  ],
+  "results": [
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Carlisle",
+     "company_id": "Carlisle"
+    },
+    "india_jobs": 0,
+    "found_on": "www.carlisle.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Celanese": {
+  "hosts": [
+   "www.celanese.com",
+   "celanese.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Clariant": {
+  "hosts": [
+   "careers.clariant.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Clariant",
+     "host": "careers.clariant.com"
+    },
+    "india_jobs": 8,
+    "found_on": "careers.clariant.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Covestro": {
+  "hosts": [
+   "jobs.covestro.com",
+   "www.covestro.com",
+   "covestro.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Covestro",
+     "host": "covestro.wd3.myworkdayjobs.com",
+     "tenant": "covestro",
+     "site": "cov_external"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.covestro.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Crown Holdings": {
+  "hosts": [
+   "jobs.crowncork.com",
+   "www.crowncork.com",
+   "crowncork.com",
+   "careers.crowncork.net",
+   "www.crown.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Crown Holdings",
+     "host": "crownholdings.wd501.myworkdayjobs.com",
+     "tenant": "crownholdings",
+     "site": "CrownHoldings"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.crowncork.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "DuPont": {
+  "hosts": [
+   "careers.dupont.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "DuPont",
+     "host": "careers.dupont.com",
+     "lang": "en_us",
+     "page_id": "page8",
+     "region": "us/en"
+    },
+    "india_jobs": 2,
+    "found_on": "careers.dupont.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Eastman Chemical": {
+  "hosts": [
+   "careers.eastman.com",
+   "jobs.eastman.com",
+   "www.eastman.com",
+   "eastman.com",
+   "careers.eastman.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "H.B. Fuller": {
+  "hosts": [
+   "jobs.hbfuller.com",
+   "www.hbfuller.com",
+   "hbfuller.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "INEOS": {
+  "hosts": [
+   "careers.ineos.com",
+   "www.ineos.com",
+   "ineos.com",
+   "ineoscareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "International Paper": {
+  "hosts": [
+   "jobs.ipaper.io",
+   "careers.ipaper.io",
+   "jobs.internationalpaper.com",
+   "www.internationalpaper.com",
+   "internationalpaper.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lubrizol": {
+  "hosts": [
+   "jobs.lubrizol.com",
+   "www.lubrizol.com",
+   "lubrizol.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mosaic": {
+  "hosts": [
+   "www.mosaic.com",
+   "mosaic.com",
+   "careers.mosaic.net",
+   "mosaiccareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nouryon": {
+  "hosts": [
+   "careers.nouryon.com",
+   "jobs.nouryon.com",
+   "www.nouryon.com",
+   "nouryon.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "successfactors-page"
+  ]
+ },
+ "Owens Corning": {
+  "hosts": [
+   "careers.owenscorning.com",
+   "jobs.owenscorning.com",
+   "www.owenscorning.com",
+   "owenscorning.com",
+   "owenscorningcareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "PPG": {
+  "hosts": [
+   "careers.ppg.com",
+   "jobs.ppg.com",
+   "www.ppg.com",
+   "ppg.com",
+   "ppgcareers.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "PPG",
+     "host": "careers.ppg.com",
+     "lang": "en_us",
+     "page_id": "page9",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.ppg.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "SABIC": {
+  "hosts": [
+   "jobs.sabic.com",
+   "www.sabic.com",
+   "sabic.com",
+   "careers.sabic.net"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "SABIC",
+     "host": "jobs.sabic.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.sabic.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Sealed Air": {
+  "hosts": [
+   "careers.sealedair.com",
+   "jobs.sealedair.com",
+   "www.sealedair.com",
+   "sealedair.com",
+   "sealedaircareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sherwin-Williams": {
+  "hosts": [
+   "careers.sherwin.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "Sherwin-Williams",
+     "host": "ejhp.fa.us6.oraclecloud.com",
+     "site": "CX_2"
+    },
+    "india_jobs": 3,
+    "found_on": "careers.sherwin.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Sika": {
+  "hosts": [
+   "www.sika.com",
+   "sika.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Solvay": {
+  "hosts": [
+   "careers.solvay.com",
+   "jobs.solvay.com",
+   "www.solvay.com",
+   "solvay.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Solvay",
+     "host": "careers.solvay.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.solvay.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Syensqo": {
+  "hosts": [
+   "careers.syensqo.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Syensqo",
+     "host": "careers.syensqo.com"
+    },
+    "india_jobs": 5,
+    "found_on": "careers.syensqo.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Wacker Chemie": {
+  "hosts": [
+   "www.wackerchemie.com",
+   "wackerchemie.com",
+   "www.wacker-chemie.com",
+   "wacker-chemie.com",
+   "careers.wacker.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

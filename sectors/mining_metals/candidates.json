@@ -1,0 +1,128 @@
+{
+ "sector": "mining_metals",
+ "title": "Mining, metals",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "BHP",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Anglo American",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Glencore",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Vale",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Freeport-McMoRan",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Newmont",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Barrick Mining",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "ArcelorMittal",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Nippon Steel",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "POSCO",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "thyssenkrupp",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "SSAB",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Nucor",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Alcoa",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Norsk Hydro",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Epiroc",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Outokumpu",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "JFE Steel",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "voestalpine",
+   "section": 24,
+   "subgroup": ""
+  },
+  {
+   "name": "Aurubis",
+   "section": 24,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Rio Tinto",
+   "section": 24,
+   "subgroup": "",
+   "configured_in": "mining_metals"
+  },
+  {
+   "name": "Umicore",
+   "section": 24,
+   "subgroup": "",
+   "configured_in": "mining_metals"
+  },
+  {
+   "name": "Metso",
+   "section": 24,
+   "subgroup": "",
+   "configured_in": "mining_metals"
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+{
+ "ASM International": {
+  "hosts": [
+   "www.asminternational.com",
+   "asminternational.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ASML": {
+  "hosts": [
+   "www.asml.com",
+   "asml.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Advantest": {
+  "hosts": [
+   "www.advantest.com",
+   "advantest.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Amkor Technology": {
+  "hosts": [
+   "www.amkor.com",
+   "amkor.com",
+   "careers.amkortechnology.com",
+   "jobs.amkortechnology.com",
+   "www.amkortechnology.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ansys": {
+  "hosts": [
+   "careers.ansys.com",
+   "www.ansys.com",
+   "ansys.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Arm": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Cadence Design Systems": {
+  "hosts": [
+   "www.cadencedesign.com",
+   "cadencedesign.com",
+   "www.cadence-design.com",
+   "cadence-design.com",
+   "jobs.cadence.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cerebras Systems": {
+  "hosts": [
+   "www.cerebras.com",
+   "cerebras.com",
+   "careers.cerebrassystems.com",
+   "jobs.cerebrassystems.com",
+   "www.cerebrassystems.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Coherent": {
+  "hosts": [
+   "www.coherent.com",
+   "coherent.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Corning": {
+  "hosts": [
+   "careers.corning.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Corning",
+     "host": "careers.corning.com",
+     "lang": "en_us",
+     "page_id": "page15",
+     "region": "global/en"
+    },
+    "india_jobs": 12,
+    "found_on": "careers.corning.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Entegris": {
+  "hosts": [
+   "careers.entegris.com",
+   "jobs.entegris.com",
+   "www.entegris.com",
+   "entegris.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Garmin": {
+  "hosts": [
+   "careers.garmin.com",
+   "jobs.garmin.com",
+   "www.garmin.com",
+   "garmin.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "Garmin",
+     "host": "careers.garmin.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.garmin.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Kulicke & Soffa": {
+  "hosts": [
+   "www.kulickesoffa.com",
+   "kulickesoffa.com",
+   "www.kulicke.com",
+   "kulicke.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lenovo": {
+  "hosts": [
+   "jobs.lenovo.com",
+   "www.lenovo.com",
+   "lenovo.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lumentum": {
+  "hosts": [
+   "www.lumentum.com",
+   "lumentum.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "MediaTek": {
+  "hosts": [
+   "careers.mediatek.com",
+   "www.mediatek.com",
+   "mediatek.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mettler-Toledo": {
+  "hosts": [
+   "careers.mt.com",
+   "jobs.mt.com",
+   "www.mt.com",
+   "mt.com",
+   "www.mettlertoledo.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Microchip Technology": {
+  "hosts": [
+   "careers.microchip.com",
+   "www.microchip.com",
+   "microchip.com",
+   "careers.microchiptechnology.com",
+   "jobs.microchiptechnology.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "NXP Semiconductors": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "ON Semiconductor": {
+  "hosts": [
+   "www.onsemiconductor.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "ON Semiconductor",
+     "host": "hctz.fa.us2.oraclecloud.com",
+     "site": "CX_1001"
+    },
+    "india_jobs": 2,
+    "found_on": "www.onsemiconductor.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Onto Innovation": {
+  "hosts": [
+   "www.ontoinnovation.com",
+   "ontoinnovation.com",
+   "www.onto-innovation.com",
+   "onto-innovation.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Qorvo": {
+  "hosts": [
+   "careers.qorvo.com",
+   "www.qorvo.com",
+   "qorvo.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rambus": {
+  "hosts": [
+   "careers.rambus.com",
+   "www.rambus.com",
+   "rambus.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "Realtek": {
+  "hosts": [
+   "www.realtek.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Renesas": {
+  "hosts": [
+   "jobs.renesas.com",
+   "www.renesas.com",
+   "renesas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SCREEN Semiconductor Solutions": {
+  "hosts": [
+   "careers.screen.com",
+   "jobs.screen.com",
+   "www.screen.com",
+   "screen.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "STMicroelectronics": {
+  "hosts": [
+   "www.stmicroelectronics.com",
+   "stmicroelectronics.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Samsung": {
+  "hosts": [
+   "www.samsung.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Samsung",
+     "host": "sec.wd3.myworkdayjobs.com",
+     "tenant": "sec",
+     "site": "Samsung_Careers"
+    },
+    "india_jobs": 30,
+    "found_on": "www.samsung.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "SanDisk": {
+  "hosts": [
+   "careers.sandisk.com",
+   "www.sandisk.com",
+   "sandisk.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Seagate": {
+  "hosts": [
+   "careers.seagate.com",
+   "jobs.seagate.com",
+   "www.seagate.com",
+   "seagate.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Skyworks Solutions": {
+  "hosts": [
+   "www.skyworkssolutions.com",
+   "skyworkssolutions.com",
+   "www.skyworks.com",
+   "skyworks.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sony": {
+  "hosts": [
+   "careers.sony.com",
+   "www.sony.com",
+   "sony.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Super Micro Computer": {
+  "hosts": [
+   "careers.supermicrocomputer.com",
+   "jobs.supermicrocomputer.com",
+   "www.supermicrocomputer.com",
+   "supermicrocomputer.com",
+   "www.super.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "ashby"
+  ]
+ },
+ "Supermicro": {
+  "hosts": [
+   "jobs.supermicro.com",
+   "www.supermicro.com",
+   "supermicro.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Synopsys": {
+  "hosts": [
+   "careers.synopsys.com",
+   "www.synopsys.com",
+   "synopsys.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Teradyne": {
+  "hosts": [
+   "careers.teradyne.com",
+   "jobs.teradyne.com",
+   "www.teradyne.com",
+   "teradyne.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tokyo Electron": {
+  "hosts": [
+   "www.tokyo.com",
+   "tokyo.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Veeco": {
+  "hosts": [
+   "careers.veeco.com",
+   "www.veeco.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "onsemi": {
+  "hosts": [
+   "jobs.onsemi.com",
+   "www.onsemi.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "onsemi",
+     "host": "hctz.fa.us2.oraclecloud.com",
+     "site": "CX_1001"
+    },
+    "india_jobs": 2,
+    "found_on": "www.onsemi.com"
+   }
+  ],
+  "unsupported": []
+ }
+}

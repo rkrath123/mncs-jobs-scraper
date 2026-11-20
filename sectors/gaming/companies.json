@@ -1,0 +1,21 @@
+{
+ "manual": [],
+ "greenhouse": [
+  {
+   "board": "taketwo",
+   "name": "Take-Two Interactive"
+  },
+  {
+   "board": "rockstargames",
+   "name": "Rockstar Games"
+  },
+  {
+   "board": "roblox",
+   "name": "Roblox"
+  },
+  {
+   "board": "scopely",
+   "name": "Scopely"
+  }
+ ]
+}

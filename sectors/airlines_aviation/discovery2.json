@@ -1,0 +1,428 @@
+{
+ "Air Arabia": {
+  "hosts": [
+   "careers.airarabia.com",
+   "jobs.airarabia.com",
+   "www.airarabia.com",
+   "airarabia.com",
+   "www.air-arabia.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Air Canada": {
+  "hosts": [
+   "careers.aircanada.com",
+   "jobs.aircanada.com",
+   "www.aircanada.com",
+   "aircanada.com",
+   "careers.air-canada.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "Air Canada",
+     "host": "careers.aircanada.com",
+     "lang": "en_ca",
+     "page_id": "page17",
+     "region": "global/en"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.aircanada.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Air France": {
+  "hosts": [
+   "www.airfrance.com",
+   "airfrance.com",
+   "www.air-france.com",
+   "air-france.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Air Mauritius": {
+  "hosts": [
+   "www.airmauritius.com",
+   "airmauritius.com",
+   "careers.airmauritius.net",
+   "careers.air-mauritius.com",
+   "jobs.air-mauritius.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Alaska Air": {
+  "hosts": [
+   "careers.alaskaair.com",
+   "jobs.alaskaair.com",
+   "www.alaskaair.com",
+   "alaskaair.com",
+   "www.alaska-air.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "All Nippon Airways": {
+  "hosts": [
+   "careers.allnipponairways.com",
+   "jobs.allnipponairways.com",
+   "www.allnipponairways.com",
+   "allnipponairways.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "American Airlines": {
+  "hosts": [
+   "jobs.aa.com",
+   "www.aa.com",
+   "aa.com",
+   "careers.aa.net",
+   "aacareers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Asiana Airlines": {
+  "hosts": [
+   "careers.asiana.com",
+   "jobs.asiana.com",
+   "www.asiana.com",
+   "asiana.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "British Airways": {
+  "hosts": [
+   "careers.britishairways.com",
+   "www.britishairways.com",
+   "britishairways.com",
+   "britishairwayscareers.com",
+   "www.british-airways.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cathay Pacific": {
+  "hosts": [
+   "careers.cathaypacific.com",
+   "www.cathaypacific.com",
+   "cathaypacific.com",
+   "cathay-pacific.com",
+   "www.cathay.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Delta Air Lines": {
+  "hosts": [
+   "www.delta.com",
+   "delta.com",
+   "deltacareers.com",
+   "www.deltaairlines.com",
+   "deltaairlines.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Emirates": {
+  "hosts": [
+   "www.emirates.com",
+   "emirates.com",
+   "careers.emirates.net",
+   "emiratescareers.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature"
+  ]
+ },
+ "Ethiopian Airlines": {
+  "hosts": [
+   "www.ethiopianairlines.com",
+   "ethiopianairlines.com",
+   "careers.ethiopian-airlines.com",
+   "jobs.ethiopian-airlines.com",
+   "www.ethiopian-airlines.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Etihad Airways": {
+  "hosts": [
+   "careers.etihadairways.com",
+   "www.etihadairways.com",
+   "etihadairways.com",
+   "careers.etihad.com",
+   "jobs.etihad.com"
+  ],
+  "results": [
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Etihad Airways",
+     "company_id": "my-applications"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.etihadairways.com"
+   },
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Etihad Airways",
+     "company_id": "EtihadAirways5"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.etihadairways.com"
+   },
+   {
+    "platform": "smartrecruiters",
+    "config": {
+     "name": "Etihad Airways",
+     "company_id": "ni"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.etihadairways.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Finnair": {
+  "hosts": [
+   "www.finnair.com",
+   "finnair.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Gulf Air": {
+  "hosts": [
+   "www.gulfair.com",
+   "gulfair.com",
+   "careers.gulfair.net",
+   "gulfaircareers.com",
+   "careers.gulf-air.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Japan Airlines": {
+  "hosts": [
+   "www.japanairlines.com",
+   "japanairlines.com",
+   "www.japan.com",
+   "japan.com",
+   "careers.japan.net"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "KLM": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Korean Air": {
+  "hosts": [
+   "www.koreanair.com",
+   "koreanair.com",
+   "careers.koreanair.net",
+   "careers.korean-air.com",
+   "jobs.korean-air.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lufthansa": {
+  "hosts": [
+   "www.lufthansa.com",
+   "lufthansa.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Malaysia Airlines": {
+  "hosts": [
+   "www.malaysiaairlines.com",
+   "malaysiaairlines.com",
+   "www.malaysia-airlines.com",
+   "malaysia-airlines.com",
+   "www.malaysia.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Oman Air": {
+  "hosts": [
+   "careers.omanair.com",
+   "www.omanair.com",
+   "omanair.com",
+   "omanaircareers.com",
+   "oman-air.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Qantas": {
+  "hosts": [
+   "careers.qantas.com",
+   "www.qantas.com",
+   "qantas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Qatar Airways": {
+  "hosts": [
+   "careers.qatarairways.com",
+   "www.qatarairways.com",
+   "qatarairways.com",
+   "qatarairwayscareers.com",
+   "www.qatar-airways.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "avature",
+   "taleo"
+  ]
+ },
+ "Saudia": {
+  "hosts": [
+   "careers.saudia.com",
+   "www.saudia.com",
+   "saudia.com",
+   "careers.saudia.net",
+   "saudiacareers.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Saudia",
+     "host": "careers.saudia.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.saudia.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Singapore Airlines": {
+  "hosts": [
+   "www.singaporeairlines.com",
+   "singaporeairlines.com",
+   "www.singapore-airlines.com",
+   "singapore-airlines.com",
+   "www.singapore.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Southwest Airlines": {
+  "hosts": [
+   "careers.southwest.com",
+   "www.southwest.com",
+   "southwest.com",
+   "southwestcareers.com",
+   "jobs.southwest.io"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Swiss International Air Lines": {
+  "hosts": [
+   "careers.swissairlines.com",
+   "jobs.swissairlines.com",
+   "www.swissairlines.com",
+   "swissairlines.com",
+   "www.swiss.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Thai Airways": {
+  "hosts": [
+   "www.thaiairways.com",
+   "thaiairways.com",
+   "careers.thaiairways.net",
+   "careers.thai-airways.com",
+   "jobs.thai-airways.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Turkish Airlines": {
+  "hosts": [
+   "careers.turkishairlines.com",
+   "jobs.turkishairlines.com",
+   "www.turkishairlines.com",
+   "turkishairlines.com",
+   "turkish-airlines.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "United Airlines": {
+  "hosts": [
+   "careers.united.com"
+  ],
+  "results": [
+   {
+    "platform": "phenom",
+    "config": {
+     "name": "United Airlines",
+     "host": "careers.united.com",
+     "lang": "en_us",
+     "page_id": "page13",
+     "region": "global/en"
+    },
+    "india_jobs": 9,
+    "found_on": "careers.united.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Vietnam Airlines": {
+  "hosts": [
+   "www.vietnamairlines.com",
+   "vietnamairlines.com",
+   "careers.vietnamairlines.net",
+   "careers.vietnam-airlines.com",
+   "jobs.vietnam-airlines.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "flydubai": {
+  "hosts": [
+   "careers.flydubai.com",
+   "www.flydubai.com",
+   "flydubai.com",
+   "careers.flydubai.net",
+   "flydubaicareers.com"
+  ],
+  "results": [
+   {
+    "platform": "jibe",
+    "config": {
+     "name": "flydubai",
+     "host": "careers.flydubai.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.flydubai.com"
+   }
+  ],
+  "unsupported": [
+   "icims"
+  ]
+ }
+}

@@ -1,0 +1,628 @@
+{
+ "Adjust": [],
+ "Adobe": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "adobe.wd5.myworkdayjobs.com",
+    "tenant": "adobe",
+    "site": "external_experienced",
+    "name": "Adobe"
+   },
+   "india_jobs": 35,
+   "site_total": 252,
+   "facet": true
+  }
+ ],
+ "Alibaba": [],
+ "Alphabet": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "google.wd501.myworkdayjobs.com",
+    "tenant": "google",
+    "site": "GOCJobs",
+    "name": "Alphabet"
+   },
+   "india_jobs": 0,
+   "site_total": 63,
+   "facet": false
+  }
+ ],
+ "Altair": [],
+ "Amazon": [],
+ "Apple": [],
+ "AppsFlyer": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "appsflyer",
+    "name": "AppsFlyer"
+   },
+   "india_jobs": 4,
+   "site_total": 55
+  }
+ ],
+ "Atlassian": [],
+ "Autodesk": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "autodesk.wd1.myworkdayjobs.com",
+    "tenant": "autodesk",
+    "site": "Ext",
+    "name": "Autodesk"
+   },
+   "india_jobs": 1,
+   "site_total": 4,
+   "facet": true
+  }
+ ],
+ "Automatic Data Processing": [],
+ "Avaya": [],
+ "Box": [],
+ "Canonical": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "canonical",
+    "name": "Canonical"
+   },
+   "india_jobs": 0,
+   "site_total": 316
+  }
+ ],
+ "Canva": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "canva",
+    "name": "Canva"
+   },
+   "india_jobs": 0,
+   "site_total": 33
+  }
+ ],
+ "Cohesity": [],
+ "Commvault": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "commvault",
+    "name": "Commvault"
+   },
+   "india_jobs": 9,
+   "site_total": 55
+  }
+ ],
+ "Criteo": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "criteo.wd3.myworkdayjobs.com",
+    "tenant": "criteo",
+    "site": "CentraleSupelec2026",
+    "name": "Criteo"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  }
+ ],
+ "Dassault Systèmes": [],
+ "Dell Technologies": [],
+ "Digital Realty": [],
+ "DocuSign": [],
+ "Dropbox": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "dropbox",
+    "name": "Dropbox"
+   },
+   "india_jobs": 0,
+   "site_total": 42
+  }
+ ],
+ "Equinix": [],
+ "GoDaddy": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "godaddy",
+    "name": "GoDaddy"
+   },
+   "india_jobs": 1,
+   "site_total": 29
+  }
+ ],
+ "Google": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "google.wd501.myworkdayjobs.com",
+    "tenant": "google",
+    "site": "GOCJobs",
+    "name": "Google"
+   },
+   "india_jobs": 0,
+   "site_total": 63,
+   "facet": false
+  }
+ ],
+ "HP": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hp.wd5.myworkdayjobs.com",
+    "tenant": "hp",
+    "site": "ExternalCareerSite",
+    "name": "HP"
+   },
+   "india_jobs": 95,
+   "site_total": 928,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hp.wd5.myworkdayjobs.com",
+    "tenant": "hp",
+    "site": "EXTEU-AC-CareerSite",
+    "name": "HP"
+   },
+   "india_jobs": 143,
+   "site_total": 1217,
+   "facet": true
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "hp",
+    "name": "HP"
+   },
+   "india_jobs": 0,
+   "site_total": 26
+  }
+ ],
+ "HPE": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hpe.wd5.myworkdayjobs.com",
+    "tenant": "hpe",
+    "site": "Jobsathpe",
+    "name": "HPE"
+   },
+   "india_jobs": 18,
+   "site_total": 1790,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hpe.wd5.myworkdayjobs.com",
+    "tenant": "hpe",
+    "site": "WFMathpe",
+    "name": "HPE"
+   },
+   "india_jobs": 17,
+   "site_total": 1761,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hpe.wd5.myworkdayjobs.com",
+    "tenant": "hpe",
+    "site": "ACJobSite",
+    "name": "HPE"
+   },
+   "india_jobs": 17,
+   "site_total": 1768,
+   "facet": false
+  }
+ ],
+ "Hewlett Packard Enterprise": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hpe.wd5.myworkdayjobs.com",
+    "tenant": "hpe",
+    "site": "Jobsathpe",
+    "name": "Hewlett Packard Enterprise"
+   },
+   "india_jobs": 18,
+   "site_total": 1790,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hpe.wd5.myworkdayjobs.com",
+    "tenant": "hpe",
+    "site": "WFMathpe",
+    "name": "Hewlett Packard Enterprise"
+   },
+   "india_jobs": 17,
+   "site_total": 1761,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hpe.wd5.myworkdayjobs.com",
+    "tenant": "hpe",
+    "site": "ACJobSite",
+    "name": "Hewlett Packard Enterprise"
+   },
+   "india_jobs": 17,
+   "site_total": 1768,
+   "facet": false
+  }
+ ],
+ "HubSpot": [],
+ "IBM": [],
+ "Infor": [],
+ "Lyft": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "lyft",
+    "name": "Lyft"
+   },
+   "india_jobs": 0,
+   "site_total": 151
+  }
+ ],
+ "Magnite": [],
+ "MathWorks": [],
+ "Microsoft": [],
+ "NCR": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ncr.wd1.myworkdayjobs.com",
+    "tenant": "ncr",
+    "site": "ext_non_us",
+    "name": "NCR"
+   },
+   "india_jobs": 0,
+   "site_total": 67,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ncr.wd1.myworkdayjobs.com",
+    "tenant": "ncr",
+    "site": "ext_us",
+    "name": "NCR"
+   },
+   "india_jobs": 0,
+   "site_total": 179,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ncr.wd1.myworkdayjobs.com",
+    "tenant": "ncr",
+    "site": "ext_jp",
+    "name": "NCR"
+   },
+   "india_jobs": 0,
+   "site_total": 19,
+   "facet": false
+  }
+ ],
+ "NetApp": [],
+ "Nutanix": [],
+ "OpenText": [],
+ "Oracle": [],
+ "Pegasystems": [],
+ "Pitney Bowes": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pitneybowes.wd1.myworkdayjobs.com",
+    "tenant": "pitneybowes",
+    "site": "PBCareers",
+    "name": "Pitney Bowes"
+   },
+   "india_jobs": 7,
+   "site_total": 76,
+   "facet": true
+  }
+ ],
+ "PubMatic": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "pubmatic",
+    "name": "PubMatic"
+   },
+   "india_jobs": 30,
+   "site_total": 77
+  }
+ ],
+ "Pure Storage": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "purestorage",
+    "name": "Pure Storage"
+   },
+   "india_jobs": 63,
+   "site_total": 377
+  }
+ ],
+ "Roper Technologies": [],
+ "Rubrik": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "rubrik",
+    "name": "Rubrik"
+   },
+   "india_jobs": 35,
+   "site_total": 181
+  }
+ ],
+ "SAP": [],
+ "SUSE": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "suse.wd3.myworkdayjobs.com",
+    "tenant": "suse",
+    "site": "Jobsatsuse",
+    "name": "SUSE"
+   },
+   "india_jobs": 2,
+   "site_total": 27,
+   "facet": false
+  }
+ ],
+ "Sage": [],
+ "Salesforce": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "salesforce.wd12.myworkdayjobs.com",
+    "tenant": "salesforce",
+    "site": "External_Career_Site",
+    "name": "Salesforce"
+   },
+   "india_jobs": 103,
+   "site_total": 1610,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "salesforce.wd12.myworkdayjobs.com",
+    "tenant": "salesforce",
+    "site": "Futureforce_NewGradRoles",
+    "name": "Salesforce"
+   },
+   "india_jobs": 0,
+   "site_total": 36,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "salesforce.wd12.myworkdayjobs.com",
+    "tenant": "salesforce",
+    "site": "Mulesoft_Careersite",
+    "name": "Salesforce"
+   },
+   "india_jobs": 0,
+   "site_total": 14,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "salesforce.wd12.myworkdayjobs.com",
+    "tenant": "salesforce",
+    "site": "Futureforce_Internships",
+    "name": "Salesforce"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  }
+ ],
+ "ServiceNow": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "servicenow",
+    "name": "ServiceNow"
+   },
+   "india_jobs": 82,
+   "site_total": 804
+  }
+ ],
+ "Snowflake": [],
+ "Tencent": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tencent.wd1.myworkdayjobs.com",
+    "tenant": "tencent",
+    "site": "Tencent_Careers",
+    "name": "Tencent"
+   },
+   "india_jobs": 0,
+   "site_total": 320,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "tencent.wd1.myworkdayjobs.com",
+    "tenant": "tencent",
+    "site": "OA_Huoshui_Platform",
+    "name": "Tencent"
+   },
+   "india_jobs": 0,
+   "site_total": 126,
+   "facet": false
+  }
+ ],
+ "The Trade Desk": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "tradedesk",
+    "name": "The Trade Desk"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thetradedesk.wd5.myworkdayjobs.com",
+    "tenant": "thetradedesk",
+    "site": "TTDExternalSite",
+    "name": "The Trade Desk"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "thetradedesk",
+    "name": "The Trade Desk"
+   },
+   "india_jobs": 0,
+   "site_total": 98
+  }
+ ],
+ "Uber": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "uber",
+    "name": "Uber"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Veeam": [],
+ "Veritas": [],
+ "Workday": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "workday.wd5.myworkdayjobs.com",
+    "tenant": "workday",
+    "site": "Workday",
+    "name": "Workday"
+   },
+   "india_jobs": 22,
+   "site_total": 355,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "workday.wd5.myworkdayjobs.com",
+    "tenant": "workday",
+    "site": "Workday_Early_Career",
+    "name": "Workday"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "workday.wd5.myworkdayjobs.com",
+    "tenant": "workday",
+    "site": "Workday_Executive_Site",
+    "name": "Workday"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "workday.wd5.myworkdayjobs.com",
+    "tenant": "workday",
+    "site": "Workday_Jobs",
+    "name": "Workday"
+   },
+   "india_jobs": 0,
+   "site_total": 22,
+   "facet": false
+  }
+ ],
+ "Workiva": [],
+ "Xerox": [],
+ "Zebra Technologies": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zebra.wd501.myworkdayjobs.com",
+    "tenant": "zebra",
+    "site": "Zebra_careers",
+    "name": "Zebra Technologies"
+   },
+   "india_jobs": 19,
+   "site_total": 240,
+   "facet": false
+  }
+ ],
+ "Zendesk": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zendesk.wd1.myworkdayjobs.com",
+    "tenant": "zendesk",
+    "site": "zendesk",
+    "name": "Zendesk"
+   },
+   "india_jobs": 17,
+   "site_total": 128,
+   "facet": true
+  }
+ ],
+ "Zillow": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zillow.wd5.myworkdayjobs.com",
+    "tenant": "zillow",
+    "site": "Zillow_Group_External",
+    "name": "Zillow"
+   },
+   "india_jobs": 19,
+   "site_total": 202,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zillow.wd5.myworkdayjobs.com",
+    "tenant": "zillow",
+    "site": "Referrals",
+    "name": "Zillow"
+   },
+   "india_jobs": 19,
+   "site_total": 199,
+   "facet": false
+  }
+ ],
+ "Zoom": []
+}

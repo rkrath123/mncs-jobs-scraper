@@ -1,0 +1,1321 @@
+{
+ "AbbVie": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "abbvie",
+    "name": "AbbVie"
+   },
+   "india_jobs": 39,
+   "site_total": 2062
+  }
+ ],
+ "Abbott": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "abbott.wd5.myworkdayjobs.com",
+    "tenant": "abbott",
+    "site": "abbottcareers",
+    "name": "Abbott"
+   },
+   "india_jobs": 157,
+   "site_total": 2000,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "abbott.wd5.myworkdayjobs.com",
+    "tenant": "abbott",
+    "site": "Agency",
+    "name": "Abbott"
+   },
+   "india_jobs": 3,
+   "site_total": 9,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "abbott.wd5.myworkdayjobs.com",
+    "tenant": "abbott",
+    "site": "abbottcareers2",
+    "name": "Abbott"
+   },
+   "india_jobs": 0,
+   "site_total": 1080,
+   "facet": false
+  }
+ ],
+ "Agilent Technologies": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "agilent.wd5.myworkdayjobs.com",
+    "tenant": "agilent",
+    "site": "Agilent_Careers",
+    "name": "Agilent Technologies"
+   },
+   "india_jobs": 71,
+   "site_total": 361,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "agilent.wd5.myworkdayjobs.com",
+    "tenant": "agilent",
+    "site": "Agilent_Student_Careers",
+    "name": "Agilent Technologies"
+   },
+   "india_jobs": 0,
+   "site_total": 27,
+   "facet": false
+  }
+ ],
+ "Align Technology": [],
+ "Amgen": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "amgen.wd1.myworkdayjobs.com",
+    "tenant": "amgen",
+    "site": "Careers",
+    "name": "Amgen"
+   },
+   "india_jobs": 743,
+   "site_total": 1867,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "amgen.wd1.myworkdayjobs.com",
+    "tenant": "amgen",
+    "site": "agency",
+    "name": "Amgen"
+   },
+   "india_jobs": 1,
+   "site_total": 3,
+   "facet": true
+  }
+ ],
+ "Astellas Pharma": [],
+ "AstraZeneca": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "astrazeneca.wd3.myworkdayjobs.com",
+    "tenant": "astrazeneca",
+    "site": "Emerging-Talent",
+    "name": "AstraZeneca"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "astrazeneca.wd3.myworkdayjobs.com",
+    "tenant": "astrazeneca",
+    "site": "Careers",
+    "name": "AstraZeneca"
+   },
+   "india_jobs": 17,
+   "site_total": 1424,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "astrazeneca.wd3.myworkdayjobs.com",
+    "tenant": "astrazeneca",
+    "site": "broadbean_external",
+    "name": "AstraZeneca"
+   },
+   "india_jobs": 18,
+   "site_total": 205,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "astrazeneca.wd3.myworkdayjobs.com",
+    "tenant": "astrazeneca",
+    "site": "Alexion",
+    "name": "AstraZeneca"
+   },
+   "india_jobs": 9,
+   "site_total": 123,
+   "facet": false
+  }
+ ],
+ "Avantor": [],
+ "B. Braun": [],
+ "Baxter": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "baxter.wd1.myworkdayjobs.com",
+    "tenant": "baxter",
+    "site": "baxter",
+    "name": "Baxter"
+   },
+   "india_jobs": 22,
+   "site_total": 535,
+   "facet": true
+  }
+ ],
+ "Bayer": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bayer.wd103.myworkdayjobs.com",
+    "tenant": "bayer",
+    "site": "Bayer_External_Career_Site",
+    "name": "Bayer"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Beckman Coulter": [],
+ "Becton Dickinson": [],
+ "Bio-Rad": [],
+ "Bio-Rad Laboratories": [],
+ "Biogen": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "biibhr.wd3.myworkdayjobs.com",
+    "tenant": "biibhr",
+    "site": "external",
+    "name": "Biogen"
+   },
+   "india_jobs": 2,
+   "site_total": 260,
+   "facet": true
+  }
+ ],
+ "Boehringer Ingelheim": [],
+ "Boston Scientific": [],
+ "Bristol Myers Squibb": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bristolmyerssquibb.wd5.myworkdayjobs.com",
+    "tenant": "bristolmyerssquibb",
+    "site": "BMS",
+    "name": "Bristol Myers Squibb"
+   },
+   "india_jobs": 62,
+   "site_total": 659,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "bristolmyerssquibb.wd5.myworkdayjobs.com",
+    "tenant": "bristolmyerssquibb",
+    "site": "BMS_Events",
+    "name": "Bristol Myers Squibb"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  }
+ ],
+ "Bruker": [],
+ "CSL": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "csl.wd1.myworkdayjobs.com",
+    "tenant": "csl",
+    "site": "CSL_External",
+    "name": "CSL"
+   },
+   "india_jobs": 0,
+   "site_total": 174,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "csl.wd1.myworkdayjobs.com",
+    "tenant": "csl",
+    "site": "Paradox_External",
+    "name": "CSL"
+   },
+   "india_jobs": 0,
+   "site_total": 1119,
+   "facet": false
+  }
+ ],
+ "CVS Health": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cvshealth.wd1.myworkdayjobs.com",
+    "tenant": "cvshealth",
+    "site": "CVS_Health_Careers",
+    "name": "CVS Health"
+   },
+   "india_jobs": 0,
+   "site_total": 18500,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cvshealth.wd1.myworkdayjobs.com",
+    "tenant": "cvshealth",
+    "site": "Private_Postings_Intern_Conversion_ONLY",
+    "name": "CVS Health"
+   },
+   "india_jobs": 0,
+   "site_total": 10,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cvshealth.wd1.myworkdayjobs.com",
+    "tenant": "cvshealth",
+    "site": "Private_Postings_Mergers_and_Acquisitions_ONLY",
+    "name": "CVS Health"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "health.wd105.myworkdayjobs.com",
+    "tenant": "health",
+    "site": "External",
+    "name": "CVS Health"
+   },
+   "india_jobs": 0,
+   "site_total": 14,
+   "facet": false
+  }
+ ],
+ "Cardinal Health": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cardinalhealth.wd1.myworkdayjobs.com",
+    "tenant": "cardinalhealth",
+    "site": "EXT",
+    "name": "Cardinal Health"
+   },
+   "india_jobs": 23,
+   "site_total": 864,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cardinalhealth.wd1.myworkdayjobs.com",
+    "tenant": "cardinalhealth",
+    "site": "Contractor",
+    "name": "Cardinal Health"
+   },
+   "india_jobs": 0,
+   "site_total": 8,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cardinalhealth.wd1.myworkdayjobs.com",
+    "tenant": "cardinalhealth",
+    "site": "EXT_GLOBAL",
+    "name": "Cardinal Health"
+   },
+   "india_jobs": 0,
+   "site_total": 6,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cardinalhealth.wd1.myworkdayjobs.com",
+    "tenant": "cardinalhealth",
+    "site": "Navista",
+    "name": "Cardinal Health"
+   },
+   "india_jobs": 1,
+   "site_total": 34,
+   "facet": true
+  }
+ ],
+ "Catalent": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "catalent.wd1.myworkdayjobs.com",
+    "tenant": "catalent",
+    "site": "External",
+    "name": "Catalent"
+   },
+   "india_jobs": 0,
+   "site_total": 317,
+   "facet": false
+  }
+ ],
+ "Cencora": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "cencora",
+    "name": "Cencora"
+   },
+   "india_jobs": 0,
+   "site_total": 4
+  }
+ ],
+ "Centene": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "centene.wd5.myworkdayjobs.com",
+    "tenant": "centene",
+    "site": "Centene_External",
+    "name": "Centene"
+   },
+   "india_jobs": 0,
+   "site_total": 385,
+   "facet": false
+  }
+ ],
+ "Cigna": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "cigna.wd5.myworkdayjobs.com",
+    "tenant": "cigna",
+    "site": "cignacareers",
+    "name": "Cigna"
+   },
+   "india_jobs": 109,
+   "site_total": 524,
+   "facet": true
+  }
+ ],
+ "Daiichi Sankyo": [],
+ "Danaher": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "danaher.wd1.myworkdayjobs.com",
+    "tenant": "danaher",
+    "site": "DanaherJobs",
+    "name": "Danaher"
+   },
+   "india_jobs": 120,
+   "site_total": 1463,
+   "facet": true
+  }
+ ],
+ "Dentsply Sirona": [],
+ "Edwards Lifesciences": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "edwards.wd5.myworkdayjobs.com",
+    "tenant": "edwards",
+    "site": "EdwardsCareers",
+    "name": "Edwards Lifesciences"
+   },
+   "india_jobs": 29,
+   "site_total": 365,
+   "facet": true
+  }
+ ],
+ "Eisai": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "eisai.wd5.myworkdayjobs.com",
+    "tenant": "eisai",
+    "site": "eisai",
+    "name": "Eisai"
+   },
+   "india_jobs": 0,
+   "site_total": 59,
+   "facet": false
+  }
+ ],
+ "Elanco": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "elanco.wd5.myworkdayjobs.com",
+    "tenant": "elanco",
+    "site": "External_Career",
+    "name": "Elanco"
+   },
+   "india_jobs": 24,
+   "site_total": 389,
+   "facet": true
+  }
+ ],
+ "Elevance Health": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "elevancehealth.wd1.myworkdayjobs.com",
+    "tenant": "elevancehealth",
+    "site": "ANT",
+    "name": "Elevance Health"
+   },
+   "india_jobs": 0,
+   "site_total": 244,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "elevancehealth.wd1.myworkdayjobs.com",
+    "tenant": "elevancehealth",
+    "site": "carelonglobal_in",
+    "name": "Elevance Health"
+   },
+   "india_jobs": 13,
+   "site_total": 14,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "elevancehealth.wd1.myworkdayjobs.com",
+    "tenant": "elevancehealth",
+    "site": "carelonglobal_ph",
+    "name": "Elevance Health"
+   },
+   "india_jobs": 0,
+   "site_total": 17,
+   "facet": false
+  }
+ ],
+ "Eli Lilly": [],
+ "EssilorLuxottica": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "essilorluxottica",
+    "name": "EssilorLuxottica"
+   },
+   "india_jobs": 0,
+   "site_total": 7
+  }
+ ],
+ "Fujifilm": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fujifilm.wd3.myworkdayjobs.com",
+    "tenant": "fujifilm",
+    "site": "CH_HC_ES",
+    "name": "Fujifilm"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fujifilm.wd3.myworkdayjobs.com",
+    "tenant": "fujifilm",
+    "site": "FFME_HCME_CS",
+    "name": "Fujifilm"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fujifilm.wd3.myworkdayjobs.com",
+    "tenant": "fujifilm",
+    "site": "FLB_CS",
+    "name": "Fujifilm"
+   },
+   "india_jobs": 0,
+   "site_total": 30,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fujifilm.wd3.myworkdayjobs.com",
+    "tenant": "fujifilm",
+    "site": "Regional_External_Career",
+    "name": "Fujifilm"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "GE HealthCare": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "healthcare.wd1.myworkdayjobs.com",
+    "tenant": "healthcare",
+    "site": "Search",
+    "name": "GE HealthCare"
+   },
+   "india_jobs": 87,
+   "site_total": 408,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "healthcare.wd1.myworkdayjobs.com",
+    "tenant": "healthcare",
+    "site": "private",
+    "name": "GE HealthCare"
+   },
+   "india_jobs": 5,
+   "site_total": 15,
+   "facet": true
+  },
+  {
+   "platform": "lever",
+   "config": {
+    "company_id": "healthcare",
+    "name": "GE HealthCare"
+   },
+   "india_jobs": 0,
+   "site_total": 6
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "healthcare",
+    "name": "GE HealthCare"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "GSK": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gsk.wd5.myworkdayjobs.com",
+    "tenant": "gsk",
+    "site": "GSKCareers",
+    "name": "GSK"
+   },
+   "india_jobs": 113,
+   "site_total": 859,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gsk.wd5.myworkdayjobs.com",
+    "tenant": "gsk",
+    "site": "ViiV_Careers",
+    "name": "GSK"
+   },
+   "india_jobs": 0,
+   "site_total": 50,
+   "facet": false
+  }
+ ],
+ "Gilead Sciences": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gilead.wd1.myworkdayjobs.com",
+    "tenant": "gilead",
+    "site": "gileadcareers",
+    "name": "Gilead Sciences"
+   },
+   "india_jobs": 10,
+   "site_total": 425,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gilead.wd1.myworkdayjobs.com",
+    "tenant": "gilead",
+    "site": "kitepharmacareers",
+    "name": "Gilead Sciences"
+   },
+   "india_jobs": 0,
+   "site_total": 49,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "gilead.wd1.myworkdayjobs.com",
+    "tenant": "gilead",
+    "site": "gileadhotjobcareers",
+    "name": "Gilead Sciences"
+   },
+   "india_jobs": 0,
+   "site_total": 214,
+   "facet": false
+  }
+ ],
+ "Henry Schein": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "henryschein.wd1.myworkdayjobs.com",
+    "tenant": "henryschein",
+    "site": "External_Careers",
+    "name": "Henry Schein"
+   },
+   "india_jobs": 0,
+   "site_total": 243,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "henryschein",
+    "name": "Henry Schein"
+   },
+   "india_jobs": 0,
+   "site_total": 3
+  }
+ ],
+ "Hologic": [],
+ "Humana": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "humana.wd5.myworkdayjobs.com",
+    "tenant": "humana",
+    "site": "Humana_External_Career_Site",
+    "name": "Humana"
+   },
+   "india_jobs": 0,
+   "site_total": 301,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "humana.wd5.myworkdayjobs.com",
+    "tenant": "humana",
+    "site": "CenterWell_External_Career_Site",
+    "name": "Humana"
+   },
+   "india_jobs": 0,
+   "site_total": 1824,
+   "facet": false
+  }
+ ],
+ "IDEXX Laboratories": [],
+ "IQVIA": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "iqvia.wd1.myworkdayjobs.com",
+    "tenant": "iqvia",
+    "site": "IQVIA",
+    "name": "IQVIA"
+   },
+   "india_jobs": 46,
+   "site_total": 1926,
+   "facet": true
+  }
+ ],
+ "Illumina": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "illumina.wd1.myworkdayjobs.com",
+    "tenant": "illumina",
+    "site": "illumina-careers",
+    "name": "Illumina"
+   },
+   "india_jobs": 24,
+   "site_total": 169,
+   "facet": true
+  }
+ ],
+ "Intuitive": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "intuitive.wd1.myworkdayjobs.com",
+    "tenant": "intuitive",
+    "site": "irtc_careers",
+    "name": "Intuitive"
+   },
+   "india_jobs": 0,
+   "site_total": 33,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "intuitive",
+    "name": "Intuitive"
+   },
+   "india_jobs": 56,
+   "site_total": 889
+  }
+ ],
+ "Johnson & Johnson": [],
+ "Labcorp": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "labcorp.wd1.myworkdayjobs.com",
+    "tenant": "labcorp",
+    "site": "External",
+    "name": "Labcorp"
+   },
+   "india_jobs": 6,
+   "site_total": 1696,
+   "facet": false
+  }
+ ],
+ "Lonza": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "lonza.wd3.myworkdayjobs.com",
+    "tenant": "lonza",
+    "site": "Lonza_Careers",
+    "name": "Lonza"
+   },
+   "india_jobs": 47,
+   "site_total": 600,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "lonza",
+    "name": "Lonza"
+   },
+   "india_jobs": 0,
+   "site_total": 6
+  }
+ ],
+ "Lundbeck": [],
+ "McKesson": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mckesson.wd3.myworkdayjobs.com",
+    "tenant": "mckesson",
+    "site": "External_Careers",
+    "name": "McKesson"
+   },
+   "india_jobs": 2,
+   "site_total": 659,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mckesson.wd3.myworkdayjobs.com",
+    "tenant": "mckesson",
+    "site": "Acquisition_Campus",
+    "name": "McKesson"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mckesson.wd3.myworkdayjobs.com",
+    "tenant": "mckesson",
+    "site": "CoverMyMeds_External_Careers",
+    "name": "McKesson"
+   },
+   "india_jobs": 0,
+   "site_total": 21,
+   "facet": false
+  }
+ ],
+ "Medtronic": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "medtronic.wd1.myworkdayjobs.com",
+    "tenant": "medtronic",
+    "site": "MedtronicCareers",
+    "name": "Medtronic"
+   },
+   "india_jobs": 0,
+   "site_total": 972,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "medtronic.wd1.myworkdayjobs.com",
+    "tenant": "medtronic",
+    "site": "RedeploymentMedtronicCareers",
+    "name": "Medtronic"
+   },
+   "india_jobs": 110,
+   "site_total": 1050,
+   "facet": true
+  }
+ ],
+ "Merck & Co.": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "msd.wd5.myworkdayjobs.com",
+    "tenant": "msd",
+    "site": "SearchJobs",
+    "name": "Merck & Co."
+   },
+   "india_jobs": 6,
+   "site_total": 834,
+   "facet": false
+  }
+ ],
+ "Merck KGaA": [],
+ "Moderna": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "modernatx.wd1.myworkdayjobs.com",
+    "tenant": "modernatx",
+    "site": "M_tx",
+    "name": "Moderna"
+   },
+   "india_jobs": 0,
+   "site_total": 233,
+   "facet": false
+  }
+ ],
+ "Novartis": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "novartis.wd3.myworkdayjobs.com",
+    "tenant": "novartis",
+    "site": "Novartis_Careers",
+    "name": "Novartis"
+   },
+   "india_jobs": 124,
+   "site_total": 869,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "novartis.wd3.myworkdayjobs.com",
+    "tenant": "novartis",
+    "site": "SwissRAVSwitzerlandCareerSite",
+    "name": "Novartis"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "novartis.wd3.myworkdayjobs.com",
+    "tenant": "novartis",
+    "site": "Internal_Careers_for_Acquired_Entities",
+    "name": "Novartis"
+   },
+   "india_jobs": 17,
+   "site_total": 521,
+   "facet": true
+  }
+ ],
+ "Novo Nordisk": [],
+ "Olympus": [],
+ "Optum": [],
+ "Otsuka": [],
+ "Pfizer": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pfizer.wd1.myworkdayjobs.com",
+    "tenant": "pfizer",
+    "site": "PfizerCareers",
+    "name": "Pfizer"
+   },
+   "india_jobs": 19,
+   "site_total": 716,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pfizer.wd1.myworkdayjobs.com",
+    "tenant": "pfizer",
+    "site": "Canada_Only_External",
+    "name": "Pfizer"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "pfizer.wd1.myworkdayjobs.com",
+    "tenant": "pfizer",
+    "site": "Costa_Rica_External",
+    "name": "Pfizer"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "Philips": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "philips.wd3.myworkdayjobs.com",
+    "tenant": "philips",
+    "site": "jobs-and-careers",
+    "name": "Philips"
+   },
+   "india_jobs": 76,
+   "site_total": 778,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "philips.wd3.myworkdayjobs.com",
+    "tenant": "philips",
+    "site": "Internal-Job-Postings-List-for-Philips-Contingent-Workers",
+    "name": "Philips"
+   },
+   "india_jobs": 2,
+   "site_total": 206,
+   "facet": true
+  }
+ ],
+ "Quest Diagnostics": [],
+ "Regeneron": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "regeneron.wd1.myworkdayjobs.com",
+    "tenant": "regeneron",
+    "site": "Careers",
+    "name": "Regeneron"
+   },
+   "india_jobs": 14,
+   "site_total": 618,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "regeneron.wd1.myworkdayjobs.com",
+    "tenant": "regeneron",
+    "site": "IrelandPrivate",
+    "name": "Regeneron"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "regeneron.wd1.myworkdayjobs.com",
+    "tenant": "regeneron",
+    "site": "US_Only_University_Relations_Career",
+    "name": "Regeneron"
+   },
+   "india_jobs": 0,
+   "site_total": 54,
+   "facet": false
+  }
+ ],
+ "ResMed": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "resmed.wd3.myworkdayjobs.com",
+    "tenant": "resmed",
+    "site": "Brightree_External_Careers",
+    "name": "ResMed"
+   },
+   "india_jobs": 0,
+   "site_total": 7,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "resmed.wd3.myworkdayjobs.com",
+    "tenant": "resmed",
+    "site": "ResMed_External_Careers",
+    "name": "ResMed"
+   },
+   "india_jobs": 6,
+   "site_total": 266,
+   "facet": true
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "resmed",
+    "name": "ResMed"
+   },
+   "india_jobs": 0,
+   "site_total": 2
+  }
+ ],
+ "Revvity": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "revvity.wd103.myworkdayjobs.com",
+    "tenant": "revvity",
+    "site": "External",
+    "name": "Revvity"
+   },
+   "india_jobs": 28,
+   "site_total": 145,
+   "facet": true
+  }
+ ],
+ "Roche": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "roche.wd3.myworkdayjobs.com",
+    "tenant": "roche",
+    "site": "roche-ext",
+    "name": "Roche"
+   },
+   "india_jobs": 4,
+   "site_total": 1230,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "roche.wd3.myworkdayjobs.com",
+    "tenant": "roche",
+    "site": "ROG-A2O-GENE",
+    "name": "Roche"
+   },
+   "india_jobs": 0,
+   "site_total": 234,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "roche.wd3.myworkdayjobs.com",
+    "tenant": "roche",
+    "site": "mysugr-ext",
+    "name": "Roche"
+   },
+   "india_jobs": 0,
+   "site_total": 8,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "roche.wd3.myworkdayjobs.com",
+    "tenant": "roche",
+    "site": "rog_conf",
+    "name": "Roche"
+   },
+   "india_jobs": 0,
+   "site_total": 46,
+   "facet": false
+  }
+ ],
+ "Sanofi": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "sanofi.wd3.myworkdayjobs.com",
+    "tenant": "sanofi",
+    "site": "SanofiCareers",
+    "name": "Sanofi"
+   },
+   "india_jobs": 74,
+   "site_total": 1410,
+   "facet": true
+  }
+ ],
+ "Siemens Healthineers": [],
+ "Smith+Nephew": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "smithnephew.wd5.myworkdayjobs.com",
+    "tenant": "smithnephew",
+    "site": "External",
+    "name": "Smith+Nephew"
+   },
+   "india_jobs": 10,
+   "site_total": 377,
+   "facet": true
+  }
+ ],
+ "Stryker": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "stryker.wd1.myworkdayjobs.com",
+    "tenant": "stryker",
+    "site": "StrykerCareers",
+    "name": "Stryker"
+   },
+   "india_jobs": 85,
+   "site_total": 1459,
+   "facet": true
+  }
+ ],
+ "Takeda": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "takeda.wd502.myworkdayjobs.com",
+    "tenant": "takeda",
+    "site": "External",
+    "name": "Takeda"
+   },
+   "india_jobs": 0,
+   "site_total": 1935,
+   "facet": true
+  }
+ ],
+ "Teleflex": [],
+ "Teva": [],
+ "Thermo Fisher Scientific": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "thermofisher.wd5.myworkdayjobs.com",
+    "tenant": "thermofisher",
+    "site": "ThermoFisherCareers",
+    "name": "Thermo Fisher Scientific"
+   },
+   "india_jobs": 16,
+   "site_total": 3288,
+   "facet": false
+  }
+ ],
+ "UCB": [],
+ "UnitedHealth Group": [],
+ "Varian": [],
+ "Vertex Pharmaceuticals": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vrtx.wd501.myworkdayjobs.com",
+    "tenant": "vrtx",
+    "site": "Vertex_Careers",
+    "name": "Vertex Pharmaceuticals"
+   },
+   "india_jobs": 0,
+   "site_total": 286,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vrtx.wd501.myworkdayjobs.com",
+    "tenant": "vrtx",
+    "site": "Vertex_co-op",
+    "name": "Vertex Pharmaceuticals"
+   },
+   "india_jobs": 0,
+   "site_total": 24,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "vrtx.wd501.myworkdayjobs.com",
+    "tenant": "vrtx",
+    "site": "vertex_intern",
+    "name": "Vertex Pharmaceuticals"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "Waters Corporation": [],
+ "Zimmer Biomet": [],
+ "Zoetis": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zoetis.wd5.myworkdayjobs.com",
+    "tenant": "zoetis",
+    "site": "zoetis",
+    "name": "Zoetis"
+   },
+   "india_jobs": 0,
+   "site_total": 155,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zoetis.wd5.myworkdayjobs.com",
+    "tenant": "zoetis",
+    "site": "broadbean_external",
+    "name": "Zoetis"
+   },
+   "india_jobs": 7,
+   "site_total": 195,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zoetis.wd5.myworkdayjobs.com",
+    "tenant": "zoetis",
+    "site": "zoetis_intl",
+    "name": "Zoetis"
+   },
+   "india_jobs": 6,
+   "site_total": 56,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "zoetis.wd5.myworkdayjobs.com",
+    "tenant": "zoetis",
+    "site": "zoetis_intern",
+    "name": "Zoetis"
+   },
+   "india_jobs": 0,
+   "site_total": 13,
+   "facet": false
+  }
+ ]
+}

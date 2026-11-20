@@ -1,0 +1,39 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "amadeus.wd502.myworkdayjobs.com",
+   "tenant": "amadeus",
+   "site": "jobs",
+   "name": "Amadeus"
+  },
+  {
+   "host": "sabre.wd1.myworkdayjobs.com",
+   "tenant": "sabre",
+   "site": "SabreJobs",
+   "name": "Sabre"
+  },
+  {
+   "name": "Expedia Group",
+   "host": "expedia.wd108.myworkdayjobs.com",
+   "tenant": "expedia",
+   "site": "search"
+  }
+ ],
+ "greenhouse": [
+  {
+   "board": "airbnb",
+   "name": "Airbnb"
+  },
+  {
+   "board": "agoda",
+   "name": "Agoda"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "Booking Holdings",
+   "host": "jobs.booking.com"
+  }
+ ]
+}

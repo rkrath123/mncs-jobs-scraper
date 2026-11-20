@@ -1,0 +1,432 @@
+{
+ "AkzoNobel": [],
+ "Albemarle": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "albemarle.wd5.myworkdayjobs.com",
+    "tenant": "albemarle",
+    "site": "External",
+    "name": "Albemarle"
+   },
+   "india_jobs": 20,
+   "site_total": 73,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "albemarle.wd5.myworkdayjobs.com",
+    "tenant": "albemarle",
+    "site": "KetjenExternal",
+    "name": "Albemarle"
+   },
+   "india_jobs": 1,
+   "site_total": 32,
+   "facet": false
+  }
+ ],
+ "AptarGroup": [],
+ "Arkema": [],
+ "Ashland": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ashland.wd12.myworkdayjobs.com",
+    "tenant": "ashland",
+    "site": "AshlandCareers1",
+    "name": "Ashland"
+   },
+   "india_jobs": 15,
+   "site_total": 86,
+   "facet": false
+  }
+ ],
+ "Avery Dennison": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "averydennison",
+    "name": "Avery Dennison"
+   },
+   "india_jobs": 22,
+   "site_total": 485
+  }
+ ],
+ "BASF": [],
+ "Ball Corporation": [],
+ "Berry Global": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "global.wd1.myworkdayjobs.com",
+    "tenant": "global",
+    "site": "globalpartnerscareers",
+    "name": "Berry Global"
+   },
+   "india_jobs": 0,
+   "site_total": 1831,
+   "facet": false
+  }
+ ],
+ "Cabot": [],
+ "Carlisle": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "carlisle",
+    "name": "Carlisle"
+   },
+   "india_jobs": 0,
+   "site_total": 156
+  }
+ ],
+ "Celanese": [
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "celanese",
+    "name": "Celanese"
+   },
+   "india_jobs": 0,
+   "site_total": 5
+  }
+ ],
+ "Chemours": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "chemours.wd103.myworkdayjobs.com",
+    "tenant": "chemours",
+    "site": "Chemours",
+    "name": "Chemours"
+   },
+   "india_jobs": 4,
+   "site_total": 146,
+   "facet": false
+  }
+ ],
+ "Clariant": [],
+ "Covestro": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "covestro.wd3.myworkdayjobs.com",
+    "tenant": "covestro",
+    "site": "cov_external",
+    "name": "Covestro"
+   },
+   "india_jobs": 0,
+   "site_total": 152,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "covestro.wd3.myworkdayjobs.com",
+    "tenant": "covestro",
+    "site": "cov_de_apprentice_external",
+    "name": "Covestro"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "Crown Holdings": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "crownholdings.wd501.myworkdayjobs.com",
+    "tenant": "crownholdings",
+    "site": "CrownHoldings",
+    "name": "Crown Holdings"
+   },
+   "india_jobs": 0,
+   "site_total": 278,
+   "facet": false
+  }
+ ],
+ "Dow": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dow.wd1.myworkdayjobs.com",
+    "tenant": "dow",
+    "site": "ExternalCareers",
+    "name": "Dow"
+   },
+   "india_jobs": 14,
+   "site_total": 203,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dow.wd1.myworkdayjobs.com",
+    "tenant": "dow",
+    "site": "DiamondExternalCareers",
+    "name": "Dow"
+   },
+   "india_jobs": 0,
+   "site_total": 4,
+   "facet": false
+  }
+ ],
+ "DuPont": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dupont.wd5.myworkdayjobs.com",
+    "tenant": "dupont",
+    "site": "Jobs",
+    "name": "DuPont"
+   },
+   "india_jobs": 0,
+   "site_total": 208,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dupont.wd5.myworkdayjobs.com",
+    "tenant": "dupont",
+    "site": "Jobs_Swiss",
+    "name": "DuPont"
+   },
+   "india_jobs": 0,
+   "site_total": 2,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "dupont.wd5.myworkdayjobs.com",
+    "tenant": "dupont",
+    "site": "Confidential",
+    "name": "DuPont"
+   },
+   "india_jobs": 0,
+   "site_total": 5,
+   "facet": false
+  }
+ ],
+ "Eastman Chemical": [],
+ "Evonik": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "evonik.wd3.myworkdayjobs.com",
+    "tenant": "evonik",
+    "site": "External_Careers",
+    "name": "Evonik"
+   },
+   "india_jobs": 11,
+   "site_total": 339,
+   "facet": true
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "evonik.wd3.myworkdayjobs.com",
+    "tenant": "evonik",
+    "site": "Evonik_Perspectives",
+    "name": "Evonik"
+   },
+   "india_jobs": 0,
+   "site_total": 3,
+   "facet": false
+  }
+ ],
+ "H.B. Fuller": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "hbfuller.wd1.myworkdayjobs.com",
+    "tenant": "hbfuller",
+    "site": "Careers",
+    "name": "H.B. Fuller"
+   },
+   "india_jobs": 0,
+   "site_total": 118,
+   "facet": false
+  }
+ ],
+ "Huntsman": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "huntsman.wd1.myworkdayjobs.com",
+    "tenant": "huntsman",
+    "site": "Huntsman",
+    "name": "Huntsman"
+   },
+   "india_jobs": 2,
+   "site_total": 107,
+   "facet": true
+  }
+ ],
+ "INEOS": [],
+ "International Flavors & Fragrances": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "iff.wd5.myworkdayjobs.com",
+    "tenant": "iff",
+    "site": "IFF_Careers",
+    "name": "International Flavors & Fragrances"
+   },
+   "india_jobs": 55,
+   "site_total": 362,
+   "facet": true
+  }
+ ],
+ "International Paper": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "paper.wd3.myworkdayjobs.com",
+    "tenant": "paper",
+    "site": "Paper_Careers",
+    "name": "International Paper"
+   },
+   "india_jobs": 0,
+   "site_total": 1,
+   "facet": false
+  }
+ ],
+ "Lubrizol": [],
+ "LyondellBasell": [],
+ "Mitsubishi Chemical Group": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mitsubishichemicalgroup.wd3.myworkdayjobs.com",
+    "tenant": "mitsubishichemicalgroup",
+    "site": "MCCGroupCareers",
+    "name": "Mitsubishi Chemical Group"
+   },
+   "india_jobs": 3,
+   "site_total": 121,
+   "facet": true
+  }
+ ],
+ "Mosaic": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mosaic.wd5.myworkdayjobs.com",
+    "tenant": "mosaic",
+    "site": "mosaic",
+    "name": "Mosaic"
+   },
+   "india_jobs": 0,
+   "site_total": 101,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "mosaic.wd5.myworkdayjobs.com",
+    "tenant": "mosaic",
+    "site": "broadbean_external",
+    "name": "Mosaic"
+   },
+   "india_jobs": 0,
+   "site_total": 12,
+   "facet": false
+  },
+  {
+   "platform": "smartrecruiters",
+   "config": {
+    "company_id": "mosaic",
+    "name": "Mosaic"
+   },
+   "india_jobs": 0,
+   "site_total": 3
+  }
+ ],
+ "Nouryon": [],
+ "Owens Corning": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "owens.wd1.myworkdayjobs.com",
+    "tenant": "owens",
+    "site": "OCC",
+    "name": "Owens Corning"
+   },
+   "india_jobs": 0,
+   "site_total": 117,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "owens.wd1.myworkdayjobs.com",
+    "tenant": "owens",
+    "site": "OCCoj",
+    "name": "Owens Corning"
+   },
+   "india_jobs": 0,
+   "site_total": 44,
+   "facet": false
+  }
+ ],
+ "PPG": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "ppg.wd5.myworkdayjobs.com",
+    "tenant": "ppg",
+    "site": "PPG_CAREERS",
+    "name": "PPG"
+   },
+   "india_jobs": 0,
+   "site_total": 721,
+   "facet": false
+  }
+ ],
+ "SABIC": [],
+ "Sealed Air": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "air",
+    "name": "Sealed Air"
+   },
+   "india_jobs": 0,
+   "site_total": 31
+  }
+ ],
+ "Sherwin-Williams": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "williams.wd5.myworkdayjobs.com",
+    "tenant": "williams",
+    "site": "External",
+    "name": "Sherwin-Williams"
+   },
+   "india_jobs": 0,
+   "site_total": 129,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "williams.wd5.myworkdayjobs.com",
+    "tenant": "williams",
+    "site": "PowerExternal",
+    "name": "Sherwin-Williams"
+   },
+   "india_jobs": 0,
+   "site_total": 28,
+   "facet": false
+  }
+ ],
+ "Sika": [],
+ "Solvay": [],
+ "Syensqo": [],
+ "Wacker Chemie": []
+}

@@ -1,0 +1,21 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "riotinto.wd3.myworkdayjobs.com",
+   "tenant": "riotinto",
+   "site": "RioTinto_Careers",
+   "name": "Rio Tinto"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Metso",
+   "host": "careers.metso.com"
+  },
+  {
+   "name": "Umicore",
+   "host": "careers.umicore.com"
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "sector": "healthcare_pharma",
+ "title": "Pharma, biotech, medical devices, health data",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Eli Lilly",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Teva",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Astellas Pharma",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Daiichi Sankyo",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Eisai",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Otsuka",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Lundbeck",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "UCB",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "CSL",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Vertex Pharmaceuticals",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Moderna",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups"
+  },
+  {
+   "name": "Becton Dickinson",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Beckman Coulter",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Bio-Rad",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Hologic",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Olympus",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Fujifilm",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Varian",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Waters Corporation",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment"
+  },
+  {
+   "name": "Optum",
+   "section": 8,
+   "subgroup": "Clinical research, CRO, laboratory and healthcare data"
+  },
+  {
+   "name": "UnitedHealth Group",
+   "section": 8,
+   "subgroup": "Clinical research, CRO, laboratory and healthcare data"
+  },
+  {
+   "name": "IDEXX Laboratories",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "CVS Health",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "EssilorLuxottica",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Humana",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Centene",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Align Technology",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Teleflex",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Catalent",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Henry Schein",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Bruker",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Avantor",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Bio-Rad Laboratories",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Pfizer",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Roche",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Novartis",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Sanofi",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "AstraZeneca",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "GSK",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Johnson & Johnson",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Merck KGaA",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Merck & Co.",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Bristol Myers Squibb",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Bayer",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Novo Nordisk",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Boehringer Ingelheim",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Takeda",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Amgen",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Gilead Sciences",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "AbbVie",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Biogen",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Regeneron",
+   "section": 8,
+   "subgroup": "Pharmaceutical and life-sciences groups",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Abbott",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Medtronic",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Siemens Healthineers",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "GE HealthCare",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Philips",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Stryker",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Boston Scientific",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Baxter",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "B. Braun",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Zimmer Biomet",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Smith+Nephew",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Edwards Lifesciences",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Thermo Fisher Scientific",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Danaher",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Illumina",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Agilent Technologies",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "ResMed",
+   "section": 8,
+   "subgroup": "Medical devices, diagnostics and healthcare equipment",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "IQVIA",
+   "section": 8,
+   "subgroup": "Clinical research, CRO, laboratory and healthcare data",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Cigna",
+   "section": 8,
+   "subgroup": "Clinical research, CRO, laboratory and healthcare data",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "McKesson",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Cardinal Health",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Cencora",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Intuitive",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Lonza",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Elevance Health",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Labcorp",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Quest Diagnostics",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Zoetis",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Elanco",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Dentsply Sirona",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  },
+  {
+   "name": "Revvity",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "healthcare_pharma"
+  }
+ ]
+}

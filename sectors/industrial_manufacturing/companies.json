@@ -1,0 +1,141 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "trimble.wd1.myworkdayjobs.com",
+   "tenant": "trimble",
+   "site": "TrimbleCareers",
+   "name": "Trimble"
+  },
+  {
+   "host": "sandvik.wd3.myworkdayjobs.com",
+   "tenant": "sandvik",
+   "site": "coromant-jobs",
+   "name": "Sandvik"
+  },
+  {
+   "host": "3m.wd1.myworkdayjobs.com",
+   "tenant": "3m",
+   "site": "Search",
+   "name": "3M"
+  },
+  {
+   "host": "kone.wd3.myworkdayjobs.com",
+   "tenant": "kone",
+   "site": "Careers",
+   "name": "KONE"
+  },
+  {
+   "host": "carrier.wd5.myworkdayjobs.com",
+   "tenant": "carrier",
+   "site": "jobs",
+   "name": "Carrier Global"
+  },
+  {
+   "host": "alfalaval.wd3.myworkdayjobs.com",
+   "tenant": "alfalaval",
+   "site": "Alfa_Laval_jobs",
+   "name": "Alfa Laval"
+  },
+  {
+   "host": "gea.wd3.myworkdayjobs.com",
+   "tenant": "gea",
+   "site": "GEACareers",
+   "name": "GEA Group"
+  },
+  {
+   "host": "jabil.wd5.myworkdayjobs.com",
+   "tenant": "jabil",
+   "site": "Jabil_Careers",
+   "name": "Jabil"
+  },
+  {
+   "host": "tranetechnologies.wd12.myworkdayjobs.com",
+   "tenant": "tranetechnologies",
+   "site": "Trane_Technologies_Careers",
+   "name": "Trane Technologies"
+  },
+  {
+   "host": "ecolab.wd1.myworkdayjobs.com",
+   "tenant": "ecolab",
+   "site": "Ecolab_External",
+   "name": "Ecolab"
+  },
+  {
+   "host": "dover.wd103.myworkdayjobs.com",
+   "tenant": "dover",
+   "site": "Dover",
+   "name": "Dover"
+  },
+  {
+   "host": "terex.wd1.myworkdayjobs.com",
+   "tenant": "terex",
+   "site": "terexcareers",
+   "name": "Terex"
+  },
+  {
+   "host": "sbdinc.wd1.myworkdayjobs.com",
+   "tenant": "sbdinc",
+   "site": "Stanley_Black_Decker_Career_Site",
+   "name": "Stanley Black & Decker"
+  },
+  {
+   "name": "Otis",
+   "host": "otis.wd504.myworkdayjobs.com",
+   "tenant": "otis",
+   "site": "REC_Ext_Gateway"
+  }
+ ],
+ "greenhouse": [
+  {
+   "board": "samsara",
+   "name": "Samsara"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Celestica",
+   "host": "careers.celestica.com"
+  },
+  {
+   "name": "Festo",
+   "host": "jobs.festo.com"
+  },
+  {
+   "name": "Grundfos",
+   "host": "jobs.grundfos.com"
+  },
+  {
+   "name": "Lincoln Electric",
+   "host": "jobs.lincolnelectric.com"
+  },
+  {
+   "name": "Paccar",
+   "host": "jobs.paccar.com"
+  },
+  {
+   "name": "Tetra Pak",
+   "host": "jobs.tetrapak.com"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Fortive",
+   "host": "fortive.eightfold.ai",
+   "domain": "fortive.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Whirlpool",
+   "host": "whirlpool.eightfold.ai",
+   "domain": "whirlpool.com",
+   "api": "pcsx"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "Bosch",
+   "company_id": "BoschGroup"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "AGCO": [],
+ "CLAAS": [],
+ "CNH Industrial": [
+  {
+   "platform": "greenhouse",
+   "config": {
+    "board": "industrial",
+    "name": "CNH Industrial"
+   },
+   "india_jobs": 0,
+   "site_total": 1
+  }
+ ],
+ "Corteva Agriscience": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "corteva.wd5.myworkdayjobs.com",
+    "tenant": "corteva",
+    "site": "CTP",
+    "name": "Corteva Agriscience"
+   },
+   "india_jobs": 0,
+   "site_total": 11,
+   "facet": false
+  },
+  {
+   "platform": "workday",
+   "config": {
+    "host": "corteva.wd5.myworkdayjobs.com",
+    "tenant": "corteva",
+    "site": "Corteva",
+    "name": "Corteva Agriscience"
+   },
+   "india_jobs": 1,
+   "site_total": 47,
+   "facet": true
+  }
+ ],
+ "DeLaval": [],
+ "FMC Corporation": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "fmc.wd12.myworkdayjobs.com",
+    "tenant": "fmc",
+    "site": "FMC",
+    "name": "FMC Corporation"
+   },
+   "india_jobs": 7,
+   "site_total": 61,
+   "facet": false
+  }
+ ],
+ "John Deere": [],
+ "Kubota": [],
+ "Nutrien": [],
+ "Syngenta": [],
+ "Valmont Industries": [
+  {
+   "platform": "workday",
+   "config": {
+    "host": "valmont.wd1.myworkdayjobs.com",
+    "tenant": "valmont",
+    "site": "ValmontCareers",
+    "name": "Valmont Industries"
+   },
+   "india_jobs": 7,
+   "site_total": 259,
+   "facet": true
+  }
+ ],
+ "Yara International": []
+}

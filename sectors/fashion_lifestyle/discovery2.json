@@ -1,0 +1,163 @@
+{
+ "ASICS": {
+  "hosts": [
+   "www.asics.com",
+   "asics.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Burberry": {
+  "hosts": [
+   "www.burberry.com",
+   "burberry.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Cartier": {
+  "hosts": [
+   "careers.cartier.com",
+   "www.cartier.com",
+   "cartier.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Chanel": {
+  "hosts": [
+   "careers.chanel.com",
+   "www.chanel.com",
+   "chanel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Columbia Sportswear": {
+  "hosts": [
+   "www.columbiasportswear.com",
+   "columbiasportswear.com",
+   "www.columbia.com",
+   "columbia.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Deckers": {
+  "hosts": [
+   "www.deckers.com",
+   "deckers.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Fossil Group": {
+  "hosts": [
+   "careers.fossil.com",
+   "www.fossil.com",
+   "fossil.com",
+   "www.fossilgroup.com",
+   "fossilgroup.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Gucci": {
+  "hosts": [
+   "careers.gucci.com",
+   "jobs.gucci.com",
+   "www.gucci.com",
+   "gucci.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Hanesbrands": {
+  "hosts": [
+   "www.hanesbrands.com",
+   "hanesbrands.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Levi Strauss & Co.": {
+  "hosts": [
+   "www.levistrauss.com",
+   "levistrauss.com",
+   "www.levi.com",
+   "levi.com",
+   "careers.levistraussco.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Prada": {
+  "hosts": [
+   "www.prada.com",
+   "prada.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ralph Lauren": {
+  "hosts": [
+   "careers.ralphlauren.com",
+   "www.ralphlauren.com",
+   "ralphlauren.com",
+   "www.ralph-lauren.com",
+   "www.ralph.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Rolex": {
+  "hosts": [
+   "www.rolex.com",
+   "rolex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tapestry": {
+  "hosts": [
+   "careers.tapestry.com",
+   "www.tapestry.com",
+   "tapestry.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Tapestry",
+     "host": "tapestry.wd108.myworkdayjobs.com",
+     "tenant": "tapestry",
+     "site": "Tapestry_Careers"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.tapestry.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Under Armour": {
+  "hosts": [
+   "careers.underarmour.com",
+   "www.underarmour.com",
+   "underarmour.com",
+   "under-armour.com",
+   "careers.under.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "VF Corporation": {
+  "hosts": [
+   "www.vfc.com",
+   "vfc.com",
+   "www.vfcorporation.com",
+   "vfcorporation.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "ASSA ABLOY": {
+  "hosts": [
+   "careers.assaabloy.com",
+   "www.assaabloy.com",
+   "assaabloy.com",
+   "www.assa-abloy.com",
+   "assa-abloy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Axis Communications": {
+  "hosts": [
+   "careers.axiscommunications.com",
+   "jobs.axiscommunications.com",
+   "www.axiscommunications.com",
+   "axiscommunications.com",
+   "www.axis-communications.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Genetec": {
+  "hosts": [
+   "www.genetec.com",
+   "genetec.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "HID Global": {
+  "hosts": [
+   "careers.hidglobal.com",
+   "www.hidglobal.com",
+   "hidglobal.com",
+   "www.hid-global.com",
+   "hid-global.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "IDEMIA": {
+  "hosts": [
+   "careers.idemia.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "IDEMIA",
+     "host": "careers.idemia.com"
+    },
+    "india_jobs": 7,
+    "found_on": "careers.idemia.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "dormakaba": {
+  "hosts": [
+   "jobs.dormakaba.com",
+   "www.dormakaba.com",
+   "dormakaba.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "dormakaba",
+     "host": "jobs.dormakaba.com"
+    },
+    "india_jobs": 0,
+    "found_on": "jobs.dormakaba.com"
+   }
+  ],
+  "unsupported": []
+ }
+}

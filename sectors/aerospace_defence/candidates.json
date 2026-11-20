@@ -1,0 +1,243 @@
+{
+ "sector": "aerospace_defence",
+ "title": "Aerospace, defence, space",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Lockheed Martin",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Northrop Grumman",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Safran",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "BAE Systems",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Leonardo",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Bombardier",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Spirit AeroSystems",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "L3Harris",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "General Atomics",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Dassault Aviation",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "MBDA",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Embraer",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "ATR",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Gulfstream",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Textron",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Rheinmetall",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Saab",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Elbit Systems",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Kongsberg Gruppen",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence"
+  },
+  {
+   "name": "Thales Alenia Space",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "SES",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Eutelsat",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Intelsat",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Maxar",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Planet Labs",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Spire Global",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "MDA Space",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "ICEYE",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Astroscale",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "SpaceX",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "Blue Origin",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "TransDigm",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "General Dynamics",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Howmet Aerospace",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Huntington Ingalls Industries",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Teledyne Technologies",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "HEICO",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Boeing",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "Airbus",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "RTX",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "GE Aerospace",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "Thales",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "Moog",
+   "section": 6,
+   "subgroup": "Aircraft, engines, aerospace and defence",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "Viasat",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial",
+   "configured_in": "aerospace_defence"
+  },
+  {
+   "name": "Woodward",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "aerospace_defence"
+  }
+ ]
+}

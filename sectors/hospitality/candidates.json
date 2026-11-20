@@ -1,0 +1,84 @@
+{
+ "sector": "hospitality",
+ "title": "Hotels and hospitality (operators)",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Hyatt",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Accor",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "IHG Hotels & Resorts",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Radisson Hotel Group",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Wyndham Hotels & Resorts",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Shangri-La",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Mandarin Oriental",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Meliá Hotels International",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Choice Hotels",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  },
+  {
+   "name": "Best Western",
+   "section": 16,
+   "subgroup": "Hotels and hospitality"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Marriott International",
+   "section": 16,
+   "subgroup": "Hotels and hospitality",
+   "configured_in": "hospitality"
+  },
+  {
+   "name": "Hilton",
+   "section": 16,
+   "subgroup": "Hotels and hospitality",
+   "configured_in": "hospitality"
+  },
+  {
+   "name": "Four Seasons",
+   "section": 16,
+   "subgroup": "Hotels and hospitality",
+   "configured_in": "hospitality"
+  },
+  {
+   "name": "Minor Hotels",
+   "section": 16,
+   "subgroup": "Hotels and hospitality",
+   "configured_in": "hospitality"
+  }
+ ]
+}

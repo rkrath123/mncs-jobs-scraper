@@ -1,0 +1,281 @@
+{
+ "sector": "ecommerce_retail",
+ "title": "E-commerce, retail technology, consumer platforms",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Walmart",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "IKEA",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "JD.com",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Rakuten",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Zalando",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "SHEIN",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Temu",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Decathlon",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Carrefour",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Tesco",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Metro AG",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Costco",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Adidas",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "H&M",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Inditex",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Marks & Spencer",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Uniqlo",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Lululemon",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Home Depot",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Best Buy",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Etsy",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Wayfair",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Otto Group",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Kingfisher",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Currys",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "ASOS",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Next plc",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Pandora",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "LVMH",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Kering",
+   "section": 14,
+   "subgroup": ""
+  },
+  {
+   "name": "Fast Retailing",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Macy's",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Ross Stores",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Nordstrom",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Kohl's",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Ulta Beauty",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "AutoZone",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Williams-Sonoma",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Chewy",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Carvana",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Dick's Sporting Goods",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "eBay",
+   "section": 14,
+   "subgroup": "",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Coupang",
+   "section": 14,
+   "subgroup": "",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Nike",
+   "section": 14,
+   "subgroup": "",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "LEGO",
+   "section": 14,
+   "subgroup": "",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Lowe’s",
+   "section": 14,
+   "subgroup": "",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Richemont",
+   "section": 14,
+   "subgroup": "",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Target",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "TJX",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Dollar General",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Gap",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "ecommerce_retail"
+  },
+  {
+   "name": "Advance Auto Parts",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "ecommerce_retail"
+  }
+ ]
+}

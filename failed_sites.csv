@@ -1,0 +1,169 @@
+company,sector,ATS,career_url
+UBS,fintech,brassring,https://jobs.ubs.com
+Oracle,software_cloud,oracle,https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001
+Alstom,energy,sf_rss,https://jobsearch.alstom.com/search/
+Bureau Veritas,energy,sf_rss,https://careers.bureauveritas.com/search/
+Celestica,industrial_manufacturing,sf_rss,https://careers.celestica.com/search/
+Novo Nordisk,healthcare_pharma,sf_rss,https://careers.novonordisk.com/search/
+Schaeffler,automotive,sf_rss,https://jobs.schaeffler.com/search/
+Swiss Re,fintech,sf_rss,https://careers.swissre.com/search/
+Vestas,energy,sf_rss,https://careers.vestas.com/search/
+Wärtsilä,energy,sf_rss,https://careers.wartsila.com/search/
+3M,industrial_manufacturing,workday,https://3m.wd1.myworkdayjobs.com/Search
+Abbott,healthcare_pharma,workday,https://abbott.wd5.myworkdayjobs.com/abbottcareers
+Adobe,software_cloud,workday,https://adobe.wd5.myworkdayjobs.com/external_experienced
+Advance Auto Parts,ecommerce_retail,workday,https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers
+Agilent Technologies,healthcare_pharma,workday,https://agilent.wd5.myworkdayjobs.com/Agilent_Careers
+Air Products,energy,workday,https://airproducts.wd5.myworkdayjobs.com/AP0001
+Albemarle,chemicals_materials,workday,https://albemarle.wd5.myworkdayjobs.com/External
+Allstate,fintech,workday,https://allstate.wd5.myworkdayjobs.com/allstate_careers
+Ameriprise,fintech,workday,https://ameriprise.wd5.myworkdayjobs.com/Ameriprise
+Amgen,healthcare_pharma,workday,https://amgen.wd1.myworkdayjobs.com/Careers
+Analog Devices,semiconductors_hardware,workday,https://analogdevices.wd1.myworkdayjobs.com/External
+Aptiv,automotive,workday,https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS
+AspenTech,energy,workday,https://aspentech.wd5.myworkdayjobs.com/AspenTech
+AT&T,telecom_networking,workday,https://att.wd1.myworkdayjobs.com/ATTGeneral
+Baker Hughes,energy,workday,https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes
+Baxter,healthcare_pharma,workday,https://baxter.wd1.myworkdayjobs.com/baxter
+Bentley Systems,energy,workday,https://bentleysystems.wd5.myworkdayjobs.com/bentley
+BlackRock,fintech,workday,https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional
+Blackstone,fintech,workday,https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers
+Boeing,aerospace_defence,workday,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS
+BorgWarner,automotive,workday,https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers
+Bristol Myers Squibb,healthcare_pharma,workday,https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS
+Broadcom,semiconductors_hardware,workday,https://broadcom.wd1.myworkdayjobs.com/External_Career
+Broadridge,fintech,workday,https://broadridge.wd5.myworkdayjobs.com/Careers
+Brookfield,energy,workday,https://brookfield.wd5.myworkdayjobs.com/brookfield
+C.H. Robinson,logistics_transport,workday,https://chrobinson.wd5.myworkdayjobs.com/CHRobinson
+Cadence,semiconductors_hardware,workday,https://cadence.wd1.myworkdayjobs.com/External_Careers
+Cardinal Health,healthcare_pharma,workday,https://cardinalhealth.wd1.myworkdayjobs.com/EXT
+Carrier Global,industrial_manufacturing,workday,https://carrier.wd5.myworkdayjobs.com/jobs
+Caterpillar,energy,workday,https://cat.wd5.myworkdayjobs.com/CaterpillarCareers
+Cengage,education_publishing,workday,https://cengage.wd5.myworkdayjobs.com/CengageIndiaCareers
+Chevron,energy,workday,https://chevron.wd5.myworkdayjobs.com/jobs
+Ciena,telecom_networking,workday,https://ciena.wd5.myworkdayjobs.com/Careers
+Cigna,healthcare_pharma,workday,https://cigna.wd5.myworkdayjobs.com/cignacareers
+Cisco,telecom_networking,workday,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers
+Citi,fintech,workday,https://citi.wd5.myworkdayjobs.com/2
+CME Group,fintech,workday,https://cmegroup.wd1.myworkdayjobs.com/cme_careers
+Corteva Agriscience,agriculture,workday,https://corteva.wd5.myworkdayjobs.com/Corteva
+CrowdStrike,cybersecurity,workday,https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers
+Cubic Corporation,logistics_transport,workday,https://cubic.wd1.myworkdayjobs.com/cubic_global_careers
+Danaher,healthcare_pharma,workday,https://danaher.wd1.myworkdayjobs.com/DanaherJobs
+Dow,chemicals_materials,workday,https://dow.wd1.myworkdayjobs.com/ExternalCareers
+eBay,ecommerce_retail,workday,https://ebay.wd5.myworkdayjobs.com/apply
+Ecolab,industrial_manufacturing,workday,https://ecolab.wd1.myworkdayjobs.com/Ecolab_External
+Edwards Lifesciences,healthcare_pharma,workday,https://edwards.wd5.myworkdayjobs.com/EdwardsCareers
+Elanco,healthcare_pharma,workday,https://elanco.wd5.myworkdayjobs.com/External_Career
+Elevance Health,healthcare_pharma,workday,https://elevancehealth.wd1.myworkdayjobs.com/carelonglobal_in
+Entrust,cybersecurity,workday,https://entrust.wd1.myworkdayjobs.com/EntrustCareers
+Equifax,fintech,workday,https://equifax.wd5.myworkdayjobs.com/External
+F5,cybersecurity,workday,https://ffive.wd5.myworkdayjobs.com/f5jobs
+FICO,fintech,workday,https://fico.wd1.myworkdayjobs.com/External
+Fidelity Investments,fintech,workday,https://fmr.wd1.myworkdayjobs.com/FidelityCareers
+First American,fintech,workday,https://firstam.wd1.myworkdayjobs.com/faicareers
+FIS,fintech,workday,https://fis.wd5.myworkdayjobs.com/SearchJobs
+Fiserv,fintech,workday,https://fiserv.wd5.myworkdayjobs.com/EXT
+Flowserve,energy,workday,https://flowserve.wd1.myworkdayjobs.com/applied
+Fox Corporation,media_entertainment,workday,https://fox.wd1.myworkdayjobs.com/Domestic
+Gap,ecommerce_retail,workday,https://gapinc.wd1.myworkdayjobs.com/GAPINC
+GE Aerospace,aerospace_defence,workday,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite
+GE HealthCare,healthcare_pharma,workday,https://healthcare.wd1.myworkdayjobs.com/Search
+GE Vernova,energy,workday,https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite
+General Motors,automotive,workday,https://generalmotors.wd5.myworkdayjobs.com/Careers_GM
+Gilead Sciences,healthcare_pharma,workday,https://gilead.wd1.myworkdayjobs.com/gileadcareers
+Global Payments,fintech,workday,https://tsys.wd1.myworkdayjobs.com/TSYS
+Goodyear,automotive,workday,https://goodyear.wd1.myworkdayjobs.com/GoodyearCareers
+GSK,healthcare_pharma,workday,https://gsk.wd5.myworkdayjobs.com/GSKCareers
+Guidewire,fintech,workday,https://guidewire.wd5.myworkdayjobs.com/External
+Hitachi Energy,energy,workday,https://hitachi.wd1.myworkdayjobs.com/hitachi
+HP,software_cloud,workday,https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite
+HPE,software_cloud,workday,https://hpe.wd5.myworkdayjobs.com/Jobsathpe
+Huntsman,chemicals_materials,workday,https://huntsman.wd1.myworkdayjobs.com/Huntsman
+Illumina,healthcare_pharma,workday,https://illumina.wd1.myworkdayjobs.com/illumina-careers
+Ingredion,fmcg_food,workday,https://ingredion.wd1.myworkdayjobs.com/IngredionCareers
+Intel,semiconductors_hardware,workday,https://intel.wd1.myworkdayjobs.com/External
+International Flavors & Fragrances,chemicals_materials,workday,https://iff.wd5.myworkdayjobs.com/IFF_Careers
+Invesco,fintech,workday,https://invesco.wd1.myworkdayjobs.com/IVZ
+IQVIA,healthcare_pharma,workday,https://iqvia.wd1.myworkdayjobs.com/IQVIA
+Itron,energy,workday,https://itron.wd5.myworkdayjobs.com/Itron
+Jabil,industrial_manufacturing,workday,https://jabil.wd5.myworkdayjobs.com/Jabil_Careers
+Johnson & Johnson,healthcare_pharma,workday,https://jj.wd5.myworkdayjobs.com/JJ
+Johnson Controls,energy,workday,https://jci.wd5.myworkdayjobs.com/JCI
+KBR,energy,workday,https://kbr.wd5.myworkdayjobs.com/KBR_Careers
+Kenvue,fmcg_food,workday,https://kenvue.wd5.myworkdayjobs.com/kenvue
+Kimberly-Clark,fmcg_food,workday,https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL
+KLA,semiconductors_hardware,workday,https://kla.wd1.myworkdayjobs.com/Search
+Kraft Heinz,fmcg_food,workday,https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers
+Labcorp,healthcare_pharma,workday,https://labcorp.wd1.myworkdayjobs.com/External
+Lowe’s,ecommerce_retail,workday,https://lowes.wd5.myworkdayjobs.com/LWS_External_CS
+Marsh McLennan,fintech,workday,https://mmc.wd1.myworkdayjobs.com/MMC
+Marvell,semiconductors_hardware,workday,https://marvell.wd1.myworkdayjobs.com/MarvellCareers
+Mastercard,fintech,workday,https://mastercard.wd1.myworkdayjobs.com/CorporateCareers
+Mavenir,telecom_networking,workday,https://mavenir.wd1.myworkdayjobs.com/Mavenir_Careers
+Medtronic,healthcare_pharma,workday,https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers
+Merck & Co.,healthcare_pharma,workday,https://msd.wd5.myworkdayjobs.com/SearchJobs
+Micron Technology,semiconductors_hardware,workday,https://micron.wd1.myworkdayjobs.com/External
+Mimecast,cybersecurity,workday,https://mimecast.wd5.myworkdayjobs.com/Mimecast-Careers
+Moog,aerospace_defence,workday,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site
+Morgan Stanley,fintech,workday,https://ms.wd5.myworkdayjobs.com/External
+Morningstar,fintech,workday,https://morningstar.wd5.myworkdayjobs.com/Morningstar
+Motorola Solutions,telecom_networking,workday,https://motorolasolutions.wd5.myworkdayjobs.com/Careers
+Mr. Cooper,fintech,workday,https://nationstar.wd5.myworkdayjobs.com/MrCooper
+Nasdaq,fintech,workday,https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site
+New Balance,fashion_lifestyle,workday,https://newbalance.wd1.myworkdayjobs.com/Careers
+Nike,ecommerce_retail,workday,https://nike.wd1.myworkdayjobs.com/nke
+Northern Trust,fintech,workday,https://ntrs.wd1.myworkdayjobs.com/northerntrust
+NVIDIA,semiconductors_hardware,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+Palo Alto Networks,cybersecurity,workday,https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers
+Parsons,energy,workday,https://parsons.wd5.myworkdayjobs.com/Search
+PayPal,fintech,workday,https://paypal.wd1.myworkdayjobs.com/jobs
+Pentair,water_environment,workday,https://pentair.wd5.myworkdayjobs.com/Pentair_Careers
+Pfizer,healthcare_pharma,workday,https://pfizer.wd1.myworkdayjobs.com/PfizerCareers
+Pitney Bowes,software_cloud,workday,https://pitneybowes.wd1.myworkdayjobs.com/PBCareers
+Polaris,automotive,workday,https://polaris.wd5.myworkdayjobs.com/PolarisJobs
+Procter & Gamble,fmcg_food,workday,https://pg.wd5.myworkdayjobs.com/1000
+Proofpoint,cybersecurity,workday,https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers
+PTC,energy,workday,https://ptc.wd1.myworkdayjobs.com/PTC
+PVH Corp.,fashion_lifestyle,workday,https://pvh.wd1.myworkdayjobs.com/PVH_Careers
+Qualys,cybersecurity,workday,https://qualys.wd5.myworkdayjobs.com/Careers
+Regeneron,healthcare_pharma,workday,https://regeneron.wd1.myworkdayjobs.com/Careers
+Rockwell Automation,energy,workday,https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation
+RTX,aerospace_defence,workday,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway
+S&P Global,fintech,workday,https://spgi.wd5.myworkdayjobs.com/SPGI_Careers
+Sabre,travel_tech,workday,https://sabre.wd1.myworkdayjobs.com/SabreJobs
+SailPoint,cybersecurity,workday,https://sailpoint.wd1.myworkdayjobs.com/SailPoint
+Skechers,fashion_lifestyle,workday,https://skechers.wd5.myworkdayjobs.com/One-career-site
+Smith+Nephew,healthcare_pharma,workday,https://smithnephew.wd5.myworkdayjobs.com/External
+SS&C Technologies,fintech,workday,https://ssctech.wd1.myworkdayjobs.com/SSCTechnologies
+Stanley Black & Decker,industrial_manufacturing,workday,https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site
+State Street,fintech,workday,https://statestreet.wd1.myworkdayjobs.com/Global
+Stryker,healthcare_pharma,workday,https://stryker.wd1.myworkdayjobs.com/StrykerCareers
+Synchrony,fintech,workday,https://synchronyfinancial.wd5.myworkdayjobs.com/Careers
+Target,ecommerce_retail,workday,https://target.wd5.myworkdayjobs.com/targetcareers
+Terex,industrial_manufacturing,workday,https://terex.wd1.myworkdayjobs.com/terexcareers
+The Standard,fintech,workday,https://standard.wd1.myworkdayjobs.com/Search
+The Walt Disney Company,media_entertainment,workday,https://disney.wd5.myworkdayjobs.com/disneycareerdc
+Thermo Fisher Scientific,healthcare_pharma,workday,https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers
+Thomson Reuters,data_information,workday,https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site
+TIAA,fintech,workday,https://tiaa.wd1.myworkdayjobs.com/Search
+TJX,ecommerce_retail,workday,https://tjx.wd1.myworkdayjobs.com/TJX_EXTERNAL
+TransUnion,fintech,workday,https://transunion.wd5.myworkdayjobs.com/TransUnion
+Trellix,cybersecurity,workday,https://trellix.wd1.myworkdayjobs.com/EnterpriseCareers
+Trimble,industrial_manufacturing,workday,https://trimble.wd1.myworkdayjobs.com/TrimbleCareers
+Tyson Foods,fmcg_food,workday,https://tysonfoods.wd5.myworkdayjobs.com/TSN
+U.S. Bancorp,fintech,workday,https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers
+Valmont Industries,agriculture,workday,https://valmont.wd1.myworkdayjobs.com/ValmontCareers
+Vanguard,fintech,workday,https://vanguard.wd5.myworkdayjobs.com/vanguard_external
+Visa,fintech,workday,https://visa.wd5.myworkdayjobs.com/Visa
+Voya,fintech,workday,https://godirect.wd5.myworkdayjobs.com/voya_jobs
+Warner Bros. Discovery,media_entertainment,workday,https://warnerbros.wd5.myworkdayjobs.com/global
+Western Union,fintech,workday,https://westernunion.wd5.myworkdayjobs.com/WesternUnionJobs
+Wiley,education_publishing,workday,https://wiley.wd1.myworkdayjobs.com/wiley_careers
+Woodward,aerospace_defence,workday,https://woodward.wd5.myworkdayjobs.com/woodward
+Workday,software_cloud,workday,https://workday.wd5.myworkdayjobs.com/Workday
+Worldpay,fintech,workday,https://worldpay.wd5.myworkdayjobs.com/Worldpay_External_Careers_Site
+Xylem,energy,workday,https://xylem.wd5.myworkdayjobs.com/xylem-careers
+Zendesk,software_cloud,workday,https://zendesk.wd1.myworkdayjobs.com/zendesk
+Zillow,software_cloud,workday,https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External
+Zoetis,healthcare_pharma,workday,https://zoetis.wd5.myworkdayjobs.com/broadbean_external

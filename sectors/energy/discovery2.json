@@ -1,0 +1,731 @@
+{
+ "ACWA Power": {
+  "hosts": [
+   "careers.acwapower.com",
+   "www.acwapower.com",
+   "acwapower.com",
+   "www.acwa-power.com",
+   "acwa-power.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "ACWA Power",
+     "host": "careers.acwapower.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.acwapower.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "ADNOC": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Air Liquide": {
+  "hosts": [
+   "jobs.airliquide.com",
+   "www.airliquide.com",
+   "airliquide.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "BayWa r.e.": {
+  "hosts": [
+   "careers.bayware.com",
+   "jobs.bayware.com",
+   "www.bayware.com",
+   "bayware.com",
+   "jobs.baywa.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Bloom Energy": {
+  "hosts": [
+   "www.bloomenergy.com",
+   "bloomenergy.com",
+   "www.bloom-energy.com",
+   "bloom-energy.com",
+   "www.bloom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "C3 AI": {
+  "hosts": [
+   "www.c3ai.com",
+   "c3ai.com",
+   "www.c3-ai.com",
+   "c3-ai.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Canadian Solar": {
+  "hosts": [
+   "www.canadiansolar.com",
+   "canadiansolar.com",
+   "www.canadian-solar.com",
+   "canadian-solar.com",
+   "www.canadian.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ChampionX": {
+  "hosts": [
+   "www.championx.com",
+   "championx.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "China National Offshore Oil Corporation": {
+  "hosts": [
+   "careers.china.com",
+   "jobs.china.com",
+   "www.china.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "China National Petroleum Corporation": {
+  "hosts": [
+   "www.chinanationalpetroleum.com",
+   "chinanationalpetroleum.com",
+   "careers.china.com",
+   "jobs.china.com",
+   "www.china.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "ConocoPhillips": {
+  "hosts": [
+   "careers.conocophillips.com",
+   "jobs.conocophillips.com",
+   "www.conocophillips.com",
+   "conocophillips.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Doosan Enerbility": {
+  "hosts": [
+   "www.doosanenerbility.com",
+   "doosanenerbility.com",
+   "jobs.doosan.com",
+   "www.doosan.com",
+   "doosan.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "E.ON": {
+  "hosts": [
+   "www.e-on.com",
+   "e-on.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "EDF": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "EDF Renewables": {
+  "hosts": [
+   "careers.edfrenewables.com",
+   "jobs.edfrenewables.com",
+   "www.edfrenewables.com",
+   "edfrenewables.com",
+   "edf-renewables.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "icims"
+  ]
+ },
+ "EDP Renewables": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "ENGIE": {
+  "hosts": [
+   "jobs.engie.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "ENGIE",
+     "host": "jobs.engie.com"
+    },
+    "india_jobs": 12,
+    "found_on": "jobs.engie.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Enel": {
+  "hosts": [
+   "jobs.enel.com",
+   "www.enel.com",
+   "enel.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Eni": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Enphase Energy": {
+  "hosts": [
+   "www.enphaseenergy.com",
+   "enphaseenergy.com",
+   "www.enphase-energy.com",
+   "enphase-energy.com",
+   "www.enphase.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Equinor": {
+  "hosts": [
+   "www.equinor.com",
+   "equinor.com"
+  ],
+  "results": [
+   {
+    "platform": "workday",
+    "config": {
+     "name": "Equinor",
+     "host": "equinor.wd3.myworkdayjobs.com",
+     "tenant": "equinor",
+     "site": "EQNR"
+    },
+    "india_jobs": 0,
+    "found_on": "www.equinor.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Expro": {
+  "hosts": [
+   "www.expro.com",
+   "expro.com"
+  ],
+  "results": [],
+  "unsupported": [
+   "successfactors-page"
+  ]
+ },
+ "First Solar": {
+  "hosts": [
+   "careers.firstsolar.com",
+   "www.firstsolar.com"
+  ],
+  "results": [
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "First Solar",
+     "host": "fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_1"
+    },
+    "india_jobs": 0,
+    "found_on": "www.firstsolar.com"
+   },
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "First Solar",
+     "host": "fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_7"
+    },
+    "india_jobs": 0,
+    "found_on": "www.firstsolar.com"
+   },
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "First Solar",
+     "host": "fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_1001"
+    },
+    "india_jobs": 0,
+    "found_on": "www.firstsolar.com"
+   },
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "First Solar",
+     "host": "fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_4"
+    },
+    "india_jobs": 0,
+    "found_on": "www.firstsolar.com"
+   },
+   {
+    "platform": "oracle",
+    "config": {
+     "name": "First Solar",
+     "host": "fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com",
+     "site": "CX_2001"
+    },
+    "india_jobs": 14,
+    "found_on": "www.firstsolar.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Fluence": {
+  "hosts": [
+   "www.fluence.com",
+   "fluence.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Gazprom": {
+  "hosts": [
+   "www.gazprom.com",
+   "gazprom.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Goldwind": {
+  "hosts": [
+   "careers.goldwind.com",
+   "www.goldwind.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Goldwind",
+     "host": "careers.goldwind.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.goldwind.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Harbour Energy": {
+  "hosts": [
+   "careers.harbourenergy.com",
+   "www.harbourenergy.com",
+   "harbourenergy.com",
+   "harbour-energy.com",
+   "careers.harbour.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Harbour Energy",
+     "host": "careers.harbourenergy.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.harbourenergy.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Huawei": {
+  "hosts": [
+   "www.huawei.com",
+   "huawei.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "IFS": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Iberdrola": {
+  "hosts": [
+   "www.iberdrola.com",
+   "iberdrola.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "JA Solar": {
+  "hosts": [
+   "www.jasolar.com",
+   "jasolar.com",
+   "www.ja-solar.com",
+   "ja-solar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "JinkoSolar": {
+  "hosts": [
+   "www.jinkosolar.com",
+   "jinkosolar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Kongsberg Digital": {
+  "hosts": [
+   "www.kongsbergdigital.com",
+   "kongsbergdigital.com",
+   "www.kongsberg.com",
+   "kongsberg.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "LONGi": {
+  "hosts": [
+   "www.longi.com",
+   "longi.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Lightsource bp": {
+  "hosts": [
+   "careers.lightsourcebp.com",
+   "www.lightsourcebp.com",
+   "lightsourcebp.com",
+   "www.lightsource.com",
+   "lightsource.com"
+  ],
+  "results": [
+   {
+    "platform": "sf_rss",
+    "config": {
+     "name": "Lightsource bp",
+     "host": "careers.lightsourcebp.com"
+    },
+    "india_jobs": 0,
+    "found_on": "careers.lightsourcebp.com"
+   }
+  ],
+  "unsupported": []
+ },
+ "Linde": {
+  "hosts": [
+   "www.linde.com",
+   "linde.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "MAN Energy Solutions": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Masdar": {
+  "hosts": [
+   "careers.masdar.com",
+   "jobs.masdar.com",
+   "www.masdar.com",
+   "masdar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mitsubishi Electric": {
+  "hosts": [
+   "www.mitsubishielectric.com",
+   "mitsubishielectric.com",
+   "careers.mitsubishi-electric.com",
+   "jobs.mitsubishi-electric.com",
+   "www.mitsubishi-electric.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Mitsubishi Heavy Industries": {
+  "hosts": [
+   "careers.mitsubishiheavyindustries.com",
+   "jobs.mitsubishiheavyindustries.com",
+   "www.mitsubishiheavyindustries.com",
+   "mitsubishiheavyindustries.com",
+   "www.mitsubishi-heavy-industries.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "National Grid": {
+  "hosts": [
+   "careers.nationalgrid.com",
+   "jobs.nationalgrid.com",
+   "www.nationalgrid.com",
+   "nationalgrid.com",
+   "careers.national-grid.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nel": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Niko Resources": {
+  "hosts": [
+   "www.nikoresources.com",
+   "nikoresources.com",
+   "www.niko.com",
+   "niko.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Nordex": {
+  "hosts": [
+   "www.nordex.com",
+   "nordex.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Occidental Petroleum": {
+  "hosts": [
+   "careers.occidentalpetroleum.com",
+   "jobs.occidentalpetroleum.com",
+   "www.occidentalpetroleum.com",
+   "occidentalpetroleum.com",
+   "www.occidental.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Oceaneering International": {
+  "hosts": [
+   "careers.oceaneering.com",
+   "jobs.oceaneering.com",
+   "www.oceaneering.com",
+   "oceaneering.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Parker Hannifin": {
+  "hosts": [
+   "www.parkerhannifin.com",
+   "parkerhannifin.com",
+   "www.parker-hannifin.com",
+   "parker-hannifin.com",
+   "www.parker.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Petrobras": {
+  "hosts": [
+   "www.petrobras.com",
+   "petrobras.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Petronas": {
+  "hosts": [
+   "careers.petronas.com",
+   "www.petronas.com",
+   "petronas.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Plug Power": {
+  "hosts": [
+   "www.plugpower.com",
+   "plugpower.com",
+   "careers.plug-power.com",
+   "jobs.plug-power.com",
+   "www.plug-power.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "QatarEnergy": {
+  "hosts": [
+   "www.qatarenergy.com",
+   "qatarenergy.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "RWE": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Repsol": {
+  "hosts": [
+   "www.repsol.com",
+   "repsol.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SMA Solar Technology": {
+  "hosts": [
+   "jobs.smasolar.com",
+   "www.smasolar.com",
+   "smasolar.com",
+   "www.sma-solar.com",
+   "sma-solar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Santos": {
+  "hosts": [
+   "www.santos.com",
+   "santos.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Saudi Aramco": {
+  "hosts": [
+   "www.saudiaramco.com",
+   "saudiaramco.com",
+   "careers.saudi.com",
+   "jobs.saudi.com",
+   "www.saudi.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Siemens Gamesa": {
+  "hosts": [
+   "www.siemensgamesa.com",
+   "siemensgamesa.com",
+   "www.siemens-gamesa.com",
+   "siemens-gamesa.com",
+   "jobs.siemens.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sinopec": {
+  "hosts": [
+   "www.sinopec.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "SolarEdge": {
+  "hosts": [
+   "www.solaredge.com",
+   "solaredge.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Statkraft": {
+  "hosts": [
+   "www.statkraft.com",
+   "statkraft.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Sungrow": {
+  "hosts": [
+   "careers.sungrow.com",
+   "jobs.sungrow.com",
+   "www.sungrow.com",
+   "sungrow.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "TGS": {
+  "hosts": [],
+  "results": [],
+  "unsupported": []
+ },
+ "Tenaris": {
+  "hosts": [
+   "jobs.tenaris.com",
+   "www.tenaris.com",
+   "tenaris.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Toshiba": {
+  "hosts": [
+   "www.toshiba.com",
+   "toshiba.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Trina Solar": {
+  "hosts": [
+   "careers.trinasolar.com",
+   "www.trinasolar.com",
+   "trinasolar.com",
+   "careers.trina-solar.com",
+   "jobs.trina-solar.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Tullow Oil": {
+  "hosts": [
+   "careers.tullowoil.com",
+   "jobs.tullowoil.com",
+   "www.tullowoil.com",
+   "tullowoil.com",
+   "www.tullow-oil.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Vallourec": {
+  "hosts": [
+   "www.vallourec.com",
+   "vallourec.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Woodside Energy": {
+  "hosts": [
+   "www.woodsideenergy.com",
+   "woodsideenergy.com",
+   "www.woodside-energy.com",
+   "www.woodside.com",
+   "woodside.com"
+  ],
+  "results": [],
+  "unsupported": []
+ },
+ "Ørsted": {
+  "hosts": [
+   "careers.rsted.com",
+   "jobs.rsted.com",
+   "www.rsted.com",
+   "rsted.com"
+  ],
+  "results": [],
+  "unsupported": []
+ }
+}

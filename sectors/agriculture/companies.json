@@ -1,0 +1,29 @@
+{
+ "manual": [],
+ "workday": [
+  {
+   "host": "fmc.wd12.myworkdayjobs.com",
+   "tenant": "fmc",
+   "site": "FMC",
+   "name": "FMC Corporation"
+  },
+  {
+   "host": "valmont.wd1.myworkdayjobs.com",
+   "tenant": "valmont",
+   "site": "ValmontCareers",
+   "name": "Valmont Industries"
+  },
+  {
+   "host": "corteva.wd5.myworkdayjobs.com",
+   "tenant": "corteva",
+   "site": "Corteva",
+   "name": "Corteva Agriscience"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "Yara International",
+   "host": "jobs.yara.com"
+  }
+ ]
+}

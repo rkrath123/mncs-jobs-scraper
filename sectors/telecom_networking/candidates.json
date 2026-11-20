@@ -1,0 +1,214 @@
+{
+ "sector": "telecom_networking",
+ "title": "Telecom operators, network equipment, telecom software",
+ "tier": 1,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Deutsche Telekom",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Orange",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Telefónica",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Verizon",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "T-Mobile",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Singtel",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "NTT",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "KDDI",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "SoftBank",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Swisscom",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "América Móvil",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Etisalat by e&",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "stc Group",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Ooredoo",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups"
+  },
+  {
+   "name": "Nokia",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "Juniper Networks",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "ZTE",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "NEC",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "Netcracker",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "Ribbon Communications",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "Spirent Communications",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software"
+  },
+  {
+   "name": "Charter Communications",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Lumen Technologies",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Zayo",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Vodafone Group",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "BT Group",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "AT&T",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Telstra",
+   "section": 5,
+   "subgroup": "Telecom operators and network groups",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Ericsson",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Cisco",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Qualcomm",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Ciena",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Mavenir",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Amdocs",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "CommScope",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Motorola Solutions",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Arista Networks",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  },
+  {
+   "name": "Extreme Networks",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "telecom_networking"
+  }
+ ]
+}

@@ -1,0 +1,850 @@
+{
+ "rule": "product_based_only",
+ "excluded": [
+  {
+   "name": "Accenture Operations",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Alorica",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Cognizant",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Concentrix",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Conduent",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "EXL",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Firstsource",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Foundever",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Genpact",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "IBM Consulting",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Sutherland",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "TaskUs",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Teleperformance",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "TELUS Digital",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Transcom",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "TTEC",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "WNS",
+   "reason": "bpo_cx_services",
+   "section": 31
+  },
+  {
+   "name": "Aon",
+   "reason": "consulting_advisory",
+   "section": 4
+  },
+  {
+   "name": "CSC",
+   "reason": "consulting_advisory",
+   "section": 34
+  },
+  {
+   "name": "Epiq",
+   "reason": "consulting_advisory",
+   "section": 34
+  },
+  {
+   "name": "Forrester",
+   "reason": "consulting_advisory",
+   "section": 32
+  },
+  {
+   "name": "Gallagher",
+   "reason": "consulting_advisory",
+   "section": 4
+  },
+  {
+   "name": "Gartner",
+   "reason": "consulting_advisory",
+   "section": 32
+  },
+  {
+   "name": "Howden",
+   "reason": "consulting_advisory",
+   "section": 4
+  },
+  {
+   "name": "IDC",
+   "reason": "consulting_advisory",
+   "section": 32
+  },
+  {
+   "name": "Kantar",
+   "reason": "consulting_advisory",
+   "section": 32
+  },
+  {
+   "name": "Marsh McLennan",
+   "reason": "consulting_advisory",
+   "section": 4
+  },
+  {
+   "name": "Nielsen",
+   "reason": "consulting_advisory",
+   "section": 32
+  },
+  {
+   "name": "Willis Towers Watson",
+   "reason": "consulting_advisory",
+   "section": 4
+  },
+  {
+   "name": "Accenture",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Akkodis",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Alten",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Alvarez & Marsal",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Arthur D. Little",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Atos / Eviden",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Bain & Company",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Boston Consulting Group",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Capgemini",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "CGI",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Deloitte",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "DXC Technology",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Endava",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "EPAM Systems",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Expleo",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "EY",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Globant",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Kearney",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Korn Ferry",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "KPMG",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Luxoft",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "McKinsey & Company",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Mercer",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "NEC",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Oliver Wyman",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Orange Business",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "PwC",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Roland Berger",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Sopra Steria",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "T-Systems",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "WTW",
+   "reason": "consulting_it_services",
+   "section": 21
+  },
+  {
+   "name": "Charles River Laboratories",
+   "reason": "cro_outsourcing",
+   "section": 8
+  },
+  {
+   "name": "Eurofins",
+   "reason": "cro_outsourcing",
+   "section": 8
+  },
+  {
+   "name": "ICON",
+   "reason": "cro_outsourcing",
+   "section": 8
+  },
+  {
+   "name": "Labcorp",
+   "reason": "cro_outsourcing",
+   "section": 8
+  },
+  {
+   "name": "Parexel",
+   "reason": "cro_outsourcing",
+   "section": 8
+  },
+  {
+   "name": "Syneos Health",
+   "reason": "cro_outsourcing",
+   "section": 8
+  },
+  {
+   "name": "Helix Energy Solutions",
+   "reason": "drilling_contractors",
+   "section": 1
+  },
+  {
+   "name": "Transocean",
+   "reason": "drilling_contractors",
+   "section": 1
+  },
+  {
+   "name": "Valaris",
+   "reason": "drilling_contractors",
+   "section": 1
+  },
+  {
+   "name": "AECOM",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Aker Solutions",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Arcadis",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "AtkinsRéalis",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "AVL",
+   "reason": "epc_engineering_services",
+   "section": 10
+  },
+  {
+   "name": "Bechtel",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Bertrandt",
+   "reason": "epc_engineering_services",
+   "section": 10
+  },
+  {
+   "name": "Bilfinger",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Black & Veatch",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Chiyoda Corporation",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "EDAG",
+   "reason": "epc_engineering_services",
+   "section": 10
+  },
+  {
+   "name": "EnerMech",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "ERM",
+   "reason": "epc_engineering_services",
+   "section": 26
+  },
+  {
+   "name": "FEV",
+   "reason": "epc_engineering_services",
+   "section": 10
+  },
+  {
+   "name": "Fluor",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Fugro",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Hyundai Engineering",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Jacobs",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "JGC Corporation",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "KBR",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "McDermott",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Mott MacDonald",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Petrofac",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Ramboll",
+   "reason": "epc_engineering_services",
+   "section": 26
+  },
+  {
+   "name": "Saipem",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Samsung E&A",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Stantec",
+   "reason": "epc_engineering_services",
+   "section": 26
+  },
+  {
+   "name": "Subsea7",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Technip Energies",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Tetra Tech",
+   "reason": "epc_engineering_services",
+   "section": 26
+  },
+  {
+   "name": "Wood",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Worley",
+   "reason": "epc_engineering_services",
+   "section": 1
+  },
+  {
+   "name": "Adani Group",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Birlasoft",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Coforge",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Cyient",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Flipkart",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Freshworks",
+   "reason": "india_origin",
+   "section": 11
+  },
+  {
+   "name": "HCLTech",
+   "reason": "india_origin",
+   "section": 5
+  },
+  {
+   "name": "HGS",
+   "reason": "india_origin",
+   "section": 31
+  },
+  {
+   "name": "IBS Software",
+   "reason": "india_origin",
+   "section": 13
+  },
+  {
+   "name": "IndiGo",
+   "reason": "india_origin",
+   "section": 13
+  },
+  {
+   "name": "Infosys",
+   "reason": "india_origin",
+   "section": 21
+  },
+  {
+   "name": "Intellect Design Arena",
+   "reason": "india_origin",
+   "section": 3
+  },
+  {
+   "name": "KPIT Technologies",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "L&T Technology Services",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "LTIMindtree",
+   "reason": "india_origin",
+   "section": 21
+  },
+  {
+   "name": "Mahindra",
+   "reason": "india_origin",
+   "section": 25
+  },
+  {
+   "name": "Mahindra & Mahindra",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "MakeMyTrip",
+   "reason": "india_origin",
+   "section": 16
+  },
+  {
+   "name": "Mastek",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Mphasis",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Ola Electric",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "OYO",
+   "reason": "india_origin",
+   "section": 16
+  },
+  {
+   "name": "Paytm",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Persistent Systems",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "PhonePe",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Razorpay",
+   "reason": "india_origin",
+   "section": 3
+  },
+  {
+   "name": "Reliance Industries",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Sonata Software",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Swiggy",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Tata Consultancy Services",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Tata Elxsi",
+   "reason": "india_origin",
+   "section": 10
+  },
+  {
+   "name": "Tata Motors",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Tata Steel",
+   "reason": "india_origin",
+   "section": 24
+  },
+  {
+   "name": "TCS",
+   "reason": "india_origin",
+   "section": 21
+  },
+  {
+   "name": "Tech Mahindra",
+   "reason": "india_origin",
+   "section": 21
+  },
+  {
+   "name": "Wipro",
+   "reason": "india_origin",
+   "section": 21
+  },
+  {
+   "name": "Zensar Technologies",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Zoho",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Zomato",
+   "reason": "india_origin",
+   "section": 35
+  },
+  {
+   "name": "Bureau Veritas",
+   "reason": "inspection_certification",
+   "section": 26
+  },
+  {
+   "name": "DNV",
+   "reason": "inspection_certification",
+   "section": 26
+  },
+  {
+   "name": "Intertek",
+   "reason": "inspection_certification",
+   "section": 26
+  },
+  {
+   "name": "SGS",
+   "reason": "inspection_certification",
+   "section": 8
+  },
+  {
+   "name": "Fujitsu",
+   "reason": "it_services",
+   "section": 5
+  },
+  {
+   "name": "Keywords Studios",
+   "reason": "it_services",
+   "section": 18
+  },
+  {
+   "name": "Kyndryl",
+   "reason": "it_services",
+   "section": 11
+  },
+  {
+   "name": "Lufthansa Systems",
+   "reason": "it_services",
+   "section": 13
+  },
+  {
+   "name": "NTT Data",
+   "reason": "it_services",
+   "section": 11
+  },
+  {
+   "name": "CBRE",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Colliers",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Compass Group",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Cushman & Wakefield",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "ISS",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "JLL",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "JLL Technologies",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Johnson Controls",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Knight Frank",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Mace",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Savills",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Siemens Smart Infrastructure",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Sodexo",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Turner & Townsend",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "WSP",
+   "reason": "real_estate_facility_services",
+   "section": 22
+  },
+  {
+   "name": "Allied Universal",
+   "reason": "staffing_security_services",
+   "section": 29
+  },
+  {
+   "name": "Brink’s",
+   "reason": "staffing_security_services",
+   "section": 29
+  },
+  {
+   "name": "Prosegur",
+   "reason": "staffing_security_services",
+   "section": 29
+  },
+  {
+   "name": "Securitas",
+   "reason": "staffing_security_services",
+   "section": 29
+  },
+  {
+   "name": "Verisure",
+   "reason": "staffing_security_services",
+   "section": 29
+  }
+ ]
+}

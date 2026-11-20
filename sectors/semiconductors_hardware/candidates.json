@@ -1,0 +1,298 @@
+{
+ "sector": "semiconductors_hardware",
+ "title": "Semiconductors, electronics, EDA, devices",
+ "tier": 1,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Ansys",
+   "section": 1,
+   "subgroup": "Energy software, industrial automation and operational technology"
+  },
+  {
+   "name": "Garmin",
+   "section": 6,
+   "subgroup": "Space, satellite and geospatial"
+  },
+  {
+   "name": "NXP Semiconductors",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Renesas",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "STMicroelectronics",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "MediaTek",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Arm",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Microchip Technology",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "onsemi",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Seagate",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Sony",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Realtek",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "Rambus",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies"
+  },
+  {
+   "name": "ASML",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Tokyo Electron",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "ASM International",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "SCREEN Semiconductor Solutions",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Entegris",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Teradyne",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Advantest",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Onto Innovation",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Veeco",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Kulicke & Soffa",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials"
+  },
+  {
+   "name": "Synopsys",
+   "section": 7,
+   "subgroup": "Electronic design automation, IP and engineering tools"
+  },
+  {
+   "name": "Cadence Design Systems",
+   "section": 7,
+   "subgroup": "Electronic design automation, IP and engineering tools"
+  },
+  {
+   "name": "Supermicro",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "Lenovo",
+   "section": 7,
+   "subgroup": "AI, GPU systems and data-centre hardware"
+  },
+  {
+   "name": "SanDisk",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Lumentum",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Coherent",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Cerebras Systems",
+   "section": null,
+   "subgroup": "forbes2000_2026"
+  },
+  {
+   "name": "Skyworks Solutions",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Qorvo",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Super Micro Computer",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Amkor Technology",
+   "section": null,
+   "subgroup": "fortune1000"
+  },
+  {
+   "name": "Mettler-Toledo",
+   "section": null,
+   "subgroup": "fortune1000"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Samsung",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Keysight Technologies",
+   "section": 5,
+   "subgroup": "Telecom equipment, networking and telecom software",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "NVIDIA",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Intel",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "AMD",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Texas Instruments",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Micron Technology",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Broadcom",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Marvell",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Analog Devices",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Infineon",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Western Digital",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Monolithic Power Systems",
+   "section": 7,
+   "subgroup": "Chip design, processors, memory and semiconductor companies",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Applied Materials",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Lam Research",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "KLA",
+   "section": 7,
+   "subgroup": "Semiconductor manufacturing equipment and materials",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "Corning",
+   "section": null,
+   "subgroup": "forbes2000_2026",
+   "configured_in": "semiconductors_hardware"
+  },
+  {
+   "name": "ON Semiconductor",
+   "section": null,
+   "subgroup": "fortune1000",
+   "configured_in": "semiconductors_hardware"
+  }
+ ]
+}

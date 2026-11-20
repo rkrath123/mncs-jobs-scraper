@@ -1,0 +1,93 @@
+{
+ "sector": "education_publishing",
+ "title": "Education, publishing, edtech",
+ "tier": 3,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Udemy",
+   "section": 20,
+   "subgroup": ""
+  },
+  {
+   "name": "Chegg",
+   "section": 20,
+   "subgroup": ""
+  },
+  {
+   "name": "ETS",
+   "section": 20,
+   "subgroup": ""
+  },
+  {
+   "name": "Kaplan",
+   "section": 20,
+   "subgroup": ""
+  },
+  {
+   "name": "Oxford University Press",
+   "section": 20,
+   "subgroup": ""
+  },
+  {
+   "name": "Cambridge University Press",
+   "section": 20,
+   "subgroup": ""
+  },
+  {
+   "name": "Nature Portfolio",
+   "section": 20,
+   "subgroup": ""
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Pearson",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "McGraw Hill",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "Wiley",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "Springer Nature",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "Coursera",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "Duolingo",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "Cengage",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  },
+  {
+   "name": "Informa",
+   "section": 20,
+   "subgroup": "",
+   "configured_in": "education_publishing"
+  }
+ ]
+}

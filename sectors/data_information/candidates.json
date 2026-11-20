@@ -1,0 +1,55 @@
+{
+ "sector": "data_information",
+ "title": "Data, analytics, information services, legal tech",
+ "tier": 2,
+ "rule": "product_based_only",
+ "candidates": [
+  {
+   "name": "Elsevier",
+   "section": 8,
+   "subgroup": "Clinical research, CRO, laboratory and healthcare data"
+  },
+  {
+   "name": "LexisNexis",
+   "section": 32,
+   "subgroup": ""
+  },
+  {
+   "name": "Relativity",
+   "section": 34,
+   "subgroup": "Legal technology and compliance"
+  }
+ ],
+ "configured_elsewhere": [
+  {
+   "name": "Wolters Kluwer",
+   "section": 8,
+   "subgroup": "Clinical research, CRO, laboratory and healthcare data",
+   "configured_in": "fintech"
+  },
+  {
+   "name": "Thomson Reuters",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "data_information"
+  },
+  {
+   "name": "RELX",
+   "section": 11,
+   "subgroup": "Enterprise software, SaaS and business applications",
+   "configured_in": "data_information"
+  },
+  {
+   "name": "Verisk",
+   "section": 32,
+   "subgroup": "",
+   "configured_in": "data_information"
+  },
+  {
+   "name": "Clarivate",
+   "section": 32,
+   "subgroup": "",
+   "configured_in": "data_information"
+  }
+ ]
+}

@@ -1,0 +1,366 @@
+{
+ "workday": [
+  {
+   "name": "Shell",
+   "host": "shell.wd3.myworkdayjobs.com",
+   "tenant": "shell",
+   "site": "ShellCareers"
+  },
+  {
+   "name": "BP",
+   "host": "bpinternational.wd3.myworkdayjobs.com",
+   "tenant": "bpinternational",
+   "site": "bpCareers"
+  },
+  {
+   "name": "Chevron",
+   "host": "chevron.wd5.myworkdayjobs.com",
+   "tenant": "chevron",
+   "site": "jobs"
+  },
+  {
+   "name": "Baker Hughes",
+   "host": "bakerhughes.wd5.myworkdayjobs.com",
+   "tenant": "bakerhughes",
+   "site": "BakerHughes"
+  },
+  {
+   "name": "KBR",
+   "host": "kbr.wd5.myworkdayjobs.com",
+   "tenant": "kbr",
+   "site": "KBR_Careers"
+  },
+  {
+   "name": "Fugro",
+   "host": "fugro.wd3.myworkdayjobs.com",
+   "tenant": "fugro",
+   "site": "Careers"
+  },
+  {
+   "name": "Parsons",
+   "host": "parsons.wd5.myworkdayjobs.com",
+   "tenant": "parsons",
+   "site": "Search"
+  },
+  {
+   "name": "Air Products",
+   "host": "airproducts.wd5.myworkdayjobs.com",
+   "tenant": "airproducts",
+   "site": "AP0001"
+  },
+  {
+   "name": "GE Vernova",
+   "host": "gevernova.wd5.myworkdayjobs.com",
+   "tenant": "gevernova",
+   "site": "Vernova_ExternalSite"
+  },
+  {
+   "name": "ABB",
+   "host": "abb.wd3.myworkdayjobs.com",
+   "tenant": "abb",
+   "site": "External_Career_Page"
+  },
+  {
+   "name": "Hitachi Energy",
+   "host": "hitachi.wd1.myworkdayjobs.com",
+   "tenant": "hitachi",
+   "site": "hitachi"
+  },
+  {
+   "name": "Rockwell Automation",
+   "host": "rockwellautomation.wd1.myworkdayjobs.com",
+   "tenant": "rockwellautomation",
+   "site": "External_Rockwell_Automation"
+  },
+  {
+   "name": "Johnson Controls",
+   "host": "jci.wd5.myworkdayjobs.com",
+   "tenant": "jci",
+   "site": "JCI"
+  },
+  {
+   "name": "Caterpillar",
+   "host": "cat.wd5.myworkdayjobs.com",
+   "tenant": "cat",
+   "site": "CaterpillarCareers"
+  },
+  {
+   "name": "Rolls-Royce",
+   "host": "rollsroyce.wd3.myworkdayjobs.com",
+   "tenant": "rollsroyce",
+   "site": "professional"
+  },
+  {
+   "name": "WEG",
+   "host": "weg.wd501.myworkdayjobs.com",
+   "tenant": "weg",
+   "site": "Careers"
+  },
+  {
+   "name": "Fluence Energy",
+   "host": "fluenceenergy.wd12.myworkdayjobs.com",
+   "tenant": "fluenceenergy",
+   "site": "fluenceenergy-jobs"
+  },
+  {
+   "name": "Flowserve",
+   "host": "flowserve.wd1.myworkdayjobs.com",
+   "tenant": "flowserve",
+   "site": "applied"
+  },
+  {
+   "name": "KSB",
+   "host": "ksb.wd3.myworkdayjobs.com",
+   "tenant": "ksb",
+   "site": "KSB_ExternalCareerSite"
+  },
+  {
+   "name": "Xylem",
+   "host": "xylem.wd5.myworkdayjobs.com",
+   "tenant": "xylem",
+   "site": "xylem-careers"
+  },
+  {
+   "name": "Itron",
+   "host": "itron.wd5.myworkdayjobs.com",
+   "tenant": "itron",
+   "site": "Itron"
+  },
+  {
+   "name": "Sulzer",
+   "host": "sulzer.wd502.myworkdayjobs.com",
+   "tenant": "sulzer",
+   "site": "SulzerJobs"
+  },
+  {
+   "name": "Prysmian",
+   "host": "prysmiangroup.wd3.myworkdayjobs.com",
+   "tenant": "prysmiangroup",
+   "site": "Careers"
+  },
+  {
+   "name": "Brookfield",
+   "host": "brookfield.wd5.myworkdayjobs.com",
+   "tenant": "brookfield",
+   "site": "brookfield"
+  },
+  {
+   "name": "AVEVA",
+   "host": "aveva.wd3.myworkdayjobs.com",
+   "tenant": "aveva",
+   "site": "AVEVA_careers"
+  },
+  {
+   "name": "Yokogawa",
+   "host": "yokogawa.wd3.myworkdayjobs.com",
+   "tenant": "yokogawa",
+   "site": "yokogawa-career-site"
+  },
+  {
+   "name": "AspenTech",
+   "host": "aspentech.wd5.myworkdayjobs.com",
+   "tenant": "aspentech",
+   "site": "AspenTech"
+  },
+  {
+   "name": "Bentley Systems",
+   "host": "bentleysystems.wd5.myworkdayjobs.com",
+   "tenant": "bentleysystems",
+   "site": "bentley"
+  },
+  {
+   "name": "PTC",
+   "host": "ptc.wd1.myworkdayjobs.com",
+   "tenant": "ptc",
+   "site": "PTC"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Technip Energies",
+   "host": "hcxg.fa.em2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "DNV",
+   "host": "ecyq.fa.em2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Intertek",
+   "host": "hcog.fa.em2.oraclecloud.com",
+   "site": "CX_2001"
+  },
+  {
+   "name": "Intertek",
+   "host": "hcog.fa.em2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Wood",
+   "host": "ehif.fa.em2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Honeywell",
+   "host": "ibqbjb.fa.ocs.oraclecloud.com",
+   "site": "Honeywell"
+  },
+  {
+   "name": "Emerson",
+   "host": "hdjq.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Cummins",
+   "host": "fa-espx-saasfaprod1.fa.ocs.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "NOV",
+   "host": "egay.fa.us6.oraclecloud.com",
+   "site": "CX_2001"
+  },
+  {
+   "name": "Oceaneering",
+   "host": "ebfr.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Vertiv",
+   "host": "egup.fa.us2.oraclecloud.com",
+   "site": "CX"
+  },
+  {
+   "name": "ABS",
+   "host": "hbbq.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "UL Solutions",
+   "host": "fa-eups-saasfaprod1.fa.ocs.oraclecloud.com",
+   "site": "ULSolutionsCareers"
+  },
+  {
+   "name": "First Solar",
+   "host": "fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com",
+   "site": "CX_2001"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "ExxonMobil",
+   "host": "jobs.exxonmobil.com"
+  },
+  {
+   "name": "Halliburton",
+   "host": "jobs.halliburton.com"
+  },
+  {
+   "name": "TechnipFMC",
+   "host": "careers.technipfmc.com"
+  },
+  {
+   "name": "Bureau Veritas",
+   "host": "careers.bureauveritas.com"
+  },
+  {
+   "name": "TÜV SÜD",
+   "host": "jobs.tuvsud.com"
+  },
+  {
+   "name": "Danfoss",
+   "host": "jobs.danfoss.com"
+  },
+  {
+   "name": "Alstom",
+   "host": "jobsearch.alstom.com"
+  },
+  {
+   "name": "Vestas",
+   "host": "careers.vestas.com"
+  },
+  {
+   "name": "Wärtsilä",
+   "host": "careers.wartsila.com"
+  },
+  {
+   "name": "ENGIE",
+   "host": "jobs.engie.com"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Eaton",
+   "host": "eaton.eightfold.ai",
+   "domain": "eaton.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Worley",
+   "host": "jobs.worley.com",
+   "domain": "worley.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Fluor",
+   "host": "fluor.eightfold.ai",
+   "domain": "fluor.com"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "Schneider Electric",
+   "host": "careers.se.com"
+  }
+ ],
+ "greenhouse": [
+  {
+   "name": "Cognite",
+   "board": "cognite"
+  }
+ ],
+ "smartrecruiters": [
+  {
+   "name": "SGS",
+   "company_id": "sgs"
+  }
+ ],
+ "manual": [
+  {
+   "name": "SLB",
+   "platform": "In-house (no public API found)",
+   "url": "https://careers.slb.com/job-listing"
+  },
+  {
+   "name": "TotalEnergies",
+   "platform": "Avature (not supported yet)",
+   "url": "https://totalenergies.avature.net/en_US/careers/SearchJobs"
+  },
+  {
+   "name": "Jacobs",
+   "platform": "Avature (not supported yet)",
+   "url": "https://careers.jacobs.com/en_US/careers/SearchJobs"
+  },
+  {
+   "name": "Siemens Energy",
+   "platform": "In-house (site unreachable from scraper)",
+   "url": "https://jobs.siemens-energy.com"
+  },
+  {
+   "name": "Siemens",
+   "platform": "In-house (site unreachable from scraper)",
+   "url": "https://jobs.siemens.com"
+  },
+  {
+   "name": "Weatherford",
+   "platform": "Unknown (blocks bots)",
+   "url": "https://careers.weatherford.com"
+  },
+  {
+   "name": "AtkinsRéalis",
+   "platform": "In-house (no public API found)",
+   "url": "https://careers.atkinsrealis.com/en/search-jobs"
+  }
+ ]
+}
