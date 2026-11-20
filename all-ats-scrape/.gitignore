@@ -1,0 +1,7 @@
+output/
+_test/node_modules/
+_test/package-lock.json
+_test/scenarios.json
+_test/test_raw.parquet
+_test/_chrome/
+__pycache__/
