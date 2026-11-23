@@ -130,6 +130,15 @@ class IndiaFilter(unittest.TestCase):
         self.assertEqual(applied, {"locations": ["H", "P"]})
         self.assertEqual(total, 3)
 
+    def test_state_or_site_code_without_city_or_country(self):
+        state = [{"facetParameter": "locations", "descriptor": "Locations", "values": [
+            {"descriptor": "Telangana (Sandoz)", "id": "T", "count": 49}, {"descriptor": "Basel (Sandoz)", "id": "B", "count": 9}]}]
+        self.assertEqual(w.india_filter(state), ({"locations": ["T"]}, 49))
+        code = [{"facetParameter": "locations", "descriptor": "Locations", "values": [
+            {"descriptor": "IN-BLR-BCPV", "id": "1", "count": 8}, {"descriptor": "IN-HYD-SAR1", "id": "2", "count": 24},
+            {"descriptor": "US-CHI-CARP210", "id": "3", "count": 5}, {"descriptor": "Merrillville IN-SLC", "id": "4", "count": 7}]}]
+        self.assertEqual(w.india_filter(code), ({"locations": ["1", "2"]}, 32))
+
     def test_indiana_is_not_india(self):
         facets = [{"facetParameter": "locations", "descriptor": "Locations", "values": [
             {"descriptor": "IN - Indianapolis", "id": "I", "count": 5}, {"descriptor": "Indiana", "id": "J", "count": 5}]}]
@@ -296,6 +305,21 @@ class DetailCacheTests(unittest.TestCase):
             self.assertEqual(c2.get("u"), {"a": 1})
             c2.close()
 
+    def test_site_filter_roundtrip_expiry_and_off_switch(self):
+        c = w.DetailCache(":memory:", site_ttl_days=1)
+        self.assertIsNone(c.get_site("api"))
+        c.put_site("api", {"locationCountry": ["IN"]})
+        c.put_site("none", {})                                       # "no India jobs" is remembered too
+        self.assertEqual(c.get_site("api"), {"locationCountry": ["IN"]})
+        self.assertEqual(c.get_site("none"), {})
+        with mock.patch.object(w.time, "time", return_value=w.time.time() + 2 * 86400):
+            self.assertIsNone(c.get_site("api"))                     # older than the ttl
+        c.close()
+        off = w.DetailCache(":memory:", site_ttl_days=0)
+        off.put_site("api", {"x": ["1"]})
+        self.assertIsNone(off.get_site("api"))
+        off.close()
+
 
 class ScrapeSite(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -371,6 +395,46 @@ class ScrapeSite(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(await self.scraper(handler).scrape_site(SITE), [])
         self.assertEqual(detail_calls, [])
 
+    async def test_cached_site_filter_skips_the_probe(self):
+        probes = []
+        base = tenant_handler(jobs={"/job/a1": ("DevOps Engineer", "Posted Today")}, details={"/job/a1": "x"})
+
+        def handler(req):
+            if req.method == "POST" and json.loads(req.content)["searchText"] == "":
+                probes.append(req.url.path)
+            return base(req)
+        cache = w.DetailCache(":memory:")
+        first = self.scraper(handler)
+        first.cache = cache
+        second = self.scraper(handler)
+        second.cache = cache
+        j1 = await first.scrape_site(SITE)
+        j2 = await second.scrape_site(SITE)
+        self.assertEqual(len(probes), 1)                            # the second run reused the stored India filter
+        self.assertEqual(second.stats["site_cache_hits"], 1)
+        self.assertEqual([j.title for j in j1], [j.title for j in j2])
+        cache.close()
+
+    async def test_site_without_india_is_remembered_and_dead_site_is_not(self):
+        calls = []
+        no_india = tenant_handler(jobs={}, details={}, facets=[])
+        cache = w.DetailCache(":memory:")
+
+        def handler(req):
+            calls.append(req.url.path)
+            return no_india(req)
+        for _ in range(2):
+            s = self.scraper(handler)
+            s.cache = cache
+            self.assertEqual(await s.scrape_site(SITE), [])
+        self.assertEqual(len(calls), 1)                             # "no India jobs" was cached after the first probe
+        dead = self.scraper(lambda req: httpx.Response(422))
+        dead.cache = cache
+        other = w.Site("Dead", "https://d.wd1.myworkdayjobs.com/X", "d", "wd1", "X")
+        await dead.scrape_site(other)
+        self.assertIsNone(cache.get_site(other.api))                # a failed probe is never cached
+        cache.close()
+
     async def test_site_without_india_jobs_is_skipped_after_the_probe(self):
         searched = []
         base = tenant_handler(jobs={}, details={}, facets=[])
@@ -415,7 +479,7 @@ class RunAndOutput(unittest.IsolatedAsyncioTestCase):
     def args(self, csv_path, **kw):
         base = dict(keywords="devops", csv=str(csv_path), company=None, max_sites=None, refresh_csv=False,
                     match="description", concurrency=5, timeout=5.0, no_details=False, days=14, workers=3,
-                    rate=0, retry_passes=2, retry_wait=0, no_cache=True, cache_days=14)
+                    rate=0, retry_passes=2, retry_wait=0, no_cache=True, cache_days=14, site_cache_days=7)
         base.update(kw)
         return argparse.Namespace(**base)
 

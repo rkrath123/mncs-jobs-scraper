@@ -65,7 +65,9 @@ if cli.keywords is not None:
     LABEL = {f"k{i}": t for i, t in enumerate(terms)}
     run_date += "_" + re.sub(r"\W+", "-", "-".join(terms)).strip("-")[:40]
 
-folder = Path("all-ats-scrape/output") / run_date
+BASE_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = BASE_DIR / "output"
+folder = OUTPUT_DIR / run_date
 raw_path = folder / "india_raw.parquet"
 if BUILD_ONLY and not raw_path.exists():
     ap.error(f"--build-only needs {raw_path}, which doesn't exist. Run without --build-only first "
@@ -141,10 +143,10 @@ if not BUILD_ONLY:
 
 # ---------------------------------------------------------------- 2. build report
 # The Stapply dataset has no posting date for some ATSs, but each job's own page does. Look each one up once
-# (curl: Workday throttles Python's urllib but not curl) and remember it in all-ats-scrape/posted_dates.json. A job's posting
+# (curl: Workday throttles Python's urllib but not curl) and remember it in output/posted_dates.json. A job's posting
 # date never changes, so after the first run only newly seen jobs are looked up.
 # ATSs with no date anywhere (manatal, jobvite, jazzhr, google, ...) stay n/a.
-DATES_CACHE = Path("all-ats-scrape/posted_dates.json")
+DATES_CACHE = OUTPUT_DIR / "posted_dates.json"
 WD_LOCALE = re.compile(r"^[a-z]{2}([-_][A-Za-z]{2})?$")
 # ats_type -> how to read the date from the job's page (regexes tried in order, first match wins)
 PAGE_DATE_ATS = {

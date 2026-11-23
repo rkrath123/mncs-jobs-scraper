@@ -47,9 +47,11 @@ Default keywords: `sre|site reliability,devops|dev ops|devsecops,kubernetes|k8s`
 | `--csv` | `workday.csv` | sites list: a URL or local CSV with `name,url` columns. Default is the local `workday.csv` next to the script, downloaded on first use |
 | `--refresh-csv` | off | download `workday.csv` again from GitHub before running |
 | `--no-details` | off | skip the per-job detail request (faster; location may stay "2 Locations", no description) |
-| `--workers`, `--concurrency` | 25, 25 | parallel sites / in-flight requests (lower them if you see many HTTP 429) |
+| `--workers`, `--concurrency` | 25, 25 | parallel sites / in-flight requests (lower them e.g. `10, 10` if you see many HTTP 429s) |
 | `--rate` | 20 | max requests started per second across all sites (`0` = unlimited). Workday is behind Cloudflare, which rate-limits **per IP for all tenants**: too fast and most sites answer HTTP 429. `--rate` is the ceiling: on HTTP 429 the script pauses every request (10s, doubling up to 120s) **and halves its speed**, then speeds up again after clean requests, so it settles at what Workday currently tolerates (about 10 requests/s in practice) |
-| `--no-cache`, `--cache-days` | off, 14 | posting details (description, location, date) are cached in `~/.cache/mncs-jobs-scraper/workday-details.sqlite`; a repeat run only fetches postings it has not seen. `--cache-days` is how old a cached entry may be |
+| `--cache`, `--no-cache` | `--no-cache` (off) | cache posting details and site India filters in `~/.cache/mncs-jobs-scraper/workday-details.sqlite`. Default is `--no-cache` (100% live probes). Enable with `--cache` to speed up repeat runs and prevent Cloudflare 429s |
+| `--cache-days` | 14 | how old a cached posting detail entry may be when `--cache` is enabled |
+| `--site-cache-days` | 7 | when `--cache` is enabled, a site's India filter (or "no India jobs") is cached too, so a repeat run skips its probe request (~4,400 of 5,300 sites cost 0 requests). Job keyword searches remain 100% live |
 | `--retry-passes`, `--retry-wait` | 2, 60 | sites that failed with a temporary error (429, 5xx, timeout, or only some of their requests) are retried this many times, after this many seconds |
 | `--timeout` | 30 | HTTP timeout in seconds |
 | `--open` | off | open the HTML page in the browser when the run finishes |
@@ -71,20 +73,33 @@ fetches (needed to check keywords in descriptions; Accenture alone has ~800 matc
 over several hosts does not help (tested: the limit is shared by all Workday hosts), so more `--workers` do not either.
 What does help is making fewer requests:
 
-- **Repeat runs are much faster**: posting details are cached (`~/.cache/mncs-jobs-scraper/workday-details.sqlite`, 14 days), so only new postings
-  are fetched. The final log line shows `N more from cache`. Use `--no-cache` to turn it off.
+- **Use `--cache` for fast repeat runs without HTTP 429s**:
+  By default, caching is disabled (`--no-cache`), which probes all 5,300+ sites live on every run. Enabling `--cache` stores the site India filters (7 days) and job details (14 days) in SQLite (`~/.cache/mncs-jobs-scraper/workday-details.sqlite`). Job keyword search is still 100% live on all active sites, but skipping 4,400+ non-India site probes prevents Cloudflare IP rate limits and cuts run time drastically.
 - `-m title` skips the per-job description request (title matches only), and `--no-details` skips the detail request for matches.
 - Fewer keywords and a shorter `-d` window mean fewer requests.
 
 ```bash
-python3 workday_india_jobs.py -k "devops,sre,mlops,kubernetes,AI engineer" --open      # first run: slow, fills the cache
-python3 workday_india_jobs.py -k "devops,sre,mlops,kubernetes,AI engineer" --open      # next runs: only new postings are fetched
-python3 workday_india_jobs.py -k "devops,sre" --rate 5                                  # gentler
-python3 workday_india_jobs.py -k "devops,sre" -m title --no-details                      # fastest: title match, no detail requests
+# Recommended for routine scraping (fast, avoids 429s, live job search):
+python3 workday_india_jobs.py -k "devops,sre,mlops,kubernetes,AI engineer" --cache --open
+
+# Pure live scan without cache at gentler rate (prevents 429 blocks):
+python3 workday_india_jobs.py -k "devops,sre,kubernetes" --rate 8 --workers 10 --concurrency 10 --open
+
+# Fastest title-only search:
+python3 workday_india_jobs.py -k "devops,sre" -m title --no-details --open
 ```
 
-- A high `--rate` makes HTTP 429 more likely. Sites that still fail after the retry passes are listed in
-  `workday_failed_sites_<stamp>.csv`; re-run them later with `--csv output/<date>/workday_failed_sites_<stamp>.csv`.
+### Handling HTTP 429 Rate Limits
+- **Why it happens**: Workday career sites are hosted behind Cloudflare. Sending thousands of probe requests across 5,300+ domains at high speed (`--rate 20`) can trigger Cloudflare's IP-level rate limiter.
+- **Automatic backoff**: When a 429 occurs, the script automatically pauses all workers for 10s (escalating up to 120s if persistent) and dials down its request rate, retrying any temporarily failed sites at the end of the run (`--retry-passes 2`).
+- **If you see repeated 429s**:
+  1. Add `--cache` to avoid probing 4,400+ foreign sites over and over.
+  2. Or lower concurrency and rate: `--rate 8 --workers 10 --concurrency 10`.
+  3. If Cloudflare issues a hard IP challenge (HTML 429s), leave the IP idle for 30–60 minutes before retrying.
+- Sites that still fail after all retry passes are listed in `workday_failed_sites_<stamp>.csv`; re-run only those failed sites later with:
+  ```bash
+  python3 workday_india_jobs.py -k "<keywords>" --csv output/<date>/workday_failed_sites_<stamp>.csv
+  ```
 
 ## Output (`output/<date>/`)
 
@@ -110,8 +125,9 @@ Each run writes into a folder for the day (for example `output/2026-11-16/`), wi
 
 For every site the script sends one request with no search text and reads the site's **facets**
 (Workday's own filters). It builds an India filter from them: the country value "India", else any
-location value naming India or an Indian city (Bangalore, Bengaluru, Hyderabad, Pune, Gurgaon,
-Gurugram, Noida, Chennai, Mumbai and more), else any value containing the word India (for example a
+location value naming India, an Indian city (Bangalore, Bengaluru, Hyderabad, Pune, Gurgaon,
+Gurugram, Noida, Chennai, Mumbai and more), an Indian state (Telangana, Karnataka ...) or an `IN-<city code>-...`
+site code (for example `IN-BLR-BCPV`), else any value containing the word India (for example a
 hiring entity "... India Private Limited"). Sites with no India jobs stop there. For the others each
 keyword is searched with that filter, results are checked against the keywords and the 14-day window,
 and the posting detail is fetched for the matches (full location list, exact date, description).
@@ -145,7 +161,7 @@ Each of those runs writes its own result files. Discovery results (`discovered_s
 
 ## Unit tests
 
-Offline (HTTP is faked, no Workday requests), 44 tests:
+Offline (HTTP is faked, no Workday requests), 48 tests:
 
 ```bash
 cd ATS/workday-india-jobs && python3 -m unittest discover -s tests -v

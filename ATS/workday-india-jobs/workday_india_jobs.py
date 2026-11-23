@@ -67,9 +67,17 @@ INDIA_CITIES = [
     "Guwahati", "Patna", "Ranchi", "Dehradun", "Goa", "Pondicherry", "Puducherry", "Sriperumbudur",
     "Oragadam", "Tirupati", "Hosur", "Whitefield", "Electronic City",
 ]
+# Some tenants list only a state ("Telangana (Sandoz)") or a site code ("IN-HYD-SAR1") instead of a city or "India".
+# Only names that are not also a US/other place; deliberately not in INDIA_CITIES (that list feeds the city filter).
+INDIA_STATES = [
+    "Karnataka", "Maharashtra", "Tamil Nadu", "Telangana", "Andhra Pradesh", "Uttar Pradesh", "West Bengal",
+    "Gujarat", "Rajasthan", "Kerala", "Haryana", "Madhya Pradesh", "Odisha", "Orissa", "Jharkhand", "Chhattisgarh",
+    "Uttarakhand", "Himachal Pradesh", "Bihar",
+]
 INDIA_LOCATION_RE = re.compile(
-    r"(?<![A-Za-z])(?:" + "|".join(re.escape(c) for c in INDIA_CITIES) + r")(?![A-Za-z])"
-    r"|^(?-i:IND)(?:[\s\-_,:]|$)",  # not bare "IN": that is Indiana ("IN - Indianapolis")
+    r"(?<![A-Za-z])(?:" + "|".join(re.escape(c) for c in INDIA_CITIES + INDIA_STATES) + r")(?![A-Za-z])"
+    r"|^(?-i:IND)(?:[\s\-_,:]|$)"  # not bare "IN": that is Indiana ("IN - Indianapolis")
+    r"|^(?-i:IN)[-_](?:BLR|HYD|GUR|GGN|PUN|PNQ|MUM|BOM|MAA|NOI|DEL|CCU|AMD|COK|JAI)(?![A-Za-z])",  # "IN-BLR-BCPV"
     re.IGNORECASE,
 )
 # facet parameter or label that says "this facet lists places" (some tenants name the parameter "a", "b", ...)
@@ -233,15 +241,36 @@ def india_filter(facets: list[dict]) -> tuple[dict[str, list[str]], int]:
 class DetailCache:
     """On-disk cache of fetched posting details (location, date, req id, description), keyed by posting URL.
     Most requests of a run are these per-job fetches and postings stay online for weeks, so a repeat run only
-    fetches postings it has not seen before. Entries older than `ttl_days` are ignored."""
+    fetches postings it has not seen before. Entries older than `ttl_days` are ignored.
 
-    def __init__(self, path: Path | str, ttl_days: int = 14):
+    It also remembers each site's India filter for `site_ttl_days` (0 = off). The probe that finds it is one request
+    for every one of the ~5,400 sites on every run, and Cloudflare throttles this IP by total request volume, so a
+    repeat run skips it for sites checked recently (including sites with no India jobs)."""
+
+    def __init__(self, path: Path | str, ttl_days: int = 14, site_ttl_days: int = 7):
         self.ttl = ttl_days * 86400
+        self.site_ttl = site_ttl_days * 86400
         if str(path) != ":memory:":
             Path(path).parent.mkdir(parents=True, exist_ok=True)
         self.db = sqlite3.connect(str(path))
         self._pending = 0
         self.db.execute("CREATE TABLE IF NOT EXISTS detail (url TEXT PRIMARY KEY, fetched REAL, data BLOB)")
+        self.db.execute("CREATE TABLE IF NOT EXISTS site (api TEXT PRIMARY KEY, fetched REAL, applied TEXT)")
+
+    def get_site(self, api: str) -> dict | None:
+        """The cached India filter of a site ({} = no India jobs), or None when unknown or too old."""
+        row = self.db.execute("SELECT fetched, applied FROM site WHERE api=?", (api,)).fetchone()
+        if not self.site_ttl or not row or time.time() - row[0] > self.site_ttl:
+            return None
+        try:
+            return json.loads(row[1])
+        except ValueError:
+            return None
+
+    def put_site(self, api: str, applied: dict) -> None:
+        if self.site_ttl:
+            self.db.execute("INSERT OR REPLACE INTO site VALUES (?, ?, ?)", (api, time.time(), json.dumps(applied)))
+            self._saved()
 
     def get(self, url: str) -> dict | None:
         row = self.db.execute("SELECT fetched, data FROM detail WHERE url=?", (url,)).fetchone()
@@ -255,6 +284,9 @@ class DetailCache:
     def put(self, url: str, data: dict) -> None:
         self.db.execute("INSERT OR REPLACE INTO detail VALUES (?, ?, ?)",
                         (url, time.time(), zlib.compress(json.dumps(data).encode("utf-8"))))
+        self._saved()
+
+    def _saved(self) -> None:
         self._pending += 1
         if self._pending >= 200:  # save regularly: an interrupted run keeps what it fetched
             self.db.commit()
@@ -262,6 +294,7 @@ class DetailCache:
 
     def close(self) -> None:
         self.db.execute("DELETE FROM detail WHERE fetched < ?", (time.time() - self.ttl,))
+        self.db.execute("DELETE FROM site WHERE fetched < ?", (time.time() - max(self.site_ttl, 86400),))
         self.db.commit()
         self.db.close()
 
@@ -299,7 +332,8 @@ class Scraper:
         self._penalty = 0.0
         self.failed: list[tuple[Site, str]] = []
         self.stats = {"sites": 0, "dead": 0, "no_india": 0, "with_india": 0, "errors": 0, "jobs": 0,
-                      "req_probe": 0, "req_search": 0, "req_detail": 0, "cache_hits": 0, "http_429": 0}
+                      "req_probe": 0, "req_search": 0, "req_detail": 0, "cache_hits": 0, "http_429": 0,
+                      "site_cache_hits": 0}
 
     async def close(self) -> None:
         await self.client.aclose()
@@ -431,12 +465,18 @@ class Scraper:
 
     async def scrape_site(self, site: Site) -> list[Job]:
         self.stats["sites"] += 1
-        probe, reason = await self._search(site, {}, "", 0, 1)
-        if probe is None:
-            self.stats["dead"] += 1
-            self.failed.append((site, reason))
-            return []
-        applied, india_count = india_filter(probe.get("facets") or [])
+        applied = self.cache.get_site(site.api) if self.cache else None
+        if applied is None:
+            probe, reason = await self._search(site, {}, "", 0, 1)
+            if probe is None:
+                self.stats["dead"] += 1
+                self.failed.append((site, reason))
+                return []
+            applied, _ = india_filter(probe.get("facets") or [])
+            if self.cache:
+                self.cache.put_site(site.api, applied)
+        else:
+            self.stats["site_cache_hits"] += 1
         if not applied:
             self.stats["no_india"] += 1
             return []
@@ -527,7 +567,9 @@ async def run(args: argparse.Namespace) -> tuple[list[Job], list[tuple[Site, str
         sites = sites[: args.max_sites]
     log(f"{len(sites)} Workday sites | keywords={keywords} | match={args.match} | last {args.days or 'all'} days")
 
-    cache = None if args.no_cache else DetailCache(CACHE_PATH, ttl_days=args.cache_days)
+    use_cache = getattr(args, "cache", False) if hasattr(args, "cache") else not getattr(args, "no_cache", True)
+    cache = DetailCache(CACHE_PATH, ttl_days=args.cache_days,
+                        site_ttl_days=args.site_cache_days) if use_cache else None
     scraper = Scraper(keywords, args.match, args.concurrency, args.timeout, not args.no_details, args.days,
                       rate=args.rate, cache=cache)
     results: list[Job] = []
@@ -582,8 +624,9 @@ async def run(args: argparse.Namespace) -> tuple[list[Job], list[tuple[Site, str
         if cache:
             cache.close()
     st = scraper.stats
-    log(f"requests: {st['req_probe']} probes, {st['req_search']} searches, {st['req_detail']} job details "
-        f"({st['cache_hits']} more from cache), {st['http_429']} HTTP 429 | {time.monotonic() - started:.0f}s")
+    log(f"requests: {st['req_probe']} probes ({st['site_cache_hits']} more from cache), {st['req_search']} searches, "
+        f"{st['req_detail']} job details ({st['cache_hits']} more from cache), {st['http_429']} HTTP 429 | "
+        f"{time.monotonic() - started:.0f}s")
 
     # the same posting is often listed on several sites of one tenant: keep one copy
     unique: dict[tuple[str, str], Job] = {}
@@ -762,10 +805,13 @@ def main() -> None:
                     help="max requests started per second across all sites (default 20, 0 = unlimited). "
                          "Workday rate-limits per IP: too fast and most sites answer HTTP 429; the script "
                          "slows itself down on a 429, so this is a ceiling")
-    ap.add_argument("--no-cache", action="store_true",
-                    help="do not read or write the posting-detail cache (~/.cache/mncs-jobs-scraper/workday-details.sqlite)")
+    ap.add_argument("--cache", action=argparse.BooleanOptionalAction, default=False,
+                    help="read and write the posting-detail and site cache (~/.cache/mncs-jobs-scraper/workday-details.sqlite) (default: false / no-cache)")
     ap.add_argument("--cache-days", type=int, default=14,
                     help="reuse cached posting details up to N days old (default 14)")
+    ap.add_argument("--site-cache-days", type=int, default=7,
+                    help="reuse a site's cached India filter up to N days old, skipping its probe request "
+                         "(default 7, 0 = probe every site every run)")
     ap.add_argument("--retry-passes", type=int, default=2,
                     help="how many times to retry sites that failed with a temporary error (default 2, 0 = off)")
     ap.add_argument("--retry-wait", type=int, default=60, help="seconds to wait before a retry pass (default 60)")
