@@ -68,11 +68,12 @@ with a **Sector** dropdown (plus the usual company / city / keyword / age filter
 or limit the run on the command line:
 
 ```bash
-python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops" --show-all --open   # all sectors, one report
+python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops" --open               # all sectors, one report (default: shows all matches)
 python3 scrape_all.py --keywords "java,testing" --title-only --open                # only titles that contain a keyword
-python3 scrape_all.py --keywords sre --sectors cybersecurity,fintech,software_cloud --show-all
+python3 scrape_all.py --keywords sre --sectors cybersecurity,fintech,software_cloud # specific sectors
 python3 scrape_all.py --keywords sre --skip-sectors energy,fintech                 # everything except these
-python3 scrape_all.py --help-engine                           # the other options (same as scrape_sector.py)
+python3 scrape_all.py --keywords sre --new-only                                    # report only newly seen jobs
+python3 scrape_all.py --help-engine                                                # the other options (same as scrape_sector.py)
 ```
 
 Sites that fail (HTTP 521/5xx, DNS errors) are retried once after 20 s (`--retry-failed N`, `--retry-wait S`). Any that

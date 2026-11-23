@@ -1085,8 +1085,10 @@ def main(sector, config, output_dir):
                     help="keep only jobs whose title contains a keyword, skill or title word")
     ap.add_argument("--remote-only", action="store_true",
                     help="keep only remote / work-from-home jobs (found in the title, location or description)")
-    ap.add_argument("--show-all", action="store_true",
-                    help="report every match, not only jobs not seen in earlier runs")
+    ap.add_argument("--show-all", action=argparse.BooleanOptionalAction, default=True,
+                    help="report every match (default: true; pass --no-show-all or --new-only for only newly seen jobs)")
+    ap.add_argument("--new-only", dest="show_all", action="store_false",
+                    help="report only jobs not seen in earlier runs")
     ap.add_argument("--companies", default="", help="comma separated company-name filter")
     ap.add_argument("--config", default=str(config))
     ap.add_argument("--output-dir", default=str(output_dir))

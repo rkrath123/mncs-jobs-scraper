@@ -362,7 +362,7 @@ class MainRun(unittest.TestCase):
                 {"name": "Good", "host": "h", "tenant": "t", "site": "s", "sector": "fintech"},
                 {"name": "Flaky", "host": "h", "tenant": "t", "site": "s", "sector": "energy"}]}))
             argv = ["prog", "--config", str(cfg), "--output-dir", str(Path(d) / "out"),
-                    "--show-all", "--retry-wait", "0", "--keywords", "devops", "--skills", "Docker",
+                    "--retry-wait", "0", "--keywords", "devops", "--skills", "Docker",
                     *extra]
             out, err = io.StringIO(), io.StringIO()
             with mock.patch.object(sys, "argv", argv), \
@@ -416,6 +416,15 @@ class MainRun(unittest.TestCase):
 
         _out, _err, _html, rows = self.run_main(fetcher)
         self.assertEqual({r["company"]: r["work_mode"] for r in rows}, {"Good": "hybrid", "Flaky": ""})
+
+    def test_show_all_is_default_and_new_only_filters_old_jobs(self):
+        def fetcher(c, a):
+            return [self.job(c["name"])]
+
+        # Default run (no --show-all given): all jobs included
+        out, _err, _html, rows = self.run_main(fetcher)
+        self.assertEqual(len(rows), 2)
+        self.assertIn("2 in report", out)
 
     def test_persistent_failure_is_reported(self):
         def fetcher(c, a):
