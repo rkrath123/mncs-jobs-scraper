@@ -1,0 +1,57 @@
+name: Scrape jobs and publish report
+
+on:
+  schedule:
+    # twice a day: 09:00 IST and 18:00 IST (cron is UTC)
+    - cron: "30 3 * * *"
+    - cron: "30 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The gh-pages branch holds the published site and the "already seen" state.
+      - name: Restore previous site and state
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git clone --depth 1 --branch gh-pages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" site
+            rm -rf site/.git
+          else
+            mkdir site
+          fi
+          if [ -f site/state/seen_jobs.json ]; then
+            mkdir -p output/all
+            cp site/state/seen_jobs.json output/all/seen_jobs.json
+          fi
+
+      - name: Scrape
+        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops" --show-all --open
+
+      - name: Build site
+        run: python3 tools/build_site.py site --keep-days 30
+
+      # Single commit, force-pushed, so the branch does not grow with every run.
+      - name: Publish to gh-pages
+        working-directory: site
+        run: |
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Report $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
