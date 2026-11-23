@@ -1,0 +1,81 @@
+name: ATS report (Stapply dataset) and publish
+
+on:
+  schedule:
+    # twice a day: 10:00 IST and 19:00 IST (cron is UTC); one hour after the other workflow
+    - cron: "30 4 * * *"
+    - cron: "30 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Same group as scrape.yml: both workflows publish to gh-pages, so they must not run at the same time.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  ats-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: Asia/Kolkata  # report times and "today" use IST
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python3 -m pip install duckdb pandas pyarrow
+
+      # The gh-pages branch holds the published site; the posted-dates cache is kept in it between runs.
+      - name: Restore previous site and cache
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git clone --depth 1 --branch gh-pages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" site
+            rm -rf site/.git
+          else
+            mkdir site
+          fi
+          if [ -f site/ats/state/posted_dates.json ]; then
+            cp site/ats/state/posted_dates.json all-ats-scrape/posted_dates.json
+          fi
+
+      # Must run from the repository root: the script uses paths like all-ats-scrape/output/
+      - name: Build ATS report
+        run: python3 all-ats-scrape/jobs_report.py -k "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --open
+
+      - name: Add report to site
+        run: |
+          report=$(ls all-ats-scrape/output/*/india_jobs_report.html | head -n 1)
+          day=$(date +%F)
+          mkdir -p site/ats/reports/$day site/ats/state
+          cp "$report" site/ats/index.html
+          cp "$report" site/ats/reports/$day/india_jobs_report.html
+          cp all-ats-scrape/posted_dates.json site/ats/state/posted_dates.json
+          # keep the last 30 days
+          ls -d site/ats/reports/*/ | sort | head -n -30 | xargs -r rm -rf
+          {
+            echo '<!doctype html><meta charset="utf-8"><title>ATS reports</title>'
+            echo '<body style="font-family:sans-serif;max-width:640px;margin:2em auto"><h1>ATS reports</h1>'
+            echo '<p><a href="../">Latest ATS report</a></p><ul>'
+            for d in $(ls site/ats/reports | grep -v index.html | sort -r); do
+              echo "<li><a href=\"$d/india_jobs_report.html\">$d</a></li>"
+            done
+            echo '</ul></body>'
+          } > site/ats/reports/index.html
+          touch site/.nojekyll
+
+      # Single commit, force-pushed, so the branch does not grow with every run.
+      - name: Publish to gh-pages
+        working-directory: site
+        run: |
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "ATS report $(date +'%Y-%m-%d %H:%M %Z')"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
