@@ -18,6 +18,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      TZ: Asia/Kolkata  # report times and "today" use IST
     steps:
       - uses: actions/checkout@v4
 
@@ -40,7 +42,7 @@ jobs:
           fi
 
       - name: Scrape
-        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops" --show-all --open
+        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --show-all --open
 
       - name: Build site
         run: python3 tools/build_site.py site --keep-days 30
@@ -53,5 +55,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -q -m "Report $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -q -m "Report $(date +'%Y-%m-%d %H:%M %Z')"
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
