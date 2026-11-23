@@ -1047,7 +1047,7 @@ def write_html(path, jobs, manual, today, a, errors=None):
     """Self-contained, sortable and filterable report with clickable links."""
     fields = ("sector", "company", "title", "location", "posted", "age_days", "relevance", "platform",
               "work_mode", "url", "first_seen")
-    data = {"today": today, "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+    data = {"today": today, "generated": datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %Z"),
             "manual": manual, "failed": errors or {},
             "jobs": [{**{k: j.get(k) for k in fields}, "matched": sorted(j["matched"]),
                       "cities": cities_of(j["location"], a)}
