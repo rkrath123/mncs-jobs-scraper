@@ -1,0 +1,87 @@
+name: Workday India jobs and publish
+
+on:
+  schedule:
+    # twice a day: 11:00 IST and 20:00 IST (cron is UTC); staggered after the other workflows
+    - cron: "30 5 * * *"
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Same group as the other workflows: all of them publish to gh-pages, so they must not run at the same time.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  workday:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      TZ: Asia/Kolkata  # report times and "today" use IST
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python3 -m pip install httpx
+
+      # Posting-detail cache of earlier runs (the script reuses entries up to 14 days old), so later runs are much faster.
+      - name: Restore posting-detail cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/mncs-jobs-scraper
+          key: workday-details-${{ github.run_id }}
+          restore-keys: workday-details-
+
+      - name: Restore previous site
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git clone --depth 1 --branch gh-pages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" site
+            rm -rf site/.git
+          else
+            mkdir site
+          fi
+
+      - name: Run Workday scraper
+        working-directory: ATS/workday-india-jobs
+        run: python3 workday_india_jobs.py -k "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --open
+
+      - name: Add report to site
+        run: |
+          out=ATS/workday-india-jobs/output/$(date +%F)
+          report=$(ls -t $out/workday_india_jobs_*.html | head -n 1)
+          csv=$(ls -t $out/workday_india_jobs_*.csv | head -n 1)
+          day=$(date +%F)
+          mkdir -p site/workday/reports/$day
+          cp "$report" site/workday/index.html
+          cp "$report" site/workday/reports/$day/workday_india_jobs.html
+          cp "$csv" site/workday/reports/$day/workday_india_jobs.csv
+          # keep the last 30 days
+          ls -d site/workday/reports/*/ | sort | head -n -30 | xargs -r rm -rf
+          {
+            echo '<!doctype html><meta charset="utf-8"><title>Workday reports</title>'
+            echo '<body style="font-family:sans-serif;max-width:640px;margin:2em auto"><h1>Workday reports</h1>'
+            echo '<p><a href="../">Latest Workday report</a></p><ul>'
+            for d in $(ls site/workday/reports | grep -v index.html | sort -r); do
+              echo "<li><a href=\"$d/workday_india_jobs.html\">$d</a> (<a href=\"$d/workday_india_jobs.csv\">csv</a>)</li>"
+            done
+            echo '</ul></body>'
+          } > site/workday/reports/index.html
+          touch site/.nojekyll
+
+      # Single commit, force-pushed, so the branch does not grow with every run.
+      - name: Publish to gh-pages
+        working-directory: site
+        run: |
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Workday report $(date +'%Y-%m-%d %H:%M %Z')"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
