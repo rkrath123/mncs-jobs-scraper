@@ -1,4 +1,4 @@
-name: ATS report (Stapply dataset) and publish
+name: scrape_all_ats
 
 on:
   schedule:

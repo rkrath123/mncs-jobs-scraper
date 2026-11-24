@@ -1,4 +1,4 @@
-name: Scrape jobs and publish report
+name: scrape_all_sector
 
 on:
   schedule:
