@@ -2,14 +2,14 @@ name: scrape_all_sector
 
 on:
   schedule:
-    # every two hours at minute 7 (cron is UTC); scheduled runs always use the default branch (Release)
-    - cron: "7 */2 * * *"
+    # every hour at minute 7 (cron is UTC); scheduled runs always use the default branch (Release)
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       publish:
-        description: "Publish to gh-pages (leave off when testing a branch; the report is then kept as a run artifact)"
+        description: "Publish to gh-pages (untick to only keep the report as a run artifact)"
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write
@@ -19,11 +19,52 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # The career sites are scanned by SHARDS parallel jobs, each on its own runner (own IP address, so the
+  # sites' per-IP rate limits are not shared). Every job scans every 4th site and uploads its jobs as JSON.
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
     env:
       TZ: Asia/Kolkata  # report times and "today" use IST
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Only the state file is needed here: it lets a shard skip the job pages an earlier run already read.
+      - name: Restore the "already seen" state
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git clone -q --depth 1 --filter=blob:none --sparse --branch gh-pages "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" site
+            git -C site sparse-checkout set state
+            if [ -f site/state/seen_jobs.json ]; then
+              mkdir -p output/all
+              cp site/state/seen_jobs.json output/all/seen_jobs.json
+            fi
+          fi
+
+      - name: Scrape shard ${{ matrix.shard }}/4
+        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --shard ${{ matrix.shard }}/4 --dump-jobs shards/${{ matrix.shard }}.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: shards/${{ matrix.shard }}.json
+          retention-days: 1
+
+  # One job merges the shards, updates the state, builds the site and publishes it.
+  publish:
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Asia/Kolkata
     steps:
       - uses: actions/checkout@v4
 
@@ -45,8 +86,14 @@ jobs:
             cp site/state/seen_jobs.json output/all/seen_jobs.json
           fi
 
-      - name: Scrape
-        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --open
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          merge-multiple: true
+          path: shards
+
+      - name: Merge the shards into one report
+        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --merge-jobs shards
 
       - name: Build site
         run: python3 tools/build_site.py site --keep-days 30

@@ -136,7 +136,7 @@ python3 scrape_all.py -k "devops,sre" --retry-failed 2 --retry-wait 30          
 
 - The slowest stage is the description fetch (one request per Workday / SmartRecruiters job); `--workers` speeds it up too.
 - Fewer keywords run faster: each keyword is one search per company.
-- Very high worker counts make Workday, Eightfold and Oracle more likely to answer HTTP 429 (not measured here: try 64, then adjust). Failed sites
+- Very high worker counts make Workday, Eightfold and Oracle more likely to answer HTTP 429 (on GitHub Actions 64 workers was slower than 32: more sites rejected requests and had to be retried). Failed sites
   are retried after `--retry-wait` seconds and listed at the end of the run.
 
 ## Keywords and skills
@@ -158,6 +158,24 @@ subprocess) stops with an error.
   on Workday and SmartRecruiters sites. Goldman Sachs, HSBC, Moody's, Citizens and MSCI give no description, so
   only their titles are checked for skills.
 
+## GitHub Actions: sharded run
+
+`.github/workflows/scrape.yml` splits the scan over 4 parallel jobs so that each one has its own runner and IP address
+(the career sites rate-limit per IP, so more workers on one runner did not help):
+
+```bash
+python3 scrape_all.py -k "sre,devops" --shard 0/4 --dump-jobs shards/0.json   # every 4th site, starting at 0; writes JSON only
+python3 scrape_all.py -k "sre,devops" --merge-jobs shards                      # no scraping: merge, update state, write reports
+```
+
+- A shard writes neither the state nor a report; the `publish` job merges the `shards/*.json` files and does both.
+- The description of a job (skills, work mode, posting date) is kept in `seen_jobs.json`, so later runs fetch only the
+  descriptions of new jobs. Changing `--skills` makes every job be read again once.
+- Scheduled and manual runs publish to gh-pages (the `publish` box is ticked by default). Untick it to test a branch
+  without touching the live site: the built site is then kept as the `site` artifact. GitHub's own "pages build and
+  deployment" workflow starts by itself after every push to gh-pages (Settings > Pages > Source: "Deploy from a branch",
+  `gh-pages` / root).
+
 ## Run every day (cron)
 
 ```bash
@@ -174,7 +192,7 @@ crontab -e
 Also supported: **Amazon** (`amazon.jobs` search.json, India = `country=IND`), **Atlassian** (one public JSON
 listing), **Apple** (`jobs.apple.com/api/v1/search`, India = `postLocation-INDC`), **Avature** (Synopsys, Lenovo, Tesco, EA:
 `SearchJobs/<keyword> India` HTML pages), **Cornerstone** (Linde, Henkel: `rec-job-search` API with the token from the
-career page) and **Taleo** (Mercedes-Benz: `rest/jobboard/searchjobs` narrowed by the India location facet), **Google** (the results page embeds the job list as JSON), **Meta** (metacareers GraphQL; the persisted `doc_id` can be overridden in the company entry), **IBM** (`www-api.ibm.com/search/api/v2`) and **SAP** (jobs.sap.com embeds the list; no keyword search, so matched on title and team). Microsoft uses Eightfold `pcsx` with `"delay"`: it answers HTTP 429 every few pages, so a Microsoft scan takes several minutes. Tier-1 sectors use Workday (CrowdStrike, Palo Alto, F5, NVIDIA, Intel, Cisco, Salesforce, Adobe, ...),
+career page) and **Taleo** (Mercedes-Benz: `rest/jobboard/searchjobs` narrowed by the India location facet), **Google** (the results page embeds the job list as JSON), **Meta** (metacareers GraphQL; the persisted `doc_id` can be overridden in the company entry), **IBM** (`www-api.ibm.com/search/api/v2`) and **SAP** (jobs.sap.com embeds the list; no keyword search, so matched on title and team). Microsoft uses Eightfold `pcsx` with `"delay"`: it answers HTTP 429 after 2-3 quick requests, so a site with `"delay"` is searched once with all keywords joined by `OR` (a job's keyword is read from its title, or shown as `(search)`), is never split into parallel chunks, and its requests are spaced `delay` seconds apart. Tier-1 sectors use Workday (CrowdStrike, Palo Alto, F5, NVIDIA, Intel, Cisco, Salesforce, Adobe, ...),
 Greenhouse (Okta, Zscaler, Rubrik, Pure Storage, ...), Jibe (AMD, Keysight, DocuSign, McAfee), Eightfold
 (Qualcomm, Ericsson, Vodafone, Infineon, Applied Materials, Lam Research), Oracle HCM (Oracle, Texas
 Instruments, Fortinet), SuccessFactors (NetApp, BT, CommScope), SmartRecruiters (ServiceNow, Arista, Check Point)
