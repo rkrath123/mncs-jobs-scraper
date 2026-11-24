@@ -222,6 +222,12 @@
    "tenant": "revvity",
    "site": "External",
    "name": "Revvity"
+  },
+  {
+   "host": "bayer.wd103.myworkdayjobs.com",
+   "tenant": "bayer",
+   "site": "Bayer_External_Career_Site",
+   "name": "Bayer"
   }
  ],
  "smartrecruiters": [
@@ -250,10 +256,6 @@
   {
    "name": "B. Braun",
    "host": "jobs.bbraun.com"
-  },
-  {
-   "name": "Bayer",
-   "host": "jobs.bayer.com"
   },
   {
    "name": "Boehringer Ingelheim",
