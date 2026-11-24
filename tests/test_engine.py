@@ -9,6 +9,7 @@ import sys
 import tempfile
 import unittest
 import urllib.error
+import urllib.parse
 from argparse import Namespace
 from contextlib import redirect_stderr, redirect_stdout
 from datetime import date, timedelta
@@ -186,11 +187,12 @@ class JobRecords(unittest.TestCase):
 
     def test_split_terms(self):
         a = args(keywords=[str(i) for i in range(10)])
-        parts = je.split_terms(a, "workday")
+        parts = je.split_terms(a, "workday", {})
         self.assertEqual(sorted(k for p in parts for k in p.keywords), sorted(a.keywords))
         self.assertEqual(len(parts), 4)
-        self.assertEqual(je.split_terms(a, "greenhouse"), [a])
-        self.assertEqual(je.split_terms(args(keywords=["a", "b"]), "workday")[0].keywords, ["a", "b"])
+        self.assertEqual(je.split_terms(a, "greenhouse", {}), [a])
+        self.assertEqual(je.split_terms(a, "eightfold", {"delay": 5}), [a])  # rate-limited: one run
+        self.assertEqual(je.split_terms(args(keywords=["a", "b"]), "workday", {})[0].keywords, ["a", "b"])
 
 
 class Workday(unittest.TestCase):
@@ -409,6 +411,47 @@ class HttpGet(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError):
                 je.http_get("https://x", retries=3)
         self.assertEqual(m.call_count, 3)
+
+
+class RateLimitedEightfold(unittest.TestCase):
+    def test_one_combined_search_and_keywords_read_from_titles(self):
+        calls = []
+
+        def fake(url, delay):
+            calls.append(urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)["query"][0])
+            pos = [{"id": 1, "name": "Senior SRE", "locations": ["Bengaluru, India"], "postedTs": 0,
+                    "canonicalPositionUrl": "https://ms/1"},
+                   {"id": 2, "name": "Cloud Architect", "locations": ["Pune, India"], "postedTs": 0,
+                    "canonicalPositionUrl": "https://ms/2"}]
+            return {"data": {"count": 2, "positions": pos}}
+
+        c = {"name": "Microsoft", "host": "h", "domain": "d", "api": "pcsx", "delay": 5}
+        a = args(keywords=["sre", "devops", "forward deployed engineer"])
+        with mock.patch.object(je, "eightfold_pcsx", side_effect=fake):
+            jobs = je.fetch_eightfold(c, a)
+        self.assertEqual(calls, ['sre OR devops OR "forward deployed engineer"'])
+        by_url = {j["url"]: j for j in jobs}
+        self.assertEqual(by_url["https://ms/1"]["matched"], {"sre"})
+        self.assertEqual(by_url["https://ms/1"]["relevance"], "title")
+        self.assertEqual(by_url["https://ms/2"]["matched"], {je.UNION_TERM})
+
+
+class Pacing(unittest.TestCase):
+    def test_requests_to_one_host_are_spaced_apart_even_from_parallel_threads(self):
+        je._pace_next.clear()
+        sleeps = []
+        with mock.patch.object(je.time, "sleep", side_effect=sleeps.append), \
+                mock.patch.object(je.time, "monotonic", return_value=100.0):
+            for _ in range(4):
+                je.pace("host-a", 5)
+            je.pace("host-b", 5)  # another host is not delayed
+        self.assertEqual(sleeps, [5.0, 10.0, 15.0])
+
+    def test_no_delay_configured_means_no_pacing(self):
+        je._pace_next.clear()
+        with mock.patch.object(je.time, "sleep") as s:
+            je.pace("host-a", 0)
+        s.assert_not_called()
 
 
 class Outputs(unittest.TestCase):

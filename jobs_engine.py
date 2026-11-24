@@ -20,6 +20,7 @@ import json
 import logging
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -396,10 +397,32 @@ def fetch_sf_rss(c, a):
 
 
 # --------------------------------------------------------------------------- Eightfold
+_pace_lock = threading.Lock()
+_pace_next = {}  # host -> earliest time the next request may start
+
+
+def pace(host, gap):
+    """Space requests to one host `gap` seconds apart across all threads (a 429 costs far more
+    than waiting). The slot is reserved under the lock, the sleep happens outside it."""
+    if not gap:
+        return
+    with _pace_lock:
+        now = time.monotonic()
+        slot = max(now, _pace_next.get(host, 0))
+        _pace_next[host] = slot + gap
+    if slot > now:
+        time.sleep(slot - now)
+
+
+UNION_TERM = "(search)"  # keyword of a job found by a combined search whose title names none of them
+
+
 def eightfold_pcsx(url, delay):
-    """pcsx search; sites that rate-limit (Microsoft: HTTP 429 every few pages) set "delay" and get
-    the request repeated after a pause instead of failing the whole site."""
+    """pcsx search; sites that rate-limit (Microsoft: HTTP 429 after 2-3 quick requests) set "delay":
+    requests to the host are spaced `delay` seconds apart, and a 429 is still retried after a pause."""
+    host = urllib.parse.urlsplit(url).netloc
     for attempt in range(6 if delay else 1):
+        pace(host, delay)
         try:
             return http_json(url, retries=1 if delay else 3)
         except urllib.error.HTTPError as e:
@@ -412,7 +435,11 @@ def fetch_eightfold(c, a):
     """Eightfold career sites: HSBC uses the 'apply' API; Eaton, Worley use 'pcsx' (set "api": "pcsx")."""
     host, jobs = c["host"], {}
     pcsx = c.get("api") == "pcsx"
-    for term in a.keywords:
+    # A rate-limited site (Microsoft) gets ONE search for all keywords joined with OR (about 5 requests
+    # instead of 2-3 per keyword); the keyword of each job is then read from its title.
+    union = pcsx and c.get("delay") and len(a.keywords) > 1
+    terms = [" OR ".join(f'"{k}"' if " " in k else k for k in a.keywords)] if union else a.keywords
+    for term in terms:
         start, total = 0, None
         while start < a.max_per_term:
             if pcsx:
@@ -434,15 +461,15 @@ def fetch_eightfold(c, a):
                 created = date.fromtimestamp(ts) if ts else None
                 url = (p.get("canonicalPositionUrl")
                        or f"https://{host}{p.get('positionUrl') or '/careers/job/' + str(p['id'])}")
-                merge(jobs, make_job(
-                    c["name"], "eightfold", p["name"], locs,
-                    created.isoformat() if created else "",
-                    (date.today() - created).days if created else None,
-                    url, p.get("display_job_id") or p.get("displayJobId") or p["id"], term))
+                for t in ((kw_hits(p["name"], a) or [UNION_TERM]) if union else [term]):
+                    merge(jobs, make_job(
+                        c["name"], "eightfold", p["name"], locs,
+                        created.isoformat() if created else "",
+                        (date.today() - created).days if created else None,
+                        url, p.get("display_job_id") or p.get("displayJobId") or p["id"], t))
             start += len(rows) if pcsx else 50
             if not rows or start >= total:
                 break
-            time.sleep(c.get("delay", 0))  # Microsoft answers HTTP 429 to rapid paging
     return list(jobs.values())
 
 
@@ -1277,9 +1304,10 @@ def load_shards(folder):
     return list(merged.values()), n_sites, errors
 
 
-def split_terms(a, kind, parts=4):
+def split_terms(a, kind, c, parts=4):
     """Per-term search sites run the keyword list in parallel chunks; others run once."""
-    if kind in ("greenhouse", "deshaw", "brassring", "lever", "bofa", "atlassian") or len(a.keywords) < 2 * parts:
+    if (kind in ("greenhouse", "deshaw", "brassring", "lever", "bofa", "atlassian") or c.get("delay")
+            or len(a.keywords) < 2 * parts):
         return [a]
     chunks = []
     for i in range(parts):
@@ -1557,7 +1585,7 @@ def main(sector, config, output_dir):
             errors = {}
             with cf.ThreadPoolExecutor(a.workers) as ex:
                 futs = {ex.submit(FETCHERS[k], c, b): c["name"]
-                        for k, c in batch for b in split_terms(a, k)}
+                        for k, c in batch for b in split_terms(a, k, c)}
                 for fut in cf.as_completed(futs):
                     name = futs[fut]
                     try:
