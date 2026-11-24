@@ -34,6 +34,7 @@ except Exception:
     pass
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -129,6 +130,19 @@ def age_from_iso(text):
         return None
 
 
+def iso_date(text):
+    """'2026-11-24...' or 'November 24, 2026' (also 'Nov 24, 2026') -> '2026-11-24'; '' when unreadable."""
+    t = (text or "").strip()
+    if re.match(r"\d{4}-\d{2}-\d{2}", t):
+        return t[:10]
+    for fmt in ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y"):
+        try:
+            return datetime.strptime(t, fmt).date().isoformat()
+        except ValueError:
+            pass
+    return ""
+
+
 LD_POSTED_RE = re.compile(r'"datePosted"\s*:\s*"(\d{4}-\d{2}-\d{2})')
 
 
@@ -136,6 +150,26 @@ def page_posted(page):
     """Posting date from the schema.org JobPosting block of a job page (None when absent)."""
     m = LD_POSTED_RE.search(page or "")
     return datetime.strptime(m.group(1), "%Y-%m-%d").date() if m else None
+
+
+def fill_posted(jobs, query="", headers=None):
+    """Read the posting date from the job page for every job that has none (JSON-LD datePosted);
+    used for the few matches of sites whose search results carry no date. A page that fails or has no
+    date leaves the job undated."""
+    def load(j):
+        try:
+            url = j["url"] + (("&" if "?" in j["url"] else "?") + query if query else "")
+            d = page_posted(http_text(url, headers, retries=2, timeout=20))
+        except Exception as e:
+            log.debug("posting date fetch failed for %s: %s", j["url"], e)
+            return
+        if d:
+            j["posted"], j["age_days"] = d.isoformat(), (date.today() - d).days
+    todo = [j for j in jobs if not j["posted"]]
+    if todo:
+        with cf.ThreadPoolExecutor(8) as ex:
+            list(ex.map(load, todo))
+    return jobs
 
 
 def has_term(text, term):
@@ -355,9 +389,10 @@ def fetch_jibe(c, a):
                 if d.get("country_code") != a.country_code and a.country.lower() not in (
                         (d.get("country") or "") + " " + loc).lower():
                     continue
-                posted = d.get("posted_date") or ""
+                # posted_date is ISO on some sites and "November 24, 2026" on others (Schneider)
+                posted = iso_date(d.get("posted_date")) or iso_date(d.get("create_date"))
                 merge(jobs, make_job(
-                    c["name"], "jibe", d["title"], loc, posted[:10], age_from_iso(posted),
+                    c["name"], "jibe", d["title"], loc, posted, age_from_iso(posted),
                     f"https://{host}/{c.get('job_path', 'jobs')}/{d['slug']}?lang=en-us",
                     d.get("req_id") or d["slug"], term,
                     text=strip_tags(" ".join(d.get(k) or "" for k in (
@@ -512,13 +547,13 @@ def fetch_phenom(c, a):
 GS_QUERY = """query GetRoles($searchQueryInput: RoleSearchQueryInput!) {
   roleSearch(searchQueryInput: $searchQueryInput) {
     totalCount
-    items { roleId jobTitle jobFunction division locations { primary state country city } }
+    items { roleId jobTitle jobFunction division createdDate locations { primary state country city } }
   }
 }"""
 
 
 def fetch_goldman(c, a):
-    """Goldman Sachs: higher.gs.com GraphQL gateway (no posting date is exposed)."""
+    """Goldman Sachs: higher.gs.com GraphQL gateway (createdDate is the posting date)."""
     jobs = {}
     for term in a.keywords:
         page, size = 0, 20
@@ -539,7 +574,8 @@ def fetch_goldman(c, a):
                 loc = "; ".join(", ".join(x for x in (l.get("city"), l.get("state"),
                                                        l.get("country")) if x) for l in locs)
                 rid = it["roleId"]
-                merge(jobs, make_job(c["name"], "goldman", it["jobTitle"], loc, "", None,
+                posted = iso_date(it.get("createdDate"))
+                merge(jobs, make_job(c["name"], "goldman", it["jobTitle"], loc, posted, age_from_iso(posted),
                                      f"https://higher.gs.com/roles/{rid.split('_')[0]}",
                                      rid, term))
             page += 1
@@ -585,7 +621,7 @@ def fetch_radancy(c, a):
                 merge(jobs, make_job(c["name"], "radancy", strip_tags(t.group(1)) if t else "",
                                      loc, posted, age, f"https://{host}{href}", jid, term))
             page += 1
-    return list(jobs.values())
+    return fill_posted(list(jobs.values()))  # Intuit's list has no date; its job pages do
 
 
 # --------------------------------------------------------------------------- iCIMS portal
@@ -853,7 +889,7 @@ def fetch_atlassian(c, a):
         for term in kw_hits(p["title"] + " " + text, a):
             merge(jobs, make_job(c["name"], "atlassian", p["title"], locs, "", None, url, p["id"], term,
                                  text=text))
-    return list(jobs.values())
+    return fill_posted(list(jobs.values()), "in_iframe=1")  # the listing has no date; the iCIMS page has
 
 
 # --------------------------------------------------------------------------- Avature
@@ -881,13 +917,40 @@ def avature_posting(url):
             avature_date(text) or page_posted(page))
 
 
+def avature_feed(base, query, limit=100):
+    """{job id: posted date} from the search's RSS feed. EA's pages show no date, but the feed's
+    <pubDate> carries it. Items have no location, so ids are matched against the list's links."""
+    dates, offset = {}, 0
+    while offset < limit:
+        try:
+            root = ET.fromstring(http_text(f"{base}/SearchJobs/{urllib.parse.quote(query)}/feed/"
+                                           f"?jobRecordsPerPage={limit}&jobOffset={offset}", retries=2))
+        except Exception:  # best effort: a missing feed just leaves the jobs undated
+            break
+        new = 0
+        for item in root.iter("item"):
+            link, pub = item.findtext("link") or "", item.findtext("pubDate") or ""
+            try:
+                day = parsedate_to_datetime(pub).date()
+            except (TypeError, ValueError):
+                continue
+            jid = link.split("?")[0].rstrip("/").rsplit("/", 1)[-1]
+            if jid and jid not in dates:
+                dates[jid], new = day, new + 1
+        if not new:
+            break
+        offset += new
+    return dates
+
+
 def fetch_avature(c, a):
     """Avature career sites (Synopsys, Lenovo, Tesco, EA): server-rendered SearchJobs pages. The
     free-text search also matches the location, so '<keyword> India' lists only India postings;
-    when the list shows no location (Synopsys) the posting pages are read to confirm the country."""
+    when the list shows no location (Synopsys) the posting pages are read to confirm the country.
+    Postings still undated after that (EA) take their date from the search's RSS feed."""
     base, jobs, details = c["base"].rstrip("/"), {}, {}
     for term in a.keywords:
-        offset, seen = 0, set()
+        offset, seen, feed = 0, set(), None
         while offset < a.max_per_term:
             page = http_text(f"{base}/SearchJobs/{urllib.parse.quote(term + ' ' + a.country)}"
                              f"?jobOffset={offset}")
@@ -917,6 +980,10 @@ def fetch_avature(c, a):
                     loc, posted = loc or found_loc, posted or found
                 if not loc_ok(loc, a):
                     continue
+                if not posted:  # EA: only the RSS feed has the date
+                    if feed is None:
+                        feed = avature_feed(base, term + " " + a.country, a.max_per_term)
+                    posted = feed.get(key.rstrip("/").rsplit("/", 1)[-1])
                 body = re.search(r'article__content">(.*?)</div>', block, re.S)
                 merge(jobs, make_job(c["name"], "avature", title, loc,
                                      posted.isoformat() if posted else "",
@@ -1088,7 +1155,7 @@ META_OFFICES = ["Bangalore, India", "Gurgaon, India", "Hyderabad, India", "Mumba
 
 
 def fetch_meta(c, a):
-    """Meta: metacareers.com GraphQL job search (one call returns every match; no posting date).
+    """Meta: metacareers.com GraphQL job search (one call returns every match; the posting date is read from each job page).
     The persisted query id is public but changes now and then: set "doc_id" in the company entry."""
     page = http_text("https://www.metacareers.com/jobs", META_HEADERS)
     lsd = re.search(r'"LSD",\[\],\{"token":"([^"]+)"', page).group(1)
@@ -1113,7 +1180,7 @@ def fetch_meta(c, a):
             merge(jobs, make_job(c["name"], "meta", p["title"], locs, "", None,
                                  f"https://www.metacareers.com/jobs/{p['id']}", p["id"], term,
                                  text=" ".join((p.get("teams") or []) + (p.get("sub_teams") or []))))
-    return list(jobs.values())
+    return fill_posted(list(jobs.values()), headers=META_HEADERS)  # the search result has no date; the job page has
 
 
 # --------------------------------------------------------------------------- IBM
@@ -1430,11 +1497,11 @@ function render() {
     (!city || j.cityList.includes(city)) && (!kw || j.matched.includes(kw)) &&
     (!plat || j.platform === plat) && (!mode || (mode === "onsite" ? !j.work_mode : j.work_mode === mode)) &&
     (!age || (j.age_days !== null && j.age_days <= age)) &&
-    (!q || (j.title + " " + j.company + " " + j.location + " " + j.cityList.join(" ") + " " + j.kw).toLowerCase().includes(q)));
+    (!q || (j.title + " " + j.company + " " + j.location + " " + j.cities.join(" ") + " " + j.kw).toLowerCase().includes(q)));
   if (sortKey) rows.sort((a,b) => {
     let x = a[sortKey], y = b[sortKey];
-    if (sortKey === "age_days") { x = x ?? 999; y = y ?? 999; }
-    return (x < y ? -1 : x > y ? 1 : a.i - b.i) * sortDir; });
+    if (sortKey === "age_days" && (x === null || y === null)) return x === y ? a.i - b.i : x === null ? 1 : -1;  // undated last, either direction
+    return (x < y ? -1 : x > y ? 1 : 0) * sortDir || a.i - b.i; });  // ties keep the report order, either direction
   const body = $("body"); body.innerHTML = "";
   rows.forEach(j => {
     const tr = document.createElement("tr");
@@ -1467,7 +1534,7 @@ if (D.manual.length) {
   const box = $("manual"), h = document.createElement("h2"), ul = document.createElement("ul");
   h.textContent = "Not covered by the scraper - check these career sites manually"; box.append(h, ul);
   D.manual.forEach(m => { const li = document.createElement("li"), a = document.createElement("a");
-    a.textContent = m.name; a.href = m.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+    a.textContent = m.name; if (/^https?:\/\//.test(m.url)) { a.href = m.url; a.target = "_blank"; a.rel = "noopener noreferrer"; }
     li.append(a, " (" + m.platform + (m.sector ? ", " + m.sector.replace(/_/g, " ") : "") + ")"); ul.append(li); });
 }
 render();
@@ -1491,8 +1558,10 @@ def write_html(path, jobs, manual, today, a, errors=None):
                       "cities": cities_of(j["location"], a)}
                      for j in jobs]}
     blob = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")  # keeps </script> and <!-- out of the data
-    html = (HTML_TEMPLATE.replace("__TODAY__", today).replace("__SECTOR__", htmllib.escape(a.sector))
-            .replace("__LABEL__", htmllib.escape(keyword_label(a.keywords))).replace("__DATA__", blob))
+    values = {"TODAY": today, "SECTOR": htmllib.escape(a.sector),
+              "LABEL": htmllib.escape(keyword_label(a.keywords)), "DATA": blob}
+    # one pass, so a keyword or job title that happens to contain "__DATA__" is never substituted again
+    html = re.sub(r"__(TODAY|SECTOR|LABEL|DATA)__", lambda m: values[m.group(1)], HTML_TEMPLATE)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(html, encoding="utf-8")
 
@@ -1615,6 +1684,9 @@ def main(sector, config, output_dir):
         add_skills(jobs, a, state)
         jobs = [j for j in jobs if j["age_days"] is None or j["age_days"] <= a.max_age_days]  # dates found late
         for j in jobs:
+            if j["age_days"] is not None and not ISO_DAY_RE.fullmatch(j["posted"] or ""):
+                # Workday lists "6 Days Ago": show the date that means, so the column is all dates
+                j["posted"] = (date.today() - timedelta(days=j["age_days"])).isoformat()
             j["sector"] = sector_of.get(j["company"], "")
             if "work_mode" not in j:  # cached jobs already carry it
                 j["work_mode"] = work_mode(j)

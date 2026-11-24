@@ -212,7 +212,7 @@ and Lever (Extreme Networks).
 | Radancy (TalentBrew) | Moody's, Citizens, Intuit | | search-results HTML fragment, country matched client side |
 | iCIMS portal | MSCI | | server-rendered search pages |
 | BrassRing | UBS | | `PowerSearchJobs` with the session token from the home page |
-| In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | | Goldman, D. E. Shaw and Intuit give no posting date |
+| In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | | Posting dates: Goldman (`createdDate`), Intuit, Atlassian and Meta (read from the job page) and Electronic Arts (the search's RSS feed `pubDate`; its pages show no date) are dated; D. E. Shaw's jobs have none and sort last |
 | Manual links | Revolut, BNP Paribas (block bots), Societe Generale (search service unreachable) | SLB, TotalEnergies and Jacobs (Avature, not supported yet), Siemens Energy, Siemens, Weatherford, AtkinsRealis | listed as links under `manual` in the company file and in the report |
 
 Only companies whose career site returned India jobs were kept. Some of them had no keyword match in the last
@@ -265,10 +265,17 @@ They cover the text/location helpers, the Workday and SuccessFactors parsers, HT
 error sockets, CSV/Markdown output, a full `main()` run with fake fetchers (retry and failure report), and a
 check of every `sectors/*/companies.json` (known ATS, required fields, no shared tenant).
 
+`tests/test_html.py` tests the HTML report in a real browser (headless Google Chrome or Chromium; set `CHROME_BIN` if
+it is not found, otherwise those tests are skipped). A driver clicks the column headers, uses every dropdown and the
+search box and the Reset button, and each step is compared with a model written in Python: rows shown, their order,
+every cell, links, NEW and mode tags, counts. It runs about 1,000 steps on a hand-made set (including hostile titles
+such as `</script><img onerror=...>`), 80 random sequences on 6,000 jobs, empty and no-sector reports, failed-site and
+manual-link sections, and `main()` output end to end.
+
 
 ## Limits
 
-- Workday only gives relative ages ("Posted 4 Days Ago"), so ages are approximate and "30+ Days Ago" counts as 30.
+- Workday only gives relative ages ("Posted 4 Days Ago"), so the Posted column shows the date that means (today minus 4 days) and ages are approximate and "30+ Days Ago" counts as 30.
 - Keyword search is full text, so some results mention Kubernetes only in the description.
 - Hitachi Energy's career site is the whole Hitachi group's, so some results are from other Hitachi companies.
 - Sites can change their site name or block bots. A failing company is reported at the end of the run and does not stop the others.

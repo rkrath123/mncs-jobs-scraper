@@ -306,6 +306,35 @@ class NewPlatforms(unittest.TestCase):
             jobs = je.fetch_icims({"name": "X", "hosts": ["h"]}, args())
         self.assertEqual((jobs[0]["posted"], jobs[0]["location"]), ("2026-07-24", "IN-Pune"))
 
+    def test_avature_date_comes_from_the_rss_feed_when_pages_have_none(self):
+        # EA: neither the list nor the posting page shows a date; the search's RSS feed has <pubDate>
+        listing = """<article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/en_US/careers/JobDetail/SRE-II/216650">SRE II</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Hyderabad, India</span>
+            </div></div></article>
+            <article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/en_US/careers/JobDetail/Intern/216554">Intern</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Hyderabad, India</span>
+            </div></div></article>"""
+        feed = """<?xml version="1.0"?><rss><channel><link>https://x.avature.net/en_US/careers</link>
+            <item><title>SRE II</title><link>https://x.avature.net/careers/JobDetail/SRE-II/216650</link>
+            <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate></item>
+            <item><title>Other</title><link>https://x.avature.net/careers/JobDetail/Other/999</link>
+            <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>"""
+
+        def fake(url, *a, **k):
+            if "/feed/" in url:
+                return feed if "jobOffset=0" in url else "<rss><channel/></rss>"
+            if "SearchJobs" in url:
+                return listing if "jobOffset=0" in url else ""
+            return "<p>no date here</p>"
+        with mock.patch.object(je, "http_text", fake):
+            jobs = {j["job_id"]: j for j in
+                    je.fetch_avature({"name": "X", "base": "https://x.avature.net/en_US/careers"}, args())}
+        self.assertEqual(jobs["216650"]["posted"], "2026-11-23")
+        self.assertEqual(jobs["216650"]["age_days"], (date.today() - date(2026, 11, 23)).days)
+        self.assertEqual(jobs["216554"]["posted"], "")  # not in the feed: stays undated, no crash
+
     def test_workday_start_date_fills_missing_posted_date_and_location(self):
         job = je.make_job("X", "workday", "SRE", "", "", None, "u", "1", "sre", detail="https://d")
         detail = {"jobPostingInfo": {"jobDescription": "k8s", "startDate": "2026-11-23", "location": "Pune, IN"}}
@@ -355,6 +384,52 @@ class NewPlatforms(unittest.TestCase):
         self.assertEqual([j["job_id"] for j in jobs], ["7"])
         self.assertEqual(jobs[0]["url"], "https://jobs.sap.com/en/jobs/7/pe/")
         self.assertEqual(jobs[0]["posted"], "2026-11-20")
+
+
+class PostingDates(unittest.TestCase):
+    def test_fill_posted_reads_the_job_page_only_for_undated_jobs(self):
+        page = '<script type="application/ld+json">{"datePosted":"2026-11-10","title":"x"}</script>'
+        dated = je.make_job("A", "meta", "T", "Pune", "2026-11-20", 4, "https://x/dated", 1, "sre")
+        undated = je.make_job("A", "meta", "T", "Pune", "", None, "https://x/undated?lang=en", 2, "sre")
+        broken = je.make_job("A", "meta", "T", "Pune", "", None, "https://x/broken", 3, "sre")
+
+        def fake(url, headers=None, **kw):
+            if "broken" in url:
+                raise urllib.error.URLError("down")
+            return page
+        with mock.patch.object(je, "http_text", side_effect=fake) as m:
+            je.fill_posted([dated, undated, broken], "in_iframe=1")
+        self.assertEqual(m.call_count, 2)  # the dated job is not fetched
+        self.assertEqual((undated["posted"], undated["age_days"]),
+                         ("2026-11-10", (date.today() - date(2026, 11, 10)).days))
+        self.assertIn("https://x/undated?lang=en&in_iframe=1", [c.args[0] for c in m.call_args_list])
+        self.assertEqual((dated["posted"], broken["posted"], broken["age_days"]), ("2026-11-20", "", None))
+
+    def test_goldman_uses_created_date(self):
+        res = {"data": {"roleSearch": {"totalCount": 1, "items": [
+            {"roleId": "1_GS_PROFESSIONAL", "jobTitle": "Engineer", "createdDate": "2026-11-20T09:50:31.5Z",
+             "locations": [{"city": "Bengaluru", "state": "KA", "country": "India"}]}]}}}
+        a = args(keywords=["sre"], max_per_term=20)
+        with mock.patch.object(je, "http_json", return_value=res):
+            jobs = je.fetch_goldman({"name": "Goldman Sachs"}, a)
+        self.assertEqual(jobs[0]["posted"], "2026-11-20")
+        self.assertEqual(jobs[0]["age_days"], (date.today() - date(2026, 11, 20)).days)
+
+    def test_relative_workday_age_is_shown_as_a_date(self):
+        def fetcher(c, a):
+            return [je.make_job(c["name"], "workday", "DevOps", "Pune", "6 Days Ago", 6, f"https://x/{c['name']}", 1,
+                                "devops")]
+        with tempfile.TemporaryDirectory() as d:
+            cfg = Path(d) / "c.json"
+            cfg.write_text(json.dumps({"workday": [{"name": "W", "host": "h", "tenant": "t", "site": "s"}]}))
+            argv = ["prog", "--config", str(cfg), "--output-dir", str(Path(d) / "out"), "--show-all",
+                    "--keywords", "devops"]
+            with mock.patch.object(sys, "argv", argv), mock.patch.dict(je.FETCHERS, {"workday": fetcher}), \
+                    redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                je.main("Test", str(cfg), str(Path(d) / "out"))
+            with open(next((Path(d) / "out").glob("*/jobs.csv"))) as f:
+                row = next(csv.DictReader(f))
+            self.assertEqual(row["posted"], (date.today() - timedelta(days=6)).isoformat())
 
 
 class HttpGet(unittest.TestCase):
