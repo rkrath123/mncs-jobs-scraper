@@ -34,6 +34,7 @@ except Exception:
     pass
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -916,13 +917,40 @@ def avature_posting(url):
             avature_date(text) or page_posted(page))
 
 
+def avature_feed(base, query, limit=100):
+    """{job id: posted date} from the search's RSS feed. EA's pages show no date, but the feed's
+    <pubDate> carries it. Items have no location, so ids are matched against the list's links."""
+    dates, offset = {}, 0
+    while offset < limit:
+        try:
+            root = ET.fromstring(http_text(f"{base}/SearchJobs/{urllib.parse.quote(query)}/feed/"
+                                           f"?jobRecordsPerPage={limit}&jobOffset={offset}", retries=2))
+        except Exception:  # best effort: a missing feed just leaves the jobs undated
+            break
+        new = 0
+        for item in root.iter("item"):
+            link, pub = item.findtext("link") or "", item.findtext("pubDate") or ""
+            try:
+                day = parsedate_to_datetime(pub).date()
+            except (TypeError, ValueError):
+                continue
+            jid = link.split("?")[0].rstrip("/").rsplit("/", 1)[-1]
+            if jid and jid not in dates:
+                dates[jid], new = day, new + 1
+        if not new:
+            break
+        offset += new
+    return dates
+
+
 def fetch_avature(c, a):
     """Avature career sites (Synopsys, Lenovo, Tesco, EA): server-rendered SearchJobs pages. The
     free-text search also matches the location, so '<keyword> India' lists only India postings;
-    when the list shows no location (Synopsys) the posting pages are read to confirm the country."""
+    when the list shows no location (Synopsys) the posting pages are read to confirm the country.
+    Postings still undated after that (EA) take their date from the search's RSS feed."""
     base, jobs, details = c["base"].rstrip("/"), {}, {}
     for term in a.keywords:
-        offset, seen = 0, set()
+        offset, seen, feed = 0, set(), None
         while offset < a.max_per_term:
             page = http_text(f"{base}/SearchJobs/{urllib.parse.quote(term + ' ' + a.country)}"
                              f"?jobOffset={offset}")
@@ -952,6 +980,10 @@ def fetch_avature(c, a):
                     loc, posted = loc or found_loc, posted or found
                 if not loc_ok(loc, a):
                     continue
+                if not posted:  # EA: only the RSS feed has the date
+                    if feed is None:
+                        feed = avature_feed(base, term + " " + a.country, a.max_per_term)
+                    posted = feed.get(key.rstrip("/").rsplit("/", 1)[-1])
                 body = re.search(r'article__content">(.*?)</div>', block, re.S)
                 merge(jobs, make_job(c["name"], "avature", title, loc,
                                      posted.isoformat() if posted else "",

@@ -306,6 +306,35 @@ class NewPlatforms(unittest.TestCase):
             jobs = je.fetch_icims({"name": "X", "hosts": ["h"]}, args())
         self.assertEqual((jobs[0]["posted"], jobs[0]["location"]), ("2026-07-24", "IN-Pune"))
 
+    def test_avature_date_comes_from_the_rss_feed_when_pages_have_none(self):
+        # EA: neither the list nor the posting page shows a date; the search's RSS feed has <pubDate>
+        listing = """<article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/en_US/careers/JobDetail/SRE-II/216650">SRE II</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Hyderabad, India</span>
+            </div></div></article>
+            <article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/en_US/careers/JobDetail/Intern/216554">Intern</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Hyderabad, India</span>
+            </div></div></article>"""
+        feed = """<?xml version="1.0"?><rss><channel><link>https://x.avature.net/en_US/careers</link>
+            <item><title>SRE II</title><link>https://x.avature.net/careers/JobDetail/SRE-II/216650</link>
+            <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate></item>
+            <item><title>Other</title><link>https://x.avature.net/careers/JobDetail/Other/999</link>
+            <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>"""
+
+        def fake(url, *a, **k):
+            if "/feed/" in url:
+                return feed if "jobOffset=0" in url else "<rss><channel/></rss>"
+            if "SearchJobs" in url:
+                return listing if "jobOffset=0" in url else ""
+            return "<p>no date here</p>"
+        with mock.patch.object(je, "http_text", fake):
+            jobs = {j["job_id"]: j for j in
+                    je.fetch_avature({"name": "X", "base": "https://x.avature.net/en_US/careers"}, args())}
+        self.assertEqual(jobs["216650"]["posted"], "2026-11-23")
+        self.assertEqual(jobs["216650"]["age_days"], (date.today() - date(2026, 11, 23)).days)
+        self.assertEqual(jobs["216554"]["posted"], "")  # not in the feed: stays undated, no crash
+
     def test_workday_start_date_fills_missing_posted_date_and_location(self):
         job = je.make_job("X", "workday", "SRE", "", "", None, "u", "1", "sre", detail="https://d")
         detail = {"jobPostingInfo": {"jobDescription": "k8s", "startDate": "2026-11-23", "location": "Pune, IN"}}

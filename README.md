@@ -212,7 +212,7 @@ and Lever (Extreme Networks).
 | Radancy (TalentBrew) | Moody's, Citizens, Intuit | | search-results HTML fragment, country matched client side |
 | iCIMS portal | MSCI | | server-rendered search pages |
 | BrassRing | UBS | | `PowerSearchJobs` with the session token from the home page |
-| In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | | Posting dates: Goldman (`createdDate`), Intuit, Atlassian and Meta (read from the job page) are all dated; D. E. Shaw and a few Electronic Arts jobs have none and sort last |
+| In-house | Goldman Sachs (GraphQL), D. E. Shaw (scans position pages), Bank of America (search servlet, newest 100 India jobs) | | Posting dates: Goldman (`createdDate`), Intuit, Atlassian and Meta (read from the job page) and Electronic Arts (the search's RSS feed `pubDate`; its pages show no date) are dated; D. E. Shaw's jobs have none and sort last |
 | Manual links | Revolut, BNP Paribas (block bots), Societe Generale (search service unreachable) | SLB, TotalEnergies and Jacobs (Avature, not supported yet), Siemens Energy, Siemens, Weatherford, AtkinsRealis | listed as links under `manual` in the company file and in the report |
 
 Only companies whose career site returned India jobs were kept. Some of them had no keyword match in the last
