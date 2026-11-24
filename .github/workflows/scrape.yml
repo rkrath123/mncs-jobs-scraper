@@ -47,7 +47,7 @@ jobs:
           fi
 
       - name: Scrape
-        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --workers 64 --open
+        run: python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops,aiops,fde,forward deployed engineer,ai engineer" --open
 
       - name: Build site
         run: python3 tools/build_site.py site --keep-days 30
