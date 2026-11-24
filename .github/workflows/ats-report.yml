@@ -2,9 +2,9 @@ name: ATS report (Stapply dataset) and publish
 
 on:
   schedule:
-    # twice a day: 10:00 IST and 19:00 IST (cron is UTC); one hour after the other workflow
-    - cron: "30 4 * * *"
-    - cron: "30 13 * * *"
+    # twice a day: 10:47 IST and 19:47 IST (cron is UTC); one hour after the other workflow
+    - cron: "17 5 * * *"
+    - cron: "17 14 * * *"
   workflow_dispatch:
 
 permissions:

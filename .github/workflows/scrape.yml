@@ -2,9 +2,9 @@ name: Scrape jobs and publish report
 
 on:
   schedule:
-    # twice a day: 09:00 IST and 18:00 IST (cron is UTC)
-    - cron: "30 3 * * *"
-    - cron: "30 12 * * *"
+    # twice a day: ~09:37 IST and ~18:37 IST (cron is UTC)
+    - cron: "7 4 * * *"
+    - cron: "7 13 * * *"
   workflow_dispatch:
 
 permissions:
