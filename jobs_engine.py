@@ -129,6 +129,19 @@ def age_from_iso(text):
         return None
 
 
+def iso_date(text):
+    """'2026-11-24...' or 'November 24, 2026' (also 'Nov 24, 2026') -> '2026-11-24'; '' when unreadable."""
+    t = (text or "").strip()
+    if re.match(r"\d{4}-\d{2}-\d{2}", t):
+        return t[:10]
+    for fmt in ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y"):
+        try:
+            return datetime.strptime(t, fmt).date().isoformat()
+        except ValueError:
+            pass
+    return ""
+
+
 LD_POSTED_RE = re.compile(r'"datePosted"\s*:\s*"(\d{4}-\d{2}-\d{2})')
 
 
@@ -355,9 +368,10 @@ def fetch_jibe(c, a):
                 if d.get("country_code") != a.country_code and a.country.lower() not in (
                         (d.get("country") or "") + " " + loc).lower():
                     continue
-                posted = d.get("posted_date") or ""
+                # posted_date is ISO on some sites and "November 24, 2026" on others (Schneider)
+                posted = iso_date(d.get("posted_date")) or iso_date(d.get("create_date"))
                 merge(jobs, make_job(
-                    c["name"], "jibe", d["title"], loc, posted[:10], age_from_iso(posted),
+                    c["name"], "jibe", d["title"], loc, posted, age_from_iso(posted),
                     f"https://{host}/{c.get('job_path', 'jobs')}/{d['slug']}?lang=en-us",
                     d.get("req_id") or d["slug"], term,
                     text=strip_tags(" ".join(d.get(k) or "" for k in (
@@ -1430,11 +1444,11 @@ function render() {
     (!city || j.cityList.includes(city)) && (!kw || j.matched.includes(kw)) &&
     (!plat || j.platform === plat) && (!mode || (mode === "onsite" ? !j.work_mode : j.work_mode === mode)) &&
     (!age || (j.age_days !== null && j.age_days <= age)) &&
-    (!q || (j.title + " " + j.company + " " + j.location + " " + j.cityList.join(" ") + " " + j.kw).toLowerCase().includes(q)));
+    (!q || (j.title + " " + j.company + " " + j.location + " " + j.cities.join(" ") + " " + j.kw).toLowerCase().includes(q)));
   if (sortKey) rows.sort((a,b) => {
     let x = a[sortKey], y = b[sortKey];
-    if (sortKey === "age_days") { x = x ?? 999; y = y ?? 999; }
-    return (x < y ? -1 : x > y ? 1 : a.i - b.i) * sortDir; });
+    if (sortKey === "age_days" && (x === null || y === null)) return x === y ? a.i - b.i : x === null ? 1 : -1;  // undated last, either direction
+    return (x < y ? -1 : x > y ? 1 : 0) * sortDir || a.i - b.i; });  // ties keep the report order, either direction
   const body = $("body"); body.innerHTML = "";
   rows.forEach(j => {
     const tr = document.createElement("tr");
@@ -1467,7 +1481,7 @@ if (D.manual.length) {
   const box = $("manual"), h = document.createElement("h2"), ul = document.createElement("ul");
   h.textContent = "Not covered by the scraper - check these career sites manually"; box.append(h, ul);
   D.manual.forEach(m => { const li = document.createElement("li"), a = document.createElement("a");
-    a.textContent = m.name; a.href = m.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+    a.textContent = m.name; if (/^https?:\/\//.test(m.url)) { a.href = m.url; a.target = "_blank"; a.rel = "noopener noreferrer"; }
     li.append(a, " (" + m.platform + (m.sector ? ", " + m.sector.replace(/_/g, " ") : "") + ")"); ul.append(li); });
 }
 render();
@@ -1491,8 +1505,10 @@ def write_html(path, jobs, manual, today, a, errors=None):
                       "cities": cities_of(j["location"], a)}
                      for j in jobs]}
     blob = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")  # keeps </script> and <!-- out of the data
-    html = (HTML_TEMPLATE.replace("__TODAY__", today).replace("__SECTOR__", htmllib.escape(a.sector))
-            .replace("__LABEL__", htmllib.escape(keyword_label(a.keywords))).replace("__DATA__", blob))
+    values = {"TODAY": today, "SECTOR": htmllib.escape(a.sector),
+              "LABEL": htmllib.escape(keyword_label(a.keywords)), "DATA": blob}
+    # one pass, so a keyword or job title that happens to contain "__DATA__" is never substituted again
+    html = re.sub(r"__(TODAY|SECTOR|LABEL|DATA)__", lambda m: values[m.group(1)], HTML_TEMPLATE)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(html, encoding="utf-8")
 

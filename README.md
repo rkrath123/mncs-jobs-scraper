@@ -265,6 +265,13 @@ They cover the text/location helpers, the Workday and SuccessFactors parsers, HT
 error sockets, CSV/Markdown output, a full `main()` run with fake fetchers (retry and failure report), and a
 check of every `sectors/*/companies.json` (known ATS, required fields, no shared tenant).
 
+`tests/test_html.py` tests the HTML report in a real browser (headless Google Chrome or Chromium; set `CHROME_BIN` if
+it is not found, otherwise those tests are skipped). A driver clicks the column headers, uses every dropdown and the
+search box and the Reset button, and each step is compared with a model written in Python: rows shown, their order,
+every cell, links, NEW and mode tags, counts. It runs about 1,000 steps on a hand-made set (including hostile titles
+such as `</script><img onerror=...>`), 80 random sequences on 6,000 jobs, empty and no-sector reports, failed-site and
+manual-link sections, and `main()` output end to end.
+
 
 ## Limits
 
