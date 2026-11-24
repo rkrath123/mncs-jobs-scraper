@@ -2,9 +2,8 @@ name: scrape_all_sector
 
 on:
   schedule:
-    # twice a day: ~09:37 IST and ~18:37 IST (cron is UTC)
-    - cron: "7 4 * * *"
-    - cron: "7 13 * * *"
+    # every two hours at minute 7 (cron is UTC); scheduled runs always use the default branch (Release)
+    - cron: "7 */2 * * *"
   workflow_dispatch:
     inputs:
       publish:
