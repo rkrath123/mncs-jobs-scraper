@@ -136,7 +136,7 @@ python3 scrape_all.py -k "devops,sre" --retry-failed 2 --retry-wait 30          
 
 - The slowest stage is the description fetch (one request per Workday / SmartRecruiters job); `--workers` speeds it up too.
 - Fewer keywords run faster: each keyword is one search per company.
-- Very high worker counts make Workday, Eightfold and Oracle more likely to answer HTTP 429 (not measured here: try 64, then adjust). Failed sites
+- Very high worker counts make Workday, Eightfold and Oracle more likely to answer HTTP 429 (on GitHub Actions 64 workers was slower than 32: more sites rejected requests and had to be retried). Failed sites
   are retried after `--retry-wait` seconds and listed at the end of the run.
 
 ## Keywords and skills
@@ -157,6 +157,21 @@ subprocess) stops with an error.
 - Descriptions come from the career site's list API where it provides them, and from one extra request per job
   on Workday and SmartRecruiters sites. Goldman Sachs, HSBC, Moody's, Citizens and MSCI give no description, so
   only their titles are checked for skills.
+
+## GitHub Actions: sharded run
+
+`.github/workflows/scrape.yml` splits the scan over 4 parallel jobs so that each one has its own runner and IP address
+(the career sites rate-limit per IP, so more workers on one runner did not help):
+
+```bash
+python3 scrape_all.py -k "sre,devops" --shard 0/4 --dump-jobs shards/0.json   # every 4th site, starting at 0; writes JSON only
+python3 scrape_all.py -k "sre,devops" --merge-jobs shards                      # no scraping: merge, update state, write reports
+```
+
+- A shard writes neither the state nor a report; the `publish` job merges the `shards/*.json` files and does both.
+- The description of a job (skills, work mode, posting date) is kept in `seen_jobs.json`, so later runs fetch only the
+  descriptions of new jobs. Changing `--skills` makes every job be read again once.
+- A manual run only publishes to gh-pages when `publish` is ticked; otherwise the built site is an artifact.
 
 ## Run every day (cron)
 

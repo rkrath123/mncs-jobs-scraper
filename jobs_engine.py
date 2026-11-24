@@ -1189,17 +1189,27 @@ def write_outputs(out_dir, jobs, manual, sector="", label="jobs"):
     (out_dir / "jobs.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def add_skills(jobs, a):
+ISO_DAY_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def add_skills(jobs, a, state=None):
     """Tag each job with the skill terms found in its title/description; a skill in the title
-    makes it a 'title' match. Workday descriptions are fetched here, one request per job."""
-    todo = [j for j in jobs if j["detail"] and not j["text"]]
+    makes it a 'title' match. Workday descriptions are fetched here, one request per job, except for
+    jobs an earlier run already read (the state keeps their skills, work mode and posting date)."""
+    key = ",".join(sorted(x.lower() for x in a.skills))
+    cache = {}
+    for j in jobs:
+        e = (state or {}).get(j["url"])
+        if j["detail"] and not j["text"] and e and e.get("kw") == key and "wm" in e:
+            cache[j["url"]] = e
+    todo = [j for j in jobs if j["detail"] and not j["text"] and j["url"] not in cache]
     if todo:
-        print(f"Fetching descriptions for {len(todo)} job(s) (one request each; this can take a few minutes)...",
-              file=sys.stderr, flush=True)
+        print(f"Fetching descriptions for {len(todo)} job(s) (one request each; this can take a few minutes); "
+              f"{len(cache)} reused from earlier runs...", file=sys.stderr, flush=True)
     done = [0]
 
     def load(j):
-        if j["detail"] and not j["text"]:
+        if j["detail"] and not j["text"] and j["url"] not in cache:
             try:
                 data = http_json(j["detail"], retries=2, timeout=20)
                 if "jobPostingInfo" in data:  # Workday
@@ -1220,12 +1230,51 @@ def add_skills(jobs, a):
     with cf.ThreadPoolExecutor(a.workers) as ex:
         list(ex.map(load, jobs))
     for j in jobs:
-        text = j["title"] + " " + j["text"]
-        for s in a.skills:
-            if has_term(text, s):
-                j["matched"].add(s)
-                if has_term(j["title"], s):
-                    j["relevance"] = "title"
+        e = cache.get(j["url"])
+        if e:
+            found = set(e.get("sk", []))
+            j["work_mode"] = e["wm"]
+            if not j["posted"] and ISO_DAY_RE.fullmatch(e.get("posted", "")):
+                j["posted"], j["age_days"] = e["posted"], age_from_iso(e["posted"])
+            if not j["location"] and e.get("loc"):
+                j["location"] = e["loc"]
+        else:
+            text = j["title"] + " " + j["text"]
+            found = {s for s in a.skills if has_term(text, s)}
+        if j["detail"]:
+            j["_sk"] = found  # kept in the state for the next run
+        j["matched"] |= found
+        if any(has_term(j["title"], s) for s in found):
+            j["relevance"] = "title"
+
+
+def dump_jobs(path, jobs, n_sites, errors):
+    """Shard result for --merge-jobs: jobs without their (large) description text."""
+    out = [{**{k: v for k, v in j.items() if k not in ("text", "detail")},
+            "matched": sorted(j["matched"]), **({"_sk": sorted(j["_sk"])} if "_sk" in j else {})} for j in jobs]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"sites": n_sites, "errors": errors, "jobs": out}, ensure_ascii=False),
+                    encoding="utf-8")
+
+
+def load_shards(folder):
+    """Read what dump_jobs wrote; the same job found by two shards is merged."""
+    merged, n_sites, errors = {}, 0, {}
+    files = sorted(folder.glob("*.json"))
+    if not files:
+        sys.exit(f"No shard files (*.json) in {folder}")
+    for f in files:
+        d = json.loads(f.read_text(encoding="utf-8"))
+        n_sites += d["sites"]
+        errors.update(d["errors"])
+        for j in d["jobs"]:
+            j["matched"] = set(j["matched"])
+            if "_sk" in j:
+                j["_sk"] = set(j["_sk"])
+            j.setdefault("text", "")
+            j.setdefault("detail", "")
+            merge(merged, j)
+    return list(merged.values()), n_sites, errors
 
 
 def split_terms(a, kind, parts=4):
@@ -1459,6 +1508,13 @@ def main(sector, config, output_dir):
                     help="how many times to retry sites that failed, after a pause (default 1; 0 = off)")
     ap.add_argument("--retry-wait", type=int, default=20, help="seconds to wait before a retry (default 20)")
     ap.add_argument("--open", action="store_true", help="open the HTML report in the browser")
+    ap.add_argument("--shard", default="", metavar="I/N",
+                    help="scan only every N-th site, starting at I (0-based), e.g. 1/4; use with --dump-jobs")
+    ap.add_argument("--dump-jobs", default="", metavar="FILE",
+                    help="scrape, write the found jobs to FILE (JSON) and stop: no state, no report")
+    ap.add_argument("--merge-jobs", default="", metavar="DIR",
+                    help="do not scrape: read the *.json files that --dump-jobs wrote into DIR, "
+                         "then update the state and write the reports as usual")
     ap.add_argument("-v", "--verbose", action="store_true")
     a = ap.parse_args()
     a.sector = sector
@@ -1479,62 +1535,82 @@ def main(sector, config, output_dir):
              if not wanted or any(w in c["name"].lower() for w in wanted)]
     manual = [m for m in cfg.get("manual", [])
               if not wanted or any(w in m["name"].lower() for w in wanted)]
-    if not tasks:
+    if a.shard:
+        idx, count = (int(x) for x in a.shard.split("/"))
+        tasks = [t for i, t in enumerate(sorted(tasks, key=lambda t: (t[0], t[1]["name"]))) if i % count == idx]
+    if not tasks and not a.merge_jobs:
         sys.exit("No companies matched.")
 
-    sector_of = {c["name"]: c["sector"] for k in FETCHERS for c in cfg.get(k, []) if c.get("sector")}
-    merged = {}
-
-    def run(batch):
-        """Fetch every task of `batch` in parallel; return {company name: first error}."""
-        errors = {}
-        with cf.ThreadPoolExecutor(a.workers) as ex:
-            futs = {ex.submit(FETCHERS[k], c, b): c["name"]
-                    for k, c in batch for b in split_terms(a, k)}
-            for fut in cf.as_completed(futs):
-                name = futs[fut]
-                try:
-                    res = fut.result()
-                    log.info("%s: %d match(es)", name, len(res))
-                    for j in res:
-                        merge(merged, j)
-                except Exception as e:
-                    errors.setdefault(name, str(e))
-        return errors
-
-    errors = run(tasks)
-    for attempt in range(a.retry_failed):
-        if not errors:
-            break
-        print(f"{len(errors)} site(s) failed; retrying them in {a.retry_wait}s "
-              f"(retry {attempt + 1}/{a.retry_failed})...", file=sys.stderr)
-        time.sleep(a.retry_wait)
-        errors = run([(k, c) for k, c in tasks if c["name"] in errors])
-    failed = sorted(errors)
-    for name, err in sorted(errors.items()):
-        print(f"[error] {name}: {err}", file=sys.stderr)
-    all_jobs = list(merged.values())
-
-    jobs = [j for j in all_jobs
-            if j["age_days"] is None or j["age_days"] <= a.max_age_days]
-    add_skills(jobs, a)
-    jobs = [j for j in jobs if j["age_days"] is None or j["age_days"] <= a.max_age_days]  # dates found late
-    for j in jobs:
-        j["sector"] = sector_of.get(j["company"], "")
-        j["work_mode"] = work_mode(j)
-    if a.remote_only:
-        jobs = [j for j in jobs if j["work_mode"] == "remote"]
-    jobs = [j for j in jobs if not a.title_only or j["relevance"] == "title"]
-
-    # state: url -> first_seen / last_seen, used to report only new jobs on later runs
     out_root = Path(a.output_dir)
     state_path = out_root / "seen_jobs.json"
     state = load_state(state_path)
+    skills_key = ",".join(sorted(x.lower() for x in a.skills))
+    sector_of = {c["name"]: c["sector"] for k in FETCHERS for c in cfg.get(k, []) if c.get("sector")}
+    if a.merge_jobs:
+        jobs, n_sites, errors = load_shards(Path(a.merge_jobs))
+        failed = sorted(errors)
+    else:
+        merged = {}
+
+        def run(batch):
+            """Fetch every task of `batch` in parallel; return {company name: first error}."""
+            errors = {}
+            with cf.ThreadPoolExecutor(a.workers) as ex:
+                futs = {ex.submit(FETCHERS[k], c, b): c["name"]
+                        for k, c in batch for b in split_terms(a, k)}
+                for fut in cf.as_completed(futs):
+                    name = futs[fut]
+                    try:
+                        res = fut.result()
+                        log.info("%s: %d match(es)", name, len(res))
+                        for j in res:
+                            merge(merged, j)
+                    except Exception as e:
+                        errors.setdefault(name, str(e))
+            return errors
+
+        errors = run(tasks)
+        for attempt in range(a.retry_failed):
+            if not errors:
+                break
+            print(f"{len(errors)} site(s) failed; retrying them in {a.retry_wait}s "
+                  f"(retry {attempt + 1}/{a.retry_failed})...", file=sys.stderr)
+            time.sleep(a.retry_wait)
+            errors = run([(k, c) for k, c in tasks if c["name"] in errors])
+        failed = sorted(errors)
+        for name, err in sorted(errors.items()):
+            print(f"[error] {name}: {err}", file=sys.stderr)
+        all_jobs = list(merged.values())
+
+        jobs = [j for j in all_jobs
+                if j["age_days"] is None or j["age_days"] <= a.max_age_days]
+        add_skills(jobs, a, state)
+        jobs = [j for j in jobs if j["age_days"] is None or j["age_days"] <= a.max_age_days]  # dates found late
+        for j in jobs:
+            j["sector"] = sector_of.get(j["company"], "")
+            if "work_mode" not in j:  # cached jobs already carry it
+                j["work_mode"] = work_mode(j)
+        if a.remote_only:
+            jobs = [j for j in jobs if j["work_mode"] == "remote"]
+        jobs = [j for j in jobs if not a.title_only or j["relevance"] == "title"]
+        n_sites = len(tasks)
+        if a.dump_jobs:
+            dump_jobs(Path(a.dump_jobs), jobs, n_sites, errors)
+            print(f"{n_sites} sites scanned, {len(errors)} failed, {len(jobs)} job(s) written to {a.dump_jobs}.")
+            return
+
+    # state: url -> first_seen / last_seen, used to report only new jobs on later runs
     today = date.today().isoformat()
     for j in jobs:
         entry = state.setdefault(j["url"], {"first_seen": today})
         entry["last_seen"] = today
         j["first_seen"] = entry["first_seen"]
+        if "_sk" in j:  # what the description gave: later runs reuse it instead of fetching the page again
+            entry.update(kw=skills_key, wm=j["work_mode"], sk=sorted(j["_sk"]))
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", j["posted"] or ""):
+                entry["posted"] = j["posted"]
+            if j["location"]:
+                entry["loc"] = j["location"]
     cutoff = (date.today() - timedelta(days=90)).isoformat()
     state = {u: e for u, e in state.items() if e.get("last_seen", today) >= cutoff}
     out_root.mkdir(parents=True, exist_ok=True)
@@ -1548,7 +1624,7 @@ def main(sector, config, output_dir):
     write_html(report_path, sorted(jobs, key=sort_key), manual, today, a, errors)
     (out_root / "latest.html").write_text(report_path.read_text(encoding="utf-8"), encoding="utf-8")
 
-    print(f"{len(tasks)} sites scanned, {len(failed)} failed, {len(jobs)} matching job(s), "
+    print(f"{n_sites} sites scanned, {len(failed)} failed, {len(jobs)} matching job(s), "
           f"{len(report)} {'in report' if a.show_all else 'new'}.")
     if report:
         with_sector = bool(sector_of)
