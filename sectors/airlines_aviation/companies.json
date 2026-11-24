@@ -6,6 +6,12 @@
    "tenant": "airasia",
    "site": "Careers",
    "name": "AirAsia"
+  },
+  {
+   "host": "swa.wd1.myworkdayjobs.com",
+   "tenant": "swa",
+   "site": "external",
+   "name": "Southwest Airlines"
   }
  ],
  "phenom": [

@@ -30,6 +30,18 @@
    "host": "rhe.wd3.myworkdayjobs.com",
    "tenant": "rhe",
    "site": "R1111"
+  },
+  {
+   "host": "fedex.wd1.myworkdayjobs.com",
+   "tenant": "fedex",
+   "site": "FTN_APAC_External",
+   "name": "FedEx"
+  },
+  {
+   "host": "brambles.wd5.myworkdayjobs.com",
+   "tenant": "brambles",
+   "site": "brambles_careers",
+   "name": "Brambles"
   }
  ],
  "smartrecruiters": [

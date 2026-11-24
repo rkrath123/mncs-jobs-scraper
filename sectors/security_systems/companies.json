@@ -3,6 +3,18 @@
   {
    "name": "IDEMIA",
    "host": "careers.idemia.com"
+  },
+  {
+   "name": "Assa Abloy",
+   "host": "assaabloy.jobs2web.com"
+  }
+ ],
+ "workday": [
+  {
+   "name": "Allegion",
+   "host": "allegion.wd5.myworkdayjobs.com",
+   "tenant": "allegion",
+   "site": "careers"
   }
  ]
 }

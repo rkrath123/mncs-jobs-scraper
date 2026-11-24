@@ -54,6 +54,36 @@
    "tenant": "tysonfoods",
    "site": "TSN",
    "name": "Tyson Foods"
+  },
+  {
+   "host": "coke.wd1.myworkdayjobs.com",
+   "tenant": "coke",
+   "site": "coca-cola-careers",
+   "name": "Coca-Cola"
+  },
+  {
+   "host": "pernodricard.wd3.myworkdayjobs.com",
+   "tenant": "pernodricard",
+   "site": "pernod-ricard",
+   "name": "Pernod Ricard"
+  },
+  {
+   "host": "saputo.wd5.myworkdayjobs.com",
+   "tenant": "saputo",
+   "site": "saputo_external_careers",
+   "name": "Saputo"
+  },
+  {
+   "host": "essity.wd3.myworkdayjobs.com",
+   "tenant": "essity",
+   "site": "hms_job_opportunities",
+   "name": "Essity"
+  },
+  {
+   "name": "General Mills",
+   "host": "genmills.wd1.myworkdayjobs.com",
+   "tenant": "genmills",
+   "site": "GMI_External_Careers"
   }
  ],
  "smartrecruiters": [
@@ -80,6 +110,34 @@
   {
    "name": "Reckitt",
    "host": "careers.reckitt.com"
+  },
+  {
+   "name": "Colgate-Palmolive",
+   "host": "jobs.colgate.com"
+  },
+  {
+   "name": "McCormick",
+   "host": "careers.mccormick.com"
+  },
+  {
+   "name": "The Hershey Company",
+   "host": "careers.thehersheycompany.com"
+  },
+  {
+   "name": "Barry Callebaut",
+   "host": "jobs.barry-callebaut.com"
+  },
+  {
+   "name": "Olam Group",
+   "host": "careers.ofi.com"
+  },
+  {
+   "name": "Nestlé",
+   "host": "jobdetails.nestle.com"
+  },
+  {
+   "name": "Bunge",
+   "host": "jobs.bunge.com"
   }
  ]
 }

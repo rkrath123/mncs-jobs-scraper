@@ -25,5 +25,19 @@
    "site": "One-career-site",
    "name": "Skechers"
   }
+ ],
+ "sf_rss": [
+  {
+   "name": "Adidas",
+   "host": "jobs.adidas-group.com"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "The Estée Lauder Companies",
+   "host": "elcompanies.eightfold.ai",
+   "domain": "elcompanies.com",
+   "api": "pcsx"
+  }
  ]
 }

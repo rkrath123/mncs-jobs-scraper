@@ -173,6 +173,18 @@
    "host": "ptc.wd1.myworkdayjobs.com",
    "tenant": "ptc",
    "site": "PTC"
+  },
+  {
+   "host": "bloomenergy.wd1.myworkdayjobs.com",
+   "tenant": "bloomenergy",
+   "site": "bloomenergycareers",
+   "name": "Bloom Energy"
+  },
+  {
+   "host": "keppel.wd3.myworkdayjobs.com",
+   "tenant": "keppel",
+   "site": "keppelcareers",
+   "name": "Keppel Ltd"
   }
  ],
  "oracle": [
@@ -287,6 +299,10 @@
   {
    "name": "ENGIE",
    "host": "jobs.engie.com"
+  },
+  {
+   "name": "Woodside Energy Group",
+   "host": "careers.woodside.com.au"
   }
  ],
  "eightfold": [

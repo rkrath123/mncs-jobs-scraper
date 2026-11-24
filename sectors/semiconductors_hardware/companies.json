@@ -59,12 +59,52 @@
    "host": "sec.wd3.myworkdayjobs.com",
    "tenant": "sec",
    "site": "Samsung_Careers"
+  },
+  {
+   "host": "globalfoundries.wd1.myworkdayjobs.com",
+   "tenant": "globalfoundries",
+   "site": "external",
+   "name": "Globalfoundries"
+  },
+  {
+   "host": "microchiphr.wd5.myworkdayjobs.com",
+   "tenant": "microchiphr",
+   "site": "external",
+   "name": "Microchip Technology"
+  },
+  {
+   "host": "logitech.wd5.myworkdayjobs.com",
+   "tenant": "logitech",
+   "site": "logitech",
+   "name": "Logitech International"
+  },
+  {
+   "name": "Flex",
+   "host": "flextronics.wd1.myworkdayjobs.com",
+   "tenant": "flextronics",
+   "site": "careers"
+  },
+  {
+   "host": "asml.wd3.myworkdayjobs.com",
+   "tenant": "asml",
+   "site": "ASMLEXT1",
+   "name": "ASML"
+  },
+  {
+   "host": "vishay.wd3.myworkdayjobs.com",
+   "tenant": "vishay",
+   "site": "VishayCareers",
+   "name": "Vishay"
   }
  ],
  "smartrecruiters": [
   {
    "name": "Western Digital",
    "company_id": "westerndigital"
+  },
+  {
+   "company_id": "renesaselectronics",
+   "name": "Renesas Electronics"
   }
  ],
  "oracle": [
@@ -77,6 +117,16 @@
    "name": "ON Semiconductor",
    "host": "hctz.fa.us2.oraclecloud.com",
    "site": "CX_1001"
+  },
+  {
+   "name": "Dell Technologies",
+   "host": "enterpriseplatform.dell.com",
+   "site": "careers"
+  },
+  {
+   "name": "NXP Semiconductors",
+   "host": "enxp.fa.us6.oraclecloud.com",
+   "site": "CX_1"
   }
  ],
  "manual": [],
@@ -108,6 +158,11 @@
    "host": "infineon.eightfold.ai",
    "domain": "infineon.com",
    "api": "pcsx"
+  },
+  {
+   "name": "STMicroelectronics",
+   "host": "stmicroelectronics.eightfold.ai",
+   "domain": "stmicroelectronics.com"
   }
  ],
  "phenom": [
@@ -117,6 +172,45 @@
    "lang": "en_us",
    "page_id": "page15",
    "region": "global/en"
+  },
+  {
+   "name": "Qnity Electronics",
+   "host": "careers.qnityelectronics.com",
+   "lang": "en_us",
+   "page_id": "page4",
+   "region": "us/en",
+   "country_value": "India"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "TE Connectivity",
+   "host": "careers.te.com"
+  },
+  {
+   "name": "Teradyne",
+   "host": "jobs.teradyne.com"
+  },
+  {
+   "name": "Super Micro Computer",
+   "host": "jobs.supermicro.com"
+  }
+ ],
+ "greenhouse": [
+  {
+   "board": "asteralabs",
+   "name": "Astera Labs"
+  }
+ ],
+ "avature": [
+  {
+   "name": "Lenovo",
+   "base": "https://jobs.lenovo.com/en_US/careers"
+  }
+ ],
+ "apple": [
+  {
+   "name": "Apple"
   }
  ]
 }

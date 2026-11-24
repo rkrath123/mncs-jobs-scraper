@@ -25,5 +25,11 @@
    "host": "ejwl.fa.us2.oraclecloud.com",
    "site": "CX"
   }
+ ],
+ "sf_rss": [
+  {
+   "name": "McDonald's",
+   "host": "jobs.mcdonalds.com"
+  }
  ]
 }

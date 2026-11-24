@@ -397,6 +397,24 @@
    "host": "mizuhogroup.wd102.myworkdayjobs.com",
    "tenant": "mizuhogroup",
    "site": "External"
+  },
+  {
+   "host": "assurant.wd1.myworkdayjobs.com",
+   "tenant": "assurant",
+   "site": "Assurant_Careers",
+   "name": "Assurant"
+  },
+  {
+   "host": "hrhub.wd3.myworkdayjobs.com",
+   "tenant": "hrhub",
+   "site": "euronext_career_page",
+   "name": "Euronext"
+  },
+  {
+   "host": "circle.wd1.myworkdayjobs.com",
+   "tenant": "circle",
+   "site": "circle",
+   "name": "Circle"
   }
  ],
  "oracle": [
@@ -433,6 +451,16 @@
   {
    "name": "Jefferies",
    "host": "hdid.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Phoenix Holdings",
+   "host": "egeg.fa.em3.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Mashreq Bank",
+   "host": "hcld.fa.em2.oraclecloud.com",
    "site": "CX_1"
   }
  ],
@@ -496,6 +524,14 @@
   {
    "name": "Da Vinci Derivatives",
    "board": "davinciderivatives"
+  },
+  {
+   "board": "bitgo",
+   "name": "BitGo Holdings"
+  },
+  {
+   "board": "toast",
+   "name": "Toast"
   }
  ],
  "jibe": [
@@ -516,6 +552,10 @@
    "name": "AXA",
    "host": "careers.axa.com",
    "job_path": "careers-home/jobs"
+  },
+  {
+   "name": "Principal Financial Group",
+   "host": "careers.principal.com"
   }
  ],
  "sf_rss": [
@@ -534,6 +574,14 @@
   {
    "name": "Worldline",
    "host": "jobs.worldline.com"
+  },
+  {
+   "name": "Zurich Insurance Group",
+   "host": "www.careers.zurich.com"
+  },
+  {
+   "name": "Sumitomo Mitsui Banking Corporation",
+   "host": "careerasia.smbc.co.jp"
   }
  ],
  "eightfold": [
@@ -672,6 +720,18 @@
     "globalcareers-msci.icims.com",
     "uscareers-msci.icims.com"
    ]
+  },
+  {
+   "name": "Paychex",
+   "hosts": [
+    "indiacareers-paychex.icims.com"
+   ]
+  },
+  {
+   "name": "StoneX Group",
+   "hosts": [
+    "english-stonex.icims.com"
+   ]
   }
  ],
  "brassring": [
@@ -694,6 +754,10 @@
   {
    "name": "Wise",
    "company_id": "wise"
+  },
+  {
+   "company_id": "Ally1",
+   "name": "Ally Financial"
   }
  ],
  "lever": [

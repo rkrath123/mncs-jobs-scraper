@@ -48,6 +48,24 @@
    "tenant": "chemours",
    "site": "Chemours",
    "name": "Chemours"
+  },
+  {
+   "host": "covestro.wd3.myworkdayjobs.com",
+   "tenant": "covestro",
+   "site": "cov_external",
+   "name": "Covestro"
+  },
+  {
+   "host": "westlake.wd1.myworkdayjobs.com",
+   "tenant": "westlake",
+   "site": "westlake",
+   "name": "Westlake Corporation"
+  },
+  {
+   "host": "airliquidehr.wd3.myworkdayjobs.com",
+   "tenant": "airliquidehr",
+   "site": "airliquideexternalcareer",
+   "name": "Air Liquide"
   }
  ],
  "sf_rss": [
@@ -62,12 +80,24 @@
   {
    "name": "Syensqo",
    "host": "careers.syensqo.com"
+  },
+  {
+   "name": "BASF",
+   "host": "basf.jobs"
+  },
+  {
+   "name": "Eastman",
+   "host": "jobs.eastman.com"
   }
  ],
  "smartrecruiters": [
   {
    "company_id": "averydennison",
    "name": "Avery Dennison"
+  },
+  {
+   "company_id": "SikaAG",
+   "name": "Sika"
   }
  ],
  "phenom": [
@@ -77,6 +107,21 @@
    "lang": "en_us",
    "page_id": "page8",
    "region": "us/en"
+  },
+  {
+   "name": "Givaudan",
+   "host": "careers.givaudan.com",
+   "lang": "en_global",
+   "page_id": "page11",
+   "region": "global/en"
+  },
+  {
+   "name": "AkzoNobel",
+   "host": "careers.akzonobel.com",
+   "lang": "en_gb",
+   "page_id": "page11",
+   "region": "gb/en",
+   "country_value": "IND"
   }
  ],
  "oracle": [
@@ -84,6 +129,20 @@
    "name": "Sherwin-Williams",
    "host": "ejhp.fa.us6.oraclecloud.com",
    "site": "CX_2"
+  }
+ ],
+ "cornerstone": [
+  {
+   "name": "Linde",
+   "host": "linde.csod.com",
+   "site": 25,
+   "corp": "linde"
+  },
+  {
+   "name": "Henkel",
+   "host": "henkel.csod.com",
+   "site": 1,
+   "corp": "henkel"
   }
  ]
 }

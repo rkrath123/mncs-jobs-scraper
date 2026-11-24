@@ -228,6 +228,40 @@
    "tenant": "bayer",
    "site": "Bayer_External_Career_Site",
    "name": "Bayer"
+  },
+  {
+   "host": "alcon.wd5.myworkdayjobs.com",
+   "tenant": "alcon",
+   "site": "careers_alcon",
+   "name": "Alcon"
+  },
+  {
+   "host": "dexcom.wd1.myworkdayjobs.com",
+   "tenant": "dexcom",
+   "site": "dexcom",
+   "name": "Dexcom"
+  },
+  {
+   "host": "medline.wd5.myworkdayjobs.com",
+   "tenant": "medline",
+   "site": "medline",
+   "name": "Medline"
+  },
+  {
+   "host": "freseniusmedicalcare.wd3.myworkdayjobs.com",
+   "tenant": "freseniusmedicalcare",
+   "site": "fme",
+   "name": "Fresenius Medical Care"
+  },
+  {
+   "name": "Sandoz",
+   "host": "sandoz.wd103.myworkdayjobs.com",
+   "tenant": "sandoz",
+   "site": "sandoz_careers",
+   "location_hints": [
+    "Telangana",
+    "Kalwe"
+   ]
   }
  ],
  "smartrecruiters": [
@@ -245,6 +279,12 @@
    "name": "Boston Scientific",
    "host": "bostonscientific.eightfold.ai",
    "domain": "bostonscientific.com",
+   "api": "pcsx"
+  },
+  {
+   "name": "Haleon",
+   "host": "haleon.eightfold.ai",
+   "domain": "haleon.com",
    "api": "pcsx"
   }
  ],
@@ -264,6 +304,18 @@
   {
    "name": "Dentsply Sirona",
    "host": "careers.dentsplysirona.com"
+  },
+  {
+   "name": "West Pharmaceutical Services",
+   "host": "careers.westpharma.com"
+  },
+  {
+   "name": "EssilorLuxottica",
+   "host": "careers.essilorluxottica.com"
+  },
+  {
+   "name": "Terumo BCT",
+   "host": "careers.terumobct.com"
   }
  ],
  "phenom": [
@@ -294,6 +346,14 @@
    "lang": "en_us",
    "page_id": "page19",
    "region": "global/en"
+  },
+  {
+   "name": "Steris",
+   "host": "careers.steris.com",
+   "lang": "fr_fr",
+   "page_id": "page37",
+   "region": "fr/fr",
+   "country_value": "India"
   }
  ],
  "oracle": [
@@ -301,6 +361,21 @@
    "name": "Quest Diagnostics",
    "host": "hdox.fa.us6.oraclecloud.com",
    "site": "CX_1"
+  }
+ ],
+ "icims": [
+  {
+   "name": "Waters",
+   "hosts": [
+    "uscareers-waters.icims.com",
+    "internationalcareers-waters.icims.com"
+   ]
+  }
+ ],
+ "lever": [
+  {
+   "company_id": "veeva",
+   "name": "Veeva"
   }
  ]
 }
