@@ -285,6 +285,33 @@ class NewPlatforms(unittest.TestCase):
         self.assertEqual(next(j for j in jobs if j["job_id"] == "3")["location"], "Bengaluru, India")
         self.assertEqual(next(j for j in jobs if j["job_id"] == "1")["posted"], "2026-11-02")
 
+    def test_posting_date_is_read_when_the_list_has_none(self):
+        # Tesco-style avature list without a date, iCIMS list without a date: the posting page has JSON-LD
+        ld = '<script type="application/ld+json">{"datePosted": "2026-07-24T00:00:00+00:00"}</script>'
+        listing = """<article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/careers/JobDetail/SRE-1/1">SRE</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Pune, India</span>
+            </div></div></article>"""
+        with mock.patch.object(je, "http_text", lambda url, *a, **k: listing if "SearchJobs" in url and "jobOffset=0" in url
+                               else "" if "SearchJobs" in url else ld):
+            jobs = je.fetch_avature({"name": "X", "base": "https://x.avature.net/careers"}, args())
+        self.assertEqual(jobs[0]["posted"], "2026-07-24")
+        self.assertEqual(je.page_posted("<html></html>"), None)
+
+        card = ('<li class="iCIMS_JobCardItem"><a href="https://h/jobs/9/sre/job?in_iframe=1">'
+                '<h3>SRE</h3></a><span>Job Locations</span><span >IN-Pune</span></li>')
+        with mock.patch.object(je, "http_text", lambda url, *a, **k: card if "search" in url else ld):
+            jobs = je.fetch_icims({"name": "X", "hosts": ["h"]}, args())
+        self.assertEqual((jobs[0]["posted"], jobs[0]["location"]), ("2026-07-24", "IN-Pune"))
+
+    def test_workday_start_date_fills_missing_posted_date_and_location(self):
+        job = je.make_job("X", "workday", "SRE", "", "", None, "u", "1", "sre", detail="https://d")
+        detail = {"jobPostingInfo": {"jobDescription": "k8s", "startDate": "2026-11-23", "location": "Pune, IN"}}
+        with mock.patch.object(je, "http_json", lambda *a, **k: detail):
+            je.add_skills([job], args())
+        self.assertEqual((job["posted"], job["location"]), ("2026-11-23", "Pune, IN"))
+        self.assertEqual(job["age_days"], (date.today() - date(2026, 11, 23)).days)
+
     def test_cornerstone_filters_on_country_code_and_builds_urls(self):
         page = '{"cloud":"https://eu.api.csod.com/","token":"tok"}'
         rows = {"data": {"totalCount": 1, "requisitions": [{
