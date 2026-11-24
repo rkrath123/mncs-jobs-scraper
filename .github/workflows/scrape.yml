@@ -2,14 +2,14 @@ name: scrape_all_sector
 
 on:
   schedule:
-    # every two hours at minute 7 (cron is UTC); scheduled runs always use the default branch (Release)
-    - cron: "7 */2 * * *"
+    # every hour at minute 7 (cron is UTC); scheduled runs always use the default branch (Release)
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       publish:
-        description: "Publish to gh-pages (leave off when testing a branch; the report is then kept as a run artifact)"
+        description: "Publish to gh-pages (untick to only keep the report as a run artifact)"
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write

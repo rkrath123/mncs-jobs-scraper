@@ -171,7 +171,10 @@ python3 scrape_all.py -k "sre,devops" --merge-jobs shards                      #
 - A shard writes neither the state nor a report; the `publish` job merges the `shards/*.json` files and does both.
 - The description of a job (skills, work mode, posting date) is kept in `seen_jobs.json`, so later runs fetch only the
   descriptions of new jobs. Changing `--skills` makes every job be read again once.
-- A manual run only publishes to gh-pages when `publish` is ticked; otherwise the built site is an artifact.
+- Scheduled and manual runs publish to gh-pages (the `publish` box is ticked by default). Untick it to test a branch
+  without touching the live site: the built site is then kept as the `site` artifact. GitHub's own "pages build and
+  deployment" workflow starts by itself after every push to gh-pages (Settings > Pages > Source: "Deploy from a branch",
+  `gh-pages` / root).
 
 ## Run every day (cron)
 
