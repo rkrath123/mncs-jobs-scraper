@@ -128,6 +128,15 @@ def age_from_iso(text):
         return None
 
 
+LD_POSTED_RE = re.compile(r'"datePosted"\s*:\s*"(\d{4}-\d{2}-\d{2})')
+
+
+def page_posted(page):
+    """Posting date from the schema.org JobPosting block of a job page (None when absent)."""
+    m = LD_POSTED_RE.search(page or "")
+    return datetime.strptime(m.group(1), "%Y-%m-%d").date() if m else None
+
+
 def has_term(text, term):
     """Case-insensitive whole-word match, so 'Helm' does not hit 'overwhelming'."""
     return re.search(r"(?<![A-Za-z0-9])" + re.escape(term) + r"(?![A-Za-z0-9])", text or "",
@@ -583,6 +592,17 @@ def fetch_icims(c, a):
                                          link.group(2), term))
                 if len(cards) < 20:  # iCIMS pages hold 20 results; a short page is the last one
                     break
+    undated = [j for j in jobs.values() if not j["posted"]]  # the result list shows no date
+    if undated:
+        def read(j):
+            try:
+                return page_posted(http_text(j["url"] + "?in_iframe=1", retries=2, timeout=20))  # JSON-LD only in the iframe view
+            except Exception as e:
+                log.debug("posting date fetch failed for %s: %s", j["url"], e)
+        with cf.ThreadPoolExecutor(8) as ex:
+            for j, dt in zip(undated, ex.map(read, undated)):
+                if dt:
+                    j["posted"], j["age_days"] = dt.isoformat(), (date.today() - dt).days
     return list(jobs.values())
 
 
@@ -827,9 +847,11 @@ def avature_date(text):
 
 def avature_posting(url):
     """(location, posted) from a posting page: 'Country India City Bengaluru Date Posted 17-Apr-2026'."""
-    text = strip_tags(http_text(url))
+    page = http_text(url)
+    text = strip_tags(page)
     m = re.search(r"Country\s+(.+?)\s+(?:City|State|Location)\s+(.+?)\s+(?:Date Posted|Job Category)", text)
-    return (", ".join(g.strip() for g in (m.group(2), m.group(1))) if m else ""), avature_date(text)
+    return ((", ".join(g.strip() for g in (m.group(2), m.group(1))) if m else ""),
+            avature_date(text) or page_posted(page))
 
 
 def fetch_avature(c, a):
@@ -853,17 +875,19 @@ def fetch_avature(c, a):
                                   or re.search(r'article__header__text__subtitle">\s*<span>(.*?)</span>',
                                                block, re.S) or [None, ""])[1])
                 rows.append((block, url, strip_tags(link.group(2)), loc))
-            todo = [u for _, u, _, loc in rows if not loc and u.split("?")[0] not in details]
-            if todo:  # no location in the list: read the posting pages (in parallel)
+            todo = [u for b, u, _, loc in rows
+                    if (not loc or (loc_ok(loc, a) and not avature_date(strip_tags(b))))
+                    and u.split("?")[0] not in details]
+            if todo:  # no location or date in the list: read the posting pages (in parallel)
                 with cf.ThreadPoolExecutor(8) as ex:
                     for u, res in zip(todo, ex.map(avature_posting, todo)):
                         details[u.split("?")[0]] = res
             for block, url, title, loc in rows:
                 key = url.split("?")[0]
                 posted = avature_date(strip_tags(block))
-                if not loc:
-                    loc, found = details[key]
-                    posted = posted or found
+                if key in details:
+                    found_loc, found = details[key]
+                    loc, posted = loc or found_loc, posted or found
                 if not loc_ok(loc, a):
                     continue
                 body = re.search(r'article__content">(.*?)</div>', block, re.S)
@@ -1179,7 +1203,12 @@ def add_skills(jobs, a):
             try:
                 data = http_json(j["detail"], retries=2, timeout=20)
                 if "jobPostingInfo" in data:  # Workday
-                    j["text"] = strip_tags(data["jobPostingInfo"].get("jobDescription", ""))
+                    info = data["jobPostingInfo"]
+                    j["text"] = strip_tags(info.get("jobDescription", ""))
+                    if not j["posted"] and info.get("startDate"):  # some tenants hide the date in the list
+                        j["posted"], j["age_days"] = info["startDate"], age_from_iso(info["startDate"])
+                    if not j["location"] and info.get("location"):
+                        j["location"] = info["location"]
                 else:  # SmartRecruiters
                     secs = (data.get("jobAd") or {}).get("sections") or {}
                     j["text"] = strip_tags(" ".join(s.get("text", "") for s in secs.values()))
@@ -1489,6 +1518,7 @@ def main(sector, config, output_dir):
     jobs = [j for j in all_jobs
             if j["age_days"] is None or j["age_days"] <= a.max_age_days]
     add_skills(jobs, a)
+    jobs = [j for j in jobs if j["age_days"] is None or j["age_days"] <= a.max_age_days]  # dates found late
     for j in jobs:
         j["sector"] = sector_of.get(j["company"], "")
         j["work_mode"] = work_mode(j)
