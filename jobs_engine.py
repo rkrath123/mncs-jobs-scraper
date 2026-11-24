@@ -6,7 +6,7 @@ script (a few lines calling main()), its own company list and its own output fol
 
 Supported career-site platforms: Workday, Oracle HCM, Greenhouse, Lever, SmartRecruiters, Jibe
 (iCIMS), SuccessFactors RSS, Eightfold, Phenom, Radancy/TalentBrew, iCIMS portals, BrassRing,
-Goldman Sachs, D. E. Shaw and Bank of America. Companies on other platforms are listed under
+Goldman Sachs, D. E. Shaw, Bank of America, Avature, Cornerstone, Apple, Taleo, Google, Meta, IBM and SAP. Companies on other platforms are listed under
 "manual" in the sector's company list and printed at the end of the report as links.
 
 Only the Python standard library is used.
@@ -71,7 +71,7 @@ OUTAGE_URL_RE = re.compile(r"maintenance|/drs/outage|outage\?", re.I)
 
 def http_get(url, body=None, headers=None, retries=3, timeout=30):
     """GET (or POST when body is given) with retries; returns the raw response bytes."""
-    data = json.dumps(body).encode() if body is not None else None
+    data = body if isinstance(body, bytes) else json.dumps(body).encode() if body is not None else None
     h = {"User-Agent": UA}
     if data is not None:
         h["Content-Type"] = "application/json"
@@ -387,6 +387,18 @@ def fetch_sf_rss(c, a):
 
 
 # --------------------------------------------------------------------------- Eightfold
+def eightfold_pcsx(url, delay):
+    """pcsx search; sites that rate-limit (Microsoft: HTTP 429 every few pages) set "delay" and get
+    the request repeated after a pause instead of failing the whole site."""
+    for attempt in range(6 if delay else 1):
+        try:
+            return http_json(url, retries=1 if delay else 3)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or not delay or attempt == 5:
+                raise
+            time.sleep(20 + 10 * attempt)
+
+
 def fetch_eightfold(c, a):
     """Eightfold career sites: HSBC uses the 'apply' API; Eaton, Worley use 'pcsx' (set "api": "pcsx")."""
     host, jobs = c["host"], {}
@@ -397,7 +409,7 @@ def fetch_eightfold(c, a):
             if pcsx:
                 q = urllib.parse.urlencode({"domain": c["domain"], "start": start,
                                             "query": term, "location": a.country})
-                r = http_json(f"https://{host}/api/pcsx/search?{q}").get("data") or {}
+                r = eightfold_pcsx(f"https://{host}/api/pcsx/search?{q}", c.get("delay", 0)).get("data") or {}
             else:
                 q = urllib.parse.urlencode({"domain": c["domain"], "start": start, "num": 50,
                                             "query": term, "location": a.country,
@@ -421,6 +433,7 @@ def fetch_eightfold(c, a):
             start += len(rows) if pcsx else 50
             if not rows or start >= total:
                 break
+            time.sleep(c.get("delay", 0))  # Microsoft answers HTTP 429 to rapid paging
     return list(jobs.values())
 
 
@@ -438,11 +451,13 @@ def fetch_phenom(c, a):
                     "size": size, "clearAll": False, "jdsource": "facets", "isSliderEnable": False,
                     "pageId": c.get("page_id", "page11"), "siteType": "external",
                     "keywords": term, "global": True,
-                    "selected_fields": {"country": [a.country]}, "locationData": {}}
+                    "selected_fields": {"country": [c.get("country_value", a.country)]},  # some sites use "INDIA"
+                    "locationData": {}}
             d = http_json(f"https://{host}/widgets", body)["refineSearch"]
             rows = d.get("data", {}).get("jobs", [])
             for j in rows:
-                if (j.get("country") or "").lower() != a.country.lower():
+                if (j.get("country") or "").lower() not in (a.country.lower(),
+                                                           c.get("country_value", a.country).lower()):
                     continue
                 posted = j.get("postedDate") or ""
                 merge(jobs, make_job(
@@ -794,12 +809,329 @@ def fetch_atlassian(c, a):
     return list(jobs.values())
 
 
+# --------------------------------------------------------------------------- Avature
+AVATURE_ARTICLE_RE = re.compile(r"<article\b[^>]*>(.*?)(?=<article\b|</section>|\Z)", re.S)
+AVATURE_LINK_RE = re.compile(r'<a\b[^>]*href="([^"]*/JobDetail/[^"]*)"[^>]*>(.*?)</a>', re.S)
+AVATURE_POSTED_RE = re.compile(r"(?:Date )?Posted:?\s*(\d{1,2}-[A-Za-z]{3}-\d{4})")
+
+
+def avature_date(text):
+    m = AVATURE_POSTED_RE.search(text or "")
+    if not m:
+        return None
+    try:
+        return datetime.strptime(m.group(1), "%d-%b-%Y").date()
+    except ValueError:
+        return None
+
+
+def avature_posting(url):
+    """(location, posted) from a posting page: 'Country India City Bengaluru Date Posted 17-Apr-2026'."""
+    text = strip_tags(http_text(url))
+    m = re.search(r"Country\s+(.+?)\s+(?:City|State|Location)\s+(.+?)\s+(?:Date Posted|Job Category)", text)
+    return (", ".join(g.strip() for g in (m.group(2), m.group(1))) if m else ""), avature_date(text)
+
+
+def fetch_avature(c, a):
+    """Avature career sites (Synopsys, Lenovo, Tesco, EA): server-rendered SearchJobs pages. The
+    free-text search also matches the location, so '<keyword> India' lists only India postings;
+    when the list shows no location (Synopsys) the posting pages are read to confirm the country."""
+    base, jobs, details = c["base"].rstrip("/"), {}, {}
+    for term in a.keywords:
+        offset, seen = 0, set()
+        while offset < a.max_per_term:
+            page = http_text(f"{base}/SearchJobs/{urllib.parse.quote(term + ' ' + a.country)}"
+                             f"?jobOffset={offset}")
+            rows = []
+            for block in AVATURE_ARTICLE_RE.findall(page):
+                link = AVATURE_LINK_RE.search(block)
+                url = htmllib.unescape(link.group(1)) if link else ""
+                if not url or url.split("?")[0] in seen:
+                    continue
+                seen.add(url.split("?")[0])
+                loc = strip_tags((re.search(r'class="list-item-location"[^>]*>(.*?)</span>', block, re.S)
+                                  or re.search(r'article__header__text__subtitle">\s*<span>(.*?)</span>',
+                                               block, re.S) or [None, ""])[1])
+                rows.append((block, url, strip_tags(link.group(2)), loc))
+            todo = [u for _, u, _, loc in rows if not loc and u.split("?")[0] not in details]
+            if todo:  # no location in the list: read the posting pages (in parallel)
+                with cf.ThreadPoolExecutor(8) as ex:
+                    for u, res in zip(todo, ex.map(avature_posting, todo)):
+                        details[u.split("?")[0]] = res
+            for block, url, title, loc in rows:
+                key = url.split("?")[0]
+                posted = avature_date(strip_tags(block))
+                if not loc:
+                    loc, found = details[key]
+                    posted = posted or found
+                if not loc_ok(loc, a):
+                    continue
+                body = re.search(r'article__content">(.*?)</div>', block, re.S)
+                merge(jobs, make_job(c["name"], "avature", title, loc,
+                                     posted.isoformat() if posted else "",
+                                     (date.today() - posted).days if posted else None,
+                                     url, key.rstrip("/").rsplit("/", 1)[-1], term,
+                                     text=strip_tags(body.group(1)) if body else ""))
+            offset += len(rows)
+            if not rows:
+                break
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Cornerstone
+def fetch_cornerstone(c, a):
+    """Cornerstone OnDemand career sites (Linde, Henkel): the career page hands out a bearer token
+    for the rec-job-search API, which filters on the ISO country code."""
+    host, site, corp = c["host"], c["site"], c["corp"]
+    page = http_text(f"https://{host}/ux/ats/careersite/{site}/home?c={corp}")
+    token = re.search(r'"token":"([^"]+)"', page).group(1)
+    cloud = re.search(r'"cloud":"([^"]+)"', page).group(1)
+    jobs = {}
+    for term in a.keywords:
+        number, total = 1, None
+        while (number - 1) * 25 < a.max_per_term:
+            body = {"careerSiteId": site, "careerSitePageId": site, "pageNumber": number, "pageSize": 25,
+                    "cultureId": 1, "searchText": term, "cultureName": "en-US", "states": [],
+                    "countryCodes": [a.country_code], "cities": [], "placeID": "", "radius": None,
+                    "postingsWithinDays": None, "customFieldCheckboxKeys": [],
+                    "customFieldDropdowns": [], "customFieldRadios": []}
+            d = http_json(cloud + "rec-job-search/external/jobs", body,
+                          {"Authorization": "Bearer " + token, "Content-Type": "application/json"})["data"]
+            total = d.get("totalCount", 0)
+            rows = d.get("requisitions", [])
+            for r in rows:
+                locs = "; ".join(", ".join(x for x in (l.get("city"), l.get("state"), a.country) if x)
+                                 for l in r.get("locations") or [] if l.get("country") == a.country_code)
+                posted = datetime.strptime(r["postingEffectiveDate"], "%m/%d/%Y").date() \
+                    if r.get("postingEffectiveDate") else None
+                rid = r["requisitionId"]
+                merge(jobs, make_job(
+                    c["name"], "cornerstone", r["displayJobTitle"], locs,
+                    posted.isoformat() if posted else "",
+                    (date.today() - posted).days if posted else None,
+                    f"https://{host}/ux/ats/careersite/{site}/home/requisition/{rid}?c={corp}", rid, term,
+                    text=strip_tags(r.get("externalDescription") or "")))
+            number += 1
+            if not rows or (number - 1) * 25 >= total:
+                break
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Apple
+def fetch_apple(c, a):
+    """Apple: public jobs.apple.com search API (postLocation-INDC is the India country filter)."""
+    country = c.get("location", "postLocation-INDC")
+    jobs = {}
+    for term in a.keywords:
+        page, seen = 1, 0
+        while seen < a.max_per_term:
+            r = http_json("https://jobs.apple.com/api/v1/search", {
+                "query": term, "filters": {"locations": [country]}, "page": page, "locale": "en-us",
+                "sort": "", "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}})["res"]
+            rows = r.get("searchResults", [])
+            for p in rows:
+                locs = "; ".join(l.get("name") or l.get("city") or "" for l in p.get("locations") or [])
+                if not any(l.get("countryName") == a.country for l in p.get("locations") or []):
+                    continue
+                posted = (p.get("postDateInGMT") or "")[:10]
+                merge(jobs, make_job(
+                    c["name"], "apple", p["postingTitle"], f"{locs}, {a.country}", posted, age_from_iso(posted),
+                    f"https://jobs.apple.com/en-in/details/{p['positionId']}/{p.get('transformedPostingTitle', '')}",
+                    p.get("reqId") or p["positionId"], term, text=p.get("jobSummary") or ""))
+            seen += len(rows)
+            page += 1
+            if not rows or seen >= r.get("totalRecords", 0):
+                break
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Taleo
+def taleo_body(keyword, location_ids, page):
+    def filters(*ids):
+        return {"searchFilterSelections": [{"id": i, "selectedValues": location_ids if i == "LOCATION" and ids else []}
+                                           for i in ids]}
+    return {"multilineEnabled": False,
+            "sortingSelection": {"sortBySelectionParam": "3", "ascendingSortingOrder": "false"},
+            "fieldData": {"fields": {"KEYWORD": keyword, "LOCATION": ""}, "valid": True},
+            "filterSelectionParam": filters("POSTING_DATE", "LOCATION", "JOB_FIELD", "JOB_TYPE", "JOB_SCHEDULE",
+                                            "JOB_LEVEL"),
+            "advancedSearchFiltersSelectionParam": {"searchFilterSelections": [
+                {"id": i, "selectedValues": []} for i in ("ORGANIZATION", "LOCATION", "JOB_FIELD", "JOB_NUMBER",
+                                                          "URGENT_JOB", "EMPLOYEE_STATUS", "STUDY_LEVEL",
+                                                          "WILL_TRAVEL", "JOB_SHIFT")]},
+            "pageNo": page}
+
+
+def fetch_taleo(c, a):
+    """Oracle Taleo Enterprise career sections (Mercedes-Benz): the career section page names the
+    portal, and the REST search is narrowed with the country entry of the Location facet."""
+    host, section = c["host"], c.get("section", "ex")
+    base = f"https://{host}/careersection"
+    portal = re.search(r"portal[^0-9]{0,6}(\d{6,})", http_text(f"{base}/{section}/jobsearch.ftl?lang=en")).group(1)
+    api = f"{base}/rest/jobboard/searchjobs?lang=en&portal={portal}"
+    hdr = {"tz": "GMT+05:30", "tzname": "Asia/Kolkata", "X-Requested-With": "XMLHttpRequest",
+           "Referer": f"{base}/{section}/jobsearch.ftl"}
+    facets = http_json(api, taleo_body("", [], 1), hdr).get("facetResults", [])
+    ids = [v["id"] for f in facets if f["id"] == "LOCATION" for v in f["facetValueResults"]
+           if v["text"].strip().lower() == a.country.lower()]
+    if not ids:
+        return []
+    jobs = {}
+    for term in a.keywords:
+        page = 1
+        while True:
+            r = http_json(api, taleo_body(term, ids, page), hdr)
+            rows, paging = r.get("requisitionList", []), r.get("pagingData", {})
+            for p in rows:
+                col = p.get("column", [])
+                locs = "; ".join(json.loads(col[1])) if len(col) > 1 and col[1].startswith("[") else ""
+                posted = ""
+                if len(col) > 2:
+                    try:
+                        posted = datetime.strptime(col[2], "%b %d, %Y").date().isoformat()
+                    except ValueError:
+                        pass
+                merge(jobs, make_job(c["name"], "taleo", col[0], locs, posted, age_from_iso(posted),
+                                     f"{base}/{section}/jobdetail.ftl?job={p['contestNo']}&lang=en",
+                                     p["contestNo"], term))
+            if not rows or page * paging.get("pageSize", 25) >= min(paging.get("totalCount", 0), a.max_per_term):
+                break
+            page += 1
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Google
+def fetch_google(c, a):
+    """Google (and DeepMind): the results page embeds the job list as JSON (20 per page)."""
+    jobs = {}
+    for term in a.keywords:
+        page, seen = 1, 0
+        while seen < a.max_per_term:
+            q = urllib.parse.urlencode({"location": a.country, "q": term, "page": page})
+            html = http_text(f"https://www.google.com/about/careers/applications/jobs/results/?{q}")
+            m = re.search(r"AF_initDataCallback\(\{key: 'ds:1'.*?data:(.*?), sideChannel", html, re.S)
+            data = json.loads(m.group(1)) if m else [[], None, 0]
+            rows = data[0] or []
+            for p in rows:
+                locs = "; ".join(l[0] for l in p[9] or [] if l and l[0])
+                if not loc_ok(locs, a):
+                    continue
+                posted = date.fromtimestamp(p[12][0]) if len(p) > 12 and p[12] else None
+                slug = re.sub(r"[^a-z0-9]+", "-", p[1].lower()).strip("-")
+                text = " ".join(strip_tags(x[1]) for x in (p[3], p[4], p[10]) if x and len(x) > 1 and x[1])
+                merge(jobs, make_job(
+                    c["name"], "google", p[1], locs, posted.isoformat() if posted else "",
+                    (date.today() - posted).days if posted else None,
+                    f"https://www.google.com/about/careers/applications/jobs/results/{p[0]}-{slug}", p[0], term,
+                    text=text))
+            seen += len(rows)
+            page += 1
+            if not rows or seen >= (data[2] or 0):
+                break
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- Meta
+META_HEADERS = {"User-Agent": UA.replace(" Safari/537.36", "")}  # metacareers answers HTTP 400 to a UA with "Safari"
+META_OFFICES = ["Bangalore, India", "Gurgaon, India", "Hyderabad, India", "Mumbai, India", "New Delhi, India"]
+
+
+def fetch_meta(c, a):
+    """Meta: metacareers.com GraphQL job search (one call returns every match; no posting date).
+    The persisted query id is public but changes now and then: set "doc_id" in the company entry."""
+    page = http_text("https://www.metacareers.com/jobs", META_HEADERS)
+    lsd = re.search(r'"LSD",\[\],\{"token":"([^"]+)"', page).group(1)
+    jobs = {}
+    for term in a.keywords:
+        variables = {"search_input": {
+            "q": term, "divisions": [], "offices": c.get("offices", META_OFFICES), "roles": [],
+            "leadership_levels": [], "saved_jobs": [], "saved_searches": [], "sub_teams": [], "teams": [],
+            "is_leadership": False, "is_remote_only": False, "sort_by_new": False, "page": 1,
+            "results_per_page": None}}
+        body = urllib.parse.urlencode({
+            "lsd": lsd, "doc_id": c.get("doc_id", "9114524511922157"), "variables": json.dumps(variables),
+            "fb_api_req_friendly_name": "CareersJobSearchResultsDataQuery"}).encode()
+        raw = json.loads(http_get("https://www.metacareers.com/api/graphql/", body, {
+            **META_HEADERS, "Content-Type": "application/x-www-form-urlencoded", "X-FB-LSD": lsd}))
+        if "errors" in raw:
+            raise RuntimeError(raw["errors"][0].get("message", "GraphQL error"))
+        for p in raw["data"]["job_search"]:
+            locs = "; ".join(p.get("locations") or [])
+            if not loc_ok(locs, a):
+                continue
+            merge(jobs, make_job(c["name"], "meta", p["title"], locs, "", None,
+                                 f"https://www.metacareers.com/jobs/{p['id']}", p["id"], term,
+                                 text=" ".join((p.get("teams") or []) + (p.get("sub_teams") or []))))
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- IBM
+def fetch_ibm(c, a):
+    """IBM: the search API behind ibm.com/careers/search (country filter = field_keyword_05)."""
+    jobs, size = {}, 50
+    for term in a.keywords:
+        start = 0
+        while start < a.max_per_term:
+            r = http_json("https://www-api.ibm.com/search/api/v2", {
+                "appId": "careers", "scopes": ["careers2"],
+                "query": {"bool": {"must": [{"simple_query_string": {"query": term, "fields": [
+                    "keywords^1", "body^1", "url^2", "description^2", "h1s_content^2", "title^2",
+                    "field_keyword_05^2"]}}], "filter": [{"term": {"field_keyword_05": a.country}}]}},
+                "size": size, "from": start, "sort": [{"dcdate": "desc"}, {"_score": "desc"}], "lang": "zz",
+                "_source": ["title", "url", "description", "dcdate", "field_keyword_05", "field_keyword_08",
+                            "field_keyword_17", "field_keyword_19"]},
+                {"Origin": "https://www.ibm.com", "Referer": "https://www.ibm.com/careers/search"})["hits"]
+            rows = r.get("hits", [])
+            for h in rows:
+                p = h["_source"]
+                loc = re.sub(r",\s*IN$", "", p.get("field_keyword_19") or "").title()
+                posted = (p.get("dcdate") or "")[:10]
+                merge(jobs, make_job(
+                    c["name"], "ibm", p["title"], f"{loc}, {a.country}" if loc else a.country, posted,
+                    age_from_iso(posted), p["url"], p["url"].rsplit("=", 1)[-1], term,
+                    text=" ".join(x for x in (p.get("description"), p.get("field_keyword_08"),
+                                              p.get("field_keyword_17")) if x)))
+            start += size
+            if not rows or start >= r.get("total", {}).get("value", 0):
+                break
+    return list(jobs.values())
+
+
+# --------------------------------------------------------------------------- SAP
+SAP_JOB_RE = re.compile(r'\{"id":"(\d+)","title":"((?:[^"\\]|\\.)*)","url":"([^"]+)","score":[\d.]+,'
+                        r'"teams":"([^"]*)","locations":"([^"]*)","displayDate":"([^"]+)"')
+
+
+def fetch_sap(c, a):
+    """SAP: jobs.sap.com is server rendered; the job list is embedded in the page as JSON (24 per page).
+    It has no keyword search, so every India page is read and matched on title and team."""
+    hdr = {"Accept-Language": "en-US,en;q=0.9"}
+    found, page = {}, 1
+    while True:
+        html = http_text(f"https://jobs.sap.com/en/jobs/?country={urllib.parse.quote(a.country)}&page={page}",
+                         hdr).replace('\\"', '"')
+        new = [m for m in SAP_JOB_RE.findall(html) if m[0] not in found]
+        for m in new:
+            found[m[0]] = m
+        if not new or page >= 50:
+            break
+        page += 1
+    jobs = {}
+    for jid, title, url, team, loc, shown in found.values():
+        title = json.loads(f'"{title}"')
+        for term in kw_hits(f"{title} {team}", a):
+            merge(jobs, make_job(c["name"], "sap", title, loc, shown[:10], age_from_iso(shown),
+                                 "https://jobs.sap.com" + url, jid, term, text=team))
+    return list(jobs.values())
+
+
 FETCHERS = {"workday": fetch_workday, "oracle": fetch_oracle, "greenhouse": fetch_greenhouse,
             "jibe": fetch_jibe, "sf_rss": fetch_sf_rss, "eightfold": fetch_eightfold,
             "phenom": fetch_phenom, "goldman": fetch_goldman, "radancy": fetch_radancy,
             "icims": fetch_icims, "brassring": fetch_brassring, "deshaw": fetch_deshaw,
             "smartrecruiters": fetch_smartrecruiters, "lever": fetch_lever, "bofa": fetch_bofa,
-            "amazon": fetch_amazon, "atlassian": fetch_atlassian}
+            "amazon": fetch_amazon, "atlassian": fetch_atlassian, "avature": fetch_avature,
+            "cornerstone": fetch_cornerstone, "apple": fetch_apple, "taleo": fetch_taleo, "google": fetch_google, "meta": fetch_meta, "ibm": fetch_ibm, "sap": fetch_sap}
 
 
 # --------------------------------------------------------------------------- state / output

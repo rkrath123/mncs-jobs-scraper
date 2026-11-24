@@ -261,6 +261,73 @@ class SuccessFactorsRss(unittest.TestCase):
         self.assertEqual(first["posted"], "2025-11-10")
 
 
+class NewPlatforms(unittest.TestCase):
+    def test_avature_keeps_india_and_reads_location_from_posting_when_list_has_none(self):
+        listing = """<article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/careers/JobDetail/SRE-1/1?b=SRE">SRE</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Pune, India</span>
+            <span>Posted 02-Nov-2026</span></div></div></article>
+            <article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/careers/JobDetail/SRE-2/2">SRE</a>
+            <div class="article__header__text__subtitle"><span class="list-item-location">Paris, France</span></div>
+            </div></article>
+            <article class="article"><div class="article__header__text">
+            <a href="https://x.avature.net/careers/JobDetail/SRE-3/3">SRE</a></div></article>"""
+        posting = "<p>Job Title SRE Country India City Bengaluru Date Posted 05-Nov-2026 Job Category Eng</p>"
+
+        def fake(url, *a, **k):
+            if "SearchJobs" in url:
+                return listing if "jobOffset=0" in url else ""
+            return posting
+        with mock.patch.object(je, "http_text", fake):
+            jobs = je.fetch_avature({"name": "X", "base": "https://x.avature.net/careers"}, args())
+        self.assertEqual(sorted(j["job_id"] for j in jobs), ["1", "3"])
+        self.assertEqual(next(j for j in jobs if j["job_id"] == "3")["location"], "Bengaluru, India")
+        self.assertEqual(next(j for j in jobs if j["job_id"] == "1")["posted"], "2026-11-02")
+
+    def test_cornerstone_filters_on_country_code_and_builds_urls(self):
+        page = '{"cloud":"https://eu.api.csod.com/","token":"tok"}'
+        rows = {"data": {"totalCount": 1, "requisitions": [{
+            "requisitionId": 7, "displayJobTitle": "Platform Engineer", "postingEffectiveDate": "11/12/2026",
+            "locations": [{"city": "Pune", "state": "MH", "country": "IN"}], "externalDescription": "<b>k8s</b>"}]}}
+        sent = {}
+
+        def fake_json(url, body=None, headers=None, **k):
+            sent.update(body=body, headers=headers)
+            return rows
+        with mock.patch.object(je, "http_text", lambda *a, **k: page), mock.patch.object(je, "http_json", fake_json):
+            jobs = je.fetch_cornerstone({"name": "C", "host": "c.csod.com", "site": 3, "corp": "c"}, args())
+        self.assertEqual(sent["body"]["countryCodes"], ["IN"])
+        self.assertEqual(sent["headers"]["Authorization"], "Bearer tok")
+        self.assertEqual(jobs[0]["url"], "https://c.csod.com/ux/ats/careersite/3/home/requisition/7?c=c")
+        self.assertEqual(jobs[0]["location"], "Pune, MH, India")
+        self.assertEqual(jobs[0]["posted"], "2026-11-12")
+
+    def test_apple_skips_non_india_locations(self):
+        rows = {"res": {"totalRecords": 2, "searchResults": [
+            {"postingTitle": "SRE", "positionId": "1", "transformedPostingTitle": "sre", "reqId": "1-1",
+             "postDateInGMT": "2026-11-20T00:00:00Z", "locations": [{"name": "Hyderabad", "countryName": "India"}]},
+            {"postingTitle": "SRE", "positionId": "2", "transformedPostingTitle": "sre", "reqId": "2-1",
+             "postDateInGMT": "2026-11-20T00:00:00Z", "locations": [{"name": "Austin", "countryName": "United States"}]}]}}
+        with mock.patch.object(je, "http_json", lambda *a, **k: rows):
+            jobs = je.fetch_apple({"name": "Apple"}, args())
+        self.assertEqual([j["job_id"] for j in jobs], ["1-1"])
+        self.assertEqual(jobs[0]["location"], "Hyderabad, India")
+
+    def test_sap_reads_embedded_job_list_and_matches_title_and_team(self):
+        page = ('{\\"jobs\\":[{\\"id\\":\\"7\\",\\"title\\":\\"Platform Engineer\\",\\"url\\":\\"/en/jobs/7/pe/\\",'
+                '\\"score\\":1.5,\\"teams\\":\\"Engineering\\",\\"locations\\":\\"Bangalore, India\\",'
+                '\\"displayDate\\":\\"2026-11-20T01:00:00.000Z\\"},{\\"id\\":\\"8\\",\\"title\\":\\"Sales Lead\\",'
+                '\\"url\\":\\"/en/jobs/8/sl/\\",\\"score\\":1.1,\\"teams\\":\\"Sales\\",'
+                '\\"locations\\":\\"Pune, India\\",\\"displayDate\\":\\"2026-11-19T01:00:00.000Z\\"}]}')
+        pages = iter([page, ""])
+        with mock.patch.object(je, "http_text", lambda *a, **k: next(pages)):
+            jobs = je.fetch_sap({"name": "SAP"}, args(keywords=["engineer"]))
+        self.assertEqual([j["job_id"] for j in jobs], ["7"])
+        self.assertEqual(jobs[0]["url"], "https://jobs.sap.com/en/jobs/7/pe/")
+        self.assertEqual(jobs[0]["posted"], "2026-11-20")
+
+
 class HttpGet(unittest.TestCase):
     def http_error(self, code):
         e = urllib.error.HTTPError("https://x", code, "err", {}, io.BytesIO(b"body"))
@@ -486,7 +553,8 @@ class Configs(unittest.TestCase):
         need = {"workday": ("host", "tenant", "site"), "oracle": ("host", "site"), "sf_rss": ("host",),
                 "greenhouse": ("board",), "smartrecruiters": ("company_id",), "lever": ("company_id",),
                 "jibe": ("host",), "eightfold": ("host", "domain"), "radancy": ("host", "path"),
-                "phenom": ("host", "lang", "page_id", "region"), "manual": ("platform", "url")}
+                "phenom": ("host", "lang", "page_id", "region"), "avature": ("base",),
+                "cornerstone": ("host", "site", "corp"), "taleo": ("host",), "manual": ("platform", "url")}
         for sector, cfg in self.data.items():
             for kind, items in cfg.items():
                 for c in items:

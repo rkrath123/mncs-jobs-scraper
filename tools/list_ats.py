@@ -31,6 +31,14 @@ URL = {
     "bofa": lambda c: "https://careers.bankofamerica.com/",
     "amazon": lambda c: "https://www.amazon.jobs/",
     "atlassian": lambda c: "https://www.atlassian.com/company/careers/all-jobs",
+    "avature": lambda c: f"{c['base']}/SearchJobs",
+    "cornerstone": lambda c: f"https://{c['host']}/ux/ats/careersite/{c['site']}/home?c={c['corp']}",
+    "apple": lambda c: "https://jobs.apple.com/en-in/search",
+    "google": lambda c: "https://www.google.com/about/careers/applications/jobs/results/?location=India",
+    "meta": lambda c: "https://www.metacareers.com/jobs",
+    "ibm": lambda c: "https://www.ibm.com/careers/search",
+    "sap": lambda c: "https://jobs.sap.com/en/jobs/?country=India",
+    "taleo": lambda c: f"https://{c['host']}/careersection/{c.get('section', 'ex')}/jobsearch.ftl",
 }
 
 

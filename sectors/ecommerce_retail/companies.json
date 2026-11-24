@@ -4,6 +4,10 @@
   {
    "board": "coupang",
    "name": "Coupang"
+  },
+  {
+   "board": "doordashindia",
+   "name": "DoorDash India"
   }
  ],
  "workday": [
@@ -60,6 +64,24 @@
    "tenant": "advanceauto",
    "site": "AdvanceExternalCareers",
    "name": "Advance Auto Parts"
+  },
+  {
+   "host": "walmart.wd504.myworkdayjobs.com",
+   "tenant": "walmart",
+   "site": "WalmartExternal",
+   "name": "Walmart"
+  },
+  {
+   "host": "tapestry.wd108.myworkdayjobs.com",
+   "tenant": "tapestry",
+   "site": "Tapestry_Careers",
+   "name": "Tapestry"
+  },
+  {
+   "host": "copart.wd12.myworkdayjobs.com",
+   "tenant": "copart",
+   "site": "copart",
+   "name": "Copart"
   }
  ],
  "oracle": [
@@ -67,6 +89,22 @@
    "name": "Dollar General",
    "host": "ibxwjb.fa.ocs.oraclecloud.com",
    "site": "CX_1"
+  },
+  {
+   "name": "AutoZone",
+   "host": "egud.fa.us2.oraclecloud.com",
+   "site": "CX_1"
+  },
+  {
+   "name": "Williams-Sonoma",
+   "host": "ehac.fa.us6.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ],
+ "avature": [
+  {
+   "name": "Tesco",
+   "base": "https://careers.tesco.com/en_GB/careers"
   }
  ]
 }

@@ -65,6 +65,42 @@
    "host": "criteo.wd3.myworkdayjobs.com",
    "tenant": "criteo",
    "site": "Criteo_Career_Site"
+  },
+  {
+   "host": "autodesk.wd1.myworkdayjobs.com",
+   "tenant": "autodesk",
+   "site": "ext",
+   "name": "Autodesk"
+  },
+  {
+   "host": "equinix.wd1.myworkdayjobs.com",
+   "tenant": "equinix",
+   "site": "external",
+   "name": "Equinix"
+  },
+  {
+   "name": "Red Hat",
+   "host": "redhat.wd5.myworkdayjobs.com",
+   "tenant": "redhat",
+   "site": "jobs"
+  },
+  {
+   "host": "cohesity.wd5.myworkdayjobs.com",
+   "tenant": "cohesity",
+   "site": "Cohesity_Careers",
+   "name": "Cohesity"
+  },
+  {
+   "host": "snapchat.wd1.myworkdayjobs.com",
+   "tenant": "snapchat",
+   "site": "snap",
+   "name": "Snap"
+  },
+  {
+   "host": "zoom.wd5.myworkdayjobs.com",
+   "tenant": "zoom",
+   "site": "zoom",
+   "name": "Zoom"
   }
  ],
  "greenhouse": [
@@ -87,12 +123,44 @@
   {
    "name": "Rubrik",
    "board": "rubrik"
+  },
+  {
+   "board": "twilio",
+   "name": "Twilio"
+  },
+  {
+   "board": "datadog",
+   "name": "Datadog"
+  },
+  {
+   "board": "nebius",
+   "name": "Nebius Group"
+  },
+  {
+   "board": "databricks",
+   "name": "Databricks"
+  },
+  {
+   "board": "elastic",
+   "name": "Elastic"
+  },
+  {
+   "board": "gitlab",
+   "name": "GitLab"
+  },
+  {
+   "board": "mongodb",
+   "name": "MongoDB"
   }
  ],
  "smartrecruiters": [
   {
    "name": "ServiceNow",
    "company_id": "servicenow"
+  },
+  {
+   "name": "LinkedIn",
+   "company_id": "linkedin3"
   }
  ],
  "amazon": [
@@ -122,13 +190,6 @@
    "host": "careers.avaya.com"
   }
  ],
- "manual": [
-  {
-   "name": "Microsoft",
-   "platform": "Eightfold pcsx API rate-limits (HTTP 429) a full scan",
-   "url": "https://apply.careers.microsoft.com/careers?query=devops&location=India&sort_by=timestamp"
-  }
- ],
  "jibe": [
   {
    "name": "DocuSign",
@@ -147,6 +208,41 @@
    "lang": "en_us",
    "page_id": "page8",
    "region": "us/en"
+  }
+ ],
+ "avature": [
+  {
+   "name": "Synopsys",
+   "base": "https://synopsys.avature.net/careers"
+  }
+ ],
+ "google": [
+  {
+   "name": "Google"
+  }
+ ],
+ "meta": [
+  {
+   "name": "Meta"
+  }
+ ],
+ "ibm": [
+  {
+   "name": "IBM"
+  }
+ ],
+ "sap": [
+  {
+   "name": "SAP"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Microsoft",
+   "host": "apply.careers.microsoft.com",
+   "domain": "microsoft.com",
+   "api": "pcsx",
+   "delay": 5
   }
  ]
 }

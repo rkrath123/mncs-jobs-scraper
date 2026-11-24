@@ -84,6 +84,48 @@
    "host": "otis.wd504.myworkdayjobs.com",
    "tenant": "otis",
    "site": "REC_Ext_Gateway"
+  },
+  {
+   "host": "masco.wd1.myworkdayjobs.com",
+   "tenant": "masco",
+   "site": "masco",
+   "name": "Masco"
+  },
+  {
+   "host": "kiongroup.wd3.myworkdayjobs.com",
+   "tenant": "kiongroup",
+   "site": "kiongroup",
+   "name": "KION Group"
+  },
+  {
+   "host": "veralto.wd1.myworkdayjobs.com",
+   "tenant": "veralto",
+   "site": "veraltocorporatejobs",
+   "name": "Veralto (Corporate)"
+  },
+  {
+   "host": "veralto.wd1.myworkdayjobs.com",
+   "tenant": "veralto",
+   "site": "eskojobs",
+   "name": "Veralto (Esko)"
+  },
+  {
+   "host": "veralto.wd1.myworkdayjobs.com",
+   "tenant": "veralto",
+   "site": "hachjobs",
+   "name": "Veralto (Hach)"
+  },
+  {
+   "host": "veralto.wd1.myworkdayjobs.com",
+   "tenant": "veralto",
+   "site": "trojanjobs",
+   "name": "Veralto (Trojan)"
+  },
+  {
+   "name": "nVent",
+   "host": "nvent.wd5.myworkdayjobs.com",
+   "tenant": "nvent",
+   "site": "nvent"
   }
  ],
  "greenhouse": [
@@ -116,6 +158,34 @@
   {
    "name": "Tetra Pak",
    "host": "jobs.tetrapak.com"
+  },
+  {
+   "name": "AGCO",
+   "host": "careers.agcocorp.com"
+  },
+  {
+   "name": "Ametek",
+   "host": "jobs.ametek.com"
+  },
+  {
+   "name": "Schindler Holding",
+   "host": "job.schindler.com"
+  },
+  {
+   "name": "Knorr-Bremse",
+   "host": "careers.knorr-bremse.com"
+  },
+  {
+   "name": "Hubbell",
+   "host": "careers.hubbell.com"
+  },
+  {
+   "name": "Atlas Copco",
+   "host": "jobs.atlascopcogroup.com"
+  },
+  {
+   "name": "Ingersoll Rand",
+   "host": "careers.irco.com"
   }
  ],
  "eightfold": [
@@ -136,6 +206,12 @@
   {
    "name": "Bosch",
    "company_id": "BoschGroup"
+  }
+ ],
+ "jibe": [
+  {
+   "name": "Panasonic North America",
+   "host": "careers.na.panasonic.com"
   }
  ]
 }

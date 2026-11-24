@@ -6,6 +6,11 @@ on:
     - cron: "7 4 * * *"
     - cron: "7 13 * * *"
   workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish to gh-pages (leave off when testing a branch; the report is then kept as a run artifact)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -47,8 +52,17 @@ jobs:
       - name: Build site
         run: python3 tools/build_site.py site --keep-days 30
 
+      - name: Keep the built site as an artifact
+        if: github.event_name != 'schedule' && !inputs.publish
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site
+          retention-days: 7
+
       # Single commit, force-pushed, so the branch does not grow with every run.
       - name: Publish to gh-pages
+        if: github.event_name == 'schedule' || inputs.publish
         working-directory: site
         run: |
           git init -q -b gh-pages

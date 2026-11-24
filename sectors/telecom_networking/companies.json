@@ -35,6 +35,12 @@
    "host": "telstra.wd3.myworkdayjobs.com",
    "tenant": "telstra",
    "site": "Telstra_Careers"
+  },
+  {
+   "host": "verizon.wd12.myworkdayjobs.com",
+   "tenant": "verizon",
+   "site": "verizon-careers",
+   "name": "Verizon"
   }
  ],
  "smartrecruiters": [
@@ -73,6 +79,12 @@
    "host": "amdocs.eightfold.ai",
    "domain": "amdocs.com",
    "api": "pcsx"
+  },
+  {
+   "name": "Lumen Technologies",
+   "host": "lumen.eightfold.ai",
+   "domain": "lumen.com",
+   "api": "pcsx"
   }
  ],
  "sf_rss": [
@@ -85,5 +97,28 @@
    "host": "jobs.bt.com"
   }
  ],
- "manual": []
+ "manual": [],
+ "jibe": [
+  {
+   "name": "Echostar",
+   "host": "jobs.dish.com"
+  }
+ ],
+ "oracle": [
+  {
+   "name": "Nokia",
+   "host": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
+   "site": "CX_1"
+  }
+ ],
+ "phenom": [
+  {
+   "name": "Orange",
+   "host": "orange.jobs",
+   "lang": "en_gb",
+   "page_id": "page25",
+   "region": "gb/en",
+   "country_value": "INDIA"
+  }
+ ]
 }

@@ -16,6 +16,24 @@
   {
    "board": "scopely",
    "name": "Scopely"
+  },
+  {
+   "name": "Zynga",
+   "board": "zyngacareers"
+  }
+ ],
+ "workday": [
+  {
+   "host": "aristocrat.wd3.myworkdayjobs.com",
+   "tenant": "aristocrat",
+   "site": "aristocratexternalcareerssite",
+   "name": "Aristocrat Leisure"
+  }
+ ],
+ "avature": [
+  {
+   "name": "Electronic Arts",
+   "base": "https://jobs.ea.com/en_US/careers"
   }
  ]
 }

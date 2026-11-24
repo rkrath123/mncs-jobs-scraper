@@ -48,12 +48,28 @@
    "tenant": "polaris",
    "site": "PolarisJobs",
    "name": "Polaris"
+  },
+  {
+   "host": "michelinhr.wd3.myworkdayjobs.com",
+   "tenant": "michelinhr",
+   "site": "michelin",
+   "name": "Michelin Group"
+  },
+  {
+   "host": "alliance.wd3.myworkdayjobs.com",
+   "tenant": "alliance",
+   "site": "nissanjobs",
+   "name": "Nissan"
   }
  ],
  "smartrecruiters": [
   {
    "company_id": "continental",
    "name": "Continental"
+  },
+  {
+   "company_id": "aumovio",
+   "name": "Aumovio"
   }
  ],
  "sf_rss": [
@@ -72,6 +88,14 @@
   {
    "name": "ZF",
    "host": "jobs.zf.com"
+  },
+  {
+   "name": "Dana",
+   "host": "jobs.dana.com"
+  },
+  {
+   "name": "Tenneco",
+   "host": "jobs.tenneco.com"
   }
  ],
  "oracle": [
@@ -84,6 +108,20 @@
    "name": "Garrett Motion",
    "host": "ehth.fa.em2.oraclecloud.com",
    "site": "CX_2001"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Forvia",
+   "host": "jobs.faurecia.com",
+   "domain": "faurecia.com"
+  }
+ ],
+ "taleo": [
+  {
+   "name": "Mercedes-Benz",
+   "host": "daimler.taleo.net",
+   "section": "ex"
   }
  ]
 }

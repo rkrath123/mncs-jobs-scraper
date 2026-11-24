@@ -1,5 +1,4 @@
 {
- "manual": [],
  "workday": [
   {
    "host": "warnerbros.wd5.myworkdayjobs.com",
@@ -46,6 +45,13 @@
   {
    "board": "roku",
    "name": "Roku"
+  }
+ ],
+ "eightfold": [
+  {
+   "name": "Netflix",
+   "host": "explore.jobs.netflix.net",
+   "domain": "netflix.com"
   }
  ]
 }

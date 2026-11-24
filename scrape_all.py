@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Run every verified sector in one go and get ONE html report with a Sector filter.
 
-  python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops" --open   # all sectors, India, last 14 days, new jobs
-  python3 scrape_all.py --keywords "java,testing" --show-all --open       # everything that matches, new ones marked NEW
+  python3 scrape_all.py --keywords "sre,devops,kubernetes,mlops" --open   # all sectors, India, last 14 days, everything that matches, new ones marked NEW
+  python3 scrape_all.py --keywords "java,testing" --only-new --open       # only jobs not seen in earlier runs
   python3 scrape_all.py --keywords sre --sectors cybersecurity,fintech,software_cloud --show-all
   python3 scrape_all.py --keywords sre --skip-sectors energy,fintech
   python3 scrape_all.py --keywords "java,testing" --title-only --show-all --companies google,amazon
 (without --keywords you are asked for them)
 
+--show-all is on by default (the report lists every match); --only-new turns it off.
 All sites of the chosen sectors are fetched in one parallel pool. Every other option is the same as
 for scrape_sector.py (`python3 scrape_all.py --help-engine`). Output goes to output/all/
 (latest.html, <date>/report.html, jobs.csv, jobs.md, seen_jobs.json). The per-sector reports in
@@ -44,6 +45,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(add_help=False)
     ap.add_argument("--sectors", default="", help="comma separated sector names (default: all that are ready)")
     ap.add_argument("--skip-sectors", default="", help="comma separated sector names to leave out")
+    ap.add_argument("--only-new", action="store_true", help="report only jobs not seen in earlier runs")
     ap.add_argument("--help-engine", action="store_true", help="show the scraper options")
     ap.add_argument("-h", "--help", action="store_true")
     own, rest = ap.parse_known_args()
@@ -52,6 +54,8 @@ if __name__ == "__main__":
         sys.exit(0)
     if own.help_engine:
         rest = ["--help"]
+    elif not own.only_new and "--show-all" not in rest:
+        rest.append("--show-all")
 
     available = ready_sectors()
     chosen = [s.strip() for s in own.sectors.split(",") if s.strip()] or available

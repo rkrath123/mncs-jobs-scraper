@@ -42,12 +42,30 @@
    "tenant": "woodward",
    "site": "woodward",
    "name": "Woodward"
+  },
+  {
+   "host": "saabgroup.wd116.myworkdayjobs.com",
+   "tenant": "saabgroup",
+   "site": "saab_careers",
+   "name": "Saab Group"
+  },
+  {
+   "host": "curtisswright.wd1.myworkdayjobs.com",
+   "tenant": "curtisswright",
+   "site": "cw_external_career_site",
+   "name": "Curtiss-Wright"
   }
  ],
  "jibe": [
   {
    "name": "Viasat",
    "host": "careers.viasat.com"
+  }
+ ],
+ "sf_rss": [
+  {
+   "name": "L3Harris Technologies",
+   "host": "jobs.l3harris.com"
   }
  ]
 }
