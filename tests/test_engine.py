@@ -357,6 +357,52 @@ class NewPlatforms(unittest.TestCase):
         self.assertEqual(jobs[0]["posted"], "2026-11-20")
 
 
+class PostingDates(unittest.TestCase):
+    def test_fill_posted_reads_the_job_page_only_for_undated_jobs(self):
+        page = '<script type="application/ld+json">{"datePosted":"2026-11-10","title":"x"}</script>'
+        dated = je.make_job("A", "meta", "T", "Pune", "2026-11-20", 4, "https://x/dated", 1, "sre")
+        undated = je.make_job("A", "meta", "T", "Pune", "", None, "https://x/undated?lang=en", 2, "sre")
+        broken = je.make_job("A", "meta", "T", "Pune", "", None, "https://x/broken", 3, "sre")
+
+        def fake(url, headers=None, **kw):
+            if "broken" in url:
+                raise urllib.error.URLError("down")
+            return page
+        with mock.patch.object(je, "http_text", side_effect=fake) as m:
+            je.fill_posted([dated, undated, broken], "in_iframe=1")
+        self.assertEqual(m.call_count, 2)  # the dated job is not fetched
+        self.assertEqual((undated["posted"], undated["age_days"]),
+                         ("2026-11-10", (date.today() - date(2026, 11, 10)).days))
+        self.assertIn("https://x/undated?lang=en&in_iframe=1", [c.args[0] for c in m.call_args_list])
+        self.assertEqual((dated["posted"], broken["posted"], broken["age_days"]), ("2026-11-20", "", None))
+
+    def test_goldman_uses_created_date(self):
+        res = {"data": {"roleSearch": {"totalCount": 1, "items": [
+            {"roleId": "1_GS_PROFESSIONAL", "jobTitle": "Engineer", "createdDate": "2026-11-20T09:50:31.5Z",
+             "locations": [{"city": "Bengaluru", "state": "KA", "country": "India"}]}]}}}
+        a = args(keywords=["sre"], max_per_term=20)
+        with mock.patch.object(je, "http_json", return_value=res):
+            jobs = je.fetch_goldman({"name": "Goldman Sachs"}, a)
+        self.assertEqual(jobs[0]["posted"], "2026-11-20")
+        self.assertEqual(jobs[0]["age_days"], (date.today() - date(2026, 11, 20)).days)
+
+    def test_relative_workday_age_is_shown_as_a_date(self):
+        def fetcher(c, a):
+            return [je.make_job(c["name"], "workday", "DevOps", "Pune", "6 Days Ago", 6, f"https://x/{c['name']}", 1,
+                                "devops")]
+        with tempfile.TemporaryDirectory() as d:
+            cfg = Path(d) / "c.json"
+            cfg.write_text(json.dumps({"workday": [{"name": "W", "host": "h", "tenant": "t", "site": "s"}]}))
+            argv = ["prog", "--config", str(cfg), "--output-dir", str(Path(d) / "out"), "--show-all",
+                    "--keywords", "devops"]
+            with mock.patch.object(sys, "argv", argv), mock.patch.dict(je.FETCHERS, {"workday": fetcher}), \
+                    redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                je.main("Test", str(cfg), str(Path(d) / "out"))
+            with open(next((Path(d) / "out").glob("*/jobs.csv"))) as f:
+                row = next(csv.DictReader(f))
+            self.assertEqual(row["posted"], (date.today() - timedelta(days=6)).isoformat())
+
+
 class HttpGet(unittest.TestCase):
     def http_error(self, code):
         e = urllib.error.HTTPError("https://x", code, "err", {}, io.BytesIO(b"body"))

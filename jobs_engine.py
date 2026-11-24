@@ -151,6 +151,26 @@ def page_posted(page):
     return datetime.strptime(m.group(1), "%Y-%m-%d").date() if m else None
 
 
+def fill_posted(jobs, query="", headers=None):
+    """Read the posting date from the job page for every job that has none (JSON-LD datePosted);
+    used for the few matches of sites whose search results carry no date. A page that fails or has no
+    date leaves the job undated."""
+    def load(j):
+        try:
+            url = j["url"] + (("&" if "?" in j["url"] else "?") + query if query else "")
+            d = page_posted(http_text(url, headers, retries=2, timeout=20))
+        except Exception as e:
+            log.debug("posting date fetch failed for %s: %s", j["url"], e)
+            return
+        if d:
+            j["posted"], j["age_days"] = d.isoformat(), (date.today() - d).days
+    todo = [j for j in jobs if not j["posted"]]
+    if todo:
+        with cf.ThreadPoolExecutor(8) as ex:
+            list(ex.map(load, todo))
+    return jobs
+
+
 def has_term(text, term):
     """Case-insensitive whole-word match, so 'Helm' does not hit 'overwhelming'."""
     return re.search(r"(?<![A-Za-z0-9])" + re.escape(term) + r"(?![A-Za-z0-9])", text or "",
@@ -526,13 +546,13 @@ def fetch_phenom(c, a):
 GS_QUERY = """query GetRoles($searchQueryInput: RoleSearchQueryInput!) {
   roleSearch(searchQueryInput: $searchQueryInput) {
     totalCount
-    items { roleId jobTitle jobFunction division locations { primary state country city } }
+    items { roleId jobTitle jobFunction division createdDate locations { primary state country city } }
   }
 }"""
 
 
 def fetch_goldman(c, a):
-    """Goldman Sachs: higher.gs.com GraphQL gateway (no posting date is exposed)."""
+    """Goldman Sachs: higher.gs.com GraphQL gateway (createdDate is the posting date)."""
     jobs = {}
     for term in a.keywords:
         page, size = 0, 20
@@ -553,7 +573,8 @@ def fetch_goldman(c, a):
                 loc = "; ".join(", ".join(x for x in (l.get("city"), l.get("state"),
                                                        l.get("country")) if x) for l in locs)
                 rid = it["roleId"]
-                merge(jobs, make_job(c["name"], "goldman", it["jobTitle"], loc, "", None,
+                posted = iso_date(it.get("createdDate"))
+                merge(jobs, make_job(c["name"], "goldman", it["jobTitle"], loc, posted, age_from_iso(posted),
                                      f"https://higher.gs.com/roles/{rid.split('_')[0]}",
                                      rid, term))
             page += 1
@@ -599,7 +620,7 @@ def fetch_radancy(c, a):
                 merge(jobs, make_job(c["name"], "radancy", strip_tags(t.group(1)) if t else "",
                                      loc, posted, age, f"https://{host}{href}", jid, term))
             page += 1
-    return list(jobs.values())
+    return fill_posted(list(jobs.values()))  # Intuit's list has no date; its job pages do
 
 
 # --------------------------------------------------------------------------- iCIMS portal
@@ -867,7 +888,7 @@ def fetch_atlassian(c, a):
         for term in kw_hits(p["title"] + " " + text, a):
             merge(jobs, make_job(c["name"], "atlassian", p["title"], locs, "", None, url, p["id"], term,
                                  text=text))
-    return list(jobs.values())
+    return fill_posted(list(jobs.values()), "in_iframe=1")  # the listing has no date; the iCIMS page has
 
 
 # --------------------------------------------------------------------------- Avature
@@ -1102,7 +1123,7 @@ META_OFFICES = ["Bangalore, India", "Gurgaon, India", "Hyderabad, India", "Mumba
 
 
 def fetch_meta(c, a):
-    """Meta: metacareers.com GraphQL job search (one call returns every match; no posting date).
+    """Meta: metacareers.com GraphQL job search (one call returns every match; the posting date is read from each job page).
     The persisted query id is public but changes now and then: set "doc_id" in the company entry."""
     page = http_text("https://www.metacareers.com/jobs", META_HEADERS)
     lsd = re.search(r'"LSD",\[\],\{"token":"([^"]+)"', page).group(1)
@@ -1127,7 +1148,7 @@ def fetch_meta(c, a):
             merge(jobs, make_job(c["name"], "meta", p["title"], locs, "", None,
                                  f"https://www.metacareers.com/jobs/{p['id']}", p["id"], term,
                                  text=" ".join((p.get("teams") or []) + (p.get("sub_teams") or []))))
-    return list(jobs.values())
+    return fill_posted(list(jobs.values()), headers=META_HEADERS)  # the search result has no date; the job page has
 
 
 # --------------------------------------------------------------------------- IBM
@@ -1631,6 +1652,9 @@ def main(sector, config, output_dir):
         add_skills(jobs, a, state)
         jobs = [j for j in jobs if j["age_days"] is None or j["age_days"] <= a.max_age_days]  # dates found late
         for j in jobs:
+            if j["age_days"] is not None and not ISO_DAY_RE.fullmatch(j["posted"] or ""):
+                # Workday lists "6 Days Ago": show the date that means, so the column is all dates
+                j["posted"] = (date.today() - timedelta(days=j["age_days"])).isoformat()
             j["sector"] = sector_of.get(j["company"], "")
             if "work_mode" not in j:  # cached jobs already carry it
                 j["work_mode"] = work_mode(j)
